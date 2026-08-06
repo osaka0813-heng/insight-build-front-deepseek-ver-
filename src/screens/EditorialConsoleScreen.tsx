@@ -15,6 +15,7 @@ import {
   runResearch,
   runWrite,
   type EditorialRequestError,
+  type WriteProgressStage,
 } from '../engine/editorialClient';
 import {
   reviewWriterDraft,
@@ -125,6 +126,7 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
   const [researchState, setResearchState] = useState<StepState>('idle');
   const [analyzeState, setAnalyzeState] = useState<StepState>('idle');
   const [writeState, setWriteState] = useState<StepState>('idle');
+  const [writeProgress, setWriteProgress] = useState<WriteProgressStage>();
   const [publishState, setPublishState] = useState<StepState>('idle');
   const [researchDraft, setResearchDraft] = useState<ResearchDraftBundle>();
   const [analyzedDraft, setAnalyzedDraft] = useState<ResearchDraftBundle>();
@@ -291,9 +293,11 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
           analyzed.draft,
           researchToken,
           false,
+          setWriteProgress,
         );
         setWriterDraft(written.writerDraft);
         setWriteState('done');
+        setWriteProgress(undefined);
         await persistSnapshot({
           researchDraft: research,
           analyzedDraft: analyzed.draft,
@@ -354,9 +358,11 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
         analyzedDraft,
         researchToken,
         false,
+        setWriteProgress,
       );
       setWriterDraft(written.writerDraft);
       setWriteState('done');
+      setWriteProgress(undefined);
       await persistSnapshot({
         researchDraft,
         analyzedDraft,
@@ -374,9 +380,10 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
     setError(undefined);
     setWriteState('running');
     try {
-      const written = await runWrite(analyzedDraft, researchToken, true);
+      const written = await runWrite(analyzedDraft, researchToken, true, setWriteProgress);
       setWriterDraft(written.writerDraft);
       setWriteState('done');
+      setWriteProgress(undefined);
       await persistSnapshot({
         researchDraft,
         analyzedDraft,
@@ -538,9 +545,20 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
     <SafeAreaView style={styles.root}>
       <View style={styles.header}>
         <Pressable onPress={onBack}><Text style={styles.back}>← 返回</Text></Pressable>
-        <Text style={styles.eyebrow}>BUILD012.6 · FULL DEEPSEEK</Text>
+        <Text style={styles.eyebrow}>BUILD012.6 · STAGED DEEPSEEK</Text>
         <Text style={styles.title}>AI 编辑台</Text>
         <Text style={styles.subtitle}>DeepSeek Research / Analyze / Write，全流程发布与恢复。</Text>
+        {writeState === 'running' && writeProgress ? (
+          <Text style={styles.note}>
+            分段写作：{writeProgress === 'english'
+              ? '正在生成英文主稿…'
+              : writeProgress === 'chinese'
+                ? '英文完成，正在生成中文…'
+                : writeProgress === 'japanese'
+                  ? '中文完成，正在生成日文…'
+                  : '三语完成，正在合并校验…'}
+          </Text>
+        ) : null}
       </View>
       <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
         <View style={styles.statusRow}>

@@ -19,10 +19,10 @@ export type AnalyzeResponse = {
   draft: ResearchDraftBundle;
 };
 
-export type WriteResponse = {
-  ok: true;
-  writerDraft: WriterDraftBundle;
-};
+export type WriteStageUsage = { inputTokens?: number; outputTokens?: number; cachedInputTokens?: number };
+export type WriteBaseResponse = { ok: true; stage: 'base'; baseDraft: any; model: string; usage?: WriteStageUsage };
+export type WriteTranslationResponse = { ok: true; stage: 'zh' | 'ja'; language: 'zh' | 'ja'; localizedDraft: any; model: string; usage?: WriteStageUsage };
+export type WriteResponse = { ok: true; stage: 'finalize'; writerDraft: WriterDraftBundle; editorialGate?: any };
 
 export type EditorialRequestError = Error & {
   status?: number;
@@ -95,14 +95,14 @@ export function runAnalyze(draft: ResearchDraftBundle, token: string) {
   return postJson<AnalyzeResponse>(ANALYZE_API_URL, token, draft, 'analyze');
 }
 
-export function runWrite(draft: ResearchDraftBundle, token: string, force = false) {
-  return postJson<WriteResponse>(
-    WRITE_API_URL,
-    token,
-    {
-      researchDraft: draft,
-      force,
-    },
-    'write',
-  );
+export type WriteProgressStage = 'english' | 'chinese' | 'japanese' | 'finalizing';
+export async function runWrite(draft: ResearchDraftBundle, token: string, force = false, onProgress?: (stage: WriteProgressStage) => void) {
+  onProgress?.('english');
+  const base = await postJson<WriteBaseResponse>(WRITE_API_URL, token, { stage: 'base', researchDraft: draft, force }, 'write');
+  onProgress?.('chinese');
+  const zh = await postJson<WriteTranslationResponse>(WRITE_API_URL, token, { stage: 'zh', researchDraft: draft, baseDraft: base.baseDraft, force }, 'write');
+  onProgress?.('japanese');
+  const ja = await postJson<WriteTranslationResponse>(WRITE_API_URL, token, { stage: 'ja', researchDraft: draft, baseDraft: base.baseDraft, force }, 'write');
+  onProgress?.('finalizing');
+  return postJson<WriteResponse>(WRITE_API_URL, token, { stage: 'finalize', researchDraft: draft, baseDraft: base.baseDraft, zhDraft: zh.localizedDraft, jaDraft: ja.localizedDraft, stageUsage: { base: base.usage, zh: zh.usage, ja: ja.usage }, stageModels: { base: base.model, zh: zh.model, ja: ja.model }, force }, 'write');
 }
