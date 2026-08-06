@@ -1,15 +1,28 @@
 {
-  "name": "insight-full-deepseek-backend",
-  "version": "0.12.6-alpha.1",
+  "name": "insight-build-012-6-eta-staged-writer",
+  "version": "1.0.0-eta.1",
   "private": true,
-  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "dev": "vercel dev",
-    "merge:draft": "node scripts/merge-research-draft.mjs",
-    "merge:writer": "node scripts/merge-writer-draft.mjs",
-    "check": "node --check api/research.mjs && node --check api/analyze.mjs && node --check api/write.mjs"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit"
   },
-  "engines": {
-    "node": ">=20"
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-status-bar": "~3.0.8",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-web": "~0.21.0",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo-secure-store": "~15.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
   }
 }
