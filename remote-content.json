@@ -1,8 +1,583 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:10:00+09:00",
-  "contentVersion": "build012.1-alpha-world-process-foundation",
+  "generatedAt": "2026-08-06T07:06:08.051Z",
+  "contentVersion": "publish-insight-20260806-hormuz-deal-1785999968939",
   "insights": [
+    {
+      "id": "insight-20260806-hormuz-deal",
+      "slug": "hormuz-reopening-deal-50-50",
+      "status": "update_living",
+      "processId": "process-geopolitical-technology-control",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "updatedAt": "2026-08-06T06:15:10.808Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Geopolitics & Energy",
+            "secondaryEyebrow": "Hormuz Crisis",
+            "title": "Hormuz Deal '50-50' by Friday as Oil Drops 5%",
+            "summary": "A potential Iran-Oman framework to reopen the Strait of Hormuz could be finalized within days, removing the world's most critical oil chokepoint risk and reshaping global technology infrastructure."
+          },
+          "question": {
+            "lead": "As U.S., Qatari and Gulf officials signal a possible deal, markets are pricing a swift resolution. What does this mean for the technology-driven geopolitical landscape?",
+            "title": "Is the Strait of Hormuz Becoming a Technology Infrastructure Chokepoint?",
+            "footnote": "The deal, if confirmed, would secure energy flows critical to AI and semiconductor supply chains."
+          },
+          "signals": {
+            "title": "Signals of a Shifting Chokepoint",
+            "sourceNote": "Sources: Xinhua (Aug 5, Aug 6), CNN (Aug 5), Rigzone (Aug 4), China Fund News (Aug 6), Yonhap Infomax (Aug 5)",
+            "items": [
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-1",
+                "label": "Diplomatic Signal",
+                "title": "Iran-Oman Framework Nears Finalization",
+                "body": "US, Qatari and Gulf officials say a temporary shipping route through Iranian waters could be agreed within days.",
+                "whyImportant": "It would reopen the Strait of Hormuz, the world's most critical oil chokepoint, restoring energy flows to global markets.",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-1",
+                    "title": "Progress in talks",
+                    "description": "CNN reports a Gulf official gives 50-50 chance of deal by Friday; Iran's deputy FM confirms in-principle agreement.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-2",
+                      "20260806-HORMUZ-DEAL-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-2",
+                    "title": "Deal to reopen Strait of Hormuz appears possible amid progress in talks",
+                    "publisher": "Xinhua",
+                    "publishedAt": "2026-08-05",
+                    "url": "http://chinaview.cn/20260805/e418104dfb0e4ad095cc8d3a8507fba6/c.html",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-3",
+                    "title": "Live updates: US-Iran war news; Tehran denies talks with US, as Gulf official says 50-50 chance of Iran-Oman deal on strait by Friday",
+                    "publisher": "CNN",
+                    "publishedAt": "2026-08-05",
+                    "url": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-2",
+                "label": "Market Signal",
+                "title": "Brent Oil Drops 5% on Deal Hopes",
+                "body": "Oil prices fell sharply on Aug 4 as markets priced in a potential reopening of the strait.",
+                "whyImportant": "It signals market expectations that the energy chokepoint risk is receding, easing inflation pressures.",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-2",
+                    "title": "Brent settles at three-week low",
+                    "description": "Rigzone reports Brent fell 5.3% to about $79/barrel.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-4",
+                    "title": "Brent Settles At Three-Week Low",
+                    "publisher": "Rigzone",
+                    "publishedAt": "2026-08-04",
+                    "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-3",
+                "label": "Policy Signal",
+                "title": "Fed's Daly Links Energy and AI Shocks to Inflation",
+                "body": "Federal Reserve officials now explicitly cite energy and AI disruptions as inflation drivers, making a Hormuz resolution key for monetary policy.",
+                "whyImportant": "It connects the strait reopening directly to the Fed's policy path and technology sector spending.",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-3",
+                    "title": "Fed Daly: tariffs, energy, AI shocks push inflation",
+                    "description": "China Fund News quotes Daly on Aug 6.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-5"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-5",
+                    "title": "美联储戴利：关税、能源与AI冲击推高通胀",
+                    "publisher": "China Fund News",
+                    "publishedAt": "2026-08-06",
+                    "url": "https://www.chnfund.com/article/841ea2e3-2792-a69e-bcac-3a22e6b49931",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-4",
+                "label": "Economic Signal",
+                "title": "ADP Payrolls Miss Adds to Rate-Cut Pressure",
+                "body": "Private payrolls grew only 44,000 in July, far below the 65,000 expected, reinforcing the need for easing.",
+                "whyImportant": "Weak labor data alongside energy and AI inflation creates a complex backdrop for the Fed, making the Hormuz deal even more pivotal.",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-4",
+                    "title": "July ADP private payrolls miss",
+                    "description": "Yonhap Infomax reports the weakest print of the year.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-6"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-6",
+                    "title": "July ADP private payrolls +44,000 vs 65,000 expected — lowest of the year",
+                    "publisher": "Yonhap Infomax",
+                    "publishedAt": "2026-08-05",
+                    "url": "https://en.infomaxai.com/news/articleView.html?idxno=133775",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Background to Bottleneck: Energy as Technology's Geopolitical Infrastructure",
+            "before": "Energy supply was a stable background condition for global technology growth.",
+            "shift": "The US-Iran war and Hormuz closure turned energy into a direct chokepoint for AI and semiconductor supply chains.",
+            "now": "A potential deal to reopen the strait signals that securing energy routes is now integral to technology infrastructure planning.",
+            "conclusion": "The Hormuz deal, if finalized, will accelerate the AI infrastructure race by removing energy uncertainty, but leaves technology firms exposed to future geopolitical energy shocks."
+          },
+          "insight": {
+            "title": "Energy Chokepoints Are Now Technology Infrastructure",
+            "formula": "Energy Stability = AI Scaling × Inflation Control",
+            "explanation": "The Hormuz crisis demonstrated that energy chokepoints directly throttle AI and semiconductor supply chains; reopening them is now a prerequisite for sustaining the technology boom and taming inflation."
+          },
+          "observe": {
+            "title": "Looking Ahead",
+            "items": [
+              {
+                "label": "Deadline",
+                "prompt": "Track the Hormuz deal deadline on Friday.",
+                "meta": "Diplomacy"
+              },
+              {
+                "label": "Oil",
+                "prompt": "Monitor Brent crude for further drops below $75.",
+                "meta": "Markets"
+              },
+              {
+                "label": "Fed",
+                "prompt": "Watch Fed speeches for energy and AI inflation linkage.",
+                "meta": "Policy"
+              },
+              {
+                "label": "Tech",
+                "prompt": "Observe AI and tech stock responses post-deal.",
+                "meta": "Equities"
+              }
+            ],
+            "ending": "The strait's status will define near-term risk appetite and technology capacity planning."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "地缘政治与能源",
+            "secondaryEyebrow": "霍尔木兹危机",
+            "title": "霍尔木兹协议周五见分晓几率五五开，油价下跌5%",
+            "summary": "伊朗与阿曼可能达成的重新开放霍尔木兹海峡框架有望在数日内敲定，从而消除全球最关键的石油咽喉要道风险，并重塑全球科技基础设施。"
+          },
+          "question": {
+            "lead": "在美国、卡塔尔及海湾官员释放可能达成协议的信号之际，市场正为快速解决定价。这对以技术驱动的地缘政治格局意味着什么？",
+            "title": "霍尔木兹海峡正在成为科技基础设施的咽喉要道吗？",
+            "footnote": "若协议得到确认，将保障对人工智能和半导体供应链至关重要的能源流动。"
+          },
+          "signals": {
+            "title": "咽喉要道转移的信号",
+            "sourceNote": "来源：新华社（8月5日、8月6日）、CNN（8月5日）、Rigzone（8月4日）、中国基金报（8月6日）、Yonhap Infomax（8月5日）",
+            "items": [
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-1",
+                "label": "外交信号",
+                "title": "伊朗-阿曼框架接近敲定",
+                "body": "美国、卡塔尔及海湾官员表示，一条经由伊朗水域的临时航运路线可能在未来数日内达成一致。",
+                "whyImportant": "这将重新开放霍尔木兹海峡这一全球最关键的石油咽喉要道，恢复流向全球市场的能源。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-1",
+                    "title": "谈判取得进展",
+                    "description": "CNN报道，一名海湾官员认为周五前达成协议的机会为五五开；伊朗副外长确认原则上已达成一致。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-2",
+                      "20260806-HORMUZ-DEAL-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-2",
+                    "title": "Deal to reopen Strait of Hormuz appears possible amid progress in talks",
+                    "publisher": "Xinhua",
+                    "publishedAt": "2026-08-05",
+                    "url": "http://chinaview.cn/20260805/e418104dfb0e4ad095cc8d3a8507fba6/c.html",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-3",
+                    "title": "Live updates: US-Iran war news; Tehran denies talks with US, as Gulf official says 50-50 chance of Iran-Oman deal on strait by Friday",
+                    "publisher": "CNN",
+                    "publishedAt": "2026-08-05",
+                    "url": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-2",
+                "label": "市场信号",
+                "title": "布伦特原油因协议希望下跌5%",
+                "body": "8月4日，随着市场计入海峡可能重新开放的前景，油价大幅下跌。",
+                "whyImportant": "这表明市场预期能源咽喉风险正在消退，从而缓解通胀压力。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-2",
+                    "title": "布伦特原油收于三周低点",
+                    "description": "Rigzone报道，布伦特原油下跌5.3%，至约每桶79美元。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-4",
+                    "title": "Brent Settles At Three-Week Low",
+                    "publisher": "Rigzone",
+                    "publishedAt": "2026-08-04",
+                    "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-3",
+                "label": "政策信号",
+                "title": "美联储戴利将能源与AI冲击与通胀挂钩",
+                "body": "美联储官员现在明确将能源和AI扰动列为通胀驱动因素，这使得霍尔木兹问题的解决对货币政策至关重要。",
+                "whyImportant": "它将海峡重新开放直接与美联储的政策路径和科技行业支出联系起来。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-3",
+                    "title": "美联储戴利：关税、能源、AI冲击推高通胀",
+                    "description": "中国基金报8月6日援引戴利的讲话。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-5"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-5",
+                    "title": "美联储戴利：关税、能源与AI冲击推高通胀",
+                    "publisher": "China Fund News",
+                    "publishedAt": "2026-08-06",
+                    "url": "https://www.chnfund.com/article/841ea2e3-2792-a69e-bcac-3a22e6b49931",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-4",
+                "label": "经济信号",
+                "title": "ADP就业数据不及预期加大降息压力",
+                "body": "7月私人部门就业仅增加4.4万人，远低于预期的6.5万人，强化了放宽政策的需要。",
+                "whyImportant": "疲弱的就业数据加上能源与AI通胀，为美联储制造了复杂的背景，使霍尔木兹协议更加关键。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-4",
+                    "title": "7月ADP私人部门就业不及预期",
+                    "description": "Yonhap Infomax报道称这是今年最弱的数据。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-6"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-6",
+                    "title": "July ADP private payrolls +44,000 vs 65,000 expected — lowest of the year",
+                    "publisher": "Yonhap Infomax",
+                    "publishedAt": "2026-08-05",
+                    "url": "https://en.infomaxai.com/news/articleView.html?idxno=133775",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从背景条件到瓶颈：能源作为科技的地缘政治基础设施",
+            "before": "能源供应曾是全球科技增长的稳定背景条件。",
+            "shift": "美伊战争与霍尔木兹海峡关闭使能源成为AI和半导体供应链的直接瓶颈。",
+            "now": "重新开放海峡的潜在协议表明，确保能源路线如今已成为科技基础设施规划中不可或缺的一部分。",
+            "conclusion": "霍尔木兹协议若最终敲定，将通过消除能源不确定性加速AI基础设施竞赛，但也使科技企业暴露于未来的地缘政治能源冲击之下。"
+          },
+          "insight": {
+            "title": "能源咽喉要道如今就是科技基础设施",
+            "formula": "能源稳定 = AI规模化 × 通胀控制",
+            "explanation": "霍尔木兹危机表明，能源咽喉要道直接制约AI和半导体供应链；重新开放这些通道如今已成为维持科技繁荣和遏制通胀的前提条件。"
+          },
+          "observe": {
+            "title": "展望未来",
+            "items": [
+              {
+                "label": "截止日期",
+                "prompt": "关注周五霍尔木兹协议的截止日期。",
+                "meta": "外交"
+              },
+              {
+                "label": "石油",
+                "prompt": "关注布伦特原油是否进一步跌破每桶75美元。",
+                "meta": "市场"
+              },
+              {
+                "label": "美联储",
+                "prompt": "关注美联储讲话中能源与AI通胀的关联。",
+                "meta": "政策"
+              },
+              {
+                "label": "科技",
+                "prompt": "观察协议达成后AI和科技股的反应。",
+                "meta": "股票"
+              }
+            ],
+            "ending": "海峡的状况将决定短期风险偏好和技术产能规划。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "地政学とエネルギー",
+            "secondaryEyebrow": "ホルムズ危機",
+            "title": "ホルムズ合意、金曜までに「50-50」、原油5%下落",
+            "summary": "イラン・オマーンによるホルムズ海峡再開の枠組みが数日以内に最終化される可能性がある。世界で最も重要な石油チョークポイントのリスクが取り除かれ、世界のテクノロジーインフラを再形成する。"
+          },
+          "question": {
+            "lead": "米国、カタール、湾岸当局者が合意の可能性を示唆する中、市場は迅速な解決を織り込んでいる。これはテクノロジー主導の地政学情勢にとって何を意味するのか。",
+            "title": "ホルムズ海峡はテクノロジーインフラのチョークポイントになるのか。",
+            "footnote": "合意が確認されれば、AIと半導体サプライチェーンに不可欠なエネルギー供給が確保される。"
+          },
+          "signals": {
+            "title": "変わりゆくチョークポイントのシグナル",
+            "sourceNote": "出典：新華社（8月5日、8月6日）、CNN（8月5日）、Rigzone（8月4日）、中国基金報（8月6日）、ヨンハプ・インフォマックス（8月5日）",
+            "items": [
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-1",
+                "label": "外交シグナル",
+                "title": "イラン・オマーン枠組み、最終化へ前進",
+                "body": "米国、カタール、湾岸当局者によると、イラン領海を通る一時的な航路が数日以内に合意される可能性がある。",
+                "whyImportant": "世界で最も重要な石油チョークポイントであるホルムズ海峡を再開し、世界市場へのエネルギー供給を回復させる。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-1",
+                    "title": "協議の進展",
+                    "description": "CNNは湾岸当局者の話として、金曜までに合意する確率は50-50と報道。イラン外務次官も原則合意を確認した。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-2",
+                      "20260806-HORMUZ-DEAL-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-2",
+                    "title": "Deal to reopen Strait of Hormuz appears possible amid progress in talks",
+                    "publisher": "Xinhua",
+                    "publishedAt": "2026-08-05",
+                    "url": "http://chinaview.cn/20260805/e418104dfb0e4ad095cc8d3a8507fba6/c.html",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-3",
+                    "title": "Live updates: US-Iran war news; Tehran denies talks with US, as Gulf official says 50-50 chance of Iran-Oman deal on strait by Friday",
+                    "publisher": "CNN",
+                    "publishedAt": "2026-08-05",
+                    "url": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-2",
+                "label": "市場シグナル",
+                "title": "ブレント原油、合意期待で5%下落",
+                "body": "8月4日、海峡再開の可能性を市場が織り込み、原油価格が急落した。",
+                "whyImportant": "エネルギー・チョークポイントのリスクが後退するとの市場予想を示し、インフレ圧力を和らげる。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-2",
+                    "title": "ブレント、3週間ぶり安値で終了",
+                    "description": "Rigzoneによると、ブレントは5.3%下落し、1バレル約79ドルとなった。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-4",
+                    "title": "Brent Settles At Three-Week Low",
+                    "publisher": "Rigzone",
+                    "publishedAt": "2026-08-04",
+                    "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-3",
+                "label": "政策シグナル",
+                "title": "FRBのデイリー氏、エネルギーとAIショックをインフレ要因に位置づけ",
+                "body": "連邦準備制度理事会（FRB）当局者は現在、エネルギーとAIの混乱をインフレ要因として明示的に挙げており、ホルムズ解決が金融政策の鍵となる。",
+                "whyImportant": "海峡再開をFRBの政策経路およびテクノロジー分野の支出に直接結びつける。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-3",
+                    "title": "デイリーFRB当局者：関税・エネルギー・AIショックがインフレを押し上げ",
+                    "description": "中国基金報が8月6日にデイリー氏の発言を引用。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-5"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-5",
+                    "title": "美联储戴利：关税、能源与AI冲击推高通胀",
+                    "publisher": "China Fund News",
+                    "publishedAt": "2026-08-06",
+                    "url": "https://www.chnfund.com/article/841ea2e3-2792-a69e-bcac-3a22e6b49931",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "20260806-HORMUZ-DEAL-signal-4",
+                "label": "経済シグナル",
+                "title": "ADP雇用統計の下振れ、利下げ圧力を強める",
+                "body": "7月の民間雇用者数は4万4000人増にとどまり、予想の6万5000人を大幅に下回り、緩和の必要性を再確認させた。",
+                "whyImportant": "エネルギーとAIによるインフレに加え、雇用統計の弱さがFRBにとって複雑な背景を生み、ホルムズ合意の重要性をさらに高める。",
+                "evidence": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-evidence-4",
+                    "title": "7月ADP民間雇用統計、予想を下回る",
+                    "description": "ヨンハプ・インフォマックスは今年最低の伸びと報道。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "20260806-HORMUZ-DEAL-source-6"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "20260806-HORMUZ-DEAL-source-6",
+                    "title": "July ADP private payrolls +44,000 vs 65,000 expected — lowest of the year",
+                    "publisher": "Yonhap Infomax",
+                    "publishedAt": "2026-08-05",
+                    "url": "https://en.infomaxai.com/news/articleView.html?idxno=133775",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "背景から隘路へ：エネルギーはテクノロジーの地政学インフラとなる",
+            "before": "エネルギー供給は世界のテクノロジー成長にとって安定した背景条件だった。",
+            "shift": "米イラン戦争とホルムズ閉鎖により、エネルギーはAI・半導体サプライチェーンにとって直接のチョークポイントとなった。",
+            "now": "海峡再開に向けた合意の可能性は、エネルギー航路の確保が今やテクノロジーインフラ計画に不可欠となったことを示している。",
+            "conclusion": "ホルムズ合意が最終化されれば、エネルギー不確実性を取り除くことでAIインフラ競争は加速するが、テクノロジー企業は将来の地政学的エネルギーショックに引き続きさらされる。"
+          },
+          "insight": {
+            "title": "エネルギーのチョークポイントは今やテクノロジーインフラである",
+            "formula": "エネルギーの安定 = AIの拡張 × インフレの抑制",
+            "explanation": "ホルムズ危機は、エネルギーのチョークポイントがAI・半導体サプライチェーンを直接的に制約することを示した。海峡再開は、テクノロジーブームを持続させ、インフレを抑えるための前提条件となっている。"
+          },
+          "observe": {
+            "title": "今後の注目点",
+            "items": [
+              {
+                "label": "期限",
+                "prompt": "金曜日のホルムズ合意期限を注視する。",
+                "meta": "外交"
+              },
+              {
+                "label": "原油",
+                "prompt": "ブレント原油が75ドルを下回ってさらに下落するかを監視する。",
+                "meta": "市場"
+              },
+              {
+                "label": "FRB",
+                "prompt": "エネルギーとAIのインフレ連関に関するFRB高官の発言を注視する。",
+                "meta": "政策"
+              },
+              {
+                "label": "テック",
+                "prompt": "合意後のAI・テック株の反応を観察する。",
+                "meta": "株式"
+              }
+            ],
+            "ending": "海峡の状況は、短期的なリスク選好とテクノロジー能力計画を左右する。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
       "slug": "doe-paducah-ai-campus-brookfield-nextera",
@@ -2155,8 +2730,10 @@
       "status": "accelerating",
       "confidence": "developing",
       "startedAt": "2026-07-24T00:00:00+09:00",
-      "updatedAt": "2026-07-31T09:00:00+09:00",
-      "insightIds": [],
+      "updatedAt": "2026-08-06T06:15:10.808Z",
+      "insightIds": [
+        "insight-20260806-hormuz-deal"
+      ],
       "tags": [
         "geopolitics",
         "policy",
@@ -2180,6 +2757,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-20260806-HORMUZ-DEAL",
+          "date": "2026-08-06",
+          "stage": "accelerating",
+          "impact": "updates",
+          "insightId": "insight-20260806-hormuz-deal",
+          "content": {
+            "en": {
+              "title": "Technology Control as Geopolitical Infrastructure",
+              "description": "Export controls on semiconductors and AI are now being mirrored by direct control over energy chokepoints, turning the Strait of Hormuz into a technology bottleneck.",
+              "implication": "Technology firms must now incorporate geopolitical energy risk into supply chain and capacity planning, as energy infrastructure becomes a lever of technology competition."
+            },
+            "zh": {
+              "title": "技术控制作为地缘政治基础设施",
+              "description": "对半导体和AI的出口管制如今正与对能源咽喉要道的直接控制相互映照，使霍尔木兹海峡成为技术瓶颈。",
+              "implication": "科技企业现在必须将地缘政治能源风险纳入供应链和产能规划，因为能源基础设施正成为技术竞争的杠杆。"
+            },
+            "ja": {
+              "title": "テクノロジー支配は地政学インフラとなる",
+              "description": "半導体とAIに対する輸出管理は、今やエネルギー・チョークポイントへの直接的な支配によって補完されており、ホルムズ海峡はテクノロジーの隘路となりつつある。",
+              "implication": "テクノロジー企業は、エネルギーインフラがテクノロジー競争のレバーとなる中、地政学的エネルギーリスクをサプライチェーンと能力計画に組み込む必要がある。"
+            }
+          },
+          "previousStage": "accelerating",
+          "changeType": "acceleration",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "geo-e1",
           "date": "2026-07-24T00:00:00+09:00",
@@ -2264,7 +2869,7 @@
           "title": "Technology control becomes geopolitical infrastructure",
           "summary": "States are treating chips, energy, data and industrial supply chains as instruments of national power.",
           "thesis": "The geography of technological growth will increasingly be shaped by security policy, alliances and controlled access to critical capacity.",
-          "nextQuestion": "Will technology blocs become more important than global market efficiency?",
+          "nextQuestion": "Will the Hormuz deal accelerate AI infrastructure buildout, or will new energy chokepoints emerge?",
           "domains": [
             "Geopolitics",
             "Technology Policy",
@@ -2275,16 +2880,17 @@
           "currentStageLabel": "Bloc formation",
           "stageSummary": "Technology controls are accelerating from targeted restrictions into ecosystem-level alignment.",
           "observeNext": [
-            "Expansion of export-control categories",
-            "Allied investment-screening rules",
-            "Cross-border cloud, data and energy restrictions"
+            "Hormuz diplomatic developments",
+            "Oil price movements",
+            "Fed and labor market data",
+            "Technology equity flows"
           ]
         },
         "zh": {
           "title": "技术控制成为地缘基础设施",
           "summary": "国家正在把芯片、能源、数据与工业供应链视为国家力量的工具。",
           "thesis": "技术增长的地理分布，将越来越受到安全政策、联盟关系和关键能力准入的塑造。",
-          "nextQuestion": "技术阵营的重要性是否会超过全球市场效率？",
+          "nextQuestion": "霍尔木兹协议会加速AI基础设施的扩建，还是会出现新的能源咽喉要道？",
           "domains": [
             "地缘政治",
             "技术政策",
@@ -2295,16 +2901,17 @@
           "currentStageLabel": "阵营形成期",
           "stageSummary": "技术管制正从定向限制，加速成为生态系统层面的阵营协同。",
           "observeNext": [
-            "出口管制品类扩张",
-            "盟友投资审查规则",
-            "跨境云、数据与能源限制"
+            "霍尔木兹外交进展",
+            "油价走势",
+            "美联储与劳动力市场数据",
+            "科技股资金流向"
           ]
         },
         "ja": {
           "title": "技術統制が地政学的インフラになる",
           "summary": "国家は半導体・エネルギー・データ・産業供給網を国力の手段として扱い始めている。",
           "thesis": "技術成長の地理は、安全保障政策・同盟・重要能力への統制されたアクセスによって一層形づくられる。",
-          "nextQuestion": "技術ブロックは世界市場の効率性より重要になるのか。",
+          "nextQuestion": "ホルムズ合意はAIインフラ建設を加速させるのか、それとも新たなエネルギーのチョークポイントが出現するのか。",
           "domains": [
             "地政学",
             "技術政策",
@@ -2315,15 +2922,18 @@
           "currentStageLabel": "ブロック形成期",
           "stageSummary": "技術統制は個別制限から、生態系レベルの陣営調整へ加速している。",
           "observeNext": [
-            "輸出規制対象の拡大",
-            "同盟国の投資審査規則",
-            "越境クラウド・データ・エネルギー制限"
+            "ホルムズ外交の動向",
+            "原油価格の動き",
+            "FRBと雇用統計",
+            "テクノロジー株の資金フロー"
           ]
         }
       },
       "currentStage": "accelerating",
       "stageChangedAt": "2026-07-31T09:00:00+09:00",
-      "supportingInsightIds": [],
+      "supportingInsightIds": [
+        "insight-20260806-hormuz-deal"
+      ],
       "contradictingInsightIds": [],
       "keyActors": [],
       "domains": [
@@ -2333,14 +2943,68 @@
         "Supply Chains"
       ],
       "nextSignals": [
-        "Expansion of export-control categories",
-        "Allied investment-screening rules",
-        "Cross-border cloud, data and energy restrictions"
+        "Hormuz diplomatic developments",
+        "Oil price movements",
+        "Fed and labor market data",
+        "Technology equity flows"
       ],
       "confidenceScore": 68
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-2026-08-06",
+      "date": "2026-08-06",
+      "decidedAt": "2026-08-06T06:15:10.808Z",
+      "state": "no_new_global_insight",
+      "insightId": "insight-20260806-hormuz-deal",
+      "processId": "process-geopolitical-technology-control",
+      "materialChangeScore": 35,
+      "evidenceStrength": 80,
+      "noveltyScore": 90,
+      "importanceScore": 95,
+      "candidateSignalIds": [
+        "20260806-HORMUZ-DEAL"
+      ],
+      "content": {
+        "en": {
+          "label": "Bimodal risk event",
+          "decisionTitle": "Decision: High-impact tactical opportunity",
+          "decisionSummary": "The Hormuz deal is a binary outcome within 48 hours; confirmation would remove a major tail risk and accelerate AI infrastructure growth, while failure could trigger sharp reversals.",
+          "thresholdReason": "The process of energy-as-infrastructure is at an accelerating threshold; this event could push the technology control process into a new phase.",
+          "observeNext": [
+            "Hormuz diplomatic developments",
+            "Oil price movements",
+            "Fed and labor market data",
+            "Technology equity flows"
+          ]
+        },
+        "zh": {
+          "label": "双峰风险事件",
+          "decisionTitle": "决策：高影响力战术性机会",
+          "decisionSummary": "霍尔木兹协议在48小时内将呈现二元结果；若得到确认，将消除重大尾部风险并加速AI基础设施增长，而失败则可能引发剧烈逆转。",
+          "thresholdReason": "能源即基础设施的进程正处于加速临界点；这一事件可能将技术控制进程推入新阶段。",
+          "observeNext": [
+            "霍尔木兹外交进展",
+            "油价走势",
+            "美联储与劳动力市场数据",
+            "科技股资金流向"
+          ]
+        },
+        "ja": {
+          "label": "二極化するリスク事象",
+          "decisionTitle": "判断：高インパクトの戦術的機会",
+          "decisionSummary": "ホルムズ合意は48時間以内に二極化する結果をもたらす。確認されれば大きなテールリスクが除去されAIインフラ成長が加速する一方、失敗すれば急激な反落を招く可能性がある。",
+          "thresholdReason": "エネルギーをインフラとするプロセスは加速の閾値にあり、この事象はテクノロジー支配のプロセスを新たな段階へ押し上げる可能性がある。",
+          "observeNext": [
+            "ホルムズ外交の動向",
+            "原油価格の動き",
+            "FRBと雇用統計",
+            "テクノロジー株の資金フロー"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-2026-08-01",
       "date": "2026-08-01",
@@ -2779,6 +3443,723 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-20260806-HORMUZ-DEAL-1785996910808",
+      "status": "approved",
+      "writtenAt": "2026-08-06T06:15:10.808Z",
+      "researchDraftId": "research-2026-08-06-1785996655564",
+      "candidateId": "20260806-HORMUZ-DEAL",
+      "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
+      "dailyState": "no_new_global_insight",
+      "matchedProcessId": "process-geopolitical-technology-control",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ],
+        "humanApproved": true,
+        "originalPublishThresholdMet": false
+      },
+      "insight": {
+        "id": "insight-20260806-hormuz-deal",
+        "slug": "hormuz-reopening-deal-50-50",
+        "status": "update_living",
+        "processId": "process-geopolitical-technology-control",
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "updatedAt": "2026-08-06T06:15:10.808Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Geopolitics & Energy",
+              "secondaryEyebrow": "Hormuz Crisis",
+              "title": "Hormuz Deal '50-50' by Friday as Oil Drops 5%",
+              "summary": "A potential Iran-Oman framework to reopen the Strait of Hormuz could be finalized within days, removing the world's most critical oil chokepoint risk and reshaping global technology infrastructure."
+            },
+            "question": {
+              "lead": "As U.S., Qatari and Gulf officials signal a possible deal, markets are pricing a swift resolution. What does this mean for the technology-driven geopolitical landscape?",
+              "title": "Is the Strait of Hormuz Becoming a Technology Infrastructure Chokepoint?",
+              "footnote": "The deal, if confirmed, would secure energy flows critical to AI and semiconductor supply chains."
+            },
+            "signals": {
+              "title": "Signals of a Shifting Chokepoint",
+              "sourceNote": "Sources: Xinhua (Aug 5, Aug 6), CNN (Aug 5), Rigzone (Aug 4), China Fund News (Aug 6), Yonhap Infomax (Aug 5)",
+              "items": [
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-1",
+                  "label": "Diplomatic Signal",
+                  "title": "Iran-Oman Framework Nears Finalization",
+                  "body": "US, Qatari and Gulf officials say a temporary shipping route through Iranian waters could be agreed within days.",
+                  "whyImportant": "It would reopen the Strait of Hormuz, the world's most critical oil chokepoint, restoring energy flows to global markets.",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-1",
+                      "title": "Progress in talks",
+                      "description": "CNN reports a Gulf official gives 50-50 chance of deal by Friday; Iran's deputy FM confirms in-principle agreement.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-2",
+                        "20260806-HORMUZ-DEAL-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-2",
+                      "title": "Deal to reopen Strait of Hormuz appears possible amid progress in talks",
+                      "publisher": "Xinhua",
+                      "publishedAt": "2026-08-05",
+                      "url": "http://chinaview.cn/20260805/e418104dfb0e4ad095cc8d3a8507fba6/c.html",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-3",
+                      "title": "Live updates: US-Iran war news; Tehran denies talks with US, as Gulf official says 50-50 chance of Iran-Oman deal on strait by Friday",
+                      "publisher": "CNN",
+                      "publishedAt": "2026-08-05",
+                      "url": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-2",
+                  "label": "Market Signal",
+                  "title": "Brent Oil Drops 5% on Deal Hopes",
+                  "body": "Oil prices fell sharply on Aug 4 as markets priced in a potential reopening of the strait.",
+                  "whyImportant": "It signals market expectations that the energy chokepoint risk is receding, easing inflation pressures.",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-2",
+                      "title": "Brent settles at three-week low",
+                      "description": "Rigzone reports Brent fell 5.3% to about $79/barrel.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-4",
+                      "title": "Brent Settles At Three-Week Low",
+                      "publisher": "Rigzone",
+                      "publishedAt": "2026-08-04",
+                      "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-3",
+                  "label": "Policy Signal",
+                  "title": "Fed's Daly Links Energy and AI Shocks to Inflation",
+                  "body": "Federal Reserve officials now explicitly cite energy and AI disruptions as inflation drivers, making a Hormuz resolution key for monetary policy.",
+                  "whyImportant": "It connects the strait reopening directly to the Fed's policy path and technology sector spending.",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-3",
+                      "title": "Fed Daly: tariffs, energy, AI shocks push inflation",
+                      "description": "China Fund News quotes Daly on Aug 6.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-5"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-5",
+                      "title": "美联储戴利：关税、能源与AI冲击推高通胀",
+                      "publisher": "China Fund News",
+                      "publishedAt": "2026-08-06",
+                      "url": "https://www.chnfund.com/article/841ea2e3-2792-a69e-bcac-3a22e6b49931",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-4",
+                  "label": "Economic Signal",
+                  "title": "ADP Payrolls Miss Adds to Rate-Cut Pressure",
+                  "body": "Private payrolls grew only 44,000 in July, far below the 65,000 expected, reinforcing the need for easing.",
+                  "whyImportant": "Weak labor data alongside energy and AI inflation creates a complex backdrop for the Fed, making the Hormuz deal even more pivotal.",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-4",
+                      "title": "July ADP private payrolls miss",
+                      "description": "Yonhap Infomax reports the weakest print of the year.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-6"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-6",
+                      "title": "July ADP private payrolls +44,000 vs 65,000 expected — lowest of the year",
+                      "publisher": "Yonhap Infomax",
+                      "publishedAt": "2026-08-05",
+                      "url": "https://en.infomaxai.com/news/articleView.html?idxno=133775",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Background to Bottleneck: Energy as Technology's Geopolitical Infrastructure",
+              "before": "Energy supply was a stable background condition for global technology growth.",
+              "shift": "The US-Iran war and Hormuz closure turned energy into a direct chokepoint for AI and semiconductor supply chains.",
+              "now": "A potential deal to reopen the strait signals that securing energy routes is now integral to technology infrastructure planning.",
+              "conclusion": "The Hormuz deal, if finalized, will accelerate the AI infrastructure race by removing energy uncertainty, but leaves technology firms exposed to future geopolitical energy shocks."
+            },
+            "insight": {
+              "title": "Energy Chokepoints Are Now Technology Infrastructure",
+              "formula": "Energy Stability = AI Scaling × Inflation Control",
+              "explanation": "The Hormuz crisis demonstrated that energy chokepoints directly throttle AI and semiconductor supply chains; reopening them is now a prerequisite for sustaining the technology boom and taming inflation."
+            },
+            "observe": {
+              "title": "Looking Ahead",
+              "items": [
+                {
+                  "label": "Deadline",
+                  "prompt": "Track the Hormuz deal deadline on Friday.",
+                  "meta": "Diplomacy"
+                },
+                {
+                  "label": "Oil",
+                  "prompt": "Monitor Brent crude for further drops below $75.",
+                  "meta": "Markets"
+                },
+                {
+                  "label": "Fed",
+                  "prompt": "Watch Fed speeches for energy and AI inflation linkage.",
+                  "meta": "Policy"
+                },
+                {
+                  "label": "Tech",
+                  "prompt": "Observe AI and tech stock responses post-deal.",
+                  "meta": "Equities"
+                }
+              ],
+              "ending": "The strait's status will define near-term risk appetite and technology capacity planning."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "地缘政治与能源",
+              "secondaryEyebrow": "霍尔木兹危机",
+              "title": "霍尔木兹协议周五见分晓几率五五开，油价下跌5%",
+              "summary": "伊朗与阿曼可能达成的重新开放霍尔木兹海峡框架有望在数日内敲定，从而消除全球最关键的石油咽喉要道风险，并重塑全球科技基础设施。"
+            },
+            "question": {
+              "lead": "在美国、卡塔尔及海湾官员释放可能达成协议的信号之际，市场正为快速解决定价。这对以技术驱动的地缘政治格局意味着什么？",
+              "title": "霍尔木兹海峡正在成为科技基础设施的咽喉要道吗？",
+              "footnote": "若协议得到确认，将保障对人工智能和半导体供应链至关重要的能源流动。"
+            },
+            "signals": {
+              "title": "咽喉要道转移的信号",
+              "sourceNote": "来源：新华社（8月5日、8月6日）、CNN（8月5日）、Rigzone（8月4日）、中国基金报（8月6日）、Yonhap Infomax（8月5日）",
+              "items": [
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-1",
+                  "label": "外交信号",
+                  "title": "伊朗-阿曼框架接近敲定",
+                  "body": "美国、卡塔尔及海湾官员表示，一条经由伊朗水域的临时航运路线可能在未来数日内达成一致。",
+                  "whyImportant": "这将重新开放霍尔木兹海峡这一全球最关键的石油咽喉要道，恢复流向全球市场的能源。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-1",
+                      "title": "谈判取得进展",
+                      "description": "CNN报道，一名海湾官员认为周五前达成协议的机会为五五开；伊朗副外长确认原则上已达成一致。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-2",
+                        "20260806-HORMUZ-DEAL-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-2",
+                      "title": "Deal to reopen Strait of Hormuz appears possible amid progress in talks",
+                      "publisher": "Xinhua",
+                      "publishedAt": "2026-08-05",
+                      "url": "http://chinaview.cn/20260805/e418104dfb0e4ad095cc8d3a8507fba6/c.html",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-3",
+                      "title": "Live updates: US-Iran war news; Tehran denies talks with US, as Gulf official says 50-50 chance of Iran-Oman deal on strait by Friday",
+                      "publisher": "CNN",
+                      "publishedAt": "2026-08-05",
+                      "url": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-2",
+                  "label": "市场信号",
+                  "title": "布伦特原油因协议希望下跌5%",
+                  "body": "8月4日，随着市场计入海峡可能重新开放的前景，油价大幅下跌。",
+                  "whyImportant": "这表明市场预期能源咽喉风险正在消退，从而缓解通胀压力。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-2",
+                      "title": "布伦特原油收于三周低点",
+                      "description": "Rigzone报道，布伦特原油下跌5.3%，至约每桶79美元。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-4",
+                      "title": "Brent Settles At Three-Week Low",
+                      "publisher": "Rigzone",
+                      "publishedAt": "2026-08-04",
+                      "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-3",
+                  "label": "政策信号",
+                  "title": "美联储戴利将能源与AI冲击与通胀挂钩",
+                  "body": "美联储官员现在明确将能源和AI扰动列为通胀驱动因素，这使得霍尔木兹问题的解决对货币政策至关重要。",
+                  "whyImportant": "它将海峡重新开放直接与美联储的政策路径和科技行业支出联系起来。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-3",
+                      "title": "美联储戴利：关税、能源、AI冲击推高通胀",
+                      "description": "中国基金报8月6日援引戴利的讲话。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-5"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-5",
+                      "title": "美联储戴利：关税、能源与AI冲击推高通胀",
+                      "publisher": "China Fund News",
+                      "publishedAt": "2026-08-06",
+                      "url": "https://www.chnfund.com/article/841ea2e3-2792-a69e-bcac-3a22e6b49931",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-4",
+                  "label": "经济信号",
+                  "title": "ADP就业数据不及预期加大降息压力",
+                  "body": "7月私人部门就业仅增加4.4万人，远低于预期的6.5万人，强化了放宽政策的需要。",
+                  "whyImportant": "疲弱的就业数据加上能源与AI通胀，为美联储制造了复杂的背景，使霍尔木兹协议更加关键。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-4",
+                      "title": "7月ADP私人部门就业不及预期",
+                      "description": "Yonhap Infomax报道称这是今年最弱的数据。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-6"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-6",
+                      "title": "July ADP private payrolls +44,000 vs 65,000 expected — lowest of the year",
+                      "publisher": "Yonhap Infomax",
+                      "publishedAt": "2026-08-05",
+                      "url": "https://en.infomaxai.com/news/articleView.html?idxno=133775",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从背景条件到瓶颈：能源作为科技的地缘政治基础设施",
+              "before": "能源供应曾是全球科技增长的稳定背景条件。",
+              "shift": "美伊战争与霍尔木兹海峡关闭使能源成为AI和半导体供应链的直接瓶颈。",
+              "now": "重新开放海峡的潜在协议表明，确保能源路线如今已成为科技基础设施规划中不可或缺的一部分。",
+              "conclusion": "霍尔木兹协议若最终敲定，将通过消除能源不确定性加速AI基础设施竞赛，但也使科技企业暴露于未来的地缘政治能源冲击之下。"
+            },
+            "insight": {
+              "title": "能源咽喉要道如今就是科技基础设施",
+              "formula": "能源稳定 = AI规模化 × 通胀控制",
+              "explanation": "霍尔木兹危机表明，能源咽喉要道直接制约AI和半导体供应链；重新开放这些通道如今已成为维持科技繁荣和遏制通胀的前提条件。"
+            },
+            "observe": {
+              "title": "展望未来",
+              "items": [
+                {
+                  "label": "截止日期",
+                  "prompt": "关注周五霍尔木兹协议的截止日期。",
+                  "meta": "外交"
+                },
+                {
+                  "label": "石油",
+                  "prompt": "关注布伦特原油是否进一步跌破每桶75美元。",
+                  "meta": "市场"
+                },
+                {
+                  "label": "美联储",
+                  "prompt": "关注美联储讲话中能源与AI通胀的关联。",
+                  "meta": "政策"
+                },
+                {
+                  "label": "科技",
+                  "prompt": "观察协议达成后AI和科技股的反应。",
+                  "meta": "股票"
+                }
+              ],
+              "ending": "海峡的状况将决定短期风险偏好和技术产能规划。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "地政学とエネルギー",
+              "secondaryEyebrow": "ホルムズ危機",
+              "title": "ホルムズ合意、金曜までに「50-50」、原油5%下落",
+              "summary": "イラン・オマーンによるホルムズ海峡再開の枠組みが数日以内に最終化される可能性がある。世界で最も重要な石油チョークポイントのリスクが取り除かれ、世界のテクノロジーインフラを再形成する。"
+            },
+            "question": {
+              "lead": "米国、カタール、湾岸当局者が合意の可能性を示唆する中、市場は迅速な解決を織り込んでいる。これはテクノロジー主導の地政学情勢にとって何を意味するのか。",
+              "title": "ホルムズ海峡はテクノロジーインフラのチョークポイントになるのか。",
+              "footnote": "合意が確認されれば、AIと半導体サプライチェーンに不可欠なエネルギー供給が確保される。"
+            },
+            "signals": {
+              "title": "変わりゆくチョークポイントのシグナル",
+              "sourceNote": "出典：新華社（8月5日、8月6日）、CNN（8月5日）、Rigzone（8月4日）、中国基金報（8月6日）、ヨンハプ・インフォマックス（8月5日）",
+              "items": [
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-1",
+                  "label": "外交シグナル",
+                  "title": "イラン・オマーン枠組み、最終化へ前進",
+                  "body": "米国、カタール、湾岸当局者によると、イラン領海を通る一時的な航路が数日以内に合意される可能性がある。",
+                  "whyImportant": "世界で最も重要な石油チョークポイントであるホルムズ海峡を再開し、世界市場へのエネルギー供給を回復させる。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-1",
+                      "title": "協議の進展",
+                      "description": "CNNは湾岸当局者の話として、金曜までに合意する確率は50-50と報道。イラン外務次官も原則合意を確認した。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-2",
+                        "20260806-HORMUZ-DEAL-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-2",
+                      "title": "Deal to reopen Strait of Hormuz appears possible amid progress in talks",
+                      "publisher": "Xinhua",
+                      "publishedAt": "2026-08-05",
+                      "url": "http://chinaview.cn/20260805/e418104dfb0e4ad095cc8d3a8507fba6/c.html",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-3",
+                      "title": "Live updates: US-Iran war news; Tehran denies talks with US, as Gulf official says 50-50 chance of Iran-Oman deal on strait by Friday",
+                      "publisher": "CNN",
+                      "publishedAt": "2026-08-05",
+                      "url": "https://www.cnn.com/2026/08/05/world/live-news/iran-war-trump",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-2",
+                  "label": "市場シグナル",
+                  "title": "ブレント原油、合意期待で5%下落",
+                  "body": "8月4日、海峡再開の可能性を市場が織り込み、原油価格が急落した。",
+                  "whyImportant": "エネルギー・チョークポイントのリスクが後退するとの市場予想を示し、インフレ圧力を和らげる。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-2",
+                      "title": "ブレント、3週間ぶり安値で終了",
+                      "description": "Rigzoneによると、ブレントは5.3%下落し、1バレル約79ドルとなった。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-4",
+                      "title": "Brent Settles At Three-Week Low",
+                      "publisher": "Rigzone",
+                      "publishedAt": "2026-08-04",
+                      "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-3",
+                  "label": "政策シグナル",
+                  "title": "FRBのデイリー氏、エネルギーとAIショックをインフレ要因に位置づけ",
+                  "body": "連邦準備制度理事会（FRB）当局者は現在、エネルギーとAIの混乱をインフレ要因として明示的に挙げており、ホルムズ解決が金融政策の鍵となる。",
+                  "whyImportant": "海峡再開をFRBの政策経路およびテクノロジー分野の支出に直接結びつける。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-3",
+                      "title": "デイリーFRB当局者：関税・エネルギー・AIショックがインフレを押し上げ",
+                      "description": "中国基金報が8月6日にデイリー氏の発言を引用。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-5"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-5",
+                      "title": "美联储戴利：关税、能源与AI冲击推高通胀",
+                      "publisher": "China Fund News",
+                      "publishedAt": "2026-08-06",
+                      "url": "https://www.chnfund.com/article/841ea2e3-2792-a69e-bcac-3a22e6b49931",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "20260806-HORMUZ-DEAL-signal-4",
+                  "label": "経済シグナル",
+                  "title": "ADP雇用統計の下振れ、利下げ圧力を強める",
+                  "body": "7月の民間雇用者数は4万4000人増にとどまり、予想の6万5000人を大幅に下回り、緩和の必要性を再確認させた。",
+                  "whyImportant": "エネルギーとAIによるインフレに加え、雇用統計の弱さがFRBにとって複雑な背景を生み、ホルムズ合意の重要性をさらに高める。",
+                  "evidence": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-evidence-4",
+                      "title": "7月ADP民間雇用統計、予想を下回る",
+                      "description": "ヨンハプ・インフォマックスは今年最低の伸びと報道。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "20260806-HORMUZ-DEAL-source-6"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "20260806-HORMUZ-DEAL-source-6",
+                      "title": "July ADP private payrolls +44,000 vs 65,000 expected — lowest of the year",
+                      "publisher": "Yonhap Infomax",
+                      "publishedAt": "2026-08-05",
+                      "url": "https://en.infomaxai.com/news/articleView.html?idxno=133775",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "背景から隘路へ：エネルギーはテクノロジーの地政学インフラとなる",
+              "before": "エネルギー供給は世界のテクノロジー成長にとって安定した背景条件だった。",
+              "shift": "米イラン戦争とホルムズ閉鎖により、エネルギーはAI・半導体サプライチェーンにとって直接のチョークポイントとなった。",
+              "now": "海峡再開に向けた合意の可能性は、エネルギー航路の確保が今やテクノロジーインフラ計画に不可欠となったことを示している。",
+              "conclusion": "ホルムズ合意が最終化されれば、エネルギー不確実性を取り除くことでAIインフラ競争は加速するが、テクノロジー企業は将来の地政学的エネルギーショックに引き続きさらされる。"
+            },
+            "insight": {
+              "title": "エネルギーのチョークポイントは今やテクノロジーインフラである",
+              "formula": "エネルギーの安定 = AIの拡張 × インフレの抑制",
+              "explanation": "ホルムズ危機は、エネルギーのチョークポイントがAI・半導体サプライチェーンを直接的に制約することを示した。海峡再開は、テクノロジーブームを持続させ、インフレを抑えるための前提条件となっている。"
+            },
+            "observe": {
+              "title": "今後の注目点",
+              "items": [
+                {
+                  "label": "期限",
+                  "prompt": "金曜日のホルムズ合意期限を注視する。",
+                  "meta": "外交"
+                },
+                {
+                  "label": "原油",
+                  "prompt": "ブレント原油が75ドルを下回ってさらに下落するかを監視する。",
+                  "meta": "市場"
+                },
+                {
+                  "label": "FRB",
+                  "prompt": "エネルギーとAIのインフレ連関に関するFRB高官の発言を注視する。",
+                  "meta": "政策"
+                },
+                {
+                  "label": "テック",
+                  "prompt": "合意後のAI・テック株の反応を観察する。",
+                  "meta": "株式"
+                }
+              ],
+              "ending": "海峡の状況は、短期的なリスク選好とテクノロジー能力計画を左右する。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-06",
+        "date": "2026-08-06",
+        "decidedAt": "2026-08-06T06:15:10.808Z",
+        "state": "no_new_global_insight",
+        "insightId": "insight-20260806-hormuz-deal",
+        "processId": "process-geopolitical-technology-control",
+        "materialChangeScore": 35,
+        "evidenceStrength": 80,
+        "noveltyScore": 90,
+        "importanceScore": 95,
+        "candidateSignalIds": [
+          "20260806-HORMUZ-DEAL"
+        ],
+        "content": {
+          "en": {
+            "label": "Bimodal risk event",
+            "decisionTitle": "Decision: High-impact tactical opportunity",
+            "decisionSummary": "The Hormuz deal is a binary outcome within 48 hours; confirmation would remove a major tail risk and accelerate AI infrastructure growth, while failure could trigger sharp reversals.",
+            "thresholdReason": "The process of energy-as-infrastructure is at an accelerating threshold; this event could push the technology control process into a new phase.",
+            "observeNext": [
+              "Hormuz diplomatic developments",
+              "Oil price movements",
+              "Fed and labor market data",
+              "Technology equity flows"
+            ]
+          },
+          "zh": {
+            "label": "双峰风险事件",
+            "decisionTitle": "决策：高影响力战术性机会",
+            "decisionSummary": "霍尔木兹协议在48小时内将呈现二元结果；若得到确认，将消除重大尾部风险并加速AI基础设施增长，而失败则可能引发剧烈逆转。",
+            "thresholdReason": "能源即基础设施的进程正处于加速临界点；这一事件可能将技术控制进程推入新阶段。",
+            "observeNext": [
+              "霍尔木兹外交进展",
+              "油价走势",
+              "美联储与劳动力市场数据",
+              "科技股资金流向"
+            ]
+          },
+          "ja": {
+            "label": "二極化するリスク事象",
+            "decisionTitle": "判断：高インパクトの戦術的機会",
+            "decisionSummary": "ホルムズ合意は48時間以内に二極化する結果をもたらす。確認されれば大きなテールリスクが除去されAIインフラ成長が加速する一方、失敗すれば急激な反落を招く可能性がある。",
+            "thresholdReason": "エネルギーをインフラとするプロセスは加速の閾値にあり、この事象はテクノロジー支配のプロセスを新たな段階へ押し上げる可能性がある。",
+            "observeNext": [
+              "ホルムズ外交の動向",
+              "原油価格の動き",
+              "FRBと雇用統計",
+              "テクノロジー株の資金フロー"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-geopolitical-technology-control",
+        "updatedAt": "2026-08-06T06:15:10.808Z",
+        "appendInsightId": "insight-20260806-hormuz-deal",
+        "evolutionEvent": {
+          "id": "evolution-20260806-HORMUZ-DEAL",
+          "date": "2026-08-06",
+          "stage": "accelerating",
+          "impact": "updates",
+          "insightId": "insight-20260806-hormuz-deal",
+          "content": {
+            "en": {
+              "title": "Technology Control as Geopolitical Infrastructure",
+              "description": "Export controls on semiconductors and AI are now being mirrored by direct control over energy chokepoints, turning the Strait of Hormuz into a technology bottleneck.",
+              "implication": "Technology firms must now incorporate geopolitical energy risk into supply chain and capacity planning, as energy infrastructure becomes a lever of technology competition."
+            },
+            "zh": {
+              "title": "技术控制作为地缘政治基础设施",
+              "description": "对半导体和AI的出口管制如今正与对能源咽喉要道的直接控制相互映照，使霍尔木兹海峡成为技术瓶颈。",
+              "implication": "科技企业现在必须将地缘政治能源风险纳入供应链和产能规划，因为能源基础设施正成为技术竞争的杠杆。"
+            },
+            "ja": {
+              "title": "テクノロジー支配は地政学インフラとなる",
+              "description": "半導体とAIに対する輸出管理は、今やエネルギー・チョークポイントへの直接的な支配によって補完されており、ホルムズ海峡はテクノロジーの隘路となりつつある。",
+              "implication": "テクノロジー企業は、エネルギーインフラがテクノロジー競争のレバーとなる中、地政学的エネルギーリスクをサプライチェーンと能力計画に組み込む必要がある。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will the Hormuz deal accelerate AI infrastructure buildout, or will new energy chokepoints emerge?",
+          "zh": "霍尔木兹协议会加速AI基础设施的扩建，还是会出现新的能源咽喉要道？",
+          "ja": "ホルムズ合意はAIインフラ建設を加速させるのか、それとも新たなエネルギーのチョークポイントが出現するのか。"
+        },
+        "observeNext": {
+          "en": [
+            "Hormuz diplomatic developments",
+            "Oil price movements",
+            "Fed and labor market data",
+            "Technology equity flows"
+          ],
+          "zh": [
+            "霍尔木兹外交进展",
+            "油价走势",
+            "美联储与劳动力市场数据",
+            "科技股资金流向"
+          ],
+          "ja": [
+            "ホルムズ外交の動向",
+            "原油価格の動き",
+            "FRBと雇用統計",
+            "テクノロジー株の資金フロー"
+          ]
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "staged-writer-v1",
+      "usage": {
+        "inputTokens": 8705,
+        "outputTokens": 12708,
+        "cachedInputTokens": 4864
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-06T07:06:08.051Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "approvedAt": "2026-08-06T07:06:08.051Z"
+    },
     {
       "id": "writer-sig-2026-08-01-paducah-ai-campus-1785594109578",
       "status": "approved",
@@ -3766,5 +5147,14 @@
         }
       }
     }
-  ]
+  ],
+  "processFoundation": {
+    "version": 2,
+    "lastUpdatedAt": "2026-08-06T07:06:08.051Z",
+    "lastMatchedProcessId": "process-geopolitical-technology-control"
+  },
+  "linkageIntegrity": {
+    "version": 1,
+    "repairedAt": "2026-08-06T07:06:08.940Z"
+  }
 }
