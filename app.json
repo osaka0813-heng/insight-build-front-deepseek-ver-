@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Insight",
+    "slug": "insight-world-process-snack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F4F4F0",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
