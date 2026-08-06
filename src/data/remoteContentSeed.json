@@ -1,0 +1,3770 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T12:10:00+09:00",
+  "contentVersion": "build012.1-alpha-world-process-foundation",
+  "insights": [
+    {
+      "id": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+      "slug": "doe-paducah-ai-campus-brookfield-nextera",
+      "status": "update_living",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "updatedAt": "2026-08-01T14:21:49.578Z",
+      "confidence": "developing",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "AI • Energy • Geopolitics",
+            "secondaryEyebrow": "The AI infrastructure race",
+            "title": "DOE taps Brookfield for Paducah AI campus; NextEra to build 2 GW gas + 2.6 GW storage to power 1.8‑GW data center",
+            "summary": "Reporting indicates the U.S. Energy Department selected Brookfield to develop an AI data center campus on its Paducah site in Kentucky. NextEra would build and own about 2 GW of natural‑gas generation and 2.6 GW of battery storage, plus transmission upgrades, to support roughly 1.8 GW of data center load. The department signaled completion around 2031 and said power service agreements will need state approval—turning a Cold War uranium facility into bundled compute and firm power on federal land."
+          },
+          "question": {
+            "lead": "A former uranium enrichment complex may become a gigawatt‑scale compute and energy hub.",
+            "title": "Are federal sites plus private capital becoming the fastest path to firm power for AI?",
+            "footnote": "Key details are drawn from current reporting and agency materials and may evolve with regulatory review and commercial agreements."
+          },
+          "signals": {
+            "title": "What we’re seeing",
+            "sourceNote": "Signals are based on the listed sources; interpretations are cautious where formal confirmations are pending.",
+            "items": [
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-1",
+                "label": "Trigger",
+                "title": "Paducah AI campus with dedicated gas and storage",
+                "body": "Reports say the Energy Department chose Brookfield for a multi‑phase AI campus at the Paducah Gaseous Diffusion Plant. NextEra would develop and own roughly 2 GW of gas generation, 2.6 GW of battery storage, and transmission upgrades to supply about 1.8 GW of data center capacity. Construction completion was indicated around 2031, with state‑level approval required for power service agreements.",
+                "whyImportant": "Pairs compute with on‑site firm power on federal land, potentially easing grid constraints for hyperscale AI while aligning long‑lead energy and transmission with campus buildout.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-1",
+                    "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                    "description": "Report outlining selection of a developer for the Paducah site and a plan for dedicated gas generation, storage, and transmission upgrades to support a large AI data center campus, with completion timing and regulatory approvals noted.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src-ap-paducah"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-ap-paducah",
+                    "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                    "publisher": "AP News",
+                    "url": "https://apnews.com/article/ai-data-center-kentucky-uranium-gas-a4cf07af1b6776971dc5d609c996ca13",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-2",
+                "label": "Context",
+                "title": "DOE sought Paducah AI and energy proposals",
+                "body": "Prior agency materials show the department invited proposals for AI data centers and supporting energy projects at the Paducah site.",
+                "whyImportant": "Establishes that federal land at Paducah was being positioned for combined compute and energy development prior to the reported selection.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-2",
+                    "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                    "description": "Agency announcement requesting proposals for AI data centers and energy projects at the Paducah site.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-paducah-rfo"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-paducah-rfo",
+                    "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                    "publisher": "U.S. Department of Energy (EM)",
+                    "publishedAt": "2025-11-04",
+                    "url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-3",
+                "label": "Local temperature",
+                "title": "Strong community interest in Paducah plans",
+                "body": "A public presentation on the proposed data center project drew a large local audience earlier this year.",
+                "whyImportant": "Community engagement and acceptance will influence permitting pace and long‑term project viability.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-3",
+                    "title": "Paducah data center presentation draws big crowd",
+                    "description": "Report noting high local turnout for a presentation on the Paducah data center concept.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src-exchangemonitor"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-exchangemonitor",
+                    "title": "Paducah data center presentation draws big crowd",
+                    "publisher": "ExchangeMonitor",
+                    "publishedAt": "2026-02-19",
+                    "url": "https://www.exchangemonitor.com/paducah-data-center-presentation-draws-big-crowd/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-4",
+                "label": "Pattern",
+                "title": "Separate federal site also pursuing AI data center plus energy",
+                "body": "The department recently selected a contractor to develop an AI data center and energy project at another federal complex, the Savannah River Site.",
+                "whyImportant": "Suggests a broader federal approach of pairing compute with dedicated energy on secure government land.",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-4",
+                    "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                    "description": "Agency announcement selecting a contractor for an AI data center and energy project at a federal site in South Carolina.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-srs-amentum"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-srs-amentum",
+                    "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                    "publisher": "U.S. Department of Energy (NNSA)",
+                    "publishedAt": "2026-07-20",
+                    "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "corroborating source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "What we’re seeing",
+            "before": "Many hyperscale builds depended primarily on existing grid capacity and incremental utility upgrades.",
+            "shift": "Developers and public agencies are moving to co‑locate firm power with compute on large, secure sites—bundling generation, storage, transmission, land, and financing.",
+            "now": "At Paducah, the reported plan pairs a 1.8‑GW data center campus with about 2 GW of gas generation and 2.6 GW of storage, with state approvals and a long construction horizon indicated.",
+            "conclusion": "Federal land may serve as an accelerator for AI capacity by aligning energy and compute timelines, while still requiring regulatory clearance and community support."
+          },
+          "insight": {
+            "title": "Power‑first AI campuses on federal land",
+            "formula": "Durable AI capacity = land access + firm power + capital + synchronized approvals and construction",
+            "explanation": "Before: Hyperscale projects often waited on grid interconnections and utility timelines. Shift: Pairing dedicated generation and storage with data center campuses on large federal sites aligns energy delivery with compute buildouts. Now: The Paducah plan, as described in current reports and agency context, bundles land, gas, batteries, and transmission upgrades for a multi‑phase AI campus with a long but defined path, pending state approval. This approach could ease local grid stress and, if conditions allow, potentially provide surplus back to the regional system. The memorable takeaway: winning the AI infrastructure race increasingly starts with firm power secured at the site."
+          },
+          "observe": {
+            "title": "What to watch next",
+            "items": [
+              {
+                "label": "State utility approval",
+                "prompt": "Does the relevant state regulator approve the power service agreements tied to the Paducah campus?",
+                "meta": "Confirmation would de‑risk the power supply; delays would push timelines."
+              },
+              {
+                "label": "Project agreements",
+                "prompt": "Do Brookfield, NextEra, and the department finalize definitive site, power, and transmission agreements?",
+                "meta": "Executed agreements would signal commercial momentum."
+              },
+              {
+                "label": "Permitting and community",
+                "prompt": "Are environmental reviews and local permitting milestones met without major opposition?",
+                "meta": "Smooth progress would support the 2031 completion indication; significant pushback could alter scope or timing."
+              },
+              {
+                "label": "Construction sequencing",
+                "prompt": "Do early works, generation, storage, and data hall buildouts move in lockstep?",
+                "meta": "Synchronized schedules are critical to avoid stranded compute or power."
+              }
+            ],
+            "ending": "If these checkpoints land on time, the model of power‑first AI campuses on federal land will look increasingly executable."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "AI • 能源 • 地缘",
+            "secondaryEyebrow": "AI 基础设施竞赛",
+            "title": "美国能源部据报选定 Brookfield 开发帕杜卡 AI 园区，NextEra 提供 2GW 燃气 + 2.6GW 储能支撑 1.8GW 数据中心",
+            "summary": "多方报道显示，能源部在其位于肯塔基州的帕杜卡旧址选择 Brookfield 分期建设 AI 数据中心园区，NextEra 计划建设并持有约 2GW 燃气发电、2.6GW 电池储能及输电升级，以支撑约 1.8GW 数据中心负荷。部门方面提到完工时间在 2031 年左右，供电服务协议需州级批准——把冷战时期铀设施转化为联邦土地上的“算力+确定性电源”一体化项目。"
+          },
+          "question": {
+            "lead": "一个曾用于铀浓缩的基地，正被规划为吉瓦级算力与电力枢纽。",
+            "title": "“联邦土地 + 私营资本”会成为 AI 确定性电源的最快通道吗？",
+            "footnote": "关键信息来自当前报道与机构材料，后续可能随监管审查和商业协议推进而调整。"
+          },
+          "signals": {
+            "title": "正在浮现的信号",
+            "sourceNote": "以下信号据所列来源整理；在正式确认尚未完成处保持审慎表述。",
+            "items": [
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-1",
+                "label": "触发",
+                "title": "帕杜卡 AI 园区配套专属燃机与储能",
+                "body": "据报道，能源部在帕杜卡气体扩散厂旧址选定 Brookfield 开发分期 AI 园区。NextEra 将建设并持有约 2GW 燃气、2.6GW 储能及输电升级，为约 1.8GW 数据中心供能。项目完工指向 2031 年左右，供电服务协议需州监管批准。",
+                "whyImportant": "在联邦土地上把算力与现场“确定性电源”打包，有望缓解超大规模 AI 对电网的即时压力，并使电力与园区建设节奏对齐。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-1",
+                    "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                    "description": "报道概述了在帕杜卡旧址选定开发方、并以燃机、储能与输电升级支撑大型 AI 数据中心的计划，以及完工时点与监管审批要求。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src-ap-paducah"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-ap-paducah",
+                    "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                    "publisher": "AP News",
+                    "url": "https://apnews.com/article/ai-data-center-kentucky-uranium-gas-a4cf07af1b6776971dc5d609c996ca13",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-2",
+                "label": "背景",
+                "title": "能源部曾公开征集帕杜卡的 AI 与能源方案",
+                "body": "先前的部门材料显示，机构已面向帕杜卡旧址征集 AI 数据中心与能源项目提案。",
+                "whyImportant": "说明联邦土地早已被定位为“算力+能源”一体化开发场景，为当前进展铺垫。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-2",
+                    "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                    "description": "机构公告，面向帕杜卡旧址征集 AI 数据中心与能源项目提案。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-paducah-rfo"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-paducah-rfo",
+                    "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                    "publisher": "U.S. Department of Energy (EM)",
+                    "publishedAt": "2025-11-04",
+                    "url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-3",
+                "label": "社区温度",
+                "title": "帕杜卡项目宣讲吸引大量到场",
+                "body": "今年早些时候，关于该数据中心方案的公开宣讲吸引了当地大量听众。",
+                "whyImportant": "社区沟通与接受度将影响许可节奏与项目韧性。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-3",
+                    "title": "Paducah data center presentation draws big crowd",
+                    "description": "报道指出，帕杜卡数据中心方案的宣讲活动现场参与人数众多。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src-exchangemonitor"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-exchangemonitor",
+                    "title": "Paducah data center presentation draws big crowd",
+                    "publisher": "ExchangeMonitor",
+                    "publishedAt": "2026-02-19",
+                    "url": "https://www.exchangemonitor.com/paducah-data-center-presentation-draws-big-crowd/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-4",
+                "label": "相关模式",
+                "title": "另一处联邦园区同步推进“算力+能源”",
+                "body": "部门近期在萨凡纳河基地选定了承包方推进 AI 数据中心与能源项目。",
+                "whyImportant": "显示在安全联邦园区打包算力与电源的更广泛路径。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-4",
+                    "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                    "description": "机构公告称在南卡的一处联邦园区选定了承包方推进 AI 数据中心与能源项目。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-srs-amentum"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-srs-amentum",
+                    "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                    "publisher": "U.S. Department of Energy (NNSA)",
+                    "publishedAt": "2026-07-20",
+                    "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "corroborating source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "正在发生的变化",
+            "before": "过去，许多超大规模数据中心主要依赖现有电网容量与渐进式增容。",
+            "shift": "开发方与公共机构开始在大型安全基地就地配建燃机与储能，将发电、储能、输电、土地与融资整体对齐。",
+            "now": "在帕杜卡，现有报道与机构背景材料显示，约 1.8GW 负荷的园区将与约 2GW 燃机、2.6GW 储能和输电升级捆绑推进，且需州级批准并有较长建设周期。",
+            "conclusion": "联邦土地或可通过同步能源与算力时程来加速产能，但仍取决于监管与社区支持。"
+          },
+          "insight": {
+            "title": "“电力优先”的联邦园区式 AI 建设",
+            "formula": "可持续算力 = 可接入土地 + 确定性电源 + 资本 + 审批与施工的同步化",
+            "explanation": "要点：过去常被电网并网与公用事业时程卡住；现在在大型联邦园区把自备电源与数据中心配套推进，有望让能源与算力同速落地。帕杜卡方案（据当前报道与机构材料）把土地、燃机、储能与输电升级打包，并以州级批准为关键门槛。此举有望缓解局地电网压力，且在条件允许时，可能向区域电网反送富余。记住这句话：在 AI 基建竞赛中，谁先锁定现场“确定性电源”，谁就更可能领先。"
+          },
+          "observe": {
+            "title": "后续可验证点",
+            "items": [
+              {
+                "label": "州级批准",
+                "prompt": "州监管机构是否批准与园区绑定的供电服务协议？",
+                "meta": "批准将显著降低供电不确定性；延迟会推后时程。"
+              },
+              {
+                "label": "商业落地",
+                "prompt": "Brookfield、NextEra 与相关方是否签署最终的场地、供电与输电协议？",
+                "meta": "实质性协议将体现商业推进力度。"
+              },
+              {
+                "label": "许可与社区",
+                "prompt": "环境评审与本地许可环节是否顺利、是否出现显著反对？",
+                "meta": "顺利推进有助于兑现 2031 年左右的时间指引；阻力可能改变规模或节奏。"
+              },
+              {
+                "label": "施工节奏",
+                "prompt": "前期工程、发电与储能建设、数据厅土建能否保持同频？",
+                "meta": "时程同步对于避免“电来而算力未就”或反之同样关键。"
+              }
+            ],
+            "ending": "若上述节点按期推进，“联邦土地+电力优先”的 AI 园区模式将更具可执行性。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "AI・エネルギー・地政学",
+            "secondaryEyebrow": "AIインフラ競争",
+            "title": "DOEがパデューカAIキャンパスでBrookfieldを選定、NextEraが2GWガス＋2.6GW蓄電で1.8GWデータセンターを支援",
+            "summary": "報道によれば、米エネルギー省はケンタッキー州のパデューカ旧施設でBrookfieldによるAIデータセンター群の開発を選定。NextEraは約2GWのガス発電と2.6GWの蓄電設備、送電強化を整備し、約1.8GWのデータセンター需要を賄う計画。完成見込みは2031年ごろ、電力供給契約には州の承認が必要とされ、冷戦期の施設を連邦地内で“計算資源＋確定電源”に束ねる動きが進む。"
+          },
+          "question": {
+            "lead": "かつてのウラン濃縮拠点が、GW級の計算と電力のハブに。",
+            "title": "連邦サイト＋民間資本は、AI向け確定電源を最速で確保する道なのか？",
+            "footnote": "主要情報は現時点の報道と機関資料に基づき、規制審査や商用合意に応じて変化する可能性があります。"
+          },
+          "signals": {
+            "title": "見えてきた兆し",
+            "sourceNote": "以下は提示ソースに基づく。正式確定が未了の箇所は慎重に表現。",
+            "items": [
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-1",
+                "label": "トリガー",
+                "title": "パデューカで専用ガス＋蓄電を併設",
+                "body": "同省がパデューカ気体拡散工場敷地でBrookfieldを選定し、NextEraが約2GWのガス発電、2.6GWの蓄電、送電増強を担い、約1.8GWのデータセンター群を支える計画と報じられている。完工は2031年ごろ、電力供給契約は州の承認が必要。",
+                "whyImportant": "連邦地で計算資源と現地の確定電源を束ね、ハイパースケールAIによる系統負荷を抑えつつ、発電・送電とキャンパス建設の時間軸を揃えられる。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-1",
+                    "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                    "description": "パデューカ敷地での開発者選定、専用ガス・蓄電・送電強化による大規模AIキャンパス支援、完工時期や規制承認の要件を伝える報道。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src-ap-paducah"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-ap-paducah",
+                    "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                    "publisher": "AP News",
+                    "url": "https://apnews.com/article/ai-data-center-kentucky-uranium-gas-a4cf07af1b6776971dc5d609c996ca13",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-2",
+                "label": "コンテクスト",
+                "title": "DOEはパデューカのAI・エネルギー提案を募集",
+                "body": "同省の以前の資料は、パデューカ敷地におけるAIデータセンターとエネルギー事業の提案募集を示している。",
+                "whyImportant": "連邦地を“計算＋電源”の一体開発として位置づけていた経緯を裏づける。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-2",
+                    "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                    "description": "パデューカ敷地でのAIデータセンターとエネルギー事業の提案募集に関する機関発表。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-paducah-rfo"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-paducah-rfo",
+                    "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                    "publisher": "U.S. Department of Energy (EM)",
+                    "publishedAt": "2025-11-04",
+                    "url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-3",
+                "label": "地域の温度感",
+                "title": "パデューカ構想の説明会に多数が参加",
+                "body": "今年初め、計画の説明会には地元から多くの参加があった。",
+                "whyImportant": "地域の合意形成は許認可のスピードと持続性を左右する。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-3",
+                    "title": "Paducah data center presentation draws big crowd",
+                    "description": "パデューカのデータセンター構想に関する説明会で高い参加があったことを伝える報道。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "src-exchangemonitor"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-exchangemonitor",
+                    "title": "Paducah data center presentation draws big crowd",
+                    "publisher": "ExchangeMonitor",
+                    "publishedAt": "2026-02-19",
+                    "url": "https://www.exchangemonitor.com/paducah-data-center-presentation-draws-big-crowd/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-2026-08-01-paducah-ai-campus-signal-4",
+                "label": "パターン",
+                "title": "別の連邦サイトでも“AI＋電源”を推進",
+                "body": "同省は近く、サバンナ・リバー・サイトでAIデータセンターとエネルギー事業の請負を選定した。",
+                "whyImportant": "安全な連邦地で計算資源と専用電源を束ねる広がりを示す。",
+                "evidence": [
+                  {
+                    "id": "sig-2026-08-01-paducah-ai-campus-evidence-4",
+                    "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                    "description": "南部の連邦サイトでAIデータセンターとエネルギー事業の請負を選定したとの機関発表。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "src-doe-srs-amentum"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "src-doe-srs-amentum",
+                    "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                    "publisher": "U.S. Department of Energy (NNSA)",
+                    "publishedAt": "2026-07-20",
+                    "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "corroborating source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "何が変わったのか",
+            "before": "従来は既存系統の空き容量と段階的な増強に大きく依存。",
+            "shift": "発電・蓄電・送電・用地・資金を大規模で安全な敷地に同居させ、確定電源と計算資源を同時並行で整備。",
+            "now": "パデューカでは、約1.8GWのデータセンター需要に対し、約2GWのガス発電と2.6GWの蓄電、送電増強を束ねる計画が示され、州の承認と長期の建設工程が前提となる。",
+            "conclusion": "連邦地はエネルギーと計算の時系列を合わせる加速器になり得るが、規制と地域合意が成否の鍵。"
+          },
+          "insight": {
+            "title": "連邦地で“電源先行”のAIキャンパスを組む",
+            "formula": "持続的なAIキャパシティ = 用地アクセス + 確定電源 + 資本 + 承認・建設の同期化",
+            "explanation": "要旨：これまで多くのプロジェクトは系統接続の遅延に左右された。転換点は、連邦サイトで専用発電と蓄電をキャンパスに直結し、計算と電力の立ち上げを同期させること。現時点の報道と機関文書が描くパデューカの設計は、土地・ガス・蓄電・送電を一体化し、州の承認を主要マイルストーンとする。局所的な系統負荷を和らげ、条件次第では系統への余剰供給の可能性もある。覚えておきたい一言：AIインフラ競争は“まず電源を確保した者”が有利になる。"
+          },
+          "observe": {
+            "title": "次に検証したいこと",
+            "items": [
+              {
+                "label": "州の承認",
+                "prompt": "キャンパスに紐づく電力供給契約は、州規制当局の承認を得られるか。",
+                "meta": "承認は電源リスクを低減。遅延は工程全体に波及。"
+              },
+              {
+                "label": "商用合意",
+                "prompt": "Brookfield・NextEra・関連当局は、用地・電源・送電の最終契約を締結するか。",
+                "meta": "締結は事業の前進を示す実質的サイン。"
+              },
+              {
+                "label": "許認可と地域",
+                "prompt": "環境審査と地域許認可は円滑か。強い反対は起きないか。",
+                "meta": "順調なら2031年ごろの完工見込みを後押し。難航すれば規模や時程が見直され得る。"
+              },
+              {
+                "label": "施工の同期",
+                "prompt": "初期工事、発電・蓄電設備、データホールの建設は足並みを揃えられるか。",
+                "meta": "同期が崩れると、電力や計算資源の片方が遊休化する恐れ。"
+              }
+            ],
+            "ending": "これらの分岐点が順調なら、“連邦地×電源先行”のAIキャンパスは現実味を増す。"
+          }
+        }
+      }
+    },
+    {
+      "id": "global-2026-07-31-industrial-ai",
+      "slug": "ai-infrastructure-enters-industrial-finance-phase",
+      "status": "update_living",
+      "parentInsightId": "global-2026-07-29-capacity",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-07-31T13:30:00+09:00",
+      "updatedAt": "2026-07-31T13:30:00+09:00",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Living Insight Update",
+            "title": "AI infrastructure is no longer being bought like technology. It is being financed like heavy industry.",
+            "summary": "The competition has crossed into project finance, dedicated power generation and state-scale site development."
+          },
+          "question": {
+            "lead": "The previous Insight identified capacity as the scarce asset. New evidence now shows that capacity itself must be financed, powered and politically assembled.",
+            "title": "What changes when AI companies must assemble banks, power plants, land and public policy before they can assemble intelligence?",
+            "footnote": "The important change is not simply that data centers are getting larger. Their financing and energy structure now resembles industrial megaprojects."
+          },
+          "signals": {
+            "title": "Three signals show the same phase transition.",
+            "items": [
+              {
+                "id": "project-finance",
+                "label": "FINANCE",
+                "title": "AI capacity is moving into project finance.",
+                "body": "Banks are discussing a $15 billion loan for a 1.6-gigawatt Anthropic campus, supported by Google guarantees and a dedicated natural-gas power plant."
+              },
+              {
+                "id": "industrial-site",
+                "label": "STATE + LAND",
+                "title": "Public industrial sites are being rebuilt as AI-energy complexes.",
+                "body": "A former uranium facility in Kentucky is planned as a $100 billion campus combining 1.8 gigawatts of data centers with 2 gigawatts of gas generation and 2.6 gigawatts of battery storage."
+              },
+              {
+                "id": "utility-demand",
+                "label": "UTILITY",
+                "title": "AI demand is becoming visible in utility earnings and planning.",
+                "body": "American Electric Power raised its outlook as data centers and other large customers accelerated electricity demand."
+              }
+            ],
+            "sourceNote": "These are separate financing, land and utility signals. Together they indicate a change in the operating model of AI expansion."
+          },
+          "pattern": {
+            "title": "The AI stack is expanding into an industrial development system.",
+            "before": "Technology companies purchased chips and rented cloud capacity.",
+            "shift": "Capacity shortages forced long-term commitments to sites, power and compute.",
+            "now": "AI expansion requires project finance, dedicated generation, guarantees, construction and public-sector coordination.",
+            "conclusion": "The leading AI operators are beginning to behave less like software buyers and more like industrial infrastructure developers."
+          },
+          "insight": {
+            "title": "AI has entered its industrial-finance phase.",
+            "formula": "CAPITAL GUARANTEES × DEDICATED POWER × INDUSTRIAL SITES = SOVEREIGN-SCALE AI CAPACITY",
+            "explanation": "The next constraint is not only whether a company can design a better model, but whether it can organize a bankable physical system large enough to run it. This raises the advantage of firms with strong balance sheets—and transfers more AI risk into utilities, lenders, governments and local communities."
+          },
+          "observe": {
+            "title": "Watch whether this industrial model becomes the default.",
+            "items": [
+              {
+                "label": "GUARANTEES",
+                "prompt": "More technology companies guaranteeing leases, loans or power obligations for AI partners.",
+                "meta": "FINANCE"
+              },
+              {
+                "label": "BEHIND THE METER",
+                "prompt": "More campuses pairing data centers with dedicated gas, nuclear or storage assets.",
+                "meta": "ENERGY"
+              },
+              {
+                "label": "PUBLIC LAND",
+                "prompt": "More governments converting military, nuclear or industrial sites into AI campuses.",
+                "meta": "POLICY"
+              },
+              {
+                "label": "RISK",
+                "prompt": "Whether electricity costs, stranded capacity or credit exposure migrate outside the AI company itself.",
+                "meta": "SYSTEM"
+              }
+            ],
+            "ending": "The AI race is now visible in the institutions that finance and power heavy industry."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "持续洞察更新",
+            "title": "AI基础设施不再像科技产品那样被采购，而开始像重工业那样被融资。",
+            "summary": "竞争已经进入项目融资、专用发电与国家级工业场地开发阶段。"
+          },
+          "question": {
+            "lead": "上一条洞察确认了“容量”正在变得稀缺；新的证据进一步显示，容量本身也必须被融资、供电并通过公共协同组织起来。",
+            "title": "当AI公司必须先组织银行、电厂、土地与公共政策，才能组织智能时，意味着什么？",
+            "footnote": "重要变化不只是数据中心变得更大，而是它的融资与能源结构开始接近大型工业项目。"
+          },
+          "signals": {
+            "title": "三个信号显示同一个阶段跃迁。",
+            "items": [
+              {
+                "id": "project-finance",
+                "label": "融资",
+                "title": "AI容量开始进入项目融资体系。",
+                "body": "银行正讨论为Anthropic的1.6吉瓦园区提供150亿美元贷款，Google以担保支持租赁与电力义务，园区还配套专用天然气电厂。"
+              },
+              {
+                "id": "industrial-site",
+                "label": "国家＋土地",
+                "title": "公共工业场地正在被重建为AI—能源综合体。",
+                "body": "肯塔基一座旧铀设施计划改造成1000亿美元园区，将1.8吉瓦数据中心、2吉瓦燃气发电和2.6吉瓦电池储能放进同一项目。"
+              },
+              {
+                "id": "utility-demand",
+                "label": "公用事业",
+                "title": "AI需求开始直接进入电力公司的业绩与规划。",
+                "body": "American Electric Power因数据中心和大型客户用电加速，上调了盈利预期。"
+              }
+            ],
+            "sourceNote": "融资、土地与公用事业是三类独立信号；它们共同显示AI扩张的运营模式正在改变。"
+          },
+          "pattern": {
+            "title": "AI技术栈正在扩展成一套工业开发系统。",
+            "before": "科技公司购买芯片，并租用云端容量。",
+            "shift": "容量短缺迫使企业长期锁定场地、电力与算力。",
+            "now": "AI扩张需要项目融资、专用发电、信用担保、工程建设与公共部门协同。",
+            "conclusion": "领先的AI运营者正越来越不像软件采购者，而更像工业基础设施开发商。"
+          },
+          "insight": {
+            "title": "AI已经进入“工业融资阶段”。",
+            "formula": "资本担保 × 专用能源 × 工业场地 = 国家级AI容量",
+            "explanation": "下一道约束不只是能否设计更好的模型，而是能否组织出一个足够大、可以被融资、可以真实运行的物理系统。这会放大强资产负债表公司的优势，同时把更多AI风险传导给电力公司、银行、政府与当地社区。"
+          },
+          "observe": {
+            "title": "接下来观察这种工业模式是否成为默认路径。",
+            "items": [
+              {
+                "label": "担保",
+                "prompt": "更多科技公司是否为AI合作伙伴的租赁、贷款或电力义务提供担保。",
+                "meta": "金融"
+              },
+              {
+                "label": "表后电源",
+                "prompt": "更多园区是否把数据中心与燃气、核能或储能资产直接配套。",
+                "meta": "能源"
+              },
+              {
+                "label": "公共土地",
+                "prompt": "更多政府是否把军事、核工业或旧工业场地转为AI园区。",
+                "meta": "政策"
+              },
+              {
+                "label": "风险转移",
+                "prompt": "电价、闲置容量与信用风险是否被转移到AI公司之外。",
+                "meta": "系统"
+              }
+            ],
+            "ending": "AI竞赛如今已经出现在为重工业融资、供电的那些制度之中。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "今日の観察",
+            "secondaryEyebrow": "継続インサイト更新",
+            "title": "AIインフラは、もはや技術製品のように購入されず、重工業のように資金調達され始めた。",
+            "summary": "競争はプロジェクト金融、専用発電、国家規模の産業用地開発へ入った。"
+          },
+          "question": {
+            "lead": "前回のインサイトは「供給能力」の希少化を捉えた。新しい証拠は、その能力自体を金融・電力・公共調整で組成する必要があることを示している。",
+            "title": "AI企業が知能を組み立てる前に、銀行・発電所・土地・公共政策を組み立てなければならないとき、何が変わるのか。",
+            "footnote": "重要なのはデータセンターが大型化したことだけではない。資金調達とエネルギー構造が巨大産業プロジェクトに近づいたことだ。"
+          },
+          "signals": {
+            "title": "三つのシグナルが同じ段階転換を示す。",
+            "items": [
+              {
+                "id": "project-finance",
+                "label": "金融",
+                "title": "AI能力がプロジェクト金融へ入る。",
+                "body": "銀行はAnthropic向け1.6GWキャンパスへの150億ドル融資を協議し、Googleが賃貸・電力義務を保証、専用ガス発電も組み込まれる。"
+              },
+              {
+                "id": "industrial-site",
+                "label": "国家＋土地",
+                "title": "公共産業用地がAI・エネルギー複合施設へ再編される。",
+                "body": "ケンタッキーの旧ウラン施設では、1.8GWのデータセンター、2GWのガス発電、2.6GWの蓄電池を組み合わせる1000億ドル計画が進む。"
+              },
+              {
+                "id": "utility-demand",
+                "label": "電力会社",
+                "title": "AI需要が電力会社の業績と計画に直接現れる。",
+                "body": "American Electric Powerは、データセンターなど大型需要家の電力需要増加を受け、業績見通しを引き上げた。"
+              }
+            ],
+            "sourceNote": "金融、土地、電力会社という別々のシグナルが、AI拡張の運営モデルの変化を同時に示している。"
+          },
+          "pattern": {
+            "title": "AIスタックが産業開発システムへ広がる。",
+            "before": "技術企業は半導体を購入し、クラウド能力を借りていた。",
+            "shift": "能力不足が、用地・電力・計算資源の長期確保を迫った。",
+            "now": "AI拡張にはプロジェクト金融、専用発電、信用保証、建設、公共部門との調整が必要になる。",
+            "conclusion": "主要AI事業者は、ソフトウェア購入者より産業インフラ開発者に近づいている。"
+          },
+          "insight": {
+            "title": "AIは「産業金融フェーズ」に入った。",
+            "formula": "資本保証 × 専用電源 × 産業用地 = 国家規模のAI能力",
+            "explanation": "次の制約は優れたモデルを設計できるかだけではなく、それを動かす巨大で融資可能な物理システムを組成できるかである。強い財務基盤を持つ企業が有利になり、AIリスクは電力会社、金融機関、政府、地域社会へ広がる。"
+          },
+          "observe": {
+            "title": "この産業モデルが標準になるかを観察する。",
+            "items": [
+              {
+                "label": "保証",
+                "prompt": "技術企業がAI提携先の賃貸、融資、電力義務を保証する例が増えるか。",
+                "meta": "金融"
+              },
+              {
+                "label": "専用電源",
+                "prompt": "データセンターとガス、原子力、蓄電設備を直接組み合わせるキャンパスが増えるか。",
+                "meta": "エネルギー"
+              },
+              {
+                "label": "公共用地",
+                "prompt": "軍事、原子力、旧産業用地をAIキャンパスへ転換する政府が増えるか。",
+                "meta": "政策"
+              },
+              {
+                "label": "リスク",
+                "prompt": "電気料金、遊休能力、信用リスクがAI企業の外へ移るか。",
+                "meta": "システム"
+              }
+            ],
+            "ending": "AI競争は、重工業を支える金融と電力の制度の中に現れ始めた。"
+          }
+        }
+      }
+    },
+    {
+      "id": "global-2026-07-29-capacity",
+      "slug": "ai-capacity-becomes-strategic-asset",
+      "status": "publish_new",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-07-29T07:00:00+09:00",
+      "updatedAt": "2026-07-29T15:30:00+09:00",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Global Insight",
+            "title": "AI companies are no longer only buying chips. They are buying capacity.",
+            "summary": "The competition is shifting from model performance to control over the physical systems that make intelligence available."
+          },
+          "question": {
+            "lead": "The market still talks about models.",
+            "title": "What changes when the scarce asset is no longer intelligence itself, but the capacity to deliver it?",
+            "footnote": "The important change is not a single investment. It is the repeated acquisition of power, land, data-center access and long-term infrastructure."
+          },
+          "signals": {
+            "title": "Three signals point to the same structural change.",
+            "items": [
+              {
+                "id": "power",
+                "label": "ENERGY",
+                "title": "Power contracts are becoming strategic assets.",
+                "body": "AI operators increasingly secure long-duration energy access rather than relying only on spot availability."
+              },
+              {
+                "id": "compute",
+                "label": "COMPUTE",
+                "title": "Compute is being reserved years ahead.",
+                "body": "Capacity planning is moving from quarterly purchasing to multi-year infrastructure commitments."
+              },
+              {
+                "id": "land",
+                "label": "PHYSICAL",
+                "title": "Land and grid access now shape AI expansion.",
+                "body": "Projects are constrained by interconnection queues, cooling, permits and suitable physical locations."
+              }
+            ],
+            "sourceNote": "Signals are evaluated as a system. No single signal is sufficient on its own."
+          },
+          "pattern": {
+            "title": "The competitive advantage is moving down the stack.",
+            "before": "Win by building the best model.",
+            "shift": "Secure the systems required to run intelligence at scale.",
+            "now": "Win by controlling access to power, compute, land and distribution.",
+            "conclusion": "The AI race is becoming an infrastructure race without ceasing to be a software race."
+          },
+          "insight": {
+            "title": "AI capacity is becoming a strategic asset class.",
+            "formula": "MODEL ADVANTAGE × INFRASTRUCTURE CONTROL × DISTRIBUTION = DEPLOYABLE INTELLIGENCE",
+            "explanation": "The companies able to turn intelligence into a dependable utility may gain an advantage that cannot be reproduced by model quality alone."
+          },
+          "observe": {
+            "title": "Watch whether the system keeps moving in this direction.",
+            "items": [
+              {
+                "label": "GRID",
+                "prompt": "Long-term power agreements and interconnection access.",
+                "meta": "ENERGY"
+              },
+              {
+                "label": "COMPUTE",
+                "prompt": "Multi-year reservation of accelerators and data-center capacity.",
+                "meta": "INFRA"
+              },
+              {
+                "label": "LAND",
+                "prompt": "Acquisition of locations with power, cooling and permitting advantages.",
+                "meta": "PHYSICAL"
+              },
+              {
+                "label": "DISTRIBUTION",
+                "prompt": "Who owns the customer relationship through which AI is delivered.",
+                "meta": "MARKET"
+              }
+            ],
+            "ending": "Today's observation is complete."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "全球洞察",
+            "title": "AI公司购买的已不只是芯片，而是整个“能力供给”。",
+            "summary": "竞争正在从模型性能，转向对电力、算力、土地和分发系统的控制。"
+          },
+          "question": {
+            "lead": "市场仍在谈论模型。",
+            "title": "当真正稀缺的不再是智能本身，而是稳定交付智能的能力时，会发生什么？",
+            "footnote": "重要的变化并不是某一笔投资，而是企业反复锁定电力、土地、数据中心与长期基础设施。"
+          },
+          "signals": {
+            "title": "三个信号正在指向同一个结构性变化。",
+            "items": [
+              {
+                "id": "power",
+                "label": "能源",
+                "title": "长期电力合同正在成为战略资产。",
+                "body": "AI运营者开始锁定长期能源，而不再只依赖随时可获得的现货供应。"
+              },
+              {
+                "id": "compute",
+                "label": "算力",
+                "title": "算力开始提前数年被预订。",
+                "body": "容量规划正从按季度采购，转向跨越数年的基础设施承诺。"
+              },
+              {
+                "id": "land",
+                "label": "实体设施",
+                "title": "土地与电网接入正在决定AI扩张。",
+                "body": "项目越来越受制于并网排队、冷却、许可和合适的物理位置。"
+              }
+            ],
+            "sourceNote": "这些信号必须作为一个系统进行判断，任何单一信号都不足以形成结论。"
+          },
+          "pattern": {
+            "title": "竞争优势正在向技术栈的底层移动。",
+            "before": "通过打造最好的模型取胜。",
+            "shift": "先确保大规模运行智能所需的系统。",
+            "now": "通过控制电力、算力、土地和分发入口取胜。",
+            "conclusion": "AI竞赛在没有停止软件竞争的同时，正在变成一场基础设施竞赛。"
+          },
+          "insight": {
+            "title": "AI能力供给正在成为一种战略资产类别。",
+            "formula": "模型优势 × 基础设施控制 × 分发能力 = 可交付的智能",
+            "explanation": "能够把智能变成稳定公共能力的企业，可能获得一种仅靠模型质量无法复制的优势。"
+          },
+          "observe": {
+            "title": "接下来观察这个系统是否继续沿同一方向发展。",
+            "items": [
+              {
+                "label": "电网",
+                "prompt": "长期购电协议与并网资格。",
+                "meta": "能源"
+              },
+              {
+                "label": "算力",
+                "prompt": "加速器与数据中心容量的多年预订。",
+                "meta": "基础设施"
+              },
+              {
+                "label": "土地",
+                "prompt": "具备电力、冷却和许可优势的地点收购。",
+                "meta": "实体资产"
+              },
+              {
+                "label": "分发",
+                "prompt": "谁掌握将AI交付给用户的客户关系。",
+                "meta": "市场"
+              }
+            ],
+            "ending": "今天的观察已经完成。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "今日の観察",
+            "secondaryEyebrow": "グローバル・インサイト",
+            "title": "AI企業が買っているのは、もはやチップだけではない。「供給能力」そのものだ。",
+            "summary": "競争の軸はモデル性能から、電力・計算資源・土地・流通を支える物理システムの支配へ移りつつある。"
+          },
+          "question": {
+            "lead": "市場は今もモデルを語っている。",
+            "title": "希少なのが知能そのものではなく、知能を安定して届ける能力になったとき、何が変わるのか。",
+            "footnote": "重要なのは一件の投資ではない。電力、土地、データセンター、長期インフラを繰り返し確保する動きである。"
+          },
+          "signals": {
+            "title": "三つのシグナルが同じ構造変化を示している。",
+            "items": [
+              {
+                "id": "power",
+                "label": "エネルギー",
+                "title": "長期電力契約が戦略資産になりつつある。",
+                "body": "AI事業者はスポット供給だけに頼らず、長期の電力アクセスを確保し始めている。"
+              },
+              {
+                "id": "compute",
+                "label": "計算資源",
+                "title": "計算能力が数年先まで予約されている。",
+                "body": "容量計画は四半期ごとの購入から、複数年のインフラ契約へ移行している。"
+              },
+              {
+                "id": "land",
+                "label": "物理基盤",
+                "title": "土地と電力網への接続がAI拡張を左右する。",
+                "body": "系統接続待ち、冷却、許認可、適地の不足がプロジェクトを制約している。"
+              }
+            ],
+            "sourceNote": "シグナルは一つずつではなく、システムとして評価する必要がある。"
+          },
+          "pattern": {
+            "title": "競争優位は技術スタックの下層へ移っている。",
+            "before": "最良のモデルを作ることで勝つ。",
+            "shift": "知能を大規模に動かすためのシステムを先に確保する。",
+            "now": "電力、計算資源、土地、流通経路へのアクセスを支配して勝つ。",
+            "conclusion": "AI競争はソフトウェア競争であり続けながら、インフラ競争へ変わりつつある。"
+          },
+          "insight": {
+            "title": "AIの供給能力は戦略的な資産クラスになりつつある。",
+            "formula": "モデル優位 × インフラ支配 × 流通 = 実際に届けられる知能",
+            "explanation": "知能を安定した公共能力へ変えられる企業は、モデル品質だけでは再現できない優位を得る可能性がある。"
+          },
+          "observe": {
+            "title": "このシステムが同じ方向へ進み続けるかを見る。",
+            "items": [
+              {
+                "label": "電力網",
+                "prompt": "長期電力契約と系統接続権。",
+                "meta": "エネルギー"
+              },
+              {
+                "label": "計算資源",
+                "prompt": "アクセラレータとデータセンター容量の複数年予約。",
+                "meta": "インフラ"
+              },
+              {
+                "label": "土地",
+                "prompt": "電力・冷却・許認可で優位な立地の取得。",
+                "meta": "物理資産"
+              },
+              {
+                "label": "流通",
+                "prompt": "AIを届ける顧客接点を誰が所有するか。",
+                "meta": "市場"
+              }
+            ],
+            "ending": "今日の観察は完了です。"
+          }
+        }
+      }
+    },
+    {
+      "id": "global-2026-07-26-capacity-update",
+      "slug": "ai-capacity-living-update",
+      "status": "update_living",
+      "parentInsightId": "global-2026-07-29-capacity",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-07-26T08:00:00+09:00",
+      "updatedAt": "2026-07-28T18:10:00+09:00",
+      "confidence": "developing",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "LIVING INSIGHT",
+            "title": "The AI race is expanding beyond models.",
+            "summary": "New evidence suggests infrastructure ownership may become as important as model leadership."
+          },
+          "question": {
+            "lead": "New evidence suggests infrastructure ownership may become as important as model leadership.",
+            "title": "Is infrastructure becoming the less visible source of AI power?",
+            "footnote": "New evidence suggests infrastructure ownership may become as important as model leadership."
+          },
+          "signals": {
+            "title": "New evidence suggests infrastructure ownership may become as important as model leadership.",
+            "items": [
+              {
+                "id": "one",
+                "label": "01",
+                "title": "New evidence suggests infrastructure ownership may become as important as model leadership.",
+                "body": "New evidence suggests infrastructure ownership may become as important as model leadership."
+              },
+              {
+                "id": "two",
+                "label": "02",
+                "title": "Is infrastructure becoming the less visible source of AI power?",
+                "body": "New evidence suggests infrastructure ownership may become as important as model leadership."
+              },
+              {
+                "id": "three",
+                "label": "03",
+                "title": "AI leadership may depend on infrastructure control.",
+                "body": "New evidence suggests infrastructure ownership may become as important as model leadership."
+              }
+            ],
+            "sourceNote": "New evidence suggests infrastructure ownership may become as important as model leadership."
+          },
+          "pattern": {
+            "title": "New evidence suggests infrastructure ownership may become as important as model leadership.",
+            "before": "The AI race is expanding beyond models.",
+            "shift": "Is infrastructure becoming the less visible source of AI power?",
+            "now": "AI leadership may depend on infrastructure control.",
+            "conclusion": "New evidence suggests infrastructure ownership may become as important as model leadership."
+          },
+          "insight": {
+            "title": "AI leadership may depend on infrastructure control.",
+            "formula": "SIGNAL × EVIDENCE × STRUCTURE = INSIGHT",
+            "explanation": "New evidence suggests infrastructure ownership may become as important as model leadership."
+          },
+          "observe": {
+            "title": "Is infrastructure becoming the less visible source of AI power?",
+            "items": [
+              {
+                "label": "01",
+                "prompt": "New evidence suggests infrastructure ownership may become as important as model leadership.",
+                "meta": "WATCH"
+              },
+              {
+                "label": "02",
+                "prompt": "Is infrastructure becoming the less visible source of AI power?",
+                "meta": "WATCH"
+              },
+              {
+                "label": "03",
+                "prompt": "AI leadership may depend on infrastructure control.",
+                "meta": "WATCH"
+              },
+              {
+                "label": "04",
+                "prompt": "New evidence suggests infrastructure ownership may become as important as model leadership.",
+                "meta": "WATCH"
+              }
+            ],
+            "ending": "This insight was later updated."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "持续洞察",
+            "title": "AI竞赛正在从模型扩展到模型之外。",
+            "summary": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+          },
+          "question": {
+            "lead": "新证据显示，基础设施所有权可能与模型领先同样重要。",
+            "title": "基础设施是否正在成为AI力量中不易被看见的来源？",
+            "footnote": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+          },
+          "signals": {
+            "title": "新证据显示，基础设施所有权可能与模型领先同样重要。",
+            "items": [
+              {
+                "id": "one",
+                "label": "01",
+                "title": "新证据显示，基础设施所有权可能与模型领先同样重要。",
+                "body": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+              },
+              {
+                "id": "two",
+                "label": "02",
+                "title": "基础设施是否正在成为AI力量中不易被看见的来源？",
+                "body": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+              },
+              {
+                "id": "three",
+                "label": "03",
+                "title": "AI领导力可能取决于基础设施控制。",
+                "body": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+              }
+            ],
+            "sourceNote": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+          },
+          "pattern": {
+            "title": "新证据显示，基础设施所有权可能与模型领先同样重要。",
+            "before": "AI竞赛正在从模型扩展到模型之外。",
+            "shift": "基础设施是否正在成为AI力量中不易被看见的来源？",
+            "now": "AI领导力可能取决于基础设施控制。",
+            "conclusion": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+          },
+          "insight": {
+            "title": "AI领导力可能取决于基础设施控制。",
+            "formula": "SIGNAL × EVIDENCE × STRUCTURE = INSIGHT",
+            "explanation": "新证据显示，基础设施所有权可能与模型领先同样重要。"
+          },
+          "observe": {
+            "title": "基础设施是否正在成为AI力量中不易被看见的来源？",
+            "items": [
+              {
+                "label": "01",
+                "prompt": "新证据显示，基础设施所有权可能与模型领先同样重要。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "02",
+                "prompt": "基础设施是否正在成为AI力量中不易被看见的来源？",
+                "meta": "WATCH"
+              },
+              {
+                "label": "03",
+                "prompt": "AI领导力可能取决于基础设施控制。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "04",
+                "prompt": "新证据显示，基础设施所有权可能与模型领先同样重要。",
+                "meta": "WATCH"
+              }
+            ],
+            "ending": "这条洞察后来得到了更新。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "継続インサイト",
+            "title": "AI競争はモデルの外側へ広がっている。",
+            "summary": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+          },
+          "question": {
+            "lead": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。",
+            "title": "インフラはAIの見えにくい力の源になりつつあるのか。",
+            "footnote": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+          },
+          "signals": {
+            "title": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。",
+            "items": [
+              {
+                "id": "one",
+                "label": "01",
+                "title": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。",
+                "body": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+              },
+              {
+                "id": "two",
+                "label": "02",
+                "title": "インフラはAIの見えにくい力の源になりつつあるのか。",
+                "body": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+              },
+              {
+                "id": "three",
+                "label": "03",
+                "title": "AIの主導権はインフラ支配に左右される可能性がある。",
+                "body": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+              }
+            ],
+            "sourceNote": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+          },
+          "pattern": {
+            "title": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。",
+            "before": "AI競争はモデルの外側へ広がっている。",
+            "shift": "インフラはAIの見えにくい力の源になりつつあるのか。",
+            "now": "AIの主導権はインフラ支配に左右される可能性がある。",
+            "conclusion": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+          },
+          "insight": {
+            "title": "AIの主導権はインフラ支配に左右される可能性がある。",
+            "formula": "SIGNAL × EVIDENCE × STRUCTURE = INSIGHT",
+            "explanation": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。"
+          },
+          "observe": {
+            "title": "インフラはAIの見えにくい力の源になりつつあるのか。",
+            "items": [
+              {
+                "label": "01",
+                "prompt": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "02",
+                "prompt": "インフラはAIの見えにくい力の源になりつつあるのか。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "03",
+                "prompt": "AIの主導権はインフラ支配に左右される可能性がある。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "04",
+                "prompt": "新しい証拠は、インフラ所有がモデル優位と同じほど重要になる可能性を示す。",
+                "meta": "WATCH"
+              }
+            ],
+            "ending": "この洞察は後に更新された。"
+          }
+        }
+      }
+    },
+    {
+      "id": "global-2026-07-22-no-new",
+      "slug": "no-new-global-insight",
+      "status": "no_new",
+      "publishedAt": "2026-07-22T07:00:00+09:00",
+      "updatedAt": "2026-07-22T07:00:00+09:00",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "NO NEW GLOBAL INSIGHT",
+            "title": "The world changed, but not enough to justify a new global thesis.",
+            "summary": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+          },
+          "question": {
+            "lead": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition.",
+            "title": "Did the evidence change the structure, or only the headlines?",
+            "footnote": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+          },
+          "signals": {
+            "title": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition.",
+            "items": [
+              {
+                "id": "one",
+                "label": "01",
+                "title": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition.",
+                "body": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+              },
+              {
+                "id": "two",
+                "label": "02",
+                "title": "Did the evidence change the structure, or only the headlines?",
+                "body": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+              },
+              {
+                "id": "three",
+                "label": "03",
+                "title": "No new Global Insight today.",
+                "body": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+              }
+            ],
+            "sourceNote": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+          },
+          "pattern": {
+            "title": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition.",
+            "before": "The world changed, but not enough to justify a new global thesis.",
+            "shift": "Did the evidence change the structure, or only the headlines?",
+            "now": "No new Global Insight today.",
+            "conclusion": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+          },
+          "insight": {
+            "title": "No new Global Insight today.",
+            "formula": "SIGNAL × EVIDENCE × STRUCTURE = INSIGHT",
+            "explanation": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition."
+          },
+          "observe": {
+            "title": "Did the evidence change the structure, or only the headlines?",
+            "items": [
+              {
+                "label": "01",
+                "prompt": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition.",
+                "meta": "WATCH"
+              },
+              {
+                "label": "02",
+                "prompt": "Did the evidence change the structure, or only the headlines?",
+                "meta": "WATCH"
+              },
+              {
+                "label": "03",
+                "prompt": "No new Global Insight today.",
+                "meta": "WATCH"
+              },
+              {
+                "label": "04",
+                "prompt": "Important events occurred, yet the evidence did not establish a new system relationship or phase transition.",
+                "meta": "WATCH"
+              }
+            ],
+            "ending": "Observation continues."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "今日无新洞察",
+            "title": "世界发生了变化，但还不足以形成新的全球命题。",
+            "summary": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+          },
+          "question": {
+            "lead": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。",
+            "title": "证据改变的是结构，还是只有新闻标题？",
+            "footnote": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+          },
+          "signals": {
+            "title": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。",
+            "items": [
+              {
+                "id": "one",
+                "label": "01",
+                "title": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。",
+                "body": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+              },
+              {
+                "id": "two",
+                "label": "02",
+                "title": "证据改变的是结构，还是只有新闻标题？",
+                "body": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+              },
+              {
+                "id": "three",
+                "label": "03",
+                "title": "今天没有新的全球洞察。",
+                "body": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+              }
+            ],
+            "sourceNote": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+          },
+          "pattern": {
+            "title": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。",
+            "before": "世界发生了变化，但还不足以形成新的全球命题。",
+            "shift": "证据改变的是结构，还是只有新闻标题？",
+            "now": "今天没有新的全球洞察。",
+            "conclusion": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+          },
+          "insight": {
+            "title": "今天没有新的全球洞察。",
+            "formula": "SIGNAL × EVIDENCE × STRUCTURE = INSIGHT",
+            "explanation": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。"
+          },
+          "observe": {
+            "title": "证据改变的是结构，还是只有新闻标题？",
+            "items": [
+              {
+                "label": "01",
+                "prompt": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "02",
+                "prompt": "证据改变的是结构，还是只有新闻标题？",
+                "meta": "WATCH"
+              },
+              {
+                "label": "03",
+                "prompt": "今天没有新的全球洞察。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "04",
+                "prompt": "重要事件确实发生了，但证据尚未建立新的系统关系或阶段跃迁。",
+                "meta": "WATCH"
+              }
+            ],
+            "ending": "观察仍在继续。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "新しいグローバル洞察なし",
+            "title": "世界は変化したが、新しい世界的命題を出すには至らなかった。",
+            "summary": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+          },
+          "question": {
+            "lead": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。",
+            "title": "証拠が変えたのは構造か、それとも見出しだけか。",
+            "footnote": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+          },
+          "signals": {
+            "title": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。",
+            "items": [
+              {
+                "id": "one",
+                "label": "01",
+                "title": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。",
+                "body": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+              },
+              {
+                "id": "two",
+                "label": "02",
+                "title": "証拠が変えたのは構造か、それとも見出しだけか。",
+                "body": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+              },
+              {
+                "id": "three",
+                "label": "03",
+                "title": "今日は新しいグローバル・インサイトなし。",
+                "body": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+              }
+            ],
+            "sourceNote": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+          },
+          "pattern": {
+            "title": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。",
+            "before": "世界は変化したが、新しい世界的命題を出すには至らなかった。",
+            "shift": "証拠が変えたのは構造か、それとも見出しだけか。",
+            "now": "今日は新しいグローバル・インサイトなし。",
+            "conclusion": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+          },
+          "insight": {
+            "title": "今日は新しいグローバル・インサイトなし。",
+            "formula": "SIGNAL × EVIDENCE × STRUCTURE = INSIGHT",
+            "explanation": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。"
+          },
+          "observe": {
+            "title": "証拠が変えたのは構造か、それとも見出しだけか。",
+            "items": [
+              {
+                "label": "01",
+                "prompt": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "02",
+                "prompt": "証拠が変えたのは構造か、それとも見出しだけか。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "03",
+                "prompt": "今日は新しいグローバル・インサイトなし。",
+                "meta": "WATCH"
+              },
+              {
+                "label": "04",
+                "prompt": "重要な出来事はあったが、新しいシステム関係や段階転換を示す証拠は不足していた。",
+                "meta": "WATCH"
+              }
+            ],
+            "ending": "観察は続く。"
+          }
+        }
+      }
+    }
+  ],
+  "worldProcesses": [
+    {
+      "id": "process-ai-infrastructure-race",
+      "slug": "ai-infrastructure-race",
+      "status": "accelerating",
+      "confidence": "verified",
+      "startedAt": "2026-07-01T00:00:00+09:00",
+      "updatedAt": "2026-08-01T14:21:49.578Z",
+      "insightIds": [
+        "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+        "global-2026-07-26-capacity-update",
+        "global-2026-07-29-capacity",
+        "global-2026-07-31-industrial-ai"
+      ],
+      "tags": [
+        "ai",
+        "compute",
+        "datacenter",
+        "electricity",
+        "grid",
+        "semiconductor",
+        "capital",
+        "land"
+      ],
+      "connections": [
+        {
+          "processId": "process-energy-security",
+          "relationship": "depends_on",
+          "weight": 18
+        },
+        {
+          "processId": "process-semiconductor-capacity",
+          "relationship": "depends_on",
+          "weight": 16
+        }
+      ],
+      "evolution": [
+        {
+          "id": "evolution-sig-2026-08-01-paducah-ai-campus",
+          "date": "2026-08-01",
+          "stage": "signal",
+          "impact": "updates",
+          "insightId": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+          "content": {
+            "en": {
+              "title": "Federal sites emerge as power‑first accelerators for AI builds",
+              "description": "The Paducah plan, as described in reporting and prior agency solicitations, bundles land, firm power, storage, and transmission for a large AI campus on federal property.",
+              "implication": "If replicated, this model could relieve interconnection bottlenecks by aligning energy and compute schedules—but hinges on state approvals and local acceptance."
+            },
+            "zh": {
+              "title": "联邦土地正成为“电力优先”的 AI 建设加速器",
+              "description": "据报道与既有征集材料，帕杜卡方案在联邦土地上将土地、确定性电源、储能与输电与大规模 AI 园区打包推进。",
+              "implication": "若可复制，此模式有望通过“能源—算力”同步来缓解并网瓶颈，但仍取决于州级审批与社区接受度。"
+            },
+            "ja": {
+              "title": "連邦サイトが“電源先行”のAI整備を加速",
+              "description": "報道と過去の募集資料が示すパデューカの構成は、連邦地での土地・確定電源・蓄電・送電をAIキャンパスと一体化。",
+              "implication": "複製できれば接続ボトルネックの緩和に資するが、州の承認と地域合意が前提となる。"
+            }
+          },
+          "changeType": "new_evidence",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "ai-e1",
+          "date": "2026-07-01T00:00:00+09:00",
+          "stage": "signal",
+          "impact": "supports",
+          "content": {
+            "en": {
+              "title": "Model advantage begins to require physical capacity",
+              "description": "Competition starts moving beyond model quality toward access to compute and datacenter capacity.",
+              "implication": "AI leadership can no longer be evaluated only through benchmark performance."
+            },
+            "zh": {
+              "title": "模型优势开始依赖实体容量",
+              "description": "竞争开始从模型质量，转向算力与数据中心容量的获取能力。",
+              "implication": "判断AI领先地位，不能再只看模型基准成绩。"
+            },
+            "ja": {
+              "title": "モデル優位が物理的能力を必要とし始める",
+              "description": "競争がモデル品質だけでなく、計算資源とデータセンター能力へのアクセスへ移り始めた。",
+              "implication": "AIの優位はベンチマークだけでは評価できなくなる。"
+            }
+          },
+          "changeType": "new_evidence",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "ai-e2",
+          "date": "2026-07-26T09:00:00+09:00",
+          "stage": "emerging",
+          "impact": "updates",
+          "insightId": "global-2026-07-26-capacity-update",
+          "content": {
+            "en": {
+              "title": "Capacity becomes part of the product",
+              "description": "Reliable inference, distribution and deployment speed become visible competitive dimensions.",
+              "implication": "The process shifts from software competition toward an infrastructure system."
+            },
+            "zh": {
+              "title": "容量成为产品的一部分",
+              "description": "稳定推理、分发能力与部署速度成为可见的竞争维度。",
+              "implication": "这一进程从软件竞争转向基础设施系统。"
+            },
+            "ja": {
+              "title": "供給能力が製品の一部になる",
+              "description": "安定した推論、配信、展開速度が競争軸として見え始めた。",
+              "implication": "プロセスはソフトウェア競争からインフラシステムへ移る。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "ai-e3",
+          "date": "2026-07-29T15:30:00+09:00",
+          "stage": "accelerating",
+          "impact": "supports",
+          "insightId": "global-2026-07-29-capacity",
+          "content": {
+            "en": {
+              "title": "Power, land and chips become binding constraints",
+              "description": "Infrastructure ownership and long-term supply agreements increasingly determine expansion speed.",
+              "implication": "AI capacity is entering the balance sheet and physical planning cycle."
+            },
+            "zh": {
+              "title": "电力、土地与芯片成为硬约束",
+              "description": "基础设施所有权与长期供给协议越来越决定扩张速度。",
+              "implication": "AI容量开始进入资产负债表与实体规划周期。"
+            },
+            "ja": {
+              "title": "電力・土地・半導体が強い制約になる",
+              "description": "インフラ所有と長期供給契約が拡張速度を左右し始めた。",
+              "implication": "AI能力が財務と物理計画の周期に入る。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "ai-e4",
+          "date": "2026-07-31T11:00:00+09:00",
+          "stage": "structural",
+          "impact": "updates",
+          "content": {
+            "en": {
+              "title": "AI becomes an industrial infrastructure process",
+              "description": "Compute expansion now transmits demand into energy, semiconductors, construction and policy.",
+              "implication": "The next phase depends on cross-domain coordination rather than a single technical breakthrough."
+            },
+            "zh": {
+              "title": "AI成为工业基础设施进程",
+              "description": "算力扩张正在把需求传导至能源、半导体、建设与政策。",
+              "implication": "下一阶段依赖跨领域协同，而不只是单一技术突破。"
+            },
+            "ja": {
+              "title": "AIが産業インフラのプロセスになる",
+              "description": "計算資源の拡張がエネルギー、半導体、建設、政策へ需要を伝えている。",
+              "implication": "次の段階は単一技術ではなく領域横断の協調に依存する。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "ai-e5",
+          "date": "2026-07-31T13:30:00+09:00",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "global-2026-07-31-industrial-ai",
+          "content": {
+            "en": {
+              "title": "AI infrastructure enters industrial finance",
+              "description": "Banks, guarantees, dedicated power plants and public industrial sites are being assembled into single AI capacity projects.",
+              "implication": "The competitive unit is becoming a bankable industrial system, not a data center lease alone."
+            },
+            "zh": {
+              "title": "AI基础设施进入工业融资阶段",
+              "description": "银行、信用担保、专用电厂与公共工业场地开始被组织进同一个AI容量项目。",
+              "implication": "竞争单位正在从单一数据中心租赁，转变为可融资的工业系统。"
+            },
+            "ja": {
+              "title": "AIインフラが産業金融へ入る",
+              "description": "銀行、信用保証、専用発電所、公共産業用地が一つのAI能力プロジェクトに組み込まれ始めた。",
+              "implication": "競争単位はデータセンター賃貸ではなく、融資可能な産業システムへ変わる。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        }
+      ],
+      "content": {
+        "en": {
+          "title": "The AI infrastructure race",
+          "summary": "AI competition is expanding from model quality into control of power, compute, land and distribution.",
+          "thesis": "The durable advantage may belong to companies that can repeatedly convert intelligence into dependable, large-scale capacity.",
+          "nextQuestion": "Will state approvals and definitive agreements coalesce fast enough to keep power and compute timelines in sync at Paducah?",
+          "domains": [
+            "AI",
+            "Energy",
+            "Semiconductors",
+            "Physical Infrastructure"
+          ],
+          "storyLabel": "From model competition to capacity competition",
+          "currentStageLabel": "Industrial finance",
+          "stageSummary": "AI expansion is becoming a bankable industrial system combining guarantees, dedicated power, land, construction and policy.",
+          "observeNext": [
+            "State utility commission decisions on power service agreements",
+            "Execution of definitive site, power, and transmission agreements",
+            "Environmental review outcomes and local permitting milestones",
+            "Announced sequencing for gas units, storage, and data halls"
+          ]
+        },
+        "zh": {
+          "title": "AI基础设施竞赛",
+          "summary": "AI竞争正在从模型质量，扩展到对电力、算力、土地和分发能力的控制。",
+          "thesis": "更持久的优势，可能属于那些能够持续把智能转化为稳定、大规模供给能力的企业。",
+          "nextQuestion": "州级审批与最终协议能否足够快地落地，以保证帕杜卡的电力与算力时程保持同步？",
+          "domains": [
+            "人工智能",
+            "能源",
+            "半导体",
+            "实体基础设施"
+          ],
+          "storyLabel": "从模型竞争走向容量竞争",
+          "currentStageLabel": "工业融资期",
+          "stageSummary": "AI扩张正成为由担保、专用能源、土地、工程建设与政策共同组成的可融资工业系统。",
+          "observeNext": [
+            "州公用事业委员会对供电服务协议的裁决",
+            "场地、供电与输电的最终协议签署",
+            "环境评审结论与本地许可关键节点",
+            "燃机、储能与数据厅的施工时序发布"
+          ]
+        },
+        "ja": {
+          "title": "AIインフラ競争",
+          "summary": "AI競争はモデル品質から、電力・計算資源・土地・流通能力の支配へ広がっている。",
+          "thesis": "持続的な優位は、知能を安定した大規模供給能力へ繰り返し変換できる企業に生まれる可能性がある。",
+          "nextQuestion": "州の承認と最終契約は十分に迅速にまとまり、パデューカで電力と計算の時系列を同期できるか？",
+          "domains": [
+            "AI",
+            "エネルギー",
+            "半導体",
+            "物理インフラ"
+          ],
+          "storyLabel": "モデル競争から供給能力の競争へ",
+          "currentStageLabel": "産業金融期",
+          "stageSummary": "AI拡張は、保証・専用電源・土地・建設・政策を組み合わせた融資可能な産業システムになりつつある。",
+          "observeNext": [
+            "電力供給契約に関する州委員会の判断",
+            "用地・電源・送電の最終契約締結",
+            "環境審査の結果と地域許認可の節目",
+            "ガス設備・蓄電・データホールの施工シーケンス発表"
+          ]
+        }
+      },
+      "currentStage": "structural",
+      "stageChangedAt": "2026-07-31T13:30:00+09:00",
+      "supportingInsightIds": [
+        "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+        "global-2026-07-26-capacity-update",
+        "global-2026-07-29-capacity",
+        "global-2026-07-31-industrial-ai"
+      ],
+      "contradictingInsightIds": [],
+      "keyActors": [],
+      "domains": [
+        "AI",
+        "Energy",
+        "Semiconductors",
+        "Physical Infrastructure"
+      ],
+      "nextSignals": [
+        "State utility commission decisions on power service agreements",
+        "Execution of definitive site, power, and transmission agreements",
+        "Environmental review outcomes and local permitting milestones",
+        "Announced sequencing for gas units, storage, and data halls"
+      ],
+      "confidenceScore": 85
+    },
+    {
+      "id": "process-energy-security",
+      "slug": "energy-security",
+      "status": "emerging",
+      "confidence": "developing",
+      "startedAt": "2026-07-18T00:00:00+09:00",
+      "updatedAt": "2026-07-31T10:00:00+09:00",
+      "insightIds": [],
+      "tags": [
+        "electricity",
+        "grid",
+        "energy",
+        "datacenter",
+        "industry",
+        "nuclear",
+        "geopolitics",
+        "capital"
+      ],
+      "connections": [
+        {
+          "processId": "process-ai-infrastructure-race",
+          "relationship": "enables",
+          "weight": 18
+        },
+        {
+          "processId": "process-geopolitical-technology-control",
+          "relationship": "shaped_by",
+          "weight": 12
+        }
+      ],
+      "evolution": [
+        {
+          "id": "energy-e1",
+          "date": "2026-07-18T00:00:00+09:00",
+          "stage": "signal",
+          "impact": "supports",
+          "content": {
+            "en": {
+              "title": "Electricity demand re-enters strategic planning",
+              "description": "Digital and industrial projects begin competing for reliable power access.",
+              "implication": "Energy is moving beyond a utility input into a location constraint."
+            },
+            "zh": {
+              "title": "电力需求重新进入战略规划",
+              "description": "数字与工业项目开始争夺稳定电力接入。",
+              "implication": "能源正从普通投入转变为区位约束。"
+            },
+            "ja": {
+              "title": "電力需要が戦略計画へ戻る",
+              "description": "デジタル・産業プロジェクトが安定電力へのアクセスを競い始めた。",
+              "implication": "エネルギーは単なる投入から立地制約へ変わる。"
+            }
+          },
+          "changeType": "new_evidence",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "energy-e2",
+          "date": "2026-07-29T12:00:00+09:00",
+          "stage": "emerging",
+          "impact": "updates",
+          "content": {
+            "en": {
+              "title": "Grid reliability becomes an economic differentiator",
+              "description": "Connection queues and generation timelines begin shaping investment decisions.",
+              "implication": "Regions with dependable capacity may attract strategic industries."
+            },
+            "zh": {
+              "title": "电网可靠性成为经济差异化因素",
+              "description": "接入排队与发电建设周期开始影响投资决策。",
+              "implication": "拥有稳定容量的地区可能吸引战略产业。"
+            },
+            "ja": {
+              "title": "送電網の信頼性が経済差別化になる",
+              "description": "接続待ちと発電建設期間が投資判断を左右し始めた。",
+              "implication": "安定能力を持つ地域が戦略産業を引き寄せる可能性がある。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "energy-e3",
+          "date": "2026-07-31T10:00:00+09:00",
+          "stage": "accelerating",
+          "impact": "supports",
+          "content": {
+            "en": {
+              "title": "Energy policy converges with technology policy",
+              "description": "Power generation, grids and datacenters are increasingly planned as one capacity system.",
+              "implication": "Energy security is becoming a precondition for digital sovereignty."
+            },
+            "zh": {
+              "title": "能源政策与技术政策开始汇合",
+              "description": "发电、电网与数据中心越来越被作为同一容量系统规划。",
+              "implication": "能源安全正在成为数字主权的前提。"
+            },
+            "ja": {
+              "title": "エネルギー政策と技術政策が合流する",
+              "description": "発電・送電網・データセンターが一つの能力システムとして計画され始めた。",
+              "implication": "エネルギー安全保障がデジタル主権の前提になる。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        }
+      ],
+      "content": {
+        "en": {
+          "title": "Energy becomes strategic capacity",
+          "summary": "Reliable electricity is becoming a direct constraint on digital and industrial expansion.",
+          "thesis": "Energy access may increasingly determine where strategic industries can grow.",
+          "nextQuestion": "Which regions can turn grid reliability into economic advantage?",
+          "domains": [
+            "Energy",
+            "Grid",
+            "Industry",
+            "Geopolitics"
+          ],
+          "storyLabel": "Electricity moves from operating cost to strategic capacity",
+          "currentStageLabel": "Strategic convergence",
+          "stageSummary": "Energy is shifting from an operating input into a strategic location and sovereignty constraint.",
+          "observeNext": [
+            "New generation and grid approvals",
+            "Large-load connection queues",
+            "AI and industrial power contracts"
+          ]
+        },
+        "zh": {
+          "title": "能源成为战略容量",
+          "summary": "稳定电力正在成为数字产业和实体工业扩张的直接约束。",
+          "thesis": "能源获取能力可能越来越决定战略产业能够在哪里成长。",
+          "nextQuestion": "哪些地区能把电网可靠性转化为经济优势？",
+          "domains": [
+            "能源",
+            "电网",
+            "工业",
+            "地缘政治"
+          ],
+          "storyLabel": "电力从运营成本变成战略容量",
+          "currentStageLabel": "战略汇合期",
+          "stageSummary": "能源正在从运营投入转变为区位和主权层面的战略约束。",
+          "observeNext": [
+            "新增发电与电网审批",
+            "大型负荷接入排队",
+            "AI及工业长期电力合同"
+          ]
+        },
+        "ja": {
+          "title": "エネルギーが戦略的供給力になる",
+          "summary": "安定した電力が、デジタル産業と製造業の拡大を直接制約し始めている。",
+          "thesis": "エネルギーへのアクセスが、戦略産業の成長地域を決める可能性が高まっている。",
+          "nextQuestion": "どの地域が送電網の信頼性を経済的優位へ変えられるのか。",
+          "domains": [
+            "エネルギー",
+            "電力網",
+            "産業",
+            "地政学"
+          ],
+          "storyLabel": "電力が運営コストから戦略的供給力へ変わる",
+          "currentStageLabel": "戦略的収束期",
+          "stageSummary": "エネルギーは運営投入から、立地と主権の戦略制約へ移行している。",
+          "observeNext": [
+            "新規発電・送電網の承認",
+            "大型需要の接続待ち",
+            "AI・産業の長期電力契約"
+          ]
+        }
+      },
+      "currentStage": "accelerating",
+      "stageChangedAt": "2026-07-31T10:00:00+09:00",
+      "supportingInsightIds": [],
+      "contradictingInsightIds": [],
+      "keyActors": [],
+      "domains": [
+        "Energy",
+        "Grid",
+        "Industry",
+        "Geopolitics"
+      ],
+      "nextSignals": [
+        "New generation and grid approvals",
+        "Large-load connection queues",
+        "AI and industrial power contracts"
+      ],
+      "confidenceScore": 68
+    },
+    {
+      "id": "process-semiconductor-capacity",
+      "slug": "semiconductor-capacity",
+      "status": "emerging",
+      "confidence": "developing",
+      "startedAt": "2026-07-20T00:00:00+09:00",
+      "updatedAt": "2026-07-31T09:30:00+09:00",
+      "insightIds": [],
+      "tags": [
+        "semiconductor",
+        "compute",
+        "manufacturing",
+        "supply-chain",
+        "policy",
+        "geopolitics",
+        "capital",
+        "ai"
+      ],
+      "connections": [
+        {
+          "processId": "process-ai-infrastructure-race",
+          "relationship": "supplies",
+          "weight": 16
+        },
+        {
+          "processId": "process-geopolitical-technology-control",
+          "relationship": "shaped_by",
+          "weight": 18
+        }
+      ],
+      "evolution": [
+        {
+          "id": "semi-e1",
+          "date": "2026-07-20T00:00:00+09:00",
+          "stage": "signal",
+          "impact": "supports",
+          "content": {
+            "en": {
+              "title": "Chip availability becomes a system constraint",
+              "description": "Advanced compute demand exposes the limits of concentrated manufacturing capacity.",
+              "implication": "Semiconductor supply must be read as infrastructure, not inventory alone."
+            },
+            "zh": {
+              "title": "芯片可得性成为系统约束",
+              "description": "先进算力需求暴露了制造产能高度集中的限制。",
+              "implication": "半导体供应需要被视为基础设施，而不只是库存。"
+            },
+            "ja": {
+              "title": "半導体の入手性がシステム制約になる",
+              "description": "先端計算需要が集中生産能力の限界を示した。",
+              "implication": "半導体供給は在庫ではなくインフラとして読む必要がある。"
+            }
+          },
+          "changeType": "new_evidence",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "semi-e2",
+          "date": "2026-07-28T18:00:00+09:00",
+          "stage": "emerging",
+          "impact": "updates",
+          "content": {
+            "en": {
+              "title": "Factory policy expands into ecosystem policy",
+              "description": "Capital, equipment, talent and allied supply chains become part of the same decision.",
+              "implication": "An isolated fab is insufficient without a complete production ecosystem."
+            },
+            "zh": {
+              "title": "工厂政策扩展为生态政策",
+              "description": "资本、设备、人才与盟友供应链进入同一个决策系统。",
+              "implication": "没有完整生产生态，孤立晶圆厂并不足够。"
+            },
+            "ja": {
+              "title": "工場政策が生態系政策へ広がる",
+              "description": "資本・装置・人材・同盟供給網が同じ判断に組み込まれる。",
+              "implication": "完全な生産生態系なしに孤立工場だけでは不十分になる。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "semi-e3",
+          "date": "2026-07-31T09:30:00+09:00",
+          "stage": "accelerating",
+          "impact": "challenges",
+          "content": {
+            "en": {
+              "title": "Geopolitical controls reshape capacity economics",
+              "description": "Export controls and alliance rules alter where equipment, chips and capital can move.",
+              "implication": "Nominal capacity growth may not equal globally usable capacity."
+            },
+            "zh": {
+              "title": "地缘管制重塑产能经济性",
+              "description": "出口管制与联盟规则改变设备、芯片与资本的流动范围。",
+              "implication": "名义产能增长不等于全球可用产能增长。"
+            },
+            "ja": {
+              "title": "地政学的統制が能力経済を変える",
+              "description": "輸出規制と同盟ルールが装置・半導体・資本の移動先を変える。",
+              "implication": "名目能力の増加が世界で利用可能な能力増加とは限らない。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        }
+      ],
+      "content": {
+        "en": {
+          "title": "Semiconductor capacity becomes geopolitical infrastructure",
+          "summary": "Advanced chip supply is increasingly shaped by long-term capacity, policy and geography.",
+          "thesis": "The semiconductor advantage may depend as much on coordinated ecosystems as on individual chip designs.",
+          "nextQuestion": "Can new manufacturing regions build complete ecosystems rather than isolated factories?",
+          "domains": [
+            "Semiconductors",
+            "Manufacturing",
+            "Policy",
+            "Geopolitics"
+          ],
+          "storyLabel": "Chips move from products to geopolitical infrastructure",
+          "currentStageLabel": "Ecosystem contest",
+          "stageSummary": "Capacity expansion is accelerating, but usable supply is increasingly segmented by policy and alliances.",
+          "observeNext": [
+            "Equipment export-control scope",
+            "Advanced packaging capacity",
+            "Talent and supplier clustering around new fabs"
+          ]
+        },
+        "zh": {
+          "title": "半导体产能成为地缘基础设施",
+          "summary": "先进芯片供应越来越受到长期产能、政策与地理位置共同塑造。",
+          "thesis": "半导体优势可能同样取决于协同生态，而不只是单一芯片设计。",
+          "nextQuestion": "新的制造地区能否建立完整生态，而不只是孤立工厂？",
+          "domains": [
+            "半导体",
+            "制造业",
+            "政策",
+            "地缘政治"
+          ],
+          "storyLabel": "芯片从商品变成地缘基础设施",
+          "currentStageLabel": "生态竞争期",
+          "stageSummary": "产能扩张正在加速，但可用供给越来越受到政策与联盟分割。",
+          "observeNext": [
+            "设备出口管制范围",
+            "先进封装产能",
+            "新晶圆厂周边人才与供应商聚集"
+          ]
+        },
+        "ja": {
+          "title": "半導体能力が地政学的インフラになる",
+          "summary": "先端半導体の供給は、長期能力・政策・地理によって形づくられつつある。",
+          "thesis": "半導体の優位は、個別設計だけでなく連携した生態系にも左右される可能性がある。",
+          "nextQuestion": "新しい生産地域は、孤立した工場ではなく完全な生態系を構築できるのか。",
+          "domains": [
+            "半導体",
+            "製造",
+            "政策",
+            "地政学"
+          ],
+          "storyLabel": "半導体が製品から地政学的インフラへ変わる",
+          "currentStageLabel": "生態系競争期",
+          "stageSummary": "能力拡張は加速しているが、利用可能な供給は政策と同盟で分断されつつある。",
+          "observeNext": [
+            "装置輸出規制の範囲",
+            "先端パッケージ能力",
+            "新工場周辺の人材・供給者集積"
+          ]
+        }
+      },
+      "currentStage": "accelerating",
+      "stageChangedAt": "2026-07-31T09:30:00+09:00",
+      "supportingInsightIds": [],
+      "contradictingInsightIds": [],
+      "keyActors": [],
+      "domains": [
+        "Semiconductors",
+        "Manufacturing",
+        "Policy",
+        "Geopolitics"
+      ],
+      "nextSignals": [
+        "Equipment export-control scope",
+        "Advanced packaging capacity",
+        "Talent and supplier clustering around new fabs"
+      ],
+      "confidenceScore": 68
+    },
+    {
+      "id": "process-geopolitical-technology-control",
+      "slug": "geopolitical-technology-control",
+      "status": "accelerating",
+      "confidence": "developing",
+      "startedAt": "2026-07-24T00:00:00+09:00",
+      "updatedAt": "2026-07-31T09:00:00+09:00",
+      "insightIds": [],
+      "tags": [
+        "geopolitics",
+        "policy",
+        "export-control",
+        "semiconductor",
+        "energy",
+        "supply-chain",
+        "ai",
+        "security"
+      ],
+      "connections": [
+        {
+          "processId": "process-semiconductor-capacity",
+          "relationship": "constrains",
+          "weight": 18
+        },
+        {
+          "processId": "process-energy-security",
+          "relationship": "shaped_by",
+          "weight": 12
+        }
+      ],
+      "evolution": [
+        {
+          "id": "geo-e1",
+          "date": "2026-07-24T00:00:00+09:00",
+          "stage": "signal",
+          "impact": "supports",
+          "content": {
+            "en": {
+              "title": "Technology policy enters national security",
+              "description": "Chips, data and industrial systems are increasingly governed through security frameworks.",
+              "implication": "Market access begins to depend on strategic alignment."
+            },
+            "zh": {
+              "title": "技术政策进入国家安全框架",
+              "description": "芯片、数据与工业系统越来越通过安全框架治理。",
+              "implication": "市场准入开始依赖战略阵营。"
+            },
+            "ja": {
+              "title": "技術政策が国家安全保障に入る",
+              "description": "半導体・データ・産業システムが安全保障枠組みで統治され始めた。",
+              "implication": "市場アクセスが戦略的整合に依存し始める。"
+            }
+          },
+          "changeType": "new_evidence",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "geo-e2",
+          "date": "2026-07-29T00:00:00+09:00",
+          "stage": "emerging",
+          "impact": "updates",
+          "content": {
+            "en": {
+              "title": "Controls expand from products to ecosystems",
+              "description": "Rules increasingly cover equipment, capital, talent and cloud access.",
+              "implication": "Technology blocs begin forming around controlled capacity."
+            },
+            "zh": {
+              "title": "管制从产品扩展到生态系统",
+              "description": "规则越来越覆盖设备、资本、人才与云服务准入。",
+              "implication": "围绕受控能力的技术阵营开始形成。"
+            },
+            "ja": {
+              "title": "統制が製品から生態系へ広がる",
+              "description": "規則が装置・資本・人材・クラウド利用まで覆い始めた。",
+              "implication": "統制能力を中心に技術ブロックが形成される。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        },
+        {
+          "id": "geo-e3",
+          "date": "2026-07-31T09:00:00+09:00",
+          "stage": "accelerating",
+          "impact": "supports",
+          "content": {
+            "en": {
+              "title": "Industrial capacity becomes an alliance asset",
+              "description": "Energy, semiconductor and AI infrastructure are coordinated through security and alliance policy.",
+              "implication": "Efficiency is no longer the only objective; resilience and control gain weight."
+            },
+            "zh": {
+              "title": "工业容量成为联盟资产",
+              "description": "能源、半导体与AI基础设施开始通过安全和联盟政策协同。",
+              "implication": "效率不再是唯一目标，韧性与控制权的重要性上升。"
+            },
+            "ja": {
+              "title": "産業能力が同盟資産になる",
+              "description": "エネルギー・半導体・AIインフラが安全保障と同盟政策で調整され始めた。",
+              "implication": "効率だけでなく強靭性と統制が重視される。"
+            }
+          },
+          "changeType": "stage_transition",
+          "confidenceDelta": 0,
+          "evidenceIds": []
+        }
+      ],
+      "content": {
+        "en": {
+          "title": "Technology control becomes geopolitical infrastructure",
+          "summary": "States are treating chips, energy, data and industrial supply chains as instruments of national power.",
+          "thesis": "The geography of technological growth will increasingly be shaped by security policy, alliances and controlled access to critical capacity.",
+          "nextQuestion": "Will technology blocs become more important than global market efficiency?",
+          "domains": [
+            "Geopolitics",
+            "Technology Policy",
+            "Security",
+            "Supply Chains"
+          ],
+          "storyLabel": "From open technology markets to strategic technology blocs",
+          "currentStageLabel": "Bloc formation",
+          "stageSummary": "Technology controls are accelerating from targeted restrictions into ecosystem-level alignment.",
+          "observeNext": [
+            "Expansion of export-control categories",
+            "Allied investment-screening rules",
+            "Cross-border cloud, data and energy restrictions"
+          ]
+        },
+        "zh": {
+          "title": "技术控制成为地缘基础设施",
+          "summary": "国家正在把芯片、能源、数据与工业供应链视为国家力量的工具。",
+          "thesis": "技术增长的地理分布，将越来越受到安全政策、联盟关系和关键能力准入的塑造。",
+          "nextQuestion": "技术阵营的重要性是否会超过全球市场效率？",
+          "domains": [
+            "地缘政治",
+            "技术政策",
+            "安全",
+            "供应链"
+          ],
+          "storyLabel": "从开放技术市场走向战略技术阵营",
+          "currentStageLabel": "阵营形成期",
+          "stageSummary": "技术管制正从定向限制，加速成为生态系统层面的阵营协同。",
+          "observeNext": [
+            "出口管制品类扩张",
+            "盟友投资审查规则",
+            "跨境云、数据与能源限制"
+          ]
+        },
+        "ja": {
+          "title": "技術統制が地政学的インフラになる",
+          "summary": "国家は半導体・エネルギー・データ・産業供給網を国力の手段として扱い始めている。",
+          "thesis": "技術成長の地理は、安全保障政策・同盟・重要能力への統制されたアクセスによって一層形づくられる。",
+          "nextQuestion": "技術ブロックは世界市場の効率性より重要になるのか。",
+          "domains": [
+            "地政学",
+            "技術政策",
+            "安全保障",
+            "供給網"
+          ],
+          "storyLabel": "開かれた技術市場から戦略的技術ブロックへ",
+          "currentStageLabel": "ブロック形成期",
+          "stageSummary": "技術統制は個別制限から、生態系レベルの陣営調整へ加速している。",
+          "observeNext": [
+            "輸出規制対象の拡大",
+            "同盟国の投資審査規則",
+            "越境クラウド・データ・エネルギー制限"
+          ]
+        }
+      },
+      "currentStage": "accelerating",
+      "stageChangedAt": "2026-07-31T09:00:00+09:00",
+      "supportingInsightIds": [],
+      "contradictingInsightIds": [],
+      "keyActors": [],
+      "domains": [
+        "Geopolitics",
+        "Technology Policy",
+        "Security",
+        "Supply Chains"
+      ],
+      "nextSignals": [
+        "Expansion of export-control categories",
+        "Allied investment-screening rules",
+        "Cross-border cloud, data and energy restrictions"
+      ],
+      "confidenceScore": 68
+    }
+  ],
+  "dailyStates": [
+    {
+      "id": "daily-2026-08-01",
+      "date": "2026-08-01",
+      "decidedAt": "2026-08-01T15:12:48.498Z",
+      "state": "update_living",
+      "insightId": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 58,
+      "evidenceStrength": 62,
+      "noveltyScore": 74,
+      "importanceScore": 88,
+      "candidateSignalIds": [
+        "sig-2026-08-01-paducah-ai-campus"
+      ],
+      "content": {
+        "en": {
+          "label": "Update",
+          "decisionTitle": "Living Insight updated",
+          "decisionSummary": "The Paducah project bundles federal land, AI compute, dedicated gas generation, battery storage and transmission into one infrastructure plan.",
+          "thresholdReason": "The candidate was originally below the automatic publication threshold and was published after explicit human review and override.",
+          "observeNext": [
+            "State utility approval of power service agreements",
+            "Execution of definitive site, power, and transmission agreements",
+            "Environmental review and local permitting milestones",
+            "Construction sequencing across power and data center works"
+          ]
+        },
+        "zh": {
+          "label": "更新",
+          "decisionTitle": "持续洞察已更新",
+          "decisionSummary": "帕杜卡项目把联邦土地、AI算力、专用燃气发电、电池储能与输电升级纳入同一基础设施方案。",
+          "thresholdReason": "该候选原本未达到自动发布门槛，经人工审核并明确覆盖后，作为持续洞察更新发布。",
+          "observeNext": [
+            "州级对供电服务协议的批准",
+            "场地、供电与输电的最终协议签署",
+            "环境评审与本地许可进展",
+            "电源与数据中心施工进度同步性"
+          ]
+        },
+        "ja": {
+          "label": "更新",
+          "decisionTitle": "継続インサイトを更新",
+          "decisionSummary": "パデューカ計画は、連邦用地、AI計算資源、専用ガス発電、蓄電、送電増強を一つのインフラ計画にまとめています。",
+          "thresholdReason": "この候補は自動公開基準を下回っていましたが、人による明示的な審査とオーバーライドを経て継続インサイトとして公開されました。",
+          "observeNext": [
+            "電力供給契約に対する州の承認",
+            "用地・電源・送電の最終契約締結",
+            "環境審査と地域許認可の進捗",
+            "電源設備とデータセンターの施工同期"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily-2026-07-31",
+      "date": "2026-07-31",
+      "decidedAt": "2026-07-31T13:30:00+09:00",
+      "state": "update_living",
+      "candidateSignalIds": [
+        "candidate-2026-07-31-project-finance",
+        "candidate-2026-07-31-industrial-site",
+        "candidate-2026-07-31-utility-demand"
+      ],
+      "insightId": "global-2026-07-31-industrial-ai",
+      "previousInsightId": "global-2026-07-29-capacity",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 88,
+      "evidenceStrength": 91,
+      "noveltyScore": 82,
+      "importanceScore": 94,
+      "content": {
+        "en": {
+          "label": "PROCESS UPDATE",
+          "decisionTitle": "An existing world process crossed into a new operating phase.",
+          "decisionSummary": "New financing, land and utility evidence changed the thesis from capacity scarcity to industrial assembly.",
+          "thresholdReason": "The evidence is independent, cross-domain and strong enough to update the current World Process rather than publish a separate one."
+        },
+        "zh": {
+          "label": "进程更新",
+          "decisionTitle": "一个既有世界进程进入了新的运行阶段。",
+          "decisionSummary": "融资、土地与公用事业的新证据，把判断从“容量稀缺”推进到“工业化组织能力”。",
+          "thresholdReason": "证据来自彼此独立的多个领域，足以更新现有世界进程，但还不足以建立一条全新的世界进程。"
+        },
+        "ja": {
+          "label": "プロセス更新",
+          "decisionTitle": "既存の世界プロセスが新しい運用段階へ移った。",
+          "decisionSummary": "金融・土地・電力の新証拠により、判断は「容量不足」から「産業的な組成能力」へ進んだ。",
+          "thresholdReason": "複数領域の独立した証拠が既存プロセスの更新には十分だが、新しい世界プロセスを立てる段階ではない。"
+        }
+      }
+    },
+    {
+      "id": "daily-2026-07-30",
+      "date": "2026-07-30",
+      "decidedAt": "2026-07-30T18:00:00+09:00",
+      "state": "no_new_global_insight",
+      "candidateSignalIds": [
+        "candidate-2026-07-30-support"
+      ],
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 34,
+      "evidenceStrength": 67,
+      "noveltyScore": 28,
+      "importanceScore": 61,
+      "content": {
+        "en": {
+          "label": "NO MATERIAL UPDATE",
+          "decisionTitle": "The world moved, but the thesis did not need to change.",
+          "decisionSummary": "Several supporting signals appeared, yet none crossed the threshold for a new Global Insight.",
+          "thresholdReason": "The signals reinforced existing expectations without changing the system relationship or the process stage."
+        },
+        "zh": {
+          "label": "暂无重大更新",
+          "decisionTitle": "世界仍在变化，但现有判断无需改变。",
+          "decisionSummary": "出现了若干支持性信号，但没有任何一项跨过全球级洞察的发布门槛。",
+          "thresholdReason": "这些信号只是在强化既有预期，没有改变系统关系，也没有推动世界进程发生阶段跃迁。"
+        },
+        "ja": {
+          "label": "重要な更新なし",
+          "decisionTitle": "世界は動いたが、判断を変える必要はなかった。",
+          "decisionSummary": "支持材料は増えたが、新しいグローバルインサイトの閾値には届かなかった。",
+          "thresholdReason": "既存予想を補強しただけで、システム関係やプロセス段階は変化していない。"
+        }
+      }
+    },
+    {
+      "id": "daily-2026-07-29",
+      "date": "2026-07-29",
+      "decidedAt": "2026-07-29T12:00:00+09:00",
+      "state": "publish_new",
+      "candidateSignalIds": [
+        "candidate-2026-07-29-capacity"
+      ],
+      "insightId": "global-2026-07-29-capacity",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 92,
+      "evidenceStrength": 88,
+      "noveltyScore": 91,
+      "importanceScore": 95,
+      "content": {
+        "en": {
+          "label": "NEW INSIGHT",
+          "decisionTitle": "A new system relationship became visible.",
+          "decisionSummary": "AI competition shifted from model capability toward scarce physical capacity.",
+          "thresholdReason": "The change was novel, independently evidenced and large enough to establish a new World Process thesis."
+        },
+        "zh": {
+          "label": "新洞察",
+          "decisionTitle": "一个新的系统关系开始清晰可见。",
+          "decisionSummary": "AI竞争从模型能力，转向对稀缺物理容量的争夺。",
+          "thresholdReason": "这项变化具有新颖性、独立证据与足够影响力，因此达到了建立新世界进程命题的门槛。"
+        },
+        "ja": {
+          "label": "新しい洞察",
+          "decisionTitle": "新しいシステム関係が見えるようになった。",
+          "decisionSummary": "AI競争はモデル性能から希少な物理容量の争奪へ移った。",
+          "thresholdReason": "新規性、独立した証拠、影響度がそろい、新しい世界プロセス命題を作る閾値に達した。"
+        }
+      }
+    }
+  ],
+  "dailyCandidates": [
+    {
+      "id": "candidate-2026-08-01-follow-through",
+      "date": "2026-08-01",
+      "processId": "process-ai-infrastructure-race",
+      "tags": [
+        "ai",
+        "finance",
+        "power",
+        "follow-through"
+      ],
+      "domain": "infrastructure",
+      "importance": 69,
+      "novelty": 31,
+      "evidenceStrength": 70,
+      "independentSourceCount": 2,
+      "thesisImpact": 41,
+      "relationshipChange": 34,
+      "stageChange": 30,
+      "contradiction": 4,
+      "content": {
+        "en": {
+          "title": "Industrial AI signals continue without a new break",
+          "summary": "The newest follow-through supports the current thesis but does not change its structure or stage."
+        },
+        "zh": {
+          "title": "AI工业化信号延续，但没有出现新的突破",
+          "summary": "最新后续信号支持当前判断，但没有改变其结构或阶段。"
+        },
+        "ja": {
+          "title": "AI産業化のシグナルは続くが、新しい転換はない",
+          "summary": "最新の追随材料は現在の判断を支持するが、構造や段階は変えていない。"
+        }
+      }
+    },
+    {
+      "id": "candidate-2026-07-31-project-finance",
+      "date": "2026-07-31",
+      "processId": "process-ai-infrastructure-race",
+      "tags": [
+        "ai",
+        "finance",
+        "datacenter",
+        "power"
+      ],
+      "domain": "finance",
+      "importance": 95,
+      "novelty": 88,
+      "evidenceStrength": 92,
+      "independentSourceCount": 3,
+      "thesisImpact": 90,
+      "relationshipChange": 91,
+      "stageChange": 88,
+      "contradiction": 8,
+      "content": {
+        "en": {
+          "title": "AI capacity enters project finance",
+          "summary": "Banks, guarantees and dedicated power now assemble AI capacity."
+        },
+        "zh": {
+          "title": "AI容量进入项目融资",
+          "summary": "银行、担保与专用电力开始共同组织AI容量。"
+        },
+        "ja": {
+          "title": "AI能力がプロジェクト金融へ入る",
+          "summary": "銀行・保証・専用電源がAI能力を組成し始めた。"
+        }
+      }
+    },
+    {
+      "id": "candidate-2026-07-31-industrial-site",
+      "date": "2026-07-31",
+      "processId": "process-ai-infrastructure-race",
+      "tags": [
+        "ai",
+        "land",
+        "energy",
+        "policy"
+      ],
+      "domain": "policy",
+      "importance": 92,
+      "novelty": 84,
+      "evidenceStrength": 89,
+      "independentSourceCount": 2,
+      "thesisImpact": 86,
+      "relationshipChange": 88,
+      "stageChange": 85,
+      "contradiction": 5,
+      "content": {
+        "en": {
+          "title": "Industrial sites become AI-energy campuses",
+          "summary": "Public land, generation and compute are assembled as one system."
+        },
+        "zh": {
+          "title": "工业场地变成AI—能源园区",
+          "summary": "公共土地、发电与算力被作为一个系统组织。"
+        },
+        "ja": {
+          "title": "産業用地がAI・エネルギー拠点へ変わる",
+          "summary": "公共用地・発電・計算資源が一体で組成される。"
+        }
+      }
+    },
+    {
+      "id": "candidate-2026-07-31-utility-demand",
+      "date": "2026-07-31",
+      "processId": "process-ai-infrastructure-race",
+      "tags": [
+        "ai",
+        "utility",
+        "electricity"
+      ],
+      "domain": "energy",
+      "importance": 88,
+      "novelty": 76,
+      "evidenceStrength": 91,
+      "independentSourceCount": 3,
+      "thesisImpact": 82,
+      "relationshipChange": 84,
+      "stageChange": 78,
+      "contradiction": 4,
+      "content": {
+        "en": {
+          "title": "AI demand enters utility planning",
+          "summary": "Electricity demand now changes earnings and capital plans."
+        },
+        "zh": {
+          "title": "AI需求进入电力公司规划",
+          "summary": "用电需求开始改变业绩与资本计划。"
+        },
+        "ja": {
+          "title": "AI需要が電力会社の計画へ入る",
+          "summary": "電力需要が業績と設備投資計画を変え始めた。"
+        }
+      }
+    },
+    {
+      "id": "candidate-2026-07-30-support",
+      "date": "2026-07-30",
+      "processId": "process-ai-infrastructure-race",
+      "tags": [
+        "ai",
+        "capacity"
+      ],
+      "domain": "infrastructure",
+      "importance": 61,
+      "novelty": 28,
+      "evidenceStrength": 67,
+      "independentSourceCount": 1,
+      "thesisImpact": 34,
+      "relationshipChange": 25,
+      "stageChange": 22,
+      "contradiction": 3,
+      "content": {
+        "en": {
+          "title": "Capacity commitments continue",
+          "summary": "The signal supports the existing thesis but does not alter it."
+        },
+        "zh": {
+          "title": "容量承诺继续增加",
+          "summary": "信号支持既有判断，但没有改变判断。"
+        },
+        "ja": {
+          "title": "容量確保が続く",
+          "summary": "既存判断を支持するが、判断自体は変えない。"
+        }
+      }
+    },
+    {
+      "id": "candidate-2026-07-29-capacity",
+      "date": "2026-07-29",
+      "tags": [
+        "ai",
+        "capacity",
+        "power",
+        "land",
+        "compute"
+      ],
+      "domain": "infrastructure",
+      "importance": 95,
+      "novelty": 91,
+      "evidenceStrength": 88,
+      "independentSourceCount": 3,
+      "thesisImpact": 92,
+      "relationshipChange": 94,
+      "stageChange": 90,
+      "contradiction": 0,
+      "content": {
+        "en": {
+          "title": "Physical capacity becomes the scarce AI asset",
+          "summary": "A new system relationship appears across power, compute and land."
+        },
+        "zh": {
+          "title": "物理容量成为AI稀缺资产",
+          "summary": "电力、算力与土地之间出现新的系统关系。"
+        },
+        "ja": {
+          "title": "物理容量がAIの希少資産になる",
+          "summary": "電力・計算資源・土地に新しいシステム関係が現れた。"
+        }
+      }
+    }
+  ],
+  "researchDrafts": [
+    {
+      "id": "research-2026-08-01-sample",
+      "status": "draft",
+      "researchedAt": "2026-08-01T18:00:00+09:00",
+      "researchDate": "2026-08-01",
+      "model": "sample-offline",
+      "querySummary": "AI infrastructure, energy and industrial financing signals",
+      "candidates": [
+        {
+          "id": "research-signal-ai-grid-capacity",
+          "date": "2026-08-01",
+          "domain": "AI Infrastructure",
+          "tags": [
+            "ai",
+            "datacenter",
+            "electricity",
+            "grid"
+          ],
+          "suggestedProcessId": "process-ai-infrastructure-race",
+          "processMatchConfidence": 91,
+          "importance": 86,
+          "novelty": 72,
+          "evidenceStrength": 82,
+          "independentSourceCount": 2,
+          "thesisImpact": 66,
+          "relationshipChange": 74,
+          "stageChange": 48,
+          "contradiction": 8,
+          "content": {
+            "en": {
+              "title": "Grid access is becoming an AI deployment constraint",
+              "coreFact": "New data-center projects increasingly depend on power availability and grid connection timing.",
+              "whyItMatters": "AI capacity may be limited by infrastructure delivery rather than chip supply alone.",
+              "processMatchReason": "This extends the AI infrastructure process from compute into electricity and permitting."
+            },
+            "zh": {
+              "title": "电网接入正成为AI部署约束",
+              "coreFact": "新的数据中心项目越来越依赖电力供应和电网接入时间。",
+              "whyItMatters": "AI容量的限制可能不再只是芯片，而是基础设施交付能力。",
+              "processMatchReason": "这把AI基础设施进程从算力扩展到电力与审批。"
+            },
+            "ja": {
+              "title": "系統接続がAI導入の制約になりつつある",
+              "coreFact": "新しいデータセンター計画は電力供給と系統接続時期への依存を強めています。",
+              "whyItMatters": "AI容量は半導体だけでなく、インフラ整備速度によって制約される可能性があります。",
+              "processMatchReason": "AIインフラ競争を計算資源から電力と許認可へ拡張するシグナルです。"
+            }
+          },
+          "sources": [
+            {
+              "title": "Example primary source placeholder",
+              "url": "https://example.com/primary",
+              "publisher": "Example",
+              "publishedAt": "2026-08-01",
+              "kind": "primary",
+              "id": "research-signal-ai-grid-capacity-source-1",
+              "role": "trigger"
+            },
+            {
+              "title": "Example reporting placeholder",
+              "url": "https://example.com/reporting",
+              "publisher": "Example",
+              "publishedAt": "2026-08-01",
+              "kind": "reliable_media",
+              "id": "research-signal-ai-grid-capacity-source-2",
+              "role": "corroborating"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "writerDrafts": [
+    {
+      "id": "writer-sig-2026-08-01-paducah-ai-campus-1785594109578",
+      "status": "approved",
+      "writtenAt": "2026-08-01T14:21:49.578Z",
+      "researchDraftId": "research-2026-08-01-1785593507004",
+      "candidateId": "sig-2026-08-01-paducah-ai-campus",
+      "model": "gpt-5-2025-08-07",
+      "dailyState": "update_living",
+      "matchedProcessId": "process-ai-infrastructure-race",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ],
+        "humanOverrideApplied": true
+      },
+      "insight": {
+        "id": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+        "slug": "doe-paducah-ai-campus-brookfield-nextera",
+        "status": "update_living",
+        "processId": "process-ai-infrastructure-race",
+        "publishedAt": "2026-08-01T00:00:00.000Z",
+        "updatedAt": "2026-08-01T14:21:49.578Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "AI • Energy • Geopolitics",
+              "secondaryEyebrow": "The AI infrastructure race",
+              "title": "DOE taps Brookfield for Paducah AI campus; NextEra to build 2 GW gas + 2.6 GW storage to power 1.8‑GW data center",
+              "summary": "Reporting indicates the U.S. Energy Department selected Brookfield to develop an AI data center campus on its Paducah site in Kentucky. NextEra would build and own about 2 GW of natural‑gas generation and 2.6 GW of battery storage, plus transmission upgrades, to support roughly 1.8 GW of data center load. The department signaled completion around 2031 and said power service agreements will need state approval—turning a Cold War uranium facility into bundled compute and firm power on federal land."
+            },
+            "question": {
+              "lead": "A former uranium enrichment complex may become a gigawatt‑scale compute and energy hub.",
+              "title": "Are federal sites plus private capital becoming the fastest path to firm power for AI?",
+              "footnote": "Key details are drawn from current reporting and agency materials and may evolve with regulatory review and commercial agreements."
+            },
+            "signals": {
+              "title": "What we’re seeing",
+              "sourceNote": "Signals are based on the listed sources; interpretations are cautious where formal confirmations are pending.",
+              "items": [
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-1",
+                  "label": "Trigger",
+                  "title": "Paducah AI campus with dedicated gas and storage",
+                  "body": "Reports say the Energy Department chose Brookfield for a multi‑phase AI campus at the Paducah Gaseous Diffusion Plant. NextEra would develop and own roughly 2 GW of gas generation, 2.6 GW of battery storage, and transmission upgrades to supply about 1.8 GW of data center capacity. Construction completion was indicated around 2031, with state‑level approval required for power service agreements.",
+                  "whyImportant": "Pairs compute with on‑site firm power on federal land, potentially easing grid constraints for hyperscale AI while aligning long‑lead energy and transmission with campus buildout.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-1",
+                      "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                      "description": "Report outlining selection of a developer for the Paducah site and a plan for dedicated gas generation, storage, and transmission upgrades to support a large AI data center campus, with completion timing and regulatory approvals noted.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src-ap-paducah"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-ap-paducah",
+                      "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                      "publisher": "AP News",
+                      "url": "https://apnews.com/article/ai-data-center-kentucky-uranium-gas-a4cf07af1b6776971dc5d609c996ca13",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-2",
+                  "label": "Context",
+                  "title": "DOE sought Paducah AI and energy proposals",
+                  "body": "Prior agency materials show the department invited proposals for AI data centers and supporting energy projects at the Paducah site.",
+                  "whyImportant": "Establishes that federal land at Paducah was being positioned for combined compute and energy development prior to the reported selection.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-2",
+                      "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                      "description": "Agency announcement requesting proposals for AI data centers and energy projects at the Paducah site.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-paducah-rfo"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-paducah-rfo",
+                      "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                      "publisher": "U.S. Department of Energy (EM)",
+                      "publishedAt": "2025-11-04",
+                      "url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-3",
+                  "label": "Local temperature",
+                  "title": "Strong community interest in Paducah plans",
+                  "body": "A public presentation on the proposed data center project drew a large local audience earlier this year.",
+                  "whyImportant": "Community engagement and acceptance will influence permitting pace and long‑term project viability.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-3",
+                      "title": "Paducah data center presentation draws big crowd",
+                      "description": "Report noting high local turnout for a presentation on the Paducah data center concept.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src-exchangemonitor"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-exchangemonitor",
+                      "title": "Paducah data center presentation draws big crowd",
+                      "publisher": "ExchangeMonitor",
+                      "publishedAt": "2026-02-19",
+                      "url": "https://www.exchangemonitor.com/paducah-data-center-presentation-draws-big-crowd/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-4",
+                  "label": "Pattern",
+                  "title": "Separate federal site also pursuing AI data center plus energy",
+                  "body": "The department recently selected a contractor to develop an AI data center and energy project at another federal complex, the Savannah River Site.",
+                  "whyImportant": "Suggests a broader federal approach of pairing compute with dedicated energy on secure government land.",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-4",
+                      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                      "description": "Agency announcement selecting a contractor for an AI data center and energy project at a federal site in South Carolina.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-srs-amentum"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-srs-amentum",
+                      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                      "publisher": "U.S. Department of Energy (NNSA)",
+                      "publishedAt": "2026-07-20",
+                      "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "corroborating source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "What we’re seeing",
+              "before": "Many hyperscale builds depended primarily on existing grid capacity and incremental utility upgrades.",
+              "shift": "Developers and public agencies are moving to co‑locate firm power with compute on large, secure sites—bundling generation, storage, transmission, land, and financing.",
+              "now": "At Paducah, the reported plan pairs a 1.8‑GW data center campus with about 2 GW of gas generation and 2.6 GW of storage, with state approvals and a long construction horizon indicated.",
+              "conclusion": "Federal land may serve as an accelerator for AI capacity by aligning energy and compute timelines, while still requiring regulatory clearance and community support."
+            },
+            "insight": {
+              "title": "Power‑first AI campuses on federal land",
+              "formula": "Durable AI capacity = land access + firm power + capital + synchronized approvals and construction",
+              "explanation": "Before: Hyperscale projects often waited on grid interconnections and utility timelines. Shift: Pairing dedicated generation and storage with data center campuses on large federal sites aligns energy delivery with compute buildouts. Now: The Paducah plan, as described in current reports and agency context, bundles land, gas, batteries, and transmission upgrades for a multi‑phase AI campus with a long but defined path, pending state approval. This approach could ease local grid stress and, if conditions allow, potentially provide surplus back to the regional system. The memorable takeaway: winning the AI infrastructure race increasingly starts with firm power secured at the site."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "State utility approval",
+                  "prompt": "Does the relevant state regulator approve the power service agreements tied to the Paducah campus?",
+                  "meta": "Confirmation would de‑risk the power supply; delays would push timelines."
+                },
+                {
+                  "label": "Project agreements",
+                  "prompt": "Do Brookfield, NextEra, and the department finalize definitive site, power, and transmission agreements?",
+                  "meta": "Executed agreements would signal commercial momentum."
+                },
+                {
+                  "label": "Permitting and community",
+                  "prompt": "Are environmental reviews and local permitting milestones met without major opposition?",
+                  "meta": "Smooth progress would support the 2031 completion indication; significant pushback could alter scope or timing."
+                },
+                {
+                  "label": "Construction sequencing",
+                  "prompt": "Do early works, generation, storage, and data hall buildouts move in lockstep?",
+                  "meta": "Synchronized schedules are critical to avoid stranded compute or power."
+                }
+              ],
+              "ending": "If these checkpoints land on time, the model of power‑first AI campuses on federal land will look increasingly executable."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "AI • 能源 • 地缘",
+              "secondaryEyebrow": "AI 基础设施竞赛",
+              "title": "美国能源部据报选定 Brookfield 开发帕杜卡 AI 园区，NextEra 提供 2GW 燃气 + 2.6GW 储能支撑 1.8GW 数据中心",
+              "summary": "多方报道显示，能源部在其位于肯塔基州的帕杜卡旧址选择 Brookfield 分期建设 AI 数据中心园区，NextEra 计划建设并持有约 2GW 燃气发电、2.6GW 电池储能及输电升级，以支撑约 1.8GW 数据中心负荷。部门方面提到完工时间在 2031 年左右，供电服务协议需州级批准——把冷战时期铀设施转化为联邦土地上的“算力+确定性电源”一体化项目。"
+            },
+            "question": {
+              "lead": "一个曾用于铀浓缩的基地，正被规划为吉瓦级算力与电力枢纽。",
+              "title": "“联邦土地 + 私营资本”会成为 AI 确定性电源的最快通道吗？",
+              "footnote": "关键信息来自当前报道与机构材料，后续可能随监管审查和商业协议推进而调整。"
+            },
+            "signals": {
+              "title": "正在浮现的信号",
+              "sourceNote": "以下信号据所列来源整理；在正式确认尚未完成处保持审慎表述。",
+              "items": [
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-1",
+                  "label": "触发",
+                  "title": "帕杜卡 AI 园区配套专属燃机与储能",
+                  "body": "据报道，能源部在帕杜卡气体扩散厂旧址选定 Brookfield 开发分期 AI 园区。NextEra 将建设并持有约 2GW 燃气、2.6GW 储能及输电升级，为约 1.8GW 数据中心供能。项目完工指向 2031 年左右，供电服务协议需州监管批准。",
+                  "whyImportant": "在联邦土地上把算力与现场“确定性电源”打包，有望缓解超大规模 AI 对电网的即时压力，并使电力与园区建设节奏对齐。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-1",
+                      "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                      "description": "报道概述了在帕杜卡旧址选定开发方、并以燃机、储能与输电升级支撑大型 AI 数据中心的计划，以及完工时点与监管审批要求。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src-ap-paducah"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-ap-paducah",
+                      "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                      "publisher": "AP News",
+                      "url": "https://apnews.com/article/ai-data-center-kentucky-uranium-gas-a4cf07af1b6776971dc5d609c996ca13",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-2",
+                  "label": "背景",
+                  "title": "能源部曾公开征集帕杜卡的 AI 与能源方案",
+                  "body": "先前的部门材料显示，机构已面向帕杜卡旧址征集 AI 数据中心与能源项目提案。",
+                  "whyImportant": "说明联邦土地早已被定位为“算力+能源”一体化开发场景，为当前进展铺垫。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-2",
+                      "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                      "description": "机构公告，面向帕杜卡旧址征集 AI 数据中心与能源项目提案。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-paducah-rfo"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-paducah-rfo",
+                      "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                      "publisher": "U.S. Department of Energy (EM)",
+                      "publishedAt": "2025-11-04",
+                      "url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-3",
+                  "label": "社区温度",
+                  "title": "帕杜卡项目宣讲吸引大量到场",
+                  "body": "今年早些时候，关于该数据中心方案的公开宣讲吸引了当地大量听众。",
+                  "whyImportant": "社区沟通与接受度将影响许可节奏与项目韧性。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-3",
+                      "title": "Paducah data center presentation draws big crowd",
+                      "description": "报道指出，帕杜卡数据中心方案的宣讲活动现场参与人数众多。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src-exchangemonitor"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-exchangemonitor",
+                      "title": "Paducah data center presentation draws big crowd",
+                      "publisher": "ExchangeMonitor",
+                      "publishedAt": "2026-02-19",
+                      "url": "https://www.exchangemonitor.com/paducah-data-center-presentation-draws-big-crowd/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-4",
+                  "label": "相关模式",
+                  "title": "另一处联邦园区同步推进“算力+能源”",
+                  "body": "部门近期在萨凡纳河基地选定了承包方推进 AI 数据中心与能源项目。",
+                  "whyImportant": "显示在安全联邦园区打包算力与电源的更广泛路径。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-4",
+                      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                      "description": "机构公告称在南卡的一处联邦园区选定了承包方推进 AI 数据中心与能源项目。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-srs-amentum"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-srs-amentum",
+                      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                      "publisher": "U.S. Department of Energy (NNSA)",
+                      "publishedAt": "2026-07-20",
+                      "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "corroborating source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "正在发生的变化",
+              "before": "过去，许多超大规模数据中心主要依赖现有电网容量与渐进式增容。",
+              "shift": "开发方与公共机构开始在大型安全基地就地配建燃机与储能，将发电、储能、输电、土地与融资整体对齐。",
+              "now": "在帕杜卡，现有报道与机构背景材料显示，约 1.8GW 负荷的园区将与约 2GW 燃机、2.6GW 储能和输电升级捆绑推进，且需州级批准并有较长建设周期。",
+              "conclusion": "联邦土地或可通过同步能源与算力时程来加速产能，但仍取决于监管与社区支持。"
+            },
+            "insight": {
+              "title": "“电力优先”的联邦园区式 AI 建设",
+              "formula": "可持续算力 = 可接入土地 + 确定性电源 + 资本 + 审批与施工的同步化",
+              "explanation": "要点：过去常被电网并网与公用事业时程卡住；现在在大型联邦园区把自备电源与数据中心配套推进，有望让能源与算力同速落地。帕杜卡方案（据当前报道与机构材料）把土地、燃机、储能与输电升级打包，并以州级批准为关键门槛。此举有望缓解局地电网压力，且在条件允许时，可能向区域电网反送富余。记住这句话：在 AI 基建竞赛中，谁先锁定现场“确定性电源”，谁就更可能领先。"
+            },
+            "observe": {
+              "title": "后续可验证点",
+              "items": [
+                {
+                  "label": "州级批准",
+                  "prompt": "州监管机构是否批准与园区绑定的供电服务协议？",
+                  "meta": "批准将显著降低供电不确定性；延迟会推后时程。"
+                },
+                {
+                  "label": "商业落地",
+                  "prompt": "Brookfield、NextEra 与相关方是否签署最终的场地、供电与输电协议？",
+                  "meta": "实质性协议将体现商业推进力度。"
+                },
+                {
+                  "label": "许可与社区",
+                  "prompt": "环境评审与本地许可环节是否顺利、是否出现显著反对？",
+                  "meta": "顺利推进有助于兑现 2031 年左右的时间指引；阻力可能改变规模或节奏。"
+                },
+                {
+                  "label": "施工节奏",
+                  "prompt": "前期工程、发电与储能建设、数据厅土建能否保持同频？",
+                  "meta": "时程同步对于避免“电来而算力未就”或反之同样关键。"
+                }
+              ],
+              "ending": "若上述节点按期推进，“联邦土地+电力优先”的 AI 园区模式将更具可执行性。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "AI・エネルギー・地政学",
+              "secondaryEyebrow": "AIインフラ競争",
+              "title": "DOEがパデューカAIキャンパスでBrookfieldを選定、NextEraが2GWガス＋2.6GW蓄電で1.8GWデータセンターを支援",
+              "summary": "報道によれば、米エネルギー省はケンタッキー州のパデューカ旧施設でBrookfieldによるAIデータセンター群の開発を選定。NextEraは約2GWのガス発電と2.6GWの蓄電設備、送電強化を整備し、約1.8GWのデータセンター需要を賄う計画。完成見込みは2031年ごろ、電力供給契約には州の承認が必要とされ、冷戦期の施設を連邦地内で“計算資源＋確定電源”に束ねる動きが進む。"
+            },
+            "question": {
+              "lead": "かつてのウラン濃縮拠点が、GW級の計算と電力のハブに。",
+              "title": "連邦サイト＋民間資本は、AI向け確定電源を最速で確保する道なのか？",
+              "footnote": "主要情報は現時点の報道と機関資料に基づき、規制審査や商用合意に応じて変化する可能性があります。"
+            },
+            "signals": {
+              "title": "見えてきた兆し",
+              "sourceNote": "以下は提示ソースに基づく。正式確定が未了の箇所は慎重に表現。",
+              "items": [
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-1",
+                  "label": "トリガー",
+                  "title": "パデューカで専用ガス＋蓄電を併設",
+                  "body": "同省がパデューカ気体拡散工場敷地でBrookfieldを選定し、NextEraが約2GWのガス発電、2.6GWの蓄電、送電増強を担い、約1.8GWのデータセンター群を支える計画と報じられている。完工は2031年ごろ、電力供給契約は州の承認が必要。",
+                  "whyImportant": "連邦地で計算資源と現地の確定電源を束ね、ハイパースケールAIによる系統負荷を抑えつつ、発電・送電とキャンパス建設の時間軸を揃えられる。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-1",
+                      "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                      "description": "パデューカ敷地での開発者選定、専用ガス・蓄電・送電強化による大規模AIキャンパス支援、完工時期や規制承認の要件を伝える報道。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src-ap-paducah"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-ap-paducah",
+                      "title": "Federal government to turn a Kentucky uranium plant into an AI data center and gas power complex",
+                      "publisher": "AP News",
+                      "url": "https://apnews.com/article/ai-data-center-kentucky-uranium-gas-a4cf07af1b6776971dc5d609c996ca13",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-2",
+                  "label": "コンテクスト",
+                  "title": "DOEはパデューカのAI・エネルギー提案を募集",
+                  "body": "同省の以前の資料は、パデューカ敷地におけるAIデータセンターとエネルギー事業の提案募集を示している。",
+                  "whyImportant": "連邦地を“計算＋電源”の一体開発として位置づけていた経緯を裏づける。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-2",
+                      "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                      "description": "パデューカ敷地でのAIデータセンターとエネルギー事業の提案募集に関する機関発表。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-paducah-rfo"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-paducah-rfo",
+                      "title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+                      "publisher": "U.S. Department of Energy (EM)",
+                      "publishedAt": "2025-11-04",
+                      "url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-3",
+                  "label": "地域の温度感",
+                  "title": "パデューカ構想の説明会に多数が参加",
+                  "body": "今年初め、計画の説明会には地元から多くの参加があった。",
+                  "whyImportant": "地域の合意形成は許認可のスピードと持続性を左右する。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-3",
+                      "title": "Paducah data center presentation draws big crowd",
+                      "description": "パデューカのデータセンター構想に関する説明会で高い参加があったことを伝える報道。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "src-exchangemonitor"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-exchangemonitor",
+                      "title": "Paducah data center presentation draws big crowd",
+                      "publisher": "ExchangeMonitor",
+                      "publishedAt": "2026-02-19",
+                      "url": "https://www.exchangemonitor.com/paducah-data-center-presentation-draws-big-crowd/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-2026-08-01-paducah-ai-campus-signal-4",
+                  "label": "パターン",
+                  "title": "別の連邦サイトでも“AI＋電源”を推進",
+                  "body": "同省は近く、サバンナ・リバー・サイトでAIデータセンターとエネルギー事業の請負を選定した。",
+                  "whyImportant": "安全な連邦地で計算資源と専用電源を束ねる広がりを示す。",
+                  "evidence": [
+                    {
+                      "id": "sig-2026-08-01-paducah-ai-campus-evidence-4",
+                      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                      "description": "南部の連邦サイトでAIデータセンターとエネルギー事業の請負を選定したとの機関発表。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "src-doe-srs-amentum"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "src-doe-srs-amentum",
+                      "title": "NNSA Selects Amentum for AI Data Center and Energy Project at Savannah River Site",
+                      "publisher": "U.S. Department of Energy (NNSA)",
+                      "publishedAt": "2026-07-20",
+                      "url": "https://www.energy.gov/nnsa/articles/nnsa-selects-amentum-ai-data-center-and-energy-project-savannah-river-site",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "corroborating source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "何が変わったのか",
+              "before": "従来は既存系統の空き容量と段階的な増強に大きく依存。",
+              "shift": "発電・蓄電・送電・用地・資金を大規模で安全な敷地に同居させ、確定電源と計算資源を同時並行で整備。",
+              "now": "パデューカでは、約1.8GWのデータセンター需要に対し、約2GWのガス発電と2.6GWの蓄電、送電増強を束ねる計画が示され、州の承認と長期の建設工程が前提となる。",
+              "conclusion": "連邦地はエネルギーと計算の時系列を合わせる加速器になり得るが、規制と地域合意が成否の鍵。"
+            },
+            "insight": {
+              "title": "連邦地で“電源先行”のAIキャンパスを組む",
+              "formula": "持続的なAIキャパシティ = 用地アクセス + 確定電源 + 資本 + 承認・建設の同期化",
+              "explanation": "要旨：これまで多くのプロジェクトは系統接続の遅延に左右された。転換点は、連邦サイトで専用発電と蓄電をキャンパスに直結し、計算と電力の立ち上げを同期させること。現時点の報道と機関文書が描くパデューカの設計は、土地・ガス・蓄電・送電を一体化し、州の承認を主要マイルストーンとする。局所的な系統負荷を和らげ、条件次第では系統への余剰供給の可能性もある。覚えておきたい一言：AIインフラ競争は“まず電源を確保した者”が有利になる。"
+            },
+            "observe": {
+              "title": "次に検証したいこと",
+              "items": [
+                {
+                  "label": "州の承認",
+                  "prompt": "キャンパスに紐づく電力供給契約は、州規制当局の承認を得られるか。",
+                  "meta": "承認は電源リスクを低減。遅延は工程全体に波及。"
+                },
+                {
+                  "label": "商用合意",
+                  "prompt": "Brookfield・NextEra・関連当局は、用地・電源・送電の最終契約を締結するか。",
+                  "meta": "締結は事業の前進を示す実質的サイン。"
+                },
+                {
+                  "label": "許認可と地域",
+                  "prompt": "環境審査と地域許認可は円滑か。強い反対は起きないか。",
+                  "meta": "順調なら2031年ごろの完工見込みを後押し。難航すれば規模や時程が見直され得る。"
+                },
+                {
+                  "label": "施工の同期",
+                  "prompt": "初期工事、発電・蓄電設備、データホールの建設は足並みを揃えられるか。",
+                  "meta": "同期が崩れると、電力や計算資源の片方が遊休化する恐れ。"
+                }
+              ],
+              "ending": "これらの分岐点が順調なら、“連邦地×電源先行”のAIキャンパスは現実味を増す。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-01",
+        "date": "2026-08-01",
+        "decidedAt": "2026-08-01T14:21:49.578Z",
+        "state": "no_new_global_insight",
+        "insightId": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+        "processId": "process-ai-infrastructure-race",
+        "materialChangeScore": 58,
+        "evidenceStrength": 62,
+        "noveltyScore": 74,
+        "importanceScore": 88,
+        "candidateSignalIds": [
+          "sig-2026-08-01-paducah-ai-campus"
+        ],
+        "content": {
+          "en": {
+            "label": "Watch",
+            "decisionTitle": "Track — below publication threshold",
+            "decisionSummary": "Evidence is notable and aligns with structural trends, but formal confirmations and approvals are pending.",
+            "thresholdReason": "Key details rely on current reporting rather than finalized agency contracts or regulatory approvals.",
+            "observeNext": [
+              "State utility approval of power service agreements",
+              "Execution of definitive site, power, and transmission agreements",
+              "Environmental review and local permitting milestones",
+              "Construction sequencing across power and data center works"
+            ]
+          },
+          "zh": {
+            "label": "关注",
+            "decisionTitle": "跟踪观察——尚未达到发布门槛",
+            "decisionSummary": "信息具有参考价值并与结构性趋势一致，但正式确认与审批仍在推进。",
+            "thresholdReason": "关键信息更多依赖当前报道，而非最终的政府合同或监管批复。",
+            "observeNext": [
+              "州级对供电服务协议的批准",
+              "场地、供电与输电的最终协议签署",
+              "环境评审与本地许可进展",
+              "电源与数据中心施工进度同步性"
+            ]
+          },
+          "ja": {
+            "label": "注視",
+            "decisionTitle": "トラッキング—公開基準未満",
+            "decisionSummary": "注目に値し構造的トレンドと整合するが、正式確認と承認が未了。",
+            "thresholdReason": "主要な詳細は現時点の報道に依拠し、最終契約や規制承認が揃っていない。",
+            "observeNext": [
+              "電力供給契約に対する州の承認",
+              "用地・電源・送電の最終契約締結",
+              "環境審査と地域許認可の進捗",
+              "電源設備とデータセンターの施工同期"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-ai-infrastructure-race",
+        "updatedAt": "2026-08-01T14:21:49.578Z",
+        "appendInsightId": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+        "evolutionEvent": {
+          "id": "evolution-sig-2026-08-01-paducah-ai-campus",
+          "date": "2026-08-01",
+          "stage": "signal",
+          "impact": "updates",
+          "insightId": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
+          "content": {
+            "en": {
+              "title": "Federal sites emerge as power‑first accelerators for AI builds",
+              "description": "The Paducah plan, as described in reporting and prior agency solicitations, bundles land, firm power, storage, and transmission for a large AI campus on federal property.",
+              "implication": "If replicated, this model could relieve interconnection bottlenecks by aligning energy and compute schedules—but hinges on state approvals and local acceptance."
+            },
+            "zh": {
+              "title": "联邦土地正成为“电力优先”的 AI 建设加速器",
+              "description": "据报道与既有征集材料，帕杜卡方案在联邦土地上将土地、确定性电源、储能与输电与大规模 AI 园区打包推进。",
+              "implication": "若可复制，此模式有望通过“能源—算力”同步来缓解并网瓶颈，但仍取决于州级审批与社区接受度。"
+            },
+            "ja": {
+              "title": "連邦サイトが“電源先行”のAI整備を加速",
+              "description": "報道と過去の募集資料が示すパデューカの構成は、連邦地での土地・確定電源・蓄電・送電をAIキャンパスと一体化。",
+              "implication": "複製できれば接続ボトルネックの緩和に資するが、州の承認と地域合意が前提となる。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will state approvals and definitive agreements coalesce fast enough to keep power and compute timelines in sync at Paducah?",
+          "zh": "州级审批与最终协议能否足够快地落地，以保证帕杜卡的电力与算力时程保持同步？",
+          "ja": "州の承認と最終契約は十分に迅速にまとまり、パデューカで電力と計算の時系列を同期できるか？"
+        },
+        "observeNext": {
+          "en": [
+            "State utility commission decisions on power service agreements",
+            "Execution of definitive site, power, and transmission agreements",
+            "Environmental review outcomes and local permitting milestones",
+            "Announced sequencing for gas units, storage, and data halls"
+          ],
+          "zh": [
+            "州公用事业委员会对供电服务协议的裁决",
+            "场地、供电与输电的最终协议签署",
+            "环境评审结论与本地许可关键节点",
+            "燃机、储能与数据厅的施工时序发布"
+          ],
+          "ja": [
+            "電力供給契約に関する州委員会の判断",
+            "用地・電源・送電の最終契約締結",
+            "環境審査の結果と地域許認可の節目",
+            "ガス設備・蓄電・データホールの施工シーケンス発表"
+          ]
+        }
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-01T14:31:23.862Z",
+        "override": true,
+        "overrideReason": "Manual approval for end-to-end publishing test.",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight",
+        "finalDailyState": "update_living"
+      },
+      "approvedAt": "2026-08-01T14:31:23.862Z"
+    },
+    {
+      "id": "test-draft-001",
+      "status": "rejected",
+      "rejectedAt": "2026-08-01T13:39:20.485Z"
+    },
+    {
+      "id": "writer-example-2026-08-01",
+      "status": "draft",
+      "writtenAt": "2026-08-01T12:00:00.000Z",
+      "researchDraftId": "research-2026-08-01-sample",
+      "candidateId": "research-signal-ai-grid-capacity",
+      "model": "gpt-5",
+      "dailyState": "no_new_global_insight",
+      "matchedProcessId": "process-ai-infrastructure-race",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Example preview generated from the current local Insight. Replace with /api/write output."
+        ]
+      },
+      "insight": {
+        "id": "global-2026-07-31-industrial-ai",
+        "slug": "ai-infrastructure-enters-industrial-finance-phase",
+        "status": "update_living",
+        "parentInsightId": "global-2026-07-29-capacity",
+        "processId": "process-ai-infrastructure-race",
+        "publishedAt": "2026-07-31T13:30:00+09:00",
+        "updatedAt": "2026-07-31T13:30:00+09:00",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "TODAY'S OBSERVE",
+              "secondaryEyebrow": "Living Insight Update",
+              "title": "AI infrastructure is no longer being bought like technology. It is being financed like heavy industry.",
+              "summary": "The competition has crossed into project finance, dedicated power generation and state-scale site development."
+            },
+            "question": {
+              "lead": "The previous Insight identified capacity as the scarce asset. New evidence now shows that capacity itself must be financed, powered and politically assembled.",
+              "title": "What changes when AI companies must assemble banks, power plants, land and public policy before they can assemble intelligence?",
+              "footnote": "The important change is not simply that data centers are getting larger. Their financing and energy structure now resembles industrial megaprojects."
+            },
+            "signals": {
+              "title": "Three signals show the same phase transition.",
+              "items": [
+                {
+                  "id": "project-finance",
+                  "label": "FINANCE",
+                  "title": "AI capacity is moving into project finance.",
+                  "body": "Banks are discussing a $15 billion loan for a 1.6-gigawatt Anthropic campus, supported by Google guarantees and a dedicated natural-gas power plant."
+                },
+                {
+                  "id": "industrial-site",
+                  "label": "STATE + LAND",
+                  "title": "Public industrial sites are being rebuilt as AI-energy complexes.",
+                  "body": "A former uranium facility in Kentucky is planned as a $100 billion campus combining 1.8 gigawatts of data centers with 2 gigawatts of gas generation and 2.6 gigawatts of battery storage."
+                },
+                {
+                  "id": "utility-demand",
+                  "label": "UTILITY",
+                  "title": "AI demand is becoming visible in utility earnings and planning.",
+                  "body": "American Electric Power raised its outlook as data centers and other large customers accelerated electricity demand."
+                }
+              ],
+              "sourceNote": "These are separate financing, land and utility signals. Together they indicate a change in the operating model of AI expansion."
+            },
+            "pattern": {
+              "title": "The AI stack is expanding into an industrial development system.",
+              "before": "Technology companies purchased chips and rented cloud capacity.",
+              "shift": "Capacity shortages forced long-term commitments to sites, power and compute.",
+              "now": "AI expansion requires project finance, dedicated generation, guarantees, construction and public-sector coordination.",
+              "conclusion": "The leading AI operators are beginning to behave less like software buyers and more like industrial infrastructure developers."
+            },
+            "insight": {
+              "title": "AI has entered its industrial-finance phase.",
+              "formula": "CAPITAL GUARANTEES × DEDICATED POWER × INDUSTRIAL SITES = SOVEREIGN-SCALE AI CAPACITY",
+              "explanation": "The next constraint is not only whether a company can design a better model, but whether it can organize a bankable physical system large enough to run it. This raises the advantage of firms with strong balance sheets—and transfers more AI risk into utilities, lenders, governments and local communities."
+            },
+            "observe": {
+              "title": "Watch whether this industrial model becomes the default.",
+              "items": [
+                {
+                  "label": "GUARANTEES",
+                  "prompt": "More technology companies guaranteeing leases, loans or power obligations for AI partners.",
+                  "meta": "FINANCE"
+                },
+                {
+                  "label": "BEHIND THE METER",
+                  "prompt": "More campuses pairing data centers with dedicated gas, nuclear or storage assets.",
+                  "meta": "ENERGY"
+                },
+                {
+                  "label": "PUBLIC LAND",
+                  "prompt": "More governments converting military, nuclear or industrial sites into AI campuses.",
+                  "meta": "POLICY"
+                },
+                {
+                  "label": "RISK",
+                  "prompt": "Whether electricity costs, stranded capacity or credit exposure migrate outside the AI company itself.",
+                  "meta": "SYSTEM"
+                }
+              ],
+              "ending": "The AI race is now visible in the institutions that finance and power heavy industry."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "今日观察",
+              "secondaryEyebrow": "持续洞察更新",
+              "title": "AI基础设施不再像科技产品那样被采购，而开始像重工业那样被融资。",
+              "summary": "竞争已经进入项目融资、专用发电与国家级工业场地开发阶段。"
+            },
+            "question": {
+              "lead": "上一条洞察确认了“容量”正在变得稀缺；新的证据进一步显示，容量本身也必须被融资、供电并通过公共协同组织起来。",
+              "title": "当AI公司必须先组织银行、电厂、土地与公共政策，才能组织智能时，意味着什么？",
+              "footnote": "重要变化不只是数据中心变得更大，而是它的融资与能源结构开始接近大型工业项目。"
+            },
+            "signals": {
+              "title": "三个信号显示同一个阶段跃迁。",
+              "items": [
+                {
+                  "id": "project-finance",
+                  "label": "融资",
+                  "title": "AI容量开始进入项目融资体系。",
+                  "body": "银行正讨论为Anthropic的1.6吉瓦园区提供150亿美元贷款，Google以担保支持租赁与电力义务，园区还配套专用天然气电厂。"
+                },
+                {
+                  "id": "industrial-site",
+                  "label": "国家＋土地",
+                  "title": "公共工业场地正在被重建为AI—能源综合体。",
+                  "body": "肯塔基一座旧铀设施计划改造成1000亿美元园区，将1.8吉瓦数据中心、2吉瓦燃气发电和2.6吉瓦电池储能放进同一项目。"
+                },
+                {
+                  "id": "utility-demand",
+                  "label": "公用事业",
+                  "title": "AI需求开始直接进入电力公司的业绩与规划。",
+                  "body": "American Electric Power因数据中心和大型客户用电加速，上调了盈利预期。"
+                }
+              ],
+              "sourceNote": "融资、土地与公用事业是三类独立信号；它们共同显示AI扩张的运营模式正在改变。"
+            },
+            "pattern": {
+              "title": "AI技术栈正在扩展成一套工业开发系统。",
+              "before": "科技公司购买芯片，并租用云端容量。",
+              "shift": "容量短缺迫使企业长期锁定场地、电力与算力。",
+              "now": "AI扩张需要项目融资、专用发电、信用担保、工程建设与公共部门协同。",
+              "conclusion": "领先的AI运营者正越来越不像软件采购者，而更像工业基础设施开发商。"
+            },
+            "insight": {
+              "title": "AI已经进入“工业融资阶段”。",
+              "formula": "资本担保 × 专用能源 × 工业场地 = 国家级AI容量",
+              "explanation": "下一道约束不只是能否设计更好的模型，而是能否组织出一个足够大、可以被融资、可以真实运行的物理系统。这会放大强资产负债表公司的优势，同时把更多AI风险传导给电力公司、银行、政府与当地社区。"
+            },
+            "observe": {
+              "title": "接下来观察这种工业模式是否成为默认路径。",
+              "items": [
+                {
+                  "label": "担保",
+                  "prompt": "更多科技公司是否为AI合作伙伴的租赁、贷款或电力义务提供担保。",
+                  "meta": "金融"
+                },
+                {
+                  "label": "表后电源",
+                  "prompt": "更多园区是否把数据中心与燃气、核能或储能资产直接配套。",
+                  "meta": "能源"
+                },
+                {
+                  "label": "公共土地",
+                  "prompt": "更多政府是否把军事、核工业或旧工业场地转为AI园区。",
+                  "meta": "政策"
+                },
+                {
+                  "label": "风险转移",
+                  "prompt": "电价、闲置容量与信用风险是否被转移到AI公司之外。",
+                  "meta": "系统"
+                }
+              ],
+              "ending": "AI竞赛如今已经出现在为重工业融资、供电的那些制度之中。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "今日の観察",
+              "secondaryEyebrow": "継続インサイト更新",
+              "title": "AIインフラは、もはや技術製品のように購入されず、重工業のように資金調達され始めた。",
+              "summary": "競争はプロジェクト金融、専用発電、国家規模の産業用地開発へ入った。"
+            },
+            "question": {
+              "lead": "前回のインサイトは「供給能力」の希少化を捉えた。新しい証拠は、その能力自体を金融・電力・公共調整で組成する必要があることを示している。",
+              "title": "AI企業が知能を組み立てる前に、銀行・発電所・土地・公共政策を組み立てなければならないとき、何が変わるのか。",
+              "footnote": "重要なのはデータセンターが大型化したことだけではない。資金調達とエネルギー構造が巨大産業プロジェクトに近づいたことだ。"
+            },
+            "signals": {
+              "title": "三つのシグナルが同じ段階転換を示す。",
+              "items": [
+                {
+                  "id": "project-finance",
+                  "label": "金融",
+                  "title": "AI能力がプロジェクト金融へ入る。",
+                  "body": "銀行はAnthropic向け1.6GWキャンパスへの150億ドル融資を協議し、Googleが賃貸・電力義務を保証、専用ガス発電も組み込まれる。"
+                },
+                {
+                  "id": "industrial-site",
+                  "label": "国家＋土地",
+                  "title": "公共産業用地がAI・エネルギー複合施設へ再編される。",
+                  "body": "ケンタッキーの旧ウラン施設では、1.8GWのデータセンター、2GWのガス発電、2.6GWの蓄電池を組み合わせる1000億ドル計画が進む。"
+                },
+                {
+                  "id": "utility-demand",
+                  "label": "電力会社",
+                  "title": "AI需要が電力会社の業績と計画に直接現れる。",
+                  "body": "American Electric Powerは、データセンターなど大型需要家の電力需要増加を受け、業績見通しを引き上げた。"
+                }
+              ],
+              "sourceNote": "金融、土地、電力会社という別々のシグナルが、AI拡張の運営モデルの変化を同時に示している。"
+            },
+            "pattern": {
+              "title": "AIスタックが産業開発システムへ広がる。",
+              "before": "技術企業は半導体を購入し、クラウド能力を借りていた。",
+              "shift": "能力不足が、用地・電力・計算資源の長期確保を迫った。",
+              "now": "AI拡張にはプロジェクト金融、専用発電、信用保証、建設、公共部門との調整が必要になる。",
+              "conclusion": "主要AI事業者は、ソフトウェア購入者より産業インフラ開発者に近づいている。"
+            },
+            "insight": {
+              "title": "AIは「産業金融フェーズ」に入った。",
+              "formula": "資本保証 × 専用電源 × 産業用地 = 国家規模のAI能力",
+              "explanation": "次の制約は優れたモデルを設計できるかだけではなく、それを動かす巨大で融資可能な物理システムを組成できるかである。強い財務基盤を持つ企業が有利になり、AIリスクは電力会社、金融機関、政府、地域社会へ広がる。"
+            },
+            "observe": {
+              "title": "この産業モデルが標準になるかを観察する。",
+              "items": [
+                {
+                  "label": "保証",
+                  "prompt": "技術企業がAI提携先の賃貸、融資、電力義務を保証する例が増えるか。",
+                  "meta": "金融"
+                },
+                {
+                  "label": "専用電源",
+                  "prompt": "データセンターとガス、原子力、蓄電設備を直接組み合わせるキャンパスが増えるか。",
+                  "meta": "エネルギー"
+                },
+                {
+                  "label": "公共用地",
+                  "prompt": "軍事、原子力、旧産業用地をAIキャンパスへ転換する政府が増えるか。",
+                  "meta": "政策"
+                },
+                {
+                  "label": "リスク",
+                  "prompt": "電気料金、遊休能力、信用リスクがAI企業の外へ移るか。",
+                  "meta": "システム"
+                }
+              ],
+              "ending": "AI競争は、重工業を支える金融と電力の制度の中に現れ始めた。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-01",
+        "date": "2026-08-01",
+        "decidedAt": "2026-08-01T16:30:00+09:00",
+        "state": "no_new_global_insight",
+        "candidateSignalIds": [
+          "candidate-2026-08-01-follow-through"
+        ],
+        "previousInsightId": "global-2026-07-31-industrial-ai",
+        "processId": "process-ai-infrastructure-race",
+        "materialChangeScore": 38,
+        "evidenceStrength": 74,
+        "noveltyScore": 31,
+        "importanceScore": 69,
+        "content": {
+          "en": {
+            "label": "NO MATERIAL UPDATE",
+            "decisionTitle": "Today added confirmation, not a new world-level change.",
+            "decisionSummary": "Follow-through signals remain consistent with the industrialization of AI infrastructure, but they do not alter the current thesis or process stage.",
+            "thresholdReason": "The evidence is credible enough to keep watching, yet it does not reveal a new system relationship, challenge the thesis, or trigger a stage transition.",
+            "observeNext": [
+              "Whether project guarantees begin to appear across multiple AI operators.",
+              "Whether dedicated generation moves from proposals into binding construction schedules.",
+              "Whether utilities disclose a measurable transfer of grid and credit risk to other customers."
+            ]
+          },
+          "zh": {
+            "label": "暂无重大更新",
+            "decisionTitle": "今天增加的是确认，而不是新的世界级变化。",
+            "decisionSummary": "后续信号仍然符合“AI基础设施正在工业化”的判断，但没有改变当前命题，也没有推动进程进入新阶段。",
+            "thresholdReason": "现有证据值得继续观察，但尚未揭示新的系统关系、挑战原判断，或触发阶段跃迁。",
+            "observeNext": [
+              "项目担保是否开始在更多AI运营商之间扩散。",
+              "专用发电是否从提案进入具有约束力的建设时间表。",
+              "电力公司是否披露电网与信用风险被明确转移给其他客户。"
+            ]
+          },
+          "ja": {
+            "label": "重要な更新なし",
+            "decisionTitle": "今日は確認材料が増えたが、世界レベルの新しい変化ではない。",
+            "decisionSummary": "追随シグナルはAIインフラの産業化という判断と整合するが、現在の命題や段階を変えていない。",
+            "thresholdReason": "継続観察に値する証拠はあるが、新しいシステム関係、命題への反証、段階移行のいずれにも達していない。",
+            "observeNext": [
+              "プロジェクト保証が複数のAI事業者へ広がるか。",
+              "専用電源が提案から拘束力ある建設日程へ移るか。",
+              "電力会社が系統・信用リスクの他顧客への移転を明示するか。"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
