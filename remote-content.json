@@ -1,8 +1,355 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T07:12:24.971Z",
-  "contentVersion": "publish-global-2026-07-31-industrial-ai-1786000345829",
+  "generatedAt": "2026-08-06T12:20:58.642Z",
+  "contentVersion": "publish-global-2026-08-06-iran-oman-hormuz-framework-reported-1786018859732",
   "insights": [
+    {
+      "id": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+      "slug": "iran-oman-hormuz-signal",
+      "status": "update_living",
+      "processId": "process-geopolitical-technology-control",
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "updatedAt": "2026-08-06T12:20:48.665Z",
+      "confidence": "hypothesis",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "ENERGY GEOPOLITICS",
+            "secondaryEyebrow": "SIGNAL DETECTION",
+            "title": "Iran–Oman Hormuz Framework Reported",
+            "summary": "An unconfirmed agreement between Iran and Oman on the Strait of Hormuz could reshape energy security assumptions, but evidence remains limited."
+          },
+          "question": {
+            "lead": "A single web-search dossier has flagged a potential Iran-Oman accord on the Strait of Hormuz. What does this mean for global energy chokepoints?",
+            "title": "Is a new Hormuz stability framework emerging?",
+            "footnote": "All information from supplied research dossier, unverified."
+          },
+          "signals": {
+            "title": "Key Signals",
+            "sourceNote": "Based solely on provided web-search dossiers.",
+            "items": [
+              {
+                "id": "2026-08-06-hormuz-iran-oman-signal-1",
+                "label": "Agreement Claim",
+                "title": "Unconfirmed Iran-Oman Hormuz Pact",
+                "body": "A web-search dossier reports an Iran-Oman agreement on the Strait of Hormuz.",
+                "whyImportant": "This could alter the security of a key oil and LNG chokepoint.",
+                "evidence": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-evidence-1",
+                    "title": "Web-search dossier",
+                    "description": "Single report with no independent verification",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "2026-08-06-hormuz-iran-oman-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-source-1",
+                    "title": "Supplied web-search dossier — Hormuz agreement signal",
+                    "publisher": "Web-search dossier",
+                    "publishedAt": "2026-08-06",
+                    "url": "not_disclosed",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "2026-08-06-hormuz-iran-oman-signal-2",
+                "label": "Market Sensitivity",
+                "title": "Energy markets pricing Hormuz risk",
+                "body": "Even unconfirmed signals can move energy and shipping risk premia.",
+                "whyImportant": "The Strait handles ~20% of global oil trade.",
+                "evidence": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-evidence-2",
+                    "title": "Cross-check dossier",
+                    "description": "Contextual dossier noting macro-economic risk",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "2026-08-06-hormuz-iran-oman-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-source-2",
+                    "title": "Supplied web-search dossier — energy/geopolitics/macro cross-check",
+                    "publisher": "Web-search dossier",
+                    "publishedAt": "2026-08-06",
+                    "url": "not_disclosed",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Unilateral Tensions to Ad Hoc Cooperation?",
+            "before": "Prior to the report, the Strait of Hormuz was a flashpoint of US-Iran confrontation, with persistent threats of closure and conflict.",
+            "shift": "The reported Iran-Oman framework introduces the possibility of a bilateral de-escalation path outside traditional great-power mediation.",
+            "now": "The signal is unverified, but its emergence alone tests market assumptions and may presage a broader realignment of Gulf alliances.",
+            "conclusion": "If confirmed, the agreement could lower energy transit risk and shift geopolitical calculations; if false, it reveals the fragility of Hormuz-related narratives."
+          },
+          "insight": {
+            "title": "Hormuz deals as geopolitical stress-tests",
+            "formula": "Reported cooperation + chokepoint = narrative-driven volatility",
+            "explanation": "Even unconfirmed reports of Hormuz diplomacy can create sharp reassessments of energy security, demonstrating the signal's weight."
+          },
+          "observe": {
+            "title": "What to Track",
+            "items": [
+              {
+                "label": "Official Confirmation",
+                "prompt": "Watch for statements from Iran, Oman, or third parties verifying the agreement.",
+                "meta": "high frequency"
+              },
+              {
+                "label": "Market Indicators",
+                "prompt": "Monitor changes in shipping insurance premiums, oil futures spreads, and LNG spot prices.",
+                "meta": "daily"
+              },
+              {
+                "label": "Regional Responses",
+                "prompt": "Assess reactions from Saudi Arabia, UAE, US, and China to gauge alignment shifts.",
+                "meta": "weekly"
+              }
+            ],
+            "ending": "Hormuz remains the global energy chokepoint where geopolitics meets real-time markets."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "能源地缘政治",
+            "secondaryEyebrow": "信号检测",
+            "title": "伊朗–阿曼霍尔木兹框架据报出现",
+            "summary": "伊朗与阿曼之间一项未经证实的霍尔木兹海峡协议，可能重塑能源安全假设，但证据仍然有限。"
+          },
+          "question": {
+            "lead": "一份网络搜索档案指出了伊朗与阿曼可能就霍尔木兹海峡达成的协议。这对全球能源咽喉要道意味着什么？",
+            "title": "一个新的霍尔木兹稳定框架是否正在浮现？",
+            "footnote": "所有信息均来自所提供的研究档案，未经核实。"
+          },
+          "signals": {
+            "title": "关键信号",
+            "sourceNote": "仅基于所提供的网络搜索档案。",
+            "items": [
+              {
+                "id": "2026-08-06-hormuz-iran-oman-signal-1",
+                "label": "协议主张",
+                "title": "未经证实的伊朗–阿曼霍尔木兹协议",
+                "body": "一份网络搜索档案报告称，伊朗与阿曼就霍尔木兹海峡达成了一项协议。",
+                "whyImportant": "这可能改变一个关键石油和LNG咽喉要道的安全状况。",
+                "evidence": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-evidence-1",
+                    "title": "网络搜索档案",
+                    "description": "单一报告，未经独立核实",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "2026-08-06-hormuz-iran-oman-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-source-1",
+                    "title": "Supplied web-search dossier — Hormuz agreement signal",
+                    "publisher": "Web-search dossier",
+                    "publishedAt": "2026-08-06",
+                    "url": "not_disclosed",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "2026-08-06-hormuz-iran-oman-signal-2",
+                "label": "市场敏感性",
+                "title": "能源市场正在为霍尔木兹风险定价",
+                "body": "即使是未经证实的信号，也可能影响能源和航运风险溢价。",
+                "whyImportant": "该海峡承载全球约20%的石油贸易。",
+                "evidence": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-evidence-2",
+                    "title": "交叉核对档案",
+                    "description": "注明宏观经济风险的背景档案",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "2026-08-06-hormuz-iran-oman-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-source-2",
+                    "title": "Supplied web-search dossier — energy/geopolitics/macro cross-check",
+                    "publisher": "Web-search dossier",
+                    "publishedAt": "2026-08-06",
+                    "url": "not_disclosed",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从单边紧张到临时合作？",
+            "before": "在该报告之前，霍尔木兹海峡是美伊对抗的爆发点，持续存在关闭海峡和冲突的威胁。",
+            "shift": "所报告的伊朗–阿曼框架引入了传统大国调解之外出现双边降级路径的可能性。",
+            "now": "该信号未经证实，但其出现本身就在考验市场假设，并可能预示海湾联盟的更广泛重组。",
+            "conclusion": "若获证实，该协议可能降低能源过境风险并改变地缘政治盘算；若属虚假，则暴露霍尔木兹相关叙事的脆弱性。"
+          },
+          "insight": {
+            "title": "霍尔木兹协议作为地缘政治压力测试",
+            "formula": "报告的合作 + 咽喉要道 = 叙事驱动的波动",
+            "explanation": "即使有关霍尔木兹外交的未经证实报道，也能引发对能源安全的剧烈重新评估，显示出该信号的分量。"
+          },
+          "observe": {
+            "title": "关注要点",
+            "items": [
+              {
+                "label": "官方确认",
+                "prompt": "关注伊朗、阿曼或第三方是否发表声明核实该协议。",
+                "meta": "高频率"
+              },
+              {
+                "label": "市场指标",
+                "prompt": "监测航运保险费率、原油期货价差和LNG现货价格的变化。",
+                "meta": "每日"
+              },
+              {
+                "label": "地区回应",
+                "prompt": "评估沙特阿拉伯、阿联酋、美国和中国等的反应，以判断阵营变化。",
+                "meta": "每周"
+              }
+            ],
+            "ending": "霍尔木兹仍是地缘政治与实时市场交汇的全球能源咽喉要道。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "エネルギーの地政学",
+            "secondaryEyebrow": "シグナル検知",
+            "title": "イラン・オマーン間のホルムズ枠組みが報じられる",
+            "summary": "イランとオマーンの間のホルムズ海峡に関する未確認の合意は、エネルギー安全保障の前提を変える可能性があるが、証拠は限られたままである。"
+          },
+          "question": {
+            "lead": "単一のウェブ検索資料が、ホルムズ海峡に関するイラン・オマーン間の潜在的な合意を示唆している。これは世界のエネルギーのチョークポイントにとって何を意味するのか？",
+            "title": "新たなホルムズ安定枠組みが浮上しているのか？",
+            "footnote": "提供された調査資料のみに基づく情報であり、未検証。"
+          },
+          "signals": {
+            "title": "主要シグナル",
+            "sourceNote": "提供されたウェブ検索資料のみに基づく。",
+            "items": [
+              {
+                "id": "2026-08-06-hormuz-iran-oman-signal-1",
+                "label": "合意の主張",
+                "title": "未確認のイラン・オマーン間ホルムズ合意",
+                "body": "ウェブ検索資料は、ホルムズ海峡に関するイラン・オマーン合意を報じている。",
+                "whyImportant": "これは主要な石油・LNGのチョークポイントの安全保障を変える可能性がある。",
+                "evidence": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-evidence-1",
+                    "title": "ウェブ検索資料",
+                    "description": "独立した検証が無い単一の報告",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "2026-08-06-hormuz-iran-oman-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-source-1",
+                    "title": "Supplied web-search dossier — Hormuz agreement signal",
+                    "publisher": "Web-search dossier",
+                    "publishedAt": "2026-08-06",
+                    "url": "not_disclosed",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "2026-08-06-hormuz-iran-oman-signal-2",
+                "label": "市場の感応度",
+                "title": "エネルギー市場はホルムズリスクを織り込む",
+                "body": "未確認のシグナルでも、エネルギーと海運のリスクプレミアムを動かし得る。",
+                "whyImportant": "同海峡は世界の石油取引の約20%を扱う。",
+                "evidence": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-evidence-2",
+                    "title": "クロスチェック資料",
+                    "description": "マクロ経済リスクに言及する文脈資料",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "2026-08-06-hormuz-iran-oman-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "2026-08-06-hormuz-iran-oman-source-2",
+                    "title": "Supplied web-search dossier — energy/geopolitics/macro cross-check",
+                    "publisher": "Web-search dossier",
+                    "publishedAt": "2026-08-06",
+                    "url": "not_disclosed",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "一方的緊張からその場限りの協力へ？",
+            "before": "この報告以前、ホルムズ海峡は米イラン対立の火種であり、閉鎖と紛争の脅威が続いていた。",
+            "shift": "報じられたイラン・オマーン枠組みは、従来の大国調停の外での二国間緊張緩和の道筋の可能性を示す。",
+            "now": "このシグナルは未検証だが、出現自体が市場の前提を試し、より広範な湾岸同盟の再編を予示する可能性がある。",
+            "conclusion": "確認されれば、この合意はエネルギーの輸送リスクを低下させ、地政学的な計算を変える可能性がある。偽りであれば、ホルムズ関連の語りの脆弱性を露呈する。"
+          },
+          "insight": {
+            "title": "地政学的ストレステストとしてのホルムズ合意",
+            "formula": "報じられた協力＋チョークポイント＝物語主導の変動性",
+            "explanation": "ホルムズ外交に関する未確認の報道でさえ、エネルギー安全保障の急激な見直しを生み、このシグナルの重みを示す。"
+          },
+          "observe": {
+            "title": "注視すべき点",
+            "items": [
+              {
+                "label": "公式確認",
+                "prompt": "イラン、オマーン、または第三者がこの合意を検証する声明に注目。",
+                "meta": "高頻度"
+              },
+              {
+                "label": "市場指標",
+                "prompt": "海運保険料、石油先物スプレッド、LNGスポット価格の変化を監視。",
+                "meta": "毎日"
+              },
+              {
+                "label": "地域の反応",
+                "prompt": "サウジアラビア、UAE、米国、中国の反応を評価し、連携の変化を測る。",
+                "meta": "毎週"
+              }
+            ],
+            "ending": "ホルムズは、地政学とリアルタイム市場が交差する世界エネルギーのチョークポイントであり続ける。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-07-31-industrial-ai",
       "slug": "ai-infrastructure-enters-industrial-finance-phase",
@@ -2730,8 +3077,9 @@
       "status": "accelerating",
       "confidence": "developing",
       "startedAt": "2026-07-24T00:00:00+09:00",
-      "updatedAt": "2026-08-06T06:15:10.808Z",
+      "updatedAt": "2026-08-06T12:20:48.665Z",
       "insightIds": [
+        "global-2026-08-06-iran-oman-hormuz-framework-reported",
         "insight-20260806-hormuz-deal"
       ],
       "tags": [
@@ -2757,6 +3105,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-2026-08-06-hormuz-iran-oman",
+          "date": "2026-08-06",
+          "stage": "signal",
+          "impact": "updates",
+          "insightId": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+          "content": {
+            "en": {
+              "title": "Energy geopolitics signal",
+              "description": "Monitoring an unverified Iran-Oman Hormuz framework as a potential shift in regional cooperation.",
+              "implication": "Could indicate a new pattern of bilateral agreements to manage chokepoint security, relevant to energy and macro risk."
+            },
+            "zh": {
+              "title": "能源地缘政治信号",
+              "description": "正在监测一项未经证实的伊朗–阿曼霍尔木兹框架，视其为区域合作可能出现的转变。",
+              "implication": "这可能表明出现了以双边协议管理咽喉要道安全的新模式，与能源和宏观风险相关。"
+            },
+            "ja": {
+              "title": "エネルギー地政学シグナル",
+              "description": "地域協力の潜在的な変化として、未検証のイラン・オマーン・ホルムズ枠組みを監視している。",
+              "implication": "チョークポイントの安全保障を管理する二国間合意の新しいパターンを示す可能性があり、エネルギーとマクロリスクに関連する。"
+            }
+          },
+          "previousStage": "accelerating",
+          "changeType": "stage_transition",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "evolution-20260806-HORMUZ-DEAL",
           "date": "2026-08-06",
@@ -2869,7 +3245,7 @@
           "title": "Technology control becomes geopolitical infrastructure",
           "summary": "States are treating chips, energy, data and industrial supply chains as instruments of national power.",
           "thesis": "The geography of technological growth will increasingly be shaped by security policy, alliances and controlled access to critical capacity.",
-          "nextQuestion": "Will the Hormuz deal accelerate AI infrastructure buildout, or will new energy chokepoints emerge?",
+          "nextQuestion": "Will the Iran-Oman Hormuz framework be confirmed and implemented?",
           "domains": [
             "Geopolitics",
             "Technology Policy",
@@ -2880,17 +3256,16 @@
           "currentStageLabel": "Bloc formation",
           "stageSummary": "Technology controls are accelerating from targeted restrictions into ecosystem-level alignment.",
           "observeNext": [
-            "Hormuz diplomatic developments",
-            "Oil price movements",
-            "Fed and labor market data",
-            "Technology equity flows"
+            "Iranian and Omani official communications",
+            "Energy market pricing of Hormuz risk",
+            "Reactions from global powers and neighboring states"
           ]
         },
         "zh": {
           "title": "技术控制成为地缘基础设施",
           "summary": "国家正在把芯片、能源、数据与工业供应链视为国家力量的工具。",
           "thesis": "技术增长的地理分布，将越来越受到安全政策、联盟关系和关键能力准入的塑造。",
-          "nextQuestion": "霍尔木兹协议会加速AI基础设施的扩建，还是会出现新的能源咽喉要道？",
+          "nextQuestion": "伊朗–阿曼霍尔木兹框架会得到确认并落实吗？",
           "domains": [
             "地缘政治",
             "技术政策",
@@ -2901,17 +3276,16 @@
           "currentStageLabel": "阵营形成期",
           "stageSummary": "技术管制正从定向限制，加速成为生态系统层面的阵营协同。",
           "observeNext": [
-            "霍尔木兹外交进展",
-            "油价走势",
-            "美联储与劳动力市场数据",
-            "科技股资金流向"
+            "伊朗和阿曼的官方通报",
+            "能源市场对霍尔木兹风险的定价",
+            "全球大国及邻国的反应"
           ]
         },
         "ja": {
           "title": "技術統制が地政学的インフラになる",
           "summary": "国家は半導体・エネルギー・データ・産業供給網を国力の手段として扱い始めている。",
           "thesis": "技術成長の地理は、安全保障政策・同盟・重要能力への統制されたアクセスによって一層形づくられる。",
-          "nextQuestion": "ホルムズ合意はAIインフラ建設を加速させるのか、それとも新たなエネルギーのチョークポイントが出現するのか。",
+          "nextQuestion": "イラン・オマーンのホルムズ枠組みは確認され、実施されるのか？",
           "domains": [
             "地政学",
             "技術政策",
@@ -2922,17 +3296,17 @@
           "currentStageLabel": "ブロック形成期",
           "stageSummary": "技術統制は個別制限から、生態系レベルの陣営調整へ加速している。",
           "observeNext": [
-            "ホルムズ外交の動向",
-            "原油価格の動き",
-            "FRBと雇用統計",
-            "テクノロジー株の資金フロー"
+            "イランとオマーンの公式通信",
+            "ホルムズリスクのエネルギー市場での価格反映",
+            "大国と近隣諸国からの反応"
           ]
         }
       },
       "currentStage": "accelerating",
       "stageChangedAt": "2026-07-31T09:00:00+09:00",
       "supportingInsightIds": [
-        "insight-20260806-hormuz-deal"
+        "insight-20260806-hormuz-deal",
+        "global-2026-08-06-iran-oman-hormuz-framework-reported"
       ],
       "contradictingInsightIds": [],
       "keyActors": [],
@@ -2943,15 +3317,64 @@
         "Supply Chains"
       ],
       "nextSignals": [
-        "Hormuz diplomatic developments",
-        "Oil price movements",
-        "Fed and labor market data",
-        "Technology equity flows"
+        "Iranian and Omani official communications",
+        "Energy market pricing of Hormuz risk",
+        "Reactions from global powers and neighboring states"
       ],
       "confidenceScore": 68
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-2026-08-06",
+      "date": "2026-08-06",
+      "decidedAt": "2026-08-06T12:20:48.665Z",
+      "state": "no_new_global_insight",
+      "insightId": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+      "processId": "process-geopolitical-technology-control",
+      "materialChangeScore": 18,
+      "evidenceStrength": 38,
+      "noveltyScore": 76,
+      "importanceScore": 88,
+      "candidateSignalIds": [
+        "2026-08-06-hormuz-iran-oman"
+      ],
+      "content": {
+        "en": {
+          "label": "Monitoring",
+          "decisionTitle": "Unverified Signal",
+          "decisionSummary": "The report lacks corroboration and does not alter the current understanding of Hormuz dynamics, but warrants tracking.",
+          "thresholdReason": "Evidence strength insufficient (single unverified source) to trigger an insight update.",
+          "observeNext": [
+            "Confirm the agreement through official channels",
+            "Assess energy market reaction to the rumor",
+            "Evaluate broader Gulf diplomatic trends"
+          ]
+        },
+        "zh": {
+          "label": "监测中",
+          "decisionTitle": "未证实信号",
+          "decisionSummary": "该报告缺乏佐证，并未改变目前对霍尔木兹动态的理解，但值得跟踪。",
+          "thresholdReason": "证据强度不足（单一未经证实来源），不足以触发洞察更新。",
+          "observeNext": [
+            "通过官方渠道确认该协议",
+            "评估能源市场对该传闻的反应",
+            "研判更广泛的海湾外交趋势"
+          ]
+        },
+        "ja": {
+          "label": "監視中",
+          "decisionTitle": "未検証のシグナル",
+          "decisionSummary": "この報告は裏付けを欠き、ホルムズの力学に関する現在の理解を変えるものではないが、追跡に値する。",
+          "thresholdReason": "インサイト更新を引き起こすには証拠の強度が不十分（単一の未検証ソース）。",
+          "observeNext": [
+            "公式ルートを通じて合意を確認する",
+            "噂に対するエネルギー市場の反応を評価する",
+            "より広範な湾岸外交の動向を評価する"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-2026-08-01",
       "date": "2026-08-01",
@@ -2998,59 +3421,6 @@
             "プロジェクト保証が複数のAI事業者へ広がるか。",
             "専用電源が提案から拘束力ある建設日程へ移るか。",
             "電力会社が系統・信用リスクの他顧客への移転を明示するか。"
-          ]
-        }
-      }
-    },
-    {
-      "id": "daily-2026-08-06",
-      "date": "2026-08-06",
-      "decidedAt": "2026-08-06T06:15:10.808Z",
-      "state": "no_new_global_insight",
-      "insightId": "insight-20260806-hormuz-deal",
-      "processId": "process-geopolitical-technology-control",
-      "materialChangeScore": 35,
-      "evidenceStrength": 80,
-      "noveltyScore": 90,
-      "importanceScore": 95,
-      "candidateSignalIds": [
-        "20260806-HORMUZ-DEAL"
-      ],
-      "content": {
-        "en": {
-          "label": "Bimodal risk event",
-          "decisionTitle": "Decision: High-impact tactical opportunity",
-          "decisionSummary": "The Hormuz deal is a binary outcome within 48 hours; confirmation would remove a major tail risk and accelerate AI infrastructure growth, while failure could trigger sharp reversals.",
-          "thresholdReason": "The process of energy-as-infrastructure is at an accelerating threshold; this event could push the technology control process into a new phase.",
-          "observeNext": [
-            "Hormuz diplomatic developments",
-            "Oil price movements",
-            "Fed and labor market data",
-            "Technology equity flows"
-          ]
-        },
-        "zh": {
-          "label": "双峰风险事件",
-          "decisionTitle": "决策：高影响力战术性机会",
-          "decisionSummary": "霍尔木兹协议在48小时内将呈现二元结果；若得到确认，将消除重大尾部风险并加速AI基础设施增长，而失败则可能引发剧烈逆转。",
-          "thresholdReason": "能源即基础设施的进程正处于加速临界点；这一事件可能将技术控制进程推入新阶段。",
-          "observeNext": [
-            "霍尔木兹外交进展",
-            "油价走势",
-            "美联储与劳动力市场数据",
-            "科技股资金流向"
-          ]
-        },
-        "ja": {
-          "label": "二極化するリスク事象",
-          "decisionTitle": "判断：高インパクトの戦術的機会",
-          "decisionSummary": "ホルムズ合意は48時間以内に二極化する結果をもたらす。確認されれば大きなテールリスクが除去されAIインフラ成長が加速する一方、失敗すれば急激な反落を招く可能性がある。",
-          "thresholdReason": "エネルギーをインフラとするプロセスは加速の閾値にあり、この事象はテクノロジー支配のプロセスを新たな段階へ押し上げる可能性がある。",
-          "observeNext": [
-            "ホルムズ外交の動向",
-            "原油価格の動き",
-            "FRBと雇用統計",
-            "テクノロジー株の資金フロー"
           ]
         }
       }
@@ -3440,6 +3810,490 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-2026-08-06-hormuz-iran-oman-1786018848665",
+      "status": "approved",
+      "writtenAt": "2026-08-06T12:20:48.665Z",
+      "researchDraftId": "research-2026-08-06-1786018666686",
+      "candidateId": "2026-08-06-hormuz-iran-oman",
+      "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
+      "dailyState": "no_new_global_insight",
+      "matchedProcessId": "process-geopolitical-technology-control",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold.",
+          "Fewer than two current or corroborating sources."
+        ],
+        "humanApproved": true,
+        "originalPublishThresholdMet": false
+      },
+      "insight": {
+        "id": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+        "slug": "iran-oman-hormuz-signal",
+        "status": "update_living",
+        "processId": "process-geopolitical-technology-control",
+        "publishedAt": "2026-08-06T00:00:00.000Z",
+        "updatedAt": "2026-08-06T12:20:48.665Z",
+        "confidence": "hypothesis",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "ENERGY GEOPOLITICS",
+              "secondaryEyebrow": "SIGNAL DETECTION",
+              "title": "Iran–Oman Hormuz Framework Reported",
+              "summary": "An unconfirmed agreement between Iran and Oman on the Strait of Hormuz could reshape energy security assumptions, but evidence remains limited."
+            },
+            "question": {
+              "lead": "A single web-search dossier has flagged a potential Iran-Oman accord on the Strait of Hormuz. What does this mean for global energy chokepoints?",
+              "title": "Is a new Hormuz stability framework emerging?",
+              "footnote": "All information from supplied research dossier, unverified."
+            },
+            "signals": {
+              "title": "Key Signals",
+              "sourceNote": "Based solely on provided web-search dossiers.",
+              "items": [
+                {
+                  "id": "2026-08-06-hormuz-iran-oman-signal-1",
+                  "label": "Agreement Claim",
+                  "title": "Unconfirmed Iran-Oman Hormuz Pact",
+                  "body": "A web-search dossier reports an Iran-Oman agreement on the Strait of Hormuz.",
+                  "whyImportant": "This could alter the security of a key oil and LNG chokepoint.",
+                  "evidence": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-evidence-1",
+                      "title": "Web-search dossier",
+                      "description": "Single report with no independent verification",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "2026-08-06-hormuz-iran-oman-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-source-1",
+                      "title": "Supplied web-search dossier — Hormuz agreement signal",
+                      "publisher": "Web-search dossier",
+                      "publishedAt": "2026-08-06",
+                      "url": "not_disclosed",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "2026-08-06-hormuz-iran-oman-signal-2",
+                  "label": "Market Sensitivity",
+                  "title": "Energy markets pricing Hormuz risk",
+                  "body": "Even unconfirmed signals can move energy and shipping risk premia.",
+                  "whyImportant": "The Strait handles ~20% of global oil trade.",
+                  "evidence": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-evidence-2",
+                      "title": "Cross-check dossier",
+                      "description": "Contextual dossier noting macro-economic risk",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "2026-08-06-hormuz-iran-oman-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-source-2",
+                      "title": "Supplied web-search dossier — energy/geopolitics/macro cross-check",
+                      "publisher": "Web-search dossier",
+                      "publishedAt": "2026-08-06",
+                      "url": "not_disclosed",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Unilateral Tensions to Ad Hoc Cooperation?",
+              "before": "Prior to the report, the Strait of Hormuz was a flashpoint of US-Iran confrontation, with persistent threats of closure and conflict.",
+              "shift": "The reported Iran-Oman framework introduces the possibility of a bilateral de-escalation path outside traditional great-power mediation.",
+              "now": "The signal is unverified, but its emergence alone tests market assumptions and may presage a broader realignment of Gulf alliances.",
+              "conclusion": "If confirmed, the agreement could lower energy transit risk and shift geopolitical calculations; if false, it reveals the fragility of Hormuz-related narratives."
+            },
+            "insight": {
+              "title": "Hormuz deals as geopolitical stress-tests",
+              "formula": "Reported cooperation + chokepoint = narrative-driven volatility",
+              "explanation": "Even unconfirmed reports of Hormuz diplomacy can create sharp reassessments of energy security, demonstrating the signal's weight."
+            },
+            "observe": {
+              "title": "What to Track",
+              "items": [
+                {
+                  "label": "Official Confirmation",
+                  "prompt": "Watch for statements from Iran, Oman, or third parties verifying the agreement.",
+                  "meta": "high frequency"
+                },
+                {
+                  "label": "Market Indicators",
+                  "prompt": "Monitor changes in shipping insurance premiums, oil futures spreads, and LNG spot prices.",
+                  "meta": "daily"
+                },
+                {
+                  "label": "Regional Responses",
+                  "prompt": "Assess reactions from Saudi Arabia, UAE, US, and China to gauge alignment shifts.",
+                  "meta": "weekly"
+                }
+              ],
+              "ending": "Hormuz remains the global energy chokepoint where geopolitics meets real-time markets."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "能源地缘政治",
+              "secondaryEyebrow": "信号检测",
+              "title": "伊朗–阿曼霍尔木兹框架据报出现",
+              "summary": "伊朗与阿曼之间一项未经证实的霍尔木兹海峡协议，可能重塑能源安全假设，但证据仍然有限。"
+            },
+            "question": {
+              "lead": "一份网络搜索档案指出了伊朗与阿曼可能就霍尔木兹海峡达成的协议。这对全球能源咽喉要道意味着什么？",
+              "title": "一个新的霍尔木兹稳定框架是否正在浮现？",
+              "footnote": "所有信息均来自所提供的研究档案，未经核实。"
+            },
+            "signals": {
+              "title": "关键信号",
+              "sourceNote": "仅基于所提供的网络搜索档案。",
+              "items": [
+                {
+                  "id": "2026-08-06-hormuz-iran-oman-signal-1",
+                  "label": "协议主张",
+                  "title": "未经证实的伊朗–阿曼霍尔木兹协议",
+                  "body": "一份网络搜索档案报告称，伊朗与阿曼就霍尔木兹海峡达成了一项协议。",
+                  "whyImportant": "这可能改变一个关键石油和LNG咽喉要道的安全状况。",
+                  "evidence": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-evidence-1",
+                      "title": "网络搜索档案",
+                      "description": "单一报告，未经独立核实",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "2026-08-06-hormuz-iran-oman-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-source-1",
+                      "title": "Supplied web-search dossier — Hormuz agreement signal",
+                      "publisher": "Web-search dossier",
+                      "publishedAt": "2026-08-06",
+                      "url": "not_disclosed",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "2026-08-06-hormuz-iran-oman-signal-2",
+                  "label": "市场敏感性",
+                  "title": "能源市场正在为霍尔木兹风险定价",
+                  "body": "即使是未经证实的信号，也可能影响能源和航运风险溢价。",
+                  "whyImportant": "该海峡承载全球约20%的石油贸易。",
+                  "evidence": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-evidence-2",
+                      "title": "交叉核对档案",
+                      "description": "注明宏观经济风险的背景档案",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "2026-08-06-hormuz-iran-oman-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-source-2",
+                      "title": "Supplied web-search dossier — energy/geopolitics/macro cross-check",
+                      "publisher": "Web-search dossier",
+                      "publishedAt": "2026-08-06",
+                      "url": "not_disclosed",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从单边紧张到临时合作？",
+              "before": "在该报告之前，霍尔木兹海峡是美伊对抗的爆发点，持续存在关闭海峡和冲突的威胁。",
+              "shift": "所报告的伊朗–阿曼框架引入了传统大国调解之外出现双边降级路径的可能性。",
+              "now": "该信号未经证实，但其出现本身就在考验市场假设，并可能预示海湾联盟的更广泛重组。",
+              "conclusion": "若获证实，该协议可能降低能源过境风险并改变地缘政治盘算；若属虚假，则暴露霍尔木兹相关叙事的脆弱性。"
+            },
+            "insight": {
+              "title": "霍尔木兹协议作为地缘政治压力测试",
+              "formula": "报告的合作 + 咽喉要道 = 叙事驱动的波动",
+              "explanation": "即使有关霍尔木兹外交的未经证实报道，也能引发对能源安全的剧烈重新评估，显示出该信号的分量。"
+            },
+            "observe": {
+              "title": "关注要点",
+              "items": [
+                {
+                  "label": "官方确认",
+                  "prompt": "关注伊朗、阿曼或第三方是否发表声明核实该协议。",
+                  "meta": "高频率"
+                },
+                {
+                  "label": "市场指标",
+                  "prompt": "监测航运保险费率、原油期货价差和LNG现货价格的变化。",
+                  "meta": "每日"
+                },
+                {
+                  "label": "地区回应",
+                  "prompt": "评估沙特阿拉伯、阿联酋、美国和中国等的反应，以判断阵营变化。",
+                  "meta": "每周"
+                }
+              ],
+              "ending": "霍尔木兹仍是地缘政治与实时市场交汇的全球能源咽喉要道。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "エネルギーの地政学",
+              "secondaryEyebrow": "シグナル検知",
+              "title": "イラン・オマーン間のホルムズ枠組みが報じられる",
+              "summary": "イランとオマーンの間のホルムズ海峡に関する未確認の合意は、エネルギー安全保障の前提を変える可能性があるが、証拠は限られたままである。"
+            },
+            "question": {
+              "lead": "単一のウェブ検索資料が、ホルムズ海峡に関するイラン・オマーン間の潜在的な合意を示唆している。これは世界のエネルギーのチョークポイントにとって何を意味するのか？",
+              "title": "新たなホルムズ安定枠組みが浮上しているのか？",
+              "footnote": "提供された調査資料のみに基づく情報であり、未検証。"
+            },
+            "signals": {
+              "title": "主要シグナル",
+              "sourceNote": "提供されたウェブ検索資料のみに基づく。",
+              "items": [
+                {
+                  "id": "2026-08-06-hormuz-iran-oman-signal-1",
+                  "label": "合意の主張",
+                  "title": "未確認のイラン・オマーン間ホルムズ合意",
+                  "body": "ウェブ検索資料は、ホルムズ海峡に関するイラン・オマーン合意を報じている。",
+                  "whyImportant": "これは主要な石油・LNGのチョークポイントの安全保障を変える可能性がある。",
+                  "evidence": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-evidence-1",
+                      "title": "ウェブ検索資料",
+                      "description": "独立した検証が無い単一の報告",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "2026-08-06-hormuz-iran-oman-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-source-1",
+                      "title": "Supplied web-search dossier — Hormuz agreement signal",
+                      "publisher": "Web-search dossier",
+                      "publishedAt": "2026-08-06",
+                      "url": "not_disclosed",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "2026-08-06-hormuz-iran-oman-signal-2",
+                  "label": "市場の感応度",
+                  "title": "エネルギー市場はホルムズリスクを織り込む",
+                  "body": "未確認のシグナルでも、エネルギーと海運のリスクプレミアムを動かし得る。",
+                  "whyImportant": "同海峡は世界の石油取引の約20%を扱う。",
+                  "evidence": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-evidence-2",
+                      "title": "クロスチェック資料",
+                      "description": "マクロ経済リスクに言及する文脈資料",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "2026-08-06-hormuz-iran-oman-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "2026-08-06-hormuz-iran-oman-source-2",
+                      "title": "Supplied web-search dossier — energy/geopolitics/macro cross-check",
+                      "publisher": "Web-search dossier",
+                      "publishedAt": "2026-08-06",
+                      "url": "not_disclosed",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "一方的緊張からその場限りの協力へ？",
+              "before": "この報告以前、ホルムズ海峡は米イラン対立の火種であり、閉鎖と紛争の脅威が続いていた。",
+              "shift": "報じられたイラン・オマーン枠組みは、従来の大国調停の外での二国間緊張緩和の道筋の可能性を示す。",
+              "now": "このシグナルは未検証だが、出現自体が市場の前提を試し、より広範な湾岸同盟の再編を予示する可能性がある。",
+              "conclusion": "確認されれば、この合意はエネルギーの輸送リスクを低下させ、地政学的な計算を変える可能性がある。偽りであれば、ホルムズ関連の語りの脆弱性を露呈する。"
+            },
+            "insight": {
+              "title": "地政学的ストレステストとしてのホルムズ合意",
+              "formula": "報じられた協力＋チョークポイント＝物語主導の変動性",
+              "explanation": "ホルムズ外交に関する未確認の報道でさえ、エネルギー安全保障の急激な見直しを生み、このシグナルの重みを示す。"
+            },
+            "observe": {
+              "title": "注視すべき点",
+              "items": [
+                {
+                  "label": "公式確認",
+                  "prompt": "イラン、オマーン、または第三者がこの合意を検証する声明に注目。",
+                  "meta": "高頻度"
+                },
+                {
+                  "label": "市場指標",
+                  "prompt": "海運保険料、石油先物スプレッド、LNGスポット価格の変化を監視。",
+                  "meta": "毎日"
+                },
+                {
+                  "label": "地域の反応",
+                  "prompt": "サウジアラビア、UAE、米国、中国の反応を評価し、連携の変化を測る。",
+                  "meta": "毎週"
+                }
+              ],
+              "ending": "ホルムズは、地政学とリアルタイム市場が交差する世界エネルギーのチョークポイントであり続ける。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-06",
+        "date": "2026-08-06",
+        "decidedAt": "2026-08-06T12:20:48.665Z",
+        "state": "no_new_global_insight",
+        "insightId": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+        "processId": "process-geopolitical-technology-control",
+        "materialChangeScore": 18,
+        "evidenceStrength": 38,
+        "noveltyScore": 76,
+        "importanceScore": 88,
+        "candidateSignalIds": [
+          "2026-08-06-hormuz-iran-oman"
+        ],
+        "content": {
+          "en": {
+            "label": "Monitoring",
+            "decisionTitle": "Unverified Signal",
+            "decisionSummary": "The report lacks corroboration and does not alter the current understanding of Hormuz dynamics, but warrants tracking.",
+            "thresholdReason": "Evidence strength insufficient (single unverified source) to trigger an insight update.",
+            "observeNext": [
+              "Confirm the agreement through official channels",
+              "Assess energy market reaction to the rumor",
+              "Evaluate broader Gulf diplomatic trends"
+            ]
+          },
+          "zh": {
+            "label": "监测中",
+            "decisionTitle": "未证实信号",
+            "decisionSummary": "该报告缺乏佐证，并未改变目前对霍尔木兹动态的理解，但值得跟踪。",
+            "thresholdReason": "证据强度不足（单一未经证实来源），不足以触发洞察更新。",
+            "observeNext": [
+              "通过官方渠道确认该协议",
+              "评估能源市场对该传闻的反应",
+              "研判更广泛的海湾外交趋势"
+            ]
+          },
+          "ja": {
+            "label": "監視中",
+            "decisionTitle": "未検証のシグナル",
+            "decisionSummary": "この報告は裏付けを欠き、ホルムズの力学に関する現在の理解を変えるものではないが、追跡に値する。",
+            "thresholdReason": "インサイト更新を引き起こすには証拠の強度が不十分（単一の未検証ソース）。",
+            "observeNext": [
+              "公式ルートを通じて合意を確認する",
+              "噂に対するエネルギー市場の反応を評価する",
+              "より広範な湾岸外交の動向を評価する"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-geopolitical-technology-control",
+        "updatedAt": "2026-08-06T12:20:48.665Z",
+        "appendInsightId": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+        "evolutionEvent": {
+          "id": "evolution-2026-08-06-hormuz-iran-oman",
+          "date": "2026-08-06",
+          "stage": "signal",
+          "impact": "updates",
+          "insightId": "global-2026-08-06-iran-oman-hormuz-framework-reported",
+          "content": {
+            "en": {
+              "title": "Energy geopolitics signal",
+              "description": "Monitoring an unverified Iran-Oman Hormuz framework as a potential shift in regional cooperation.",
+              "implication": "Could indicate a new pattern of bilateral agreements to manage chokepoint security, relevant to energy and macro risk."
+            },
+            "zh": {
+              "title": "能源地缘政治信号",
+              "description": "正在监测一项未经证实的伊朗–阿曼霍尔木兹框架，视其为区域合作可能出现的转变。",
+              "implication": "这可能表明出现了以双边协议管理咽喉要道安全的新模式，与能源和宏观风险相关。"
+            },
+            "ja": {
+              "title": "エネルギー地政学シグナル",
+              "description": "地域協力の潜在的な変化として、未検証のイラン・オマーン・ホルムズ枠組みを監視している。",
+              "implication": "チョークポイントの安全保障を管理する二国間合意の新しいパターンを示す可能性があり、エネルギーとマクロリスクに関連する。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will the Iran-Oman Hormuz framework be confirmed and implemented?",
+          "zh": "伊朗–阿曼霍尔木兹框架会得到确认并落实吗？",
+          "ja": "イラン・オマーンのホルムズ枠組みは確認され、実施されるのか？"
+        },
+        "observeNext": {
+          "en": [
+            "Iranian and Omani official communications",
+            "Energy market pricing of Hormuz risk",
+            "Reactions from global powers and neighboring states"
+          ],
+          "zh": [
+            "伊朗和阿曼的官方通报",
+            "能源市场对霍尔木兹风险的定价",
+            "全球大国及邻国的反应"
+          ],
+          "ja": [
+            "イランとオマーンの公式通信",
+            "ホルムズリスクのエネルギー市場での価格反映",
+            "大国と近隣諸国からの反応"
+          ]
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "staged-writer-v1",
+      "usage": {
+        "inputTokens": 6695,
+        "outputTokens": 8982,
+        "cachedInputTokens": 4352
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-06T12:20:58.642Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "approvedAt": "2026-08-06T12:20:58.642Z"
+    },
     {
       "id": "writer-example-2026-08-01",
       "status": "approved",
@@ -5156,11 +6010,11 @@
   ],
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-06T07:12:24.971Z",
-    "lastMatchedProcessId": "process-ai-infrastructure-race"
+    "lastUpdatedAt": "2026-08-06T12:20:58.642Z",
+    "lastMatchedProcessId": "process-geopolitical-technology-control"
   },
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-06T07:12:25.830Z"
+    "repairedAt": "2026-08-06T12:20:59.733Z"
   }
 }
