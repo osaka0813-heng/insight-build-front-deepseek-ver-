@@ -1,8 +1,245 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T07:06:08.051Z",
-  "contentVersion": "publish-insight-20260806-hormuz-deal-1785999968939",
+  "generatedAt": "2026-08-06T07:12:24.971Z",
+  "contentVersion": "publish-global-2026-07-31-industrial-ai-1786000345829",
   "insights": [
+    {
+      "id": "global-2026-07-31-industrial-ai",
+      "slug": "ai-infrastructure-enters-industrial-finance-phase",
+      "status": "update_living",
+      "parentInsightId": "global-2026-07-29-capacity",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-07-31T13:30:00+09:00",
+      "updatedAt": "2026-07-31T13:30:00+09:00",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Living Insight Update",
+            "title": "AI infrastructure is no longer being bought like technology. It is being financed like heavy industry.",
+            "summary": "The competition has crossed into project finance, dedicated power generation and state-scale site development."
+          },
+          "question": {
+            "lead": "The previous Insight identified capacity as the scarce asset. New evidence now shows that capacity itself must be financed, powered and politically assembled.",
+            "title": "What changes when AI companies must assemble banks, power plants, land and public policy before they can assemble intelligence?",
+            "footnote": "The important change is not simply that data centers are getting larger. Their financing and energy structure now resembles industrial megaprojects."
+          },
+          "signals": {
+            "title": "Three signals show the same phase transition.",
+            "items": [
+              {
+                "id": "project-finance",
+                "label": "FINANCE",
+                "title": "AI capacity is moving into project finance.",
+                "body": "Banks are discussing a $15 billion loan for a 1.6-gigawatt Anthropic campus, supported by Google guarantees and a dedicated natural-gas power plant."
+              },
+              {
+                "id": "industrial-site",
+                "label": "STATE + LAND",
+                "title": "Public industrial sites are being rebuilt as AI-energy complexes.",
+                "body": "A former uranium facility in Kentucky is planned as a $100 billion campus combining 1.8 gigawatts of data centers with 2 gigawatts of gas generation and 2.6 gigawatts of battery storage."
+              },
+              {
+                "id": "utility-demand",
+                "label": "UTILITY",
+                "title": "AI demand is becoming visible in utility earnings and planning.",
+                "body": "American Electric Power raised its outlook as data centers and other large customers accelerated electricity demand."
+              }
+            ],
+            "sourceNote": "These are separate financing, land and utility signals. Together they indicate a change in the operating model of AI expansion."
+          },
+          "pattern": {
+            "title": "The AI stack is expanding into an industrial development system.",
+            "before": "Technology companies purchased chips and rented cloud capacity.",
+            "shift": "Capacity shortages forced long-term commitments to sites, power and compute.",
+            "now": "AI expansion requires project finance, dedicated generation, guarantees, construction and public-sector coordination.",
+            "conclusion": "The leading AI operators are beginning to behave less like software buyers and more like industrial infrastructure developers."
+          },
+          "insight": {
+            "title": "AI has entered its industrial-finance phase.",
+            "formula": "CAPITAL GUARANTEES × DEDICATED POWER × INDUSTRIAL SITES = SOVEREIGN-SCALE AI CAPACITY",
+            "explanation": "The next constraint is not only whether a company can design a better model, but whether it can organize a bankable physical system large enough to run it. This raises the advantage of firms with strong balance sheets—and transfers more AI risk into utilities, lenders, governments and local communities."
+          },
+          "observe": {
+            "title": "Watch whether this industrial model becomes the default.",
+            "items": [
+              {
+                "label": "GUARANTEES",
+                "prompt": "More technology companies guaranteeing leases, loans or power obligations for AI partners.",
+                "meta": "FINANCE"
+              },
+              {
+                "label": "BEHIND THE METER",
+                "prompt": "More campuses pairing data centers with dedicated gas, nuclear or storage assets.",
+                "meta": "ENERGY"
+              },
+              {
+                "label": "PUBLIC LAND",
+                "prompt": "More governments converting military, nuclear or industrial sites into AI campuses.",
+                "meta": "POLICY"
+              },
+              {
+                "label": "RISK",
+                "prompt": "Whether electricity costs, stranded capacity or credit exposure migrate outside the AI company itself.",
+                "meta": "SYSTEM"
+              }
+            ],
+            "ending": "The AI race is now visible in the institutions that finance and power heavy industry."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "持续洞察更新",
+            "title": "AI基础设施不再像科技产品那样被采购，而开始像重工业那样被融资。",
+            "summary": "竞争已经进入项目融资、专用发电与国家级工业场地开发阶段。"
+          },
+          "question": {
+            "lead": "上一条洞察确认了“容量”正在变得稀缺；新的证据进一步显示，容量本身也必须被融资、供电并通过公共协同组织起来。",
+            "title": "当AI公司必须先组织银行、电厂、土地与公共政策，才能组织智能时，意味着什么？",
+            "footnote": "重要变化不只是数据中心变得更大，而是它的融资与能源结构开始接近大型工业项目。"
+          },
+          "signals": {
+            "title": "三个信号显示同一个阶段跃迁。",
+            "items": [
+              {
+                "id": "project-finance",
+                "label": "融资",
+                "title": "AI容量开始进入项目融资体系。",
+                "body": "银行正讨论为Anthropic的1.6吉瓦园区提供150亿美元贷款，Google以担保支持租赁与电力义务，园区还配套专用天然气电厂。"
+              },
+              {
+                "id": "industrial-site",
+                "label": "国家＋土地",
+                "title": "公共工业场地正在被重建为AI—能源综合体。",
+                "body": "肯塔基一座旧铀设施计划改造成1000亿美元园区，将1.8吉瓦数据中心、2吉瓦燃气发电和2.6吉瓦电池储能放进同一项目。"
+              },
+              {
+                "id": "utility-demand",
+                "label": "公用事业",
+                "title": "AI需求开始直接进入电力公司的业绩与规划。",
+                "body": "American Electric Power因数据中心和大型客户用电加速，上调了盈利预期。"
+              }
+            ],
+            "sourceNote": "融资、土地与公用事业是三类独立信号；它们共同显示AI扩张的运营模式正在改变。"
+          },
+          "pattern": {
+            "title": "AI技术栈正在扩展成一套工业开发系统。",
+            "before": "科技公司购买芯片，并租用云端容量。",
+            "shift": "容量短缺迫使企业长期锁定场地、电力与算力。",
+            "now": "AI扩张需要项目融资、专用发电、信用担保、工程建设与公共部门协同。",
+            "conclusion": "领先的AI运营者正越来越不像软件采购者，而更像工业基础设施开发商。"
+          },
+          "insight": {
+            "title": "AI已经进入“工业融资阶段”。",
+            "formula": "资本担保 × 专用能源 × 工业场地 = 国家级AI容量",
+            "explanation": "下一道约束不只是能否设计更好的模型，而是能否组织出一个足够大、可以被融资、可以真实运行的物理系统。这会放大强资产负债表公司的优势，同时把更多AI风险传导给电力公司、银行、政府与当地社区。"
+          },
+          "observe": {
+            "title": "接下来观察这种工业模式是否成为默认路径。",
+            "items": [
+              {
+                "label": "担保",
+                "prompt": "更多科技公司是否为AI合作伙伴的租赁、贷款或电力义务提供担保。",
+                "meta": "金融"
+              },
+              {
+                "label": "表后电源",
+                "prompt": "更多园区是否把数据中心与燃气、核能或储能资产直接配套。",
+                "meta": "能源"
+              },
+              {
+                "label": "公共土地",
+                "prompt": "更多政府是否把军事、核工业或旧工业场地转为AI园区。",
+                "meta": "政策"
+              },
+              {
+                "label": "风险转移",
+                "prompt": "电价、闲置容量与信用风险是否被转移到AI公司之外。",
+                "meta": "系统"
+              }
+            ],
+            "ending": "AI竞赛如今已经出现在为重工业融资、供电的那些制度之中。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "今日の観察",
+            "secondaryEyebrow": "継続インサイト更新",
+            "title": "AIインフラは、もはや技術製品のように購入されず、重工業のように資金調達され始めた。",
+            "summary": "競争はプロジェクト金融、専用発電、国家規模の産業用地開発へ入った。"
+          },
+          "question": {
+            "lead": "前回のインサイトは「供給能力」の希少化を捉えた。新しい証拠は、その能力自体を金融・電力・公共調整で組成する必要があることを示している。",
+            "title": "AI企業が知能を組み立てる前に、銀行・発電所・土地・公共政策を組み立てなければならないとき、何が変わるのか。",
+            "footnote": "重要なのはデータセンターが大型化したことだけではない。資金調達とエネルギー構造が巨大産業プロジェクトに近づいたことだ。"
+          },
+          "signals": {
+            "title": "三つのシグナルが同じ段階転換を示す。",
+            "items": [
+              {
+                "id": "project-finance",
+                "label": "金融",
+                "title": "AI能力がプロジェクト金融へ入る。",
+                "body": "銀行はAnthropic向け1.6GWキャンパスへの150億ドル融資を協議し、Googleが賃貸・電力義務を保証、専用ガス発電も組み込まれる。"
+              },
+              {
+                "id": "industrial-site",
+                "label": "国家＋土地",
+                "title": "公共産業用地がAI・エネルギー複合施設へ再編される。",
+                "body": "ケンタッキーの旧ウラン施設では、1.8GWのデータセンター、2GWのガス発電、2.6GWの蓄電池を組み合わせる1000億ドル計画が進む。"
+              },
+              {
+                "id": "utility-demand",
+                "label": "電力会社",
+                "title": "AI需要が電力会社の業績と計画に直接現れる。",
+                "body": "American Electric Powerは、データセンターなど大型需要家の電力需要増加を受け、業績見通しを引き上げた。"
+              }
+            ],
+            "sourceNote": "金融、土地、電力会社という別々のシグナルが、AI拡張の運営モデルの変化を同時に示している。"
+          },
+          "pattern": {
+            "title": "AIスタックが産業開発システムへ広がる。",
+            "before": "技術企業は半導体を購入し、クラウド能力を借りていた。",
+            "shift": "能力不足が、用地・電力・計算資源の長期確保を迫った。",
+            "now": "AI拡張にはプロジェクト金融、専用発電、信用保証、建設、公共部門との調整が必要になる。",
+            "conclusion": "主要AI事業者は、ソフトウェア購入者より産業インフラ開発者に近づいている。"
+          },
+          "insight": {
+            "title": "AIは「産業金融フェーズ」に入った。",
+            "formula": "資本保証 × 専用電源 × 産業用地 = 国家規模のAI能力",
+            "explanation": "次の制約は優れたモデルを設計できるかだけではなく、それを動かす巨大で融資可能な物理システムを組成できるかである。強い財務基盤を持つ企業が有利になり、AIリスクは電力会社、金融機関、政府、地域社会へ広がる。"
+          },
+          "observe": {
+            "title": "この産業モデルが標準になるかを観察する。",
+            "items": [
+              {
+                "label": "保証",
+                "prompt": "技術企業がAI提携先の賃貸、融資、電力義務を保証する例が増えるか。",
+                "meta": "金融"
+              },
+              {
+                "label": "専用電源",
+                "prompt": "データセンターとガス、原子力、蓄電設備を直接組み合わせるキャンパスが増えるか。",
+                "meta": "エネルギー"
+              },
+              {
+                "label": "公共用地",
+                "prompt": "軍事、原子力、旧産業用地をAIキャンパスへ転換する政府が増えるか。",
+                "meta": "政策"
+              },
+              {
+                "label": "リスク",
+                "prompt": "電気料金、遊休能力、信用リスクがAI企業の外へ移るか。",
+                "meta": "システム"
+              }
+            ],
+            "ending": "AI競争は、重工業を支える金融と電力の制度の中に現れ始めた。"
+          }
+        }
+      }
+    },
     {
       "id": "insight-20260806-hormuz-deal",
       "slug": "hormuz-reopening-deal-50-50",
@@ -1118,243 +1355,6 @@
       }
     },
     {
-      "id": "global-2026-07-31-industrial-ai",
-      "slug": "ai-infrastructure-enters-industrial-finance-phase",
-      "status": "update_living",
-      "parentInsightId": "global-2026-07-29-capacity",
-      "processId": "process-ai-infrastructure-race",
-      "publishedAt": "2026-07-31T13:30:00+09:00",
-      "updatedAt": "2026-07-31T13:30:00+09:00",
-      "confidence": "verified",
-      "content": {
-        "en": {
-          "cover": {
-            "eyebrow": "TODAY'S OBSERVE",
-            "secondaryEyebrow": "Living Insight Update",
-            "title": "AI infrastructure is no longer being bought like technology. It is being financed like heavy industry.",
-            "summary": "The competition has crossed into project finance, dedicated power generation and state-scale site development."
-          },
-          "question": {
-            "lead": "The previous Insight identified capacity as the scarce asset. New evidence now shows that capacity itself must be financed, powered and politically assembled.",
-            "title": "What changes when AI companies must assemble banks, power plants, land and public policy before they can assemble intelligence?",
-            "footnote": "The important change is not simply that data centers are getting larger. Their financing and energy structure now resembles industrial megaprojects."
-          },
-          "signals": {
-            "title": "Three signals show the same phase transition.",
-            "items": [
-              {
-                "id": "project-finance",
-                "label": "FINANCE",
-                "title": "AI capacity is moving into project finance.",
-                "body": "Banks are discussing a $15 billion loan for a 1.6-gigawatt Anthropic campus, supported by Google guarantees and a dedicated natural-gas power plant."
-              },
-              {
-                "id": "industrial-site",
-                "label": "STATE + LAND",
-                "title": "Public industrial sites are being rebuilt as AI-energy complexes.",
-                "body": "A former uranium facility in Kentucky is planned as a $100 billion campus combining 1.8 gigawatts of data centers with 2 gigawatts of gas generation and 2.6 gigawatts of battery storage."
-              },
-              {
-                "id": "utility-demand",
-                "label": "UTILITY",
-                "title": "AI demand is becoming visible in utility earnings and planning.",
-                "body": "American Electric Power raised its outlook as data centers and other large customers accelerated electricity demand."
-              }
-            ],
-            "sourceNote": "These are separate financing, land and utility signals. Together they indicate a change in the operating model of AI expansion."
-          },
-          "pattern": {
-            "title": "The AI stack is expanding into an industrial development system.",
-            "before": "Technology companies purchased chips and rented cloud capacity.",
-            "shift": "Capacity shortages forced long-term commitments to sites, power and compute.",
-            "now": "AI expansion requires project finance, dedicated generation, guarantees, construction and public-sector coordination.",
-            "conclusion": "The leading AI operators are beginning to behave less like software buyers and more like industrial infrastructure developers."
-          },
-          "insight": {
-            "title": "AI has entered its industrial-finance phase.",
-            "formula": "CAPITAL GUARANTEES × DEDICATED POWER × INDUSTRIAL SITES = SOVEREIGN-SCALE AI CAPACITY",
-            "explanation": "The next constraint is not only whether a company can design a better model, but whether it can organize a bankable physical system large enough to run it. This raises the advantage of firms with strong balance sheets—and transfers more AI risk into utilities, lenders, governments and local communities."
-          },
-          "observe": {
-            "title": "Watch whether this industrial model becomes the default.",
-            "items": [
-              {
-                "label": "GUARANTEES",
-                "prompt": "More technology companies guaranteeing leases, loans or power obligations for AI partners.",
-                "meta": "FINANCE"
-              },
-              {
-                "label": "BEHIND THE METER",
-                "prompt": "More campuses pairing data centers with dedicated gas, nuclear or storage assets.",
-                "meta": "ENERGY"
-              },
-              {
-                "label": "PUBLIC LAND",
-                "prompt": "More governments converting military, nuclear or industrial sites into AI campuses.",
-                "meta": "POLICY"
-              },
-              {
-                "label": "RISK",
-                "prompt": "Whether electricity costs, stranded capacity or credit exposure migrate outside the AI company itself.",
-                "meta": "SYSTEM"
-              }
-            ],
-            "ending": "The AI race is now visible in the institutions that finance and power heavy industry."
-          }
-        },
-        "zh": {
-          "cover": {
-            "eyebrow": "今日观察",
-            "secondaryEyebrow": "持续洞察更新",
-            "title": "AI基础设施不再像科技产品那样被采购，而开始像重工业那样被融资。",
-            "summary": "竞争已经进入项目融资、专用发电与国家级工业场地开发阶段。"
-          },
-          "question": {
-            "lead": "上一条洞察确认了“容量”正在变得稀缺；新的证据进一步显示，容量本身也必须被融资、供电并通过公共协同组织起来。",
-            "title": "当AI公司必须先组织银行、电厂、土地与公共政策，才能组织智能时，意味着什么？",
-            "footnote": "重要变化不只是数据中心变得更大，而是它的融资与能源结构开始接近大型工业项目。"
-          },
-          "signals": {
-            "title": "三个信号显示同一个阶段跃迁。",
-            "items": [
-              {
-                "id": "project-finance",
-                "label": "融资",
-                "title": "AI容量开始进入项目融资体系。",
-                "body": "银行正讨论为Anthropic的1.6吉瓦园区提供150亿美元贷款，Google以担保支持租赁与电力义务，园区还配套专用天然气电厂。"
-              },
-              {
-                "id": "industrial-site",
-                "label": "国家＋土地",
-                "title": "公共工业场地正在被重建为AI—能源综合体。",
-                "body": "肯塔基一座旧铀设施计划改造成1000亿美元园区，将1.8吉瓦数据中心、2吉瓦燃气发电和2.6吉瓦电池储能放进同一项目。"
-              },
-              {
-                "id": "utility-demand",
-                "label": "公用事业",
-                "title": "AI需求开始直接进入电力公司的业绩与规划。",
-                "body": "American Electric Power因数据中心和大型客户用电加速，上调了盈利预期。"
-              }
-            ],
-            "sourceNote": "融资、土地与公用事业是三类独立信号；它们共同显示AI扩张的运营模式正在改变。"
-          },
-          "pattern": {
-            "title": "AI技术栈正在扩展成一套工业开发系统。",
-            "before": "科技公司购买芯片，并租用云端容量。",
-            "shift": "容量短缺迫使企业长期锁定场地、电力与算力。",
-            "now": "AI扩张需要项目融资、专用发电、信用担保、工程建设与公共部门协同。",
-            "conclusion": "领先的AI运营者正越来越不像软件采购者，而更像工业基础设施开发商。"
-          },
-          "insight": {
-            "title": "AI已经进入“工业融资阶段”。",
-            "formula": "资本担保 × 专用能源 × 工业场地 = 国家级AI容量",
-            "explanation": "下一道约束不只是能否设计更好的模型，而是能否组织出一个足够大、可以被融资、可以真实运行的物理系统。这会放大强资产负债表公司的优势，同时把更多AI风险传导给电力公司、银行、政府与当地社区。"
-          },
-          "observe": {
-            "title": "接下来观察这种工业模式是否成为默认路径。",
-            "items": [
-              {
-                "label": "担保",
-                "prompt": "更多科技公司是否为AI合作伙伴的租赁、贷款或电力义务提供担保。",
-                "meta": "金融"
-              },
-              {
-                "label": "表后电源",
-                "prompt": "更多园区是否把数据中心与燃气、核能或储能资产直接配套。",
-                "meta": "能源"
-              },
-              {
-                "label": "公共土地",
-                "prompt": "更多政府是否把军事、核工业或旧工业场地转为AI园区。",
-                "meta": "政策"
-              },
-              {
-                "label": "风险转移",
-                "prompt": "电价、闲置容量与信用风险是否被转移到AI公司之外。",
-                "meta": "系统"
-              }
-            ],
-            "ending": "AI竞赛如今已经出现在为重工业融资、供电的那些制度之中。"
-          }
-        },
-        "ja": {
-          "cover": {
-            "eyebrow": "今日の観察",
-            "secondaryEyebrow": "継続インサイト更新",
-            "title": "AIインフラは、もはや技術製品のように購入されず、重工業のように資金調達され始めた。",
-            "summary": "競争はプロジェクト金融、専用発電、国家規模の産業用地開発へ入った。"
-          },
-          "question": {
-            "lead": "前回のインサイトは「供給能力」の希少化を捉えた。新しい証拠は、その能力自体を金融・電力・公共調整で組成する必要があることを示している。",
-            "title": "AI企業が知能を組み立てる前に、銀行・発電所・土地・公共政策を組み立てなければならないとき、何が変わるのか。",
-            "footnote": "重要なのはデータセンターが大型化したことだけではない。資金調達とエネルギー構造が巨大産業プロジェクトに近づいたことだ。"
-          },
-          "signals": {
-            "title": "三つのシグナルが同じ段階転換を示す。",
-            "items": [
-              {
-                "id": "project-finance",
-                "label": "金融",
-                "title": "AI能力がプロジェクト金融へ入る。",
-                "body": "銀行はAnthropic向け1.6GWキャンパスへの150億ドル融資を協議し、Googleが賃貸・電力義務を保証、専用ガス発電も組み込まれる。"
-              },
-              {
-                "id": "industrial-site",
-                "label": "国家＋土地",
-                "title": "公共産業用地がAI・エネルギー複合施設へ再編される。",
-                "body": "ケンタッキーの旧ウラン施設では、1.8GWのデータセンター、2GWのガス発電、2.6GWの蓄電池を組み合わせる1000億ドル計画が進む。"
-              },
-              {
-                "id": "utility-demand",
-                "label": "電力会社",
-                "title": "AI需要が電力会社の業績と計画に直接現れる。",
-                "body": "American Electric Powerは、データセンターなど大型需要家の電力需要増加を受け、業績見通しを引き上げた。"
-              }
-            ],
-            "sourceNote": "金融、土地、電力会社という別々のシグナルが、AI拡張の運営モデルの変化を同時に示している。"
-          },
-          "pattern": {
-            "title": "AIスタックが産業開発システムへ広がる。",
-            "before": "技術企業は半導体を購入し、クラウド能力を借りていた。",
-            "shift": "能力不足が、用地・電力・計算資源の長期確保を迫った。",
-            "now": "AI拡張にはプロジェクト金融、専用発電、信用保証、建設、公共部門との調整が必要になる。",
-            "conclusion": "主要AI事業者は、ソフトウェア購入者より産業インフラ開発者に近づいている。"
-          },
-          "insight": {
-            "title": "AIは「産業金融フェーズ」に入った。",
-            "formula": "資本保証 × 専用電源 × 産業用地 = 国家規模のAI能力",
-            "explanation": "次の制約は優れたモデルを設計できるかだけではなく、それを動かす巨大で融資可能な物理システムを組成できるかである。強い財務基盤を持つ企業が有利になり、AIリスクは電力会社、金融機関、政府、地域社会へ広がる。"
-          },
-          "observe": {
-            "title": "この産業モデルが標準になるかを観察する。",
-            "items": [
-              {
-                "label": "保証",
-                "prompt": "技術企業がAI提携先の賃貸、融資、電力義務を保証する例が増えるか。",
-                "meta": "金融"
-              },
-              {
-                "label": "専用電源",
-                "prompt": "データセンターとガス、原子力、蓄電設備を直接組み合わせるキャンパスが増えるか。",
-                "meta": "エネルギー"
-              },
-              {
-                "label": "公共用地",
-                "prompt": "軍事、原子力、旧産業用地をAIキャンパスへ転換する政府が増えるか。",
-                "meta": "政策"
-              },
-              {
-                "label": "リスク",
-                "prompt": "電気料金、遊休能力、信用リスクがAI企業の外へ移るか。",
-                "meta": "システム"
-              }
-            ],
-            "ending": "AI競争は、重工業を支える金融と電力の制度の中に現れ始めた。"
-          }
-        }
-      }
-    },
-    {
       "id": "global-2026-07-29-capacity",
       "slug": "ai-capacity-becomes-strategic-asset",
       "status": "publish_new",
@@ -2064,7 +2064,7 @@
       "status": "accelerating",
       "confidence": "verified",
       "startedAt": "2026-07-01T00:00:00+09:00",
-      "updatedAt": "2026-08-01T14:21:49.578Z",
+      "updatedAt": "2026-08-06T07:12:24.971Z",
       "insightIds": [
         "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
         "global-2026-07-26-capacity-update",
@@ -2953,6 +2953,56 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-2026-08-01",
+      "date": "2026-08-01",
+      "decidedAt": "2026-08-01T16:30:00+09:00",
+      "state": "no_new_global_insight",
+      "candidateSignalIds": [
+        "candidate-2026-08-01-follow-through"
+      ],
+      "previousInsightId": "global-2026-07-31-industrial-ai",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 38,
+      "evidenceStrength": 74,
+      "noveltyScore": 31,
+      "importanceScore": 69,
+      "content": {
+        "en": {
+          "label": "NO MATERIAL UPDATE",
+          "decisionTitle": "Today added confirmation, not a new world-level change.",
+          "decisionSummary": "Follow-through signals remain consistent with the industrialization of AI infrastructure, but they do not alter the current thesis or process stage.",
+          "thresholdReason": "The evidence is credible enough to keep watching, yet it does not reveal a new system relationship, challenge the thesis, or trigger a stage transition.",
+          "observeNext": [
+            "Whether project guarantees begin to appear across multiple AI operators.",
+            "Whether dedicated generation moves from proposals into binding construction schedules.",
+            "Whether utilities disclose a measurable transfer of grid and credit risk to other customers."
+          ]
+        },
+        "zh": {
+          "label": "暂无重大更新",
+          "decisionTitle": "今天增加的是确认，而不是新的世界级变化。",
+          "decisionSummary": "后续信号仍然符合“AI基础设施正在工业化”的判断，但没有改变当前命题，也没有推动进程进入新阶段。",
+          "thresholdReason": "现有证据值得继续观察，但尚未揭示新的系统关系、挑战原判断，或触发阶段跃迁。",
+          "observeNext": [
+            "项目担保是否开始在更多AI运营商之间扩散。",
+            "专用发电是否从提案进入具有约束力的建设时间表。",
+            "电力公司是否披露电网与信用风险被明确转移给其他客户。"
+          ]
+        },
+        "ja": {
+          "label": "重要な更新なし",
+          "decisionTitle": "今日は確認材料が増えたが、世界レベルの新しい変化ではない。",
+          "decisionSummary": "追随シグナルはAIインフラの産業化という判断と整合するが、現在の命題や段階を変えていない。",
+          "thresholdReason": "継続観察に値する証拠はあるが、新しいシステム関係、命題への反証、段階移行のいずれにも達していない。",
+          "observeNext": [
+            "プロジェクト保証が複数のAI事業者へ広がるか。",
+            "専用電源が提案から拘束力ある建設日程へ移るか。",
+            "電力会社が系統・信用リスクの他顧客への移転を明示するか。"
+          ]
+        }
+      }
+    },
+    {
       "id": "daily-2026-08-06",
       "date": "2026-08-06",
       "decidedAt": "2026-08-06T06:15:10.808Z",
@@ -3001,59 +3051,6 @@
             "原油価格の動き",
             "FRBと雇用統計",
             "テクノロジー株の資金フロー"
-          ]
-        }
-      }
-    },
-    {
-      "id": "daily-2026-08-01",
-      "date": "2026-08-01",
-      "decidedAt": "2026-08-01T15:12:48.498Z",
-      "state": "update_living",
-      "insightId": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
-      "processId": "process-ai-infrastructure-race",
-      "materialChangeScore": 58,
-      "evidenceStrength": 62,
-      "noveltyScore": 74,
-      "importanceScore": 88,
-      "candidateSignalIds": [
-        "sig-2026-08-01-paducah-ai-campus"
-      ],
-      "content": {
-        "en": {
-          "label": "Update",
-          "decisionTitle": "Living Insight updated",
-          "decisionSummary": "The Paducah project bundles federal land, AI compute, dedicated gas generation, battery storage and transmission into one infrastructure plan.",
-          "thresholdReason": "The candidate was originally below the automatic publication threshold and was published after explicit human review and override.",
-          "observeNext": [
-            "State utility approval of power service agreements",
-            "Execution of definitive site, power, and transmission agreements",
-            "Environmental review and local permitting milestones",
-            "Construction sequencing across power and data center works"
-          ]
-        },
-        "zh": {
-          "label": "更新",
-          "decisionTitle": "持续洞察已更新",
-          "decisionSummary": "帕杜卡项目把联邦土地、AI算力、专用燃气发电、电池储能与输电升级纳入同一基础设施方案。",
-          "thresholdReason": "该候选原本未达到自动发布门槛，经人工审核并明确覆盖后，作为持续洞察更新发布。",
-          "observeNext": [
-            "州级对供电服务协议的批准",
-            "场地、供电与输电的最终协议签署",
-            "环境评审与本地许可进展",
-            "电源与数据中心施工进度同步性"
-          ]
-        },
-        "ja": {
-          "label": "更新",
-          "decisionTitle": "継続インサイトを更新",
-          "decisionSummary": "パデューカ計画は、連邦用地、AI計算資源、専用ガス発電、蓄電、送電増強を一つのインフラ計画にまとめています。",
-          "thresholdReason": "この候補は自動公開基準を下回っていましたが、人による明示的な審査とオーバーライドを経て継続インサイトとして公開されました。",
-          "observeNext": [
-            "電力供給契約に対する州の承認",
-            "用地・電源・送電の最終契約締結",
-            "環境審査と地域許認可の進捗",
-            "電源設備とデータセンターの施工同期"
           ]
         }
       }
@@ -3443,6 +3440,321 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-example-2026-08-01",
+      "status": "approved",
+      "writtenAt": "2026-08-01T12:00:00.000Z",
+      "researchDraftId": "research-2026-08-01-sample",
+      "candidateId": "research-signal-ai-grid-capacity",
+      "model": "gpt-5",
+      "dailyState": "no_new_global_insight",
+      "matchedProcessId": "process-ai-infrastructure-race",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Example preview generated from the current local Insight. Replace with /api/write output."
+        ],
+        "humanApproved": true,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "global-2026-07-31-industrial-ai",
+        "slug": "ai-infrastructure-enters-industrial-finance-phase",
+        "status": "update_living",
+        "parentInsightId": "global-2026-07-29-capacity",
+        "processId": "process-ai-infrastructure-race",
+        "publishedAt": "2026-07-31T13:30:00+09:00",
+        "updatedAt": "2026-07-31T13:30:00+09:00",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "TODAY'S OBSERVE",
+              "secondaryEyebrow": "Living Insight Update",
+              "title": "AI infrastructure is no longer being bought like technology. It is being financed like heavy industry.",
+              "summary": "The competition has crossed into project finance, dedicated power generation and state-scale site development."
+            },
+            "question": {
+              "lead": "The previous Insight identified capacity as the scarce asset. New evidence now shows that capacity itself must be financed, powered and politically assembled.",
+              "title": "What changes when AI companies must assemble banks, power plants, land and public policy before they can assemble intelligence?",
+              "footnote": "The important change is not simply that data centers are getting larger. Their financing and energy structure now resembles industrial megaprojects."
+            },
+            "signals": {
+              "title": "Three signals show the same phase transition.",
+              "items": [
+                {
+                  "id": "project-finance",
+                  "label": "FINANCE",
+                  "title": "AI capacity is moving into project finance.",
+                  "body": "Banks are discussing a $15 billion loan for a 1.6-gigawatt Anthropic campus, supported by Google guarantees and a dedicated natural-gas power plant."
+                },
+                {
+                  "id": "industrial-site",
+                  "label": "STATE + LAND",
+                  "title": "Public industrial sites are being rebuilt as AI-energy complexes.",
+                  "body": "A former uranium facility in Kentucky is planned as a $100 billion campus combining 1.8 gigawatts of data centers with 2 gigawatts of gas generation and 2.6 gigawatts of battery storage."
+                },
+                {
+                  "id": "utility-demand",
+                  "label": "UTILITY",
+                  "title": "AI demand is becoming visible in utility earnings and planning.",
+                  "body": "American Electric Power raised its outlook as data centers and other large customers accelerated electricity demand."
+                }
+              ],
+              "sourceNote": "These are separate financing, land and utility signals. Together they indicate a change in the operating model of AI expansion."
+            },
+            "pattern": {
+              "title": "The AI stack is expanding into an industrial development system.",
+              "before": "Technology companies purchased chips and rented cloud capacity.",
+              "shift": "Capacity shortages forced long-term commitments to sites, power and compute.",
+              "now": "AI expansion requires project finance, dedicated generation, guarantees, construction and public-sector coordination.",
+              "conclusion": "The leading AI operators are beginning to behave less like software buyers and more like industrial infrastructure developers."
+            },
+            "insight": {
+              "title": "AI has entered its industrial-finance phase.",
+              "formula": "CAPITAL GUARANTEES × DEDICATED POWER × INDUSTRIAL SITES = SOVEREIGN-SCALE AI CAPACITY",
+              "explanation": "The next constraint is not only whether a company can design a better model, but whether it can organize a bankable physical system large enough to run it. This raises the advantage of firms with strong balance sheets—and transfers more AI risk into utilities, lenders, governments and local communities."
+            },
+            "observe": {
+              "title": "Watch whether this industrial model becomes the default.",
+              "items": [
+                {
+                  "label": "GUARANTEES",
+                  "prompt": "More technology companies guaranteeing leases, loans or power obligations for AI partners.",
+                  "meta": "FINANCE"
+                },
+                {
+                  "label": "BEHIND THE METER",
+                  "prompt": "More campuses pairing data centers with dedicated gas, nuclear or storage assets.",
+                  "meta": "ENERGY"
+                },
+                {
+                  "label": "PUBLIC LAND",
+                  "prompt": "More governments converting military, nuclear or industrial sites into AI campuses.",
+                  "meta": "POLICY"
+                },
+                {
+                  "label": "RISK",
+                  "prompt": "Whether electricity costs, stranded capacity or credit exposure migrate outside the AI company itself.",
+                  "meta": "SYSTEM"
+                }
+              ],
+              "ending": "The AI race is now visible in the institutions that finance and power heavy industry."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "今日观察",
+              "secondaryEyebrow": "持续洞察更新",
+              "title": "AI基础设施不再像科技产品那样被采购，而开始像重工业那样被融资。",
+              "summary": "竞争已经进入项目融资、专用发电与国家级工业场地开发阶段。"
+            },
+            "question": {
+              "lead": "上一条洞察确认了“容量”正在变得稀缺；新的证据进一步显示，容量本身也必须被融资、供电并通过公共协同组织起来。",
+              "title": "当AI公司必须先组织银行、电厂、土地与公共政策，才能组织智能时，意味着什么？",
+              "footnote": "重要变化不只是数据中心变得更大，而是它的融资与能源结构开始接近大型工业项目。"
+            },
+            "signals": {
+              "title": "三个信号显示同一个阶段跃迁。",
+              "items": [
+                {
+                  "id": "project-finance",
+                  "label": "融资",
+                  "title": "AI容量开始进入项目融资体系。",
+                  "body": "银行正讨论为Anthropic的1.6吉瓦园区提供150亿美元贷款，Google以担保支持租赁与电力义务，园区还配套专用天然气电厂。"
+                },
+                {
+                  "id": "industrial-site",
+                  "label": "国家＋土地",
+                  "title": "公共工业场地正在被重建为AI—能源综合体。",
+                  "body": "肯塔基一座旧铀设施计划改造成1000亿美元园区，将1.8吉瓦数据中心、2吉瓦燃气发电和2.6吉瓦电池储能放进同一项目。"
+                },
+                {
+                  "id": "utility-demand",
+                  "label": "公用事业",
+                  "title": "AI需求开始直接进入电力公司的业绩与规划。",
+                  "body": "American Electric Power因数据中心和大型客户用电加速，上调了盈利预期。"
+                }
+              ],
+              "sourceNote": "融资、土地与公用事业是三类独立信号；它们共同显示AI扩张的运营模式正在改变。"
+            },
+            "pattern": {
+              "title": "AI技术栈正在扩展成一套工业开发系统。",
+              "before": "科技公司购买芯片，并租用云端容量。",
+              "shift": "容量短缺迫使企业长期锁定场地、电力与算力。",
+              "now": "AI扩张需要项目融资、专用发电、信用担保、工程建设与公共部门协同。",
+              "conclusion": "领先的AI运营者正越来越不像软件采购者，而更像工业基础设施开发商。"
+            },
+            "insight": {
+              "title": "AI已经进入“工业融资阶段”。",
+              "formula": "资本担保 × 专用能源 × 工业场地 = 国家级AI容量",
+              "explanation": "下一道约束不只是能否设计更好的模型，而是能否组织出一个足够大、可以被融资、可以真实运行的物理系统。这会放大强资产负债表公司的优势，同时把更多AI风险传导给电力公司、银行、政府与当地社区。"
+            },
+            "observe": {
+              "title": "接下来观察这种工业模式是否成为默认路径。",
+              "items": [
+                {
+                  "label": "担保",
+                  "prompt": "更多科技公司是否为AI合作伙伴的租赁、贷款或电力义务提供担保。",
+                  "meta": "金融"
+                },
+                {
+                  "label": "表后电源",
+                  "prompt": "更多园区是否把数据中心与燃气、核能或储能资产直接配套。",
+                  "meta": "能源"
+                },
+                {
+                  "label": "公共土地",
+                  "prompt": "更多政府是否把军事、核工业或旧工业场地转为AI园区。",
+                  "meta": "政策"
+                },
+                {
+                  "label": "风险转移",
+                  "prompt": "电价、闲置容量与信用风险是否被转移到AI公司之外。",
+                  "meta": "系统"
+                }
+              ],
+              "ending": "AI竞赛如今已经出现在为重工业融资、供电的那些制度之中。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "今日の観察",
+              "secondaryEyebrow": "継続インサイト更新",
+              "title": "AIインフラは、もはや技術製品のように購入されず、重工業のように資金調達され始めた。",
+              "summary": "競争はプロジェクト金融、専用発電、国家規模の産業用地開発へ入った。"
+            },
+            "question": {
+              "lead": "前回のインサイトは「供給能力」の希少化を捉えた。新しい証拠は、その能力自体を金融・電力・公共調整で組成する必要があることを示している。",
+              "title": "AI企業が知能を組み立てる前に、銀行・発電所・土地・公共政策を組み立てなければならないとき、何が変わるのか。",
+              "footnote": "重要なのはデータセンターが大型化したことだけではない。資金調達とエネルギー構造が巨大産業プロジェクトに近づいたことだ。"
+            },
+            "signals": {
+              "title": "三つのシグナルが同じ段階転換を示す。",
+              "items": [
+                {
+                  "id": "project-finance",
+                  "label": "金融",
+                  "title": "AI能力がプロジェクト金融へ入る。",
+                  "body": "銀行はAnthropic向け1.6GWキャンパスへの150億ドル融資を協議し、Googleが賃貸・電力義務を保証、専用ガス発電も組み込まれる。"
+                },
+                {
+                  "id": "industrial-site",
+                  "label": "国家＋土地",
+                  "title": "公共産業用地がAI・エネルギー複合施設へ再編される。",
+                  "body": "ケンタッキーの旧ウラン施設では、1.8GWのデータセンター、2GWのガス発電、2.6GWの蓄電池を組み合わせる1000億ドル計画が進む。"
+                },
+                {
+                  "id": "utility-demand",
+                  "label": "電力会社",
+                  "title": "AI需要が電力会社の業績と計画に直接現れる。",
+                  "body": "American Electric Powerは、データセンターなど大型需要家の電力需要増加を受け、業績見通しを引き上げた。"
+                }
+              ],
+              "sourceNote": "金融、土地、電力会社という別々のシグナルが、AI拡張の運営モデルの変化を同時に示している。"
+            },
+            "pattern": {
+              "title": "AIスタックが産業開発システムへ広がる。",
+              "before": "技術企業は半導体を購入し、クラウド能力を借りていた。",
+              "shift": "能力不足が、用地・電力・計算資源の長期確保を迫った。",
+              "now": "AI拡張にはプロジェクト金融、専用発電、信用保証、建設、公共部門との調整が必要になる。",
+              "conclusion": "主要AI事業者は、ソフトウェア購入者より産業インフラ開発者に近づいている。"
+            },
+            "insight": {
+              "title": "AIは「産業金融フェーズ」に入った。",
+              "formula": "資本保証 × 専用電源 × 産業用地 = 国家規模のAI能力",
+              "explanation": "次の制約は優れたモデルを設計できるかだけではなく、それを動かす巨大で融資可能な物理システムを組成できるかである。強い財務基盤を持つ企業が有利になり、AIリスクは電力会社、金融機関、政府、地域社会へ広がる。"
+            },
+            "observe": {
+              "title": "この産業モデルが標準になるかを観察する。",
+              "items": [
+                {
+                  "label": "保証",
+                  "prompt": "技術企業がAI提携先の賃貸、融資、電力義務を保証する例が増えるか。",
+                  "meta": "金融"
+                },
+                {
+                  "label": "専用電源",
+                  "prompt": "データセンターとガス、原子力、蓄電設備を直接組み合わせるキャンパスが増えるか。",
+                  "meta": "エネルギー"
+                },
+                {
+                  "label": "公共用地",
+                  "prompt": "軍事、原子力、旧産業用地をAIキャンパスへ転換する政府が増えるか。",
+                  "meta": "政策"
+                },
+                {
+                  "label": "リスク",
+                  "prompt": "電気料金、遊休能力、信用リスクがAI企業の外へ移るか。",
+                  "meta": "システム"
+                }
+              ],
+              "ending": "AI競争は、重工業を支える金融と電力の制度の中に現れ始めた。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-01",
+        "date": "2026-08-01",
+        "decidedAt": "2026-08-01T16:30:00+09:00",
+        "state": "no_new_global_insight",
+        "candidateSignalIds": [
+          "candidate-2026-08-01-follow-through"
+        ],
+        "previousInsightId": "global-2026-07-31-industrial-ai",
+        "processId": "process-ai-infrastructure-race",
+        "materialChangeScore": 38,
+        "evidenceStrength": 74,
+        "noveltyScore": 31,
+        "importanceScore": 69,
+        "content": {
+          "en": {
+            "label": "NO MATERIAL UPDATE",
+            "decisionTitle": "Today added confirmation, not a new world-level change.",
+            "decisionSummary": "Follow-through signals remain consistent with the industrialization of AI infrastructure, but they do not alter the current thesis or process stage.",
+            "thresholdReason": "The evidence is credible enough to keep watching, yet it does not reveal a new system relationship, challenge the thesis, or trigger a stage transition.",
+            "observeNext": [
+              "Whether project guarantees begin to appear across multiple AI operators.",
+              "Whether dedicated generation moves from proposals into binding construction schedules.",
+              "Whether utilities disclose a measurable transfer of grid and credit risk to other customers."
+            ]
+          },
+          "zh": {
+            "label": "暂无重大更新",
+            "decisionTitle": "今天增加的是确认，而不是新的世界级变化。",
+            "decisionSummary": "后续信号仍然符合“AI基础设施正在工业化”的判断，但没有改变当前命题，也没有推动进程进入新阶段。",
+            "thresholdReason": "现有证据值得继续观察，但尚未揭示新的系统关系、挑战原判断，或触发阶段跃迁。",
+            "observeNext": [
+              "项目担保是否开始在更多AI运营商之间扩散。",
+              "专用发电是否从提案进入具有约束力的建设时间表。",
+              "电力公司是否披露电网与信用风险被明确转移给其他客户。"
+            ]
+          },
+          "ja": {
+            "label": "重要な更新なし",
+            "decisionTitle": "今日は確認材料が増えたが、世界レベルの新しい変化ではない。",
+            "decisionSummary": "追随シグナルはAIインフラの産業化という判断と整合するが、現在の命題や段階を変えていない。",
+            "thresholdReason": "継続観察に値する証拠はあるが、新しいシステム関係、命題への反証、段階移行のいずれにも達していない。",
+            "observeNext": [
+              "プロジェクト保証が複数のAI事業者へ広がるか。",
+              "専用電源が提案から拘束力ある建設日程へ移るか。",
+              "電力会社が系統・信用リスクの他顧客への移転を明示するか。"
+            ]
+          }
+        }
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-06T07:12:24.971Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "approvedAt": "2026-08-06T07:12:24.971Z"
+    },
     {
       "id": "writer-20260806-HORMUZ-DEAL-1785996910808",
       "status": "approved",
@@ -4840,321 +5152,15 @@
       "id": "test-draft-001",
       "status": "rejected",
       "rejectedAt": "2026-08-01T13:39:20.485Z"
-    },
-    {
-      "id": "writer-example-2026-08-01",
-      "status": "draft",
-      "writtenAt": "2026-08-01T12:00:00.000Z",
-      "researchDraftId": "research-2026-08-01-sample",
-      "candidateId": "research-signal-ai-grid-capacity",
-      "model": "gpt-5",
-      "dailyState": "no_new_global_insight",
-      "matchedProcessId": "process-ai-infrastructure-race",
-      "qualityChecks": {
-        "publishThresholdMet": true,
-        "sourceUrlsPreserved": true,
-        "noMarkdownLinksInCopy": true,
-        "languagesComplete": true,
-        "warnings": [
-          "Example preview generated from the current local Insight. Replace with /api/write output."
-        ]
-      },
-      "insight": {
-        "id": "global-2026-07-31-industrial-ai",
-        "slug": "ai-infrastructure-enters-industrial-finance-phase",
-        "status": "update_living",
-        "parentInsightId": "global-2026-07-29-capacity",
-        "processId": "process-ai-infrastructure-race",
-        "publishedAt": "2026-07-31T13:30:00+09:00",
-        "updatedAt": "2026-07-31T13:30:00+09:00",
-        "confidence": "verified",
-        "content": {
-          "en": {
-            "cover": {
-              "eyebrow": "TODAY'S OBSERVE",
-              "secondaryEyebrow": "Living Insight Update",
-              "title": "AI infrastructure is no longer being bought like technology. It is being financed like heavy industry.",
-              "summary": "The competition has crossed into project finance, dedicated power generation and state-scale site development."
-            },
-            "question": {
-              "lead": "The previous Insight identified capacity as the scarce asset. New evidence now shows that capacity itself must be financed, powered and politically assembled.",
-              "title": "What changes when AI companies must assemble banks, power plants, land and public policy before they can assemble intelligence?",
-              "footnote": "The important change is not simply that data centers are getting larger. Their financing and energy structure now resembles industrial megaprojects."
-            },
-            "signals": {
-              "title": "Three signals show the same phase transition.",
-              "items": [
-                {
-                  "id": "project-finance",
-                  "label": "FINANCE",
-                  "title": "AI capacity is moving into project finance.",
-                  "body": "Banks are discussing a $15 billion loan for a 1.6-gigawatt Anthropic campus, supported by Google guarantees and a dedicated natural-gas power plant."
-                },
-                {
-                  "id": "industrial-site",
-                  "label": "STATE + LAND",
-                  "title": "Public industrial sites are being rebuilt as AI-energy complexes.",
-                  "body": "A former uranium facility in Kentucky is planned as a $100 billion campus combining 1.8 gigawatts of data centers with 2 gigawatts of gas generation and 2.6 gigawatts of battery storage."
-                },
-                {
-                  "id": "utility-demand",
-                  "label": "UTILITY",
-                  "title": "AI demand is becoming visible in utility earnings and planning.",
-                  "body": "American Electric Power raised its outlook as data centers and other large customers accelerated electricity demand."
-                }
-              ],
-              "sourceNote": "These are separate financing, land and utility signals. Together they indicate a change in the operating model of AI expansion."
-            },
-            "pattern": {
-              "title": "The AI stack is expanding into an industrial development system.",
-              "before": "Technology companies purchased chips and rented cloud capacity.",
-              "shift": "Capacity shortages forced long-term commitments to sites, power and compute.",
-              "now": "AI expansion requires project finance, dedicated generation, guarantees, construction and public-sector coordination.",
-              "conclusion": "The leading AI operators are beginning to behave less like software buyers and more like industrial infrastructure developers."
-            },
-            "insight": {
-              "title": "AI has entered its industrial-finance phase.",
-              "formula": "CAPITAL GUARANTEES × DEDICATED POWER × INDUSTRIAL SITES = SOVEREIGN-SCALE AI CAPACITY",
-              "explanation": "The next constraint is not only whether a company can design a better model, but whether it can organize a bankable physical system large enough to run it. This raises the advantage of firms with strong balance sheets—and transfers more AI risk into utilities, lenders, governments and local communities."
-            },
-            "observe": {
-              "title": "Watch whether this industrial model becomes the default.",
-              "items": [
-                {
-                  "label": "GUARANTEES",
-                  "prompt": "More technology companies guaranteeing leases, loans or power obligations for AI partners.",
-                  "meta": "FINANCE"
-                },
-                {
-                  "label": "BEHIND THE METER",
-                  "prompt": "More campuses pairing data centers with dedicated gas, nuclear or storage assets.",
-                  "meta": "ENERGY"
-                },
-                {
-                  "label": "PUBLIC LAND",
-                  "prompt": "More governments converting military, nuclear or industrial sites into AI campuses.",
-                  "meta": "POLICY"
-                },
-                {
-                  "label": "RISK",
-                  "prompt": "Whether electricity costs, stranded capacity or credit exposure migrate outside the AI company itself.",
-                  "meta": "SYSTEM"
-                }
-              ],
-              "ending": "The AI race is now visible in the institutions that finance and power heavy industry."
-            }
-          },
-          "zh": {
-            "cover": {
-              "eyebrow": "今日观察",
-              "secondaryEyebrow": "持续洞察更新",
-              "title": "AI基础设施不再像科技产品那样被采购，而开始像重工业那样被融资。",
-              "summary": "竞争已经进入项目融资、专用发电与国家级工业场地开发阶段。"
-            },
-            "question": {
-              "lead": "上一条洞察确认了“容量”正在变得稀缺；新的证据进一步显示，容量本身也必须被融资、供电并通过公共协同组织起来。",
-              "title": "当AI公司必须先组织银行、电厂、土地与公共政策，才能组织智能时，意味着什么？",
-              "footnote": "重要变化不只是数据中心变得更大，而是它的融资与能源结构开始接近大型工业项目。"
-            },
-            "signals": {
-              "title": "三个信号显示同一个阶段跃迁。",
-              "items": [
-                {
-                  "id": "project-finance",
-                  "label": "融资",
-                  "title": "AI容量开始进入项目融资体系。",
-                  "body": "银行正讨论为Anthropic的1.6吉瓦园区提供150亿美元贷款，Google以担保支持租赁与电力义务，园区还配套专用天然气电厂。"
-                },
-                {
-                  "id": "industrial-site",
-                  "label": "国家＋土地",
-                  "title": "公共工业场地正在被重建为AI—能源综合体。",
-                  "body": "肯塔基一座旧铀设施计划改造成1000亿美元园区，将1.8吉瓦数据中心、2吉瓦燃气发电和2.6吉瓦电池储能放进同一项目。"
-                },
-                {
-                  "id": "utility-demand",
-                  "label": "公用事业",
-                  "title": "AI需求开始直接进入电力公司的业绩与规划。",
-                  "body": "American Electric Power因数据中心和大型客户用电加速，上调了盈利预期。"
-                }
-              ],
-              "sourceNote": "融资、土地与公用事业是三类独立信号；它们共同显示AI扩张的运营模式正在改变。"
-            },
-            "pattern": {
-              "title": "AI技术栈正在扩展成一套工业开发系统。",
-              "before": "科技公司购买芯片，并租用云端容量。",
-              "shift": "容量短缺迫使企业长期锁定场地、电力与算力。",
-              "now": "AI扩张需要项目融资、专用发电、信用担保、工程建设与公共部门协同。",
-              "conclusion": "领先的AI运营者正越来越不像软件采购者，而更像工业基础设施开发商。"
-            },
-            "insight": {
-              "title": "AI已经进入“工业融资阶段”。",
-              "formula": "资本担保 × 专用能源 × 工业场地 = 国家级AI容量",
-              "explanation": "下一道约束不只是能否设计更好的模型，而是能否组织出一个足够大、可以被融资、可以真实运行的物理系统。这会放大强资产负债表公司的优势，同时把更多AI风险传导给电力公司、银行、政府与当地社区。"
-            },
-            "observe": {
-              "title": "接下来观察这种工业模式是否成为默认路径。",
-              "items": [
-                {
-                  "label": "担保",
-                  "prompt": "更多科技公司是否为AI合作伙伴的租赁、贷款或电力义务提供担保。",
-                  "meta": "金融"
-                },
-                {
-                  "label": "表后电源",
-                  "prompt": "更多园区是否把数据中心与燃气、核能或储能资产直接配套。",
-                  "meta": "能源"
-                },
-                {
-                  "label": "公共土地",
-                  "prompt": "更多政府是否把军事、核工业或旧工业场地转为AI园区。",
-                  "meta": "政策"
-                },
-                {
-                  "label": "风险转移",
-                  "prompt": "电价、闲置容量与信用风险是否被转移到AI公司之外。",
-                  "meta": "系统"
-                }
-              ],
-              "ending": "AI竞赛如今已经出现在为重工业融资、供电的那些制度之中。"
-            }
-          },
-          "ja": {
-            "cover": {
-              "eyebrow": "今日の観察",
-              "secondaryEyebrow": "継続インサイト更新",
-              "title": "AIインフラは、もはや技術製品のように購入されず、重工業のように資金調達され始めた。",
-              "summary": "競争はプロジェクト金融、専用発電、国家規模の産業用地開発へ入った。"
-            },
-            "question": {
-              "lead": "前回のインサイトは「供給能力」の希少化を捉えた。新しい証拠は、その能力自体を金融・電力・公共調整で組成する必要があることを示している。",
-              "title": "AI企業が知能を組み立てる前に、銀行・発電所・土地・公共政策を組み立てなければならないとき、何が変わるのか。",
-              "footnote": "重要なのはデータセンターが大型化したことだけではない。資金調達とエネルギー構造が巨大産業プロジェクトに近づいたことだ。"
-            },
-            "signals": {
-              "title": "三つのシグナルが同じ段階転換を示す。",
-              "items": [
-                {
-                  "id": "project-finance",
-                  "label": "金融",
-                  "title": "AI能力がプロジェクト金融へ入る。",
-                  "body": "銀行はAnthropic向け1.6GWキャンパスへの150億ドル融資を協議し、Googleが賃貸・電力義務を保証、専用ガス発電も組み込まれる。"
-                },
-                {
-                  "id": "industrial-site",
-                  "label": "国家＋土地",
-                  "title": "公共産業用地がAI・エネルギー複合施設へ再編される。",
-                  "body": "ケンタッキーの旧ウラン施設では、1.8GWのデータセンター、2GWのガス発電、2.6GWの蓄電池を組み合わせる1000億ドル計画が進む。"
-                },
-                {
-                  "id": "utility-demand",
-                  "label": "電力会社",
-                  "title": "AI需要が電力会社の業績と計画に直接現れる。",
-                  "body": "American Electric Powerは、データセンターなど大型需要家の電力需要増加を受け、業績見通しを引き上げた。"
-                }
-              ],
-              "sourceNote": "金融、土地、電力会社という別々のシグナルが、AI拡張の運営モデルの変化を同時に示している。"
-            },
-            "pattern": {
-              "title": "AIスタックが産業開発システムへ広がる。",
-              "before": "技術企業は半導体を購入し、クラウド能力を借りていた。",
-              "shift": "能力不足が、用地・電力・計算資源の長期確保を迫った。",
-              "now": "AI拡張にはプロジェクト金融、専用発電、信用保証、建設、公共部門との調整が必要になる。",
-              "conclusion": "主要AI事業者は、ソフトウェア購入者より産業インフラ開発者に近づいている。"
-            },
-            "insight": {
-              "title": "AIは「産業金融フェーズ」に入った。",
-              "formula": "資本保証 × 専用電源 × 産業用地 = 国家規模のAI能力",
-              "explanation": "次の制約は優れたモデルを設計できるかだけではなく、それを動かす巨大で融資可能な物理システムを組成できるかである。強い財務基盤を持つ企業が有利になり、AIリスクは電力会社、金融機関、政府、地域社会へ広がる。"
-            },
-            "observe": {
-              "title": "この産業モデルが標準になるかを観察する。",
-              "items": [
-                {
-                  "label": "保証",
-                  "prompt": "技術企業がAI提携先の賃貸、融資、電力義務を保証する例が増えるか。",
-                  "meta": "金融"
-                },
-                {
-                  "label": "専用電源",
-                  "prompt": "データセンターとガス、原子力、蓄電設備を直接組み合わせるキャンパスが増えるか。",
-                  "meta": "エネルギー"
-                },
-                {
-                  "label": "公共用地",
-                  "prompt": "軍事、原子力、旧産業用地をAIキャンパスへ転換する政府が増えるか。",
-                  "meta": "政策"
-                },
-                {
-                  "label": "リスク",
-                  "prompt": "電気料金、遊休能力、信用リスクがAI企業の外へ移るか。",
-                  "meta": "システム"
-                }
-              ],
-              "ending": "AI競争は、重工業を支える金融と電力の制度の中に現れ始めた。"
-            }
-          }
-        }
-      },
-      "dailyStateDraft": {
-        "id": "daily-2026-08-01",
-        "date": "2026-08-01",
-        "decidedAt": "2026-08-01T16:30:00+09:00",
-        "state": "no_new_global_insight",
-        "candidateSignalIds": [
-          "candidate-2026-08-01-follow-through"
-        ],
-        "previousInsightId": "global-2026-07-31-industrial-ai",
-        "processId": "process-ai-infrastructure-race",
-        "materialChangeScore": 38,
-        "evidenceStrength": 74,
-        "noveltyScore": 31,
-        "importanceScore": 69,
-        "content": {
-          "en": {
-            "label": "NO MATERIAL UPDATE",
-            "decisionTitle": "Today added confirmation, not a new world-level change.",
-            "decisionSummary": "Follow-through signals remain consistent with the industrialization of AI infrastructure, but they do not alter the current thesis or process stage.",
-            "thresholdReason": "The evidence is credible enough to keep watching, yet it does not reveal a new system relationship, challenge the thesis, or trigger a stage transition.",
-            "observeNext": [
-              "Whether project guarantees begin to appear across multiple AI operators.",
-              "Whether dedicated generation moves from proposals into binding construction schedules.",
-              "Whether utilities disclose a measurable transfer of grid and credit risk to other customers."
-            ]
-          },
-          "zh": {
-            "label": "暂无重大更新",
-            "decisionTitle": "今天增加的是确认，而不是新的世界级变化。",
-            "decisionSummary": "后续信号仍然符合“AI基础设施正在工业化”的判断，但没有改变当前命题，也没有推动进程进入新阶段。",
-            "thresholdReason": "现有证据值得继续观察，但尚未揭示新的系统关系、挑战原判断，或触发阶段跃迁。",
-            "observeNext": [
-              "项目担保是否开始在更多AI运营商之间扩散。",
-              "专用发电是否从提案进入具有约束力的建设时间表。",
-              "电力公司是否披露电网与信用风险被明确转移给其他客户。"
-            ]
-          },
-          "ja": {
-            "label": "重要な更新なし",
-            "decisionTitle": "今日は確認材料が増えたが、世界レベルの新しい変化ではない。",
-            "decisionSummary": "追随シグナルはAIインフラの産業化という判断と整合するが、現在の命題や段階を変えていない。",
-            "thresholdReason": "継続観察に値する証拠はあるが、新しいシステム関係、命題への反証、段階移行のいずれにも達していない。",
-            "observeNext": [
-              "プロジェクト保証が複数のAI事業者へ広がるか。",
-              "専用電源が提案から拘束力ある建設日程へ移るか。",
-              "電力会社が系統・信用リスクの他顧客への移転を明示するか。"
-            ]
-          }
-        }
-      }
     }
   ],
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-06T07:06:08.051Z",
-    "lastMatchedProcessId": "process-geopolitical-technology-control"
+    "lastUpdatedAt": "2026-08-06T07:12:24.971Z",
+    "lastMatchedProcessId": "process-ai-infrastructure-race"
   },
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-06T07:06:08.940Z"
+    "repairedAt": "2026-08-06T07:12:25.830Z"
   }
 }
