@@ -1,8 +1,544 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T12:20:58.642Z",
-  "contentVersion": "publish-global-2026-08-06-iran-oman-hormuz-framework-reported-1786018859732",
+  "generatedAt": "2026-08-07T08:04:07.509Z",
+  "contentVersion": "publish-HORMUZ_OIL_CROSSDOMAIN_20260807-1786089848525",
   "insights": [
+    {
+      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+      "slug": "hormuz-oil-crossdomain-signal",
+      "status": "update_living",
+      "processId": "process-geopolitical-technology-control",
+      "publishedAt": "2026-08-07T00:00:00.000Z",
+      "updatedAt": "2026-08-07T08:02:13.848Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Signal Detection",
+            "secondaryEyebrow": "Research Dossier Scan",
+            "title": "Hormuz Oil Disruption Recognized as Leading Cross-Domain Threat",
+            "summary": "A 2026-08-07 research dossier explicitly names the Hormuz/oil situation as a top cross-domain candidate, alongside AI governance and tariff actions, signaling elevated alert for potential energy supply shocks."
+          },
+          "question": {
+            "lead": "Why is the Hormuz Strait emerging as a critical cross-domain concern?",
+            "title": "What makes Hormuz a systemic risk right now?",
+            "footnote": "Based on the 2026-08-07 signal scan and deep-dig dossiers."
+          },
+          "signals": {
+            "title": "Key Signals from the Research Dossier",
+            "sourceNote": "All signals drawn from the Web Search Dossier initial scan and deep-dig priority candidates dated 2026-08-07.",
+            "items": [
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-1",
+                "label": "Hormuz Signal",
+                "title": "Hormuz Oil Disruption Flagged",
+                "body": "The research dossier explicitly names the Hormuz/oil situation as one of the most significant cross-domain candidates for review.",
+                "whyImportant": "A Hormuz disruption could simultaneously affect energy prices, inflation, central-bank policy, trade routes, and military risk calculations.",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-1",
+                    "title": "Hormuz identified as top cross-domain candidate",
+                    "description": "The dossier identifies Hormuz/oil as a leading cross-domain signal needing scrutiny.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-2",
+                "label": "AI Governance Signal",
+                "title": "AI Governance and Security Highlighted",
+                "body": "The dossier also flags AI governance/security as a cross-domain concern.",
+                "whyImportant": "AI governance intersects technology control, national security, and economic regulation, creating complex policy trade-offs.",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-2",
+                    "title": "AI governance and security named",
+                    "description": "Dossier includes AI governance/security among top cross-domain candidates.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-3",
+                "label": "Tariff Signal",
+                "title": "Trump Polysilicon Tariff Order Noted",
+                "body": "The dossier mentions a Trump polysilicon tariff order as a cross-domain candidate.",
+                "whyImportant": "Tariffs on polysilicon could affect semiconductor supply chains, trade relations, and renewable energy costs.",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-3",
+                    "title": "Polysilicon tariff order flagged",
+                    "description": "Dossier lists Trump polysilicon tariff order as a cross-domain signal.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Dormant Risk to Active Monitoring",
+            "before": "Hormuz disruption risk was considered a low-probability tail event with limited analytical focus on cross-domain impacts.",
+            "shift": "The 2026-08-07 research dossier elevates Hormuz among top cross-domain signals, linking it to AI and tariff dynamics, framing it as a systemic risk.",
+            "now": "Analysts are actively tracking Hormuz for potential cascading energy, financial, and geopolitical disruptions.",
+            "conclusion": "Any actual Hormuz incident would likely reverberate across multiple domains, making early-warning monitoring essential."
+          },
+          "insight": {
+            "title": "Hormuz Disruption Risk Gains Cross-Domain Status",
+            "formula": "Dormant choke-point risk → cross-domain signal recognition → integrated monitoring",
+            "explanation": "The dossier's explicit flagging of Hormuz as a cross-domain candidate marks a shift from neglect to active surveillance, highlighting the potential for an oil supply shock to propagate through inflation, monetary policy, and security architectures."
+          },
+          "observe": {
+            "title": "Indicators to Monitor",
+            "items": [
+              {
+                "label": "Shipping Insurance",
+                "prompt": "Are war-risk premiums for Strait transits rising?",
+                "meta": "Key early indicator"
+              },
+              {
+                "label": "Military Posture",
+                "prompt": "Any new naval exercises or force deployments near Hormuz?",
+                "meta": "Signal of heightened tension"
+              },
+              {
+                "label": "Oil Market Structure",
+                "prompt": "Is the futures curve shifting into backwardation?",
+                "meta": "Market pricing of disruption risk"
+              }
+            ],
+            "ending": "Tracking these indicators will help determine if the signal matures into a concrete threat."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "信号侦测",
+            "secondaryEyebrow": "研究档案扫描",
+            "title": "霍尔木兹石油中断被视为首要跨域威胁",
+            "summary": "一份2026-08-07的研究档案明确将霍尔木兹/石油局势列为最重大的跨域候选议题之一，与AI治理和关税行动并列，标志着对潜在能源供应冲击的警惕程度升高。"
+          },
+          "question": {
+            "lead": "为什么霍尔木兹海峡正成为关键的跨域关切？",
+            "title": "是什么让霍尔木兹此刻成为系统性风险？",
+            "footnote": "基于2026-08-07信号扫描与深度挖掘档案。"
+          },
+          "signals": {
+            "title": "研究档案中的关键信号",
+            "sourceNote": "所有信号均摘自2026-08-07的Web搜索档案初步扫描与深度挖掘优先候选。",
+            "items": [
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-1",
+                "label": "霍尔木兹信号",
+                "title": "霍尔木兹石油中断被标记",
+                "body": "研究档案明确将霍尔木兹/石油局势列为最重大的跨域候选议题之一，需要审查。",
+                "whyImportant": "霍尔木兹一旦发生中断，可能同时影响能源价格、通胀、央行政策、贸易路线和军事风险计算。",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-1",
+                    "title": "霍尔木兹被列为首要跨域候选议题",
+                    "description": "该档案将霍尔木兹/石油列为需要审视的领先跨域信号。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-2",
+                "label": "AI治理信号",
+                "title": "AI治理与安全受关注",
+                "body": "档案同时将AI治理/安全标记为一项跨域关切。",
+                "whyImportant": "AI治理涉及技术控制、国家安全与经济监管，带来复杂的政策权衡。",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-2",
+                    "title": "AI治理与安全被点名",
+                    "description": "档案将AI治理/安全列入首要跨域候选议题。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-3",
+                "label": "关税信号",
+                "title": "特朗普多晶硅关税令被记录",
+                "body": "档案提到特朗普多晶硅关税令是一项跨域候选议题。",
+                "whyImportant": "多晶硅关税可能影响半导体供应链、贸易关系以及可再生能源成本。",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-3",
+                    "title": "多晶硅关税令被标记",
+                    "description": "档案将特朗普多晶硅关税令列为一项跨域信号。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从潜在风险到主动监测",
+            "before": "霍尔木兹中断风险曾被视为低概率尾部事件，对跨域影响的关注有限。",
+            "shift": "2026-08-07研究档案将霍尔木兹提升至首要跨域信号之列，并将其与AI和关税动态关联，框定为系统性风险。",
+            "now": "分析人士正在积极追踪霍尔木兹，关注潜在的能源、金融与地缘政治连锁中断。",
+            "conclusion": "一旦霍尔木兹真发生事件，影响很可能波及多个领域，令早期预警监测至关重要。"
+          },
+          "insight": {
+            "title": "霍尔木兹中断风险获得跨域地位",
+            "formula": "潜在咽喉要道风险 → 跨域信号识别 → 整合监测",
+            "explanation": "档案明确将霍尔木兹标为跨域候选，标志着从忽视转向主动监视，凸显石油供应冲击可能通过通胀、货币政策与安全架构传导。"
+          },
+          "observe": {
+            "title": "需监测的指标",
+            "items": [
+              {
+                "label": "航运保险",
+                "prompt": "海峡通行的战争险保费是否上升？",
+                "meta": "关键早期指标"
+              },
+              {
+                "label": "军事态势",
+                "prompt": "霍尔木兹附近是否出现新的海军演习或兵力部署？",
+                "meta": "紧张局势升级的信号"
+              },
+              {
+                "label": "原油市场结构",
+                "prompt": "期货曲线是否正转向现货溢价（backwardation）？",
+                "meta": "市场对中断风险定价"
+              }
+            ],
+            "ending": "追踪这些指标将有助于判断该信号是否会演变为具体威胁。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "シグナル検知",
+            "secondaryEyebrow": "リサーチ・ドシエ・スキャン",
+            "title": "ホルムズ石油混乱、主要なクロスドメイン脅威として認識",
+            "summary": "2026-08-07付のリサーチ・ドシエは、ホルムズ／石油情勢をAIガバナンスや関税措置と並ぶ主要なクロスドメイン候補として明示し、潜在的なエネルギー供給ショックへの警戒が高まっていることを示す。"
+          },
+          "question": {
+            "lead": "なぜホルムズ海峡は今、重大なクロスドメインの懸念として浮上しているのか？",
+            "title": "今、ホルムズがシステムリスクとなる理由は何か？",
+            "footnote": "2026-08-07のシグナルスキャンと深掘りドシエに基づく。"
+          },
+          "signals": {
+            "title": "リサーチ・ドシエからの主要シグナル",
+            "sourceNote": "全シグナルは、2026-08-07付のWeb検索ドシエ初期スキャンおよび深掘り優先候補から抽出。",
+            "items": [
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-1",
+                "label": "ホルムズ・シグナル",
+                "title": "ホルムズ石油混乱がフラグ付き",
+                "body": "リサーチ・ドシエは、ホルムズ／石油情勢を審査すべき最も重要なクロスドメイン候補の1つとして明示している。",
+                "whyImportant": "ホルムズの混乱は、エネルギー価格、インフレ、中央銀行政策、貿易ルート、軍事リスク計算に同時に影響を与える可能性がある。",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-1",
+                    "title": "ホルムズが主要なクロスドメイン候補として特定",
+                    "description": "ドシエは、ホルムズ／石油を精査を要する主要なクロスドメインシグナルとして特定している。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-2",
+                "label": "AIガバナンス・シグナル",
+                "title": "AIガバナンスとセキュリティが強調",
+                "body": "ドシエはまた、AIガバナンス／セキュリティをクロスドメインの懸念としてフラグ付けしている。",
+                "whyImportant": "AIガバナンスはテクノロジー管理、国家安全保障、経済規制が交差し、複雑な政策トレードオフを生む。",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-2",
+                    "title": "AIガバナンスとセキュリティが指名",
+                    "description": "ドシエはAIガバナンス／セキュリティを主要なクロスドメイン候補に含めている。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-3",
+                "label": "関税シグナル",
+                "title": "トランプ大統領のポリシリコン関税命令に注目",
+                "body": "ドシエは、トランプ大統領のポリシリコン関税命令をクロスドメイン候補として言及している。",
+                "whyImportant": "ポリシリコンへの関税は、半導体サプライチェーン、貿易関係、再生可能エネルギーコストに影響を与える可能性がある。",
+                "evidence": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-3",
+                    "title": "ポリシリコン関税命令がフラグ付き",
+                    "description": "ドシエはトランプ大統領のポリシリコン関税命令をクロスドメインシグナルとして挙げている。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                    "title": "Web search dossier: initial signal scan for 2026-08-07",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                    "title": "Web search dossier: deep-dig priority candidates",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-07",
+                    "url": "N/A",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "休眠リスクから能動的監視へ",
+            "before": "ホルムズ混乱リスクは、発生確率の低いテールリスクとみなされ、クロスドメインへの影響分析は限定的だった。",
+            "shift": "2026-08-07のリサーチ・ドシエは、ホルムズを主要なクロスドメインシグナルに格上げし、AIや関税の動向と結びつけ、システムリスクとして位置づけた。",
+            "now": "アナリストは、エネルギー、金融、地政学の連鎖的混乱の可能性をめぐり、ホルムズを積極的に追跡している。",
+            "conclusion": "実際にホルムズで何らかの事態が起これば、複数の領域に波及する可能性が高く、早期警戒監視が不可欠となる。"
+          },
+          "insight": {
+            "title": "ホルムズ混乱リスクがクロスドメインの地位を獲得",
+            "formula": "休眠状態のチョークポイントリスク → クロスドメインシグナルとしての認識 → 統合的監視",
+            "explanation": "ドシエがホルムズをクロスドメイン候補として明示したことは、放置から能動的監視への転換を示し、石油供給ショックがインフレ、金融政策、安全保障アーキテクチャに波及する可能性を浮き彫りにしている。"
+          },
+          "observe": {
+            "title": "注視すべき指標",
+            "items": [
+              {
+                "label": "海上保険",
+                "prompt": "海峡通過の戦争保険料は上昇しているか？",
+                "meta": "主要な早期指標"
+              },
+              {
+                "label": "軍事態勢",
+                "prompt": "ホルムズ近辺で新たな演習や部隊展開はあるか？",
+                "meta": "緊張高揚のシグナル"
+              },
+              {
+                "label": "石油市場の構造",
+                "prompt": "先物カーブはバックワーデーションへ移行しているか？",
+                "meta": "混乱リスクの市場価格"
+              }
+            ],
+            "ending": "これらの指標を追跡することで、シグナルが具体的な脅威に成熟するかどうかを判断できる。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-06-iran-oman-hormuz-framework-reported",
       "slug": "iran-oman-hormuz-signal",
@@ -3077,8 +3613,9 @@
       "status": "accelerating",
       "confidence": "developing",
       "startedAt": "2026-07-24T00:00:00+09:00",
-      "updatedAt": "2026-08-06T12:20:48.665Z",
+      "updatedAt": "2026-08-07T08:02:13.849Z",
       "insightIds": [
+        "HORMUZ_OIL_CROSSDOMAIN_20260807",
         "global-2026-08-06-iran-oman-hormuz-framework-reported",
         "insight-20260806-hormuz-deal"
       ],
@@ -3105,6 +3642,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-HORMUZ_OIL_CROSSDOMAIN_20260807",
+          "date": "2026-08-07",
+          "stage": "signal",
+          "impact": "updates",
+          "insightId": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+          "content": {
+            "en": {
+              "title": "Energy-Geopolitics Cross-Domain Risk",
+              "description": "A signal-tracking thread monitoring how energy supply risks interact with geopolitics, finance, and policy.",
+              "implication": "Evolving Hormuz signal could precede tangible impacts on inflation, trade, and military planning."
+            },
+            "zh": {
+              "title": "能源-地缘政治跨域风险",
+              "description": "一条信号追踪线索，监测能源供应风险如何与地缘政治、金融和政策相互作用。",
+              "implication": "不断演变的霍尔木兹信号，可能先于通胀、贸易和军事规划方面的实际影响而出现。"
+            },
+            "ja": {
+              "title": "エネルギーと地政学のクロスドメインリスク",
+              "description": "エネルギー供給リスクが地政学、金融、政策とどのように相互作用するかを監視するシグナル追跡スレッド。",
+              "implication": "進行中のホルムズシグナルは、インフレ、貿易、軍事計画への具体的な影響に先行する可能性がある。"
+            }
+          },
+          "previousStage": "accelerating",
+          "changeType": "stage_transition",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "evolution-2026-08-06-hormuz-iran-oman",
           "date": "2026-08-06",
@@ -3245,7 +3810,7 @@
           "title": "Technology control becomes geopolitical infrastructure",
           "summary": "States are treating chips, energy, data and industrial supply chains as instruments of national power.",
           "thesis": "The geography of technological growth will increasingly be shaped by security policy, alliances and controlled access to critical capacity.",
-          "nextQuestion": "Will the Iran-Oman Hormuz framework be confirmed and implemented?",
+          "nextQuestion": "What specific events would confirm that Hormuz disruption risk is materializing?",
           "domains": [
             "Geopolitics",
             "Technology Policy",
@@ -3256,16 +3821,16 @@
           "currentStageLabel": "Bloc formation",
           "stageSummary": "Technology controls are accelerating from targeted restrictions into ecosystem-level alignment.",
           "observeNext": [
-            "Iranian and Omani official communications",
-            "Energy market pricing of Hormuz risk",
-            "Reactions from global powers and neighboring states"
+            "Strait of Hormuz shipping volumes",
+            "Regional military alerts",
+            "Energy sector hedging patterns"
           ]
         },
         "zh": {
           "title": "技术控制成为地缘基础设施",
           "summary": "国家正在把芯片、能源、数据与工业供应链视为国家力量的工具。",
           "thesis": "技术增长的地理分布，将越来越受到安全政策、联盟关系和关键能力准入的塑造。",
-          "nextQuestion": "伊朗–阿曼霍尔木兹框架会得到确认并落实吗？",
+          "nextQuestion": "哪些具体事件将确证霍尔木兹中断风险正在显现？",
           "domains": [
             "地缘政治",
             "技术政策",
@@ -3276,16 +3841,16 @@
           "currentStageLabel": "阵营形成期",
           "stageSummary": "技术管制正从定向限制，加速成为生态系统层面的阵营协同。",
           "observeNext": [
-            "伊朗和阿曼的官方通报",
-            "能源市场对霍尔木兹风险的定价",
-            "全球大国及邻国的反应"
+            "霍尔木兹海峡航运量",
+            "区域军事警报",
+            "能源板块对冲模式"
           ]
         },
         "ja": {
           "title": "技術統制が地政学的インフラになる",
           "summary": "国家は半導体・エネルギー・データ・産業供給網を国力の手段として扱い始めている。",
           "thesis": "技術成長の地理は、安全保障政策・同盟・重要能力への統制されたアクセスによって一層形づくられる。",
-          "nextQuestion": "イラン・オマーンのホルムズ枠組みは確認され、実施されるのか？",
+          "nextQuestion": "ホルムズ混乱リスクが顕在化していることを確認する具体的なイベントは何か？",
           "domains": [
             "地政学",
             "技術政策",
@@ -3296,9 +3861,9 @@
           "currentStageLabel": "ブロック形成期",
           "stageSummary": "技術統制は個別制限から、生態系レベルの陣営調整へ加速している。",
           "observeNext": [
-            "イランとオマーンの公式通信",
-            "ホルムズリスクのエネルギー市場での価格反映",
-            "大国と近隣諸国からの反応"
+            "ホルムズ海峡の輸送量",
+            "地域の軍事警報",
+            "エネルギー部門のヘッジパターン"
           ]
         }
       },
@@ -3306,7 +3871,8 @@
       "stageChangedAt": "2026-07-31T09:00:00+09:00",
       "supportingInsightIds": [
         "insight-20260806-hormuz-deal",
-        "global-2026-08-06-iran-oman-hormuz-framework-reported"
+        "global-2026-08-06-iran-oman-hormuz-framework-reported",
+        "HORMUZ_OIL_CROSSDOMAIN_20260807"
       ],
       "contradictingInsightIds": [],
       "keyActors": [],
@@ -3317,14 +3883,64 @@
         "Supply Chains"
       ],
       "nextSignals": [
-        "Iranian and Omani official communications",
-        "Energy market pricing of Hormuz risk",
-        "Reactions from global powers and neighboring states"
+        "Strait of Hormuz shipping volumes",
+        "Regional military alerts",
+        "Energy sector hedging patterns"
       ],
       "confidenceScore": 68
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-2026-08-07",
+      "date": "2026-08-07",
+      "decidedAt": "2026-08-07T08:02:13.849Z",
+      "state": "no_new_global_insight",
+      "insightId": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+      "processId": "process-geopolitical-technology-control",
+      "materialChangeScore": 15,
+      "evidenceStrength": 100,
+      "noveltyScore": 60,
+      "importanceScore": 90,
+      "candidateSignalIds": [
+        "HORMUZ_OIL_CROSSDOMAIN_20260807"
+      ],
+      "content": {
+        "en": {
+          "label": "Signal Tracker",
+          "decisionTitle": "Hormuz Elevated to Cross-Domain Watchlist",
+          "decisionSummary": "Based on the 2026-08-07 research dossier, Hormuz oil disruption potential is added as a key cross-domain signal.",
+          "thresholdReason": "The dossier's explicit signal weighting provides sufficient basis for proactive monitoring.",
+          "observeNext": [
+            "Strait transit insurance rates",
+            "Regional naval activity",
+            "Oil futures curve structure"
+          ]
+        },
+        "zh": {
+          "label": "信号追踪器",
+          "decisionTitle": "霍尔木兹被提升至跨域观察名单",
+          "decisionSummary": "基于2026-08-07研究档案，将霍尔木兹石油中断可能性加入关键跨域信号。",
+          "thresholdReason": "档案明确的信号权重为主动监测提供了充分依据。",
+          "observeNext": [
+            "海峡通行保险费用",
+            "区域海军活动",
+            "原油期货曲线结构"
+          ]
+        },
+        "ja": {
+          "label": "シグナルトラッカー",
+          "decisionTitle": "ホルムズをクロスドメイン・ウォッチリストに格上げ",
+          "decisionSummary": "2026-08-07のリサーチ・ドシエに基づき、ホルムズ石油混乱の可能性を主要なクロスドメインシグナルとして追加。",
+          "thresholdReason": "ドシエの明示的なシグナル重み付けは、予防的監視の十分な根拠となる。",
+          "observeNext": [
+            "海峡通過の保険料率",
+            "地域の海軍活動",
+            "石油先物カーブの構造"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-2026-08-06",
       "date": "2026-08-06",
@@ -3810,6 +4426,679 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-HORMUZ_OIL_CROSSDOMAIN_20260807-1786089733849",
+      "status": "approved",
+      "writtenAt": "2026-08-07T08:02:13.849Z",
+      "researchDraftId": "research-2026-08-07-1786089546199",
+      "candidateId": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+      "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
+      "dailyState": "no_new_global_insight",
+      "matchedProcessId": "process-geopolitical-technology-control",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold.",
+          "Fewer than two current or corroborating sources."
+        ],
+        "humanApproved": true,
+        "originalPublishThresholdMet": false
+      },
+      "insight": {
+        "id": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+        "slug": "hormuz-oil-crossdomain-signal",
+        "status": "update_living",
+        "processId": "process-geopolitical-technology-control",
+        "publishedAt": "2026-08-07T00:00:00.000Z",
+        "updatedAt": "2026-08-07T08:02:13.848Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Signal Detection",
+              "secondaryEyebrow": "Research Dossier Scan",
+              "title": "Hormuz Oil Disruption Recognized as Leading Cross-Domain Threat",
+              "summary": "A 2026-08-07 research dossier explicitly names the Hormuz/oil situation as a top cross-domain candidate, alongside AI governance and tariff actions, signaling elevated alert for potential energy supply shocks."
+            },
+            "question": {
+              "lead": "Why is the Hormuz Strait emerging as a critical cross-domain concern?",
+              "title": "What makes Hormuz a systemic risk right now?",
+              "footnote": "Based on the 2026-08-07 signal scan and deep-dig dossiers."
+            },
+            "signals": {
+              "title": "Key Signals from the Research Dossier",
+              "sourceNote": "All signals drawn from the Web Search Dossier initial scan and deep-dig priority candidates dated 2026-08-07.",
+              "items": [
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-1",
+                  "label": "Hormuz Signal",
+                  "title": "Hormuz Oil Disruption Flagged",
+                  "body": "The research dossier explicitly names the Hormuz/oil situation as one of the most significant cross-domain candidates for review.",
+                  "whyImportant": "A Hormuz disruption could simultaneously affect energy prices, inflation, central-bank policy, trade routes, and military risk calculations.",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-1",
+                      "title": "Hormuz identified as top cross-domain candidate",
+                      "description": "The dossier identifies Hormuz/oil as a leading cross-domain signal needing scrutiny.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-2",
+                  "label": "AI Governance Signal",
+                  "title": "AI Governance and Security Highlighted",
+                  "body": "The dossier also flags AI governance/security as a cross-domain concern.",
+                  "whyImportant": "AI governance intersects technology control, national security, and economic regulation, creating complex policy trade-offs.",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-2",
+                      "title": "AI governance and security named",
+                      "description": "Dossier includes AI governance/security among top cross-domain candidates.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-3",
+                  "label": "Tariff Signal",
+                  "title": "Trump Polysilicon Tariff Order Noted",
+                  "body": "The dossier mentions a Trump polysilicon tariff order as a cross-domain candidate.",
+                  "whyImportant": "Tariffs on polysilicon could affect semiconductor supply chains, trade relations, and renewable energy costs.",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-3",
+                      "title": "Polysilicon tariff order flagged",
+                      "description": "Dossier lists Trump polysilicon tariff order as a cross-domain signal.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Dormant Risk to Active Monitoring",
+              "before": "Hormuz disruption risk was considered a low-probability tail event with limited analytical focus on cross-domain impacts.",
+              "shift": "The 2026-08-07 research dossier elevates Hormuz among top cross-domain signals, linking it to AI and tariff dynamics, framing it as a systemic risk.",
+              "now": "Analysts are actively tracking Hormuz for potential cascading energy, financial, and geopolitical disruptions.",
+              "conclusion": "Any actual Hormuz incident would likely reverberate across multiple domains, making early-warning monitoring essential."
+            },
+            "insight": {
+              "title": "Hormuz Disruption Risk Gains Cross-Domain Status",
+              "formula": "Dormant choke-point risk → cross-domain signal recognition → integrated monitoring",
+              "explanation": "The dossier's explicit flagging of Hormuz as a cross-domain candidate marks a shift from neglect to active surveillance, highlighting the potential for an oil supply shock to propagate through inflation, monetary policy, and security architectures."
+            },
+            "observe": {
+              "title": "Indicators to Monitor",
+              "items": [
+                {
+                  "label": "Shipping Insurance",
+                  "prompt": "Are war-risk premiums for Strait transits rising?",
+                  "meta": "Key early indicator"
+                },
+                {
+                  "label": "Military Posture",
+                  "prompt": "Any new naval exercises or force deployments near Hormuz?",
+                  "meta": "Signal of heightened tension"
+                },
+                {
+                  "label": "Oil Market Structure",
+                  "prompt": "Is the futures curve shifting into backwardation?",
+                  "meta": "Market pricing of disruption risk"
+                }
+              ],
+              "ending": "Tracking these indicators will help determine if the signal matures into a concrete threat."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "信号侦测",
+              "secondaryEyebrow": "研究档案扫描",
+              "title": "霍尔木兹石油中断被视为首要跨域威胁",
+              "summary": "一份2026-08-07的研究档案明确将霍尔木兹/石油局势列为最重大的跨域候选议题之一，与AI治理和关税行动并列，标志着对潜在能源供应冲击的警惕程度升高。"
+            },
+            "question": {
+              "lead": "为什么霍尔木兹海峡正成为关键的跨域关切？",
+              "title": "是什么让霍尔木兹此刻成为系统性风险？",
+              "footnote": "基于2026-08-07信号扫描与深度挖掘档案。"
+            },
+            "signals": {
+              "title": "研究档案中的关键信号",
+              "sourceNote": "所有信号均摘自2026-08-07的Web搜索档案初步扫描与深度挖掘优先候选。",
+              "items": [
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-1",
+                  "label": "霍尔木兹信号",
+                  "title": "霍尔木兹石油中断被标记",
+                  "body": "研究档案明确将霍尔木兹/石油局势列为最重大的跨域候选议题之一，需要审查。",
+                  "whyImportant": "霍尔木兹一旦发生中断，可能同时影响能源价格、通胀、央行政策、贸易路线和军事风险计算。",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-1",
+                      "title": "霍尔木兹被列为首要跨域候选议题",
+                      "description": "该档案将霍尔木兹/石油列为需要审视的领先跨域信号。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-2",
+                  "label": "AI治理信号",
+                  "title": "AI治理与安全受关注",
+                  "body": "档案同时将AI治理/安全标记为一项跨域关切。",
+                  "whyImportant": "AI治理涉及技术控制、国家安全与经济监管，带来复杂的政策权衡。",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-2",
+                      "title": "AI治理与安全被点名",
+                      "description": "档案将AI治理/安全列入首要跨域候选议题。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-3",
+                  "label": "关税信号",
+                  "title": "特朗普多晶硅关税令被记录",
+                  "body": "档案提到特朗普多晶硅关税令是一项跨域候选议题。",
+                  "whyImportant": "多晶硅关税可能影响半导体供应链、贸易关系以及可再生能源成本。",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-3",
+                      "title": "多晶硅关税令被标记",
+                      "description": "档案将特朗普多晶硅关税令列为一项跨域信号。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从潜在风险到主动监测",
+              "before": "霍尔木兹中断风险曾被视为低概率尾部事件，对跨域影响的关注有限。",
+              "shift": "2026-08-07研究档案将霍尔木兹提升至首要跨域信号之列，并将其与AI和关税动态关联，框定为系统性风险。",
+              "now": "分析人士正在积极追踪霍尔木兹，关注潜在的能源、金融与地缘政治连锁中断。",
+              "conclusion": "一旦霍尔木兹真发生事件，影响很可能波及多个领域，令早期预警监测至关重要。"
+            },
+            "insight": {
+              "title": "霍尔木兹中断风险获得跨域地位",
+              "formula": "潜在咽喉要道风险 → 跨域信号识别 → 整合监测",
+              "explanation": "档案明确将霍尔木兹标为跨域候选，标志着从忽视转向主动监视，凸显石油供应冲击可能通过通胀、货币政策与安全架构传导。"
+            },
+            "observe": {
+              "title": "需监测的指标",
+              "items": [
+                {
+                  "label": "航运保险",
+                  "prompt": "海峡通行的战争险保费是否上升？",
+                  "meta": "关键早期指标"
+                },
+                {
+                  "label": "军事态势",
+                  "prompt": "霍尔木兹附近是否出现新的海军演习或兵力部署？",
+                  "meta": "紧张局势升级的信号"
+                },
+                {
+                  "label": "原油市场结构",
+                  "prompt": "期货曲线是否正转向现货溢价（backwardation）？",
+                  "meta": "市场对中断风险定价"
+                }
+              ],
+              "ending": "追踪这些指标将有助于判断该信号是否会演变为具体威胁。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "シグナル検知",
+              "secondaryEyebrow": "リサーチ・ドシエ・スキャン",
+              "title": "ホルムズ石油混乱、主要なクロスドメイン脅威として認識",
+              "summary": "2026-08-07付のリサーチ・ドシエは、ホルムズ／石油情勢をAIガバナンスや関税措置と並ぶ主要なクロスドメイン候補として明示し、潜在的なエネルギー供給ショックへの警戒が高まっていることを示す。"
+            },
+            "question": {
+              "lead": "なぜホルムズ海峡は今、重大なクロスドメインの懸念として浮上しているのか？",
+              "title": "今、ホルムズがシステムリスクとなる理由は何か？",
+              "footnote": "2026-08-07のシグナルスキャンと深掘りドシエに基づく。"
+            },
+            "signals": {
+              "title": "リサーチ・ドシエからの主要シグナル",
+              "sourceNote": "全シグナルは、2026-08-07付のWeb検索ドシエ初期スキャンおよび深掘り優先候補から抽出。",
+              "items": [
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-1",
+                  "label": "ホルムズ・シグナル",
+                  "title": "ホルムズ石油混乱がフラグ付き",
+                  "body": "リサーチ・ドシエは、ホルムズ／石油情勢を審査すべき最も重要なクロスドメイン候補の1つとして明示している。",
+                  "whyImportant": "ホルムズの混乱は、エネルギー価格、インフレ、中央銀行政策、貿易ルート、軍事リスク計算に同時に影響を与える可能性がある。",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-1",
+                      "title": "ホルムズが主要なクロスドメイン候補として特定",
+                      "description": "ドシエは、ホルムズ／石油を精査を要する主要なクロスドメインシグナルとして特定している。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-2",
+                  "label": "AIガバナンス・シグナル",
+                  "title": "AIガバナンスとセキュリティが強調",
+                  "body": "ドシエはまた、AIガバナンス／セキュリティをクロスドメインの懸念としてフラグ付けしている。",
+                  "whyImportant": "AIガバナンスはテクノロジー管理、国家安全保障、経済規制が交差し、複雑な政策トレードオフを生む。",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-2",
+                      "title": "AIガバナンスとセキュリティが指名",
+                      "description": "ドシエはAIガバナンス／セキュリティを主要なクロスドメイン候補に含めている。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-signal-3",
+                  "label": "関税シグナル",
+                  "title": "トランプ大統領のポリシリコン関税命令に注目",
+                  "body": "ドシエは、トランプ大統領のポリシリコン関税命令をクロスドメイン候補として言及している。",
+                  "whyImportant": "ポリシリコンへの関税は、半導体サプライチェーン、貿易関係、再生可能エネルギーコストに影響を与える可能性がある。",
+                  "evidence": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-evidence-3",
+                      "title": "ポリシリコン関税命令がフラグ付き",
+                      "description": "ドシエはトランプ大統領のポリシリコン関税命令をクロスドメインシグナルとして挙げている。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                        "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-1",
+                      "title": "Web search dossier: initial signal scan for 2026-08-07",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "HORMUZ_OIL_CROSSDOMAIN_20260807-source-2",
+                      "title": "Web search dossier: deep-dig priority candidates",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-07",
+                      "url": "N/A",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "休眠リスクから能動的監視へ",
+              "before": "ホルムズ混乱リスクは、発生確率の低いテールリスクとみなされ、クロスドメインへの影響分析は限定的だった。",
+              "shift": "2026-08-07のリサーチ・ドシエは、ホルムズを主要なクロスドメインシグナルに格上げし、AIや関税の動向と結びつけ、システムリスクとして位置づけた。",
+              "now": "アナリストは、エネルギー、金融、地政学の連鎖的混乱の可能性をめぐり、ホルムズを積極的に追跡している。",
+              "conclusion": "実際にホルムズで何らかの事態が起これば、複数の領域に波及する可能性が高く、早期警戒監視が不可欠となる。"
+            },
+            "insight": {
+              "title": "ホルムズ混乱リスクがクロスドメインの地位を獲得",
+              "formula": "休眠状態のチョークポイントリスク → クロスドメインシグナルとしての認識 → 統合的監視",
+              "explanation": "ドシエがホルムズをクロスドメイン候補として明示したことは、放置から能動的監視への転換を示し、石油供給ショックがインフレ、金融政策、安全保障アーキテクチャに波及する可能性を浮き彫りにしている。"
+            },
+            "observe": {
+              "title": "注視すべき指標",
+              "items": [
+                {
+                  "label": "海上保険",
+                  "prompt": "海峡通過の戦争保険料は上昇しているか？",
+                  "meta": "主要な早期指標"
+                },
+                {
+                  "label": "軍事態勢",
+                  "prompt": "ホルムズ近辺で新たな演習や部隊展開はあるか？",
+                  "meta": "緊張高揚のシグナル"
+                },
+                {
+                  "label": "石油市場の構造",
+                  "prompt": "先物カーブはバックワーデーションへ移行しているか？",
+                  "meta": "混乱リスクの市場価格"
+                }
+              ],
+              "ending": "これらの指標を追跡することで、シグナルが具体的な脅威に成熟するかどうかを判断できる。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-2026-08-07",
+        "date": "2026-08-07",
+        "decidedAt": "2026-08-07T08:02:13.849Z",
+        "state": "no_new_global_insight",
+        "insightId": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+        "processId": "process-geopolitical-technology-control",
+        "materialChangeScore": 15,
+        "evidenceStrength": 100,
+        "noveltyScore": 60,
+        "importanceScore": 90,
+        "candidateSignalIds": [
+          "HORMUZ_OIL_CROSSDOMAIN_20260807"
+        ],
+        "content": {
+          "en": {
+            "label": "Signal Tracker",
+            "decisionTitle": "Hormuz Elevated to Cross-Domain Watchlist",
+            "decisionSummary": "Based on the 2026-08-07 research dossier, Hormuz oil disruption potential is added as a key cross-domain signal.",
+            "thresholdReason": "The dossier's explicit signal weighting provides sufficient basis for proactive monitoring.",
+            "observeNext": [
+              "Strait transit insurance rates",
+              "Regional naval activity",
+              "Oil futures curve structure"
+            ]
+          },
+          "zh": {
+            "label": "信号追踪器",
+            "decisionTitle": "霍尔木兹被提升至跨域观察名单",
+            "decisionSummary": "基于2026-08-07研究档案，将霍尔木兹石油中断可能性加入关键跨域信号。",
+            "thresholdReason": "档案明确的信号权重为主动监测提供了充分依据。",
+            "observeNext": [
+              "海峡通行保险费用",
+              "区域海军活动",
+              "原油期货曲线结构"
+            ]
+          },
+          "ja": {
+            "label": "シグナルトラッカー",
+            "decisionTitle": "ホルムズをクロスドメイン・ウォッチリストに格上げ",
+            "decisionSummary": "2026-08-07のリサーチ・ドシエに基づき、ホルムズ石油混乱の可能性を主要なクロスドメインシグナルとして追加。",
+            "thresholdReason": "ドシエの明示的なシグナル重み付けは、予防的監視の十分な根拠となる。",
+            "observeNext": [
+              "海峡通過の保険料率",
+              "地域の海軍活動",
+              "石油先物カーブの構造"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-geopolitical-technology-control",
+        "updatedAt": "2026-08-07T08:02:13.849Z",
+        "appendInsightId": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+        "evolutionEvent": {
+          "id": "evolution-HORMUZ_OIL_CROSSDOMAIN_20260807",
+          "date": "2026-08-07",
+          "stage": "signal",
+          "impact": "updates",
+          "insightId": "HORMUZ_OIL_CROSSDOMAIN_20260807",
+          "content": {
+            "en": {
+              "title": "Energy-Geopolitics Cross-Domain Risk",
+              "description": "A signal-tracking thread monitoring how energy supply risks interact with geopolitics, finance, and policy.",
+              "implication": "Evolving Hormuz signal could precede tangible impacts on inflation, trade, and military planning."
+            },
+            "zh": {
+              "title": "能源-地缘政治跨域风险",
+              "description": "一条信号追踪线索，监测能源供应风险如何与地缘政治、金融和政策相互作用。",
+              "implication": "不断演变的霍尔木兹信号，可能先于通胀、贸易和军事规划方面的实际影响而出现。"
+            },
+            "ja": {
+              "title": "エネルギーと地政学のクロスドメインリスク",
+              "description": "エネルギー供給リスクが地政学、金融、政策とどのように相互作用するかを監視するシグナル追跡スレッド。",
+              "implication": "進行中のホルムズシグナルは、インフレ、貿易、軍事計画への具体的な影響に先行する可能性がある。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "What specific events would confirm that Hormuz disruption risk is materializing?",
+          "zh": "哪些具体事件将确证霍尔木兹中断风险正在显现？",
+          "ja": "ホルムズ混乱リスクが顕在化していることを確認する具体的なイベントは何か？"
+        },
+        "observeNext": {
+          "en": [
+            "Strait of Hormuz shipping volumes",
+            "Regional military alerts",
+            "Energy sector hedging patterns"
+          ],
+          "zh": [
+            "霍尔木兹海峡航运量",
+            "区域军事警报",
+            "能源板块对冲模式"
+          ],
+          "ja": [
+            "ホルムズ海峡の輸送量",
+            "地域の軍事警報",
+            "エネルギー部門のヘッジパターン"
+          ]
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "staged-writer-v1",
+      "usage": {
+        "inputTokens": 7060,
+        "outputTokens": 11875,
+        "cachedInputTokens": 3456
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-07T08:04:07.509Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "approvedAt": "2026-08-07T08:04:07.509Z"
+    },
     {
       "id": "writer-2026-08-06-hormuz-iran-oman-1786018848665",
       "status": "approved",
@@ -6010,11 +7299,11 @@
   ],
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-06T12:20:58.642Z",
+    "lastUpdatedAt": "2026-08-07T08:04:07.509Z",
     "lastMatchedProcessId": "process-geopolitical-technology-control"
   },
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-06T12:20:59.733Z"
+    "repairedAt": "2026-08-07T08:04:08.526Z"
   }
 }
