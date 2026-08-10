@@ -4,91 +4,19 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "research",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:34:08.296Z",
+  "updatedAt": "2026-08-10T07:34:09.762Z",
   "scopes": {
     "global": {
       "status": "retrying",
-      "stage": "analyze",
+      "stage": "research",
       "attempts": {
-        "research": 1,
-        "analyze": 1
+        "research": 2
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-10-1786347053551.json does not match ab8cebb768467c46c82db12410b5709fc186a7df",
-      "updatedAt": "2026-08-10T07:34:08.296Z",
-      "failedStage": "analyze",
-      "researchDraft": {
-        "ok": true,
-        "id": "research-global-2026-08-10-1786347247977",
-        "status": "draft",
-        "researchedAt": "2026-08-10T07:34:07.977Z",
-        "researchDate": "2026-08-10",
-        "scope": "global",
-        "provider": "deepseek",
-        "model": "deepseek-v4-flash",
-        "usage": {
-          "inputTokens": 106441,
-          "outputTokens": 20917,
-          "cachedInputTokens": 86272
-        },
-        "querySummary": "The supplied dossier contains no actual search results for Aug 9-10, 2026: only an internal note saying \"promising leads\" appears. To avoid fabricating sources or facts, a single null/placeholder candidate is returned for human review; it is not a real signal and should be discarded or replaced after additional search.",
-        "candidates": [
-          {
-            "id": "candidate-empty-dossier-20260810",
-            "date": "2026-08-10",
-            "domain": "Cross-domain",
-            "tags": [
-              "no-evidence",
-              "dossier-empty",
-              "requires-human-approval"
-            ],
-            "processMatchConfidence": 0,
-            "importance": 0,
-            "novelty": 0,
-            "evidenceStrength": 0,
-            "independentSourceCount": 1,
-            "thesisImpact": 0,
-            "relationshipChange": 0,
-            "stageChange": 0,
-            "contradiction": 0,
-            "content": {
-              "en": {
-                "title": "No verified signal in supplied dossier",
-                "coreFact": "The web-search dossier for Aug 9-10, 2026 contains no source material; the only text is an internal note that promising leads exist.",
-                "whyItMatters": "Without verifiable sources, any candidate would be speculative. This placeholder prevents an unwarranted update to existing global-process assessments and flags the need for human approval or additional search.",
-                "processMatchReason": "No process can be matched because no verifiable change was observed in the supplied material."
-              },
-              "zh": {
-                "title": "所提供资料中未发现已验证信号",
-                "coreFact": "2026年8月9日至10日的网络搜索档案未包含任何来源材料；仅有一条内部备注称存在有价值线索。",
-                "whyItMatters": "在没有可验证来源的情况下，任何候选信号都属于推测。此占位条目可避免错误更改现有全球进程判断，并提示需要人工批准或补充搜索。",
-                "processMatchReason": "由于未观察到可验证变化，无法匹配任何现有进程。"
-              },
-              "ja": {
-                "title": "提供された資料に検証済みシグナルなし",
-                "coreFact": "2026年8月9日から10日までのウェブ検索資料にはソースが含まれておらず、有望なリードがあるという内部メモのみが存在する。",
-                "whyItMatters": "検証可能な情報源なしに候補を立てることは推測に過ぎない。このプレースホルダーは既存のグローバルプロセス判断を誤って更新させないためのものであり、人間の承認または追加検索が必要であることを示す。",
-                "processMatchReason": "検証可能な変化が観察されていないため、既存プロセスにマッチしない。"
-              }
-            },
-            "sources": [
-              {
-                "title": "WEB SEARCH DOSSIER (supplied input, 2026-08-10)",
-                "url": "",
-                "publisher": "N/A",
-                "kind": "context"
-              },
-              {
-                "title": "Research scope and global process definitions (supplied input)",
-                "url": "",
-                "publisher": "N/A",
-                "kind": "context"
-              }
-            ]
-          }
-        ]
-      }
+      "message": "DeepSeek Research JSON contains no candidates.",
+      "updatedAt": "2026-08-10T07:34:09.762Z",
+      "failedStage": "research"
     },
     "china": {
       "status": "queued",
@@ -144,5 +72,5 @@
       }
     ]
   },
-  "message": "WORLD analyze 自动重试 1/3"
+  "message": "WORLD research 自动重试 2/3"
 }
