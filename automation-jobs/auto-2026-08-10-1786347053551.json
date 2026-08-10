@@ -6,18 +6,18 @@
   "currentScope": "global",
   "currentStage": "write_ja",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:38:48.927Z",
+  "updatedAt": "2026-08-10T07:38:52.684Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_ja",
       "attempts": {
         "research": 2,
         "write_zh": 1,
         "write_ja": 1
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-10-1786347053551.json does not match 89e411664fa8a15b16fbc9634abd2a6ffb4a6b7c",
-      "updatedAt": "2026-08-10T07:38:48.927Z",
+      "message": "write_ja",
+      "updatedAt": "2026-08-10T07:38:52.684Z",
       "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
