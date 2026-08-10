@@ -4,19 +4,19 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_finalize",
+  "currentStage": "publish",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:37:07.626Z",
+  "updatedAt": "2026-08-10T07:37:08.398Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_finalize",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {
         "analyze": 1,
         "write_zh": 1
       },
-      "message": "write_finalize",
-      "updatedAt": "2026-08-10T07:37:07.626Z",
+      "message": "已保存 write_finalize 断点",
+      "updatedAt": "2026-08-10T07:37:08.398Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-10-1786347187804",
@@ -554,6 +554,548 @@
           "inputTokens": 2248,
           "outputTokens": 5694,
           "cachedInputTokens": 1152
+        }
+      },
+      "writerDraft": {
+        "id": "writer-candidate-china-100k-card-supercluster-2026-08-10-1786347428390",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-08-10T07:37:08.390Z",
+        "researchDraftId": "research-global-2026-08-10-1786347187804",
+        "candidateId": "candidate-china-100k-card-supercluster-2026-08-10",
+        "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
+        "dailyState": "no_new_global_insight",
+        "matchedProcessId": "process-ai-infrastructure-race",
+        "qualityChecks": {
+          "publishThresholdMet": false,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": [
+            "Candidate does not meet publication threshold.",
+            "Fewer than two current or corroborating sources."
+          ]
+        },
+        "insight": {
+          "id": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
+          "scope": "global",
+          "slug": "china-100k-card-supercluster-signal",
+          "status": "update_living",
+          "processId": "process-ai-infrastructure-race",
+          "publishedAt": "2026-08-10T00:00:00.000Z",
+          "updatedAt": "2026-08-10T07:37:08.390Z",
+          "confidence": "verified",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "GLOBAL SIGNAL WATCH",
+                "secondaryEyebrow": "AI INFRASTRUCTURE RACE",
+                "title": "China’s 100K-Card AI Supercluster: A Signal in the Making",
+                "summary": "An unverified lead points to a massive concentrated AI compute buildout in China, with potential to reshape the AI infrastructure race, semiconductor dynamics, and tech geopolitics."
+              },
+              "question": {
+                "lead": "What if China is assembling a single 100K-card AI training cluster?",
+                "title": "Does a 100K-card cluster signal a step-change in AI compute concentration?",
+                "footnote": "This Insight is based on a provisional candidate signal and remains unverified."
+              },
+              "signals": {
+                "title": "Early Indicators from Research Dossiers",
+                "sourceNote": "Provisional candidate signal from the 2026-08-10 research dossier.",
+                "items": [
+                  {
+                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-1",
+                    "label": "Cluster Lead",
+                    "title": "Potential 100K-card supercluster identified in China",
+                    "body": "A research dossier flags China’s 100K-card supercluster as one of the strongest leads for a signal spanning AI, semiconductors and geopolitics.",
+                    "whyImportant": "If verified, it would represent a concentration of AI compute far beyond widely known deployments.",
+                    "evidence": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-1",
+                        "title": "Research dossier provisional lead",
+                        "description": "The dossier includes the claim without source citations or details, marking it as a candidate pending verification.",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                        "title": "Web search dossier: China's 100K-card supercluster lead",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      },
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                        "title": "Web search dossier: Strongest candidates list",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-2",
+                    "label": "Cross-Domain Interest",
+                    "title": "Listing among strongest cross-domain candidates",
+                    "body": "The same dossier places this lead among its strongest candidates, suggesting strategic attention across AI, semiconductors and geopolitics.",
+                    "whyImportant": "The cross-domain nature indicates potential systemic impact beyond a single sector.",
+                    "evidence": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-2",
+                        "title": "Strongest candidates list inclusion",
+                        "description": "The dossier’s strongest candidates list highlights the cross-domain relevance of the 100K-card cluster.",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                        "title": "Web search dossier: China's 100K-card supercluster lead",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      },
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                        "title": "Web search dossier: Strongest candidates list",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "From Distributed to Concentrated Compute",
+                "before": "AI supercomputing has been distributed across multiple clusters, with the largest publicly known single clusters under 50K accelerators.",
+                "shift": "A potential 100K-card cluster would represent a leap in centralized compute density, possibly enabling new scales of model training.",
+                "now": "Unverified reports suggest China may be pursuing such a cluster, intensifying the AI infrastructure race.",
+                "conclusion": "If confirmed, it would mark a new phase in national AI capacity, with implications for semiconductor supply, energy infrastructure, and geopolitical leverage."
+              },
+              "insight": {
+                "title": "The Concentrated Compute Imperative",
+                "formula": "National AI ambition + semiconductor access + energy capacity → concentrated training clusters at unprecedented scale",
+                "explanation": "As AI models grow, the ability to train them efficiently may depend on very large, single-location clusters. China's potential move signals an attempt to leapfrog in this dimension, bypassing distributed strategies."
+              },
+              "observe": {
+                "title": "What to Watch Next",
+                "items": [
+                  {
+                    "label": "Verification",
+                    "prompt": "Are there any confirmations from satellite imagery or supply chain data?",
+                    "meta": "Open-source intelligence can provide independent evidence of large-scale compute builds."
+                  },
+                  {
+                    "label": "Policy Response",
+                    "prompt": "Will export controls be tightened in reaction to this potential development?",
+                    "meta": "Semiconductor export restrictions may be adjusted if a concentrated cluster is deemed a threat."
+                  },
+                  {
+                    "label": "Global Reaction",
+                    "prompt": "How are other nations responding in their own cluster builds?",
+                    "meta": "Competitors may accelerate their own plans for large-scale AI infrastructure."
+                  }
+                ],
+                "ending": "This signal is provisional; verified evidence will determine its materiality."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "全球信号观察",
+                "secondaryEyebrow": "AI基础设施竞赛",
+                "title": "中国的10万卡AI超算集群：一个正在形成的信号",
+                "summary": "一条未经证实的线索指向中国大规模集中式AI算力建设，可能重塑AI基础设施竞赛、半导体格局和科技地缘政治。"
+              },
+              "question": {
+                "lead": "如果中国正在组装一个单一的10万卡AI训练集群呢？",
+                "title": "10万卡集群是否意味着AI算力集中度发生阶跃变化？",
+                "footnote": "本洞察基于一条暂定的候选信号，尚未得到验证。"
+              },
+              "signals": {
+                "title": "研究档案中的早期指标",
+                "sourceNote": "来自2026-08-10研究档案的暂定候选信号。",
+                "items": [
+                  {
+                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-1",
+                    "label": "集群线索",
+                    "title": "中国发现潜在的10万卡超算集群",
+                    "body": "一份研究档案将中国的10万卡超算集群列为横跨AI、半导体和地缘政治的信号中最有力的线索之一。",
+                    "whyImportant": "如果得到证实，它将代表AI算力的集中程度远超广为人知的部署。",
+                    "evidence": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-1",
+                        "title": "研究档案暂定线索",
+                        "description": "该档案包含这一说法，但未提供来源引用或细节，因此标记为待核实的候选信号。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                        "title": "Web search dossier: China's 100K-card supercluster lead",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      },
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                        "title": "Web search dossier: Strongest candidates list",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-2",
+                    "label": "跨领域关注",
+                    "title": "被列为最强跨领域候选之一",
+                    "body": "同一档案将这条线索列为其最强候选之一，表明其在AI、半导体和地缘政治领域具有战略关注度。",
+                    "whyImportant": "跨领域性质表明其影响可能超越单一领域，具有系统性影响。",
+                    "evidence": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-2",
+                        "title": "入选最强候选名单",
+                        "description": "档案的最强候选名单突出了10万卡集群的跨领域相关性。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                        "title": "Web search dossier: China's 100K-card supercluster lead",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      },
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                        "title": "Web search dossier: Strongest candidates list",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "从分布式计算到集中式计算",
+                "before": "AI超算此前分布在多个集群中，已知最大的单一集群不到5万个加速器。",
+                "shift": "一个潜在的10万卡集群将代表集中式计算密度的飞跃，可能支持新规模的模型训练。",
+                "now": "未经证实的报道表明，中国可能正在建设这样一个集群，从而加剧AI基础设施竞赛。",
+                "conclusion": "如果得到确认，它将标志国家AI能力进入新阶段，对半导体供应、能源基础设施和地缘政治影响力产生影响。"
+              },
+              "insight": {
+                "title": "集中式计算势在必行",
+                "formula": "国家AI雄心 + 半导体获取能力 + 能源容量 → 空前规模的集中式训练集群",
+                "explanation": "随着AI模型不断增大，高效训练它们的能力可能取决于超大规模的单点集群。中国的潜在动作表明其试图在这一维度实现跨越式发展，绕过分布式策略。"
+              },
+              "observe": {
+                "title": "接下来观察什么",
+                "items": [
+                  {
+                    "label": "核实",
+                    "prompt": "是否有来自卫星图像或供应链数据的任何证实？",
+                    "meta": "开源情报可以为大规模算力建设提供独立证据。"
+                  },
+                  {
+                    "label": "政策回应",
+                    "prompt": "针对这一潜在进展，出口管制是否会收紧？",
+                    "meta": "如果集中式集群被视为威胁，半导体出口限制可能会被调整。"
+                  },
+                  {
+                    "label": "全球反应",
+                    "prompt": "其他国家在自身集群建设中有何回应？",
+                    "meta": "竞争对手可能会加速自身的大规模AI基础设施计划。"
+                  }
+                ],
+                "ending": "这一信号是暂定的；经核实的证据将决定其重要性。"
+              }
+            },
+            "ja": {
+              "cover": {
+                "eyebrow": "グローバルシグナルウォッチ",
+                "secondaryEyebrow": "AIインフラ競争",
+                "title": "中国の10万枚カードAIスーパークラスター：形成されつつあるシグナル",
+                "summary": "未検証の情報は、中国における大規模な集約型AI計算基盤の構築を示唆しており、AIインフラ競争、半導体の勢力図、テクノロジー地政学を変える可能性を秘めています。"
+              },
+              "question": {
+                "lead": "もし中国が10万枚のカードを備えた単一のAIトレーニングクラスターを構築しているとしたら？",
+                "title": "10万カード規模のクラスターは、AI計算の集中における飛躍的変化のシグナルか？",
+                "footnote": "本インサイトは暫定的な候補シグナルに基づいており、未検証のままです。"
+              },
+              "signals": {
+                "title": "調査資料に見る初期指標",
+                "sourceNote": "2026年8月10日付リサーチ資料による暫定的な候補シグナル。",
+                "items": [
+                  {
+                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-1",
+                    "label": "クラスター情報",
+                    "title": "中国で10万カード規模のスーパークラスターの可能性を確認",
+                    "body": "リサーチ資料は、中国の10万カード規模スーパークラスターを、AI・半導体・地政学にまたがるシグナルとして最も有力な候補の一つに挙げています。",
+                    "whyImportant": "検証されれば、広く知られている導入事例をはるかに超えるAI計算の集中を意味します。",
+                    "evidence": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-1",
+                        "title": "リサーチ資料における暫定的な候補情報",
+                        "description": "資料はこの主張を出典や詳細を添えずに記載しており、検証待ちの候補として位置づけています。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                        "title": "Web search dossier: China's 100K-card supercluster lead",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      },
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                        "title": "Web search dossier: Strongest candidates list",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-2",
+                    "label": "分野横断的な関心",
+                    "title": "最有力の分野横断候補にリストアップ",
+                    "body": "同じ資料はこの情報を最有力候補の一つに位置づけており、AI・半導体・地政学にわたる戦略的な関心を示唆しています。",
+                    "whyImportant": "分野横断的な性質は、単一セクターを超えたシステムレベルの影響の可能性を示しています。",
+                    "evidence": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-2",
+                        "title": "最有力候補リストへの掲載",
+                        "description": "資料の最有力候補リストは、10万カード規模クラスターの分野横断的な関連性を強調しています。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                        "title": "Web search dossier: China's 100K-card supercluster lead",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      },
+                      {
+                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                        "title": "Web search dossier: Strongest candidates list",
+                        "publisher": "Dossier",
+                        "publishedAt": "2026-08-10",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "分散から集中へ：コンピューティングの変遷",
+                "before": "AIスーパーコンピューティングは複数のクラスターに分散しており、公知の最大の単一クラスターでもアクセラレータは5万個未満です。",
+                "shift": "10万カード規模のクラスターが実現すれば、集中型計算密度の飛躍を意味し、新たな規模でのモデル学習を可能にする可能性があります。",
+                "now": "未検証の報道は、中国がこのようなクラスターを追求している可能性を示唆しており、AIインフラ競争を激化させています。",
+                "conclusion": "確認されれば、これは国家のAI能力における新たな段階を示し、半導体供給、エネルギーインフラ、地政学的影響力に影響を及ぼすでしょう。"
+              },
+              "insight": {
+                "title": "集中型コンピューティングの必然",
+                "formula": "国家のAI野心＋半導体へのアクセス＋エネルギー容量 → 前例のない規模の集中型トレーニングクラスター",
+                "explanation": "AIモデルが成長するにつれ、効率的な学習は非常に大規模で単一拠点のクラスターに依存するようになるかもしれません。中国の潜在的な動きは、分散戦略を迂回し、この次元での飛躍を試みるシグナルです。"
+              },
+              "observe": {
+                "title": "次に注目すべき点",
+                "items": [
+                  {
+                    "label": "検証",
+                    "prompt": "衛星画像やサプライチェーンデータによる確認はあるか？",
+                    "meta": "オープンソースインテリジェンスは、大規模計算基盤構築の独立した証拠を提供し得ます。"
+                  },
+                  {
+                    "label": "政策対応",
+                    "prompt": "この潜在的な動きを受けて輸出規制は強化されるか？",
+                    "meta": "集中型クラスターが脅威と見なされれば、半導体輸出規制が見直される可能性があります。"
+                  },
+                  {
+                    "label": "国際社会の反応",
+                    "prompt": "他国は自国のクラスター構築でどのように対応しているか？",
+                    "meta": "競争相手は自国の大規模AIインフラ計画を加速させるかもしれません。"
+                  }
+                ],
+                "ending": "このシグナルは暫定的なものであり、検証された証拠がその重要性を左右します。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-08-10",
+          "scope": "global",
+          "date": "2026-08-10",
+          "decidedAt": "2026-08-10T07:37:08.390Z",
+          "state": "no_new_global_insight",
+          "insightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
+          "processId": "process-ai-infrastructure-race",
+          "materialChangeScore": 0,
+          "evidenceStrength": 100,
+          "noveltyScore": 80,
+          "importanceScore": 75,
+          "candidateSignalIds": [
+            "candidate-china-100k-card-supercluster-2026-08-10"
+          ],
+          "content": {
+            "en": {
+              "label": "Provisional Signal",
+              "decisionTitle": "Monitor for Verification",
+              "decisionSummary": "The signal remains unverified; no action until independent confirmation emerges.",
+              "thresholdReason": "Zero independent sources; the dossier explicitly states the claim is provisional and pending verification.",
+              "observeNext": [
+                "Satellite imagery analysis for large-scale data center construction",
+                "Leaked procurement documents indicating accelerator volumes"
+              ]
+            },
+            "zh": {
+              "label": "暂定信号",
+              "decisionTitle": "关注核实",
+              "decisionSummary": "该信号仍未证实；在出现独立确认之前不采取行动。",
+              "thresholdReason": "独立来源为零；档案明确说明该说法是暂定的，有待核实。",
+              "observeNext": [
+                "卫星图像分析大型数据中心建设",
+                "泄露的采购文件显示加速器数量"
+              ]
+            },
+            "ja": {
+              "label": "暫定シグナル",
+              "decisionTitle": "検証に向けた監視",
+              "decisionSummary": "このシグナルは未検証であり、独立した確認が得られるまで行動は起こしません。",
+              "thresholdReason": "独立した情報源はゼロ。資料は、この主張が暫定的で検証待ちであることを明記しています。",
+              "observeNext": [
+                "大規模データセンター建設の衛星画像分析",
+                "アクセラレータ数量を示す調達文書の流出"
+              ]
+            }
+          }
+        },
+        "processUpdate": {
+          "processId": "process-ai-infrastructure-race",
+          "scope": "global",
+          "updatedAt": "2026-08-10T07:37:08.390Z",
+          "appendInsightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
+          "evolutionEvent": {
+            "id": "evolution-candidate-china-100k-card-supercluster-2026-08-10",
+            "date": "2026-08-10",
+            "stage": "structural",
+            "impact": "updates",
+            "insightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
+            "content": {
+              "en": {
+                "title": "AI Infrastructure Race",
+                "description": "The race to build large-scale AI compute capacity is a structural shift, with nations and corporations investing heavily in concentrated training infrastructure.",
+                "implication": "Durable advantage may come from converting intelligence into reliable, concentrated compute at unprecedented scale."
+              },
+              "zh": {
+                "title": "AI基础设施竞赛",
+                "description": "建设大规模AI算力能力的竞赛是一场结构性转变，各国和企业正在对集中式训练基础设施进行大量投资。",
+                "implication": "持久优势可能来自将智能转化为空前规模的可靠、集中式算力。"
+              },
+              "ja": {
+                "title": "AIインフラ競争",
+                "description": "大規模なAI計算能力を構築する競争は構造的な変化であり、各国と企業は集中型トレーニングインフラに多額の投資を行っています。",
+                "implication": "持続的な優位性は、インテリジェンスを前例のない規模で信頼性の高い集中型コンピューティングに転換することから生まれる可能性があります。"
+              }
+            }
+          },
+          "nextQuestion": {
+            "en": "What verifiable evidence exists for a 100K-card cluster in China?",
+            "zh": "中国10万卡集群有哪些可验证的证据？",
+            "ja": "中国の10万カード規模クラスターについて、検証可能な証拠は何か？"
+          },
+          "observeNext": {
+            "en": [
+              "Monitor for satellite imagery of mega-data centers",
+              "Watch for procurement leaks indicating accelerator quantities",
+              "Track policy statements on AI infrastructure from Chinese authorities"
+            ],
+            "zh": [
+              "监测大型数据中心的卫星图像",
+              "关注显示加速器数量的采购泄露",
+              "跟踪中国官方关于AI基础设施的政策声明"
+            ],
+            "ja": [
+              "メガデータセンターの衛星画像を監視する",
+              "アクセラレータ数量を示す調達漏洩情報に注目する",
+              "中国当局によるAIインフラに関する政策発表を追跡する"
+            ]
+          }
+        },
+        "provider": "deepseek",
+        "pipeline": "staged-writer-v1",
+        "usage": {
+          "inputTokens": 6912,
+          "outputTokens": 12218,
+          "cachedInputTokens": 4608
         }
       }
     },
