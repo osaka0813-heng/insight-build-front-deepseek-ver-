@@ -6,17 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:36:52.234Z",
+  "updatedAt": "2026-08-10T07:36:52.998Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "write_base",
       "attempts": {
         "research": 2,
         "write_base": 2
       },
-      "message": "重新唤醒 write_base 断点",
-      "updatedAt": "2026-08-10T07:36:49.052Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-10T07:36:52.998Z",
       "failedStage": "write_base",
       "researchDraft": {
         "ok": true,
