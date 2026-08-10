@@ -6,92 +6,88 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:37:39.006Z",
+  "updatedAt": "2026-08-10T07:37:40.123Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "checkpointed",
       "stage": "write_zh",
       "attempts": {
-        "research": 2,
-        "write_zh": 1
+        "research": 1
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-10-1786347053551.json does not match 39964a4f872e541b14fda9bee6d9b7209dc430aa",
-      "updatedAt": "2026-08-10T07:37:39.006Z",
-      "failedStage": "write_zh",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-10T07:37:40.123Z",
+      "failedStage": "research",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347376168",
+        "id": "research-global-2026-08-10-1786347345943",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:36:16.168Z",
+        "researchedAt": "2026-08-10T07:35:45.943Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 74571,
-          "outputTokens": 13078,
-          "cachedInputTokens": 53888
+          "inputTokens": 375961,
+          "outputTokens": 25121,
+          "cachedInputTokens": 331008
         },
-        "querySummary": "The dossier contains one dominant cross-domain clue: a Strait of Hormuz situation is described as the most important story in the past 24 hours. No article-level sources, quotes, or numeric facts were supplied, so the candidate below is a conservative draft flagging the topic for verification rather than asserting specific event details.",
+        "querySummary": "The WEB SEARCH DOSSIER supplied for 2026-08-10 contains no article-level facts, URLs, titles, publishers, or quotes. It only points to strong initial candidates around the Hormuz/energy/macro nexus and Aug 9-10 breaking news. One low-evidence candidate is drafted as a placeholder for human verification.",
         "candidates": [
           {
-            "id": "signal-hormuz-cross-domain-20260810",
+            "id": "hormuz-energy-macro-nexus-2026-08-10",
             "date": "2026-08-10",
-            "domain": "Geopolitics",
+            "domain": "Energy/Geopolitics/Macro",
             "tags": [
-              "Strait of Hormuz",
-              "energy security",
-              "chokepoint",
-              "oil",
-              "LNG",
-              "shipping",
-              "inflation",
-              "capital markets",
-              "AI infrastructure",
-              "geopolitics"
+              "energy",
+              "geopolitics",
+              "macro",
+              "hormuz",
+              "capital",
+              "cross-domain"
             ],
             "suggestedProcessId": "process-energy-security",
-            "processMatchConfidence": 72,
-            "importance": 90,
-            "novelty": 78,
-            "evidenceStrength": 8,
+            "processMatchConfidence": 75,
+            "importance": 70,
+            "novelty": 60,
+            "evidenceStrength": 5,
             "independentSourceCount": 1,
-            "thesisImpact": 88,
-            "relationshipChange": 82,
-            "stageChange": 70,
-            "contradiction": 35,
+            "thesisImpact": 65,
+            "relationshipChange": 80,
+            "stageChange": 40,
+            "contradiction": 15,
             "content": {
               "en": {
-                "title": "Strait of Hormuz rises as the dominant cross-domain risk in the 24-hour research window",
-                "coreFact": "The web-search dossier flags a Strait of Hormuz situation as the dominant cross-domain story in the past 24 hours. The dossier does not include specific facts, escalation details, or primary-source links, so this candidate is an attention flag pending verification.",
-                "whyItMatters": "Hormuz is a critical oil and LNG chokepoint. A significant situation there would simultaneously move energy prices, shipping and insurance costs, inflation expectations, monetary policy, the cost of power for AI datacenters and industrial capacity, and the geopolitical alignments around critical infrastructure.",
-                "processMatchReason": "The event directly tests the thesis that reliable energy access is strategic capacity, and it feeds into the AI infrastructure race through power costs and capital allocation."
+                "title": "Hormuz/energy/macro nexus flagged as dominant 24-hour cross-domain signal",
+                "coreFact": "The supplied dossier names the Hormuz/energy/macro nexus and Aug 9-10 breaking news as the most significant cross-domain signal near 2026-08-10, but contains no article-level facts, URLs, publishers, or quotes.",
+                "whyItMatters": "This is a directional signal: if confirmed, it would tie Hormuz chokepoint risk directly to macro repricing and capital allocation, accelerating the energy-security process and adding a geopolitical control layer to energy infrastructure decisions.",
+                "processMatchReason": "It directly maps to the 'Energy becomes strategic capacity' thesis that reliable energy access increasingly determines where strategic digital and industrial capacity can grow, and connects to AI infrastructure's power dependency."
               },
               "zh": {
-                "title": "霍尔木兹海峡局势成为24小时研究窗口内最突出的跨领域风险信号",
-                "coreFact": "搜索档案将霍尔木兹海峡局势列为过去24小时内最突出的跨领域事件，但未包含具体事实、升级细节或一手来源链接。因此该信号应视为待验证的注意力标志，而非已确认的事件描述。",
-                "whyItMatters": "霍尔木兹海峡是石油和LNG贸易的关键咽喉。一旦出现显著事态，能源价格、航运与保险成本、通胀预期、货币政策、AI数据中心及工业产能的用电成本，以及围绕关键基础设施的地缘政治组合都可能同时受到影响。",
-                "processMatchReason": "该事件直接检验了‘可靠能源获取是战略能力’的判断，并通过电力成本与资本配置渠道影响AI基础设施竞赛。"
+                "title": "霍尔木兹/能源/宏观联动被标记为24小时内最重要的跨领域信号",
+                "coreFact": "所提供的搜索档案指出，2026-08-10前后最重要的跨领域信号是霍尔木兹/能源/宏观联动及8月9-10日突发新闻，但档案内没有文章级事实、URL、发布方或引述。",
+                "whyItMatters": "这是一个方向性信号：若获证实，将把霍尔木兹能源咽喉风险与宏观重新定价及资本配置直接挂钩，推动能源安全进程加速，并为能源基础设施决策增加地缘政治控制层。",
+                "processMatchReason": "该信号直接对应‘能源成为战略容量’的进程论点：可靠能源获取日益决定战略数字与工业产能可增长的地点，并关联AI基础设施的电力依赖。"
               },
               "ja": {
-                "title": "ホルムズ海峡情勢が24時間の調査枠で最有力のクロスドメインリスクに浮上",
-                "coreFact": "検索調査資料は、過去24時間で最も重要なクロスドメインの出来事としてホルムズ海峡情勢を挙げている。ただし、具体的な事実や緊張激化の詳細、一次情報源へのリンクは資料に含まれておらず、この候補は検証待ちの注意フラグである。",
-                "whyItMatters": "ホルムズ海峡は石油・LNG貿易の最重要チョークポイント。大規模な事態が起これば、エネルギー価格、海運・保険料、インフレ期待、金融政策、AIデータセンターや産業設備の電力コスト、重要インフラを巡る地政学的な連携に同時に影響を与え得る。",
-                "processMatchReason": "信頼できるエネルギー供給が戦略的キャパシティであるというテーゼを直接試すものであり、電力コストと資本配分を通じてAIインフラ競争にも波及する。"
+                "title": "ホルムズ/エネルギー/マクロ連動が24時間で最も重要なクロスドメインシグナルとして指定",
+                "coreFact": "提供された検索ドシエは、2026-08-10前後の最重要クロスドメインシグナルとしてホルムズ/エネルギー/マクロ連動と8月9-10日の速報ニュースを挙げているが、記事レベルの事実・URL・発行元・引用は含まれていない。",
+                "whyItMatters": "方向性を示すシグナルであり、確認されれば、ホルムズ海峡のエネルギー要衝リスクがマクロの価格付け直しと資本配分に直結し、エネルギー安全保障プロセスを加速させ、エネルギーインフラ決定に地政学的な統制層を加える。",
+                "processMatchReason": "「エネルギーが戦略的キャパシティになる」というプロセスの論点、すなわち信頼できるエネルギーアクセスが戦略的デジタル・産業キャパシティの立地を左右する、という点に直接対応し、AIインフラの電力依存ともつながる。"
               }
             },
             "sources": [
               {
-                "title": "Web-search dossier: Strait of Hormuz identified as dominant cross-domain story",
+                "title": "Search agent note: strong initial candidates",
                 "url": "",
-                "publisher": "Unknown",
+                "publisher": "",
                 "publishedAt": "2026-08-10",
                 "kind": "context"
               },
               {
-                "title": "Primary-source verification pending for Strait of Hormuz situation",
+                "title": "Search agent note: Hormuz/energy/macro nexus and Aug 9-10 breaking news",
                 "url": "",
-                "publisher": "Unknown",
+                "publisher": "",
+                "publishedAt": "2026-08-10",
                 "kind": "context"
               }
             ]
@@ -100,82 +96,79 @@
       },
       "analyzedDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347376168",
+        "id": "research-global-2026-08-10-1786347345943",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:36:16.168Z",
+        "researchedAt": "2026-08-10T07:35:45.943Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 74571,
-          "outputTokens": 13078,
-          "cachedInputTokens": 53888
+          "inputTokens": 375961,
+          "outputTokens": 25121,
+          "cachedInputTokens": 331008
         },
-        "querySummary": "The dossier contains one dominant cross-domain clue: a Strait of Hormuz situation is described as the most important story in the past 24 hours. No article-level sources, quotes, or numeric facts were supplied, so the candidate below is a conservative draft flagging the topic for verification rather than asserting specific event details.",
+        "querySummary": "The WEB SEARCH DOSSIER supplied for 2026-08-10 contains no article-level facts, URLs, titles, publishers, or quotes. It only points to strong initial candidates around the Hormuz/energy/macro nexus and Aug 9-10 breaking news. One low-evidence candidate is drafted as a placeholder for human verification.",
         "candidates": [
           {
-            "id": "signal-hormuz-cross-domain-20260810",
+            "id": "hormuz-energy-macro-nexus-2026-08-10",
             "date": "2026-08-10",
-            "domain": "Geopolitics",
+            "domain": "Energy/Geopolitics/Macro",
             "tags": [
-              "Strait of Hormuz",
-              "energy security",
-              "chokepoint",
-              "oil",
-              "LNG",
-              "shipping",
-              "inflation",
-              "capital markets",
-              "AI infrastructure",
-              "geopolitics"
+              "energy",
+              "geopolitics",
+              "macro",
+              "hormuz",
+              "capital",
+              "cross-domain"
             ],
             "suggestedProcessId": "process-energy-security",
-            "processMatchConfidence": 72,
-            "importance": 90,
-            "novelty": 78,
-            "evidenceStrength": 80,
+            "processMatchConfidence": 75,
+            "importance": 70,
+            "novelty": 60,
+            "evidenceStrength": 50,
             "independentSourceCount": 0,
-            "thesisImpact": 88,
-            "relationshipChange": 82,
-            "stageChange": 70,
-            "contradiction": 35,
+            "thesisImpact": 65,
+            "relationshipChange": 80,
+            "stageChange": 40,
+            "contradiction": 15,
             "content": {
               "en": {
-                "title": "Strait of Hormuz rises as the dominant cross-domain risk in the 24-hour research window",
-                "coreFact": "The web-search dossier flags a Strait of Hormuz situation as the dominant cross-domain story in the past 24 hours. The dossier does not include specific facts, escalation details, or primary-source links, so this candidate is an attention flag pending verification.",
-                "whyItMatters": "Hormuz is a critical oil and LNG chokepoint. A significant situation there would simultaneously move energy prices, shipping and insurance costs, inflation expectations, monetary policy, the cost of power for AI datacenters and industrial capacity, and the geopolitical alignments around critical infrastructure.",
-                "processMatchReason": "The event directly tests the thesis that reliable energy access is strategic capacity, and it feeds into the AI infrastructure race through power costs and capital allocation."
+                "title": "Hormuz/energy/macro nexus flagged as dominant 24-hour cross-domain signal",
+                "coreFact": "The supplied dossier names the Hormuz/energy/macro nexus and Aug 9-10 breaking news as the most significant cross-domain signal near 2026-08-10, but contains no article-level facts, URLs, publishers, or quotes.",
+                "whyItMatters": "This is a directional signal: if confirmed, it would tie Hormuz chokepoint risk directly to macro repricing and capital allocation, accelerating the energy-security process and adding a geopolitical control layer to energy infrastructure decisions.",
+                "processMatchReason": "It directly maps to the 'Energy becomes strategic capacity' thesis that reliable energy access increasingly determines where strategic digital and industrial capacity can grow, and connects to AI infrastructure's power dependency."
               },
               "zh": {
-                "title": "霍尔木兹海峡局势成为24小时研究窗口内最突出的跨领域风险信号",
-                "coreFact": "搜索档案将霍尔木兹海峡局势列为过去24小时内最突出的跨领域事件，但未包含具体事实、升级细节或一手来源链接。因此该信号应视为待验证的注意力标志，而非已确认的事件描述。",
-                "whyItMatters": "霍尔木兹海峡是石油和LNG贸易的关键咽喉。一旦出现显著事态，能源价格、航运与保险成本、通胀预期、货币政策、AI数据中心及工业产能的用电成本，以及围绕关键基础设施的地缘政治组合都可能同时受到影响。",
-                "processMatchReason": "该事件直接检验了‘可靠能源获取是战略能力’的判断，并通过电力成本与资本配置渠道影响AI基础设施竞赛。"
+                "title": "霍尔木兹/能源/宏观联动被标记为24小时内最重要的跨领域信号",
+                "coreFact": "所提供的搜索档案指出，2026-08-10前后最重要的跨领域信号是霍尔木兹/能源/宏观联动及8月9-10日突发新闻，但档案内没有文章级事实、URL、发布方或引述。",
+                "whyItMatters": "这是一个方向性信号：若获证实，将把霍尔木兹能源咽喉风险与宏观重新定价及资本配置直接挂钩，推动能源安全进程加速，并为能源基础设施决策增加地缘政治控制层。",
+                "processMatchReason": "该信号直接对应‘能源成为战略容量’的进程论点：可靠能源获取日益决定战略数字与工业产能可增长的地点，并关联AI基础设施的电力依赖。"
               },
               "ja": {
-                "title": "ホルムズ海峡情勢が24時間の調査枠で最有力のクロスドメインリスクに浮上",
-                "coreFact": "検索調査資料は、過去24時間で最も重要なクロスドメインの出来事としてホルムズ海峡情勢を挙げている。ただし、具体的な事実や緊張激化の詳細、一次情報源へのリンクは資料に含まれておらず、この候補は検証待ちの注意フラグである。",
-                "whyItMatters": "ホルムズ海峡は石油・LNG貿易の最重要チョークポイント。大規模な事態が起これば、エネルギー価格、海運・保険料、インフレ期待、金融政策、AIデータセンターや産業設備の電力コスト、重要インフラを巡る地政学的な連携に同時に影響を与え得る。",
-                "processMatchReason": "信頼できるエネルギー供給が戦略的キャパシティであるというテーゼを直接試すものであり、電力コストと資本配分を通じてAIインフラ競争にも波及する。"
+                "title": "ホルムズ/エネルギー/マクロ連動が24時間で最も重要なクロスドメインシグナルとして指定",
+                "coreFact": "提供された検索ドシエは、2026-08-10前後の最重要クロスドメインシグナルとしてホルムズ/エネルギー/マクロ連動と8月9-10日の速報ニュースを挙げているが、記事レベルの事実・URL・発行元・引用は含まれていない。",
+                "whyItMatters": "方向性を示すシグナルであり、確認されれば、ホルムズ海峡のエネルギー要衝リスクがマクロの価格付け直しと資本配分に直結し、エネルギー安全保障プロセスを加速させ、エネルギーインフラ決定に地政学的な統制層を加える。",
+                "processMatchReason": "「エネルギーが戦略的キャパシティになる」というプロセスの論点、すなわち信頼できるエネルギーアクセスが戦略的デジタル・産業キャパシティの立地を左右する、という点に直接対応し、AIインフラの電力依存ともつながる。"
               }
             },
             "sources": [
               {
-                "title": "Web-search dossier: Strait of Hormuz identified as dominant cross-domain story",
+                "title": "Search agent note: strong initial candidates",
                 "url": "",
-                "publisher": "Unknown",
+                "publisher": "",
                 "publishedAt": "2026-08-10",
                 "kind": "context",
-                "id": "signal-hormuz-cross-domain-20260810-source-1",
+                "id": "hormuz-energy-macro-nexus-2026-08-10-source-1",
                 "role": "context"
               },
               {
-                "title": "Primary-source verification pending for Strait of Hormuz situation",
+                "title": "Search agent note: Hormuz/energy/macro nexus and Aug 9-10 breaking news",
                 "url": "",
-                "publisher": "Unknown",
+                "publisher": "",
+                "publishedAt": "2026-08-10",
                 "kind": "context",
-                "id": "signal-hormuz-cross-domain-20260810-source-2",
+                "id": "hormuz-energy-macro-nexus-2026-08-10-source-2",
                 "role": "context"
               }
             ],
@@ -185,7 +178,7 @@
             "claimSourceIds": [],
             "analysis": {
               "matchedProcessId": "process-energy-security",
-              "processMatchConfidence": 72,
+              "processMatchConfidence": 75,
               "impact": "no_material_change",
               "dailyState": "no_new_global_insight",
               "materialChangeScore": 10,
@@ -194,18 +187,18 @@
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "The candidate is an attention flag, not a verified event. It contains zero trigger sources or independent primary-source links within the research window, and the dossier itself acknowledges a lack of specific facts or escalation details. While a Hormuz disruption would be globally significant, the candidate explicitly states it is pending verification and carries no corroborating claims. The absence of any current-event evidence means there is no material update to the Energy becomes strategic capacity process. The process thesis is not challenged or advanced by an unverified flag alone.",
+              "rationale": "Candidate is a search-agent dossier summary flagging a Hormuz/energy/macro nexus as a notable cross-domain signal, but contains zero article-level facts: no URLs, no publisher names, no quotes, no datapoints, no named events. Both sources are internal context notes from the search agent itself. With zero independent trigger or corroborating sources, there is no verifiable evidence of a material change to the energy-security process. The thesis that reliable energy shapes strategic capacity is directionally relevant, but an unsubstantiated flag cannot support, update, or challenge a living process. Conservative threshold requires at least one independent factual source; that is absent here.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "Zero trigger or corroborating sources; only context documents exist.",
-                "Candidate self-reports 'pending verification' and lacks specific facts.",
-                "No independent primary-source links provided.",
-                "Signal is an attention flag, not an event with substantiating evidence.",
-                "MaterialChangeScore downgraded from 72 to 10 to reflect absence of verified information."
+                "No trigger source inside the research window.",
+                "Fewer than two current or corroborating sources.",
+                "Both sources are internal context notes with no article-level facts.",
+                "Zero independent source count; cannot verify the claimed nexus.",
+                "Legacy normalized scores inflated the materialChangeScore; manual downward revision applied for lack of evidence."
               ],
-              "candidateId": "signal-hormuz-cross-domain-20260810"
+              "candidateId": "hormuz-energy-macro-nexus-2026-08-10"
             }
           }
         ],
@@ -215,124 +208,119 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": "signal-hormuz-cross-domain-20260810",
-          "slug": "signal-hormuz-cross-domain-20260810",
-          "parentInsightId": "process-energy-security",
+          "insightId": "hormuz-energy-macro-nexus-2026-08-10",
+          "slug": "hormuz-energy-macro-nexus-flagged",
+          "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "Global Energy Security",
-              "secondaryEyebrow": "Cross-Domain Risk Monitoring",
-              "title": "Strait of Hormuz Signals Potential Systemic Disruption",
-              "summary": "A web-search dossier flags the Strait of Hormuz as the dominant cross-domain risk in the past 24 hours, pending verification."
+              "eyebrow": "ENERGY SECURITY",
+              "secondaryEyebrow": "GLOBAL SYSTEMS MONITORING",
+              "title": "Hormuz/Energy/Macro Nexus Flagged as Dominant Cross-Domain Signal",
+              "summary": "Internal monitoring identifies the nexus as a top 24-hour signal, pointing to a potential repricing of chokepoint risk and its macro implications, though independent verification is lacking."
             },
             "question": {
-              "lead": "What is the immediate cross-domain risk?",
-              "title": "Is the Strait of Hormuz a current systemic threat?",
-              "footnote": "Based on attention flag from web-search dossier (2026-08-10)."
+              "lead": "What if the Strait of Hormuz becomes a persistent macro risk factor?",
+              "title": "Is the Hormuz Strait re-emerging as a critical chokepoint for global energy flows and macro stability?",
+              "footnote": "Based on monitoring flags; not yet confirmed by independent sources."
             },
             "signals": {
-              "title": "Attention Flag and Verification Gap",
-              "sourceNote": "Sources: web-search dossier and pending verification note.",
+              "title": "Internal Monitoring Signals",
+              "sourceNote": "Evidence is limited to internal search-agent notes; no independent article-level sources are available.",
               "items": [
                 {
-                  "label": "Flag",
-                  "title": "Hormuz identified as top cross-domain story",
-                  "body": "A web-search dossier compiled on 2026-08-10 identifies the Strait of Hormuz as the dominant cross-domain narrative over the past 24 hours, without providing specific incident details.",
-                  "whyImportant": "A disruption at Hormuz would impact oil, LNG, shipping, inflation and AI energy costs.",
+                  "label": "Signal 1",
+                  "title": "Monitoring system flags strong cross-domain candidates",
+                  "body": "Internal search agent identifies a set of prominent signals, with the Hormuz/energy/macro nexus highlighted as a top contender.",
+                  "whyImportant": "Indicates heightened algorithmic attention to the nexus across global news monitoring.",
                   "evidence": {
-                    "title": "Dossier mention",
-                    "description": "The dossier states Hormuz is the top cross-domain story but lacks facts.",
+                    "title": "Search agent note: strong initial candidates",
+                    "description": "Note from the search agent on 2026-08-10 noting strong initial candidates for cross-domain signals.",
                     "confidence": "hypothesis",
                     "sourceIds": [
-                      "signal-hormuz-cross-domain-20260810-source-1"
+                      "hormuz-energy-macro-nexus-2026-08-10-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "Gap",
-                  "title": "No primary-source verification available",
-                  "body": "The accompanying note confirms that primary-source verification is pending and no independent details have been provided within the research window.",
-                  "whyImportant": "Without verification, the flag remains a monitoring signal rather than an actionable insight.",
+                  "label": "Signal 2",
+                  "title": "Hormuz/energy/macro nexus and breaking news flagged",
+                  "body": "Follow-up agent note specifically names the Hormuz/energy/macro nexus and August 9–10 breaking news as the most significant cross-domain signal.",
+                  "whyImportant": "Suggests that events around that date are converging energy, macro, and geopolitical risk into a single salient narrative.",
                   "evidence": {
-                    "title": "Verification pending",
-                    "description": "The source explicitly states that verification is outstanding.",
+                    "title": "Search agent note: Hormuz/energy/macro nexus and Aug 9-10 breaking news",
+                    "description": "Note from the search agent on 2026-08-10 specifying the nexus.",
                     "confidence": "hypothesis",
                     "sourceIds": [
-                      "signal-hormuz-cross-domain-20260810-source-2"
+                      "hormuz-energy-macro-nexus-2026-08-10-source-2"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "From Background Risk to Attention Flag (Unverified)",
-              "before": "Strait of Hormuz risks were a persistent but background concern in energy security assessments.",
-              "shift": "The 24-hour web-search dossier elevates Hormuz to the most prominent cross-domain story, though without specific evidence.",
-              "now": "The situation remains an unverified attention flag, with no corroborating primary sources or incident details.",
-              "conclusion": "Hormuz warrants heightened observation as a potential systemic risk node; the absence of verification demands caution."
+              "title": "The Hormuz Narrative Shift: Background Risk to Front-Page Factor",
+              "before": "The Strait of Hormuz has long been recognized as a major energy chokepoint, but recent years saw it as a manageable background risk with markets absorbing disruptions through diversification and spare capacity.",
+              "shift": "Monitoring systems now detect a convergence of energy, macro, and geopolitical signals, suggesting the market may be starting to price Hormuz risk as acute and systemic.",
+              "now": "The narrative is shifting from dormant risk to a live repricing possibility, with potential effects on energy infrastructure, macro stability, and capital allocation.",
+              "conclusion": "If verified, this shift would embed geopolitical chokepoint risk directly into strategic energy capacity and global economic resilience planning."
             },
             "insight": {
-              "title": "Chokepoint Alert Without Confirmation",
-              "formula": "Energy chokepoint attention + absent verification = strategic monitoring posture",
-              "explanation": "When a key energy chokepoint appears as a top narrative but lacks verified facts, the systemic importance of the chokepoint is reaffirmed, but the analytical posture must remain observational until evidence materializes."
+              "title": "Chokepoint Geopolitics Reshapes Energy as Strategic Capacity",
+              "formula": "When Hormuz flashes as a macro risk signal, energy infrastructure decisions become inseparable from geopolitical control capacity.",
+              "explanation": "The insight links the flagged nexus to the broader process in which reliable energy access increasingly determines where strategic digital and industrial growth occurs. Repricing of chokepoint risk would accelerate energy's transformation from a commodity input into a determinant of strategic capacity, forcing deeper integration of geopolitical hedging into energy planning."
             },
             "observe": {
-              "title": "What to Monitor",
+              "title": "What To Observe Next",
               "items": [
                 {
-                  "label": "Primary reports",
-                  "prompt": "Watch for official statements or credible news on Strait of Hormuz incidents.",
-                  "meta": "Sources: governments, major news wires"
+                  "label": "Market Repricing",
+                  "prompt": "Monitor energy futures, tanker rates, and risk asset correlations for signs of Hormuz premium.",
+                  "meta": "Daily"
                 },
                 {
-                  "label": "Energy prices",
-                  "prompt": "Track oil and LNG spot prices for abnormal moves.",
-                  "meta": "Indicators: Brent, WTI, JKM"
+                  "label": "Infrastructure Plays",
+                  "prompt": "Watch for new investments in energy diversification and strategic reserves.",
+                  "meta": "Weekly"
                 },
                 {
-                  "label": "Shipping data",
-                  "prompt": "Monitor tanker tracking and insurance premiums.",
-                  "meta": "Tools: MarineTraffic, Lloyd’s List"
-                },
-                {
-                  "label": "AI infrastructure",
-                  "prompt": "Note any changes to datacenter power cost forecasts.",
-                  "meta": "Relevant for AI capex assumptions"
+                  "label": "Geopolitical Posture",
+                  "prompt": "Track statements, deployments, and diplomatic moves concerning Strait security.",
+                  "meta": "Ongoing"
                 }
               ],
-              "ending": "Continued vigilance on Hormuz is warranted, but no immediate action until verification."
+              "ending": "Confirming or refuting the nexus requires concrete market, infrastructure, and geopolitical evidence beyond monitoring flags."
             }
           },
           "dailyStateEn": {
             "label": "No New Global Insight",
-            "decisionTitle": "No Material Change",
-            "decisionSummary": "The candidate signal is an unverified attention flag without evidence of an actual event.",
-            "thresholdReason": "Zero trigger or corroborating sources; pending verification.",
+            "decisionTitle": "Insufficient Evidence for Material Change",
+            "decisionSummary": "The flagged Hormuz/energy/macro nexus remains a monitoring hypothesis without independent source verification, so no material change to the energy-security process is established.",
+            "thresholdReason": "Zero independent trigger or corroborating sources; conservative threshold requires at least one verifiable factual source.",
             "observeNext": [
-              "Await primary-source verification of Hormuz situation",
-              "Monitor energy price volatility",
-              "Watch for shipping/insurance signals"
+              "Independent reporting on Hormuz-related incidents or market impacts",
+              "Shifts in energy-macro correlation patterns",
+              "Policy or investment announcements on energy security adaptations"
             ]
           },
           "processStage": "accelerating",
           "processContentEn": {
             "title": "Energy becomes strategic capacity",
-            "description": "This process examines how reliable and affordable energy access is increasingly a foundation for national and industrial strategy, especially as AI and advanced compute demand surge.",
-            "implication": "An unverified Hormuz flag does not shift the process stage but underscores the sensitivity of energy chokepoints."
+            "description": "Reliable energy access increasingly determines where strategic digital and industrial capacity can be located. This insight ties the Hormuz chokepoint risk directly to the acceleration of this process.",
+            "implication": "Materialization of chokepoint risk would force faster redefinition of energy as strategic capacity, demanding rapid adaptation in infrastructure and geopolitics."
           },
-          "nextQuestionEn": "What verified developments at the Strait of Hormuz or other critical chokepoints emerged in the last 24 hours?",
+          "nextQuestionEn": "What indicators would provide concrete evidence of Hormuz-driven macro repricing, and how should we monitor them?",
           "observeNextEn": [
-            "Primary-source reports on Strait of Hormuz",
-            "Energy commodity spot prices",
-            "Shipping insurance and route diversions",
-            "Statements from major energy-consuming nations"
+            "Brent crude futures versus risk asset correlations",
+            "Tanker insurance rate spikes",
+            "Statements from major energy importers on supply diversification",
+            "Capital flows into energy-independent infrastructure"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 2383,
-          "outputTokens": 3408,
+          "inputTokens": 2456,
+          "outputTokens": 4833,
           "cachedInputTokens": 1152
         }
       }
@@ -391,5 +379,5 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 1/3"
+  "message": "WORLD research 自动重试 1/3"
 }
