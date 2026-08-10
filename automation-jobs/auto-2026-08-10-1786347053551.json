@@ -6,7 +6,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:33:59.459Z",
+  "updatedAt": "2026-08-10T07:34:01.157Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -15,7 +15,7 @@
         "research": 1
       },
       "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-10T07:33:59.459Z",
+      "updatedAt": "2026-08-10T07:34:01.157Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -209,49 +209,49 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": null,
-          "slug": "ai-power-volatility-damage-data-centers-grids",
+          "insightId": "insight-global-2026-08-10-ai-power-volatility",
+          "slug": "ai-workloads-volatile-power-draw",
           "parentInsightId": "process-ai-infrastructure-race",
           "previousInsightId": null,
           "en": {
             "cover": {
               "eyebrow": "AI Infrastructure",
-              "secondaryEyebrow": "Power Quality",
+              "secondaryEyebrow": "Global Power Quality",
               "title": "AI workloads cause volatile power draw that damages data centers and stresses grids",
-              "summary": "A new dossier signal identifies rapid AI power demand swings as a source of physical damage to equipment and local grid instability. The primary report is still unverified, but if confirmed, it would shift the AI infrastructure constraint from generation capacity to power quality and reliability."
+              "summary": "Rapid swings in AI power demand are emerging as a new threat to data center equipment and grid stability, shifting the AI race from capacity to power quality."
             },
             "question": {
-              "lead": "As AI scales, its appetite for electricity is well known, but the quality of that power demand may become the real bottleneck.",
-              "title": "Is volatile power demand from AI workloads becoming a new reliability constraint for data centers and the grid?",
-              "footnote": "Based on an unverified dossier signal dated August 10, 2026."
+              "lead": "Is the AI boom heading for a power-quality crisis?",
+              "title": "Could volatile AI power demand break the grid?",
+              "footnote": "Based on early signals from August 2026"
             },
             "signals": {
-              "title": "Earliest indicators of a power quality shift",
-              "sourceNote": "All sources are internal dossier notes; no independent verification exists yet.",
+              "title": "Emerging signals of AI power volatility",
+              "sourceNote": "Sources: internal dossier notes, pending verification",
               "items": [
                 {
-                  "label": "Power volatility note",
-                  "title": "Internal note flags AI power swings damaging equipment",
-                  "body": "A dossier note dated August 10 suggests that AI data centers cause rapid, unpredictable power demand changes that physically stress transformers and other infrastructure.",
-                  "whyImportant": "It moves the conversation from how much power AI needs to whether the grid and data centers can handle its dynamic load profile without damage.",
+                  "label": "Signal 1",
+                  "title": "Physical damage to data center equipment from rapid power swings",
+                  "body": "AI training and inference workloads cause sudden, large changes in power draw, stressing electrical infrastructure and causing physical damage to data center equipment.",
+                  "whyImportant": "This introduces new maintenance costs and reliability risks for AI operators, potentially limiting service uptime.",
                   "evidence": {
                     "title": "Dossier internal note on AI power volatility",
-                    "description": "Single internal source with no independent confirmation; the original primary report is still being verified.",
-                    "confidence": "hypothesis",
+                    "description": "Internal note from August 2026 dossier highlighting AI power demand swings as a source of equipment damage.",
+                    "confidence": "developing",
                     "sourceIds": [
                       "signal-2026-08-10-ai-power-volatility-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "Verification pending",
-                  "title": "Primary report still under review",
-                  "body": "A separate dossier communication indicates that the original field report on AI grid instability has not yet been released or corroborated by other sources.",
-                  "whyImportant": "Without external verification, the signal remains a speculative but potentially high-impact issue.",
+                  "label": "Signal 2",
+                  "title": "Local grid instability from AI load volatility",
+                  "body": "The same rapid fluctuations in power demand destabilize local electrical grids, causing frequency and voltage deviations that affect other consumers.",
+                  "whyImportant": "Grid instability could lead to regulatory restrictions on AI data center locations, requiring costly mitigation infrastructure.",
                   "evidence": {
-                    "title": "Pending primary-source verification",
-                    "description": "No independent or corroborating sources exist within the research window; the core fact is unconfirmed.",
-                    "confidence": "hypothesis",
+                    "title": "Pending primary-source verification for AI grid instability",
+                    "description": "Verification note for the primary report on AI-driven grid instability.",
+                    "confidence": "developing",
                     "sourceIds": [
                       "signal-2026-08-10-ai-power-volatility-source-2"
                     ]
@@ -260,69 +260,75 @@
               ]
             },
             "pattern": {
-              "title": "From generation capacity to power quality: AI’s new electrical frontier",
-              "before": "The AI infrastructure race focused almost exclusively on securing enough megawatts, assuming that once connected, power delivery would be stable and predictable.",
-              "shift": "Early signals indicate that AI workloads cause violent, sub‑second power draw fluctuations that physically stress on‑site equipment and inject instability into local grids.",
-              "now": "The binding constraint is no longer just generation capacity, but the ability of data center electrical systems and utility networks to absorb volatile load profiles without failure.",
-              "conclusion": "If verified, AI build‑out might be limited not by power plants but by grid‑stability margins, raising costs and narrowing the list of viable sites."
+              "title": "From capacity to power quality: AI's hidden grid threat",
+              "before": "AI infrastructure expansion focused on securing sufficient megawatts (capacity) and locations with cheap power.",
+              "shift": "Reports indicate AI workloads cause rapid, large power fluctuations that damage equipment and destabilize grids, shifting the constraint from total energy to power quality and reliability.",
+              "now": "Data center operators and utilities must address power volatility, not just total capacity, raising costs and complexity.",
+              "conclusion": "The AI race is becoming a power-quality contest; regions unable to manage volatile loads will lose AI infrastructure investment."
             },
             "insight": {
-              "title": "AI’s power problem is no longer about size, but stability",
-              "formula": "AI workload volatility × low grid inertia = operational risk to equipment and supply",
-              "explanation": "As AI clusters toggle between idle and full utilization, they create frequency and voltage swings that conventional power systems cannot absorb, potentially leading to equipment damage and local outages."
+              "title": "The AI power volatility trap",
+              "formula": "AI scaling + inadequate power quality management = physical and regulatory risks that cap deployment",
+              "explanation": "As AI workloads grow, their unique power draw patterns—rapid spikes and dips—will increasingly cause equipment failures and grid complaints, forcing a re-evaluation of where and how AI data centers are built. This shifts the bottleneck from energy supply to energy stability."
             },
             "observe": {
-              "title": "What to watch for",
+              "title": "What to watch: indicators of unfolding power quality constraints",
               "items": [
                 {
-                  "label": "Primary report",
-                  "prompt": "When will the original field report be published, and what data does it contain?",
-                  "meta": "Verification status"
+                  "label": "Equipment failures",
+                  "prompt": "Are AI data centers reporting increased electrical failures?",
+                  "meta": "Track industry reports and maintenance costs."
                 },
                 {
-                  "label": "Utility responses",
-                  "prompt": "Are grid operators imposing new interconnection requirements or power quality standards for AI loads?",
-                  "meta": "Regulatory shift"
+                  "label": "Grid complaints",
+                  "prompt": "Are utilities publicly complaining about AI load volatility?",
+                  "meta": "Monitor utility regulatory filings and public statements."
                 },
                 {
-                  "label": "Hardware damage",
-                  "prompt": "Are documented cases of AI data center equipment failures linked to power quality emerging?",
-                  "meta": "Physical evidence"
+                  "label": "Mitigation investments",
+                  "prompt": "Are data center operators investing in power smoothing equipment?",
+                  "meta": "Look for announcements of battery storage or power conditioning systems."
+                },
+                {
+                  "label": "Location restrictions",
+                  "prompt": "Are new AI data center builds delayed due to grid connection issues?",
+                  "meta": "Watch for permit rejections or extended approval times."
                 }
               ],
-              "ending": "These indicators will show whether the power‑quality hypothesis gains traction or fades."
+              "ending": "If these indicators rise, expect a rapid shift in the AI infrastructure narrative from capacity to power quality."
             }
           },
           "dailyStateEn": {
-            "label": "Signal – Developing",
-            "decisionTitle": "No new global insight",
-            "decisionSummary": "The signal is too weak to publish or update any living insight; it requires independent verification.",
-            "thresholdReason": "Zero independent sources and pending primary verification mean the evidence strength is insufficient to support a publication or update action.",
+            "label": "No new global insight",
+            "decisionTitle": "Signal does not meet publication threshold",
+            "decisionSummary": "Evidence strength too low to publish as a full insight; tracking for corroboration.",
+            "thresholdReason": "Only unverified dossier notes; no independent trigger or corroborating sources.",
             "observeNext": [
-              "Monitor for publication of the primary report on AI power volatility.",
-              "Track any independent media or industry reports on AI load‑induced grid instability.",
-              "Watch for utility or grid operator filings that address power quality requirements for large AI clusters."
+              "Monitor data center equipment failure reports",
+              "Track utility complaints about AI load",
+              "Watch for investments in power smoothing technology",
+              "Look for regulatory changes on data center grid connections"
             ]
           },
           "processStage": "signal",
           "processContentEn": {
-            "title": "AI Infrastructure Race: Power Quality Emerges as Potential Constraint",
-            "description": "A single unverified dossier signal suggests that AI workloads cause volatile power draw that damages data‑center equipment and stresses local grids, potentially shifting the AI infrastructure constraint from generation capacity to power quality.",
-            "implication": "If confirmed, this would increase costs, limit siting options, and require new mitigation technologies, slowing AI expansion in capacity‑constrained regions."
+            "title": "AI infrastructure race faces power quality constraint",
+            "description": "The dominant narrative of the AI infrastructure race has been about securing raw energy capacity (MW). This signal suggests a shift: volatile AI power draw may cause equipment damage and grid instability, making power quality a critical bottleneck.",
+            "implication": "If confirmed, AI data center operators will need to invest in power conditioning and grid stability solutions, potentially slowing deployment and raising costs."
           },
-          "nextQuestionEn": "Will the primary report be published and confirm AI power volatility as a systemic risk?",
+          "nextQuestionEn": "What technology or regulatory measures can mitigate AI power volatility?",
           "observeNextEn": [
-            "Publication date and content of the primary source report.",
-            "Utility or grid operator statements on AI load power quality requirements.",
-            "Industry reports of data center equipment damage from power fluctuations.",
-            "Proposals for new interconnection standards for large AI clusters."
+            "Monitor data center equipment failure reports",
+            "Track utility complaints about AI load",
+            "Watch for investments in power smoothing technology",
+            "Look for regulatory changes on data center grid connections"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 2369,
-          "outputTokens": 2931,
-          "cachedInputTokens": 2304
+          "outputTokens": 4201,
+          "cachedInputTokens": 1792
         }
       }
     },
