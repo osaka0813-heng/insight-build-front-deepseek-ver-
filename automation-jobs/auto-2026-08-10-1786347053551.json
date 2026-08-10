@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:36:49.052Z",
+  "updatedAt": "2026-08-10T07:36:52.234Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "queued",
       "stage": "write_base",
       "attempts": {
         "research": 2,
         "write_base": 2
       },
-      "message": "Automation state write failed: is at f97e1d4c9044eb5f49f41688dd06f2b99de96435 but expected fa9a89291bb3f7e7fd739753f36fb2f801930605",
+      "message": "重新唤醒 write_base 断点",
       "updatedAt": "2026-08-10T07:36:49.052Z",
       "failedStage": "write_base",
       "researchDraft": {
@@ -266,5 +266,5 @@
       }
     ]
   },
-  "message": "WORLD write_base 自动重试 2/3"
+  "message": "GLOBAL 从 write_base 断点继续"
 }
