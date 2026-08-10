@@ -4,88 +4,90 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_ja",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:34:39.192Z",
+  "updatedAt": "2026-08-10T07:34:40.006Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
-      "stage": "write_zh",
+      "stage": "write_ja",
       "attempts": {
-        "analyze": 1
+        "research": 1
       },
-      "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-10T07:34:39.192Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-10T07:34:40.006Z",
+      "failedStage": "research",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347187804",
+        "id": "research-global-2026-08-10-1786347133610",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchedAt": "2026-08-10T07:32:13.610Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 94946,
-          "outputTokens": 13944,
-          "cachedInputTokens": 77056
+          "inputTokens": 66063,
+          "outputTokens": 7265,
+          "cachedInputTokens": 43904
         },
-        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "querySummary": "The dossier contains a single near-dated signal from Aug 9-10, 2026: AI data centers' volatile power demand is physically damaging facilities and destabilizing grids. Primary-source verification is still pending, so the signal is reported with low evidence strength and placeholder source metadata for human review.",
         "candidates": [
           {
-            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "id": "signal-2026-08-10-ai-power-volatility",
             "date": "2026-08-10",
-            "domain": "AI",
+            "domain": "AI, Energy, Grid, Physical Infrastructure",
             "tags": [
               "ai",
-              "compute",
               "datacenter",
-              "semiconductor",
-              "china",
-              "geopolitics"
+              "electricity",
+              "grid",
+              "power-quality",
+              "infrastructure",
+              "reliability"
             ],
             "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 75,
-            "importance": 75,
+            "processMatchConfidence": 70,
+            "importance": 85,
             "novelty": 80,
-            "evidenceStrength": 10,
+            "evidenceStrength": 25,
             "independentSourceCount": 1,
-            "thesisImpact": 70,
-            "relationshipChange": 65,
-            "stageChange": 60,
+            "thesisImpact": 75,
+            "relationshipChange": 70,
+            "stageChange": 50,
             "contradiction": 20,
             "content": {
               "en": {
-                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
-                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
-                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
-                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+                "title": "AI workloads cause volatile power draw that damages data centers and stresses grids",
+                "coreFact": "A dossier signal dated Aug 9-10, 2026 identifies AI facilities' rapid power demand swings as a new source of physical damage to data center equipment and local grid instability. The original primary report is still being verified.",
+                "whyItMatters": "If confirmed, this would shift the AI infrastructure race from a purely capacity problem to a power-quality and reliability problem, raising costs and limiting where AI data centers can be safely built.",
+                "processMatchReason": "It directly updates both the AI infrastructure race and energy-as-strategic-capacity processes: the binding constraint is no longer just megawatts but the ability to absorb volatile AI load profiles."
               },
               "zh": {
-                "title": "中国10万卡AI超级集群成为候选跨领域信号",
-                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
-                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
-                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+                "title": "AI工作负载导致的波动性用电正在损坏数据中心并冲击电网",
+                "coreFact": "2026年8月9日至10日的档案信号指出，AI设施的快速电力需求波动已成为损坏数据中心设备并导致局部电网不稳定的新原因。原始报告仍在核实中。",
+                "whyItMatters": "如果得到证实，这将把AI基础设施竞赛从单纯的容量问题转变为电能质量与可靠性问题，提高成本并限制AI数据中心的安全选址范围。",
+                "processMatchReason": "它同时更新了AI基础设施竞赛和能源战略能力两个进程：约束条件不再只是兆瓦级容量，而是吸收AI波动性负载的能力。"
               },
               "ja": {
-                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
-                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
-                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
-                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+                "title": "AIワークロードの変動的な電力消費がデータセンターを損傷し、系統を不安定化する",
+                "coreFact": "2026年8月9〜10日のドシエ信号は、AI施設の急激な電力需要変動がデータセンター機器への物理的損傷と地域系統の不安定化を引き起こす新しい要因であると特定している。元の一次報告書はまだ検証中である。",
+                "whyItMatters": "確認されれば、AIインフラ競争は単なる容量問題から電力品質・信頼性問題へと転換し、コストが上昇し、AIデータセンターを安全に建設できる場所が制限される。",
+                "processMatchReason": "この信号は「AIインフラ競争」と「エネルギー戦略能力」の両プロセスを直接更新する。制約はもはやメガワット容量だけでなく、AIの変動的な負荷プロファイルを吸収できるかどうかに移る。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: China's 100K-card supercluster lead",
+                "title": "Dossier internal note on AI power volatility",
                 "url": "",
-                "publisher": "Dossier",
+                "publisher": "Web search dossier",
                 "publishedAt": "2026-08-10",
                 "kind": "context"
               },
               {
-                "title": "Web search dossier: Strongest candidates list",
+                "title": "Pending primary-source verification for AI grid instability",
                 "url": "",
-                "publisher": "Dossier",
+                "publisher": "Web search dossier",
                 "publishedAt": "2026-08-10",
                 "kind": "context"
               }
@@ -93,82 +95,82 @@
           }
         ]
       },
-      "failedStage": "analyze",
       "analyzedDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347187804",
+        "id": "research-global-2026-08-10-1786347133610",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchedAt": "2026-08-10T07:32:13.610Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 94946,
-          "outputTokens": 13944,
-          "cachedInputTokens": 77056
+          "inputTokens": 66063,
+          "outputTokens": 7265,
+          "cachedInputTokens": 43904
         },
-        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "querySummary": "The dossier contains a single near-dated signal from Aug 9-10, 2026: AI data centers' volatile power demand is physically damaging facilities and destabilizing grids. Primary-source verification is still pending, so the signal is reported with low evidence strength and placeholder source metadata for human review.",
         "candidates": [
           {
-            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "id": "signal-2026-08-10-ai-power-volatility",
             "date": "2026-08-10",
-            "domain": "AI",
+            "domain": "AI, Energy, Grid, Physical Infrastructure",
             "tags": [
               "ai",
-              "compute",
               "datacenter",
-              "semiconductor",
-              "china",
-              "geopolitics"
+              "electricity",
+              "grid",
+              "power-quality",
+              "infrastructure",
+              "reliability"
             ],
             "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 75,
-            "importance": 75,
+            "processMatchConfidence": 70,
+            "importance": 85,
             "novelty": 80,
-            "evidenceStrength": 100,
+            "evidenceStrength": 25,
             "independentSourceCount": 0,
-            "thesisImpact": 70,
-            "relationshipChange": 65,
-            "stageChange": 60,
+            "thesisImpact": 75,
+            "relationshipChange": 70,
+            "stageChange": 50,
             "contradiction": 20,
             "content": {
               "en": {
-                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
-                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
-                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
-                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+                "title": "AI workloads cause volatile power draw that damages data centers and stresses grids",
+                "coreFact": "A dossier signal dated Aug 9-10, 2026 identifies AI facilities' rapid power demand swings as a new source of physical damage to data center equipment and local grid instability. The original primary report is still being verified.",
+                "whyItMatters": "If confirmed, this would shift the AI infrastructure race from a purely capacity problem to a power-quality and reliability problem, raising costs and limiting where AI data centers can be safely built.",
+                "processMatchReason": "It directly updates both the AI infrastructure race and energy-as-strategic-capacity processes: the binding constraint is no longer just megawatts but the ability to absorb volatile AI load profiles."
               },
               "zh": {
-                "title": "中国10万卡AI超级集群成为候选跨领域信号",
-                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
-                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
-                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+                "title": "AI工作负载导致的波动性用电正在损坏数据中心并冲击电网",
+                "coreFact": "2026年8月9日至10日的档案信号指出，AI设施的快速电力需求波动已成为损坏数据中心设备并导致局部电网不稳定的新原因。原始报告仍在核实中。",
+                "whyItMatters": "如果得到证实，这将把AI基础设施竞赛从单纯的容量问题转变为电能质量与可靠性问题，提高成本并限制AI数据中心的安全选址范围。",
+                "processMatchReason": "它同时更新了AI基础设施竞赛和能源战略能力两个进程：约束条件不再只是兆瓦级容量，而是吸收AI波动性负载的能力。"
               },
               "ja": {
-                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
-                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
-                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
-                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+                "title": "AIワークロードの変動的な電力消費がデータセンターを損傷し、系統を不安定化する",
+                "coreFact": "2026年8月9〜10日のドシエ信号は、AI施設の急激な電力需要変動がデータセンター機器への物理的損傷と地域系統の不安定化を引き起こす新しい要因であると特定している。元の一次報告書はまだ検証中である。",
+                "whyItMatters": "確認されれば、AIインフラ競争は単なる容量問題から電力品質・信頼性問題へと転換し、コストが上昇し、AIデータセンターを安全に建設できる場所が制限される。",
+                "processMatchReason": "この信号は「AIインフラ競争」と「エネルギー戦略能力」の両プロセスを直接更新する。制約はもはやメガワット容量だけでなく、AIの変動的な負荷プロファイルを吸収できるかどうかに移る。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: China's 100K-card supercluster lead",
+                "title": "Dossier internal note on AI power volatility",
                 "url": "",
-                "publisher": "Dossier",
+                "publisher": "Web search dossier",
                 "publishedAt": "2026-08-10",
                 "kind": "context",
-                "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                "id": "signal-2026-08-10-ai-power-volatility-source-1",
                 "role": "context"
               },
               {
-                "title": "Web search dossier: Strongest candidates list",
+                "title": "Pending primary-source verification for AI grid instability",
                 "url": "",
-                "publisher": "Dossier",
+                "publisher": "Web search dossier",
                 "publishedAt": "2026-08-10",
                 "kind": "context",
-                "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                "id": "signal-2026-08-10-ai-power-volatility-source-2",
                 "role": "context"
               }
             ],
@@ -178,26 +180,26 @@
             "claimSourceIds": [],
             "analysis": {
               "matchedProcessId": "process-ai-infrastructure-race",
-              "processMatchConfidence": 75,
+              "processMatchConfidence": 70,
               "impact": "no_material_change",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 0,
+              "materialChangeScore": 25,
               "publishThresholdMet": false,
-              "scoreWasNormalized": true,
+              "scoreWasNormalized": false,
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "This is an unverified lead from a research dossier with no independent sources, no trigger sources within the research window, and no corroborating sources. The dossier explicitly states the claim is provisional and pending verification. The candidate references a potential 100K-card AI supercluster in China which, if confirmed, would be significant for the AI infrastructure race process. However, with zero independent source count and zero corroborating sources, there is no verifiable signal to act upon. The pre-computed analysis confirms: no trigger sources, fewer than two current/corroborating sources, and publishThresholdMet is false. The claim cannot be evaluated as a material update without any confirming evidence.",
+              "rationale": "The signal identifies a potentially significant shift — AI power volatility as a power-quality/reliability constraint rather than just a capacity constraint. If confirmed, this would materially update both the AI Infrastructure Race (process-ai-infrastructure-race) and Energy as Strategic Capacity (process-energy-security) processes. However, the evidence is extremely weak: zero independent trigger or corroborating sources exist within the research window; both sources are internal dossier context notes; the original primary report is explicitly still being verified. With an evidenceStrength of 25 and zero independent source count, the signal fails the publication threshold. The novelty is noted and the hypothesis is worth tracking, but it cannot support a publish_new or update_living action at this time.",
               "warnings": [
-                "Legacy 0–10 scores were normalized to 0–100.",
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "No trigger source falls inside the research window.",
-                "Zero independent or corroborating sources; claim is unverified.",
-                "Dossier itself states this is a provisional candidate pending verification.",
-                "Cannot assess materiality without any confirming evidence."
+                "Zero trigger sources within the research window (2026-08-10).",
+                "Zero corroborating independent sources; both listed sources are internal dossier context notes.",
+                "Primary-source verification is explicitly pending; core fact remains unconfirmed.",
+                "Evidence strength rated at 25/100 by the candidate's own analysis.",
+                "Potential match to process-energy-security also considered but same evidentiary weakness applies."
               ],
-              "candidateId": "candidate-china-100k-card-supercluster-2026-08-10"
+              "candidateId": "signal-2026-08-10-ai-power-volatility"
             }
           }
         ],
@@ -208,124 +210,242 @@
         "stage": "base",
         "baseDraft": {
           "insightId": null,
-          "slug": "china-100k-card-supercluster-unverified-lead",
+          "slug": "ai-power-volatility-signal-2026-08-10",
           "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "AI Infrastructure Race",
-              "secondaryEyebrow": "Structural Stage",
-              "title": "China's 100K-Card AI Supercluster: An Unverified Lead",
-              "summary": "A research dossier flags China’s possible 100K-card AI supercluster as a cross-domain signal, but the claim lacks corroboration."
+              "eyebrow": "Signal Alert",
+              "secondaryEyebrow": "Global Insight",
+              "title": "AI workloads cause volatile power draw that damages data centers and stresses grids",
+              "summary": "A dossier signal dated Aug 9-10, 2026 identifies AI facilities' rapid power demand swings as a new source of physical damage to data center equipment and local grid instability. The original primary report is still being verified."
             },
             "question": {
-              "lead": "Is China building a 100K-card AI supercluster, and what would it mean for the global AI infrastructure race?",
-              "title": "Verifying the Supercluster Lead",
-              "footnote": "Based on a research dossier lead; no independent sources available."
+              "lead": "If confirmed, this would shift the AI infrastructure race from a purely capacity problem to a power-quality and reliability problem, raising costs and limiting where AI data centers can be safely built.",
+              "title": "Is volatile AI power demand the next binding constraint?",
+              "footnote": "Primary-source verification pending; evidence strength currently rated 25/100."
             },
             "signals": {
-              "title": "Signals from Research Dossier",
-              "sourceNote": "Sources are the dossier entries themselves, with no external verification.",
+              "title": "Early signals",
+              "sourceNote": "Sources are internal dossier notes and pending primary-source verification.",
               "items": [
                 {
-                  "label": "Lead 1",
-                  "title": "100K-Card Supercluster Mentioned",
-                  "body": "The research dossier includes a lead about China building a 100K-card AI training cluster, placing it among top candidates.",
-                  "whyImportant": "If true, it would mark a step-change in concentrated compute capacity, challenging current infrastructure assumptions.",
+                  "label": "Dossier alert",
+                  "title": "AI power swings identified as damage source",
+                  "body": "Internal dossier note flags AI facilities' rapid power demand swings as a new source of physical damage to data center equipment and local grid instability.",
+                  "whyImportant": "Marks a possible shift from capacity constraints to power-quality constraints.",
                   "evidence": {
-                    "title": "Dossier Entry",
-                    "description": "The dossier contains the lead but no specific source or detail.",
-                    "confidence": "hypothesis",
+                    "title": "Dossier internal note on AI power volatility",
+                    "description": "Note within the research dossier citing an unverified primary report.",
+                    "confidence": "developing",
                     "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1"
+                      "signal-2026-08-10-ai-power-volatility-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "Lead 2",
-                  "title": "Cross-Domain Signal Candidacy",
-                  "body": "The lead is proposed as a signal spanning AI, semiconductors and geopolitics.",
-                  "whyImportant": "It highlights the interconnectedness of AI capacity, chip supply, and technology-control policies.",
+                  "label": "Verification pending",
+                  "title": "Primary-source corroboration not yet available",
+                  "body": "No independent trigger or corroborating sources exist within the research window; the original primary report is still under verification.",
+                  "whyImportant": "Until verified, the signal cannot support a publishable insight.",
                   "evidence": {
-                    "title": "Dossier Analysis",
-                    "description": "The process match reason ties it to the AI infrastructure race thesis.",
+                    "title": "Pending primary-source verification for AI grid instability",
+                    "description": "Placeholder for the original report, still being verified.",
                     "confidence": "hypothesis",
                     "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                      "signal-2026-08-10-ai-power-volatility-source-2"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "Unverified Lead in a Structural Race",
-              "before": "The AI infrastructure race has been defined by announcements of large clusters from major tech firms and nations, with the largest confirmed clusters in the tens of thousands of GPUs.",
-              "shift": "A research dossier surfaced on 2026-08-10 pointing to a possible 100K-card supercluster in China, which would far exceed publicly known scales.",
-              "now": "The claim remains unverified, with no corroborating sources or details, making it a high-potential but unconfirmed lead.",
-              "conclusion": "The supercluster claim, if verified, would represent a material shift in concentrated AI compute, but until verified, it does not change the current structural assessment of the AI infrastructure race."
+              "title": "From capacity to power-quality constraint",
+              "before": "AI infrastructure race was limited by total megawatt capacity and physical space.",
+              "shift": "AI workloads introduce rapid, unpredictable power swings that physically damage equipment and destabilize local grids, turning power quality into a primary constraint.",
+              "now": "Reliability of power delivery – not just amount – is emerging as a binding limitation, forcing re-evaluation of data center design and location.",
+              "conclusion": "If confirmed, the AI infrastructure race shifts from building more capacity to ensuring power stability, adding cost and geographic restrictions."
             },
             "insight": {
-              "title": "Unverified Supercluster Lead Does Not Yet Alter the Race",
-              "formula": "Unverified lead × zero corroboration = no material change",
-              "explanation": "The dossier lead is a hypothesis; without verification, it cannot be treated as a confirmed shift in the AI infrastructure landscape."
+              "title": "The AI power volatility constraint",
+              "formula": "Rapid AI workload fluctuations → Volatile power draw → Equipment damage + grid instability → Higher costs & siting limits",
+              "explanation": "As AI compute ramps up and down quickly, it induces power demand swings that stress transformers, switchgear, and local grids, making power quality a critical bottleneck beyond simple capacity."
             },
             "observe": {
-              "title": "What to Watch",
+              "title": "What to watch",
               "items": [
                 {
                   "label": "Verification",
-                  "prompt": "Independent confirmation of the 100K-card cluster (e.g., satellite imagery, insider reports).",
-                  "meta": "essential"
+                  "prompt": "Outcome of primary-source verification for AI grid instability report.",
+                  "meta": "Critical for evidence confidence"
                 },
                 {
-                  "label": "Official Disclosures",
-                  "prompt": "Official statements or leaks that verify scale and location.",
-                  "meta": "high"
+                  "label": "Equipment failures",
+                  "prompt": "New reports of data center hardware damage attributed to rapid power fluctuations.",
+                  "meta": "Early indicator of real-world impact"
                 },
                 {
-                  "label": "Supply Chain Signals",
-                  "prompt": "Reactions from chip suppliers or export control authorities.",
-                  "meta": "medium"
+                  "label": "Grid operator alerts",
+                  "prompt": "Statements from grid operators warning about AI load volatility and local stability issues.",
+                  "meta": "Regulatory or reliability perspective"
                 },
                 {
-                  "label": "Performance Benchmarks",
-                  "prompt": "Benchmark or performance data from Chinese AI labs that would indicate such a cluster.",
-                  "meta": "medium"
+                  "label": "Industry response",
+                  "prompt": "Investments in power conditioning, energy storage, or new site selection criteria.",
+                  "meta": "Adaptation signals"
                 }
               ],
-              "ending": "The supercluster lead remains a speculative signal; monitoring for verification is essential."
+              "ending": "If verified, this could reshape AI infrastructure siting, design, and cost globally."
             }
           },
           "dailyStateEn": {
-            "label": "no_new_global_insight",
-            "decisionTitle": "No Material Change to Publish",
-            "decisionSummary": "The candidate signal is unverified with zero corroborating sources, so no new Insight is warranted at this time.",
-            "thresholdReason": "Publish threshold not met due to lack of verifying evidence; only context sources from the dossier.",
+            "label": "Signal tracking",
+            "decisionTitle": "Verify before acting",
+            "decisionSummary": "AI power volatility claim has insufficient evidence to publish a new global insight.",
+            "thresholdReason": "Zero independent trigger sources within the research window; primary-source verification pending; evidence strength 25/100.",
             "observeNext": [
-              "Monitor for independent reports confirming a 100K-card cluster",
-              "Watch for regulatory responses or export control updates",
-              "Track Chinese AI lab compute capacity claims",
-              "Assess any semiconductor capacity changes that would support such a cluster"
+              "Primary-source verification completion",
+              "New credible reports of AI-related grid instability",
+              "Data center equipment failure incidents"
             ]
           },
           "processStage": "structural",
           "processContentEn": {
-            "title": "AI Infrastructure Race: Structural Stage",
-            "description": "The race is structural, with major players building large-scale AI compute clusters; durable advantage depends on converting intelligence into capacity.",
-            "implication": "An unverified lead of a 100K-card cluster highlights the potential for abrupt scale changes, but until confirmed, the structural dynamics remain unchanged."
+            "title": "The AI infrastructure race",
+            "description": "Currently in structural stage, focused on scaling capacity. This signal introduces a potential shift to power-quality constraints.",
+            "implication": "If verified, the race expands from megawatt capacity to power stability, altering infrastructure requirements."
           },
-          "nextQuestionEn": "What independent evidence would confirm or refute the existence of a 100K-card AI supercluster in China?",
+          "nextQuestionEn": "When will primary-source verification of AI power volatility be completed?",
           "observeNextEn": [
-            "Verify the cluster size and location",
-            "Confirm the chip types and supply chain",
-            "Assess implications for global AI compute balances",
-            "Evaluate geopolitical reactions"
+            "Primary-source verification completion",
+            "New credible reports of AI-related grid instability",
+            "Data center equipment failure incidents"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 2415,
-          "outputTokens": 3577,
+          "inputTokens": 2369,
+          "outputTokens": 2683,
+          "cachedInputTokens": 2304
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "信号警报",
+              "secondaryEyebrow": "全球洞察",
+              "title": "AI工作负载导致电力消耗波动，损害数据中心并给电网带来压力",
+              "summary": "一份日期为2026年8月9日至10日的档案信号指出，AI设施的快速电力需求波动已成为数据中心设备物理损坏和当地电网不稳定的新来源。原始主要报告仍在核实中。"
+            },
+            "question": {
+              "lead": "如果得到证实，这将使AI基础设施竞赛从纯粹的能力问题转变为电能质量和可靠性问题，推高成本并限制AI数据中心可以安全建设的地点。",
+              "title": "波动的AI电力需求会成为下一个刚性约束吗？",
+              "footnote": "原始来源核实待完成；目前证据强度评为25/100。"
+            },
+            "signals": {
+              "title": "早期信号",
+              "sourceNote": "来源为内部档案记录，原始来源核实尚待完成。",
+              "items": [
+                {
+                  "label": "档案警报",
+                  "title": "AI电力波动被认定为损坏来源",
+                  "body": "内部档案记录将AI设施的快速电力需求波动标记为数据中心设备物理损坏和当地电网不稳定的新来源。",
+                  "whyImportant": "标志着可能从容量约束转向电能质量约束。",
+                  "evidence": {
+                    "title": "关于AI电力波动的内部档案记录",
+                    "description": "研究档案中的记录，引用了一份未经核实的原始报告。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "signal-2026-08-10-ai-power-volatility-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "核实待完成",
+                  "title": "尚无原始来源佐证",
+                  "body": "研究窗口内不存在独立的触发或佐证来源；原始主要报告仍在核实中。",
+                  "whyImportant": "在核实之前，该信号无法支持可发布的洞察。",
+                  "evidence": {
+                    "title": "AI电网不稳定性的原始来源核实待完成",
+                    "description": "为原始报告占位，仍在核实中。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "signal-2026-08-10-ai-power-volatility-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从容量约束到电能质量约束",
+              "before": "AI基础设施竞赛此前受限于总兆瓦容量和物理空间。",
+              "shift": "AI工作负载带来快速且不可预测的电力波动，造成设备物理损坏并使当地电网不稳定，从而使电能质量成为主要约束。",
+              "now": "电力输送的可靠性——而不仅仅是数量——正逐渐成为一项刚性限制，迫使人们重新评估数据中心的设计和选址。",
+              "conclusion": "如果得到证实，AI基础设施竞赛将从建设更多容量转向确保电力稳定，从而增加成本并带来地理限制。"
+            },
+            "insight": {
+              "title": "AI电力波动约束",
+              "formula": "AI工作负载快速波动 → 电力消耗波动 → 设备损坏 + 电网不稳定 → 成本上升与选址受限",
+              "explanation": "随着AI计算快速上升和下降，会引发电力需求波动，对变压器、开关设备和当地电网造成压力，使电能质量成为超出单纯容量的关键瓶颈。"
+            },
+            "observe": {
+              "title": "关注要点",
+              "items": [
+                {
+                  "label": "核实",
+                  "prompt": "AI电网不稳定报告原始来源核实的结果。",
+                  "meta": "对证据置信度至关重要"
+                },
+                {
+                  "label": "设备故障",
+                  "prompt": "将数据中心硬件损坏归因于快速电力波动的新报告。",
+                  "meta": "实际影响早期指标"
+                },
+                {
+                  "label": "电网运营商警报",
+                  "prompt": "电网运营商发出关于AI负荷波动和当地稳定性问题的警告声明。",
+                  "meta": "监管或可靠性视角"
+                },
+                {
+                  "label": "行业应对",
+                  "prompt": "在电力调节、储能或新的选址标准方面的投资。",
+                  "meta": "适应信号"
+                }
+              ],
+              "ending": "如果得到证实，这可能重塑全球AI基础设施的选址、设计和成本。"
+            }
+          },
+          "dailyState": {
+            "label": "信号跟踪",
+            "decisionTitle": "先核实，再行动",
+            "decisionSummary": "关于AI电力波动的说法证据不足，无法发布新的全球洞察。",
+            "thresholdReason": "研究窗口内独立触发来源为零；原始来源核实待完成；证据强度25/100。",
+            "observeNext": [
+              "原始来源核实完成",
+              "关于AI相关电网不稳定性的新的可信报告",
+              "数据中心设备故障事件"
+            ]
+          },
+          "processContent": {
+            "title": "AI基础设施竞赛",
+            "description": "目前处于结构性阶段，重点是扩展容量。该信号引入了向电能质量约束的潜在转变。",
+            "implication": "如果得到证实，竞赛将从兆瓦容量扩展到电力稳定性，从而改变基础设施要求。"
+          },
+          "nextQuestion": "AI电力波动的原始来源核实何时完成？",
+          "observeNext": [
+            "原始来源核实完成",
+            "关于AI相关电网不稳定性的新的可信报告",
+            "数据中心设备故障事件"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2173,
+          "outputTokens": 3695,
           "cachedInputTokens": 1152
         }
       }
@@ -384,5 +504,5 @@
       }
     ]
   },
-  "message": "WORLD analyze 自动重试 1/3"
+  "message": "WORLD research 自动重试 1/3"
 }
