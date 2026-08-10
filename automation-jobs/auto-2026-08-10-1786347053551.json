@@ -6,19 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_ja",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:38:57.700Z",
+  "updatedAt": "2026-08-10T07:38:59.521Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_ja",
       "attempts": {
-        "research": 2,
-        "write_zh": 1,
-        "write_ja": 1
+        "research": 2
       },
-      "message": "write_ja",
-      "updatedAt": "2026-08-10T07:38:57.700Z",
-      "failedStage": "write_ja",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-10T07:38:59.521Z",
+      "failedStage": "research",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-10-1786347376168",
@@ -216,50 +214,52 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": "signal-hormuz-cross-domain-20260810",
-          "slug": "hormuz-attention-flag-20260810",
+          "insightId": null,
+          "slug": "strait-of-hormuz-attention-flag",
           "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "Energy Security",
-              "secondaryEyebrow": "Cross-Domain Risk",
-              "title": "Strait of Hormuz Raises Attention as Unverified Cross-Domain Risk",
-              "summary": "A web dossier flags the Strait of Hormuz as a dominant cross-domain story, but lacks specific facts or primary-source links, keeping the risk as an attention flag pending verification."
+              "eyebrow": "Energy Security Process",
+              "secondaryEyebrow": "Global Cross-Domain Attention Flag",
+              "title": "Strait of Hormuz Risk Flag Pending Verification",
+              "summary": "A web-search dossier identifies the Strait of Hormuz as the dominant cross-domain risk story in the past 24 hours, but provides no specific facts or primary-source links. This Insight treats the flag as an unverified attention signal that warrants monitoring rather than a confirmed event."
             },
             "question": {
-              "lead": "What undercurrents are reshaping global power dynamics?",
-              "title": "Is the Strait of Hormuz the next energy chokepoint flashpoint?",
-              "footnote": "Based on a 24-hour research window."
+              "lead": "The dossier flags a potential situation, but details are absent.",
+              "title": "Is the Strait of Hormuz the primary cross-domain risk today?",
+              "footnote": "Based solely on an unverified web-search dossier; no triggering or corroborating sources available."
             },
             "signals": {
-              "title": "Signals of Potential Hormuz Disruption",
-              "sourceNote": "Sources from the web-search dossier.",
+              "title": "Signals from the 24-Hour Window",
+              "sourceNote": "Sources are limited to two context-only items from an unknown publisher.",
               "items": [
                 {
-                  "label": "Signal 1",
-                  "title": "Web Dossier Identifies Hormuz as Dominant Cross-Domain Story",
-                  "body": "A web-search dossier from the past 24 hours highlights the Strait of Hormuz as the most prominent cross-domain story, indicating elevated attention from analysts.",
-                  "whyImportant": "If confirmed, this could signal imminent energy market impacts, shipping disruptions, and geopolitical tensions affecting global oil and LNG flows.",
+                  "label": "Attention Flag from Dossier",
+                  "title": "Dossier flags Strait of Hormuz as top cross‑domain story",
+                  "body": "A web-search dossier picked up the Strait of Hormuz as the top cross-domain story, but lacks specifics, escalation details, or primary-source links.",
+                  "whyImportant": "The Strait is a critical chokepoint for oil and LNG; a disruption would impact energy prices, shipping, and broader macro stability.",
                   "evidence": {
-                    "title": "Web-search dossier: Strait of Hormuz identified as dominant cross-domain story",
-                    "description": "The dossier flags the Strait of Hormuz but does not provide specific details or primary-source links.",
+                    "title": "Web-search dossier without verification",
+                    "description": "The dossier does not contain facts, escalation details, or primary-source links.",
                     "confidence": "developing",
                     "sourceIds": [
-                      "signal-hormuz-cross-domain-20260810-source-1"
+                      "signal-hormuz-cross-domain-20260810-source-1",
+                      "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
                 },
                 {
-                  "label": "Signal 2",
-                  "title": "Verification Pending with No Primary Sources",
-                  "body": "The dossier's claim remains unconfirmed as primary-source verification is pending, and no independent evidence has been provided.",
-                  "whyImportant": "Without verification, the risk is purely speculative; however, the potential consequences warrant monitoring for any emerging facts.",
+                  "label": "No Verifiable Evidence",
+                  "title": "No corroborating reports or primary sources found",
+                  "body": "Attempts to find primary sources or corroborating reports in the research window returned no concrete information.",
+                  "whyImportant": "Without verification, material impact cannot be assessed, but the attention level alone suggests heightened risk perception.",
                   "evidence": {
-                    "title": "Primary-source verification pending for Strait of Hormuz situation",
-                    "description": "No trigger sources or corroborating evidence are available to support the attention flag.",
+                    "title": "No primary sources found",
+                    "description": "Verification pending; no independent reports to confirm events.",
                     "confidence": "hypothesis",
                     "sourceIds": [
+                      "signal-hormuz-cross-domain-20260810-source-1",
                       "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
@@ -267,68 +267,74 @@
               ]
             },
             "pattern": {
-              "title": "From Quiet Chokepoint to Unverified Alert",
-              "before": "The Strait of Hormuz operated without major incident, with routine energy transit.",
-              "shift": "A 24-hour web dossier flagged it as a dominant cross-domain story, raising an attention flag without substantiating details.",
-              "now": "Analysts face an unverified alert with no concrete escalation facts, leaving markets and policymakers in a state of cautious awareness.",
-              "conclusion": "The situation requires close monitoring for any primary-source confirmation before it can be deemed a material risk to energy security."
+              "title": "From Data to Attention: The Pattern of an Unverified Flag",
+              "before": "Previously, cross-domain risk assessments relied on verified multi-source intelligence and concrete event data to drive strategic updates.",
+              "shift": "The 24-hour window surfaced an attention flag from a single unverified dossier, shifting the focus from confirmed facts to monitoring of potential signals.",
+              "now": "Now, the Strait of Hormuz is flagged as a top story without any supporting evidence, requiring cautious interpretation and ongoing observation.",
+              "conclusion": "This pattern indicates that while attention can amplify risk perception, strategic insight cannot be derived without verification; the flag is a prompt to monitor, not a basis for action."
             },
             "insight": {
-              "title": "Unverified Attention Flag for Hormuz Highlights Monitoring Gap",
-              "formula": "Attention flag + no evidence = speculative risk requiring verification",
-              "explanation": "The dossier's flag, while lacking substance, serves as a reminder of the criticality of the Strait of Hormuz; until firm evidence emerges, the risk remains a hypothesis rather than a confirmed event."
+              "title": "Unverified Attention Does Not Equal Strategic Insight",
+              "formula": "High attention + Low evidence = Monitoring priority, not material change",
+              "explanation": "The dossier placed the Strait of Hormuz at the center of cross-domain risk narratives, but without facts, the signal must be treated as a prompt to monitor. Strategic insight requires verified evidence to distinguish noise from actionable intelligence."
             },
             "observe": {
               "title": "What to Watch Next",
               "items": [
                 {
                   "label": "Primary Sources",
-                  "prompt": "Watch for any primary-source reports confirming naval movements, diplomatic incidents, or insurance rate changes.",
-                  "meta": "Verification of actual incident"
+                  "prompt": "Are there any credible reports or official statements confirming a Strait of Hormuz incident?",
+                  "meta": "Track major news wires and energy market data."
                 },
                 {
-                  "label": "Market Signals",
-                  "prompt": "Monitor oil price and shipping cost spikes that could signal real disruption.",
-                  "meta": "Real-time economic impact"
+                  "label": "Shipping & Energy",
+                  "prompt": "Are shipping costs, insurance rates, or oil/LNG prices showing abnormal movements?",
+                  "meta": "Monitor benchmark indices and trade flows."
                 },
                 {
-                  "label": "Geopolitical Statements",
-                  "prompt": "Track geopolitical statements from regional powers regarding Hormuz security.",
-                  "meta": "Policy and military signaling"
+                  "label": "Geopolitical Signals",
+                  "prompt": "Is there diplomatic or military communication that would corroborate heightened tension?",
+                  "meta": "Watch for statements from states with interests in the region."
+                },
+                {
+                  "label": "Cross-Domain Correlation",
+                  "prompt": "Are other domains (markets, AI infrastructure) reacting to this flag independently?",
+                  "meta": "Check for correlated signals across domains."
                 }
               ],
-              "ending": "Stay vigilant for verified signals that convert this attention flag into a concrete risk."
+              "ending": "Until verified evidence emerges, treat this as an attention flag, not a material event."
             }
           },
           "dailyStateEn": {
-            "label": "No New Global Insight",
-            "decisionTitle": "Insufficient Evidence to Publish",
-            "decisionSummary": "The candidate lacks specific facts, primary-source links, or corroborating evidence, and is an unverified attention flag.",
-            "thresholdReason": "Publish threshold not met due to zero trigger sources and no independent verification.",
+            "label": "No Material Change",
+            "decisionTitle": "No Publishable Insight",
+            "decisionSummary": "The Strait of Hormuz attention flag lacks verified evidence and does not meet the threshold for a material update to the Energy Security process.",
+            "thresholdReason": "Zero trigger sources, zero corroborating sources, and no primary-source links; the dossier is an unverified attention signal.",
             "observeNext": [
-              "Primary-source verification that confirms an actual Strait of Hormuz incident",
-              "Changes in oil or LNG prices or shipping insurance costs",
-              "Official statements from regional governments or military commands"
+              "Monitor for primary-source confirmation",
+              "Track energy and shipping market indicators",
+              "Watch for geopolitical corroboration",
+              "Check for cross-domain correlation with other indicators"
             ]
           },
-          "processStage": "signal",
+          "processStage": "accelerating",
           "processContentEn": {
-            "title": "Energy becomes strategic capacity",
-            "description": "This signal probes the thesis that reliable energy access is strategic capacity, particularly for AI and industrial power costs.",
-            "implication": "If verified, a Hormuz disruption would severely test energy security assumptions and accelerate shifts in energy infrastructure investment."
+            "title": "Energy Security Process – Accelerating Stage",
+            "description": "The Strait of Hormuz flag emerges within the accelerating stage of the energy-as-strategic-capacity narrative, but without verification it does not alter the trajectory.",
+            "implication": "The flag underscores the sensitivity of the chokepoint to attention-based narratives, but the lack of evidence keeps the process in its current accelerating phase without a structural shift."
           },
-          "nextQuestionEn": "What would it take for an unverified Hormuz flag to become a material threat to energy security?",
+          "nextQuestionEn": "What verifiable information will emerge in the next 24 hours regarding the Strait of Hormuz?",
           "observeNextEn": [
-            "Primary-source verification that confirms an actual Strait of Hormuz incident",
-            "Changes in oil or LNG prices or shipping insurance costs",
-            "Official statements from regional governments or military commands"
+            "Confirm or refute the incident with primary-source reporting",
+            "Check for abnormal movements in energy and shipping markets",
+            "Assess whether other cross-domain indicators correlate with this flag"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 2456,
-          "outputTokens": 3953,
-          "cachedInputTokens": 2432
+          "outputTokens": 3749,
+          "cachedInputTokens": 1152
         }
       },
       "writeZh": {
@@ -338,44 +344,46 @@
         "localizedDraft": {
           "page": {
             "cover": {
-              "eyebrow": "能源安全",
-              "secondaryEyebrow": "跨领域风险",
-              "title": "霍尔木兹海峡作为未经证实的跨领域风险引发关注",
-              "summary": "一份网络档案将霍尔木兹海峡标记为主要的跨领域议题，但缺少具体事实或一手来源链接，使该风险仅停留在待核实的关注标记层面。"
+              "eyebrow": "能源安全进程",
+              "secondaryEyebrow": "全球跨领域关注标记",
+              "title": "霍尔木兹海峡风险标记待核实",
+              "summary": "一份网络搜索情报档将霍尔木兹海峡列为过去24小时内最主要的跨领域风险议题，但未提供具体事实或一手来源链接。本洞察将该标记视为未经核实的关注信号，值得监测，而非已确认事件。"
             },
             "question": {
-              "lead": "哪些暗流正在重塑全球权力格局？",
-              "title": "霍尔木兹海峡会成为下一个能源咽喉要道的爆发点吗？",
-              "footnote": "基于24小时的研究窗口。"
+              "lead": "该情报档标记了一个潜在态势，但缺乏细节。",
+              "title": "霍尔木兹海峡是今日首要的跨领域风险吗？",
+              "footnote": "仅基于一份未经核实的网络搜索情报档；没有可用触发源或佐证来源。"
             },
             "signals": {
-              "title": "霍尔木兹可能中断的信号",
-              "sourceNote": "来源：网络检索档案。",
+              "title": "24小时窗口内的信号",
+              "sourceNote": "来源仅限于来自未知发布方的两个仅限上下文的条目。",
               "items": [
                 {
-                  "label": "信号1",
-                  "title": "网络档案将霍尔木兹列为主要的跨领域议题",
-                  "body": "过去24小时内的一份网络检索档案将霍尔木兹海峡列为最突出的跨领域议题，显示分析师关注度上升。",
-                  "whyImportant": "若得到证实，这可能意味着能源市场即将受到冲击、航运中断，以及影响全球石油和液化天然气流动的地缘政治紧张局势。",
+                  "label": "来自情报档的关注标记",
+                  "title": "情报档将霍尔木兹海峡列为头号跨领域议题",
+                  "body": "一份网络搜索情报档将霍尔木兹海峡列为头号跨领域议题，但缺少具体信息、升级细节或一手来源链接。",
+                  "whyImportant": "该海峡是石油和液化天然气的关键咽喉要道；一旦中断将影响能源价格、航运以及更广泛的宏观稳定。",
                   "evidence": {
-                    "title": "网络检索档案：霍尔木兹海峡被列为主要的跨领域议题",
-                    "description": "该档案标记了霍尔木兹海峡，但未提供具体细节或一手来源链接。",
+                    "title": "未经核实的网络搜索情报档",
+                    "description": "该情报档不包含事实、升级细节或一手来源链接。",
                     "confidence": "developing",
                     "sourceIds": [
-                      "signal-hormuz-cross-domain-20260810-source-1"
+                      "signal-hormuz-cross-domain-20260810-source-1",
+                      "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
                 },
                 {
-                  "label": "信号2",
-                  "title": "尚无一手来源，核验待定",
-                  "body": "该档案的说法仍未得到证实，一手来源核验尚待进行，且未提供任何独立证据。",
-                  "whyImportant": "在缺乏核验的情况下，该风险纯属推测；但其潜在后果值得关注任何新出现的事实。",
+                  "label": "无可核实证据",
+                  "title": "未找到佐证报告或一手来源",
+                  "body": "在调研窗口内尝试寻找一手来源或佐证报告，未获得任何具体信息。",
+                  "whyImportant": "未经核实，无法评估实质性影响，但仅关注程度本身就表明风险认知有所上升。",
                   "evidence": {
-                    "title": "霍尔木兹海峡局势的一手来源核验待定",
-                    "description": "目前没有触发来源或佐证证据来支持这一关注标记。",
+                    "title": "未找到一手来源",
+                    "description": "核实待定；没有独立报告可确认相关事件。",
                     "confidence": "hypothesis",
                     "sourceIds": [
+                      "signal-hormuz-cross-domain-20260810-source-1",
                       "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
@@ -383,67 +391,73 @@
               ]
             },
             "pattern": {
-              "title": "从平静的咽喉要道到未经证实的警报",
-              "before": "霍尔木兹海峡此前没有重大事件，能源运输照常进行。",
-              "shift": "一份24小时网络档案将其标记为主要跨领域议题，在没有具体细节支持的情况下拉起了关注标记。",
-              "now": "分析师面对的是一个未经证实的警报，没有具体的升级事实，使市场和政策制定者处于谨慎关注的状态。",
-              "conclusion": "在可被视为能源安全的重大风险之前，需要密切监测任何一手来源的确认。"
+              "title": "从数据到关注：未经核实标记的模式",
+              "before": "以往，跨领域风险评估依赖经核实的多来源情报和具体事件数据来推动战略更新。",
+              "shift": "24小时窗口浮现出来自单一未核实情报档的关注标记，使焦点从已确认事实转向对潜在信号的监测。",
+              "now": "眼下，霍尔木兹海峡在没有佐证证据的情况下被标记为头条议题，需要谨慎解读和持续观察。",
+              "conclusion": "这一模式表明，尽管关注可能放大风险认知，但未经核实无法产生战略洞察；该标记是监测的提示，而非行动的依据。"
             },
             "insight": {
-              "title": "霍尔木兹未经证实的关注标记凸显监测缺口",
-              "formula": "关注标记 + 没有证据 = 需要核验的推测性风险",
-              "explanation": "该档案的标记虽然缺乏实质内容，但提醒人们霍尔木兹海峡的关键性；在确凿证据出现之前，该风险仍是一个假设，而非已确认的事件。"
+              "title": "未经核实的关注并不等于战略洞察",
+              "formula": "高关注 + 低证据 = 监测优先事项，而非实质性变化",
+              "explanation": "该情报档将霍尔木兹海峡置于跨领域风险叙事的中心，但缺乏事实，因此该信号必须被视为监测提示。战略洞察需要经核实的证据，以区分噪声与可行动情报。"
             },
             "observe": {
               "title": "接下来关注什么",
               "items": [
                 {
                   "label": "一手来源",
-                  "prompt": "关注是否有任何一手来源报告证实海军动向、外交事件或保险费率变化。",
-                  "meta": "核实实际事件"
+                  "prompt": "是否有任何可信报道或官方声明确认霍尔木兹海峡事件？",
+                  "meta": "追踪主要新闻通讯社和能源市场数据。"
                 },
                 {
-                  "label": "市场信号",
-                  "prompt": "监测油价和运输成本飙升，这可能是真实中断的信号。",
-                  "meta": "实时经济影响"
+                  "label": "航运与能源",
+                  "prompt": "航运成本、保险费率或石油/液化天然气价格是否出现异常波动？",
+                  "meta": "监测基准指数和贸易流向。"
                 },
                 {
-                  "label": "地缘政治声明",
-                  "prompt": "关注地区大国关于霍尔木兹安全的地缘政治声明。",
-                  "meta": "政策与军事信号"
+                  "label": "地缘政治信号",
+                  "prompt": "是否有外交或军事沟通能够佐证紧张局势升级？",
+                  "meta": "留意在该地区有利益的国家发表的声明。"
+                },
+                {
+                  "label": "跨领域关联",
+                  "prompt": "其他领域（市场、人工智能基础设施）是否正在独立地对这一标记作出反应？",
+                  "meta": "检查各领域之间的关联信号。"
                 }
               ],
-              "ending": "保持警惕，留意能将这一关注标记转化为具体风险的经核实的信号。"
+              "ending": "在经核实的证据出现之前，请将其视为关注标记，而非实质性事件。"
             }
           },
           "dailyState": {
-            "label": "无新的全球洞察",
-            "decisionTitle": "证据不足，不予发布",
-            "decisionSummary": "该候选内容缺乏具体事实、一手来源链接或佐证证据，只是一个未经证实的关注标记。",
-            "thresholdReason": "触发来源为零且无独立核验，未达到发布门槛。",
+            "label": "无实质性变化",
+            "decisionTitle": "无可发布的洞察",
+            "decisionSummary": "霍尔木兹海峡关注标记缺乏经核实的证据，未达到对能源安全进程作出实质性更新的阈值。",
+            "thresholdReason": "零触发来源、零佐证来源，且没有一手来源链接；该情报档是一个未经核实的关注信号。",
             "observeNext": [
-              "一手来源核验确认霍尔木兹海峡确实发生事件",
-              "石油或液化天然气价格或航运保险成本的变化",
-              "地区政府或军事司令部的官方声明"
+              "监测是否有来自一手来源的确认",
+              "追踪能源与航运市场指标",
+              "留意地缘政治佐证",
+              "检查与其他指标的跨领域关联"
             ]
           },
           "processContent": {
-            "title": "能源成为战略能力",
-            "description": "该信号探讨这样一个论点：可靠的能源获取是战略能力，尤其对人工智能和工业电力成本而言。",
-            "implication": "若得到证实，霍尔木兹的中断将严重考验能源安全假设，并加速能源基础设施投资的转变。"
+            "title": "能源安全进程——加速阶段",
+            "description": "霍尔木兹海峡标记出现在“能源作为战略能力”叙事的加速阶段，但未经核实，它不会改变发展轨迹。",
+            "implication": "该标记凸显了该咽喉要道对基于关注的叙事的敏感性，但缺乏证据使进程保持在当前的加速阶段，没有发生结构性转变。"
           },
-          "nextQuestion": "一个未经证实的霍尔木兹标记要成为能源安全的重大威胁，需要什么条件？",
+          "nextQuestion": "未来24小时内，关于霍尔木兹海峡将出现哪些可核实的信息？",
           "observeNext": [
-            "一手来源核验确认霍尔木兹海峡确实发生事件",
-            "石油或液化天然气价格或航运保险成本的变化",
-            "地区政府或军事司令部的官方声明"
+            "通过一手来源报道确认或证伪该事件",
+            "检查能源和航运市场是否出现异常波动",
+            "评估其他跨领域指标是否与这一标记相关"
           ]
         },
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 2190,
-          "outputTokens": 4119,
-          "cachedInputTokens": 1152
+          "inputTokens": 2340,
+          "outputTokens": 3825,
+          "cachedInputTokens": 2304
         }
       }
     },
@@ -501,5 +515,5 @@
       }
     ]
   },
-  "message": "WORLD write_ja 自动重试 1/3"
+  "message": "WORLD research 自动重试 2/3"
 }
