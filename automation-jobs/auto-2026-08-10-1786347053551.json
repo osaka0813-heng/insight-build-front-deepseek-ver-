@@ -6,94 +6,125 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:33:12.442Z",
+  "updatedAt": "2026-08-10T07:33:13.258Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "analyze",
       "attempts": {
-        "analyze": 1
+        "research": 1
       },
-      "message": "analyze",
-      "updatedAt": "2026-08-10T07:33:12.442Z",
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-10T07:33:13.258Z",
+      "failedStage": "research",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347187804",
+        "id": "research-global-2026-08-10-1786347193252",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchedAt": "2026-08-10T07:33:13.252Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 94946,
-          "outputTokens": 13944,
-          "cachedInputTokens": 77056
+          "inputTokens": 67585,
+          "outputTokens": 10112,
+          "cachedInputTokens": 48000
         },
-        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "querySummary": "在2026年8月7日至10日的72小时窗口内，检索到1个强跨域信号：AI资本正在从购买电网容量转向自建并拥有发电资产。亚马逊确认出资建设7.65吉瓦的得州离网天然气电厂，英伟达被报道拟以最高30亿美元入股Stargate电力基础设施开发商Lancium，叠加Cleanview对约97吉瓦离网项目的估算，表明AI基础设施竞赛的瓶颈已从电网接入转向自建发电。",
         "candidates": [
           {
-            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "id": "signal-2026-08-10-ai-power-vertical-integration",
             "date": "2026-08-10",
-            "domain": "AI",
+            "domain": "AI; Energy; Capital",
             "tags": [
               "ai",
-              "compute",
+              "energy",
               "datacenter",
-              "semiconductor",
-              "china",
-              "geopolitics"
+              "gas-power",
+              "behind-the-meter",
+              "capital",
+              "climate",
+              "grid",
+              "equity-investment"
             ],
             "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 75,
-            "importance": 75,
-            "novelty": 80,
-            "evidenceStrength": 10,
-            "independentSourceCount": 1,
-            "thesisImpact": 70,
-            "relationshipChange": 65,
-            "stageChange": 60,
-            "contradiction": 20,
+            "processMatchConfidence": 90,
+            "importance": 92,
+            "novelty": 85,
+            "evidenceStrength": 78,
+            "independentSourceCount": 4,
+            "thesisImpact": 90,
+            "relationshipChange": 88,
+            "stageChange": 75,
+            "contradiction": 45,
             "content": {
               "en": {
-                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
-                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
-                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
-                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+                "title": "AI capital moves from buying grid power to owning generation: Amazon's 7.65 GW off-grid gas plant and Nvidia's ~$3B Lancium stake",
+                "coreFact": "On Aug 7-8, 2026, Amazon confirmed financing a 7.65 GW private gas plant (GW Ranch, Pecos County, Texas) — larger than any operating US gas plant — dedicated to an AI data-center campus. Separately, Nvidia is reportedly investing up to $3B for ~20% of Lancium, the power-infrastructure developer behind Stargate's first operational site. Cleanview estimates ~97 GW of planned behind-the-meter projects across hyperscalers vs ~2 GW online today.",
+                "whyItMatters": "This shifts the AI infrastructure race bottleneck from grid interconnection queues to self-built power: hyperscalers and chipmakers are becoming owners of gigawatt-scale generation, with new implications for capital allocation, US gas demand, electricity markets, and emissions (GW Ranch permits >30 Mt CO2/yr).",
+                "processMatchReason": "Directly updates process-ai-infrastructure-race: durable AI advantage now depends on financing and permitting owned generation, not just securing grid capacity; also strengthens process-energy-security as tech companies become major power producers."
               },
               "zh": {
-                "title": "中国10万卡AI超级集群成为候选跨领域信号",
-                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
-                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
-                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+                "title": "AI资本从购买电网电力转向自建发电：亚马逊7.65吉瓦离网燃气电厂与英伟达约30亿美元入股Lancium",
+                "coreFact": "2026年8月7日至8日，亚马逊确认出资建设位于得克萨斯州佩科斯县的GW Ranch私人燃气电厂（7.65吉瓦），规模超过美国任何在运燃气电厂，专门为其AI数据中心园区供电。另据多家媒体报道，英伟达拟向Stargate首个运营园区的电力基础设施开发商Lancium投资至多30亿美元，换取约20%股权。Cleanview估计，各大超大规模云厂商规划的离网项目合计约97吉瓦，而目前仅约2吉瓦投运。",
+                "whyItMatters": "这标志着AI基础设施竞赛的瓶颈从电网接入排队转向自建电力：超大规模云厂商和芯片商正在成为吉瓦级发电资产的所有者，对资本配置、美国天然气需求、电力市场和排放格局产生深远影响。GW Ranch项目许可年排放量超过3000万吨二氧化碳，凸显AI资本与气候承诺之间的张力。",
+                "processMatchReason": "直接更新“AI基础设施竞赛”进程：持久的AI优势越来越取决于能否融资并获批自建发电，而不仅是获得电网容量；同时强化“能源成为战略能力”进程，科技公司正成为重要的电力生产方。"
               },
               "ja": {
-                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
-                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
-                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
-                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+                "title": "AI資本が「系統電力の購入」から「発電の自前所有」へ——アマゾン7.65GWオフグリッド天然ガス発電所とエヌビディア約30億ドルのLancium出資",
+                "coreFact": "2026年8月7～8日、アマゾンは米テキサス州ペコス郡で、AIデータセンター向け専用の民間天然ガス発電所「GW Ranch」（7.65GW）への融資を確認。規模は米国内の既存ガス発電所を上回る。別途、エヌビディアはStargate初の稼働サイトを手がける電力インフラ開発会社Lanciumに最大30億ドルを投じ約20%を取得する報道が出た。Cleanviewの推計では、ハイパースケーラー各社によるオフグリッド計画は約97GWに達し、現在の運転分は約2GWにとどまる。",
+                "whyItMatters": "AIインフラ競争の制約は系統連系待ちから「自前電源の建設・所有」へと移行しつつある。ハイパースケーラーと半導体企業がギガワット級の発電資産の所有者となることで、資本配分、米国のガス需要、電力市場、排出負荷（GW Ranchは年間3,000万トン超のCO2排出許可）に大きな影響が出る。",
+                "processMatchReason": "「AIインフラ競争」プロセスを直接更新する。持続的なAI優位は、系統容量の確保ではなく、自前発電の資金調達と許認可に依存するようになる。同時に「エネルギーは戦略的能力になる」プロセスを強化し、テック企業が主要な電力生産主体になりつつあることを示す。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: China's 100K-card supercluster lead",
-                "url": "",
-                "publisher": "Dossier",
-                "publishedAt": "2026-08-10",
-                "kind": "context"
+                "title": "Amazon behind massive private gas plant for new data centers",
+                "url": "https://www.bssnews.net/international/412686",
+                "publisher": "BSS (AFP)",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
               },
               {
-                "title": "Web search dossier: Strongest candidates list",
-                "url": "",
-                "publisher": "Dossier",
+                "title": "Amazon Plans Massive Gas-Fired Power Plant for AI Data Center in Texas",
+                "url": "https://www.world-energy.org/article/55686.html",
+                "publisher": "World Energy",
                 "publishedAt": "2026-08-10",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Nvidia to invest up to $3 billion in Stargate data center developer Lancium, the Information reports",
+                "url": "https://www.cnbctv18.com/technology/nvidia-to-invest-up-to-3-billion-in-stargate-data-center-developer-lancium-report-says-19964678.htm",
+                "publisher": "CNBC TV18 (Reuters)",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Nvidia to invest up to $3 billion in Stargate data centre developer Lancium",
+                "url": "https://www.thehindubusinessline.com/companies/nvidia-to-invest-up-to-3-billion-in-stargate-data-centre-developer-lancium/article71320621.ece",
+                "publisher": "The Hindu BusinessLine (Reuters)",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "AI算力催生庞大能耗 亚马逊电站项目深陷环保争议",
+                "url": "https://finance.sina.com.cn/roll/2026-08-09/doc-inimsnkv3667349.shtml",
+                "publisher": "Sina Finance / 环球网",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "926: Are Data Centers Bypassing the Grid?",
+                "url": "https://www.podscan.fm/podcasts/suncast/episodes/926-are-data-centers-bypassing-the-grid-michael-thomas-cleanview",
+                "publisher": "SunCast Podcast",
+                "publishedAt": "2026-04",
                 "kind": "context"
               }
             ]
           }
         ]
-      },
-      "failedStage": "analyze"
+      }
     },
     "china": {
       "status": "queued",
@@ -149,5 +180,5 @@
       }
     ]
   },
-  "message": "WORLD analyze 自动重试 1/3"
+  "message": "WORLD research 自动重试 1/3"
 }
