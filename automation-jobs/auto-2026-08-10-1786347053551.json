@@ -4,19 +4,91 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:34:12.507Z",
+  "updatedAt": "2026-08-10T07:34:14.110Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
-        "research": 2
+        "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-08-10T07:34:12.507Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-10T07:34:14.110Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-10-1786347254105",
+        "status": "draft",
+        "researchedAt": "2026-08-10T07:34:14.105Z",
+        "researchDate": "2026-08-10",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 89756,
+          "outputTokens": 14367,
+          "cachedInputTokens": 69376
+        },
+        "querySummary": "The supplied web-search dossier contains no concrete, verifiable evidence from the past 24 hours: it only notes that several leads were being investigated. No candidate signal can be extracted without fabricating sources or facts, so this draft flags a research gap rather than a world-process change.",
+        "candidates": [
+          {
+            "id": "no-verified-signal-2026-08-10",
+            "date": "2026-08-10",
+            "domain": "Cross-domain",
+            "tags": [
+              "no-verified-evidence",
+              "research-gap",
+              "dossier-limitation"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 1,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "No verifiable signal extractable from supplied dossier",
+                "coreFact": "The dossier for 2026-08-10 contains only a note that promising leads were being pursued; it provides no verifiable event, datapoint, quote, or named source from the past 24 hours.",
+                "whyItMatters": "A process-change assessment requires evidence. Without a concrete signal across AI, energy, geopolitics, macro or capital, no existing global-process thesis can be updated or contradicted.",
+                "processMatchReason": "No candidate event exists to match against AI infrastructure, energy security, semiconductor capacity, or technology-control processes."
+              },
+              "zh": {
+                "title": "无法从提供的资料中提取可验证信号",
+                "coreFact": "2026-08-10 的检索资料仅说明正在跟进若干有潜力的线索，未提供过去24小时内任何可验证的事件、数据、引述或具名来源。",
+                "whyItMatters": "进程变化评估需要证据。缺少涉及AI、能源、地缘政治、宏观或资本的具体信号时，无法更新或反驳任何现有全球进程判断。",
+                "processMatchReason": "不存在可验证的事件，无法匹配AI基础设施、能源安全、半导体产能或技术控制等进程。"
+              },
+              "ja": {
+                "title": "提供された資料から検証可能なシグナルを抽出できず",
+                "coreFact": "2026-08-10 の資料には、有望なリードを調査中という記述しかなく、過去24時間の検証可能な出来事・データ・引用・明示された情報源は含まれていません。",
+                "whyItMatters": "プロセスの変化を評価するには証拠が必要です。AI、エネルギー、地政学、マクロ経済、資本のいずれにおいても具体的なシグナルがなければ、既存のグローバルプロセス判断を更新または反証できません。",
+                "processMatchReason": "検証可能なイベントが存在しないため、AIインフラ、エネルギー安全保障、半導体容量、テクノロジー管理といったプロセスにマッチできません。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web Search Dossier: internal lead note",
+                "url": "",
+                "publisher": "Internal search tooling",
+                "publishedAt": "2026-08-10",
+                "kind": "context"
+              },
+              {
+                "title": "Existing Global Processes reference",
+                "url": "",
+                "publisher": "Internal knowledge base",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      }
     },
     "china": {
       "status": "queued",
@@ -72,5 +144,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD research 自动重试 1/3"
 }
