@@ -6,17 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:38:37.728Z",
+  "updatedAt": "2026-08-10T07:38:39.805Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_zh",
       "attempts": {
         "research": 2,
         "write_base": 2
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-10T07:38:37.728Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-10T07:38:39.805Z",
       "failedStage": "write_base",
       "researchDraft": {
         "ok": true,
@@ -216,33 +216,33 @@
         "stage": "base",
         "baseDraft": {
           "insightId": null,
-          "slug": "strait-of-hormuz-cross-domain-risk-20260810",
+          "slug": "signal-hormuz-cross-domain-20260810",
           "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "Global Cross-Domain Risk",
-              "secondaryEyebrow": "Energy Security Process",
+              "eyebrow": "ENERGY SECURITY",
+              "secondaryEyebrow": "EARLY WARNING",
               "title": "Strait of Hormuz rises as the dominant cross-domain risk in the 24-hour research window",
-              "summary": "The Strait of Hormuz, a critical chokepoint for oil and LNG trade, is flagged as the top cross-domain story. While no verified incident exists, the alert highlights potential impacts on energy prices, shipping, inflation, monetary policy, and AI infrastructure power costs."
+              "summary": "A web-search dossier flags the Strait of Hormuz as the top cross-domain story, but without specific facts or primary sources. The signal highlights potential systemic impacts across energy, inflation, and AI infrastructure, pending verification."
             },
             "question": {
-              "lead": "Why has the Strait of Hormuz suddenly become the most prominent cross-domain risk signal?",
-              "title": "How might a Strait of Hormuz focus reshape global strategic capacity?",
-              "footnote": "Analysis based on a 24-hour web-search dossier flagging Hormuz as the dominant story, pending verification of any actual event."
+              "lead": "The Strait of Hormuz is a critical chokepoint for oil and LNG. What happens when an attention signal surges without evidence?",
+              "title": "Can an unverified signal shift the energy security landscape?",
+              "footnote": "Analysis based on a 24-hour cross-domain research dossier."
             },
             "signals": {
-              "title": "Indicator Signals",
-              "sourceNote": "Sources are limited to the 24-hour research dossier.",
+              "title": "Early warning signals",
+              "sourceNote": "Sources: Web-search dossier and verification status.",
               "items": [
                 {
-                  "label": "Attention spike",
-                  "title": "Web-search dossier flags Hormuz as top cross-domain story",
-                  "body": "The dossier identifies the Strait of Hormuz as the most prominent cross-domain development in the past 24 hours, though it provides no specific incident details.",
-                  "whyImportant": "A sudden surge in attention to this critical chokepoint may reflect behind-the-scenes intelligence or broader market nervousness.",
+                  "label": "Attention Flag",
+                  "title": "Hormuz identified as dominant cross-domain story",
+                  "body": "A web-search dossier from 2026-08-10 elevated the Strait of Hormuz to the top cross-domain risk story in the research window, without offering escalation details or primary-source links.",
+                  "whyImportant": "This flag, if accurate, could signal an event with simultaneous effects on energy prices, shipping, inflation, monetary policy, and AI datacenter power costs.",
                   "evidence": {
-                    "title": "Web-search dossier: Strait of Hormuz identified as dominant cross-domain story",
-                    "description": "A dossier compiled from web searches in the last 24 hours points to the Strait of Hormuz as a leading cross-domain risk. It lacks concrete facts or escalation details.",
+                    "title": "Web-search dossier flag",
+                    "description": "The dossier labels the Hormuz situation as the most prominent cross-domain story.",
                     "confidence": "hypothesis",
                     "sourceIds": [
                       "signal-hormuz-cross-domain-20260810-source-1"
@@ -250,14 +250,14 @@
                   }
                 },
                 {
-                  "label": "Strategic chokepoint",
-                  "title": "Hormuz as a nexus for energy, inflation, and AI infrastructure risks",
-                  "body": "As a transit point for roughly 20% of global petroleum, any disruption would instantaneously affect oil and LNG flows, with cascading effects on shipping costs, inflation, and the energy bills of AI data centers.",
-                  "whyImportant": "This concentration of risk makes Hormuz a multi-domain flashpoint; even an unverified alert can rattle markets and policy planning.",
+                  "label": "Unverified",
+                  "title": "No primary-source confirmation available",
+                  "body": "The dossier lacks specific facts, escalation details, or verifiable primary-source links; the situation remains an unverified attention flag.",
+                  "whyImportant": "Without confirmation, the signal cannot yet be considered a material change to the energy security process. It illustrates the gap between attention and actionable intelligence.",
                   "evidence": {
-                    "title": "Primary-source verification pending for Strait of Hormuz situation",
-                    "description": "Historical data confirms the Strait's critical role; current primary-source verification is not yet available.",
-                    "confidence": "developing",
+                    "title": "Verification pending",
+                    "description": "Primary-source verification for the Strait of Hormuz situation is still pending.",
+                    "confidence": "hypothesis",
                     "sourceIds": [
                       "signal-hormuz-cross-domain-20260810-source-2"
                     ]
@@ -266,73 +266,72 @@
               ]
             },
             "pattern": {
-              "title": "From Background Condition to Front-Page Risk",
-              "before": "Energy security was treated as a stable backdrop, with chokepoint risks priced into long-term averages.",
-              "shift": "A sudden, unexplained attention spike on the Strait of Hormuz has pulled it to the center of cross-domain analysis.",
-              "now": "The lack of verified facts leaves observers in a state of high alert without clear direction, amplifying uncertainty rather than risk itself.",
-              "conclusion": "Even an unconfirmed signal demonstrates how energy chokepoints act as amplifiers; if a real event emerges, the multi-domain cascade could accelerate the 'energy as strategic capacity' thesis."
+              "title": "From background risk to attention spike",
+              "before": "Hormuz chokepoint risk was routinely monitored as part of energy security background noise; no single event dominated cross-domain research.",
+              "shift": "A web-search dossier suddenly elevated the Strait to the top cross-domain story, raising alarm without providing evidence.",
+              "now": "The signal captures attention but remains unverified; the absence of facts means no material change is yet established, keeping the energy security process in its current state pending proof.",
+              "conclusion": "The dossier demonstrates how an attention surge can foreshadow a systemic shock, but verification is essential before the signal can be acted upon. The energy-as-strategic-capacity thesis is reinforced, but not accelerated, by this early warning."
             },
             "insight": {
-              "title": "Chokepoint Attention Amplifies Multi-Domain Risk",
-              "formula": "Unverified attention + Critical infrastructure concentration = Cross-domain alert amplification",
-              "explanation": "When a dormant chokepoint suddenly dominates cross-domain narratives without hard evidence, it signals a shift in collective focus that can itself trigger precautionary behaviors, hedging, and policy recalibrations, even before any material event occurs. This dynamic elevates energy security from a sectoral concern to a systemic strategic imperative."
+              "title": "The verification gap",
+              "formula": "Unverified attention flag + systemic potential = early warning requiring evidence",
+              "explanation": "The Strait of Hormuz flag highlights how a known chokepoint can quickly become a cross-domain risk narrative. But without concrete facts, the signal cannot justify a process stage shift. This gap between attention and evidence is critical for decision-making in energy security and AI infrastructure planning."
             },
             "observe": {
-              "title": "Monitoring Protocol for an Unverified Hormuz Alert",
+              "title": "What to watch next",
               "items": [
                 {
-                  "label": "Incident verification",
-                  "prompt": "Seek primary-source confirmation through official maritime, military, and government channels.",
-                  "meta": "Watch for statements from U.S. Navy, UKMTO, and local authorities."
+                  "label": "Verification",
+                  "prompt": "Look for primary-source reports or official statements confirming any Strait of Hormuz incident or escalation.",
+                  "meta": "Monitor reputable news wires, government alerts, and satellite data."
                 },
                 {
-                  "label": "Energy market reaction",
-                  "prompt": "Track Brent crude, LNG spot prices, and shipping insurance premiums for abnormal movements.",
-                  "meta": "Compare with previous Hormuz tension episodes for scale."
+                  "label": "Market Reaction",
+                  "prompt": "Watch for unusual movements in oil or LNG futures, shipping insurance rates, and energy company stocks.",
+                  "meta": "Check Bloomberg, Reuters energy terminals; look for spikes above 2σ."
                 },
                 {
-                  "label": "Industrial cost signals",
-                  "prompt": "Monitor statements from hyperscale datacenter operators and AI hardware suppliers regarding energy cost hedging.",
-                  "meta": "Check quarterly earnings calls and CFO commentary."
+                  "label": "Policy Response",
+                  "prompt": "Observe whether maritime security advisories, naval deployments, or diplomatic channels show activity around Hormuz.",
+                  "meta": "Track IMO, U.S. Navy, and regional statements."
                 },
                 {
-                  "label": "Geopolitical response",
-                  "prompt": "Track diplomatic and military postures of major powers toward the Strait.",
-                  "meta": "Assess potential for international naval coordination or escalation."
+                  "label": "AI Infrastructure Signal",
+                  "prompt": "Assess if any datacenter operators or hyperscalers adjust power procurement or location strategies citing energy uncertainty.",
+                  "meta": "Review earnings calls and energy contract announcements."
                 }
               ],
-              "ending": "If concrete evidence of a Hormuz disruption materializes, the next insight will focus on the speed and breadth of the cascading impact across energy markets, inflation, and AI infrastructure. Until then, the signal serves as a real-world stress test of the energy-as-strategic-capacity thesis."
+              "ending": "An unverified alert on Hormuz is a reminder that energy chokepoint risks can escalate quickly. Verification will determine whether this is noise or a genuine shift."
             }
           },
           "dailyStateEn": {
-            "label": "no_new_global_insight",
-            "decisionTitle": "Alert candidate lacks verification for publication",
-            "decisionSummary": "The Strait of Hormuz attention signal, while high in potential impact, is not backed by any verifiable facts, trigger sources, or independent corroboration, so it does not justify a new global insight at this time.",
-            "thresholdReason": "The dossier contains no specific incident details, escalation data, or primary-source links. Without at least one verified trigger source, the material change threshold is not met.",
+            "label": "NO MATERIAL CHANGE",
+            "decisionTitle": "Hormuz flag does not alter energy security trajectory",
+            "decisionSummary": "The dossier's attention signal lacks verifiable facts to justify a material update to the Energy Security process. The process remains at 'accelerating' due to previously established trends, not this unverified event.",
+            "thresholdReason": "Evidence strength is insufficient (no trigger or corroborating sources) to meet publication thresholds for a material change.",
             "observeNext": [
-              "Verify incident details through official maritime and military channels",
-              "Monitor global oil and LNG price benchmarks for abnormal activity",
-              "Track shipping and insurance cost movements"
+              "Watch for verification of any Strait of Hormuz incident.",
+              "Monitor energy market reactions for volatility clusters.",
+              "Track naval and diplomatic activity around the Strait."
             ]
           },
           "processStage": "accelerating",
           "processContentEn": {
-            "title": "Energy as Strategic Capacity",
-            "description": "Energy security is evolving from a narrow commodity concern to a foundational strategic capacity that underpins economic resilience, national security, and technological competition. Reliable energy access increasingly determines the feasibility and cost of AI infrastructure, industrial capacity, and geopolitical leverage.",
-            "implication": "When attention shifts to critical chokepoints like Hormuz, the multi-dimensional nature of energy as strategic capacity becomes evident: a potential disruption can simultaneously impact energy prices, inflation expectations, monetary policy, data center economics, and international relations."
+            "title": "Energy Security Process – Hormuz Attention Flag",
+            "description": "The Energy Security process, currently at 'accelerating', focuses on energy as a strategic capacity. The Strait of Hormuz flag is a cross-domain attention signal that aligns with the process but cannot shift its stage without evidence.",
+            "implication": "Investors and strategists should note the heightened sensitivity of energy chokepoints in a world where AI infrastructure and geopolitical tensions compete for reliable power. This signal, if later verified, could rapidly accelerate the process."
           },
-          "nextQuestionEn": "If the Strait of Hormuz faces a verified disruption, how quickly will energy costs impact AI infrastructure buildouts?",
+          "nextQuestionEn": "What evidence threshold would convert this Hormuz attention flag into a material update for energy security and AI infrastructure?",
           "observeNextEn": [
-            "Verify incident details and maritime security updates",
-            "Monitor global oil and LNG price benchmarks",
-            "Assess AI datacenter energy exposure and hedging strategies",
-            "Track geopolitical reactions from major powers"
+            "Look for primary-source reports or official statements confirming any incident.",
+            "Track energy and shipping insurance markets for abnormal volatility.",
+            "Monitor naval deployments or maritime security advisories in the region."
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 2456,
-          "outputTokens": 5038,
+          "outputTokens": 4302,
           "cachedInputTokens": 2432
         }
       }
