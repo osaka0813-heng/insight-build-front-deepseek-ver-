@@ -3,20 +3,20 @@
   "status": "running",
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "global",
-  "currentStage": "publish",
+  "currentScope": "china",
+  "currentStage": "research",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:37:12.653Z",
+  "updatedAt": "2026-08-10T07:37:16.980Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "analyze": 1,
         "write_zh": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-08-10T07:37:12.653Z",
+      "message": "已发布",
+      "updatedAt": "2026-08-10T07:37:16.980Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-10-1786347187804",
@@ -1097,7 +1097,10 @@
           "outputTokens": 12218,
           "cachedInputTokens": 4608
         }
-      }
+      },
+      "insightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
+      "contentVersion": "publish-global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making-1786347435753",
+      "completedAt": "2026-08-10T07:37:16.980Z"
     },
     "china": {
       "status": "queued",
