@@ -6,17 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_ja",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:39:03.380Z",
+  "updatedAt": "2026-08-10T07:39:07.706Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_ja",
       "attempts": {
         "research": 2,
         "write_ja": 1
       },
-      "message": "Automation state write failed: is at e1ea8a84f35cc6f73ad5f008c1a6661ae0a6fb06 but expected fdb784d2f303f2db6ba34b4f86ec267b2b66097d",
-      "updatedAt": "2026-08-10T07:39:03.380Z",
+      "message": "write_ja",
+      "updatedAt": "2026-08-10T07:39:07.706Z",
       "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
