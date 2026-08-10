@@ -4,19 +4,205 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:33:17.475Z",
+  "updatedAt": "2026-08-10T07:33:18.716Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
-        "research": 2
+        "analyze": 1
       },
-      "message": "research",
-      "updatedAt": "2026-08-10T07:33:17.475Z",
-      "failedStage": "research"
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-10T07:33:18.716Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-10-1786347187804",
+        "status": "draft",
+        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchDate": "2026-08-10",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 94946,
+          "outputTokens": 13944,
+          "cachedInputTokens": 77056
+        },
+        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "candidates": [
+          {
+            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "date": "2026-08-10",
+            "domain": "AI",
+            "tags": [
+              "ai",
+              "compute",
+              "datacenter",
+              "semiconductor",
+              "china",
+              "geopolitics"
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "processMatchConfidence": 75,
+            "importance": 75,
+            "novelty": 80,
+            "evidenceStrength": 10,
+            "independentSourceCount": 1,
+            "thesisImpact": 70,
+            "relationshipChange": 65,
+            "stageChange": 60,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
+                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
+                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
+                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+              },
+              "zh": {
+                "title": "中国10万卡AI超级集群成为候选跨领域信号",
+                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
+                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
+                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+              },
+              "ja": {
+                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
+                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
+                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
+                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web search dossier: China's 100K-card supercluster lead",
+                "url": "",
+                "publisher": "Dossier",
+                "publishedAt": "2026-08-10",
+                "kind": "context"
+              },
+              {
+                "title": "Web search dossier: Strongest candidates list",
+                "url": "",
+                "publisher": "Dossier",
+                "publishedAt": "2026-08-10",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      },
+      "failedStage": "analyze",
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-10-1786347187804",
+        "status": "draft",
+        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchDate": "2026-08-10",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 94946,
+          "outputTokens": 13944,
+          "cachedInputTokens": 77056
+        },
+        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "candidates": [
+          {
+            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "date": "2026-08-10",
+            "domain": "AI",
+            "tags": [
+              "ai",
+              "compute",
+              "datacenter",
+              "semiconductor",
+              "china",
+              "geopolitics"
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "processMatchConfidence": 75,
+            "importance": 75,
+            "novelty": 80,
+            "evidenceStrength": 100,
+            "independentSourceCount": 0,
+            "thesisImpact": 70,
+            "relationshipChange": 65,
+            "stageChange": 60,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
+                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
+                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
+                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+              },
+              "zh": {
+                "title": "中国10万卡AI超级集群成为候选跨领域信号",
+                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
+                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
+                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+              },
+              "ja": {
+                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
+                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
+                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
+                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web search dossier: China's 100K-card supercluster lead",
+                "url": "",
+                "publisher": "Dossier",
+                "publishedAt": "2026-08-10",
+                "kind": "context",
+                "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                "role": "context"
+              },
+              {
+                "title": "Web search dossier: Strongest candidates list",
+                "url": "",
+                "publisher": "Dossier",
+                "publishedAt": "2026-08-10",
+                "kind": "context",
+                "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 0,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 75,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 0,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 0,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "This is an unverified lead from a research dossier with no independent sources, no trigger sources within the research window, and no corroborating sources. The dossier explicitly states the claim is provisional and pending verification. The candidate references a potential 100K-card AI supercluster in China which, if confirmed, would be significant for the AI infrastructure race process. However, with zero independent source count and zero corroborating sources, there is no verifiable signal to act upon. The pre-computed analysis confirms: no trigger sources, fewer than two current/corroborating sources, and publishThresholdMet is false. The claim cannot be evaluated as a material update without any confirming evidence.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "No trigger source falls inside the research window.",
+                "Fewer than two current or corroborating sources.",
+                "No trigger source falls inside the research window.",
+                "Zero independent or corroborating sources; claim is unverified.",
+                "Dossier itself states this is a provisional candidate pending verification.",
+                "Cannot assess materiality without any confirming evidence."
+              ],
+              "candidateId": "candidate-china-100k-card-supercluster-2026-08-10"
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      }
     },
     "china": {
       "status": "queued",
@@ -72,5 +258,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD analyze 自动重试 1/3"
 }
