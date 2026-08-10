@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:32:27.425Z",
+  "updatedAt": "2026-08-10T07:32:29.674Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-08-10T07:32:27.425Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-10T07:32:29.674Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -181,22 +181,23 @@
             "analysis": {
               "matchedProcessId": "process-ai-infrastructure-race",
               "processMatchConfidence": 70,
-              "impact": "updates",
+              "impact": "no_material_change",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 58,
+              "materialChangeScore": 25,
               "publishThresholdMet": false,
               "scoreWasNormalized": false,
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "The signal identifies a potentially significant shift — AI power demand volatility as a physical-damage and grid-reliability constraint, not merely a capacity issue. If confirmed, this would materially update both process-ai-infrastructure-race and process-energy-security. However, evidence strength is critically low: zero independent sources, zero trigger sources within the research window, and only two context sources, both of which are internal dossier notes explicitly stating the primary report is pending verification. The candidate's own analysis flags no corroboration. Without any verified or independently sourced reporting, the claim cannot be distinguished from an unconfirmed lead. The novelty (80) and potential impact are high, but the evidence base does not meet the threshold for publish_new or update_living. This should be monitored for follow-up if primary-source verification materializes.",
+              "rationale": "The signal identifies a potentially significant shift — AI power volatility as a power-quality/reliability constraint rather than just a capacity constraint. If confirmed, this would materially update both the AI Infrastructure Race (process-ai-infrastructure-race) and Energy as Strategic Capacity (process-energy-security) processes. However, the evidence is extremely weak: zero independent trigger or corroborating sources exist within the research window; both sources are internal dossier context notes; the original primary report is explicitly still being verified. With an evidenceStrength of 25 and zero independent source count, the signal fails the publication threshold. The novelty is noted and the hypothesis is worth tracking, but it cannot support a publish_new or update_living action at this time.",
               "warnings": [
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "Zero independent sources; signal rests entirely on unverified internal dossier notes.",
-                "No trigger source within the 2026-08-10 research window.",
-                "Primary report explicitly pending verification — facts are unconfirmed.",
-                "Potential for high impact if verified, but currently insufficient for any global process change determination."
+                "Zero trigger sources within the research window (2026-08-10).",
+                "Zero corroborating independent sources; both listed sources are internal dossier context notes.",
+                "Primary-source verification is explicitly pending; core fact remains unconfirmed.",
+                "Evidence strength rated at 25/100 by the candidate's own analysis.",
+                "Potential match to process-energy-security also considered but same evidentiary weakness applies."
               ],
               "candidateId": "signal-2026-08-10-ai-power-volatility"
             }
