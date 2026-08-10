@@ -6,7 +6,7 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:32:57.447Z",
+  "updatedAt": "2026-08-10T07:33:02.448Z",
   "scopes": {
     "global": {
       "status": "running",
@@ -15,7 +15,7 @@
         "research": 1
       },
       "message": "write_base",
-      "updatedAt": "2026-08-10T07:32:57.447Z",
+      "updatedAt": "2026-08-10T07:33:02.448Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
