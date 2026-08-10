@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:36:27.610Z",
+  "updatedAt": "2026-08-10T07:36:29.962Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_base",
       "attempts": {
         "research": 2
       },
-      "message": "write_base",
-      "updatedAt": "2026-08-10T07:36:27.610Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-10T07:36:29.962Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -187,22 +187,22 @@
               "processMatchConfidence": 72,
               "impact": "no_material_change",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 10,
+              "materialChangeScore": 72,
               "publishThresholdMet": false,
               "scoreWasNormalized": true,
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "The candidate is an attention flag, not a verified event. It contains zero trigger sources or independent primary-source links within the research window, and the dossier itself acknowledges a lack of specific facts or escalation details. While a Hormuz disruption would be globally significant, the candidate explicitly states it is pending verification and carries no corroborating claims. The absence of any current-event evidence means there is no material update to the Energy becomes strategic capacity process. The process thesis is not challenged or advanced by an unverified flag alone.",
+              "rationale": "The candidate is flagged as a high-importance cross-domain attention signal concerning the Strait of Hormuz, which would be material to the Energy Security process if verified. However, the dossier explicitly states it contains no specific facts, escalation details, or primary-source links. It is an unverified attention flag, not an event confirmation. With zero trigger sources and zero corroborating sources (only two context sources from an unknown publisher), there is no independent, verifiable evidence to support a material change in the living process. The suggested process match (Energy becomes strategic capacity) is plausible in principle, but without any concrete facts to evaluate, this cannot rise to the standard of a publishable insight or a material update. The material change score of 72 reflects the potential severity if a real event were confirmed, but the evidence quality is far too weak to meet the publication threshold.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "Zero trigger or corroborating sources; only context documents exist.",
-                "Candidate self-reports 'pending verification' and lacks specific facts.",
-                "No independent primary-source links provided.",
-                "Signal is an attention flag, not an event with substantiating evidence.",
-                "MaterialChangeScore downgraded from 72 to 10 to reflect absence of verified information."
+                "No trigger source within research window; zero corroborating sources.",
+                "Both sources are context-only from unknown publisher; no independent verification.",
+                "Dossier explicitly lacks specific facts, escalation details, or primary-source links.",
+                "Candidate is an attention flag pending verification, not a confirmed event.",
+                "High potential materiality is not supported by any verifiable evidence."
               ],
               "candidateId": "signal-hormuz-cross-domain-20260810"
             }
