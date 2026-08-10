@@ -6,7 +6,7 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:36:48.001Z",
+  "updatedAt": "2026-08-10T07:36:49.052Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -15,8 +15,8 @@
         "research": 2,
         "write_base": 2
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-10-1786347053551.json does not match cb3046fbb48e8ca262c9133630659ecc38180e6f",
-      "updatedAt": "2026-08-10T07:36:48.001Z",
+      "message": "Automation state write failed: is at f97e1d4c9044eb5f49f41688dd06f2b99de96435 but expected fa9a89291bb3f7e7fd739753f36fb2f801930605",
+      "updatedAt": "2026-08-10T07:36:49.052Z",
       "failedStage": "write_base",
       "researchDraft": {
         "ok": true,
