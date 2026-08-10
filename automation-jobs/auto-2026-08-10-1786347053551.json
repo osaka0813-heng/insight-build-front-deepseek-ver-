@@ -4,19 +4,99 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:34:19.724Z",
+  "updatedAt": "2026-08-10T07:34:21.668Z",
   "scopes": {
     "global": {
-      "status": "retrying",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
-        "research": 2
+        "research": 1
       },
-      "message": "DeepSeek Research JSON contains no candidates.",
-      "updatedAt": "2026-08-10T07:34:19.724Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-10T07:34:21.668Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-10-1786347261663",
+        "status": "draft",
+        "researchedAt": "2026-08-10T07:34:21.663Z",
+        "researchDate": "2026-08-10",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 110349,
+          "outputTokens": 15273,
+          "cachedInputTokens": 88576
+        },
+        "querySummary": "The strongest cross-domain signal in the 24-hour window is the reported NVIDIA–Lancium deal, which directly connects AI compute demand with dedicated power and data-center infrastructure.",
+        "candidates": [
+          {
+            "id": "candidate-2026-08-10-nvidia-lancium",
+            "date": "2026-08-10",
+            "domain": "AI, Energy, Physical Infrastructure",
+            "tags": [
+              "ai",
+              "datacenter",
+              "energy",
+              "electricity",
+              "infrastructure",
+              "capital",
+              "partnership",
+              "nvidia",
+              "lancium"
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "processMatchConfidence": 85,
+            "importance": 78,
+            "novelty": 62,
+            "evidenceStrength": 55,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 75,
+            "stageChange": 65,
+            "contradiction": 5,
+            "content": {
+              "en": {
+                "title": "NVIDIA and Lancium form a direct AI-power infrastructure tie-up",
+                "coreFact": "Reports dated August 8–10, 2026 describe a deal between NVIDIA and Lancium, pairing AI compute demand with dedicated data-center and electricity infrastructure.",
+                "whyItMatters": "This is not just another chip or data-center contract; it links an AI platform company directly to power-and-facilities capacity, reinforcing the idea that compute advantage now depends on energy, land, and construction as much as on chips.",
+                "processMatchReason": "The AI infrastructure race thesis says durable advantage comes from repeatedly converting intelligence into dependable large-scale capacity; this deal is a concrete move by NVIDIA to secure that capacity through an energy-infrastructure partner."
+              },
+              "zh": {
+                "title": "英伟达与Lancium达成AI与电力基础设施直接绑定合作",
+                "coreFact": "2026年8月8日至10日的报道显示，英伟达与Lancium达成交易，将AI算力需求与专用数据中心及电力基础设施绑定。",
+                "whyItMatters": "这不仅是一份芯片或数据中心合同；它把AI平台公司直接接入电力和设施能力，进一步说明算力优势现在同样取决于能源、土地和建设，而不仅仅是芯片。",
+                "processMatchReason": "AI基础设施竞赛的论点认为，持久的AI优势来自反复将智能转化为可靠的大规模容量；该交易是英伟达通过与能源基础设施合作伙伴合作来确保这一容量的具体动作。"
+              },
+              "ja": {
+                "title": "NVIDIAとLanciumがAI・電力インフラを直接結ぶ提携",
+                "coreFact": "2026年8月8日から10日にかけての報道では、NVIDIAとLanciumの提携が報じられ、AIコンピュート需要と専用データセンター・電力インフラが結び付けられる見込み。",
+                "whyItMatters": "これは単なるチップやデータセンターの契約ではなく、AIプラットフォーム企業が電力・施設容量に直接接続される動き。AI優位性がチップだけでなくエネルギー・土地・建設に依存することを強く示す。",
+                "processMatchReason": "AIインフラ競争の仮説は、持続可能なAI優位性は知能を信頼できる大規模容量へ繰り返し変換することにかかるとする。今回の取引は、NVIDIAが電力インフラ事業者と組んでその容量を確保する具体的な一手。"
+              }
+            },
+            "sources": [
+              {
+                "title": "NVIDIA–Lancium deal report in web search dossier",
+                "url": "",
+                "publisher": "Web search dossier",
+                "publishedAt": "2026-08-10",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Cross-domain signal check for AI infrastructure",
+                "url": "",
+                "publisher": "Web search dossier",
+                "publishedAt": "2026-08-10",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      }
     },
     "china": {
       "status": "queued",
@@ -72,5 +152,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD research 自动重试 1/3"
 }
