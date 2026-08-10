@@ -6,15 +6,15 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:36:42.626Z",
+  "updatedAt": "2026-08-10T07:36:45.818Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "queued",
       "stage": "write_base",
       "attempts": {
         "research": 2
       },
-      "message": "write_base",
+      "message": "重新唤醒 write_base 断点",
       "updatedAt": "2026-08-10T07:36:42.626Z",
       "failedStage": "research",
       "researchDraft": {
@@ -265,5 +265,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "GLOBAL 从 write_base 断点继续"
 }
