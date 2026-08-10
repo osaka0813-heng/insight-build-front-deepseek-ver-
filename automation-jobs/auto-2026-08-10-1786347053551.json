@@ -6,17 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:36:46.795Z",
+  "updatedAt": "2026-08-10T07:36:48.001Z",
   "scopes": {
     "global": {
       "status": "retrying",
       "stage": "write_base",
       "attempts": {
         "research": 2,
-        "write_base": 1
+        "write_base": 2
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-10-1786347053551.json does not match 4f788720a98e61229afa8982a141d62f83877224",
-      "updatedAt": "2026-08-10T07:36:46.795Z",
+      "message": "Automation state write failed: automation-jobs/auto-2026-08-10-1786347053551.json does not match cb3046fbb48e8ca262c9133630659ecc38180e6f",
+      "updatedAt": "2026-08-10T07:36:48.001Z",
       "failedStage": "write_base",
       "researchDraft": {
         "ok": true,
@@ -266,5 +266,5 @@
       }
     ]
   },
-  "message": "WORLD write_base 自动重试 1/3"
+  "message": "WORLD write_base 自动重试 2/3"
 }
