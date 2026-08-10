@@ -3,173 +3,179 @@
   "status": "running",
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "china",
-  "currentStage": "analyze",
+  "currentScope": "global",
+  "currentStage": "write_ja",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:39:02.600Z",
+  "updatedAt": "2026-08-10T07:39:03.380Z",
   "scopes": {
     "global": {
-      "status": "done",
-      "stage": "publish",
+      "status": "retrying",
+      "stage": "write_ja",
       "attempts": {
-        "analyze": 1,
-        "write_zh": 1
+        "research": 2,
+        "write_ja": 1
       },
-      "message": "已发布",
-      "updatedAt": "2026-08-10T07:37:16.980Z",
+      "message": "Automation state write failed: is at e1ea8a84f35cc6f73ad5f008c1a6661ae0a6fb06 but expected fdb784d2f303f2db6ba34b4f86ec267b2b66097d",
+      "updatedAt": "2026-08-10T07:39:03.380Z",
+      "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347187804",
+        "id": "research-global-2026-08-10-1786347376168",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchedAt": "2026-08-10T07:36:16.168Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 94946,
-          "outputTokens": 13944,
-          "cachedInputTokens": 77056
+          "inputTokens": 74571,
+          "outputTokens": 13078,
+          "cachedInputTokens": 53888
         },
-        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "querySummary": "The dossier contains one dominant cross-domain clue: a Strait of Hormuz situation is described as the most important story in the past 24 hours. No article-level sources, quotes, or numeric facts were supplied, so the candidate below is a conservative draft flagging the topic for verification rather than asserting specific event details.",
         "candidates": [
           {
-            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "id": "signal-hormuz-cross-domain-20260810",
             "date": "2026-08-10",
-            "domain": "AI",
+            "domain": "Geopolitics",
             "tags": [
-              "ai",
-              "compute",
-              "datacenter",
-              "semiconductor",
-              "china",
+              "Strait of Hormuz",
+              "energy security",
+              "chokepoint",
+              "oil",
+              "LNG",
+              "shipping",
+              "inflation",
+              "capital markets",
+              "AI infrastructure",
               "geopolitics"
             ],
-            "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 75,
-            "importance": 75,
-            "novelty": 80,
-            "evidenceStrength": 10,
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 72,
+            "importance": 90,
+            "novelty": 78,
+            "evidenceStrength": 8,
             "independentSourceCount": 1,
-            "thesisImpact": 70,
-            "relationshipChange": 65,
-            "stageChange": 60,
-            "contradiction": 20,
+            "thesisImpact": 88,
+            "relationshipChange": 82,
+            "stageChange": 70,
+            "contradiction": 35,
             "content": {
               "en": {
-                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
-                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
-                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
-                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+                "title": "Strait of Hormuz rises as the dominant cross-domain risk in the 24-hour research window",
+                "coreFact": "The web-search dossier flags a Strait of Hormuz situation as the dominant cross-domain story in the past 24 hours. The dossier does not include specific facts, escalation details, or primary-source links, so this candidate is an attention flag pending verification.",
+                "whyItMatters": "Hormuz is a critical oil and LNG chokepoint. A significant situation there would simultaneously move energy prices, shipping and insurance costs, inflation expectations, monetary policy, the cost of power for AI datacenters and industrial capacity, and the geopolitical alignments around critical infrastructure.",
+                "processMatchReason": "The event directly tests the thesis that reliable energy access is strategic capacity, and it feeds into the AI infrastructure race through power costs and capital allocation."
               },
               "zh": {
-                "title": "中国10万卡AI超级集群成为候选跨领域信号",
-                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
-                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
-                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+                "title": "霍尔木兹海峡局势成为24小时研究窗口内最突出的跨领域风险信号",
+                "coreFact": "搜索档案将霍尔木兹海峡局势列为过去24小时内最突出的跨领域事件，但未包含具体事实、升级细节或一手来源链接。因此该信号应视为待验证的注意力标志，而非已确认的事件描述。",
+                "whyItMatters": "霍尔木兹海峡是石油和LNG贸易的关键咽喉。一旦出现显著事态，能源价格、航运与保险成本、通胀预期、货币政策、AI数据中心及工业产能的用电成本，以及围绕关键基础设施的地缘政治组合都可能同时受到影响。",
+                "processMatchReason": "该事件直接检验了‘可靠能源获取是战略能力’的判断，并通过电力成本与资本配置渠道影响AI基础设施竞赛。"
               },
               "ja": {
-                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
-                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
-                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
-                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+                "title": "ホルムズ海峡情勢が24時間の調査枠で最有力のクロスドメインリスクに浮上",
+                "coreFact": "検索調査資料は、過去24時間で最も重要なクロスドメインの出来事としてホルムズ海峡情勢を挙げている。ただし、具体的な事実や緊張激化の詳細、一次情報源へのリンクは資料に含まれておらず、この候補は検証待ちの注意フラグである。",
+                "whyItMatters": "ホルムズ海峡は石油・LNG貿易の最重要チョークポイント。大規模な事態が起これば、エネルギー価格、海運・保険料、インフレ期待、金融政策、AIデータセンターや産業設備の電力コスト、重要インフラを巡る地政学的な連携に同時に影響を与え得る。",
+                "processMatchReason": "信頼できるエネルギー供給が戦略的キャパシティであるというテーゼを直接試すものであり、電力コストと資本配分を通じてAIインフラ競争にも波及する。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: China's 100K-card supercluster lead",
+                "title": "Web-search dossier: Strait of Hormuz identified as dominant cross-domain story",
                 "url": "",
-                "publisher": "Dossier",
+                "publisher": "Unknown",
                 "publishedAt": "2026-08-10",
                 "kind": "context"
               },
               {
-                "title": "Web search dossier: Strongest candidates list",
+                "title": "Primary-source verification pending for Strait of Hormuz situation",
                 "url": "",
-                "publisher": "Dossier",
-                "publishedAt": "2026-08-10",
+                "publisher": "Unknown",
                 "kind": "context"
               }
             ]
           }
         ]
       },
-      "failedStage": "write_zh",
       "analyzedDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347187804",
+        "id": "research-global-2026-08-10-1786347376168",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:33:07.804Z",
+        "researchedAt": "2026-08-10T07:36:16.168Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 94946,
-          "outputTokens": 13944,
-          "cachedInputTokens": 77056
+          "inputTokens": 74571,
+          "outputTokens": 13078,
+          "cachedInputTokens": 53888
         },
-        "querySummary": "The dossier is a short research-lead list rather than a set of cited articles. It names four strongest leads: Strait of Hormuz/Iran, China's 100K-card supercluster, US Senate Russia/Iran sanctions bill, and Nvidia-SpaceX deal. Because no source details or verifiable facts are provided, only one provisional candidate can be drafted, with evidence strength rated low pending source verification.",
+        "querySummary": "The dossier contains one dominant cross-domain clue: a Strait of Hormuz situation is described as the most important story in the past 24 hours. No article-level sources, quotes, or numeric facts were supplied, so the candidate below is a conservative draft flagging the topic for verification rather than asserting specific event details.",
         "candidates": [
           {
-            "id": "candidate-china-100k-card-supercluster-2026-08-10",
+            "id": "signal-hormuz-cross-domain-20260810",
             "date": "2026-08-10",
-            "domain": "AI",
+            "domain": "Geopolitics",
             "tags": [
-              "ai",
-              "compute",
-              "datacenter",
-              "semiconductor",
-              "china",
+              "Strait of Hormuz",
+              "energy security",
+              "chokepoint",
+              "oil",
+              "LNG",
+              "shipping",
+              "inflation",
+              "capital markets",
+              "AI infrastructure",
               "geopolitics"
             ],
-            "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 75,
-            "importance": 75,
-            "novelty": 80,
-            "evidenceStrength": 100,
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 72,
+            "importance": 90,
+            "novelty": 78,
+            "evidenceStrength": 80,
             "independentSourceCount": 0,
-            "thesisImpact": 70,
-            "relationshipChange": 65,
-            "stageChange": 60,
-            "contradiction": 20,
+            "thesisImpact": 88,
+            "relationshipChange": 82,
+            "stageChange": 70,
+            "contradiction": 35,
             "content": {
               "en": {
-                "title": "China's 100K-card AI supercluster emerges as candidate cross-domain signal",
-                "coreFact": "The 2026-08-10 research dossier lists China's 100K-card supercluster among the strongest leads for a signal spanning AI, semiconductors and geopolitics. The dossier does not include source citations or details, so this is a provisional candidate pending verification.",
-                "whyItMatters": "If verified, a 100K-card cluster would represent a step-change in China's concentrated AI compute capacity, affecting the AI infrastructure race, semiconductor capacity dynamics and technology-control geopolitics.",
-                "processMatchReason": "The candidate directly matches the AI infrastructure race thesis that durable advantage comes from converting intelligence into large-scale capacity, and it also touches semiconductor capacity and geopolitical technology control."
+                "title": "Strait of Hormuz rises as the dominant cross-domain risk in the 24-hour research window",
+                "coreFact": "The web-search dossier flags a Strait of Hormuz situation as the dominant cross-domain story in the past 24 hours. The dossier does not include specific facts, escalation details, or primary-source links, so this candidate is an attention flag pending verification.",
+                "whyItMatters": "Hormuz is a critical oil and LNG chokepoint. A significant situation there would simultaneously move energy prices, shipping and insurance costs, inflation expectations, monetary policy, the cost of power for AI datacenters and industrial capacity, and the geopolitical alignments around critical infrastructure.",
+                "processMatchReason": "The event directly tests the thesis that reliable energy access is strategic capacity, and it feeds into the AI infrastructure race through power costs and capital allocation."
               },
               "zh": {
-                "title": "中国10万卡AI超级集群成为候选跨领域信号",
-                "coreFact": "2026-08-10的研究档案将中国10万卡超级集群列为横跨AI、半导体和地缘政治的最强线索之一。档案未包含来源引用或细节，因此这是待核实的暂定候选信号。",
-                "whyItMatters": "若经核实，10万卡集群将代表中国集中式AI算力的一次阶跃，影响AI基础设施竞赛、半导体产能格局和技术控制地缘政治。",
-                "processMatchReason": "该候选直接匹配AI基础设施竞赛的论点——持久的AI优势取决于将智能转化为大规模可靠产能——同时涉及半导体产能与地缘政治技术控制。"
+                "title": "霍尔木兹海峡局势成为24小时研究窗口内最突出的跨领域风险信号",
+                "coreFact": "搜索档案将霍尔木兹海峡局势列为过去24小时内最突出的跨领域事件，但未包含具体事实、升级细节或一手来源链接。因此该信号应视为待验证的注意力标志，而非已确认的事件描述。",
+                "whyItMatters": "霍尔木兹海峡是石油和LNG贸易的关键咽喉。一旦出现显著事态，能源价格、航运与保险成本、通胀预期、货币政策、AI数据中心及工业产能的用电成本，以及围绕关键基础设施的地缘政治组合都可能同时受到影响。",
+                "processMatchReason": "该事件直接检验了‘可靠能源获取是战略能力’的判断，并通过电力成本与资本配置渠道影响AI基础设施竞赛。"
               },
               "ja": {
-                "title": "中国の10万カードAIスーパークラスターがクロスドメインシグナルの候補に",
-                "coreFact": "2026-08-10の調査資料は、中国の10万カードスーパークラスターをAI・半導体・地政学にまたがる最有力候補の一つとして挙げている。資料には出典や詳細が含まれておらず、検証待ちの暫定候補である。",
-                "whyItMatters": "検証されれば、10万カードクラスターは中国の集中的AI計算能力の段階的変化を意味し、AIインフラ競争、半導体キャパシティ、技術管理の地政学に影響する。",
-                "processMatchReason": "この候補は、AIの優位性が知能を大規模な信頼可能なキャパシティへ変換することに依存するというAIインフラ競争のテーゼに直接合致し、半導体キャパシティと地政学的技術管理にも関わる。"
+                "title": "ホルムズ海峡情勢が24時間の調査枠で最有力のクロスドメインリスクに浮上",
+                "coreFact": "検索調査資料は、過去24時間で最も重要なクロスドメインの出来事としてホルムズ海峡情勢を挙げている。ただし、具体的な事実や緊張激化の詳細、一次情報源へのリンクは資料に含まれておらず、この候補は検証待ちの注意フラグである。",
+                "whyItMatters": "ホルムズ海峡は石油・LNG貿易の最重要チョークポイント。大規模な事態が起これば、エネルギー価格、海運・保険料、インフレ期待、金融政策、AIデータセンターや産業設備の電力コスト、重要インフラを巡る地政学的な連携に同時に影響を与え得る。",
+                "processMatchReason": "信頼できるエネルギー供給が戦略的キャパシティであるというテーゼを直接試すものであり、電力コストと資本配分を通じてAIインフラ競争にも波及する。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: China's 100K-card supercluster lead",
+                "title": "Web-search dossier: Strait of Hormuz identified as dominant cross-domain story",
                 "url": "",
-                "publisher": "Dossier",
+                "publisher": "Unknown",
                 "publishedAt": "2026-08-10",
                 "kind": "context",
-                "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
+                "id": "signal-hormuz-cross-domain-20260810-source-1",
                 "role": "context"
               },
               {
-                "title": "Web search dossier: Strongest candidates list",
+                "title": "Primary-source verification pending for Strait of Hormuz situation",
                 "url": "",
-                "publisher": "Dossier",
-                "publishedAt": "2026-08-10",
+                "publisher": "Unknown",
                 "kind": "context",
-                "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
+                "id": "signal-hormuz-cross-domain-20260810-source-2",
                 "role": "context"
               }
             ],
@@ -178,27 +184,28 @@
             "contextSourceCount": 2,
             "claimSourceIds": [],
             "analysis": {
-              "matchedProcessId": "process-ai-infrastructure-race",
-              "processMatchConfidence": 75,
+              "matchedProcessId": "process-energy-security",
+              "processMatchConfidence": 72,
               "impact": "no_material_change",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 0,
+              "materialChangeScore": 72,
               "publishThresholdMet": false,
               "scoreWasNormalized": true,
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "This is an unverified lead from a research dossier with no independent sources, no trigger sources within the research window, and no corroborating sources. The dossier explicitly states the claim is provisional and pending verification. The candidate references a potential 100K-card AI supercluster in China which, if confirmed, would be significant for the AI infrastructure race process. However, with zero independent source count and zero corroborating sources, there is no verifiable signal to act upon. The pre-computed analysis confirms: no trigger sources, fewer than two current/corroborating sources, and publishThresholdMet is false. The claim cannot be evaluated as a material update without any confirming evidence.",
+              "rationale": "The candidate is flagged as a high-importance cross-domain attention signal concerning the Strait of Hormuz, which would be material to the Energy Security process if verified. However, the dossier explicitly states it contains no specific facts, escalation details, or primary-source links. It is an unverified attention flag, not an event confirmation. With zero trigger sources and zero corroborating sources (only two context sources from an unknown publisher), there is no independent, verifiable evidence to support a material change in the living process. The suggested process match (Energy becomes strategic capacity) is plausible in principle, but without any concrete facts to evaluate, this cannot rise to the standard of a publishable insight or a material update. The material change score of 72 reflects the potential severity if a real event were confirmed, but the evidence quality is far too weak to meet the publication threshold.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "No trigger source falls inside the research window.",
-                "Zero independent or corroborating sources; claim is unverified.",
-                "Dossier itself states this is a provisional candidate pending verification.",
-                "Cannot assess materiality without any confirming evidence."
+                "No trigger source within research window; zero corroborating sources.",
+                "Both sources are context-only from unknown publisher; no independent verification.",
+                "Dossier explicitly lacks specific facts, escalation details, or primary-source links.",
+                "Candidate is an attention flag pending verification, not a confirmed event.",
+                "High potential materiality is not supported by any verifiable evidence."
               ],
-              "candidateId": "candidate-china-100k-card-supercluster-2026-08-10"
+              "candidateId": "signal-hormuz-cross-domain-20260810"
             }
           }
         ],
@@ -209,119 +216,126 @@
         "stage": "base",
         "baseDraft": {
           "insightId": null,
-          "slug": "china-100k-card-supercluster-signal",
+          "slug": "strait-of-hormuz-attention-flag",
           "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "GLOBAL SIGNAL WATCH",
-              "secondaryEyebrow": "AI INFRASTRUCTURE RACE",
-              "title": "China’s 100K-Card AI Supercluster: A Signal in the Making",
-              "summary": "An unverified lead points to a massive concentrated AI compute buildout in China, with potential to reshape the AI infrastructure race, semiconductor dynamics, and tech geopolitics."
+              "eyebrow": "Energy Security Process",
+              "secondaryEyebrow": "Global Cross-Domain Attention Flag",
+              "title": "Strait of Hormuz Risk Flag Pending Verification",
+              "summary": "A web-search dossier identifies the Strait of Hormuz as the dominant cross-domain risk story in the past 24 hours, but provides no specific facts or primary-source links. This Insight treats the flag as an unverified attention signal that warrants monitoring rather than a confirmed event."
             },
             "question": {
-              "lead": "What if China is assembling a single 100K-card AI training cluster?",
-              "title": "Does a 100K-card cluster signal a step-change in AI compute concentration?",
-              "footnote": "This Insight is based on a provisional candidate signal and remains unverified."
+              "lead": "The dossier flags a potential situation, but details are absent.",
+              "title": "Is the Strait of Hormuz the primary cross-domain risk today?",
+              "footnote": "Based solely on an unverified web-search dossier; no triggering or corroborating sources available."
             },
             "signals": {
-              "title": "Early Indicators from Research Dossiers",
-              "sourceNote": "Provisional candidate signal from the 2026-08-10 research dossier.",
+              "title": "Signals from the 24-Hour Window",
+              "sourceNote": "Sources are limited to two context-only items from an unknown publisher.",
               "items": [
                 {
-                  "label": "Cluster Lead",
-                  "title": "Potential 100K-card supercluster identified in China",
-                  "body": "A research dossier flags China’s 100K-card supercluster as one of the strongest leads for a signal spanning AI, semiconductors and geopolitics.",
-                  "whyImportant": "If verified, it would represent a concentration of AI compute far beyond widely known deployments.",
+                  "label": "Attention Flag from Dossier",
+                  "title": "Dossier flags Strait of Hormuz as top cross‑domain story",
+                  "body": "A web-search dossier picked up the Strait of Hormuz as the top cross-domain story, but lacks specifics, escalation details, or primary-source links.",
+                  "whyImportant": "The Strait is a critical chokepoint for oil and LNG; a disruption would impact energy prices, shipping, and broader macro stability.",
                   "evidence": {
-                    "title": "Research dossier provisional lead",
-                    "description": "The dossier includes the claim without source citations or details, marking it as a candidate pending verification.",
+                    "title": "Web-search dossier without verification",
+                    "description": "The dossier does not contain facts, escalation details, or primary-source links.",
                     "confidence": "developing",
                     "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                      "signal-hormuz-cross-domain-20260810-source-1",
+                      "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
                 },
                 {
-                  "label": "Cross-Domain Interest",
-                  "title": "Listing among strongest cross-domain candidates",
-                  "body": "The same dossier places this lead among its strongest candidates, suggesting strategic attention across AI, semiconductors and geopolitics.",
-                  "whyImportant": "The cross-domain nature indicates potential systemic impact beyond a single sector.",
+                  "label": "No Verifiable Evidence",
+                  "title": "No corroborating reports or primary sources found",
+                  "body": "Attempts to find primary sources or corroborating reports in the research window returned no concrete information.",
+                  "whyImportant": "Without verification, material impact cannot be assessed, but the attention level alone suggests heightened risk perception.",
                   "evidence": {
-                    "title": "Strongest candidates list inclusion",
-                    "description": "The dossier’s strongest candidates list highlights the cross-domain relevance of the 100K-card cluster.",
-                    "confidence": "developing",
+                    "title": "No primary sources found",
+                    "description": "Verification pending; no independent reports to confirm events.",
+                    "confidence": "hypothesis",
                     "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                      "signal-hormuz-cross-domain-20260810-source-1",
+                      "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "From Distributed to Concentrated Compute",
-              "before": "AI supercomputing has been distributed across multiple clusters, with the largest publicly known single clusters under 50K accelerators.",
-              "shift": "A potential 100K-card cluster would represent a leap in centralized compute density, possibly enabling new scales of model training.",
-              "now": "Unverified reports suggest China may be pursuing such a cluster, intensifying the AI infrastructure race.",
-              "conclusion": "If confirmed, it would mark a new phase in national AI capacity, with implications for semiconductor supply, energy infrastructure, and geopolitical leverage."
+              "title": "From Data to Attention: The Pattern of an Unverified Flag",
+              "before": "Previously, cross-domain risk assessments relied on verified multi-source intelligence and concrete event data to drive strategic updates.",
+              "shift": "The 24-hour window surfaced an attention flag from a single unverified dossier, shifting the focus from confirmed facts to monitoring of potential signals.",
+              "now": "Now, the Strait of Hormuz is flagged as a top story without any supporting evidence, requiring cautious interpretation and ongoing observation.",
+              "conclusion": "This pattern indicates that while attention can amplify risk perception, strategic insight cannot be derived without verification; the flag is a prompt to monitor, not a basis for action."
             },
             "insight": {
-              "title": "The Concentrated Compute Imperative",
-              "formula": "National AI ambition + semiconductor access + energy capacity → concentrated training clusters at unprecedented scale",
-              "explanation": "As AI models grow, the ability to train them efficiently may depend on very large, single-location clusters. China's potential move signals an attempt to leapfrog in this dimension, bypassing distributed strategies."
+              "title": "Unverified Attention Does Not Equal Strategic Insight",
+              "formula": "High attention + Low evidence = Monitoring priority, not material change",
+              "explanation": "The dossier placed the Strait of Hormuz at the center of cross-domain risk narratives, but without facts, the signal must be treated as a prompt to monitor. Strategic insight requires verified evidence to distinguish noise from actionable intelligence."
             },
             "observe": {
               "title": "What to Watch Next",
               "items": [
                 {
-                  "label": "Verification",
-                  "prompt": "Are there any confirmations from satellite imagery or supply chain data?",
-                  "meta": "Open-source intelligence can provide independent evidence of large-scale compute builds."
+                  "label": "Primary Sources",
+                  "prompt": "Are there any credible reports or official statements confirming a Strait of Hormuz incident?",
+                  "meta": "Track major news wires and energy market data."
                 },
                 {
-                  "label": "Policy Response",
-                  "prompt": "Will export controls be tightened in reaction to this potential development?",
-                  "meta": "Semiconductor export restrictions may be adjusted if a concentrated cluster is deemed a threat."
+                  "label": "Shipping & Energy",
+                  "prompt": "Are shipping costs, insurance rates, or oil/LNG prices showing abnormal movements?",
+                  "meta": "Monitor benchmark indices and trade flows."
                 },
                 {
-                  "label": "Global Reaction",
-                  "prompt": "How are other nations responding in their own cluster builds?",
-                  "meta": "Competitors may accelerate their own plans for large-scale AI infrastructure."
+                  "label": "Geopolitical Signals",
+                  "prompt": "Is there diplomatic or military communication that would corroborate heightened tension?",
+                  "meta": "Watch for statements from states with interests in the region."
+                },
+                {
+                  "label": "Cross-Domain Correlation",
+                  "prompt": "Are other domains (markets, AI infrastructure) reacting to this flag independently?",
+                  "meta": "Check for correlated signals across domains."
                 }
               ],
-              "ending": "This signal is provisional; verified evidence will determine its materiality."
+              "ending": "Until verified evidence emerges, treat this as an attention flag, not a material event."
             }
           },
           "dailyStateEn": {
-            "label": "Provisional Signal",
-            "decisionTitle": "Monitor for Verification",
-            "decisionSummary": "The signal remains unverified; no action until independent confirmation emerges.",
-            "thresholdReason": "Zero independent sources; the dossier explicitly states the claim is provisional and pending verification.",
+            "label": "No Material Change",
+            "decisionTitle": "No Publishable Insight",
+            "decisionSummary": "The Strait of Hormuz attention flag lacks verified evidence and does not meet the threshold for a material update to the Energy Security process.",
+            "thresholdReason": "Zero trigger sources, zero corroborating sources, and no primary-source links; the dossier is an unverified attention signal.",
             "observeNext": [
-              "Satellite imagery analysis for large-scale data center construction",
-              "Leaked procurement documents indicating accelerator volumes"
+              "Monitor for primary-source confirmation",
+              "Track energy and shipping market indicators",
+              "Watch for geopolitical corroboration",
+              "Check for cross-domain correlation with other indicators"
             ]
           },
-          "processStage": "structural",
+          "processStage": "accelerating",
           "processContentEn": {
-            "title": "AI Infrastructure Race",
-            "description": "The race to build large-scale AI compute capacity is a structural shift, with nations and corporations investing heavily in concentrated training infrastructure.",
-            "implication": "Durable advantage may come from converting intelligence into reliable, concentrated compute at unprecedented scale."
+            "title": "Energy Security Process – Accelerating Stage",
+            "description": "The Strait of Hormuz flag emerges within the accelerating stage of the energy-as-strategic-capacity narrative, but without verification it does not alter the trajectory.",
+            "implication": "The flag underscores the sensitivity of the chokepoint to attention-based narratives, but the lack of evidence keeps the process in its current accelerating phase without a structural shift."
           },
-          "nextQuestionEn": "What verifiable evidence exists for a 100K-card cluster in China?",
+          "nextQuestionEn": "What verifiable information will emerge in the next 24 hours regarding the Strait of Hormuz?",
           "observeNextEn": [
-            "Monitor for satellite imagery of mega-data centers",
-            "Watch for procurement leaks indicating accelerator quantities",
-            "Track policy statements on AI infrastructure from Chinese authorities"
+            "Confirm or refute the incident with primary-source reporting",
+            "Check for abnormal movements in energy and shipping markets",
+            "Assess whether other cross-domain indicators correlate with this flag"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 2415,
-          "outputTokens": 2676,
-          "cachedInputTokens": 2304
+          "inputTokens": 2456,
+          "outputTokens": 3749,
+          "cachedInputTokens": 1152
         }
       },
       "writeZh": {
@@ -331,883 +345,129 @@
         "localizedDraft": {
           "page": {
             "cover": {
-              "eyebrow": "全球信号观察",
-              "secondaryEyebrow": "AI基础设施竞赛",
-              "title": "中国的10万卡AI超算集群：一个正在形成的信号",
-              "summary": "一条未经证实的线索指向中国大规模集中式AI算力建设，可能重塑AI基础设施竞赛、半导体格局和科技地缘政治。"
+              "eyebrow": "能源安全进程",
+              "secondaryEyebrow": "全球跨领域关注标记",
+              "title": "霍尔木兹海峡风险标记待核实",
+              "summary": "一份网络搜索情报档将霍尔木兹海峡列为过去24小时内最主要的跨领域风险议题，但未提供具体事实或一手来源链接。本洞察将该标记视为未经核实的关注信号，值得监测，而非已确认事件。"
             },
             "question": {
-              "lead": "如果中国正在组装一个单一的10万卡AI训练集群呢？",
-              "title": "10万卡集群是否意味着AI算力集中度发生阶跃变化？",
-              "footnote": "本洞察基于一条暂定的候选信号，尚未得到验证。"
+              "lead": "该情报档标记了一个潜在态势，但缺乏细节。",
+              "title": "霍尔木兹海峡是今日首要的跨领域风险吗？",
+              "footnote": "仅基于一份未经核实的网络搜索情报档；没有可用触发源或佐证来源。"
             },
             "signals": {
-              "title": "研究档案中的早期指标",
-              "sourceNote": "来自2026-08-10研究档案的暂定候选信号。",
+              "title": "24小时窗口内的信号",
+              "sourceNote": "来源仅限于来自未知发布方的两个仅限上下文的条目。",
               "items": [
                 {
-                  "label": "集群线索",
-                  "title": "中国发现潜在的10万卡超算集群",
-                  "body": "一份研究档案将中国的10万卡超算集群列为横跨AI、半导体和地缘政治的信号中最有力的线索之一。",
-                  "whyImportant": "如果得到证实，它将代表AI算力的集中程度远超广为人知的部署。",
+                  "label": "来自情报档的关注标记",
+                  "title": "情报档将霍尔木兹海峡列为头号跨领域议题",
+                  "body": "一份网络搜索情报档将霍尔木兹海峡列为头号跨领域议题，但缺少具体信息、升级细节或一手来源链接。",
+                  "whyImportant": "该海峡是石油和液化天然气的关键咽喉要道；一旦中断将影响能源价格、航运以及更广泛的宏观稳定。",
                   "evidence": {
-                    "title": "研究档案暂定线索",
-                    "description": "该档案包含这一说法，但未提供来源引用或细节，因此标记为待核实的候选信号。",
+                    "title": "未经核实的网络搜索情报档",
+                    "description": "该情报档不包含事实、升级细节或一手来源链接。",
                     "confidence": "developing",
                     "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                      "signal-hormuz-cross-domain-20260810-source-1",
+                      "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
                 },
                 {
-                  "label": "跨领域关注",
-                  "title": "被列为最强跨领域候选之一",
-                  "body": "同一档案将这条线索列为其最强候选之一，表明其在AI、半导体和地缘政治领域具有战略关注度。",
-                  "whyImportant": "跨领域性质表明其影响可能超越单一领域，具有系统性影响。",
+                  "label": "无可核实证据",
+                  "title": "未找到佐证报告或一手来源",
+                  "body": "在调研窗口内尝试寻找一手来源或佐证报告，未获得任何具体信息。",
+                  "whyImportant": "未经核实，无法评估实质性影响，但仅关注程度本身就表明风险认知有所上升。",
                   "evidence": {
-                    "title": "入选最强候选名单",
-                    "description": "档案的最强候选名单突出了10万卡集群的跨领域相关性。",
-                    "confidence": "developing",
+                    "title": "未找到一手来源",
+                    "description": "核实待定；没有独立报告可确认相关事件。",
+                    "confidence": "hypothesis",
                     "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
+                      "signal-hormuz-cross-domain-20260810-source-1",
+                      "signal-hormuz-cross-domain-20260810-source-2"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "从分布式计算到集中式计算",
-              "before": "AI超算此前分布在多个集群中，已知最大的单一集群不到5万个加速器。",
-              "shift": "一个潜在的10万卡集群将代表集中式计算密度的飞跃，可能支持新规模的模型训练。",
-              "now": "未经证实的报道表明，中国可能正在建设这样一个集群，从而加剧AI基础设施竞赛。",
-              "conclusion": "如果得到确认，它将标志国家AI能力进入新阶段，对半导体供应、能源基础设施和地缘政治影响力产生影响。"
+              "title": "从数据到关注：未经核实标记的模式",
+              "before": "以往，跨领域风险评估依赖经核实的多来源情报和具体事件数据来推动战略更新。",
+              "shift": "24小时窗口浮现出来自单一未核实情报档的关注标记，使焦点从已确认事实转向对潜在信号的监测。",
+              "now": "眼下，霍尔木兹海峡在没有佐证证据的情况下被标记为头条议题，需要谨慎解读和持续观察。",
+              "conclusion": "这一模式表明，尽管关注可能放大风险认知，但未经核实无法产生战略洞察；该标记是监测的提示，而非行动的依据。"
             },
             "insight": {
-              "title": "集中式计算势在必行",
-              "formula": "国家AI雄心 + 半导体获取能力 + 能源容量 → 空前规模的集中式训练集群",
-              "explanation": "随着AI模型不断增大，高效训练它们的能力可能取决于超大规模的单点集群。中国的潜在动作表明其试图在这一维度实现跨越式发展，绕过分布式策略。"
+              "title": "未经核实的关注并不等于战略洞察",
+              "formula": "高关注 + 低证据 = 监测优先事项，而非实质性变化",
+              "explanation": "该情报档将霍尔木兹海峡置于跨领域风险叙事的中心，但缺乏事实，因此该信号必须被视为监测提示。战略洞察需要经核实的证据，以区分噪声与可行动情报。"
             },
             "observe": {
-              "title": "接下来观察什么",
+              "title": "接下来关注什么",
               "items": [
                 {
-                  "label": "核实",
-                  "prompt": "是否有来自卫星图像或供应链数据的任何证实？",
-                  "meta": "开源情报可以为大规模算力建设提供独立证据。"
+                  "label": "一手来源",
+                  "prompt": "是否有任何可信报道或官方声明确认霍尔木兹海峡事件？",
+                  "meta": "追踪主要新闻通讯社和能源市场数据。"
                 },
                 {
-                  "label": "政策回应",
-                  "prompt": "针对这一潜在进展，出口管制是否会收紧？",
-                  "meta": "如果集中式集群被视为威胁，半导体出口限制可能会被调整。"
+                  "label": "航运与能源",
+                  "prompt": "航运成本、保险费率或石油/液化天然气价格是否出现异常波动？",
+                  "meta": "监测基准指数和贸易流向。"
                 },
                 {
-                  "label": "全球反应",
-                  "prompt": "其他国家在自身集群建设中有何回应？",
-                  "meta": "竞争对手可能会加速自身的大规模AI基础设施计划。"
+                  "label": "地缘政治信号",
+                  "prompt": "是否有外交或军事沟通能够佐证紧张局势升级？",
+                  "meta": "留意在该地区有利益的国家发表的声明。"
+                },
+                {
+                  "label": "跨领域关联",
+                  "prompt": "其他领域（市场、人工智能基础设施）是否正在独立地对这一标记作出反应？",
+                  "meta": "检查各领域之间的关联信号。"
                 }
               ],
-              "ending": "这一信号是暂定的；经核实的证据将决定其重要性。"
+              "ending": "在经核实的证据出现之前，请将其视为关注标记，而非实质性事件。"
             }
           },
           "dailyState": {
-            "label": "暂定信号",
-            "decisionTitle": "关注核实",
-            "decisionSummary": "该信号仍未证实；在出现独立确认之前不采取行动。",
-            "thresholdReason": "独立来源为零；档案明确说明该说法是暂定的，有待核实。",
+            "label": "无实质性变化",
+            "decisionTitle": "无可发布的洞察",
+            "decisionSummary": "霍尔木兹海峡关注标记缺乏经核实的证据，未达到对能源安全进程作出实质性更新的阈值。",
+            "thresholdReason": "零触发来源、零佐证来源，且没有一手来源链接；该情报档是一个未经核实的关注信号。",
             "observeNext": [
-              "卫星图像分析大型数据中心建设",
-              "泄露的采购文件显示加速器数量"
+              "监测是否有来自一手来源的确认",
+              "追踪能源与航运市场指标",
+              "留意地缘政治佐证",
+              "检查与其他指标的跨领域关联"
             ]
           },
           "processContent": {
-            "title": "AI基础设施竞赛",
-            "description": "建设大规模AI算力能力的竞赛是一场结构性转变，各国和企业正在对集中式训练基础设施进行大量投资。",
-            "implication": "持久优势可能来自将智能转化为空前规模的可靠、集中式算力。"
+            "title": "能源安全进程——加速阶段",
+            "description": "霍尔木兹海峡标记出现在“能源作为战略能力”叙事的加速阶段，但未经核实，它不会改变发展轨迹。",
+            "implication": "该标记凸显了该咽喉要道对基于关注的叙事的敏感性，但缺乏证据使进程保持在当前的加速阶段，没有发生结构性转变。"
           },
-          "nextQuestion": "中国10万卡集群有哪些可验证的证据？",
+          "nextQuestion": "未来24小时内，关于霍尔木兹海峡将出现哪些可核实的信息？",
           "observeNext": [
-            "监测大型数据中心的卫星图像",
-            "关注显示加速器数量的采购泄露",
-            "跟踪中国官方关于AI基础设施的政策声明"
+            "通过一手来源报道确认或证伪该事件",
+            "检查能源和航运市场是否出现异常波动",
+            "评估其他跨领域指标是否与这一标记相关"
           ]
         },
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 2249,
-          "outputTokens": 3848,
-          "cachedInputTokens": 1152
+          "inputTokens": 2340,
+          "outputTokens": 3825,
+          "cachedInputTokens": 2304
         }
-      },
-      "writeJa": {
-        "ok": true,
-        "stage": "ja",
-        "language": "ja",
-        "localizedDraft": {
-          "page": {
-            "cover": {
-              "eyebrow": "グローバルシグナルウォッチ",
-              "secondaryEyebrow": "AIインフラ競争",
-              "title": "中国の10万枚カードAIスーパークラスター：形成されつつあるシグナル",
-              "summary": "未検証の情報は、中国における大規模な集約型AI計算基盤の構築を示唆しており、AIインフラ競争、半導体の勢力図、テクノロジー地政学を変える可能性を秘めています。"
-            },
-            "question": {
-              "lead": "もし中国が10万枚のカードを備えた単一のAIトレーニングクラスターを構築しているとしたら？",
-              "title": "10万カード規模のクラスターは、AI計算の集中における飛躍的変化のシグナルか？",
-              "footnote": "本インサイトは暫定的な候補シグナルに基づいており、未検証のままです。"
-            },
-            "signals": {
-              "title": "調査資料に見る初期指標",
-              "sourceNote": "2026年8月10日付リサーチ資料による暫定的な候補シグナル。",
-              "items": [
-                {
-                  "label": "クラスター情報",
-                  "title": "中国で10万カード規模のスーパークラスターの可能性を確認",
-                  "body": "リサーチ資料は、中国の10万カード規模スーパークラスターを、AI・半導体・地政学にまたがるシグナルとして最も有力な候補の一つに挙げています。",
-                  "whyImportant": "検証されれば、広く知られている導入事例をはるかに超えるAI計算の集中を意味します。",
-                  "evidence": {
-                    "title": "リサーチ資料における暫定的な候補情報",
-                    "description": "資料はこの主張を出典や詳細を添えずに記載しており、検証待ちの候補として位置づけています。",
-                    "confidence": "developing",
-                    "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                    ]
-                  }
-                },
-                {
-                  "label": "分野横断的な関心",
-                  "title": "最有力の分野横断候補にリストアップ",
-                  "body": "同じ資料はこの情報を最有力候補の一つに位置づけており、AI・半導体・地政学にわたる戦略的な関心を示唆しています。",
-                  "whyImportant": "分野横断的な性質は、単一セクターを超えたシステムレベルの影響の可能性を示しています。",
-                  "evidence": {
-                    "title": "最有力候補リストへの掲載",
-                    "description": "資料の最有力候補リストは、10万カード規模クラスターの分野横断的な関連性を強調しています。",
-                    "confidence": "developing",
-                    "sourceIds": [
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                      "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                    ]
-                  }
-                }
-              ]
-            },
-            "pattern": {
-              "title": "分散から集中へ：コンピューティングの変遷",
-              "before": "AIスーパーコンピューティングは複数のクラスターに分散しており、公知の最大の単一クラスターでもアクセラレータは5万個未満です。",
-              "shift": "10万カード規模のクラスターが実現すれば、集中型計算密度の飛躍を意味し、新たな規模でのモデル学習を可能にする可能性があります。",
-              "now": "未検証の報道は、中国がこのようなクラスターを追求している可能性を示唆しており、AIインフラ競争を激化させています。",
-              "conclusion": "確認されれば、これは国家のAI能力における新たな段階を示し、半導体供給、エネルギーインフラ、地政学的影響力に影響を及ぼすでしょう。"
-            },
-            "insight": {
-              "title": "集中型コンピューティングの必然",
-              "formula": "国家のAI野心＋半導体へのアクセス＋エネルギー容量 → 前例のない規模の集中型トレーニングクラスター",
-              "explanation": "AIモデルが成長するにつれ、効率的な学習は非常に大規模で単一拠点のクラスターに依存するようになるかもしれません。中国の潜在的な動きは、分散戦略を迂回し、この次元での飛躍を試みるシグナルです。"
-            },
-            "observe": {
-              "title": "次に注目すべき点",
-              "items": [
-                {
-                  "label": "検証",
-                  "prompt": "衛星画像やサプライチェーンデータによる確認はあるか？",
-                  "meta": "オープンソースインテリジェンスは、大規模計算基盤構築の独立した証拠を提供し得ます。"
-                },
-                {
-                  "label": "政策対応",
-                  "prompt": "この潜在的な動きを受けて輸出規制は強化されるか？",
-                  "meta": "集中型クラスターが脅威と見なされれば、半導体輸出規制が見直される可能性があります。"
-                },
-                {
-                  "label": "国際社会の反応",
-                  "prompt": "他国は自国のクラスター構築でどのように対応しているか？",
-                  "meta": "競争相手は自国の大規模AIインフラ計画を加速させるかもしれません。"
-                }
-              ],
-              "ending": "このシグナルは暫定的なものであり、検証された証拠がその重要性を左右します。"
-            }
-          },
-          "dailyState": {
-            "label": "暫定シグナル",
-            "decisionTitle": "検証に向けた監視",
-            "decisionSummary": "このシグナルは未検証であり、独立した確認が得られるまで行動は起こしません。",
-            "thresholdReason": "独立した情報源はゼロ。資料は、この主張が暫定的で検証待ちであることを明記しています。",
-            "observeNext": [
-              "大規模データセンター建設の衛星画像分析",
-              "アクセラレータ数量を示す調達文書の流出"
-            ]
-          },
-          "processContent": {
-            "title": "AIインフラ競争",
-            "description": "大規模なAI計算能力を構築する競争は構造的な変化であり、各国と企業は集中型トレーニングインフラに多額の投資を行っています。",
-            "implication": "持続的な優位性は、インテリジェンスを前例のない規模で信頼性の高い集中型コンピューティングに転換することから生まれる可能性があります。"
-          },
-          "nextQuestion": "中国の10万カード規模クラスターについて、検証可能な証拠は何か？",
-          "observeNext": [
-            "メガデータセンターの衛星画像を監視する",
-            "アクセラレータ数量を示す調達漏洩情報に注目する",
-            "中国当局によるAIインフラに関する政策発表を追跡する"
-          ]
-        },
-        "model": "deepseek-v4-flash",
-        "usage": {
-          "inputTokens": 2248,
-          "outputTokens": 5694,
-          "cachedInputTokens": 1152
-        }
-      },
-      "writerDraft": {
-        "id": "writer-candidate-china-100k-card-supercluster-2026-08-10-1786347428390",
-        "scope": "global",
-        "status": "draft",
-        "writtenAt": "2026-08-10T07:37:08.390Z",
-        "researchDraftId": "research-global-2026-08-10-1786347187804",
-        "candidateId": "candidate-china-100k-card-supercluster-2026-08-10",
-        "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
-        "dailyState": "no_new_global_insight",
-        "matchedProcessId": "process-ai-infrastructure-race",
-        "qualityChecks": {
-          "publishThresholdMet": false,
-          "sourceUrlsPreserved": true,
-          "noMarkdownLinksInCopy": true,
-          "languagesComplete": true,
-          "warnings": [
-            "Candidate does not meet publication threshold.",
-            "Fewer than two current or corroborating sources."
-          ]
-        },
-        "insight": {
-          "id": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
-          "scope": "global",
-          "slug": "china-100k-card-supercluster-signal",
-          "status": "update_living",
-          "processId": "process-ai-infrastructure-race",
-          "publishedAt": "2026-08-10T00:00:00.000Z",
-          "updatedAt": "2026-08-10T07:37:08.390Z",
-          "confidence": "verified",
-          "content": {
-            "en": {
-              "cover": {
-                "eyebrow": "GLOBAL SIGNAL WATCH",
-                "secondaryEyebrow": "AI INFRASTRUCTURE RACE",
-                "title": "China’s 100K-Card AI Supercluster: A Signal in the Making",
-                "summary": "An unverified lead points to a massive concentrated AI compute buildout in China, with potential to reshape the AI infrastructure race, semiconductor dynamics, and tech geopolitics."
-              },
-              "question": {
-                "lead": "What if China is assembling a single 100K-card AI training cluster?",
-                "title": "Does a 100K-card cluster signal a step-change in AI compute concentration?",
-                "footnote": "This Insight is based on a provisional candidate signal and remains unverified."
-              },
-              "signals": {
-                "title": "Early Indicators from Research Dossiers",
-                "sourceNote": "Provisional candidate signal from the 2026-08-10 research dossier.",
-                "items": [
-                  {
-                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-1",
-                    "label": "Cluster Lead",
-                    "title": "Potential 100K-card supercluster identified in China",
-                    "body": "A research dossier flags China’s 100K-card supercluster as one of the strongest leads for a signal spanning AI, semiconductors and geopolitics.",
-                    "whyImportant": "If verified, it would represent a concentration of AI compute far beyond widely known deployments.",
-                    "evidence": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-1",
-                        "title": "Research dossier provisional lead",
-                        "description": "The dossier includes the claim without source citations or details, marking it as a candidate pending verification.",
-                        "confidence": "developing",
-                        "sourceIds": [
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                        ]
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                        "title": "Web search dossier: China's 100K-card supercluster lead",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      },
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
-                        "title": "Web search dossier: Strongest candidates list",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-2",
-                    "label": "Cross-Domain Interest",
-                    "title": "Listing among strongest cross-domain candidates",
-                    "body": "The same dossier places this lead among its strongest candidates, suggesting strategic attention across AI, semiconductors and geopolitics.",
-                    "whyImportant": "The cross-domain nature indicates potential systemic impact beyond a single sector.",
-                    "evidence": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-2",
-                        "title": "Strongest candidates list inclusion",
-                        "description": "The dossier’s strongest candidates list highlights the cross-domain relevance of the 100K-card cluster.",
-                        "confidence": "developing",
-                        "sourceIds": [
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                        ]
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                        "title": "Web search dossier: China's 100K-card supercluster lead",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      },
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
-                        "title": "Web search dossier: Strongest candidates list",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "pattern": {
-                "title": "From Distributed to Concentrated Compute",
-                "before": "AI supercomputing has been distributed across multiple clusters, with the largest publicly known single clusters under 50K accelerators.",
-                "shift": "A potential 100K-card cluster would represent a leap in centralized compute density, possibly enabling new scales of model training.",
-                "now": "Unverified reports suggest China may be pursuing such a cluster, intensifying the AI infrastructure race.",
-                "conclusion": "If confirmed, it would mark a new phase in national AI capacity, with implications for semiconductor supply, energy infrastructure, and geopolitical leverage."
-              },
-              "insight": {
-                "title": "The Concentrated Compute Imperative",
-                "formula": "National AI ambition + semiconductor access + energy capacity → concentrated training clusters at unprecedented scale",
-                "explanation": "As AI models grow, the ability to train them efficiently may depend on very large, single-location clusters. China's potential move signals an attempt to leapfrog in this dimension, bypassing distributed strategies."
-              },
-              "observe": {
-                "title": "What to Watch Next",
-                "items": [
-                  {
-                    "label": "Verification",
-                    "prompt": "Are there any confirmations from satellite imagery or supply chain data?",
-                    "meta": "Open-source intelligence can provide independent evidence of large-scale compute builds."
-                  },
-                  {
-                    "label": "Policy Response",
-                    "prompt": "Will export controls be tightened in reaction to this potential development?",
-                    "meta": "Semiconductor export restrictions may be adjusted if a concentrated cluster is deemed a threat."
-                  },
-                  {
-                    "label": "Global Reaction",
-                    "prompt": "How are other nations responding in their own cluster builds?",
-                    "meta": "Competitors may accelerate their own plans for large-scale AI infrastructure."
-                  }
-                ],
-                "ending": "This signal is provisional; verified evidence will determine its materiality."
-              }
-            },
-            "zh": {
-              "cover": {
-                "eyebrow": "全球信号观察",
-                "secondaryEyebrow": "AI基础设施竞赛",
-                "title": "中国的10万卡AI超算集群：一个正在形成的信号",
-                "summary": "一条未经证实的线索指向中国大规模集中式AI算力建设，可能重塑AI基础设施竞赛、半导体格局和科技地缘政治。"
-              },
-              "question": {
-                "lead": "如果中国正在组装一个单一的10万卡AI训练集群呢？",
-                "title": "10万卡集群是否意味着AI算力集中度发生阶跃变化？",
-                "footnote": "本洞察基于一条暂定的候选信号，尚未得到验证。"
-              },
-              "signals": {
-                "title": "研究档案中的早期指标",
-                "sourceNote": "来自2026-08-10研究档案的暂定候选信号。",
-                "items": [
-                  {
-                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-1",
-                    "label": "集群线索",
-                    "title": "中国发现潜在的10万卡超算集群",
-                    "body": "一份研究档案将中国的10万卡超算集群列为横跨AI、半导体和地缘政治的信号中最有力的线索之一。",
-                    "whyImportant": "如果得到证实，它将代表AI算力的集中程度远超广为人知的部署。",
-                    "evidence": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-1",
-                        "title": "研究档案暂定线索",
-                        "description": "该档案包含这一说法，但未提供来源引用或细节，因此标记为待核实的候选信号。",
-                        "confidence": "developing",
-                        "sourceIds": [
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                        ]
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                        "title": "Web search dossier: China's 100K-card supercluster lead",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      },
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
-                        "title": "Web search dossier: Strongest candidates list",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-2",
-                    "label": "跨领域关注",
-                    "title": "被列为最强跨领域候选之一",
-                    "body": "同一档案将这条线索列为其最强候选之一，表明其在AI、半导体和地缘政治领域具有战略关注度。",
-                    "whyImportant": "跨领域性质表明其影响可能超越单一领域，具有系统性影响。",
-                    "evidence": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-2",
-                        "title": "入选最强候选名单",
-                        "description": "档案的最强候选名单突出了10万卡集群的跨领域相关性。",
-                        "confidence": "developing",
-                        "sourceIds": [
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                        ]
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                        "title": "Web search dossier: China's 100K-card supercluster lead",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      },
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
-                        "title": "Web search dossier: Strongest candidates list",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "pattern": {
-                "title": "从分布式计算到集中式计算",
-                "before": "AI超算此前分布在多个集群中，已知最大的单一集群不到5万个加速器。",
-                "shift": "一个潜在的10万卡集群将代表集中式计算密度的飞跃，可能支持新规模的模型训练。",
-                "now": "未经证实的报道表明，中国可能正在建设这样一个集群，从而加剧AI基础设施竞赛。",
-                "conclusion": "如果得到确认，它将标志国家AI能力进入新阶段，对半导体供应、能源基础设施和地缘政治影响力产生影响。"
-              },
-              "insight": {
-                "title": "集中式计算势在必行",
-                "formula": "国家AI雄心 + 半导体获取能力 + 能源容量 → 空前规模的集中式训练集群",
-                "explanation": "随着AI模型不断增大，高效训练它们的能力可能取决于超大规模的单点集群。中国的潜在动作表明其试图在这一维度实现跨越式发展，绕过分布式策略。"
-              },
-              "observe": {
-                "title": "接下来观察什么",
-                "items": [
-                  {
-                    "label": "核实",
-                    "prompt": "是否有来自卫星图像或供应链数据的任何证实？",
-                    "meta": "开源情报可以为大规模算力建设提供独立证据。"
-                  },
-                  {
-                    "label": "政策回应",
-                    "prompt": "针对这一潜在进展，出口管制是否会收紧？",
-                    "meta": "如果集中式集群被视为威胁，半导体出口限制可能会被调整。"
-                  },
-                  {
-                    "label": "全球反应",
-                    "prompt": "其他国家在自身集群建设中有何回应？",
-                    "meta": "竞争对手可能会加速自身的大规模AI基础设施计划。"
-                  }
-                ],
-                "ending": "这一信号是暂定的；经核实的证据将决定其重要性。"
-              }
-            },
-            "ja": {
-              "cover": {
-                "eyebrow": "グローバルシグナルウォッチ",
-                "secondaryEyebrow": "AIインフラ競争",
-                "title": "中国の10万枚カードAIスーパークラスター：形成されつつあるシグナル",
-                "summary": "未検証の情報は、中国における大規模な集約型AI計算基盤の構築を示唆しており、AIインフラ競争、半導体の勢力図、テクノロジー地政学を変える可能性を秘めています。"
-              },
-              "question": {
-                "lead": "もし中国が10万枚のカードを備えた単一のAIトレーニングクラスターを構築しているとしたら？",
-                "title": "10万カード規模のクラスターは、AI計算の集中における飛躍的変化のシグナルか？",
-                "footnote": "本インサイトは暫定的な候補シグナルに基づいており、未検証のままです。"
-              },
-              "signals": {
-                "title": "調査資料に見る初期指標",
-                "sourceNote": "2026年8月10日付リサーチ資料による暫定的な候補シグナル。",
-                "items": [
-                  {
-                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-1",
-                    "label": "クラスター情報",
-                    "title": "中国で10万カード規模のスーパークラスターの可能性を確認",
-                    "body": "リサーチ資料は、中国の10万カード規模スーパークラスターを、AI・半導体・地政学にまたがるシグナルとして最も有力な候補の一つに挙げています。",
-                    "whyImportant": "検証されれば、広く知られている導入事例をはるかに超えるAI計算の集中を意味します。",
-                    "evidence": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-1",
-                        "title": "リサーチ資料における暫定的な候補情報",
-                        "description": "資料はこの主張を出典や詳細を添えずに記載しており、検証待ちの候補として位置づけています。",
-                        "confidence": "developing",
-                        "sourceIds": [
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                        ]
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                        "title": "Web search dossier: China's 100K-card supercluster lead",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      },
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
-                        "title": "Web search dossier: Strongest candidates list",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "candidate-china-100k-card-supercluster-2026-08-10-signal-2",
-                    "label": "分野横断的な関心",
-                    "title": "最有力の分野横断候補にリストアップ",
-                    "body": "同じ資料はこの情報を最有力候補の一つに位置づけており、AI・半導体・地政学にわたる戦略的な関心を示唆しています。",
-                    "whyImportant": "分野横断的な性質は、単一セクターを超えたシステムレベルの影響の可能性を示しています。",
-                    "evidence": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-evidence-2",
-                        "title": "最有力候補リストへの掲載",
-                        "description": "資料の最有力候補リストは、10万カード規模クラスターの分野横断的な関連性を強調しています。",
-                        "confidence": "developing",
-                        "sourceIds": [
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                          "candidate-china-100k-card-supercluster-2026-08-10-source-2"
-                        ]
-                      }
-                    ],
-                    "sources": [
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-1",
-                        "title": "Web search dossier: China's 100K-card supercluster lead",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      },
-                      {
-                        "id": "candidate-china-100k-card-supercluster-2026-08-10-source-2",
-                        "title": "Web search dossier: Strongest candidates list",
-                        "publisher": "Dossier",
-                        "publishedAt": "2026-08-10",
-                        "url": "",
-                        "type": "research",
-                        "reliability": "context",
-                        "note": "context source"
-                      }
-                    ]
-                  }
-                ]
-              },
-              "pattern": {
-                "title": "分散から集中へ：コンピューティングの変遷",
-                "before": "AIスーパーコンピューティングは複数のクラスターに分散しており、公知の最大の単一クラスターでもアクセラレータは5万個未満です。",
-                "shift": "10万カード規模のクラスターが実現すれば、集中型計算密度の飛躍を意味し、新たな規模でのモデル学習を可能にする可能性があります。",
-                "now": "未検証の報道は、中国がこのようなクラスターを追求している可能性を示唆しており、AIインフラ競争を激化させています。",
-                "conclusion": "確認されれば、これは国家のAI能力における新たな段階を示し、半導体供給、エネルギーインフラ、地政学的影響力に影響を及ぼすでしょう。"
-              },
-              "insight": {
-                "title": "集中型コンピューティングの必然",
-                "formula": "国家のAI野心＋半導体へのアクセス＋エネルギー容量 → 前例のない規模の集中型トレーニングクラスター",
-                "explanation": "AIモデルが成長するにつれ、効率的な学習は非常に大規模で単一拠点のクラスターに依存するようになるかもしれません。中国の潜在的な動きは、分散戦略を迂回し、この次元での飛躍を試みるシグナルです。"
-              },
-              "observe": {
-                "title": "次に注目すべき点",
-                "items": [
-                  {
-                    "label": "検証",
-                    "prompt": "衛星画像やサプライチェーンデータによる確認はあるか？",
-                    "meta": "オープンソースインテリジェンスは、大規模計算基盤構築の独立した証拠を提供し得ます。"
-                  },
-                  {
-                    "label": "政策対応",
-                    "prompt": "この潜在的な動きを受けて輸出規制は強化されるか？",
-                    "meta": "集中型クラスターが脅威と見なされれば、半導体輸出規制が見直される可能性があります。"
-                  },
-                  {
-                    "label": "国際社会の反応",
-                    "prompt": "他国は自国のクラスター構築でどのように対応しているか？",
-                    "meta": "競争相手は自国の大規模AIインフラ計画を加速させるかもしれません。"
-                  }
-                ],
-                "ending": "このシグナルは暫定的なものであり、検証された証拠がその重要性を左右します。"
-              }
-            }
-          }
-        },
-        "dailyStateDraft": {
-          "id": "daily-global-2026-08-10",
-          "scope": "global",
-          "date": "2026-08-10",
-          "decidedAt": "2026-08-10T07:37:08.390Z",
-          "state": "no_new_global_insight",
-          "insightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
-          "processId": "process-ai-infrastructure-race",
-          "materialChangeScore": 0,
-          "evidenceStrength": 100,
-          "noveltyScore": 80,
-          "importanceScore": 75,
-          "candidateSignalIds": [
-            "candidate-china-100k-card-supercluster-2026-08-10"
-          ],
-          "content": {
-            "en": {
-              "label": "Provisional Signal",
-              "decisionTitle": "Monitor for Verification",
-              "decisionSummary": "The signal remains unverified; no action until independent confirmation emerges.",
-              "thresholdReason": "Zero independent sources; the dossier explicitly states the claim is provisional and pending verification.",
-              "observeNext": [
-                "Satellite imagery analysis for large-scale data center construction",
-                "Leaked procurement documents indicating accelerator volumes"
-              ]
-            },
-            "zh": {
-              "label": "暂定信号",
-              "decisionTitle": "关注核实",
-              "decisionSummary": "该信号仍未证实；在出现独立确认之前不采取行动。",
-              "thresholdReason": "独立来源为零；档案明确说明该说法是暂定的，有待核实。",
-              "observeNext": [
-                "卫星图像分析大型数据中心建设",
-                "泄露的采购文件显示加速器数量"
-              ]
-            },
-            "ja": {
-              "label": "暫定シグナル",
-              "decisionTitle": "検証に向けた監視",
-              "decisionSummary": "このシグナルは未検証であり、独立した確認が得られるまで行動は起こしません。",
-              "thresholdReason": "独立した情報源はゼロ。資料は、この主張が暫定的で検証待ちであることを明記しています。",
-              "observeNext": [
-                "大規模データセンター建設の衛星画像分析",
-                "アクセラレータ数量を示す調達文書の流出"
-              ]
-            }
-          }
-        },
-        "processUpdate": {
-          "processId": "process-ai-infrastructure-race",
-          "scope": "global",
-          "updatedAt": "2026-08-10T07:37:08.390Z",
-          "appendInsightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
-          "evolutionEvent": {
-            "id": "evolution-candidate-china-100k-card-supercluster-2026-08-10",
-            "date": "2026-08-10",
-            "stage": "structural",
-            "impact": "updates",
-            "insightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
-            "content": {
-              "en": {
-                "title": "AI Infrastructure Race",
-                "description": "The race to build large-scale AI compute capacity is a structural shift, with nations and corporations investing heavily in concentrated training infrastructure.",
-                "implication": "Durable advantage may come from converting intelligence into reliable, concentrated compute at unprecedented scale."
-              },
-              "zh": {
-                "title": "AI基础设施竞赛",
-                "description": "建设大规模AI算力能力的竞赛是一场结构性转变，各国和企业正在对集中式训练基础设施进行大量投资。",
-                "implication": "持久优势可能来自将智能转化为空前规模的可靠、集中式算力。"
-              },
-              "ja": {
-                "title": "AIインフラ競争",
-                "description": "大規模なAI計算能力を構築する競争は構造的な変化であり、各国と企業は集中型トレーニングインフラに多額の投資を行っています。",
-                "implication": "持続的な優位性は、インテリジェンスを前例のない規模で信頼性の高い集中型コンピューティングに転換することから生まれる可能性があります。"
-              }
-            }
-          },
-          "nextQuestion": {
-            "en": "What verifiable evidence exists for a 100K-card cluster in China?",
-            "zh": "中国10万卡集群有哪些可验证的证据？",
-            "ja": "中国の10万カード規模クラスターについて、検証可能な証拠は何か？"
-          },
-          "observeNext": {
-            "en": [
-              "Monitor for satellite imagery of mega-data centers",
-              "Watch for procurement leaks indicating accelerator quantities",
-              "Track policy statements on AI infrastructure from Chinese authorities"
-            ],
-            "zh": [
-              "监测大型数据中心的卫星图像",
-              "关注显示加速器数量的采购泄露",
-              "跟踪中国官方关于AI基础设施的政策声明"
-            ],
-            "ja": [
-              "メガデータセンターの衛星画像を監視する",
-              "アクセラレータ数量を示す調達漏洩情報に注目する",
-              "中国当局によるAIインフラに関する政策発表を追跡する"
-            ]
-          }
-        },
-        "provider": "deepseek",
-        "pipeline": "staged-writer-v1",
-        "usage": {
-          "inputTokens": 6912,
-          "outputTokens": 12218,
-          "cachedInputTokens": 4608
-        }
-      },
-      "insightId": "global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making",
-      "contentVersion": "publish-global-2026-08-10-china-s-100k-card-ai-supercluster-a-signal-in-the-making-1786347435753",
-      "completedAt": "2026-08-10T07:37:16.980Z"
+      }
     },
     "china": {
-      "status": "checkpointed",
-      "stage": "analyze",
+      "status": "queued",
+      "stage": "research",
       "attempts": {},
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-08-10T07:39:02.600Z",
-      "researchDraft": {
-        "ok": true,
-        "id": "research-china-2026-08-10-1786347542598",
-        "status": "draft",
-        "researchedAt": "2026-08-10T07:39:02.598Z",
-        "researchDate": "2026-08-10",
-        "scope": "china",
-        "provider": "deepseek",
-        "model": "deepseek-v4-flash",
-        "usage": {
-          "inputTokens": 102811,
-          "outputTokens": 11254,
-          "cachedInputTokens": 79232
-        },
-        "querySummary": "On 2026-08-10, the clearest signal in the research window is Beijing's Aug 7 property easing notice (effective Aug 8), which cut the non-Beijing household purchase requirement inside the 5th Ring Road from 2 years to 1 year, liberalised gift transfers, and doubled provident-fund loan caps. This directly operationalises the July 30 Politburo 'security barrier' language and signals that first-tier curbs are now being dismantled as a demand-stabilisation tool amid weak physical-market data and divergent analyst reads.",
-        "candidates": [
-          {
-            "id": "signal-20260810-beijing-property-easing",
-            "date": "2026-08-08",
-            "domain": "Property / Local Finance",
-            "tags": [
-              "china",
-              "property",
-              "beijing",
-              "purchase-restriction",
-              "provident-fund",
-              "first-tier-city",
-              "housing-policy",
-              "local-finance"
-            ],
-            "suggestedProcessId": "process-china-property-local-finance",
-            "processMatchConfidence": 92,
-            "importance": 88,
-            "novelty": 75,
-            "evidenceStrength": 90,
-            "independentSourceCount": 5,
-            "thesisImpact": 82,
-            "relationshipChange": 74,
-            "stageChange": 70,
-            "contradiction": 28,
-            "content": {
-              "en": {
-                "title": "Beijing dismantles last purchase-restriction barrier: first-tier easing under 'security barrier' framing",
-                "coreFact": "On Aug 7, Beijing issued a 7-measure notice effective Aug 8: the social-security/income-tax requirement for non-Beijing households buying inside the 5th Ring Road was cut from 2 years to 1 year, unifying the citywide requirement; parents transferring homes to adult children no longer need purchaser-qualification checks; provident-fund loan caps were doubled (couples up to 2.4M yuan for first homes, rising to 3.4M with add-ons) with a second loan allowed after prior loans are cleared; and renovation withdrawals up to 250K yuan were introduced.",
-                "whyItMatters": "This is the most concrete execution yet of the July 30 Politburo line that moved property from risk prevention into the 'security barrier' framing with promises of pragmatic incremental policy. It changes the process read because Beijing — the last first-tier purchase-restriction citadel — is now actively using demand-side easing, not just containment, to stabilise the housing system. The next test is whether easing can slow tier-one secondary-price declines (Morgan Stanley cut 2026 forecasts on the same day) or merely fuels land-king anomalies without volume recovery (CLSA argues bottoming accelerates).",
-                "processMatchReason": "Directly maps to process-china-property-local-finance: the measure alters the property-credit channel (provident funds), local demand conditions and the fiscal-land nexus at the highest-tier market, shifting the process from pure balance-sheet repair toward active demand stabilisation."
-              },
-              "zh": {
-                "title": "北京拆除限购最后壁垒：一线松绑纳入‘安全屏障’框架",
-                "coreFact": "8月7日，北京发布3方面7项措施、8月8日起执行：非京籍家庭购买五环内住房的社保/个税年限由2年降至1年，全市统一为1年；父母将住房赠与成年子女不再核查购房资格；公积金贷款上限翻倍（首套家庭最高240万元，叠加多子女、绿色建筑等最高340万元），还清贷款后可再次申请公积金贷款；新增装修提取最高25万元。",
-                "whyItMatters": "这是对7月30日政治局会议将房地产从‘防风险’升格为‘切实筑牢安全屏障’、并承诺‘谋划出台务实管用的增量政策’的最直接落地。它改变了对中国房地产与地方财政转型进程的判断：最后一个一线限购堡垒开始主动用需求端工具托底，而不仅仅是风险管控。接下来要看一线二手房价格跌幅能否被政策对冲——同日摩根士丹利下调2026年房地产预测，而里昂证券认为北京放松将加速市场筑底。",
-                "processMatchReason": "该事件直接对应process-china-property-local-finance：改变公积金信贷渠道、本地购房需求与土地-财政联动，标志着进程从纯资产负债表修复转向主动稳需求阶段。"
-              },
-              "ja": {
-                "title": "北京が最後の購入制限を撤廃へ——第1線都市の緩和は『安全の盾』枠組みで",
-                "coreFact": "2026年8月7日、北京は3分野7項目の通知を発表し8月8日から施行。非北京籍世帯が5環路内で住宅を購入する際の社会保険・個人所得税納付期間を2年から1年に短縮し全市で1年に統一。親から成年子への住宅贈与では購入資格審査を不要に。積立金ローンの上限を倍増し（夫婦で初回240万元、加算条件で最大340万元）、完済後の2回目ローンも可能に。リフォーム引き出し上限25万元も新設。",
-                "whyItMatters": "7月30日の政治局会議が不動産を『リスク防止』から『安全の盾を築く』枠組みへ引き上げ、『実務的な追加政策』を約束したことを最も具体的に実行するもの。最後まで残った第1線都市の購入制限が、封じ込めではなく需要安定化の手段として動き出した点で、プロセス認識を変える。同日にモルガン・スタンレーが2026年予測を下方修正する一方、CLSAは市場底入れ加速を見込むという解釈の分かれが次の焦点。",
-                "processMatchReason": "process-china-property-local-financeに直接的に対応。積立金信用チャネル、住宅需要、土地・財政の連関を最高位市場で変更し、バランスシート修復から積極的な需要安定化へ段階を移す。"
-              }
-            },
-            "sources": [
-              {
-                "title": "《本市进一步优化住房限购政策 非京籍家庭购房社保个税缴纳年限降为1年》",
-                "url": "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260808_4814360.html",
-                "publisher": "北京市人民政府“首都之窗”",
-                "publishedAt": "2026-08-08",
-                "kind": "primary"
-              },
-              {
-                "title": "Beijing flexibiliza restrições à compra de imóveis e eleva limites de empréstimos do fundo de previdência",
-                "url": "http://portuguese.xinhuanet.com/20260808/b8958b3445de47129b19c14c4f792c3e/c.html",
-                "publisher": "Xinhua",
-                "publishedAt": "2026-08-08",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "China's Beijing further relaxes homebuying curb, authorities say",
-                "url": "https://www.reuters.com/world/asia-pacific/chinas-beijing-further-relaxes-homebuying-curb-authorities-say-2026-08-07/",
-                "publisher": "Reuters",
-                "publishedAt": "2026-08-07",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "《政治局会议定调下半年经济工作》",
-                "url": "https://finance.cctv.com/2026/07/30/ARTIhg9Fa5vDxjcT8Y3Bb1z3260730.shtml",
-                "publisher": "央视网/CCTV",
-                "publishedAt": "2026-07-30",
-                "kind": "context"
-              },
-              {
-                "title": "M Stanley Cuts Full-Year CN Property Market Forecasts",
-                "url": "https://www.aastocks.com/en/stocks/news/aafn-con/NOW.1537378/popular-news/AAFN",
-                "publisher": "AASTOCKS",
-                "publishedAt": "2026-08-10",
-                "kind": "reliable_media"
-              }
-            ]
-          }
-        ]
-      }
+      "message": "等待执行",
+      "updatedAt": "2026-08-10T07:30:53.551Z"
     },
     "us": {
       "status": "queued",
@@ -1256,5 +516,5 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 1/3"
+  "message": "WORLD write_ja 自动重试 1/3"
 }
