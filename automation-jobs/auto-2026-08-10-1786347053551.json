@@ -6,14 +6,14 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:30:56.113Z",
+  "updatedAt": "2026-08-10T07:30:57.369Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "research",
       "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-08-10T07:30:53.551Z"
+      "message": "research",
+      "updatedAt": "2026-08-10T07:30:57.369Z"
     },
     "china": {
       "status": "queued",
