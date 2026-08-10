@@ -4,324 +4,98 @@
   "date": "2026-08-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "analyze",
   "createdAt": "2026-08-10T07:30:53.549Z",
-  "updatedAt": "2026-08-10T07:33:52.499Z",
+  "updatedAt": "2026-08-10T07:33:53.279Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "retrying",
+      "stage": "analyze",
       "attempts": {
-        "research": 1
+        "research": 1,
+        "analyze": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-10T07:33:52.499Z",
-      "failedStage": "research",
+      "message": "Automation state write failed: is at 4b1dc5351e9f98aa1250f929319a36482e593aac but expected 91b57f9fb521ea95d235244716cd9938d4f2887f",
+      "updatedAt": "2026-08-10T07:33:53.279Z",
+      "failedStage": "analyze",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-10-1786347133610",
+        "id": "research-global-2026-08-10-1786347232709",
         "status": "draft",
-        "researchedAt": "2026-08-10T07:32:13.610Z",
+        "researchedAt": "2026-08-10T07:33:52.709Z",
         "researchDate": "2026-08-10",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 66063,
-          "outputTokens": 7265,
-          "cachedInputTokens": 43904
+          "inputTokens": 74232,
+          "outputTokens": 13631,
+          "cachedInputTokens": 53504
         },
-        "querySummary": "The dossier contains a single near-dated signal from Aug 9-10, 2026: AI data centers' volatile power demand is physically damaging facilities and destabilizing grids. Primary-source verification is still pending, so the signal is reported with low evidence strength and placeholder source metadata for human review.",
+        "querySummary": "The supplied dossier is thin: it identifies two specific cross-domain leads in the 24-hour window — an NVIDIA–Lancium power-related deal on Aug 9 and an Apple–CXMT memory story on Aug 10. Both point to AI infrastructure constraints shifting from pure compute toward energy and memory supply. Original article metadata was not included in the dossier, so sources are marked as context from the supplied search dossier and this candidate should be treated as a draft requiring human verification.",
         "candidates": [
           {
-            "id": "signal-2026-08-10-ai-power-volatility",
+            "id": "signal-20260810-ai-power-memory",
             "date": "2026-08-10",
-            "domain": "AI, Energy, Grid, Physical Infrastructure",
+            "domain": "AI, Energy, Semiconductors",
             "tags": [
               "ai",
+              "power",
               "datacenter",
-              "electricity",
-              "grid",
-              "power-quality",
-              "infrastructure",
-              "reliability"
+              "memory",
+              "china",
+              "supply-chain",
+              "semiconductor",
+              "geopolitics"
             ],
             "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 70,
-            "importance": 85,
-            "novelty": 80,
-            "evidenceStrength": 25,
-            "independentSourceCount": 1,
-            "thesisImpact": 75,
-            "relationshipChange": 70,
-            "stageChange": 50,
+            "processMatchConfidence": 85,
+            "importance": 82,
+            "novelty": 78,
+            "evidenceStrength": 55,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 88,
+            "stageChange": 65,
             "contradiction": 20,
             "content": {
               "en": {
-                "title": "AI workloads cause volatile power draw that damages data centers and stresses grids",
-                "coreFact": "A dossier signal dated Aug 9-10, 2026 identifies AI facilities' rapid power demand swings as a new source of physical damage to data center equipment and local grid instability. The original primary report is still being verified.",
-                "whyItMatters": "If confirmed, this would shift the AI infrastructure race from a purely capacity problem to a power-quality and reliability problem, raising costs and limiting where AI data centers can be safely built.",
-                "processMatchReason": "It directly updates both the AI infrastructure race and energy-as-strategic-capacity processes: the binding constraint is no longer just megawatts but the ability to absorb volatile AI load profiles."
+                "title": "AI power and memory constraints converge: NVIDIA–Lancium and Apple–CXMT in a 24-hour window",
+                "coreFact": "On 2026-08-09, an NVIDIA–Lancium power-related deal surfaced, tying AI compute expansion to dedicated energy capacity. On 2026-08-10, reports linked Apple with Chinese memory maker CXMT, suggesting a major Western chip customer is evaluating non-allied memory supply. Both leads appeared in the same search dossier, pointing to a cross-domain shift in AI infrastructure and semiconductor sourcing.",
+                "whyItMatters": "If both are verified, the AI infrastructure race is not only a compute race but also a power-procurement and memory-supply race. A leading AI accelerator vendor partnering on power/data-center capacity would confirm energy is being bundled into compute deals. Apple evaluating Chinese memory would challenge the assumption that US and allied buyers will keep memory out of China-related supply chains, with direct consequences for export controls and semiconductor geopolitics.",
+                "processMatchReason": "This candidate directly updates process-ai-infrastructure-race because durable AI capacity now appears to require dedicated power assets; process-energy-security because electricity procurement is shaping where digital capacity can grow; and process-semiconductor-capacity because memory sourcing decisions can alter the geography of chip supply chains."
               },
               "zh": {
-                "title": "AI工作负载导致的波动性用电正在损坏数据中心并冲击电网",
-                "coreFact": "2026年8月9日至10日的档案信号指出，AI设施的快速电力需求波动已成为损坏数据中心设备并导致局部电网不稳定的新原因。原始报告仍在核实中。",
-                "whyItMatters": "如果得到证实，这将把AI基础设施竞赛从单纯的容量问题转变为电能质量与可靠性问题，提高成本并限制AI数据中心的安全选址范围。",
-                "processMatchReason": "它同时更新了AI基础设施竞赛和能源战略能力两个进程：约束条件不再只是兆瓦级容量，而是吸收AI波动性负载的能力。"
+                "title": "AI电力与内存约束交汇：NVIDIA–Lancium与Apple–CXMT在24小时内同时出现",
+                "coreFact": "2026年8月9日，NVIDIA与Lancium之间出现一项与电力相关的重要交易信号，显示AI算力扩张正在与专属能源容量绑定。2026年8月10日，有报道将Apple与中国内存厂商长鑫存储（CXMT）联系在一起，表明一家主要西方芯片客户可能在评估非盟友体系的内存供应。两条线索同时出现在同一检索档案中，指向AI基础设施与半导体采购的跨领域变化。",
+                "whyItMatters": "若两项信号均获证实，AI基础设施竞赛将不仅是算力竞赛，还是电力采购与内存供应竞赛。领先AI加速器厂商在电力/数据中心容量上达成合作，将确认能源正被纳入算力交易。Apple评估中国内存，将挑战美国及盟友买家始终把内存排除在中国相关供应链之外的假设，直接影响出口管制与半导体地缘政治。",
+                "processMatchReason": "该候选信号直接更新“AI基础设施竞赛”：持久AI容量似乎需要专属电力资产；更新“能源成为战略能力”：电力采购正在决定数字容量可增长的地点；更新“半导体产能成为地缘基础设施”：内存采购决策可能改变芯片供应链的地理格局。"
               },
               "ja": {
-                "title": "AIワークロードの変動的な電力消費がデータセンターを損傷し、系統を不安定化する",
-                "coreFact": "2026年8月9〜10日のドシエ信号は、AI施設の急激な電力需要変動がデータセンター機器への物理的損傷と地域系統の不安定化を引き起こす新しい要因であると特定している。元の一次報告書はまだ検証中である。",
-                "whyItMatters": "確認されれば、AIインフラ競争は単なる容量問題から電力品質・信頼性問題へと転換し、コストが上昇し、AIデータセンターを安全に建設できる場所が制限される。",
-                "processMatchReason": "この信号は「AIインフラ競争」と「エネルギー戦略能力」の両プロセスを直接更新する。制約はもはやメガワット容量だけでなく、AIの変動的な負荷プロファイルを吸収できるかどうかに移る。"
+                "title": "AI電力とメモリ制約の収束：NVIDIA–LanciumとApple–CXMTが24時間以内に浮上",
+                "coreFact": "2026年8月9日、NVIDIAとLanciumの間で電力関連の重要契約が浮上し、AI計算の拡大が専用エネルギー容量と結びつく兆候が出た。2026年8月10日には、Appleが中国メモリメーカーCXMTとの関係を報じられ、主要な西側チップ顧客が同盟圏外からのメモリ調達を検討している可能性が示された。両方の手がかりが同一の検索資料に含まれており、AIインフラと半導体調達のクロスドメイン変化を示す。",
+                "whyItMatters": "この2点が検証されれば、AIインフラ競争は単なる計算能力競争ではなく、電力調達とメモリ供給の競争になる。主要なAIアクセラレータ企業が電力/データセンター容量の提携を進めれば、エネルギーが計算取引に組み込まれることが確認される。Appleが中国メモリを評価すれば、米国と同盟国の買い手が中国関連サプライチェーンからメモリを排除し続けるという前提が揺らぎ、輸出管理と半導体地政学に直接影響する。",
+                "processMatchReason": "この候補は「AIインフラ競争」を直接更新する。持久可能なAI容量には専用電力資産が必要になる可能性を示すため。また「エネルギーが戦略的能力になる」では、電力調達がデジタル容量の立地を左右する点で関連する。「半導体容量が地政学インフラになる」では、メモリ調達の決定がチップサプライチェーンの地理を変える可能性があるため。"
               }
             },
             "sources": [
               {
-                "title": "Dossier internal note on AI power volatility",
+                "title": "NVIDIA–Lancium power-related deal (Aug 9)",
                 "url": "",
-                "publisher": "Web search dossier",
-                "publishedAt": "2026-08-10",
+                "publisher": "Supplied web-search dossier",
+                "publishedAt": "2026-08-09",
                 "kind": "context"
               },
               {
-                "title": "Pending primary-source verification for AI grid instability",
+                "title": "Apple–CXMT memory story (Aug 10)",
                 "url": "",
-                "publisher": "Web search dossier",
+                "publisher": "Supplied web-search dossier",
                 "publishedAt": "2026-08-10",
                 "kind": "context"
               }
             ]
           }
         ]
-      },
-      "analyzedDraft": {
-        "ok": true,
-        "id": "research-global-2026-08-10-1786347133610",
-        "status": "draft",
-        "researchedAt": "2026-08-10T07:32:13.610Z",
-        "researchDate": "2026-08-10",
-        "scope": "global",
-        "provider": "deepseek",
-        "model": "deepseek-v4-pro",
-        "usage": {
-          "inputTokens": 66063,
-          "outputTokens": 7265,
-          "cachedInputTokens": 43904
-        },
-        "querySummary": "The dossier contains a single near-dated signal from Aug 9-10, 2026: AI data centers' volatile power demand is physically damaging facilities and destabilizing grids. Primary-source verification is still pending, so the signal is reported with low evidence strength and placeholder source metadata for human review.",
-        "candidates": [
-          {
-            "id": "signal-2026-08-10-ai-power-volatility",
-            "date": "2026-08-10",
-            "domain": "AI, Energy, Grid, Physical Infrastructure",
-            "tags": [
-              "ai",
-              "datacenter",
-              "electricity",
-              "grid",
-              "power-quality",
-              "infrastructure",
-              "reliability"
-            ],
-            "suggestedProcessId": "process-ai-infrastructure-race",
-            "processMatchConfidence": 70,
-            "importance": 85,
-            "novelty": 80,
-            "evidenceStrength": 25,
-            "independentSourceCount": 0,
-            "thesisImpact": 75,
-            "relationshipChange": 70,
-            "stageChange": 50,
-            "contradiction": 20,
-            "content": {
-              "en": {
-                "title": "AI workloads cause volatile power draw that damages data centers and stresses grids",
-                "coreFact": "A dossier signal dated Aug 9-10, 2026 identifies AI facilities' rapid power demand swings as a new source of physical damage to data center equipment and local grid instability. The original primary report is still being verified.",
-                "whyItMatters": "If confirmed, this would shift the AI infrastructure race from a purely capacity problem to a power-quality and reliability problem, raising costs and limiting where AI data centers can be safely built.",
-                "processMatchReason": "It directly updates both the AI infrastructure race and energy-as-strategic-capacity processes: the binding constraint is no longer just megawatts but the ability to absorb volatile AI load profiles."
-              },
-              "zh": {
-                "title": "AI工作负载导致的波动性用电正在损坏数据中心并冲击电网",
-                "coreFact": "2026年8月9日至10日的档案信号指出，AI设施的快速电力需求波动已成为损坏数据中心设备并导致局部电网不稳定的新原因。原始报告仍在核实中。",
-                "whyItMatters": "如果得到证实，这将把AI基础设施竞赛从单纯的容量问题转变为电能质量与可靠性问题，提高成本并限制AI数据中心的安全选址范围。",
-                "processMatchReason": "它同时更新了AI基础设施竞赛和能源战略能力两个进程：约束条件不再只是兆瓦级容量，而是吸收AI波动性负载的能力。"
-              },
-              "ja": {
-                "title": "AIワークロードの変動的な電力消費がデータセンターを損傷し、系統を不安定化する",
-                "coreFact": "2026年8月9〜10日のドシエ信号は、AI施設の急激な電力需要変動がデータセンター機器への物理的損傷と地域系統の不安定化を引き起こす新しい要因であると特定している。元の一次報告書はまだ検証中である。",
-                "whyItMatters": "確認されれば、AIインフラ競争は単なる容量問題から電力品質・信頼性問題へと転換し、コストが上昇し、AIデータセンターを安全に建設できる場所が制限される。",
-                "processMatchReason": "この信号は「AIインフラ競争」と「エネルギー戦略能力」の両プロセスを直接更新する。制約はもはやメガワット容量だけでなく、AIの変動的な負荷プロファイルを吸収できるかどうかに移る。"
-              }
-            },
-            "sources": [
-              {
-                "title": "Dossier internal note on AI power volatility",
-                "url": "",
-                "publisher": "Web search dossier",
-                "publishedAt": "2026-08-10",
-                "kind": "context",
-                "id": "signal-2026-08-10-ai-power-volatility-source-1",
-                "role": "context"
-              },
-              {
-                "title": "Pending primary-source verification for AI grid instability",
-                "url": "",
-                "publisher": "Web search dossier",
-                "publishedAt": "2026-08-10",
-                "kind": "context",
-                "id": "signal-2026-08-10-ai-power-volatility-source-2",
-                "role": "context"
-              }
-            ],
-            "currentEventSourceCount": 0,
-            "corroboratingSourceCount": 0,
-            "contextSourceCount": 2,
-            "claimSourceIds": [],
-            "analysis": {
-              "matchedProcessId": "process-ai-infrastructure-race",
-              "processMatchConfidence": 70,
-              "impact": "updates",
-              "dailyState": "no_new_global_insight",
-              "materialChangeScore": 58,
-              "publishThresholdMet": false,
-              "scoreWasNormalized": false,
-              "triggerSourceCount": 0,
-              "corroboratingSourceCount": 0,
-              "contextSourceCount": 2,
-              "rationale": "The signal identifies a potentially significant shift — AI power demand volatility as a physical-damage and grid-reliability constraint, not merely a capacity issue. If confirmed, this would materially update both process-ai-infrastructure-race and process-energy-security. However, evidence strength is critically low: zero independent sources, zero trigger sources within the research window, and only two context sources, both of which are internal dossier notes explicitly stating the primary report is pending verification. The candidate's own analysis flags no corroboration. Without any verified or independently sourced reporting, the claim cannot be distinguished from an unconfirmed lead. The novelty (80) and potential impact are high, but the evidence base does not meet the threshold for publish_new or update_living. This should be monitored for follow-up if primary-source verification materializes.",
-              "warnings": [
-                "No trigger source falls inside the research window.",
-                "Fewer than two current or corroborating sources.",
-                "Zero independent sources; signal rests entirely on unverified internal dossier notes.",
-                "No trigger source within the 2026-08-10 research window.",
-                "Primary report explicitly pending verification — facts are unconfirmed.",
-                "Potential for high impact if verified, but currently insufficient for any global process change determination."
-              ],
-              "candidateId": "signal-2026-08-10-ai-power-volatility"
-            }
-          }
-        ],
-        "analysisProvider": "deepseek"
-      },
-      "writeBase": {
-        "ok": true,
-        "stage": "base",
-        "baseDraft": {
-          "insightId": "insight-ai-power-volatility-2026-08-10",
-          "slug": "ai-power-volatility-data-center-damage",
-          "parentInsightId": null,
-          "previousInsightId": null,
-          "en": {
-            "cover": {
-              "eyebrow": "Global Infrastructure",
-              "secondaryEyebrow": "Energy & AI",
-              "title": "AI's Volatile Power Diet Could Damage the Data Centers It Feeds",
-              "summary": "Rapid power demand swings from AI workloads are flagged as a new risk to data center equipment and grid stability, potentially reshaping where and how AI infrastructure can be built."
-            },
-            "question": {
-              "lead": "The AI infrastructure race has focused on securing enough power capacity, but a new signal suggests the problem may shift to power quality.",
-              "title": "Is AI power volatility a bigger threat than total consumption?",
-              "footnote": "Based on an unverified dossier signal dated August 9–10, 2026."
-            },
-            "signals": {
-              "title": "Signals",
-              "sourceNote": "Sources: Internal web-search dossier notes.",
-              "items": [
-                {
-                  "label": "Signal 1",
-                  "title": "Internal dossier flags AI power volatility as damage risk",
-                  "body": "An internal dossier note identifies rapid power demand swings from AI workloads as a potential cause of physical damage to data center equipment and local grid instability.",
-                  "whyImportant": "If confirmed, this shifts the AI infrastructure constraint from megawatt capacity to power quality and reliability.",
-                  "evidence": {
-                    "title": "Internal assessment of AI power volatility impact",
-                    "description": "A dossier note describes AI facilities’ rapid power demand swings potentially damaging equipment and destabilizing grids; primary source verification is pending.",
-                    "confidence": "hypothesis",
-                    "sourceIds": [
-                      "signal-2026-08-10-ai-power-volatility-source-1"
-                    ]
-                  }
-                },
-                {
-                  "label": "Signal 2",
-                  "title": "Primary-source verification pending for AI grid instability claim",
-                  "body": "The dossier acknowledges that the original primary report on AI-induced grid instability has not yet been independently verified.",
-                  "whyImportant": "Until verified, the claim remains an unconfirmed lead that could either unlock a major infrastructure insight or be discarded.",
-                  "evidence": {
-                    "title": "Awaiting verification of primary source",
-                    "description": "The dossier note states the primary report on AI power volatility is pending verification.",
-                    "confidence": "hypothesis",
-                    "sourceIds": [
-                      "signal-2026-08-10-ai-power-volatility-source-2"
-                    ]
-                  }
-                }
-              ]
-            },
-            "pattern": {
-              "title": "From Capacity to Quality: A New Constraint for AI Infrastructure",
-              "before": "AI power demand was treated as a steady, growing total to be met with additional generation and grid connections.",
-              "shift": "Dossier signal identifies that AI workloads cause rapid, volatile power swings that physically damage data center equipment and destabilize local grids.",
-              "now": "The binding constraint is no longer just total megawatts but the ability to absorb and mitigate AI’s volatile load profiles.",
-              "conclusion": "AI infrastructure planning must incorporate power-quality and reliability metrics, potentially limiting viable locations and increasing costs."
-            },
-            "insight": {
-              "title": "Power Volatility, Not Just Volume, Could Gate AI Expansion",
-              "formula": "AI growth + unmanaged power swings = equipment damage + grid instability → new reliability barrier",
-              "explanation": "The emerging risk is that the very process of AI computation introduces electrical instability that existing data center and grid architectures are not designed to handle, turning power from a commodity into a critical quality-of-service input."
-            },
-            "observe": {
-              "title": "What to Watch",
-              "items": [
-                {
-                  "label": "Verification",
-                  "prompt": "Has the primary report been verified or independently corroborated?",
-                  "meta": "Critical next step"
-                },
-                {
-                  "label": "Incidents",
-                  "prompt": "Are data center operators reporting equipment failures linked to load swings?",
-                  "meta": "Field evidence"
-                },
-                {
-                  "label": "Grid response",
-                  "prompt": "Do grid operators begin imposing new power-quality requirements on AI data centers?",
-                  "meta": "Regulatory pivot"
-                }
-              ],
-              "ending": "Watch for the first verified reports linking AI load volatility to physical damage or grid instability—confirmation would fundamentally change the AI infrastructure investment calculus."
-            }
-          },
-          "dailyStateEn": {
-            "label": "No new global insight",
-            "decisionTitle": "Monitor for verification",
-            "decisionSummary": "The signal is promising but currently unverified; continue monitoring for primary source confirmation.",
-            "thresholdReason": "Evidence strength is low (25/100) and rests on unverified internal notes; no independent or verified sources available.",
-            "observeNext": [
-              "Primary-source verification of AI power volatility damage claims",
-              "Reports of data center equipment failures linked to AI load swings",
-              "Grid operator statements on AI-induced instability"
-            ]
-          },
-          "processStage": "structural",
-          "processContentEn": {
-            "title": "The AI infrastructure race",
-            "description": "The race to build AI data centers has primarily been constrained by access to sufficient power capacity. A new signal suggests that the binding constraint could shift to power quality and reliability due to AI workloads’ volatile power draw.",
-            "implication": "If verified, the AI infrastructure buildout would face additional site-selection and engineering hurdles, potentially slowing expansion and raising costs globally."
-          },
-          "nextQuestionEn": "What would verified evidence of AI power volatility damage mean for data center design standards and grid interconnection requirements?",
-          "observeNextEn": [
-            "Independent verification of the primary report",
-            "Incidents of AI-related equipment failure",
-            "New grid interconnection standards for variable loads"
-          ]
-        },
-        "model": "deepseek-v4-pro",
-        "usage": {
-          "inputTokens": 2369,
-          "outputTokens": 4167,
-          "cachedInputTokens": 1152
-        }
       }
     },
     "china": {
@@ -378,5 +152,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3"
+  "message": "WORLD analyze 自动重试 1/3"
 }
