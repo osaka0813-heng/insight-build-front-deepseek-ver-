@@ -6,91 +6,111 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T06:58:58.971Z",
+  "updatedAt": "2026-08-11T06:59:00.104Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "retrying",
       "stage": "analyze",
-      "attempts": {},
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-08-11T06:58:58.971Z",
+      "attempts": {
+        "analyze": 1
+      },
+      "message": "Automation state write failed: is at aca7db773ef55596e89ebac21d28f9ea21bcafdd but expected 9e3a2d83208465a994642f6af1d9f6f4bddc650d",
+      "updatedAt": "2026-08-11T06:59:00.104Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-09-1786431538965",
+        "id": "research-global-2026-08-09-1786431539476",
         "status": "draft",
-        "researchedAt": "2026-08-11T06:58:58.965Z",
+        "researchedAt": "2026-08-11T06:58:59.476Z",
         "researchDate": "2026-08-09",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 93621,
-          "outputTokens": 13104,
-          "cachedInputTokens": 78080
+          "inputTokens": 163973,
+          "outputTokens": 10698,
+          "cachedInputTokens": 136320
         },
-        "querySummary": "The supplied web-search dossier contains only a high-level verification note, identifying the US Senate Russia sanctions bill as the most consequential cross-domain candidate (geopolitics, energy, trade, capital) and mentioning AI/energy infrastructure items as secondary. It does not include article-level text, URLs, publishers, or confirmed independent sources. The draft below reflects the single strongest candidate but should be treated as unverified pending source retrieval.",
+        "querySummary": "The search identified one dominant cross-domain candidate in the 24-hour window: Chinese state media, citing NDRC, announced that the fully-domestic 100,000-card Dawning 8000 AI supercluster is now operational, marking a new stage of national compute build-out with ~$560B planned investment and 177% YoY growth in national AI compute. Runner-up signals—Hormuz escalation, Amazon's off-grid Texas gas plant, and Argentina's swap renewal—were considered but are either escalations inside already-tracked processes, incremental confirmations, or renewals with lower structural impact.",
         "candidates": [
           {
-            "id": "candidate-us-senate-russia-sanctions-bill",
+            "id": "signal-2026-08-09-china-domestic-100k-ai-supercluster",
             "date": "2026-08-09",
-            "domain": "Geopolitics; Energy; Macro/Capital",
+            "domain": "AI; Energy; Geopolitics; Capital",
             "tags": [
-              "geopolitics",
-              "energy",
+              "ai",
+              "compute",
+              "datacenter",
+              "semiconductor",
+              "export-control",
+              "china",
+              "electricity",
               "capital",
-              "sanctions",
-              "russia",
-              "trade",
-              "legislation",
-              "finance"
+              "geopolitics"
             ],
-            "suggestedProcessId": "process-energy-security",
-            "processMatchConfidence": 75,
-            "importance": 85,
-            "novelty": 75,
-            "evidenceStrength": 25,
-            "independentSourceCount": 1,
-            "thesisImpact": 80,
-            "relationshipChange": 85,
-            "stageChange": 70,
-            "contradiction": 10,
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "processMatchConfidence": 90,
+            "importance": 92,
+            "novelty": 85,
+            "evidenceStrength": 80,
+            "independentSourceCount": 3,
+            "thesisImpact": 90,
+            "relationshipChange": 82,
+            "stageChange": 75,
+            "contradiction": 70,
             "content": {
               "en": {
-                "title": "US Senate Russia sanctions bill ties energy trade to capital and geopolitical controls",
-                "coreFact": "A U.S. Senate bill targeting Russian energy revenues and the financial system has advanced, adding a legislative layer that links energy trade, capital flows, and geopolitical control.",
-                "whyItMatters": "If enacted, this bill would make access to energy exports and financial infrastructure a deliberate geopolitical lever, reinforcing the trend in which energy and technology capacity are governed by security policy rather than market forces.",
-                "processMatchReason": "The bill is a concrete instance of energy access becoming strategic capacity and geopolitical control being exercised through financial and energy infrastructure — matching the 'Energy becomes strategic capacity' process."
+                "title": "China's first fully-domestic 100,000-card AI supercluster goes operational, NDRC flags new compute build-out stage",
+                "coreFact": "On Aug 9, 2026, CCTV and other Chinese state outlets reported that the Dawning 8000 supercluster at the Zhengzhou hub of China's national supercomputing internet is the first AI supercluster built from 100,000 domestically produced chips; NDRC says this marks a new stage of 100,000-card-class deployment. National AI compute reached 2,185 exaflops by end-June 2026, up 177% YoY, and the NDRC State Information Center expects about 4 trillion yuan (~$560B) in new direct investment during the 15th Five-Year Plan (2026–2030).",
+                "whyItMatters": "This is the strongest cross-domain signal in the 24-hour window because it directly tests the premise of the technology-control process: US-led export controls assume China's advanced AI compute can be durably capped. A fully domestic 100k-card cluster, coordinated with a national scheduling platform and ~$560B planned investment, indicates the control regime is being absorbed by a parallel domestic supply chain rather than limiting China's compute ceiling. It also makes global AI capacity more explicitly bipolar and re-rates what 'capacity' means in allied supply-chain planning.",
+                "processMatchReason": "The candidate corresponds to 'technology control becomes geopolitical infrastructure': it provides concrete evidence that the geography of technological growth is being reshaped in response to controls, requiring the thesis to account for a fully domestic large-scale compute ecosystem rather than assuming export controls cap the ceiling."
               },
               "zh": {
-                "title": "美国参议院对俄制裁法案将能源贸易与资本及地缘政治控制挂钩",
-                "coreFact": "一项以俄罗斯能源收入和金融体系为目标的美国参议院法案已取得进展，为能源贸易、资本流动和地缘政治控制增加了立法层面的约束。",
-                "whyItMatters": "若获通过，该法案将使能源出口和金融基础设施的准入成为蓄意的地缘政治杠杆，强化能源和技术能力受安全政策而非市场力量支配的趋势。",
-                "processMatchReason": "该法案是能源准入成为战略能力、地缘政治控制通过金融与能源基础设施施行的具体例证，与“能源成为战略能力”进程吻合。"
+                "title": "中国首个全自主10万卡AI超集群投用，NDRC称进入算力建设新阶段",
+                "coreFact": "2026年8月9日，央视及其他中国官方媒体报道，位于郑州国家枢纽的“曙光8000”超集群是首个由10万颗国产芯片构建的AI超集群；国家发改委表示，这标志着中国进入“10万卡级部署新阶段”。截至2026年6月底，全国AI算力达2185 Exaflops，同比增长177%；国家信息中心预计“十五五”期间新增直接投资约4万亿元人民币（约5600亿美元）。",
+                "whyItMatters": "这是24小时内最具跨领域影响、可能改变世界进程判断的信号：它直接检验出口管制的前提，即美国主导的管制假设能长期限制中国先进算力。全自主10万卡集群配合全国算力调度平台以及约4万亿元投资计划，说明管制正被平行的国内供应链吸收，而非直接封顶中国的算力天花板；全球AI容量也进一步表现为双极格局，并需要重新评估盟友供应链框架下的“产能”含义。",
+                "processMatchReason": "对应的是“技术控制成为地缘政治基础设施”进程：该信号提供了具体证据，说明技术增长的地理格局正因管制而重塑，相关判断需要纳入全自主大规模算力生态，而不能假设出口管制会封顶算力上限。"
               },
               "ja": {
-                "title": "米上院の対ロシア制裁法案、エネルギー貿易と資本・地政学統制を結びつける",
-                "coreFact": "ロシアのエネルギー収入と金融システムを標的とする米上院法案が前進し、エネルギー貿易・資本移動・地政学統制に立法上の制約を加える動きとなった。",
-                "whyItMatters": "成立すれば、エネルギー輸出と金融インフラへのアクセスが意図的な地政学的レバーとなり、エネルギー・技術容量が市場原理ではなく安全保障政策によって支配される流れを強化する。",
-                "processMatchReason": "エネルギーアクセスが戦略的能力となり、金融・エネルギーインフラを通じて地政学的統制が行使される具体例であり、「エネルギーが戦略的能力になる」プロセスに合致する。"
+                "title": "中国初の完全国産10万カードAIスーパークラスター稼働開始、NDRCが新段階と表明",
+                "coreFact": "2026年8月9日、中国国営メディア（CCTVなど）は、鄭州国家ハブにある「Dawning 8000（Dengfeng）」スーパークラスターが国産チップ10万枚で構成された初のAIスーパークラスターであり、国家発展改革委員会（NDRC）が「10万カード級展開の新段階」に入ったと表明したと報じた。2026年6月末時点の全国AI計算能力は2,185エクサフロップス（前年比177%増）。NDRC国家情報センターは第15次五カ年計画期間（2026〜2030年）に約4兆元（約5,600億米ドル）の新規直接投資を見込む。",
+                "whyItMatters": "これは24時間枠で最も重要なクロスドメインシグナルである。米国主導の輸出管理が中国の高度なAI計算能力を長期的に制限できるという前提を直接試すものだからだ。完全国産の10万カードクラスターは、全国スケジューリングプラットフォームや約4兆元の投資計画と相まって、輸出管理が中国の計算能力の上限を直接封じるのではなく、並行する国内サプライチェーンに吸収されつつあることを示す。また、世界のAIキャパシティがより明示的に二極化し、同盟国サプライチェーンにおける「キャパシティ」の意味も再評価を迫られる。",
+                "processMatchReason": "この候補は「技術管理が地政学インフラとなる」プロセスに対応する。輸出管理への対応として技術成長の地理が再形成されている具体的証拠であり、輸出管理が上限を封じると想定するのではなく、完全国産の大規模計算エコシステムを前提に組み込む必要がある。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier — priority candidate: US Senate Russia sanctions bill",
-                "url": "",
-                "publisher": "Web search dossier",
-                "kind": "context"
+                "title": "多个算力节点迎来新一轮扩容 全国算力'一盘棋''一张网'正不断成型",
+                "url": "https://news.cctv.com/2026/08/09/ARTIuYg9GmXKUsD9qIX0lqir260809.shtml",
+                "publisher": "CCTV News (央视网)",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
               },
               {
-                "title": "Web search dossier — cross-domain verification note (geopolitics, energy, trade, capital)",
-                "url": "",
-                "publisher": "Web search dossier",
-                "kind": "context"
+                "title": "China launches massive homegrown AI supercomputer cluster",
+                "url": "https://www.cctvplus.com/news/20260809/8493474.shtml",
+                "publisher": "CCTV+",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Clusters and fibers: China accelerates AI build-out",
+                "url": "https://peoplesdaily.pdnews.cn/china/er/30052888380",
+                "publisher": "People's Daily",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "首个全国产10万卡AI超集群投用 全国算力'一张网'加速成形",
+                "url": "http://www.jingjiribao.cn/static/detail.jsp?id=675137",
+                "publisher": "Economic Daily (经济日报)",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
               }
             ]
           }
         ]
-      }
+      },
+      "failedStage": "analyze"
     },
     "china": {
       "status": "queued",
@@ -146,5 +166,5 @@
       }
     ]
   },
-  "message": "GLOBAL 从 research 断点继续"
+  "message": "WORLD analyze 自动重试 1/3"
 }
