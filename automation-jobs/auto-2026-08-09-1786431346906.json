@@ -4,19 +4,114 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T07:00:23.243Z",
+  "updatedAt": "2026-08-11T07:00:29.892Z",
   "scopes": {
     "global": {
-      "status": "retrying",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
-        "research": 2
+        "research": 1
       },
-      "message": "DeepSeek Research JSON contains no candidates.",
-      "updatedAt": "2026-08-11T07:00:23.243Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-11T07:00:29.892Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-09-1786431629884",
+        "status": "draft",
+        "researchedAt": "2026-08-11T07:00:29.884Z",
+        "researchDate": "2026-08-09",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 135546,
+          "outputTokens": 11270,
+          "cachedInputTokens": 111744
+        },
+        "querySummary": "Past 24 hours: Amazon confirmed it is financing a 7.65 GW private natural-gas plant in Pecos County, Texas, to power its own AI data center campus — the largest gas plant ever built in the US and potentially the largest single GHG source in the country. Independent estimates put the hyperscaler behind-the-meter power project pipeline at ~97 GW. This marks a structural phase change in how AI infrastructure and strategic energy capacity are being built.",
+        "candidates": [
+          {
+            "id": "candidate-2026-08-09-amazon-gwranch",
+            "date": "2026-08-09",
+            "domain": "Energy",
+            "tags": [
+              "ai",
+              "compute",
+              "datacenter",
+              "electricity",
+              "energy",
+              "grid",
+              "generation",
+              "capital",
+              "climate",
+              "texas"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 95,
+            "importance": 95,
+            "novelty": 88,
+            "evidenceStrength": 82,
+            "independentSourceCount": 4,
+            "thesisImpact": 95,
+            "relationshipChange": 90,
+            "stageChange": 90,
+            "contradiction": 85,
+            "content": {
+              "en": {
+                "title": "Hyperscalers internalize power: Amazon backs 7.65 GW private Texas gas plant for own AI campus",
+                "coreFact": "On August 7, 2026, Amazon confirmed it is financing GW Ranch, a private natural-gas power plant in Pecos County, Texas, to power its own AI data center campus. Permits cover 35 turbines and 7.65 GW — larger than any operating US gas plant — with permitted emissions above 30 million tonnes CO2/year, potentially the largest single GHG source in the US. Cleanview estimates roughly 97 GW of behind-the-meter power projects are in the pipeline across hyperscalers.",
+                "whyItMatters": "Amazon is moving from buying grid power to owning power generation at utility scale. This shifts the binding constraint of the AI race from grid interconnection to private capital, permitting, and fuel; creates a parallel, hyperscaler-controlled electricity system; and hardens the contradiction between AI expansion and climate commitments.",
+                "processMatchReason": "This is a phase change in the energy-as-strategic-capacity process: strategic power capacity is being built off-grid and behind the meter by AI companies, not utilities, while also converting balance-sheet capital directly into generation capacity in the AI infrastructure race."
+              },
+              "zh": {
+                "title": "超大规模云厂商自建电力：亚马逊为得州自有AI园区出资建设7.65GW私营天然气电厂",
+                "coreFact": "2026年8月7日，亚马逊确认出资建设位于得克萨斯州佩科斯县的GW Ranch私营天然气电厂，为其AI数据中心园区供电。许可证涵盖35台涡轮机、7.65GW装机，超过美国现有任何天然气电厂；许可排放量每年超过3000万吨二氧化碳，可能成为美国最大的单一温室气体排放源。Cleanview估计，各超大规模云厂商规划中的表后电力项目总计约97GW。",
+                "whyItMatters": "亚马逊正从购买电网电力转向以公用事业规模拥有发电能力。AI竞赛的约束条件正从电网接入转向私人资本、许可与燃料；一个由超大规模云厂商控制的平行电力系统正在形成；AI扩张与气候承诺之间的矛盾进一步凸显。",
+                "processMatchReason": "这是“能源成为战略产能”进程的相变：战略电力产能正由AI企业而非公用事业以表后方式自建；同时，在AI基础设施竞赛中，资产负债表上的资本正直接转化为发电能力。"
+              },
+              "ja": {
+                "title": "ハイパースケーラーが電源を内製化：Amazon、自社AIキャンパス向けに7.65GWの自家用ガス発電所を支援",
+                "coreFact": "2026年8月7日、Amazonはテキサス州ペコス郡のGW Ranch天然ガス発電所への融資を確認した。許可は35基のタービン、7.65GWに及び、米国で運転中のどのガス発電所よりも大きい。年間3,000万トン超のCO2排出が許可され、米国最大級の単一温室効果ガス排出源となる可能性がある。Cleanviewは、ハイパースケーラー全体で約97GWのビハインド・ザ・メーター電源プロジェクトが計画されていると推定する。",
+                "whyItMatters": "Amazonは電力購入から、公益事業規模での発電所所有へと移行している。AI競争の制約は、系統連系から民間資本・許認可・燃料へと移り、ハイパースケーラー支配の並行電力システムが形成されつつある。AI拡大と気候コミットメントの矛盾も鮮明になっている。",
+                "processMatchReason": "これは「エネルギーが戦略的キャパシティになる」プロセスの相転移だ。戦略的電力容量が公益事業ではなくAI企業によってビハインド・ザ・メーターで建設され、AIインフラ競争においてバランスシート資本が直接発電能力に転換される。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Amazon behind massive private gas plant for new data centers",
+                "url": "https://www.bssnews.net/international/412686",
+                "publisher": "BSS/AFP",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Amazon acquires 8,000-acre site in Pecos, Texas, for natural gas powered behind-the-meter data center – report",
+                "url": "https://www.datacenterdynamics.com/en/news/amazon-acquires-8000-acre-site-in-pecos-texas-for-natural-gas-powered-behind-the-meter-data-center-report/",
+                "publisher": "Data Center Dynamics",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Amazon to build largest U.S. gas plant for AI",
+                "url": "https://forklog.com/en/news/amazon-to-build-largest-u-s-gas-plant-for-ai/",
+                "publisher": "ForkLog",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Pour alimenter ses data centers, Amazon construit une gigantesque centrale à gaz",
+                "url": "https://www.latribune.fr/article/entreprises-finance/energie-environnement/63809701495574/pour-alimenter-ses-data-centers-amazon-construit-une-gigantesque-centrale-a-gaz",
+                "publisher": "La Tribune",
+                "publishedAt": "2026-08-07",
+                "kind": "reliable_media"
+              }
+            ]
+          }
+        ]
+      }
     },
     "china": {
       "status": "queued",
@@ -72,5 +167,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD research 自动重试 1/3"
 }
