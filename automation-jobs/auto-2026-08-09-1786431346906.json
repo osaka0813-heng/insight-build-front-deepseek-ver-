@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T06:58:36.728Z",
+  "updatedAt": "2026-08-11T06:58:37.917Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-08-11T06:58:36.728Z",
+      "message": "DeepSeek Research JSON contains no candidates.",
+      "updatedAt": "2026-08-11T06:58:37.917Z",
       "failedStage": "research"
     },
     "china": {
