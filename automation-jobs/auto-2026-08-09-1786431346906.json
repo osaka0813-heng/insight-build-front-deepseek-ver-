@@ -6,7 +6,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T07:00:31.203Z",
+  "updatedAt": "2026-08-11T07:00:33.479Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -16,7 +16,7 @@
         "write_base": 1
       },
       "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-11T07:00:31.203Z",
+      "updatedAt": "2026-08-11T07:00:33.479Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-09-1786431498364",
@@ -282,154 +282,158 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": "research-global-2026-08-09-1786431498364",
-          "slug": "us-japan-yen-defense-dollar-backstop",
+          "insightId": null,
+          "slug": "us-japan-yen-defense-dollar-system-backstop",
           "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "Global Macro",
-              "secondaryEyebrow": "Dollar System Architecture",
-              "title": "US–Japan joint yen defense creates a new dollar-system backstop architecture — funded by unannounced US euro sales",
-              "summary": "On July 31, 2026, coordinated intervention and a planned FIMA repo backstop mark a structural shift in dollar liquidity management, sidelining European consultation."
+              "eyebrow": "Global Finance",
+              "secondaryEyebrow": "US–Japan Alliance",
+              "title": "Joint Yen Defense Creates New Dollar-System Backstop Architecture",
+              "summary": "The US and Japan executed their first joint FX intervention since 2011, breaking post‑WWII norms by funding it with unannounced euro sales and signaling a future backstop role for the Fed’s FIMA repo facility. This realignment of the dollar system is a structural shift with far‑reaching cost‑of‑capital implications."
             },
             "question": {
-              "lead": "How is the US–Japan yen defense reshaping the global dollar system?",
-              "title": "Is a new dollar backstop architecture emerging?",
-              "footnote": "First joint FX action since 2011 breaks post‑WWII norms."
+              "lead": "What is the hidden architecture taking shape beneath the dollar system?",
+              "title": "How a US–Japan FX intervention is quietly redrawing the lines of global monetary power",
+              "footnote": "Based on six sources spanning government statements, financial media, and analysis from August 2026."
             },
             "signals": {
-              "title": "Key Signals",
-              "sourceNote": "Curated from primary and reliable media sources across geographies.",
+              "title": "Signals",
+              "sourceNote": "Source IDs correspond to the evidence package provided.",
               "items": [
                 {
-                  "label": "Official Joint Intervention",
-                  "title": "Japan MoF confirms coordinated yen buying with US Treasury",
-                  "body": "Japan’s Ministry of Finance announced on August 3 that it bought yen in coordination with the US Treasury, the first such joint intervention since 2011 and the first US FX action in 28 years.",
-                  "whyImportant": "Establishes a direct US–Japan FX coordination channel, moving beyond G7 multilateral frameworks.",
+                  "label": "Joint Intervention",
+                  "title": "US and Japan coordinate yen buying for the first time in more than a decade",
+                  "body": "On July 31, 2026, Japan’s Ministry of Finance bought yen in coordination with the US Treasury — the first joint intervention since 2011 and the first US FX action in 28 years.",
+                  "whyImportant": "It marks a return to active US participation in currency markets and signals a new phase of alliance finance, moving beyond ad‑hoc coordination.",
                   "evidence": {
-                    "title": "Statement by Minister of Finance Katayama",
-                    "description": "Official Japanese government announcement of the July 31 intervention.",
+                    "title": "Official statement confirms joint action",
+                    "description": "Japan MoF statement explicitly describes coordinated intervention with US Treasury, confirming the action and its intent to stabilize yen.",
                     "confidence": "verified",
                     "sourceIds": [
-                      "signal-us-japan-yen-defense-dollar-system-backstop-source-1"
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-1",
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-6"
                     ]
                   }
                 },
                 {
-                  "label": "Fed Backstop via FIMA",
-                  "title": "Japan plans to use Fed’s FIMA repo to avoid Treasury sales",
-                  "body": "Japan’s MoF has formally announced plans to use the Federal Reserve’s FIMA repo facility, effectively turning the Fed into a liquidity backstop against allied Treasury holdings rather than allowing outright sales of its ~$1.1 trillion position.",
-                  "whyImportant": "Transforms the Fed’s role into a dollar-system stabilizer for allies, reducing the risk of disruptive Treasury market moves.",
+                  "label": "Euro‑Funded Intervention",
+                  "title": "US sells euros to fund yen purchases, breaking ECB prior‑consultation norm",
+                  "body": "The New York Fed sold euros from the Treasury’s Exchange Stabilization Fund to finance the yen buying and notified the ECB only after the fact, bypassing the post‑WWII norm of prior consultation among Western central banks.",
+                  "whyImportant": "It demonstrates a shift in alliance hierarchy, where US–Japan monetary coordination takes precedence over US–EU consultation, and introduces a new pattern of unilateral US actions within G7 frameworks.",
                   "evidence": {
-                    "title": "How Bessent is pushing Warsh's Fed to expand backstop for Japan's yen defense",
-                    "description": "CNBC report on the FIMA repo plan and the political push behind it.",
-                    "confidence": "developing",
+                    "title": "Media reports detail ECB notification after the fact",
+                    "description": "SBS News and Reuters report that the US used euro sales without prior ECB consultation, describing it as a break from tradition and undercutting G7's historic FX role.",
+                    "confidence": "verified",
                     "sourceIds": [
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-4",
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "FIMA Repo Backstop",
+                  "title": "Japan plans to use Fed’s FIMA repo facility, turning the Fed into a lender of last resort for allied FX interventions",
+                  "body": "Japan’s Ministry of Finance formally announced it intends to use the Federal Reserve’s FIMA repo facility for future yen‑defense operations, effectively making the Fed a backstop against allied Treasury sales rather than forcing Japan to sell its ~$1.1 trillion US Treasury holdings.",
+                  "whyImportant": "This institutionalizes the Fed’s role as a liquidity provider for allied FX interventions, fundamentally changing the relationship between the US central bank and foreign official Treasury holders, and creating a built‑in stabilizer for the ~$29 trillion Treasury market.",
+                  "evidence": {
+                    "title": "Japan MoF and CNBC confirm FIMA repo usage plan",
+                    "description": "Japan MoF statement and CNBC reporting reveal the plan to use the FIMA repo facility, detailing Treasury Secretary Bessent’s push for Fed expansion of the backstop.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-1",
                       "signal-us-japan-yen-defense-dollar-system-backstop-source-2"
                     ]
                   }
                 },
                 {
-                  "label": "ECB Norm Breach",
-                  "title": "US sold euros to fund intervention, notified ECB only after the fact",
-                  "body": "The New York Fed sold euros from the Treasury’s Exchange Stabilization Fund to finance yen purchases and notified the ECB only afterward, breaking the post‑WWII prior‑consultation norm among Western central banks.",
-                  "whyImportant": "Signals a departure from transatlantic monetary coordination, elevating the US–Japan axis at Europe’s expense.",
+                  "label": "Market Pressures",
+                  "title": "Intervention takes place against a backdrop of 19‑year high long‑dated Treasury yields and yen carry‑trade breakdown",
+                  "body": "The joint action occurred with 30‑year US Treasury yields near 5.23% and the yen carry trade having largely unwound, creating acute stress in both the Treasury market and Japanese financial system.",
+                  "whyImportant": "It highlights that the primary motivation may be protecting US Treasury market stability rather than pure yen defense, and that the new architecture is designed to shield the dollar‑funding system from disorderly foreign official sales.",
                   "evidence": {
-                    "title": "'US Sold Euros and Only Notified ECB After the Fact to Defend Yen, Breaking Tradition'",
-                    "description": "SBS News report on the unilateral euro sale and ECB notification timing.",
+                    "title": "Analysis links intervention to Treasury market protection",
+                    "description": "China Daily and Reuters analysis connect the intervention to concerns about US Treasury yields and foreign holdings, framing the action as a defense of US debt market stability.",
                     "confidence": "developing",
                     "sourceIds": [
-                      "signal-us-japan-yen-defense-dollar-system-backstop-source-4"
-                    ]
-                  }
-                },
-                {
-                  "label": "Treasury Market Protection",
-                  "title": "Intervention seen as deeper effort to defend the ~$29 trillion Treasury market",
-                  "body": "With US long yields at 19‑year highs, the intervention is widely interpreted as a move to stabilize the Treasury market by preventing forced Japanese sales, rather than a pure yen defense.",
-                  "whyImportant": "Links the FX action directly to US domestic debt management and broader cost‑of‑capital implications.",
-                  "evidence": {
-                    "title": "US-Japan yen intervention: Saving the yen or protecting US Treasuries?",
-                    "description": "China Daily analysis of the intervention’s Treasury stabilization motive.",
-                    "confidence": "developing",
-                    "sourceIds": [
-                      "signal-us-japan-yen-defense-dollar-system-backstop-source-5"
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-5",
+                      "signal-us-japan-yen-defense-dollar-system-backstop-source-3"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "From G7 Norms to Alliance Finance",
-              "before": "Post‑WWII FX coordination prioritized advance consultation among G7 central banks; the US Treasury relied on bilateral and multilateral channels to manage dollar liquidity with European partners.",
-              "shift": "The July 2026 intervention funded by unannounced euro sales broke the prior‑consultation norm, and Japan’s FIMA repo plan creates a Fed‑backed alternative to outright Treasury sales.",
-              "now": "The US is building a Japan‑centered dollar backstop, sidelining European coordination and transforming the Fed into a liquidity provider for allied FX interventions.",
-              "conclusion": "The dollar system’s governance is shifting from multilateral G7 frameworks to a bilateral US–Japan alliance structure, with profound implications for Treasury market stability and global capital costs."
+              "title": "From Consultation to Backstop: The Reorganization of Dollar System Management",
+              "before": "Post‑WWII norms required prior consultation among Western central banks for FX interventions, with the G7/G20 acting as the primary coordination framework. The Fed’s role was independent, not a liquidity backstop for allied intervention.",
+              "shift": "On July 31, 2026, the US and Japan conducted a joint yen‑buying intervention – the first US FX action in 28 years – funded by unannounced US euro sales that broke the ECB prior‑consultation norm. Japan then announced it would use the Fed’s FIMA repo facility going forward.",
+              "now": "The dollar system is being reorganized around a US‑Japan alliance finance architecture, where the Fed serves as a backstop lender against allied Treasury sales. This sidelines US‑EU monetary coordination and shifts the cost‑of‑capital environment for global investment.",
+              "conclusion": "The emerging backstop architecture is a structural realignment of the dollar system, driven by the need to protect the $29 trillion Treasury market. It will influence financing conditions for AI infrastructure, energy security, and technology control alliances."
             },
             "insight": {
-              "title": "Dollar Backstop via Alliance Finance",
-              "formula": "Joint intervention + FIMA repo backstop + unilateral euro sales = new dollar‑system backstop architecture",
-              "explanation": "By coordinating yen defense with Japan and offering the Fed’s FIMA facility as a backstop, the US creates a template for managing Treasury market strains without destabilizing asset sales, at the cost of European monetary trust and the post‑Bretton Woods multilateral order."
+              "title": "The Dollar System’s New Backstop",
+              "formula": "Joint Yen Defence + FIMA Repo = New Dollar‑System Backstop",
+              "explanation": "The US–Japan joint intervention, funded by euro sales without ECB prior consultation, combined with Japan’s planned use of the Fed’s FIMA repo facility, creates a structural backstop for the dollar system, shifting the global lender‑of‑last‑resort role toward allied central bank financing."
             },
             "observe": {
               "title": "What to Watch Next",
               "items": [
                 {
                   "label": "ECB Reaction",
-                  "prompt": "Will the ECB formally protest the norm breach, and how will this affect US–Europe monetary coordination?",
-                  "meta": "Watch for statements from ECB officials or changes in G7 communiqué language."
+                  "prompt": "How will the ECB and other European institutions respond to the broken prior‑consultation norm?",
+                  "meta": "Watch for official statements, changes in G7 coordination protocols, or retaliatory reserve management shifts."
                 },
                 {
-                  "label": "FIMA Usage Scale",
-                  "prompt": "How much of Japan’s Treasury position will be routed through the FIMA repo, and will other allies follow?",
-                  "meta": "Monitor Fed weekly balance sheet data for FIMA repo uptake and any announcements from other major Treasury holders."
+                  "label": "Fed Communication",
+                  "prompt": "Will the Fed formally endorse or expand the FIMA repo facility as a permanent backstop for allied interventions?",
+                  "meta": "Monitor FOMC minutes, speeches by Fed governors, and any changes to the facility’s terms or availability."
                 },
                 {
-                  "label": "Treasury Yield Dynamics",
-                  "prompt": "Will the backstop architecture meaningfully suppress long‑end yields and reduce volatility?",
-                  "meta": "Track 10‑ and 30‑year yields, auction demand metrics, and Japan’s portfolio disclosures."
+                  "label": "Japan’s FIMA Usage",
+                  "prompt": "When and at what scale does Japan actually start using the FIMA repo for intervention financing?",
+                  "meta": "Track Japan MoF announcements, Treasury International Capital (TIC) data, and New York Fed repo operation volumes."
                 },
                 {
-                  "label": "Alliance Expansion",
-                  "prompt": "Could this model extend to other US allies facing similar currency or debt‑market pressures?",
-                  "meta": "Look for statements from US Treasury or Fed officials on FIMA facility usage guidelines."
+                  "label": "Treasury Market Impact",
+                  "prompt": "Does the new backstop stabilise or destabilise the long‑end of the Treasury curve?",
+                  "meta": "Follow 10‑ and 30‑year auction demand, foreign official holdings data, and yield volatility measures."
                 }
               ],
-              "ending": "This is not just a currency intervention; it is a restructuring of global monetary governance with direct consequences for the AI infrastructure build‑out and energy security financing."
+              "ending": "This is a developing signal of how alliance finance may reshape the foundations of the international monetary system."
             }
           },
           "dailyStateEn": {
-            "label": "Published",
-            "decisionTitle": "Publish new insight on US–Japan yen defense and dollar backstop",
-            "decisionSummary": "The signal describes a structural shift in dollar system management through US–Japan coordinated intervention and a new Fed backstop role, with high novelty, strong evidence, and significant downstream impact.",
-            "thresholdReason": "Novelty 95, importance 92, confirmed by primary source and multiple reliable outlets; indirect but material effects on AI infrastructure and energy financing costs.",
+            "label": "Publish New Insight",
+            "decisionTitle": "Publish New Insight: US–Japan Yen Defense Creates Dollar‑System Backstop",
+            "decisionSummary": "This signal describes a net‑new structural development in the dollar system. Publishing as a new Insight to track this emerging architecture.",
+            "thresholdReason": "The combination of high novelty (95), importance (92), and multiple reliable sources meets the publish threshold for a new Insight.",
             "observeNext": [
-              "ECB official response to the norm breach",
-              "Japan’s actual FIMA repo facility usage",
-              "US Treasury market reaction to the intervention pattern",
-              "Statements from other major US Treasury holders on potential FIMA usage"
+              "ECB response to broken prior‑consultation norm",
+              "Fed communication on FIMA repo role",
+              "Actual Japanese usage of FIMA repo",
+              "US Treasury market stability indicators"
             ]
           },
-          "processStage": "emerging",
+          "processStage": "signal",
           "processContentEn": {
-            "title": "Dollar System Backstop Architecture",
-            "description": "The US and Japan are constructing a new framework for dollar liquidity and Treasury market stability, centered on coordinated FX intervention and the Fed’s FIMA repo facility, bypassing traditional multilateral consultation with Europe.",
-            "implication": "This framework may alter the global cost of capital, affecting AI infrastructure financing and energy security planning, while straining US‑Europe monetary relations and reshaping the G7’s historic FX coordination role."
+            "title": "Signal",
+            "description": "A new structural development in global finance: the emergence of a US–Japan allied FX intervention architecture backed by the Fed's FIMA repo facility, funded by unannounced US euro sales.",
+            "implication": "This realignment of the dollar system may alter capital costs for major infrastructure investments, including AI buildout and energy security, and weaken US–EU monetary coordination."
           },
-          "nextQuestionEn": "Will this new dollar backstop architecture endure beyond current market pressures, and how will Europe respond?",
+          "nextQuestionEn": "How will the ECB and other G7 central banks respond to the US–Japan bilateral intervention architecture, and what are the implications for US Treasury market stability?",
           "observeNextEn": [
-            "ECB’s formal reaction to the post‑intervention notification",
-            "Scale of Japan’s FIMA repo facility usage",
-            "Impact on long‑term US Treasury yields",
-            "Potential expansion of the model to other allied nations"
+            "ECB official reaction and any changes to G7 FX consultation protocols",
+            "Fed statements or policy changes regarding the FIMA repo facility",
+            "Japan's initial draw on the FIMA repo for yen defense",
+            "Bid‑to‑cover ratios at upcoming US Treasury auctions"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 3623,
-          "outputTokens": 3882,
-          "cachedInputTokens": 1152
+          "outputTokens": 4086,
+          "cachedInputTokens": 3584
         }
       }
     },
