@@ -4,279 +4,92 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T06:58:56.699Z",
+  "updatedAt": "2026-08-11T06:58:58.971Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
-      "attempts": {
-        "analyze": 1,
-        "write_base": 1
-      },
-      "message": "write_base",
-      "updatedAt": "2026-08-11T06:58:56.699Z",
+      "status": "checkpointed",
+      "stage": "analyze",
+      "attempts": {},
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-11T06:58:58.971Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-global-2026-08-09-1786431498364",
+        "id": "research-global-2026-08-09-1786431538965",
         "status": "draft",
-        "researchedAt": "2026-08-11T06:58:18.364Z",
+        "researchedAt": "2026-08-11T06:58:58.965Z",
         "researchDate": "2026-08-09",
         "scope": "global",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 157017,
-          "outputTokens": 15548,
-          "cachedInputTokens": 125824
+          "inputTokens": 93621,
+          "outputTokens": 13104,
+          "cachedInputTokens": 78080
         },
-        "querySummary": "Focused on the 24 hours around 2026-08-09 for cross-domain signals that could change world-process judgments in AI, energy, geopolitics, macro and capital markets. One dominant structural signal emerged: the US–Japan coordinated yen defense — the first joint FX intervention since 2011 and the first US intervention of its kind in 28 years — was funded by unannounced US sales of euro reserves, breached the ECB prior-consultation norm, and is being institutionalized through the Fed's FIMA repo facility as a backstop against allied Treasury sales. Runner-up AI/energy signals (Nvidia-Lancium, Amazon 7.65GW gas plant, Anthropic-Macquarie-GIC infrastructure vehicle, Samsung/SK Hynix testing Chinese etch tools) were observed but not selected.",
+        "querySummary": "The supplied web-search dossier contains only a high-level verification note, identifying the US Senate Russia sanctions bill as the most consequential cross-domain candidate (geopolitics, energy, trade, capital) and mentioning AI/energy infrastructure items as secondary. It does not include article-level text, URLs, publishers, or confirmed independent sources. The draft below reflects the single strongest candidate but should be treated as unverified pending source retrieval.",
         "candidates": [
           {
-            "id": "signal-us-japan-yen-defense-dollar-system-backstop",
-            "date": "2026-08-07",
-            "domain": "Macroeconomics & Geopolitics",
+            "id": "candidate-us-senate-russia-sanctions-bill",
+            "date": "2026-08-09",
+            "domain": "Geopolitics; Energy; Macro/Capital",
             "tags": [
-              "yen",
-              "fx-intervention",
-              "dollar-system",
-              "fima-repo",
-              "us-treasury",
-              "japan",
-              "ecb",
-              "central-banks",
-              "capital-markets",
-              "geopolitics"
+              "geopolitics",
+              "energy",
+              "capital",
+              "sanctions",
+              "russia",
+              "trade",
+              "legislation",
+              "finance"
             ],
-            "processMatchConfidence": 10,
-            "importance": 92,
-            "novelty": 95,
-            "evidenceStrength": 74,
-            "independentSourceCount": 6,
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 75,
+            "importance": 85,
+            "novelty": 75,
+            "evidenceStrength": 25,
+            "independentSourceCount": 1,
             "thesisImpact": 80,
-            "relationshipChange": 90,
-            "stageChange": 85,
-            "contradiction": 65,
+            "relationshipChange": 85,
+            "stageChange": 70,
+            "contradiction": 10,
             "content": {
               "en": {
-                "title": "US–Japan joint yen defense creates a new dollar-system backstop architecture — funded by unannounced US euro sales",
-                "coreFact": "On July 31, 2026, Japan's Ministry of Finance bought yen in coordination with the US Treasury — the first joint intervention since 2011 and the first such US FX action in 28 years. The New York Fed sold euros from the Treasury's Exchange Stabilization Fund to fund the yen purchases, notifying the ECB only afterward, breaking the post-WWII prior-consultation norm among Western central banks. Japan's MoF has formally announced it plans to use the Fed's FIMA repo facility going forward, effectively turning the Fed into a backstop lender against allied Treasury sales rather than allowing Japan to sell its roughly $1.1–1.14 trillion US Treasury holdings.",
-                "whyItMatters": "The dollar system's management is being reorganized around US–Japan alliance finance at the expense of US–EU monetary coordination. With long-dated Treasury yields at 19-year highs (30-year near 5.23%) and the yen carry trade broken down, the Fed is being pushed into a new role as liquidity backstop for allied FX intervention aimed at protecting the ~$29 trillion Treasury market. This changes the cost-of-capital environment upon which the AI infrastructure buildout and energy security planning depend.",
-                "processMatchReason": "None of the four tracked processes directly captures this signal. It is a net-new structural development — dollar-system management via allied FX intervention architecture — with downstream effects on the financing costs feeding process-ai-infrastructure-race, the energy-security nexus, and the allied architecture underpinning process-geopolitical-technology-control."
+                "title": "US Senate Russia sanctions bill ties energy trade to capital and geopolitical controls",
+                "coreFact": "A U.S. Senate bill targeting Russian energy revenues and the financial system has advanced, adding a legislative layer that links energy trade, capital flows, and geopolitical control.",
+                "whyItMatters": "If enacted, this bill would make access to energy exports and financial infrastructure a deliberate geopolitical lever, reinforcing the trend in which energy and technology capacity are governed by security policy rather than market forces.",
+                "processMatchReason": "The bill is a concrete instance of energy access becoming strategic capacity and geopolitical control being exercised through financial and energy infrastructure — matching the 'Energy becomes strategic capacity' process."
               },
               "zh": {
-                "title": "美日联合保卫日元行动正在构建美元体系的新型支撑架构——以未事先通报的欧元抛售作为资金来源",
-                "coreFact": "2026年7月31日，日本财务省与美国财政部协调购入日元——这是2011年以来两国首次联合干预，也是美国28年来首次此类外汇行动。纽约联储动用财政部外汇稳定基金中的欧元来为购入日元融资，事后才通知欧洲央行，打破了二战后西方央行之间的事先协商惯例。日本财务省已正式宣布计划今后使用美联储的FIMA回购机制，实质上使美联储成为盟友国债抛售的流动性后盾，而非任由日本抛售其约1.1万亿至1.14万亿美元的美国国债持仓。",
-                "whyItMatters": "美元体系的管理正在围绕美日同盟金融安排重组，代价是美欧货币协调弱化。在长端美债收益率处于19年高位（30年期约5.23%）、日元利差交易瓦解的背景下，美联储被推向一个新角色：为旨在保护约29万亿美元国债市场的盟友外汇干预提供流动性后盾。这改变了AI基础设施建设与能源安全规划所依赖的资本成本环境。",
-                "processMatchReason": "四个受追踪进程中没有一个直接涵盖此信号。这是一个全新的结构性发展——通过盟友外汇干预架构管理美元体系——它通过融资成本影响process-ai-infrastructure-race，并作用于能源安全关联以及支撑process-geopolitical-technology-control的盟友架构。"
+                "title": "美国参议院对俄制裁法案将能源贸易与资本及地缘政治控制挂钩",
+                "coreFact": "一项以俄罗斯能源收入和金融体系为目标的美国参议院法案已取得进展，为能源贸易、资本流动和地缘政治控制增加了立法层面的约束。",
+                "whyItMatters": "若获通过，该法案将使能源出口和金融基础设施的准入成为蓄意的地缘政治杠杆，强化能源和技术能力受安全政策而非市场力量支配的趋势。",
+                "processMatchReason": "该法案是能源准入成为战略能力、地缘政治控制通过金融与能源基础设施施行的具体例证，与“能源成为战略能力”进程吻合。"
               },
               "ja": {
-                "title": "米日共同円防衛はドル体制の新たなバックストップ構造に発展——事前通告なしのユーロ売却で資金調達",
-                "coreFact": "2026年7月31日、日本財務省は米財務省と協調して円買い介入を実施——2011年以来初の共同介入であり、米国としても28年ぶりの為替介入となった。ニューヨーク連銀は財務省為替安定基金のユーロを売却して円買いの原資とし、欧州中央銀行（ECB）には事後にしか通知しなかった。これは戦後の西側中央銀行間の事前協議慣行を破るものだ。日本財務省は今後、連銀のFIMAレポ・ファシリティを利用する方針を正式に表明しており、実質的にFRBが同盟国の米国債売却に対する流動性バックストップとなることを意味する。",
-                "whyItMatters": "ドル体制の運営は、米EU間の通貨協調を犠牲にしながら、日米同盟の金融アーキテクチャーを中心に再編されつつある。長期米国債利回りが19年ぶりの高水準（30年債約5.23%）に達し、円キャリー取引が崩壊する中、FRBは約29兆ドルの米国債市場を守るための同盟国介入に流動性を供給する、という新たな役割を迫られている。これはAIインフラ建設とエネルギー安全保障が依存する資本コスト環境を変える。",
-                "processMatchReason": "追跡中の4プロセスのいずれもこの信号を直接は捉えていない。同盟国の為替介入アーキテクチャーによるドル体制管理という新規の構造的展開であり、資金調達コストを通じてprocess-ai-infrastructure-raceに直接影響し、エネルギー安全保障の連関とprocess-geopolitical-technology-controlを支える同盟構造にも作用する。"
+                "title": "米上院の対ロシア制裁法案、エネルギー貿易と資本・地政学統制を結びつける",
+                "coreFact": "ロシアのエネルギー収入と金融システムを標的とする米上院法案が前進し、エネルギー貿易・資本移動・地政学統制に立法上の制約を加える動きとなった。",
+                "whyItMatters": "成立すれば、エネルギー輸出と金融インフラへのアクセスが意図的な地政学的レバーとなり、エネルギー・技術容量が市場原理ではなく安全保障政策によって支配される流れを強化する。",
+                "processMatchReason": "エネルギーアクセスが戦略的能力となり、金融・エネルギーインフラを通じて地政学的統制が行使される具体例であり、「エネルギーが戦略的能力になる」プロセスに合致する。"
               }
             },
             "sources": [
               {
-                "title": "Statement by Minister of Finance Katayama",
-                "url": "https://www.mof.go.jp/english/public_relations/statement/others/20260803073000.html",
-                "publisher": "Japan Ministry of Finance",
-                "publishedAt": "2026-08-03",
-                "kind": "primary"
+                "title": "Web search dossier — priority candidate: US Senate Russia sanctions bill",
+                "url": "",
+                "publisher": "Web search dossier",
+                "kind": "context"
               },
               {
-                "title": "How Bessent is pushing Warsh's Fed to expand backstop for Japan's yen defense",
-                "url": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
-                "publisher": "CNBC",
-                "publishedAt": "2026-08-03",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "US-Japan action undercuts G7's historic FX role",
-                "url": "https://www.zawya.com/en/insights/us-japan-action-undercuts-g7s-historic-fx-role-mike-dolan-423137",
-                "publisher": "Reuters via Zawya",
-                "publishedAt": "2026-08-06",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "'US Sold Euros and Only Notified ECB After the Fact to Defend Yen, Breaking Tradition'",
-                "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008695259",
-                "publisher": "SBS News (Korea)",
-                "publishedAt": "2026-08-07",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "US-Japan yen intervention: Saving the yen or protecting US Treasuries?",
-                "url": "http://www.chinadaily.com.cn/a/202608/05/WS6a72eaeda310986e2b4691e7.html",
-                "publisher": "China Daily",
-                "publishedAt": "2026-08-05",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "US, Japan support yen with first joint intervention since 2011",
-                "url": "https://www.france24.com/en/live-news/20260803-us-japan-support-yen-with-first-joint-intervention-since-2011",
-                "publisher": "France24",
-                "publishedAt": "2026-08-03",
-                "kind": "reliable_media"
+                "title": "Web search dossier — cross-domain verification note (geopolitics, energy, trade, capital)",
+                "url": "",
+                "publisher": "Web search dossier",
+                "kind": "context"
               }
             ]
           }
         ]
-      },
-      "failedStage": "write_base",
-      "analyzedDraft": {
-        "ok": true,
-        "id": "research-global-2026-08-09-1786431498364",
-        "status": "draft",
-        "researchedAt": "2026-08-11T06:58:18.364Z",
-        "researchDate": "2026-08-09",
-        "scope": "global",
-        "provider": "deepseek",
-        "model": "deepseek-v4-pro",
-        "usage": {
-          "inputTokens": 157017,
-          "outputTokens": 15548,
-          "cachedInputTokens": 125824
-        },
-        "querySummary": "Focused on the 24 hours around 2026-08-09 for cross-domain signals that could change world-process judgments in AI, energy, geopolitics, macro and capital markets. One dominant structural signal emerged: the US–Japan coordinated yen defense — the first joint FX intervention since 2011 and the first US intervention of its kind in 28 years — was funded by unannounced US sales of euro reserves, breached the ECB prior-consultation norm, and is being institutionalized through the Fed's FIMA repo facility as a backstop against allied Treasury sales. Runner-up AI/energy signals (Nvidia-Lancium, Amazon 7.65GW gas plant, Anthropic-Macquarie-GIC infrastructure vehicle, Samsung/SK Hynix testing Chinese etch tools) were observed but not selected.",
-        "candidates": [
-          {
-            "id": "signal-us-japan-yen-defense-dollar-system-backstop",
-            "date": "2026-08-07",
-            "domain": "Macroeconomics & Geopolitics",
-            "tags": [
-              "yen",
-              "fx-intervention",
-              "dollar-system",
-              "fima-repo",
-              "us-treasury",
-              "japan",
-              "ecb",
-              "central-banks",
-              "capital-markets",
-              "geopolitics"
-            ],
-            "processMatchConfidence": 23,
-            "importance": 92,
-            "novelty": 95,
-            "evidenceStrength": 74,
-            "independentSourceCount": 6,
-            "thesisImpact": 80,
-            "relationshipChange": 90,
-            "stageChange": 85,
-            "contradiction": 65,
-            "content": {
-              "en": {
-                "title": "US–Japan joint yen defense creates a new dollar-system backstop architecture — funded by unannounced US euro sales",
-                "coreFact": "On July 31, 2026, Japan's Ministry of Finance bought yen in coordination with the US Treasury — the first joint intervention since 2011 and the first such US FX action in 28 years. The New York Fed sold euros from the Treasury's Exchange Stabilization Fund to fund the yen purchases, notifying the ECB only afterward, breaking the post-WWII prior-consultation norm among Western central banks. Japan's MoF has formally announced it plans to use the Fed's FIMA repo facility going forward, effectively turning the Fed into a backstop lender against allied Treasury sales rather than allowing Japan to sell its roughly $1.1–1.14 trillion US Treasury holdings.",
-                "whyItMatters": "The dollar system's management is being reorganized around US–Japan alliance finance at the expense of US–EU monetary coordination. With long-dated Treasury yields at 19-year highs (30-year near 5.23%) and the yen carry trade broken down, the Fed is being pushed into a new role as liquidity backstop for allied FX intervention aimed at protecting the ~$29 trillion Treasury market. This changes the cost-of-capital environment upon which the AI infrastructure buildout and energy security planning depend.",
-                "processMatchReason": "None of the four tracked processes directly captures this signal. It is a net-new structural development — dollar-system management via allied FX intervention architecture — with downstream effects on the financing costs feeding process-ai-infrastructure-race, the energy-security nexus, and the allied architecture underpinning process-geopolitical-technology-control."
-              },
-              "zh": {
-                "title": "美日联合保卫日元行动正在构建美元体系的新型支撑架构——以未事先通报的欧元抛售作为资金来源",
-                "coreFact": "2026年7月31日，日本财务省与美国财政部协调购入日元——这是2011年以来两国首次联合干预，也是美国28年来首次此类外汇行动。纽约联储动用财政部外汇稳定基金中的欧元来为购入日元融资，事后才通知欧洲央行，打破了二战后西方央行之间的事先协商惯例。日本财务省已正式宣布计划今后使用美联储的FIMA回购机制，实质上使美联储成为盟友国债抛售的流动性后盾，而非任由日本抛售其约1.1万亿至1.14万亿美元的美国国债持仓。",
-                "whyItMatters": "美元体系的管理正在围绕美日同盟金融安排重组，代价是美欧货币协调弱化。在长端美债收益率处于19年高位（30年期约5.23%）、日元利差交易瓦解的背景下，美联储被推向一个新角色：为旨在保护约29万亿美元国债市场的盟友外汇干预提供流动性后盾。这改变了AI基础设施建设与能源安全规划所依赖的资本成本环境。",
-                "processMatchReason": "四个受追踪进程中没有一个直接涵盖此信号。这是一个全新的结构性发展——通过盟友外汇干预架构管理美元体系——它通过融资成本影响process-ai-infrastructure-race，并作用于能源安全关联以及支撑process-geopolitical-technology-control的盟友架构。"
-              },
-              "ja": {
-                "title": "米日共同円防衛はドル体制の新たなバックストップ構造に発展——事前通告なしのユーロ売却で資金調達",
-                "coreFact": "2026年7月31日、日本財務省は米財務省と協調して円買い介入を実施——2011年以来初の共同介入であり、米国としても28年ぶりの為替介入となった。ニューヨーク連銀は財務省為替安定基金のユーロを売却して円買いの原資とし、欧州中央銀行（ECB）には事後にしか通知しなかった。これは戦後の西側中央銀行間の事前協議慣行を破るものだ。日本財務省は今後、連銀のFIMAレポ・ファシリティを利用する方針を正式に表明しており、実質的にFRBが同盟国の米国債売却に対する流動性バックストップとなることを意味する。",
-                "whyItMatters": "ドル体制の運営は、米EU間の通貨協調を犠牲にしながら、日米同盟の金融アーキテクチャーを中心に再編されつつある。長期米国債利回りが19年ぶりの高水準（30年債約5.23%）に達し、円キャリー取引が崩壊する中、FRBは約29兆ドルの米国債市場を守るための同盟国介入に流動性を供給する、という新たな役割を迫られている。これはAIインフラ建設とエネルギー安全保障が依存する資本コスト環境を変える。",
-                "processMatchReason": "追跡中の4プロセスのいずれもこの信号を直接は捉えていない。同盟国の為替介入アーキテクチャーによるドル体制管理という新規の構造的展開であり、資金調達コストを通じてprocess-ai-infrastructure-raceに直接影響し、エネルギー安全保障の連関とprocess-geopolitical-technology-controlを支える同盟構造にも作用する。"
-              }
-            },
-            "sources": [
-              {
-                "title": "Statement by Minister of Finance Katayama",
-                "url": "https://www.mof.go.jp/english/public_relations/statement/others/20260803073000.html",
-                "publisher": "Japan Ministry of Finance",
-                "publishedAt": "2026-08-03",
-                "kind": "primary",
-                "id": "signal-us-japan-yen-defense-dollar-system-backstop-source-1",
-                "role": "corroborating"
-              },
-              {
-                "title": "How Bessent is pushing Warsh's Fed to expand backstop for Japan's yen defense",
-                "url": "https://www.cnbc.com/2026/08/03/bessent-fed-japan-yen-fima-repo-facility.html",
-                "publisher": "CNBC",
-                "publishedAt": "2026-08-03",
-                "kind": "reliable_media",
-                "id": "signal-us-japan-yen-defense-dollar-system-backstop-source-2",
-                "role": "corroborating"
-              },
-              {
-                "title": "US-Japan action undercuts G7's historic FX role",
-                "url": "https://www.zawya.com/en/insights/us-japan-action-undercuts-g7s-historic-fx-role-mike-dolan-423137",
-                "publisher": "Reuters via Zawya",
-                "publishedAt": "2026-08-06",
-                "kind": "reliable_media",
-                "id": "signal-us-japan-yen-defense-dollar-system-backstop-source-3",
-                "role": "corroborating"
-              },
-              {
-                "title": "'US Sold Euros and Only Notified ECB After the Fact to Defend Yen, Breaking Tradition'",
-                "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008695259",
-                "publisher": "SBS News (Korea)",
-                "publishedAt": "2026-08-07",
-                "kind": "reliable_media",
-                "id": "signal-us-japan-yen-defense-dollar-system-backstop-source-4",
-                "role": "trigger"
-              },
-              {
-                "title": "US-Japan yen intervention: Saving the yen or protecting US Treasuries?",
-                "url": "http://www.chinadaily.com.cn/a/202608/05/WS6a72eaeda310986e2b4691e7.html",
-                "publisher": "China Daily",
-                "publishedAt": "2026-08-05",
-                "kind": "reliable_media",
-                "id": "signal-us-japan-yen-defense-dollar-system-backstop-source-5",
-                "role": "corroborating"
-              },
-              {
-                "title": "US, Japan support yen with first joint intervention since 2011",
-                "url": "https://www.france24.com/en/live-news/20260803-us-japan-support-yen-with-first-joint-intervention-since-2011",
-                "publisher": "France24",
-                "publishedAt": "2026-08-03",
-                "kind": "reliable_media",
-                "id": "signal-us-japan-yen-defense-dollar-system-backstop-source-6",
-                "role": "corroborating"
-              }
-            ],
-            "suggestedProcessId": "process-geopolitical-technology-control",
-            "currentEventSourceCount": 1,
-            "corroboratingSourceCount": 5,
-            "contextSourceCount": 0,
-            "claimSourceIds": [
-              "signal-us-japan-yen-defense-dollar-system-backstop-source-1",
-              "signal-us-japan-yen-defense-dollar-system-backstop-source-2",
-              "signal-us-japan-yen-defense-dollar-system-backstop-source-3",
-              "signal-us-japan-yen-defense-dollar-system-backstop-source-4",
-              "signal-us-japan-yen-defense-dollar-system-backstop-source-5",
-              "signal-us-japan-yen-defense-dollar-system-backstop-source-6"
-            ],
-            "analysis": {
-              "processMatchConfidence": 23,
-              "impact": "no_material_change",
-              "dailyState": "publish_new",
-              "materialChangeScore": 81,
-              "publishThresholdMet": true,
-              "scoreWasNormalized": false,
-              "triggerSourceCount": 1,
-              "corroboratingSourceCount": 5,
-              "contextSourceCount": 0,
-              "rationale": "This signal describes a genuinely new structural development — the emergence of a US–Japan allied FX intervention architecture that uses the Fed's FIMA repo facility as a dollar-system backstop, funded by unannounced US euro sales that broke post-WWII ECB prior-consultation norms. None of the four tracked Global Processes captures this. It is not an AI infrastructure race event, an energy-security event, a semiconductor capacity event, nor a technology-control event — though it has downstream financing-cost implications for all of them. The candidate's own process-match confidence to process-geopolitical-technology-control is only 23%, which is well below a credible match threshold. The core phenomenon — dollar-system management reorganization via allied central-bank facilities and FX coordination — constitutes a net-new structural process in global macro-finance. Six independent sources (including Japan MoF primary) with strong evidence (74) and very high novelty (95) and importance (92) support a publish_new decision. The 81 material-change score reflects the genuinely new system relationship being forged, not a change to any existing tracked process.",
-              "warnings": [
-                "This is a publish_new for a candidate that does not match any existing tracked process. The Insight catalogue may need to formally track a new macro-financial process (e.g., 'Dollar-system backstop architecture') if this development persists.",
-                "The downstream effects on process-ai-infrastructure-race (capital costs), process-energy-security (financing for grid/nuclear builds), and process-geopolitical-technology-control (alliance architecture) are real but indirect — this analysis does not update those processes directly.",
-                "The ECB prior-consultation norm breach is sourced from SBS News (Korea), which is reliable but not Western-primary; independent ECB confirmation would strengthen the claim.",
-                "FIMA repo usage by Japan is announced as a plan, not yet executed at scale — the structural shift is in motion but not fully realized."
-              ],
-              "candidateId": "signal-us-japan-yen-defense-dollar-system-backstop"
-            }
-          }
-        ],
-        "analysisProvider": "deepseek"
       }
     },
     "china": {
@@ -333,5 +146,5 @@
       }
     ]
   },
-  "message": "WORLD write_base 自动重试 1/3"
+  "message": "GLOBAL 从 research 断点继续"
 }
