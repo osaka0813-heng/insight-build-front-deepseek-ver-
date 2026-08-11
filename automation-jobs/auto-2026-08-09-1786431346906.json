@@ -6,13 +6,13 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T06:55:56.849Z",
+  "updatedAt": "2026-08-11T06:55:58.957Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "queued",
       "stage": "research",
       "attempts": {},
-      "message": "research",
+      "message": "重新唤醒 research 断点",
       "updatedAt": "2026-08-11T06:55:56.849Z"
     },
     "china": {
@@ -69,5 +69,5 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始四区域任务。"
+  "message": "GLOBAL 从 research 断点继续"
 }
