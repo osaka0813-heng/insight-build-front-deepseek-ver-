@@ -6,14 +6,14 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T06:57:59.390Z",
+  "updatedAt": "2026-08-11T06:58:00.427Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
       "stage": "write_base",
       "attempts": {},
       "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-11T06:57:59.390Z",
+      "updatedAt": "2026-08-11T06:58:00.427Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-09-1786431467531",
@@ -238,18 +238,19 @@
               "processMatchConfidence": 95,
               "impact": "updates",
               "dailyState": "update_living",
-              "materialChangeScore": 88,
+              "materialChangeScore": 84,
               "publishThresholdMet": true,
               "scoreWasNormalized": false,
               "triggerSourceCount": 5,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 0,
-              "rationale": "This signal materially updates the finance dimension of the AI infrastructure race thesis. The core thesis holds that durable AI advantage depends on converting intelligence into dependable large-scale capacity across compute, power, land, construction and finance. Previously, finance was a constraint: capex was limited by balance sheets. This MOU creates a structural mechanism to securitize compute itself as collateral via SPVs, with six of the world's largest asset managers and investment banks committing to a $500B+ platform. This shifts capital from a binding constraint toward an enabler, pushing the primary bottleneck downstream to power, grid interconnection, land, and execution speed. The mechanism also introduces a new macro-financial channel (compute-backed credit creation) and potential systemic risk, which are genuinely novel dimensions not captured in the existing thesis. Five independent, high-quality sources (NVIDIA primary, CNBC, Bloomberg, Reuters, Forbes) provide strong corroboration. The $500B scale — comparable to total US datacenter capex forecasts for the decade — signals a regime change in how AI infrastructure is funded. Relationship change is high: finance moves from constraint to catalyst. The signal is not a stage change (still 'structural'), but is a material internal update to the living thesis. Not a publish_new event because the underlying process is already tracked; this is a significant update.",
+              "rationale": "This signal directly and materially upgrades the finance component of process-ai-infrastructure-race. The thesis states durable AI advantage depends on converting intelligence into capacity across compute, power, land, construction and finance. The NVIDIA-led $500B+ financing platform, backed by six major Wall Street institutions, transforms compute into a collateralizable, investable asset class via SPV-based securitization and leasing. This represents a structural shift: capital ceases to be the primary binding constraint, redirecting pressure toward power, grid interconnection, land, and execution speed. Five independent reliable sources (NVIDIA primary release, CNBC, Bloomberg, Reuters, Forbes) confirm the core fact: an MOU establishing an independent financing platform targeting $500B+ in third-party capital, with NVIDIA backstopping ~25% of individual deals. The impact is 'updates' because it materially enriches the existing thesis without overturning it, adding a new causal mechanism (compute securitization as a credit channel) and shifting the bottleneck hierarchy. Material change score of 84 reflects high novelty (new asset class creation), high thesis impact (rewrites finance sub-component), strong evidence (5 sources), and clear relationship change. Publish threshold is met.",
               "warnings": [
-                "MOU stage only — not yet deployed; $500B is a target, not committed capital",
-                "NVIDIA backstop of ~25% per deal could concentrate risk if compute values decline",
-                "Securitization of rapidly depreciating assets (chips) poses novel systemic risk not yet stress-tested",
-                "Signal was already pre-analyzed with matchedProcessId and dailyState=update_living; independent analyst review confirms and strengthens this assessment"
+                "MOU stage only; platform not yet operational; deployment and capital drawdown remain uncertain",
+                "$500B+ is a target, not committed capital; actual mobilization may be significantly lower",
+                "Systemic risk concern (compute securitization as macro vulnerability) is speculative at this stage",
+                "Signal crosses into process-energy-security (power bottleneck acceleration) but primary match is process-ai-infrastructure-race",
+                "No independent corroboration beyond the five triggered sources; all sources trace back to same announcement event"
               ],
               "candidateId": "signal-2026-08-09-nvidia-500b-compute-financing"
             }
