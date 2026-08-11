@@ -4,19 +4,92 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-11T06:58:37.917Z",
+  "updatedAt": "2026-08-11T06:58:38.822Z",
   "scopes": {
     "global": {
       "status": "retrying",
-      "stage": "research",
+      "stage": "analyze",
       "attempts": {
-        "research": 1
+        "analyze": 1
       },
-      "message": "DeepSeek Research JSON contains no candidates.",
-      "updatedAt": "2026-08-11T06:58:37.917Z",
-      "failedStage": "research"
+      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 1db825d1d9a0eddb0855a55ec74c0ac975ceae85",
+      "updatedAt": "2026-08-11T06:58:38.822Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-09-1786431518530",
+        "status": "draft",
+        "researchedAt": "2026-08-11T06:58:38.530Z",
+        "researchDate": "2026-08-09",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 134504,
+          "outputTokens": 16719,
+          "cachedInputTokens": 108544
+        },
+        "querySummary": "The supplied web-search dossier consists only of an internal status note: it says several strong candidate signals have surfaced and that verification with primary sources and detail is pending. It contains no search-result titles, URLs, publishers, dates, quotes, or numeric facts. Therefore, no verifiable cross-domain signal can be constructed from the supplied materials without inventing evidence. The output below records a verification gap rather than a substantive change signal; the two source entries are schema-required placeholders from the same dossier, not independent sources.",
+        "candidates": [
+          {
+            "id": "candidate-verification-gap",
+            "date": "2026-08-09",
+            "domain": "Cross-domain",
+            "tags": [
+              "research-gap",
+              "verification-pending",
+              "source-integrity"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 1,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "No verifiable signal can be extracted from the supplied dossier",
+                "coreFact": "The supplied dossier contains no source-backed evidence; it only reports that several strong candidate signals surfaced and are awaiting verification.",
+                "whyItMatters": "Adjusting global-process assessments without independent sources would be unsupported. The dossier does not provide enough information to change judgments about AI infrastructure, energy security, semiconductor capacity, or technology-control geopolitics.",
+                "processMatchReason": "No existing process can be matched to a verifiable change; the only accurate match is the gap between candidate detection and verification."
+              },
+              "zh": {
+                "title": "无法从所提供档案中提取可验证信号",
+                "coreFact": "所提供的档案不包含有来源支持的证据，仅表示已出现若干强候选信号并等待验证。",
+                "whyItMatters": "在缺乏独立来源的情况下调整全球进程评估是缺乏依据的。该档案不足以改变关于AI基础设施、能源安全、半导体产能或技术控制地缘政治的判断。",
+                "processMatchReason": "没有任何现有进程能与可验证的变化相匹配；唯一准确的匹配是候选信号发现与验证之间的缺口。"
+              },
+              "ja": {
+                "title": "提供された資料から検証可能なシグナルを抽出できません",
+                "coreFact": "提供された資料には裏付けのある証拠は含まれておらず、複数の有力候補シグナルが浮上し、検証待ちであるとだけ記されています。",
+                "whyItMatters": "独立した情報源なしにグローバルプロセスの評価を変更することは裏付けを欠きます。この資料だけでは、AIインフラ、エネルギー安全保障、半導体生産能力、技術管理の地政学に関する判断を変えることはできません。",
+                "processMatchReason": "検証可能な変化に一致する既存プロセスはありません。正確に一致するのは、候補シグナルの検出と検証の間のギャップだけです。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Supplied web-search dossier - status note",
+                "url": "urn:web-search-dossier:status",
+                "publisher": "Research agent",
+                "publishedAt": "2026-08-09",
+                "kind": "context"
+              },
+              {
+                "title": "Supplied web-search dossier - verification note",
+                "url": "urn:web-search-dossier:verification",
+                "publisher": "Research agent",
+                "publishedAt": "2026-08-09",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      },
+      "failedStage": "analyze"
     },
     "china": {
       "status": "queued",
@@ -72,5 +145,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3"
+  "message": "WORLD analyze 自动重试 1/3"
 }
