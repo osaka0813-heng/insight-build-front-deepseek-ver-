@@ -3,13 +3,13 @@
   "status": "running",
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "global",
-  "currentStage": "publish",
+  "currentScope": "china",
+  "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:43:12.032Z",
+  "updatedAt": "2026-08-12T09:43:15.277Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "analyze": 2,
@@ -17,8 +17,8 @@
         "write_ja": 1,
         "publish": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-08-12T09:43:12.032Z",
+      "message": "已发布",
+      "updatedAt": "2026-08-12T09:43:15.277Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
@@ -1101,7 +1101,10 @@
           "outputTokens": 11995,
           "cachedInputTokens": 5760
         }
-      }
+      },
+      "insightId": "global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout",
+      "contentVersion": "publish-global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout-1786527794155",
+      "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
       "status": "queued",
