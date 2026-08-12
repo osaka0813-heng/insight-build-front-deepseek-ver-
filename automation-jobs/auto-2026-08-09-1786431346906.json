@@ -4,9 +4,9 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "china",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:11:40.570Z",
+  "updatedAt": "2026-08-12T03:11:57.550Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -445,14 +445,97 @@
       }
     },
     "china": {
-      "status": "retrying",
-      "stage": "research",
-      "attempts": {
-        "research": 1
-      },
-      "message": "DeepSeek Research JSON contains no candidates.",
-      "updatedAt": "2026-08-12T03:11:40.570Z",
-      "failedStage": "research"
+      "status": "checkpointed",
+      "stage": "analyze",
+      "attempts": {},
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T03:11:57.550Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-china-2026-08-09-1786504317542",
+        "status": "draft",
+        "researchedAt": "2026-08-12T03:11:57.542Z",
+        "researchDate": "2026-08-09",
+        "scope": "china",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 168269,
+          "outputTokens": 13806,
+          "cachedInputTokens": 135936
+        },
+        "querySummary": "在2026年8月8日至9日的窗口中，最可能改变中国进程判断的信号是7月硬数据集中显示“新增长引擎”加速：先进制造业资本投资同比+73.1%、AI相关专利授权量+60%、1至7月集成电路出口金额+99.5%。同期房地产新闻（北京“地王”、摩根士丹利下调预测、上半年土地出让收入-31%）强化而非逆转结构性修复判断，因此该信号主要推动产业升级与科技自主化进程从政策表述转向资本与数据确认的加速阶段。",
+        "candidates": [
+          {
+            "id": "signal-2026-08-09-new-engine-acceleration",
+            "date": "2026-08-09",
+            "domain": "Advanced Manufacturing; Semiconductors; AI",
+            "tags": [
+              "china",
+              "industrial-upgrading",
+              "advanced-manufacturing",
+              "semiconductors",
+              "ai",
+              "capital-investment",
+              "exports",
+              "macro-data"
+            ],
+            "suggestedProcessId": "process-china-industrial-upgrading",
+            "processMatchConfidence": 93,
+            "importance": 92,
+            "novelty": 80,
+            "evidenceStrength": 80,
+            "independentSourceCount": 3,
+            "thesisImpact": 88,
+            "relationshipChange": 75,
+            "stageChange": 85,
+            "contradiction": 10,
+            "content": {
+              "en": {
+                "title": "July data confirms new-engine acceleration: advanced-manufacturing capex +73.1% y/y, AI patents +60%, IC exports +99.5%",
+                "coreFact": "In the Aug 8–9 window, three hard-data releases line up: NDRC high-frequency data show July advanced-manufacturing capital investment +73.1% y/y (accelerating 42.5 pct pts from June) and AI-related patent grants +60.0% y/y; NBS July CPI/PPI shows AI-driven consumer-electronics prices surging (tablets +17.2%, computers +17.4%, phones +8.5% y/y) with core CPI +0.9%; GAC data show Jan–Jul IC exports hit $216bn, +99.5% y/y.",
+                "whyItMatters": "This is the first contemporaneous, measured confirmation that capital and output are scaling in the new growth engine, directly addressing the industrial-upgrading process's open question of whether advanced-industry gains can offset weaker property and domestic-demand engines. The same window's property news — Beijing 'land king' framed as point-like heat, H1 residential land revenue -31%, Morgan Stanley cutting 2026 forecasts — reinforces the structural-repair thesis rather than changing it, sharpening the asymmetry between a confirmed new engine and a still-adjusting old one.",
+                "processMatchReason": "The signal maps directly to the industrial-upgrading process: it converts the 'old-new growth engine transition' from policy rhetoric into capital-flow and trade data. A 42.5-pct-point monthly acceleration in advanced-manufacturing investment plus near-doubling IC exports is evidence the process is moving from policy-push toward capital-confirmed acceleration, while domestic-demand rebalancing remains the weaker, still-emerging process."
+              },
+              "zh": {
+                "title": "7月数据确认新动能加速：先进制造投资同比+73.1%、AI专利+60%、集成电路出口+99.5%",
+                "coreFact": "在8月8日至9日窗口内，三项硬数据同时指向同一方向：国家信息中心高频数据显示7月先进制造领域资本投资金额同比增长73.1%（较6月提高42.5个百分点），AI相关专利授权量同比增长60.0%；统计局7月CPI/PPI显示AI驱动的消费电子价格大涨（平板电脑+17.2%、计算机+17.4%、移动电话机+8.5%），核心CPI +0.9%；海关数据显示1至7月集成电路累计出口金额2160亿美元，同比增长99.5%。",
+                "whyItMatters": "这是首次有同期、可测的资本与产出数据确认新增长引擎正在放量，直接回应产业升级进程的开放问题：先进产业能否对冲房地产和内需引擎的减弱。同一窗口的房地产新闻——北京“地王”被定性为点状热度、上半年住宅用地收入-31%、摩根士丹利下调2026年预测——强化而非改变结构性修复判断，使“新引擎确认加速、旧引擎仍在调整”的不对称性更加清晰。",
+                "processMatchReason": "该信号直接对应产业升级进程：将“新旧动能转换”从政策表述转化为资本流动与贸易数据。先进制造投资单月环比提速42.5个百分点、集成电路出口近翻倍，表明该进程正从政策推动转向资本确认的加速阶段；内需再平衡仍是更弱、更早期的进程。"
+              },
+              "ja": {
+                "title": "7月データが新エンジン加速を確認：先端製造投資+73.1%、AI特許+60%、IC輸出+99.5%",
+                "coreFact": "2026年8月8〜9日の窓で、3つのハードデータが同じ方向を示した。国家信息センターの高頻度データによると、7月の先端製造業向け資本投資は前年同期比+73.1%（6月から42.5ポイント加速）、AI関連特許件数は+60.0%。国家統計局の7月CPI/PPIではAI主導の家電・電子価格が上昇（タブレット+17.2%、コンピュータ+17.4%、携帯電話+8.5%）し、コアCPIは+0.9%。税関データでは1〜7月のIC輸出が2160億ドル、前年同期比+99.5%となった。",
+                "whyItMatters": "新成長エンジンで資本と生産が実際に規模拡大していることを、同時期の測定可能なデータが初めて確認した。これは産業高度化プロセスの「先端産業の伸びが不動産・内需の弱さを相殺できるか」という問いに直接応えるもの。同じ窓の不動産ニュース（北京「地王」は点的熱狂、上半年住宅用地収入-31%、モルガン・スタンレーが2026年見通し下方修正）は構造修復テーゼを強化するだけで反転を示さず、新エンジン加速と旧エンジン調整の非対称性を明確にした。",
+                "processMatchReason": "このシグナルは産業高度化プロセスに直接対応する。「新旧エンジン転換」が政策スローガンから資本フローと貿易データへ転換したことを示す。先端製造投資の月次42.5ポイント加速とIC輸出の倍増は、プロセスが政策主導から資本確認型の加速段階へ移行した証拠であり、内需再均衡は依然として弱く初期段階にある。"
+              }
+            },
+            "sources": [
+              {
+                "title": "半导体等企业活力充沛 资本布局新质生产力赛道 7月高频数据折射经济“新”意",
+                "url": "http://jjckb.xinhuanet.com/20260810/d04e79fc79da464f9b195f0bf9b8c473/c.html",
+                "publisher": "经济参考报（新华通讯社）",
+                "publishedAt": "2026-08-10",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "2026年7月份CPI保持温和上涨 PPI同比涨幅有所回落",
+                "url": "http://finance.ce.cn/stock/gsgdbd/202608/t20260809_3136816.shtml",
+                "publisher": "中国经济网（国家统计局城市司首席统计师解读）",
+                "publishedAt": "2026-08-09",
+                "kind": "primary"
+              },
+              {
+                "title": "海关总署：1至7月集成电路累计出口金额达2160亿美元 同比增长99.5%",
+                "url": "https://www.cls.cn/detail/2448130",
+                "publisher": "财联社",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
+              }
+            ]
+          }
+        ]
+      }
     },
     "us": {
       "status": "queued",
@@ -501,5 +584,5 @@
       }
     ]
   },
-  "message": "CHINA research 自动重试 1/3"
+  "message": "WORLD 在 write_ja 连续失败 3 次，保留断点并跳到下一区域。"
 }
