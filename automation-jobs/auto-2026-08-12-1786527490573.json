@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:48:30.631Z",
+  "updatedAt": "2026-08-12T09:48:35.608Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1519,7 +1519,7 @@
         "research": 2
       },
       "message": "research",
-      "updatedAt": "2026-08-12T09:48:30.631Z",
+      "updatedAt": "2026-08-12T09:48:35.608Z",
       "failedStage": "research"
     },
     "japan": {
