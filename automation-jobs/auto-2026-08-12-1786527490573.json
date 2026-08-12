@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:47:44.079Z",
+  "updatedAt": "2026-08-12T09:47:46.399Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1516,10 +1516,10 @@
       "status": "retrying",
       "stage": "research",
       "attempts": {
-        "research": 1
+        "research": 2
       },
-      "message": "Automation state write failed: is at 36eb1c766ee82d1ee56523e9ff29c6d072f682bc but expected 6dd63fc482de820f4e3a01d9937fbfc94017f8dd",
-      "updatedAt": "2026-08-12T09:47:44.079Z",
+      "message": "Automation state write failed: is at 916311cc713e449df0cc725dc38e0a8b4d378c77 but expected 57d3ac1ee8987a36dd2eada487805330e5053af4",
+      "updatedAt": "2026-08-12T09:47:46.399Z",
       "failedStage": "research"
     },
     "japan": {
@@ -1562,5 +1562,5 @@
       }
     ]
   },
-  "message": "US research 自动重试 1/3"
+  "message": "US research 自动重试 2/3"
 }
