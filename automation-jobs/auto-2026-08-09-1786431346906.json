@@ -4,19 +4,20 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:01:47.383Z",
+  "updatedAt": "2026-08-12T03:01:49.278Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
-      "stage": "write_base",
+      "status": "retrying",
+      "stage": "analyze",
       "attempts": {
-        "research": 1
+        "research": 1,
+        "analyze": 1
       },
-      "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-12T03:01:47.383Z",
-      "failedStage": "research",
+      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 1e22c1b691719751efe0078f7cb6dd0a3043f480",
+      "updatedAt": "2026-08-12T03:01:49.278Z",
+      "failedStage": "analyze",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-09-1786431679954",
@@ -89,111 +90,6 @@
             ]
           }
         ]
-      },
-      "analyzedDraft": {
-        "ok": true,
-        "id": "research-global-2026-08-09-1786431679954",
-        "status": "draft",
-        "researchedAt": "2026-08-11T07:01:19.954Z",
-        "researchDate": "2026-08-09",
-        "scope": "global",
-        "provider": "deepseek",
-        "model": "deepseek-v4-pro",
-        "usage": {
-          "inputTokens": 98361,
-          "outputTokens": 17135,
-          "cachedInputTokens": 76032
-        },
-        "querySummary": "The 2026-08-09 web-search dossier contains only a statement that several strong signals are emerging and that the most significant ones remain to be verified. It does not provide any source-level facts, event details, URLs, publishers, or publication timestamps, making it impossible to construct a verifiable cross-domain signal without fabricating evidence.",
-        "candidates": [
-          {
-            "id": "signal-2026-08-09-evidence-gap",
-            "date": "2026-08-09",
-            "domain": "Research Process",
-            "tags": [
-              "evidence-gap",
-              "verification",
-              "cross-domain",
-              "research-quality"
-            ],
-            "processMatchConfidence": 0,
-            "importance": 0,
-            "novelty": 0,
-            "evidenceStrength": 0,
-            "independentSourceCount": 0,
-            "thesisImpact": 0,
-            "relationshipChange": 0,
-            "stageChange": 0,
-            "contradiction": 0,
-            "content": {
-              "en": {
-                "title": "Source-level evidence gap blocks signal validation",
-                "coreFact": "The supplied web-search dossier for 2026-08-09 contains only the statement that several strong signals are emerging, with no source-level facts, URLs, publishers, or publication dates.",
-                "whyItMatters": "Without source-level detail, none of the existing process theses can be updated. This is a temporary evidence gap rather than a new world-process signal, and it should trigger re-collection of evidence before any process judgment is changed.",
-                "processMatchReason": "No specific change in AI, energy, semiconductors, or geopolitics is documented, so no existing process can be confidently matched; the candidate describes the state of evidence, not a change in the world."
-              },
-              "zh": {
-                "title": "来源级证据缺口阻碍信号验证",
-                "coreFact": "2026-08-09提供的网络搜索档案仅说明有多个强信号正在出现，未提供来源级事实、URL、发布方或发布日期。",
-                "whyItMatters": "缺乏来源级细节时，无法更新任何现有进程判断。这构成暂时的证据缺口，而非新的世界进程信号；在重新收集证据之前，不应改变任何进程判断。",
-                "processMatchReason": "由于没有记录AI、能源、半导体或地缘政治方面的具体变化，无法可靠匹配任何现有进程；该候选描述的是证据状态，而非世界变化。"
-              },
-              "ja": {
-                "title": "ソースレベルの証拠不足によりシグナル検証が不能",
-                "coreFact": "2026-08-09付のウェブ検索ドシエには、「強いシグナルが複数出現している」という記述しかなく、ソースレベルの事実・URL・発行元・公開日が含まれていない。",
-                "whyItMatters": "ソースレベルの詳細がなければ、既存のプロセス判断を更新できない。これは新しい世界プロセスのシグナルではなく、一時的な証拠の欠落を示すものであり、証拠の再収集を促すべき状態である。",
-                "processMatchReason": "AI・エネルギー・半導体・地政学の具体的な変化が記録されていないため、既存プロセスへの確かなマッチはできない。この候補は世界の変化ではなく、証拠の状態を記述している。"
-              }
-            },
-            "sources": [
-              {
-                "title": "WEB SEARCH DOSSIER",
-                "url": "urn:insight:web-search-dossier:2026-08-09",
-                "publisher": "Internal research",
-                "publishedAt": "2026-08-09",
-                "kind": "context",
-                "id": "signal-2026-08-09-evidence-gap-source-1",
-                "role": "context"
-              },
-              {
-                "title": "Existing Global Processes registry",
-                "url": "urn:insight:process-registry:2026-08-09",
-                "publisher": "Insight Research",
-                "kind": "context",
-                "id": "signal-2026-08-09-evidence-gap-source-2",
-                "role": "context"
-              }
-            ],
-            "suggestedProcessId": "process-geopolitical-technology-control",
-            "currentEventSourceCount": 0,
-            "corroboratingSourceCount": 0,
-            "contextSourceCount": 2,
-            "claimSourceIds": [],
-            "analysis": {
-              "processMatchConfidence": 0,
-              "impact": "no_material_change",
-              "dailyState": "no_new_global_insight",
-              "materialChangeScore": 0,
-              "publishThresholdMet": false,
-              "scoreWasNormalized": true,
-              "triggerSourceCount": 0,
-              "corroboratingSourceCount": 0,
-              "contextSourceCount": 2,
-              "rationale": "The candidate describes an evidence-gap condition, not a real-world change. The web-search dossier contains no source-level facts, URLs, publishers, or publication dates — only a bare statement that signals are emerging. No substantive claim about AI, energy, semiconductors, or geopolitics is present to match against any Global Process. The original suggested match to process-geopolitical-technology-control has 0 independent sources and confidence of 11/100, which is effectively a guess. No material update to any existing process thesis can be derived. This requires evidence re-collection, not a process judgment change.",
-              "warnings": [
-                "Legacy 0–10 scores were normalized to 0–100.",
-                "No trigger source falls inside the research window.",
-                "Fewer than two current or corroborating sources.",
-                "No trigger or corroborating sources with verifiable facts; only 2 context sources.",
-                "Evidence-gap state: dossier lacks source-level detail (URLs, publishers, dates).",
-                "Cannot validate any candidate against the Global Process catalogue without substantive claims.",
-                "Conservative judgment: no_new_global_insight is the only defensible option given the absence of world-change signals."
-              ],
-              "candidateId": "signal-2026-08-09-evidence-gap"
-            }
-          }
-        ],
-        "analysisProvider": "deepseek"
       }
     },
     "china": {
@@ -250,5 +146,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3"
+  "message": "WORLD analyze 自动重试 1/3"
 }
