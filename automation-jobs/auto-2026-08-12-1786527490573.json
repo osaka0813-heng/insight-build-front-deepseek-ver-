@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:50:58.222Z",
+  "updatedAt": "2026-08-12T09:51:03.268Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1517,7 +1517,7 @@
       "stage": "analyze",
       "attempts": {},
       "message": "analyze",
-      "updatedAt": "2026-08-12T09:50:58.222Z",
+      "updatedAt": "2026-08-12T09:51:03.268Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-12-1786528256749",
