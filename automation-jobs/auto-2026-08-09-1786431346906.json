@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:11:58.601Z",
+  "updatedAt": "2026-08-12T03:12:08.149Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -445,90 +445,82 @@
       }
     },
     "china": {
-      "status": "retrying",
+      "status": "checkpointed",
       "stage": "analyze",
-      "attempts": {
-        "analyze": 1
-      },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 69b74c4444576baca75f15ee78889c2483d3714f",
-      "updatedAt": "2026-08-12T03:11:58.601Z",
+      "attempts": {},
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T03:12:08.149Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-china-2026-08-09-1786504318298",
+        "id": "research-china-2026-08-09-1786504328142",
         "status": "draft",
-        "researchedAt": "2026-08-12T03:11:58.298Z",
+        "researchedAt": "2026-08-12T03:12:08.142Z",
         "researchDate": "2026-08-09",
         "scope": "china",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 122587,
-          "outputTokens": 14880,
-          "cachedInputTokens": 98176
+          "inputTokens": 130487,
+          "outputTokens": 16362,
+          "cachedInputTokens": 103808
         },
-        "querySummary": "In the 24 hours to 2026-08-09, the most decision-relevant signals were Beijing property easing, China's countermeasures against US moves, the MOFCOM export-control announcement on EU entities, and the TrendForce AI chip report. One candidate with the strongest process fit was selected: the MOFCOM EU export-control announcement, which directly affects the China technology autonomy process.",
+        "querySummary": "The supplied dossier contains no source-level evidence for the 24-hour window. It only reports that candidates were identified and verification was ongoing. No verifiable event, publication, quote, or figure is present. Because the output schema requires at least one candidate, this result contains one explicitly labeled placeholder signal that should be rejected or replaced after human verification.",
         "candidates": [
           {
-            "id": "signal-20260809-mofcom-eu-export-controls",
+            "id": "placeholder-no-verifiable-signal-2026-08-09",
             "date": "2026-08-09",
-            "domain": "Trade and Technology",
+            "domain": "Research Process",
             "tags": [
-              "china",
-              "export-controls",
-              "eu",
-              "semiconductors",
-              "technology",
-              "trade-policy",
-              "mofcom"
+              "verification-gap",
+              "no-evidence",
+              "placeholder"
             ],
-            "suggestedProcessId": "process-china-tech-autonomy",
-            "processMatchConfidence": 88,
-            "importance": 82,
-            "novelty": 74,
-            "evidenceStrength": 52,
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
             "independentSourceCount": 1,
-            "thesisImpact": 78,
-            "relationshipChange": 72,
-            "stageChange": 60,
-            "contradiction": 18,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
             "content": {
               "en": {
-                "title": "China widens export controls to EU entities",
-                "coreFact": "In the 24 hours to 9 August 2026, MOFCOM announced export-control measures against EU entities, adding a European dimension to China's trade-control response.",
-                "whyItMatters": "This is a verifiable change in the geographic scope of Chinese export controls. It suggests technology autonomy is being pursued not only through import substitution but also through active countermeasures, and European supply chains may become part of the contest.",
-                "processMatchReason": "This signal directly belongs to the technology autonomy process: it changes the external constraint environment and shows China using export controls as a strategic tool, consistent with acceleration of that process."
+                "title": "No verifiable signal in the 24-hour window (placeholder)",
+                "coreFact": "The supplied web-search dossier for 2026-08-09 contains only a note that several candidates were found and that verification of primary sources was ongoing; it contains no dated event, statistic, quote, or publication. Therefore the structuring layer cannot extract a verifiable change.",
+                "whyItMatters": "Without source-backed facts, any update to the China processes would be speculative. This placeholder flags that human verification and additional search results are required before a real candidate signal can be added.",
+                "processMatchReason": "No existing process can be confidently matched because there is no factual anchor to test property/local-finance, industrial upgrading, tech autonomy, or demand rebalancing."
               },
               "zh": {
-                "title": "中国将出口管制扩大至欧盟实体",
-                "coreFact": "2026年8月8日至9日，商务部宣布对欧盟实体采取出口管制措施，使中国贸易反制的地域范围扩大到欧洲。",
-                "whyItMatters": "这是中国出口管制地理范围的一次可验证变化。它表明科技自主化不仅通过进口替代推进，也开始以主动出口管制作为战略工具，欧洲供应链可能被纳入博弈。",
-                "processMatchReason": "该信号直接对应科技自主化进程：它改变了外部约束环境，并显示中国正将出口管制用作战略手段，与该进程加速期的特征一致。"
+                "title": "24小时窗口内无可验证信号（占位）",
+                "coreFact": "2026-08-09提供的网络搜索档案中仅包含一条说明：已找到若干候选对象，并正在核实原始来源；其中没有任何注明日期的事件、数据、引文或出版物。因此，结构化层无法提取可验证的变化。",
+                "whyItMatters": "缺乏来源支撑的事实，任何对中国进程的更新都将是推测性的。此占位条目用于提示：需要人工核实和补充搜索结果后才能添加真正的候选信号。",
+                "processMatchReason": "由于缺少事实锚点，无法可靠匹配任何现有进程（房地产/地方财政、产业升级、科技自主化、内需再平衡）。"
               },
               "ja": {
-                "title": "中国が輸出規制をEUの事業者に拡大",
-                "coreFact": "2026年8月8日から9日にかけて、商務部はEUの事業者・団体に対する輸出規制措置を発表し、中国の貿易対抗手段の地理的範囲が欧州に拡大した。",
-                "whyItMatters": "これは中国の輸出規制の地理的範囲が変わる検証可能な変化である。技術自立を輸入代替だけでなく積極的な輸出規制でも進める姿勢を示しており、欧州のサプライチェーンも競争の対象になり得る。",
-                "processMatchReason": "このシグナルは技術自立プロセスに直結する。外部制約環境を変え、中国が輸出規制を戦略的手段として使っていることを示しており、同プロセスの加速を示唆している。"
+                "title": "24時間の窓内で検証可能なシグナルなし（プレースホルダ）",
+                "coreFact": "2026-08-09付で提供された検索資料には、候補がいくつか見つかり一次資料の検証中であるというメモのみが含まれ、日付を伴う出来事・統計・引用・出版物は含まれていない。したがって、構造化段階では検証可能な変化を抽出できない。",
+                "whyItMatters": "裏付けとなる事実なしに中国プロセスを更新すれば推測になる。このプレースホルダは、実際の候補シグナルを追加する前に人間による検証と追加検索が必要であることを示すためのもの。",
+                "processMatchReason": "事実のアンカーがないため、既存プロセス（不動産・地方財政、産業高度化、技術自立、内需再均衡）を確度高くマッチさせることができない。"
               }
             },
             "sources": [
               {
-                "title": "MOFCOM export-control announcement on EU entities",
-                "url": "https://www.mofcom.gov.cn",
-                "publisher": "Ministry of Commerce of the People's Republic of China",
-                "kind": "primary"
+                "title": "Supplied dossier status note",
+                "url": "",
+                "publisher": "Not specified in dossier",
+                "kind": "context"
               },
               {
-                "title": "TrendForce AI chip report",
-                "url": "https://www.trendforce.com",
-                "publisher": "TrendForce",
+                "title": "No additional dossier content provided",
+                "url": "",
+                "publisher": "Not specified in dossier",
                 "kind": "context"
               }
             ]
           }
         ]
-      },
-      "failedStage": "analyze"
+      }
     },
     "us": {
       "status": "queued",
@@ -577,5 +569,5 @@
       }
     ]
   },
-  "message": "CHINA analyze 自动重试 1/3"
+  "message": "WORLD 在 write_ja 连续失败 3 次，保留断点并跳到下一区域。"
 }
