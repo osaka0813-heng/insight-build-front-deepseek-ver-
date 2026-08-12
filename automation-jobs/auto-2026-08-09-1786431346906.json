@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:40:43.533Z",
+  "updatedAt": "2026-08-12T09:40:44.428Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1065,13 +1065,13 @@
       "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
-      "status": "running",
+      "status": "retrying",
       "stage": "write_zh",
       "attempts": {
         "write_zh": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-12T09:40:43.533Z",
+      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 97c6690e8889fd672652947fdc0302523e6a464b",
+      "updatedAt": "2026-08-12T09:40:44.428Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-09-1786504361286",
@@ -1257,47 +1257,47 @@
         "stage": "base",
         "baseDraft": {
           "insightId": null,
-          "slug": "beijing-property-relaxation-2026-08-09",
-          "parentInsightId": "process-china-property-local-finance",
+          "slug": "china-property-beijing-relaxation-structural-20260809",
+          "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "China: Property-to-Finance Transition",
-              "secondaryEyebrow": "Beijing Policy Signal",
-              "title": "Beijing Relaxes Property Purchase Restrictions",
-              "summary": "Beijing reportedly announced a relaxation of its property purchase restrictions on 2026-08-09, joining the latest round of local demand-support measures. If confirmed, the capital’s policy shift could influence nationwide housing expectations and support local fiscal capacity during the transition from property-led to new finance models."
+              "eyebrow": "Structural Shift",
+              "secondaryEyebrow": "China Property and Local-Finance Transition",
+              "title": "Beijing’s Policy Pivot Signals a New Phase in China’s Housing Reset",
+              "summary": "A reported relaxation of purchase restrictions in the capital could accelerate turnover and reshape local fiscal dynamics, but the details remain unconfirmed and upside is capped by weak buyer confidence."
             },
             "question": {
-              "lead": "On 2026-08-09, Beijing announced a relaxation of property purchase restrictions.",
-              "title": "Will Beijing’s move accelerate the shift from property-led to new finance models?",
-              "footnote": "The capital’s policy signal may influence housing demand, local revenues, and the pace of balance-sheet repair."
+              "lead": "On August 9, 2026, signals emerged that Beijing, the most symbolic city in China’s housing market, has eased property purchase restrictions. This move comes amid a broader structural transition in how local governments fund themselves—away from land sales and toward more stable fiscal models.",
+              "title": "How will Beijing’s relaxation of property curbs affect the pace of China’s housing and fiscal transition?",
+              "footnote": "Based on unverified signal; official details pending."
             },
             "signals": {
-              "title": "Signals",
-              "sourceNote": "Sources are internal research dossiers and process registers.",
+              "title": "Early Signals",
+              "sourceNote": "Signals derived from internal research dossier and process register, as of August 9, 2026.",
               "items": [
                 {
-                  "label": "Signal 1",
-                  "title": "Beijing relaxes property purchase restrictions",
-                  "body": "On 2026-08-09, Beijing reportedly announced a relaxation of its property purchase restrictions, joining a nationwide wave of demand-support measures. No numeric or legal details were confirmed.",
-                  "whyImportant": "Beijing is the most policy-signaling housing market in China; its easing could sway nationwide price expectations and support local fiscal revenues.",
+                  "label": "Policy Shift",
+                  "title": "Beijing eases property purchase restrictions",
+                  "body": "On August 9, 2026, Beijing reportedly announced a relaxation of property purchase curbs, joining other cities in China’s latest round of housing demand support. No numerical or legal details were confirmed.",
+                  "whyImportant": "Beijing is the policy‑signaling city for the national housing market; its relaxation could influence sentiment and home‑price expectations nationwide.",
                   "evidence": {
                     "title": "Internal research dossier",
-                    "description": "The dossier flags this as one of the most significant China signals in the past 24 hours, though evidence is preliminary.",
-                    "confidence": "developing",
+                    "description": "A web search dossier identifies this as one of the most significant China signals in the past 24 hours, but no official confirmation or specifics were available.",
+                    "confidence": "hypothesis",
                     "sourceIds": [
                       "sig-2026-08-09-beijing-property-relaxation-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "Signal 2",
-                  "title": "Broad trend of local housing demand-support measures",
-                  "body": "Multiple Chinese cities have been rolling out demand-side housing support measures throughout 2026, aiming to stabilize sales and land revenues. Beijing’s move represents the extension to the capital.",
-                  "whyImportant": "Accumulating local relaxations signal a structural policy shift away from strict curbs, aiming to smooth the property sector's transition and maintain fiscal stability.",
+                  "label": "Fiscal Context",
+                  "title": "Local governments seek revenue amid land sales slump",
+                  "body": "The reported relaxation comes as local governments face declining land‑sale income, a key funding source, pushing them to explore alternative fiscal models while trying to revive property transaction volumes.",
+                  "whyImportant": "The property downturn has strained municipal budgets; demand‑side measures are now seen as tools to stabilize transactions and protect fiscal capacity during the transition.",
                   "evidence": {
-                    "title": "China process register",
-                    "description": "The process register records a pattern of property finance transition and local fiscal adjustments across cities.",
+                    "title": "Process register context",
+                    "description": "The China property and local‑finance transition process note the structural shift away from land‑sale dependency, a trend that this relaxation is designed to manage.",
                     "confidence": "developing",
                     "sourceIds": [
                       "sig-2026-08-09-beijing-property-relaxation-source-2"
@@ -1307,74 +1307,73 @@
               ]
             },
             "pattern": {
-              "title": "From Strict Curbs to Demand Support: Beijing’s Relaxation and the Property-Finance Shift",
-              "before": "China’s property market was dominated by strict purchase restrictions, with Beijing maintaining among the tightest controls, depressing transaction volumes and constraining local land-sale revenues.",
-              "shift": "Since 2025, a growing number of tier-2 and tier-3 cities have rolled back purchase restrictions to boost demand; now, Beijing’s reported relaxation signals that the policy approach has reached the capital.",
-              "now": "Beijing’s easing, if confirmed, would mean the last major symbolic holdout has adopted demand support, potentially shifting national sentiment and providing greater scope for local fiscal repair.",
-              "conclusion": "The extension of demand-side support to Beijing could accelerate the transition from property-led revenues to new local finance models, but the pace and ultimate shape depend on the scale and speed of implementation."
+              "title": "China’s Property Market: From Volume‑Dependent Finance to Managed Adjustment",
+              "before": "Local governments relied heavily on land‑sale revenue and property‑related taxes, with strict purchase restrictions to cool overheated markets.",
+              "shift": "As the property slump deepened, Beijing and other cities gradually relaxed curbs, aiming to stabilize housing turnover while exploring new fiscal revenue sources.",
+              "now": "Beijing’s reported relaxation marks a symbolic step in the capital, but weak confidence and unfinished balance‑sheet repairs limit the upside; policy now focuses on managing the pace of adjustment rather than stimulating a rebound.",
+              "conclusion": "The easing reflects a structural pivot from prioritizing market control to sustaining sufficient transaction volume for fiscal stability, but the lack of detailed policy design keeps the medium‑term trajectory uncertain."
             },
             "insight": {
-              "title": "Beijing’s relaxation could catalyze the property-to-new-finance transition",
-              "formula": "Beijing’s relaxation + nationwide demand support = accelerated property-to-new-finance transition with fiscal buffers",
-              "explanation": "As China’s policy-signaling city pivots, local governments may gain breathing room to restructure balance sheets, but the shift remains contingent on sustained sales recovery and alternative revenue sources."
+              "title": "Beijing’s Restriction Easing Is a Fiscal Triage, Not a Return to Stimulus",
+              "formula": "Fiscal need drives relaxation → restricted by confidence and inventory → results in moderated turnover stabilization",
+              "explanation": "With local governments facing fiscal pressure from land‑sale declines, Beijing’s reported move signals that policy is focused on preventing a further drop in transaction‑linked revenue rather than reigniting home prices. Without complementary measures to boost household confidence or address oversupply, the impact will be a measured stabilization at best."
             },
             "observe": {
               "title": "What to Watch",
               "items": [
                 {
-                  "label": "Policy details",
-                  "prompt": "What specific restrictions are eased and for whom?",
-                  "meta": "official announcement"
+                  "label": "Policy Detail",
+                  "prompt": "Watch for official announcement and specifics of Beijing’s relaxation (which districts, income thresholds, etc.).",
+                  "meta": "Official statement"
                 },
                 {
-                  "label": "Sales data",
-                  "prompt": "How do Beijing’s new home sales and land auction results change?",
-                  "meta": "monthly housing and land data"
+                  "label": "Market Data",
+                  "prompt": "Monitor Beijing transaction volumes and home prices in the following weeks for any immediate impact.",
+                  "meta": "Volume/Price Indices"
                 },
                 {
-                  "label": "Fiscal data",
-                  "prompt": "Do local government fiscal revenue reports show improved land income?",
-                  "meta": "local fiscal reports"
+                  "label": "Fiscal Reports",
+                  "prompt": "Track municipal government fiscal data to see if land‑sale revenue stabilizes or if new fiscal tools are introduced.",
+                  "meta": "Fiscal reports"
                 },
                 {
-                  "label": "National policy",
-                  "prompt": "Are there new central government statements on property or local debt reform?",
-                  "meta": "policy statements"
+                  "label": "National Spillover",
+                  "prompt": "Observe whether other Tier‑1 cities follow suit and how home‑price expectations shift nationally.",
+                  "meta": "Policy announcements"
                 }
               ],
-              "ending": "Monitoring these indicators will reveal whether Beijing’s move is isolated or part of a durable shift in China’s property and fiscal architecture."
+              "ending": "The easing in Beijing may be the most visible test yet of whether demand‑side fine‑tuning can support the housing transition without reigniting speculative expectations."
             }
           },
           "dailyStateEn": {
-            "label": "No New Global Insight",
-            "decisionTitle": "Evidence insufficient for publication",
-            "decisionSummary": "The Beijing relaxation signal lacks corroborating sources and details; we continue to monitor but do not publish as a new global insight.",
-            "thresholdReason": "Zero independent trigger or corroborating sources; no numeric or legal details available.",
+            "label": "Structural Shift",
+            "decisionTitle": "Structural transition advances with Beijing property easing",
+            "decisionSummary": "A reported relaxation of purchase restrictions in Beijing signals that policy is prioritizing transaction volumes to support local fiscal stability, but unconfirmed details and weak buyer confidence keep the net impact uncertain.",
+            "thresholdReason": "The signal is unverified and lacks official details, so the material change is low; it confirms the structural direction but does not yet indicate acceleration.",
             "observeNext": [
-              "Official Beijing housing policy announcement",
-              "Sales data for Beijing and nearby cities",
-              "Land auction premiums and land revenue data for major cities",
-              "Central government statements on property market and local debt"
+              "Official policy announcement from Beijing",
+              "Beijing monthly transaction volume data",
+              "National land-sale revenue figures"
             ]
           },
           "processStage": "structural",
           "processContentEn": {
-            "title": "China property and local-finance transition",
-            "description": "Structural shift from property-led growth and land sales to diversified local revenue sources and new housing policy frameworks.",
-            "implication": "Beijing's move, if substantive, could ease local fiscal pressures during the transition, but full confidence requires broader fiscal reform implementation."
+            "title": "China Property and Local-Finance Transition",
+            "description": "China’s property market is moving from a volume‑driven model that funded local governments through land sales to a more managed housing system where transaction turnover is supported for fiscal stability, while structural overhang persists.",
+            "implication": "The transition reduces the risk of a collapse in local government revenue but caps the upside of any demand‑side stimulus, as the priority is a controlled adjustment rather than a return to housing‑as‑growth‑engine."
           },
-          "nextQuestionEn": "How will Beijing's housing policy details affect the timeline of local government fiscal restructuring?",
+          "nextQuestionEn": "What new fiscal tools will Beijing introduce to replace land-sale revenue in the medium term?",
           "observeNextEn": [
-            "Official announcement from Beijing municipal government",
-            "New home sales volume data for Beijing in the following month",
-            "Land auction premiums and land revenue data for major cities",
-            "Central government statements on property market and local debt"
+            "Official Beijing policy announcement details",
+            "Beijing residential transaction volume trend",
+            "Municipal land-sale revenue data",
+            "Household confidence indices"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 2518,
-          "outputTokens": 4243,
+          "outputTokens": 4080,
           "cachedInputTokens": 2432
         }
       },
