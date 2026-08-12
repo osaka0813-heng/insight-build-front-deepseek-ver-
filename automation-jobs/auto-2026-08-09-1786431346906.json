@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:39:23.775Z",
+  "updatedAt": "2026-08-12T09:39:25.146Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1065,13 +1065,13 @@
       "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_base",
       "attempts": {
         "write_base": 1
       },
-      "message": "Automation state write failed: is at 172eca3a112b1e626cfae77329b53874a01c0ee1 but expected 6323254285bf2003e2feb6f2deb8c208d8fb9484",
-      "updatedAt": "2026-08-12T09:39:23.775Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-12T09:39:25.146Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-09-1786504361286",
