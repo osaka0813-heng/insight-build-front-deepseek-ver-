@@ -6,18 +6,18 @@
   "currentScope": "china",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:12:22.117Z",
+  "updatedAt": "2026-08-12T03:12:41.292Z",
   "scopes": {
     "global": {
-      "status": "error",
-      "stage": "write_ja",
+      "status": "done",
+      "stage": "publish",
       "attempts": {
         "research": 1,
         "analyze": 1,
-        "write_ja": 3
+        "write_ja": 1
       },
-      "message": "Automation state write failed: is at 4a69c0f119e349aa4b504dd159e94439ac31dabf but expected bc34908f159da490e38e82bb872214d52cb7364c",
-      "updatedAt": "2026-08-12T03:09:35.591Z",
+      "message": "已发布",
+      "updatedAt": "2026-08-12T03:10:13.673Z",
       "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
@@ -442,110 +442,703 @@
           "outputTokens": 4416,
           "cachedInputTokens": 2432
         }
-      }
+      },
+      "writeJa": {
+        "ok": true,
+        "stage": "ja",
+        "language": "ja",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "調査の誠実性",
+              "secondaryEyebrow": "エビデンス収集",
+              "title": "ソースレベルのエビデンス欠落がシグナル検証を阻む",
+              "summary": "2026年8月9日付のウェブ検索資料には、浮上しつつあるシグナルに関する抽象的な記述しかなく、ソースレベルの事実、URL、発行元、公開日は一切含まれていない。これは一時的なエビデンス収集の欠落であり、世界的なプロセスの変化ではない。"
+            },
+            "question": {
+              "lead": "シグナルは、検証可能なソースなしに検証できるのか？",
+              "title": "エビデンス資料がソースレベルの詳細を欠く場合、何が起きるのか？",
+              "footnote": "既存のプロセス論（AIインフラ、エネルギー安全保障、半導体生産能力、地政学的技術管理）はすべて、前回評価時の段階のままであり、更新すべき新情報はない。"
+            },
+            "signals": {
+              "title": "存在する唯一のシグナル",
+              "sourceNote": "利用可能なのは内部調査からのコンテキストソース2件のみであり、調査期間中に独立したトリガーや裏付けとなるソースは存在しない。",
+              "items": [
+                {
+                  "label": "エビデンス",
+                  "title": "ソースの裏付けがない抽象的な主張",
+                  "body": "資料は、強いシグナルがいくつか浮上していると述べているが、特定のグローバルプロセスの変化を裏付けるURL、発行元、公開日、検証可能な事実は一切示されていない。",
+                  "whyImportant": "ソースレベルの詳細がなければ、いかなるプロセス論も更新できず、独立した検証も不可能である。",
+                  "evidence": {
+                    "title": "ウェブ検索資料",
+                    "description": "シグナルに関する抽象的な記述のみを含み、ソースレベルの事実を欠く、2026-08-09日付の内部調査資料。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "signal-2026-08-09-evidence-gap-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "レジストリ",
+                  "title": "4つのグローバルプロセスがエビデンスを待機",
+                  "body": "既存プロセスレジストリには、AIインフラ競争、エネルギー安全保障、半導体生産能力、地政学的技術管理が含まれるが、いずれも前回評価時の段階で停滞している。",
+                  "whyImportant": "エビデンスの欠如は存在の欠如を意味しない。プロセスは進化しているかもしれないが、現在は測定が不可能である。",
+                  "evidence": {
+                    "title": "既存グローバルプロセスレジストリ",
+                    "description": "アクティブなグローバルプロセス論をすべて記録した内部レジストリ。2026-08-09時点で4つのプロセスに実質的な変化がないことを示す。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "signal-2026-08-09-evidence-gap-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "シグナルが世界の変化についてでない場合",
+              "before": "これまでインサイトの生成は、ソースレベルの帰属を備えたウェブ検索エビデンスの継続的な供給に依存しており、各候補シグナルを既存のプロセス論と照合することができた。",
+              "shift": "8月9日の資料は、独立した検証可能なソース帰属を伴わない抽象的な要約として到着した。これは実世界のプロセスについてではなく、エビデンス収集についてのメタシグナルである。",
+              "now": "この候補は、それ自体がエビデンスの欠落であると正しく認識している。プロセスの判定は何も変わらず、登録済みの4プロセスはすべて前回評価時の段階のままであり、物質的変化スコアはゼロである。",
+              "conclusion": "これは一時的なエビデンス収集の失敗であり、グローバルプロセスのインサイトではない。プロセス判定を更新する前に、完全なソース帰属を備えたエビデンスの再収集が必要である。"
+            },
+            "insight": {
+              "title": "エビデンスの完全性はプロセス追跡の前提条件である",
+              "formula": "ソースレベルの事実なし → 検証なし → プロセス更新なし",
+              "explanation": "エビデンス資料にURL、発行元、日付、検証可能な事実がない場合、抽象的な主張がどれほどもっともらしく聞こえても、シグナルパイプラインは意味のあるプロセス更新を生み出すことができない。"
+            },
+            "observe": {
+              "title": "エビデンス再収集中に見守るべき点",
+              "items": [
+                {
+                  "label": "プロセス1",
+                  "prompt": "AIインフラ競争に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                  "meta": "process-ai-infrastructure-race"
+                },
+                {
+                  "label": "プロセス2",
+                  "prompt": "エネルギー安全保障の変化に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                  "meta": "process-energy-security"
+                },
+                {
+                  "label": "プロセス3",
+                  "prompt": "半導体生産能力の変化に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                  "meta": "process-semiconductor-capacity"
+                },
+                {
+                  "label": "プロセス4",
+                  "prompt": "地政学的技術管理に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                  "meta": "process-geopolitical-technology-control"
+                }
+              ],
+              "ending": "ソースレベルのエビデンスが再収集されるまで、いかなるプロセス段階も変更すべきではない。"
+            }
+          },
+          "dailyState": {
+            "label": "新しいグローバルインサイトなし",
+            "decisionTitle": "エビデンス欠落のため、いかなるプロセス更新も不可",
+            "decisionSummary": "この候補は実世界のプロセスの変化を記述していない。これは、2026-08-09付のウェブ検索資料にソースレベルの事実、URL、発行元、公開日が含まれておらず、強いシグナルが浮上しているという抽象的な記述のみが存在することを報告するメタシグナルである。検証可能なエビデンスがなければ、既存のグローバルプロセス論はいずれも変化を評価できない。",
+            "thresholdReason": "物質的変化スコアはゼロ。調査期間中にトリガーまたは裏付けとなるソースは存在せず、検証可能な事実を備えた独立ソースは2件未満しか提供されていない。",
+            "observeNext": [
+              "ソースの完全な帰属を備えたウェブ検索エビデンスを再収集する",
+              "登録済みの4プロセスすべてについて、独立に検証可能な変化を監視する",
+              "ソースレベルのエビデンスが利用可能になるまで、いかなるプロセス段階も更新しない"
+            ]
+          },
+          "processContent": {
+            "title": "技術管理が地政学的インフラとなる",
+            "description": "地政学的技術管理は、前回評価時の加速段階にとどまっているが、その判断を確認、修正、または反駁するための新しいソース帰属エビデンスは得られていない。",
+            "implication": "エビデンスが欠如しているため、プロセス段階は更新できない。地政学的技術管理—あるいは他のいかなるプロセス—についての判断を変更するには、エビデンスの再収集が必要である。"
+          },
+          "nextQuestion": "最終評価以降、いずれかのグローバルプロセスが実質的に変化したかどうかを検証するため、どのようなソースレベルのエビデンスを収集できるか？",
+          "observeNext": [
+            "ソースの完全な帰属（URL、発行元、日付、検証可能な事実）を備えたウェブ検索エビデンスを再収集する",
+            "AIインフラ競争について、独立に検証可能な変化を監視する",
+            "エネルギー安全保障の変化について、独立に検証可能な変化を監視する",
+            "半導体生産能力と地政学的技術管理について、独立に検証可能な変化を監視する"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2433,
+          "outputTokens": 5398,
+          "cachedInputTokens": 2432
+        }
+      },
+      "writerDraft": {
+        "id": "writer-signal-2026-08-09-evidence-gap-1786504205608",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-08-12T03:10:05.608Z",
+        "researchDraftId": "research-global-2026-08-09-1786431679954",
+        "candidateId": "signal-2026-08-09-evidence-gap",
+        "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
+        "dailyState": "no_new_global_insight",
+        "matchedProcessId": "process-geopolitical-technology-control",
+        "qualityChecks": {
+          "publishThresholdMet": false,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": [
+            "Candidate does not meet publication threshold.",
+            "Fewer than two current or corroborating sources."
+          ]
+        },
+        "insight": {
+          "id": "signal-2026-08-09-evidence-gap",
+          "scope": "global",
+          "slug": "evidence-gap-blocks-signal-validation",
+          "status": "update_living",
+          "parentInsightId": "process-geopolitical-technology-control",
+          "processId": "process-geopolitical-technology-control",
+          "publishedAt": "2026-08-09T00:00:00.000Z",
+          "updatedAt": "2026-08-12T03:10:05.608Z",
+          "confidence": "hypothesis",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "Research Integrity",
+                "secondaryEyebrow": "Evidence Collection",
+                "title": "Source-Level Evidence Gap Blocks Signal Validation",
+                "summary": "The web-search dossier for August 9, 2026 contains only an abstract claim about emerging signals — no source-level facts, URLs, publishers, or publication dates. This is a temporary evidence-collection gap, not a change in any global process."
+              },
+              "question": {
+                "lead": "Can a signal be validated without verifiable sources?",
+                "title": "What happens when the evidence dossier lacks source-level detail?",
+                "footnote": "All existing process theses — AI infrastructure, energy security, semiconductor capacity, and geopolitical technology control — remain at their last-assessed stages with no new information to update them."
+              },
+              "signals": {
+                "title": "The Only Signal Present",
+                "sourceNote": "Only two context sources from internal research are available; no independent trigger or corroborating sources exist within the research window.",
+                "items": [
+                  {
+                    "id": "signal-2026-08-09-evidence-gap-signal-1",
+                    "label": "Evidence",
+                    "title": "Abstract claim without source backing",
+                    "body": "The dossier states that several strong signals are emerging, but provides no URLs, publisher names, publication dates, or verifiable facts to support any specific global process change.",
+                    "whyImportant": "Without source-level detail, no process thesis can be updated, and no independent validation is possible.",
+                    "evidence": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-evidence-1",
+                        "title": "WEB SEARCH DOSSIER",
+                        "description": "Internal research dossier dated 2026-08-09 containing only an abstract statement about emerging signals, with no source-level facts.",
+                        "confidence": "hypothesis",
+                        "sourceIds": [
+                          "signal-2026-08-09-evidence-gap-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-source-1",
+                        "title": "WEB SEARCH DOSSIER",
+                        "publisher": "Internal research",
+                        "publishedAt": "2026-08-09",
+                        "url": "urn:insight:web-search-dossier:2026-08-09",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "signal-2026-08-09-evidence-gap-signal-2",
+                    "label": "Registry",
+                    "title": "Four global processes await evidence",
+                    "body": "The existing process registry covers AI infrastructure race, energy security, semiconductor capacity, and geopolitical technology control — all stagnant at their last-assessed stages.",
+                    "whyImportant": "The absence of evidence is not evidence of absence; processes may be evolving, but no measurement is possible now.",
+                    "evidence": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-evidence-2",
+                        "title": "Existing Global Processes registry",
+                        "description": "Internal registry of all active global process theses, showing four processes with no material change on 2026-08-09.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "signal-2026-08-09-evidence-gap-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-source-2",
+                        "title": "Existing Global Processes registry",
+                        "publisher": "Insight Research",
+                        "url": "urn:insight:process-registry:2026-08-09",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "When the Signal Is Not About the World",
+                "before": "Insight production depended on continuous feeds of web-search evidence with source-level attribution, allowing each candidate signal to be matched against an existing process thesis.",
+                "shift": "The August 9 dossier arrived as an abstract summary without any independent, verifiable, source-attributed facts — a meta-signal about evidence collection rather than about any real-world process.",
+                "now": "The candidate correctly identifies itself as an evidence gap. No process judgment can change, and all four registered processes remain at their last-assessed stages with zero material-change score.",
+                "conclusion": "This is a temporary evidence-collection failure, not a global process insight. Re-collection of evidence with full source attribution is required before any process judgment is updated."
+              },
+              "insight": {
+                "title": "Evidence integrity is the prerequisite for process tracking",
+                "formula": "No source-level facts → No validation → No process update",
+                "explanation": "When the evidence dossier lacks URLs, publishers, dates, and verifiable facts, the signal pipeline cannot produce meaningful process updates — regardless of how plausible the abstract claim may sound."
+              },
+              "observe": {
+                "title": "What to Watch While Evidence Is Re-Collected",
+                "items": [
+                  {
+                    "label": "Process 1",
+                    "prompt": "Has any new, source-attributed evidence emerged for the AI infrastructure race?",
+                    "meta": "process-ai-infrastructure-race"
+                  },
+                  {
+                    "label": "Process 2",
+                    "prompt": "Has any new, source-attributed evidence emerged for energy security shifts?",
+                    "meta": "process-energy-security"
+                  },
+                  {
+                    "label": "Process 3",
+                    "prompt": "Has any new, source-attributed evidence emerged for semiconductor capacity changes?",
+                    "meta": "process-semiconductor-capacity"
+                  },
+                  {
+                    "label": "Process 4",
+                    "prompt": "Has any new, source-attributed evidence emerged for geopolitical technology control?",
+                    "meta": "process-geopolitical-technology-control"
+                  }
+                ],
+                "ending": "Until source-level evidence is re-collected, no process stage should be changed."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "研究诚信",
+                "secondaryEyebrow": "证据收集",
+                "title": "源级证据缺口阻碍信号验证",
+                "summary": "2026年8月9日的网络搜索档案仅包含一条关于新兴信号的抽象论断——没有源级事实、URL、发布机构或发布日期。这是一个临时的证据收集缺口，而非任何全球进程的变化。"
+              },
+              "question": {
+                "lead": "没有可验证的来源，信号能否被验证？",
+                "title": "当证据档案缺少源级细节时会发生什么？",
+                "footnote": "所有现有的进程论点——人工智能基础设施、能源安全、半导体产能和地缘政治技术控制——均保持在最近一次评估的阶段，没有新信息可供更新。"
+              },
+              "signals": {
+                "title": "当前唯一的信号",
+                "sourceNote": "仅有来自内部研究的两个背景来源可用；研究窗口内不存在独立的触发源或佐证来源。",
+                "items": [
+                  {
+                    "id": "signal-2026-08-09-evidence-gap-signal-1",
+                    "label": "证据",
+                    "title": "缺乏来源支持的抽象论断",
+                    "body": "该档案称若干强信号正在出现，但未提供任何URL、发布机构名称、发布日期或可验证的事实来支持任何具体的全球进程变化。",
+                    "whyImportant": "缺少源级细节，任何进程论点都无法更新，独立验证也无从进行。",
+                    "evidence": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-evidence-1",
+                        "title": "网络搜索档案",
+                        "description": "日期为2026-08-09的内部研究档案，仅包含关于新兴信号的抽象陈述，无源级事实。",
+                        "confidence": "hypothesis",
+                        "sourceIds": [
+                          "signal-2026-08-09-evidence-gap-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-source-1",
+                        "title": "WEB SEARCH DOSSIER",
+                        "publisher": "Internal research",
+                        "publishedAt": "2026-08-09",
+                        "url": "urn:insight:web-search-dossier:2026-08-09",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "signal-2026-08-09-evidence-gap-signal-2",
+                    "label": "登记册",
+                    "title": "四个全球进程等待证据",
+                    "body": "现有进程登记册涵盖人工智能基础设施竞赛、能源安全、半导体产能和地缘政治技术控制——所有条目均停留在最近一次评估的阶段，没有变化。",
+                    "whyImportant": "证据的缺失并不等于缺失的证据；进程可能正在演变，但目前无法进行任何测量。",
+                    "evidence": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-evidence-2",
+                        "title": "现有全球进程登记册",
+                        "description": "所有活跃全球进程论点的内部登记册，显示2026-08-09四个进程均无实质性变化。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "signal-2026-08-09-evidence-gap-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-source-2",
+                        "title": "Existing Global Processes registry",
+                        "publisher": "Insight Research",
+                        "url": "urn:insight:process-registry:2026-08-09",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "当信号与真实世界无关时",
+                "before": "洞察生产依赖于持续输入的、带有源级归属的网络搜索证据，从而使每个候选信号都能与现有进程论点进行匹配。",
+                "shift": "8月9日的档案以抽象摘要的形式出现，没有任何独立、可验证、可追溯来源的事实——这是一个关于证据收集的元信号，而非关于任何真实世界进程。",
+                "now": "该候选信号正确地识别出自身是一个证据缺口。任何进程判断都无法改变，四个已登记进程均停留在最近一次评估的阶段，实质性变化评分为零。",
+                "conclusion": "这是一个临时的证据收集失败，而非全球进程洞察。在更新任何进程判断之前，需要重新收集带有完整来源归属的证据。"
+              },
+              "insight": {
+                "title": "证据完整性是进程追踪的前提",
+                "formula": "无源级事实 → 无法验证 → 无法更新进程",
+                "explanation": "当证据档案缺少URL、发布机构、日期和可验证事实时，无论抽象论断听起来多么合理，信号管道都无法产生有意义的进程更新。"
+              },
+              "observe": {
+                "title": "在重新收集证据期间需要关注什么",
+                "items": [
+                  {
+                    "label": "进程 1",
+                    "prompt": "人工智能基础设施竞赛是否出现了新的、有来源归属的证据？",
+                    "meta": "process-ai-infrastructure-race"
+                  },
+                  {
+                    "label": "进程 2",
+                    "prompt": "能源安全转变是否出现了新的、有来源归属的证据？",
+                    "meta": "process-energy-security"
+                  },
+                  {
+                    "label": "进程 3",
+                    "prompt": "半导体产能变化是否出现了新的、有来源归属的证据？",
+                    "meta": "process-semiconductor-capacity"
+                  },
+                  {
+                    "label": "进程 4",
+                    "prompt": "地缘政治技术控制是否出现了新的、有来源归属的证据？",
+                    "meta": "process-geopolitical-technology-control"
+                  }
+                ],
+                "ending": "在重新收集到源级证据之前，任何进程阶段都不应更改。"
+              }
+            },
+            "ja": {
+              "cover": {
+                "eyebrow": "調査の誠実性",
+                "secondaryEyebrow": "エビデンス収集",
+                "title": "ソースレベルのエビデンス欠落がシグナル検証を阻む",
+                "summary": "2026年8月9日付のウェブ検索資料には、浮上しつつあるシグナルに関する抽象的な記述しかなく、ソースレベルの事実、URL、発行元、公開日は一切含まれていない。これは一時的なエビデンス収集の欠落であり、世界的なプロセスの変化ではない。"
+              },
+              "question": {
+                "lead": "シグナルは、検証可能なソースなしに検証できるのか？",
+                "title": "エビデンス資料がソースレベルの詳細を欠く場合、何が起きるのか？",
+                "footnote": "既存のプロセス論（AIインフラ、エネルギー安全保障、半導体生産能力、地政学的技術管理）はすべて、前回評価時の段階のままであり、更新すべき新情報はない。"
+              },
+              "signals": {
+                "title": "存在する唯一のシグナル",
+                "sourceNote": "利用可能なのは内部調査からのコンテキストソース2件のみであり、調査期間中に独立したトリガーや裏付けとなるソースは存在しない。",
+                "items": [
+                  {
+                    "id": "signal-2026-08-09-evidence-gap-signal-1",
+                    "label": "エビデンス",
+                    "title": "ソースの裏付けがない抽象的な主張",
+                    "body": "資料は、強いシグナルがいくつか浮上していると述べているが、特定のグローバルプロセスの変化を裏付けるURL、発行元、公開日、検証可能な事実は一切示されていない。",
+                    "whyImportant": "ソースレベルの詳細がなければ、いかなるプロセス論も更新できず、独立した検証も不可能である。",
+                    "evidence": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-evidence-1",
+                        "title": "ウェブ検索資料",
+                        "description": "シグナルに関する抽象的な記述のみを含み、ソースレベルの事実を欠く、2026-08-09日付の内部調査資料。",
+                        "confidence": "hypothesis",
+                        "sourceIds": [
+                          "signal-2026-08-09-evidence-gap-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-source-1",
+                        "title": "WEB SEARCH DOSSIER",
+                        "publisher": "Internal research",
+                        "publishedAt": "2026-08-09",
+                        "url": "urn:insight:web-search-dossier:2026-08-09",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "signal-2026-08-09-evidence-gap-signal-2",
+                    "label": "レジストリ",
+                    "title": "4つのグローバルプロセスがエビデンスを待機",
+                    "body": "既存プロセスレジストリには、AIインフラ競争、エネルギー安全保障、半導体生産能力、地政学的技術管理が含まれるが、いずれも前回評価時の段階で停滞している。",
+                    "whyImportant": "エビデンスの欠如は存在の欠如を意味しない。プロセスは進化しているかもしれないが、現在は測定が不可能である。",
+                    "evidence": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-evidence-2",
+                        "title": "既存グローバルプロセスレジストリ",
+                        "description": "アクティブなグローバルプロセス論をすべて記録した内部レジストリ。2026-08-09時点で4つのプロセスに実質的な変化がないことを示す。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "signal-2026-08-09-evidence-gap-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "signal-2026-08-09-evidence-gap-source-2",
+                        "title": "Existing Global Processes registry",
+                        "publisher": "Insight Research",
+                        "url": "urn:insight:process-registry:2026-08-09",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "シグナルが世界の変化についてでない場合",
+                "before": "これまでインサイトの生成は、ソースレベルの帰属を備えたウェブ検索エビデンスの継続的な供給に依存しており、各候補シグナルを既存のプロセス論と照合することができた。",
+                "shift": "8月9日の資料は、独立した検証可能なソース帰属を伴わない抽象的な要約として到着した。これは実世界のプロセスについてではなく、エビデンス収集についてのメタシグナルである。",
+                "now": "この候補は、それ自体がエビデンスの欠落であると正しく認識している。プロセスの判定は何も変わらず、登録済みの4プロセスはすべて前回評価時の段階のままであり、物質的変化スコアはゼロである。",
+                "conclusion": "これは一時的なエビデンス収集の失敗であり、グローバルプロセスのインサイトではない。プロセス判定を更新する前に、完全なソース帰属を備えたエビデンスの再収集が必要である。"
+              },
+              "insight": {
+                "title": "エビデンスの完全性はプロセス追跡の前提条件である",
+                "formula": "ソースレベルの事実なし → 検証なし → プロセス更新なし",
+                "explanation": "エビデンス資料にURL、発行元、日付、検証可能な事実がない場合、抽象的な主張がどれほどもっともらしく聞こえても、シグナルパイプラインは意味のあるプロセス更新を生み出すことができない。"
+              },
+              "observe": {
+                "title": "エビデンス再収集中に見守るべき点",
+                "items": [
+                  {
+                    "label": "プロセス1",
+                    "prompt": "AIインフラ競争に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                    "meta": "process-ai-infrastructure-race"
+                  },
+                  {
+                    "label": "プロセス2",
+                    "prompt": "エネルギー安全保障の変化に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                    "meta": "process-energy-security"
+                  },
+                  {
+                    "label": "プロセス3",
+                    "prompt": "半導体生産能力の変化に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                    "meta": "process-semiconductor-capacity"
+                  },
+                  {
+                    "label": "プロセス4",
+                    "prompt": "地政学的技術管理に関して、ソース帰属を備えた新しいエビデンスは浮上したか？",
+                    "meta": "process-geopolitical-technology-control"
+                  }
+                ],
+                "ending": "ソースレベルのエビデンスが再収集されるまで、いかなるプロセス段階も変更すべきではない。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-08-09",
+          "scope": "global",
+          "date": "2026-08-09",
+          "decidedAt": "2026-08-12T03:10:05.608Z",
+          "state": "no_new_global_insight",
+          "insightId": "signal-2026-08-09-evidence-gap",
+          "processId": "process-geopolitical-technology-control",
+          "previousInsightId": "null",
+          "materialChangeScore": 0,
+          "evidenceStrength": 0,
+          "noveltyScore": 0,
+          "importanceScore": 0,
+          "candidateSignalIds": [
+            "signal-2026-08-09-evidence-gap"
+          ],
+          "content": {
+            "en": {
+              "label": "No New Global Insight",
+              "decisionTitle": "Evidence gap prevents any process update",
+              "decisionSummary": "The candidate does not describe a change in any real-world process. It is a meta-signal reporting that the web-search dossier for 2026-08-09 contains no source-level facts, URLs, publishers, or publication dates — only an abstract statement about strong signals emerging. Without verifiable evidence, no existing global process thesis can be evaluated for change.",
+              "thresholdReason": "Material change score is zero; no trigger or corroborating sources exist within the research window; fewer than two independent sources with verifiable facts are provided.",
+              "observeNext": [
+                "Re-collect web-search evidence with full source attribution",
+                "Monitor all four registered processes for any independently verifiable change",
+                "Do not update any process stage until source-level evidence is available"
+              ]
+            },
+            "zh": {
+              "label": "无新的全球洞察",
+              "decisionTitle": "证据缺口阻止任何进程更新",
+              "decisionSummary": "该候选信号未描述任何真实世界进程的变化。它是一个元信号，报告2026-08-09的网络搜索档案不包含源级事实、URL、发布机构或发布日期——只有一条关于强信号正在出现的抽象陈述。没有可验证的证据，任何现有全球进程论点都无法被评估是否发生变化。",
+              "thresholdReason": "实质性变化评分为零；研究窗口内不存在触发源或佐证来源；提供的可验证事实的独立来源少于两个。",
+              "observeNext": [
+                "重新收集具有完整来源归属的网络搜索证据",
+                "监测所有四个已登记进程是否出现可独立验证的变化",
+                "在获得源级证据之前，不更新任何进程阶段"
+              ]
+            },
+            "ja": {
+              "label": "新しいグローバルインサイトなし",
+              "decisionTitle": "エビデンス欠落のため、いかなるプロセス更新も不可",
+              "decisionSummary": "この候補は実世界のプロセスの変化を記述していない。これは、2026-08-09付のウェブ検索資料にソースレベルの事実、URL、発行元、公開日が含まれておらず、強いシグナルが浮上しているという抽象的な記述のみが存在することを報告するメタシグナルである。検証可能なエビデンスがなければ、既存のグローバルプロセス論はいずれも変化を評価できない。",
+              "thresholdReason": "物質的変化スコアはゼロ。調査期間中にトリガーまたは裏付けとなるソースは存在せず、検証可能な事実を備えた独立ソースは2件未満しか提供されていない。",
+              "observeNext": [
+                "ソースの完全な帰属を備えたウェブ検索エビデンスを再収集する",
+                "登録済みの4プロセスすべてについて、独立に検証可能な変化を監視する",
+                "ソースレベルのエビデンスが利用可能になるまで、いかなるプロセス段階も更新しない"
+              ]
+            }
+          }
+        },
+        "processUpdate": {
+          "processId": "process-geopolitical-technology-control",
+          "scope": "global",
+          "updatedAt": "2026-08-12T03:10:05.608Z",
+          "appendInsightId": "signal-2026-08-09-evidence-gap",
+          "evolutionEvent": {
+            "id": "evolution-signal-2026-08-09-evidence-gap",
+            "date": "2026-08-09",
+            "stage": "uncertain",
+            "impact": "updates",
+            "insightId": "signal-2026-08-09-evidence-gap",
+            "content": {
+              "en": {
+                "title": "Technology control becomes geopolitical infrastructure",
+                "description": "Geopolitical technology control remains at the accelerating stage as last assessed, but no new source-attributed evidence is available to confirm, revise, or refute that judgment.",
+                "implication": "The absence of evidence means the process stage cannot be updated. Re-collection of evidence is required before any judgment about geopolitical technology control — or any other process — can change."
+              },
+              "zh": {
+                "title": "技术控制成为地缘政治基础设施",
+                "description": "地缘政治技术控制按最近一次评估仍处于加速阶段，但没有新的、有来源归属的证据来确认、修正或反驳该判断。",
+                "implication": "证据的缺失意味着进程阶段无法更新。在关于地缘政治技术控制——或任何其他进程——的判断能够改变之前，必须重新收集证据。"
+              },
+              "ja": {
+                "title": "技術管理が地政学的インフラとなる",
+                "description": "地政学的技術管理は、前回評価時の加速段階にとどまっているが、その判断を確認、修正、または反駁するための新しいソース帰属エビデンスは得られていない。",
+                "implication": "エビデンスが欠如しているため、プロセス段階は更新できない。地政学的技術管理—あるいは他のいかなるプロセス—についての判断を変更するには、エビデンスの再収集が必要である。"
+              }
+            }
+          },
+          "nextQuestion": {
+            "en": "What source-level evidence can be collected to verify whether any global process has materially changed since the last assessment?",
+            "zh": "可以收集哪些源级证据来验证自上次评估以来是否有全球进程发生了实质性变化？",
+            "ja": "最終評価以降、いずれかのグローバルプロセスが実質的に変化したかどうかを検証するため、どのようなソースレベルのエビデンスを収集できるか？"
+          },
+          "observeNext": {
+            "en": [
+              "Re-collect web-search evidence with full source attribution (URLs, publishers, dates, verifiable facts)",
+              "Monitor the AI infrastructure race for independently verifiable change",
+              "Monitor energy security shifts for independently verifiable change",
+              "Monitor semiconductor capacity and geopolitical technology control for independently verifiable change"
+            ],
+            "zh": [
+              "重新收集具有完整来源归属的网络搜索证据（URL、发布机构、日期、可验证事实）",
+              "监测人工智能基础设施竞赛是否出现可独立验证的变化",
+              "监测能源安全转变是否出现可独立验证的变化",
+              "监测半导体产能和地缘政治技术控制是否出现可独立验证的变化"
+            ],
+            "ja": [
+              "ソースの完全な帰属（URL、発行元、日付、検証可能な事実）を備えたウェブ検索エビデンスを再収集する",
+              "AIインフラ競争について、独立に検証可能な変化を監視する",
+              "エネルギー安全保障の変化について、独立に検証可能な変化を監視する",
+              "半導体生産能力と地政学的技術管理について、独立に検証可能な変化を監視する"
+            ]
+          }
+        },
+        "provider": "deepseek",
+        "pipeline": "staged-writer-v1",
+        "usage": {
+          "inputTokens": 7741,
+          "outputTokens": 11324,
+          "cachedInputTokens": 7680
+        }
+      },
+      "insightId": "signal-2026-08-09-evidence-gap",
+      "contentVersion": "publish-signal-2026-08-09-evidence-gap-1786504212626",
+      "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
       "status": "checkpointed",
       "stage": "analyze",
-      "attempts": {
-        "research": 1
-      },
+      "attempts": {},
       "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T03:12:22.117Z",
-      "failedStage": "research",
+      "updatedAt": "2026-08-12T03:12:41.292Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-china-2026-08-09-1786504342111",
+        "id": "research-china-2026-08-09-1786504361286",
         "status": "draft",
-        "researchedAt": "2026-08-12T03:12:22.111Z",
+        "researchedAt": "2026-08-12T03:12:41.286Z",
         "researchDate": "2026-08-09",
         "scope": "china",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 140454,
-          "outputTokens": 14891,
-          "cachedInputTokens": 108928
+          "inputTokens": 150091,
+          "outputTokens": 16169,
+          "cachedInputTokens": 125568
         },
-        "querySummary": "2026年8月9日研究窗口内，最强信号是8月7日晚发布、8月8日生效的北京房地产政策调整：北京基本取消限购门槛，公积金贷款额度大幅提升，并简化父母向成年子女赠与住房的资格审核。高盛认为北京购房限制已“实质上大部分取消”，上海成为一线城市中最严格市场；摩根大通称这是2023年以来第八轮宽松，对信心的提振可能有限。该事件标志着房地产与地方财政进程从“政策回应期”进入“结果检验期”：政策工具箱中需求端松绑空间接近用尽，接下来要看9-10月旺季销售能否在无大规模刺激预期下企稳。",
+        "querySummary": "The search dossier lists three unverified candidate signals from the past 24 hours: the July CPI/PPI release, an apparent Beijing property purchase relaxation, and US chip export-control news. Of these, the Beijing property policy relaxation is the most direct potential input to the existing China property and local-finance transition process, but the dossier does not include independent source details, so evidence strength is low and this is a draft signal pending verification.",
         "candidates": [
           {
-            "id": "signal-2026-08-08-beijing-property-easing",
-            "date": "2026-08-08",
+            "id": "sig-2026-08-09-beijing-property-relaxation",
+            "date": "2026-08-09",
             "domain": "Property",
             "tags": [
               "china",
-              "beijing",
               "property",
-              "home-purchase-restrictions",
-              "provident-fund",
+              "beijing",
               "housing-policy",
-              "local-finance"
+              "local-finance",
+              "demand-support"
             ],
             "suggestedProcessId": "process-china-property-local-finance",
-            "processMatchConfidence": 95,
-            "importance": 88,
-            "novelty": 72,
-            "evidenceStrength": 85,
-            "independentSourceCount": 4,
-            "thesisImpact": 82,
-            "relationshipChange": 78,
-            "stageChange": 80,
-            "contradiction": 20,
+            "processMatchConfidence": 85,
+            "importance": 90,
+            "novelty": 75,
+            "evidenceStrength": 30,
+            "independentSourceCount": 1,
+            "thesisImpact": 85,
+            "relationshipChange": 75,
+            "stageChange": 60,
+            "contradiction": 15,
             "content": {
               "en": {
-                "title": "Beijing removes nearly all home-purchase restrictions, shifting the property transition from policy response to outcome test",
-                "coreFact": "On the evening of 7 August 2026, Beijing issued seven property measures effective 8 August: the social-security or personal-income-tax payment requirement for non-Beijing households buying inside the 5th Ring Road was cut from two years to one, parent-to-adult-child home transfers no longer require the child's purchase-qualification review, and provident-fund loan caps were roughly doubled, with dual-income households able to reach 3.4 million yuan under stacking conditions. Goldman Sachs said Beijing's purchase restrictions have been 'effectively largely removed,' making Shanghai the strictest Tier-1 market; JPMorgan noted this is the eighth easing round since 2023 and said the impact on buyer confidence is likely limited.",
-                "whyItMatters": "The property/local-finance transition is now moving from a policy-response phase — what will Beijing do next? — into an outcome-test phase: can sales stabilize heading into the September-October peak season without expectations of large-scale stimulus? The remaining policy headroom is increasingly provincial and financial (mortgage-rate cuts, Shanghai/Shenzhen follow-through, local-debt swap execution) rather than restriction removal, which reframes housing as a consumption category and raises the stakes for the demand-rebalancing process.",
-                "processMatchReason": "This directly updates the property and local-finance process's key next question: local fiscal capacity and credit allocation now depend less on when Beijing will ease further and more on whether demand can stabilize without the old leverage cycle. It also reinforces the existing stage label of structural repair by exhausting a major tool in the demand-side toolkit."
+                "title": "Beijing relaxes property purchase restrictions",
+                "coreFact": "Beijing announced a relaxation of property purchase restrictions on 2026-08-09, adding the capital to the latest round of local housing demand-support measures. The dossier flags this as one of the most significant China signals in the past 24 hours, though no numeric or legal details were confirmed.",
+                "whyItMatters": "Beijing is the policy-signaling city for the national housing market and one of the last major cities to hold strict purchase restrictions. A relaxation here could support turnover in the capital, influence home-price expectations nationwide, and feed into local fiscal capacity during the property-to-new-finance transition.",
+                "processMatchReason": "This signal directly modifies the China property and local-finance transition process by altering demand-side conditions in the most policy-sensitive housing market and potentially affecting local fiscal revenue, land sales, and the pace of balance-sheet adjustment."
               },
               "zh": {
-                "title": "北京基本取消购房限制：房地产与地方财政进程从“政策回应”转向“结果检验”",
-                "coreFact": "2026年8月7日晚，北京发布七项房地产政策、8月8日生效：非京籍家庭在五环内购房的社保或个税缴纳年限由2年降至1年；父母向成年子女赠与住房不再需要子女的购房资格审核；公积金贷款上限大约翻倍，双职工家庭在叠加条件下最高可达340万元。高盛认为北京购房限制已“实质上基本解除”，上海成为最严格的一线城市；摩根大通称这是2023年以来第八轮宽松，对购房者信心的提振可能有限。",
-                "whyItMatters": "房地产与地方财政转型正从“政策回应期”——北京下一步还会做什么——进入“结果检验期”：在缺乏大规模刺激预期的情况下，9-10月旺季销售能否企稳将成为关键。剩余政策空间更多在省级与金融层面（房贷利率、上海深圳跟进、地方债置换执行），而非限购解除；住房也在被重新定义为消费类别，使内需再平衡进程的重要性上升。",
-                "processMatchReason": "该事件直接更新了房地产与地方财政进程的核心问题：地方财政能力与信贷配置的走向，将更少取决于北京何时再加码放松，而更多取决于需求能否在不重演旧杠杆循环的情况下企稳。需求端工具箱中一项主要工具就此基本用尽，进一步印证“结构性修复”阶段判断。"
+                "title": "北京放松房地产购买限制",
+                "coreFact": "2026年8月9日，北京宣布放松房地产购买限制，成为本轮地方楼市需求支持措施的最新一环。研究备忘将其列为过去24小时内最可能影响中国进程判断的重要信号之一，但具体数据与政策细节尚未确认。",
+                "whyItMatters": "北京是全国楼市最具政策信号意义的城市，也是少数仍执行严格限购的主要城市。放松限购可能提振首都住房成交、影响全国房价预期，并在房地产向新财政模式转型的过程中为地方财政能力提供支撑。",
+                "processMatchReason": "该信号直接作用于“中国房地产与地方财政转型”进程：改变最具政策敏感性的楼市需求端条件，并可能影响地方财政收入、土地出让和资产负债表修复的节奏。"
               },
               "ja": {
-                "title": "北京が住宅購入制限をほぼ撤廃、不動産・地方財政の転換は「政策対応」から「結果検証」へ",
-                "coreFact": "2026年8月7日夜、北京は7項目の不動産政策を発表し、8月8日から施行した。非北京籍世帯が五環路内で購入する際の社会保険・個人所得税納付要件を2年から1年に短縮し、親から成人子への住宅贈与では子の購入資格審査を不要とし、住宅積立金ローンの上限をほぼ倍増、共働き世帯は上乗せ条件で最大340万元まで利用可能とした。ゴールドマン・サックスは北京の購入制限が「実質的にほぼ撤廃」され、上海が最も厳しい一線都市になったと指摘。JPモルガンは2023年以来8回目の緩和で、購入者心理への効果は限定的との見方を示した。",
-                "whyItMatters": "不動産・地方財政転換は「次に北京が何をするか」という政策対応段階から、「大規模刺激への期待なしに9〜10月の繁忙期で販売が安定するか」という結果検証段階へ移る。残る政策余地は省級・金融面（住宅ローン金利、上海・深圳の追従、地方債務スワップ実行）が中心で、制限撤廃ではない。住宅が消費カテゴリーとして再位置づけられることで、内需再均衡の重要性も高まる。",
-                "processMatchReason": "本件は不動産・地方財政プロセスの核心的な次の問いを直接更新する。地方財政能力と信用配分の行方は、北京の追加緩和時期よりも、旧来のレバレッジ循環を再現せず需要が安定するかに依存する。需要側の主要政策手段の一つがほぼ使い切られたことで、「構造的修復」という現段階評価も裏付けられる。"
+                "title": "北京が不動産購入規制を緩和",
+                "coreFact": "2026年8月9日、北京は不動産購入規制の緩和を発表し、地方都市による住宅需要支援策の最新の動きとなった。調査メモでは過去24時間で中国のプロセス判断を変え得る重要シグナルの一つとされるが、数値や規制の詳細は未確認。",
+                "whyItMatters": "北京は全国の住宅市場で最も政策シグナルを示す都市であり、厳格な購入規制を残す最後の主要都市の一つ。規制緩和は首都の住宅取引を下支えし、全国の価格期待に影響を与え、不動産から新たな財政モデルへの転換期における地方財政能力を支援し得る。",
+                "processMatchReason": "このシグナルは「中国の不動産・地方財政転換」プロセスに直接関わる。最も政策感応度の高い住宅市場の需要側条件を変え、地方財政収入、土地売却、バランスシート調整のペースに影響を与える可能性がある。"
               }
             },
             "sources": [
               {
-                "title": "本市进一步优化住房限购政策 非京籍家庭购房社保个税缴纳年限降为1年",
-                "url": "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260808_4814360.html",
-                "publisher": "北京市人民政府（北京日报）",
-                "publishedAt": "2026-08-08",
-                "kind": "primary"
-              },
-              {
-                "title": "北京进一步优化调整房地产政策",
-                "url": "http://finance.people.com.cn/BIG5/n1/2026/0808/c1004-40775907.html",
-                "publisher": "新华社（人民网）",
-                "publishedAt": "2026-08-08",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "China's Beijing further relaxes homebuying curb, authorities say",
-                "url": "https://www.reuters.com/world/asia-pacific/chinas-beijing-further-relaxes-homebuying-curb-authorities-say-2026-08-07/",
-                "publisher": "Reuters",
-                "publishedAt": "2026-08-07",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "G Sachs: Beijing Launches New Round of Easing Policies; CN Home Sector Valuation Has Upside",
-                "url": "https://www.aastocks.com/en/stocks/analysis/stock-aafn-con/00817/AAFN/NOW.1537611/hk-stock-news",
-                "publisher": "AASTOCKS（高盛研究摘要）",
-                "publishedAt": "2026-08-10",
+                "title": "Web search dossier – candidate signal list",
+                "url": "internal://web-search-dossier",
+                "publisher": "Internal research dossier",
                 "kind": "context"
               },
               {
-                "title": "JPM: Beijing's Easing of Property Mkt Policies Has Limited Impact",
-                "url": "https://www.aastocks.com/en/mobile/news.aspx?newsid=NOW.1537400&newstype=71&newssource=AAFN",
-                "publisher": "AASTOCKS（摩根大通研究摘要）",
-                "publishedAt": "2026-08-09",
+                "title": "China process register – property and local finance",
+                "url": "internal://process-register/china-property-local-finance",
+                "publisher": "Internal knowledge base",
                 "kind": "context"
               }
             ]
@@ -600,5 +1193,5 @@
       }
     ]
   },
-  "message": "CHINA research 自动重试 1/3"
+  "message": "WORLD write_ja 自动重试 1/3"
 }
