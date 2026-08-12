@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_ja",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:51:51.557Z",
+  "updatedAt": "2026-08-12T09:51:53.377Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,14 +1107,14 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_ja",
       "attempts": {
         "analyze": 1,
         "write_ja": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
-      "updatedAt": "2026-08-12T09:51:51.557Z",
+      "message": "write_ja",
+      "updatedAt": "2026-08-12T09:51:53.377Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
