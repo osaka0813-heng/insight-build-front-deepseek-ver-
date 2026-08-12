@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:11:24.474Z",
+  "updatedAt": "2026-08-12T03:11:37.880Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -449,75 +449,73 @@
       "stage": "analyze",
       "attempts": {},
       "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T03:11:24.474Z",
+      "updatedAt": "2026-08-12T03:11:37.880Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-china-2026-08-09-1786504284467",
+        "id": "research-china-2026-08-09-1786504297873",
         "status": "draft",
-        "researchedAt": "2026-08-12T03:11:24.467Z",
+        "researchedAt": "2026-08-12T03:11:37.873Z",
         "researchDate": "2026-08-09",
         "scope": "china",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 130928,
-          "outputTokens": 11219,
-          "cachedInputTokens": 102016
+          "inputTokens": 126110,
+          "outputTokens": 13927,
+          "cachedInputTokens": 97152
         },
-        "querySummary": "The web search dossier surfaced three candidate signals around Aug 8-9, 2026: a Beijing property policy change, July CPI/PPI data released Aug 9, and reported US-China trade countermeasures. One candidate is selected here: the Beijing property policy change, because it maps most directly to the China property and local-finance transition process.",
+        "querySummary": "The supplied web-search dossier for 2026-08-09 contained no completed search results — only a placeholder research note (\"I'll research China-specific signals around 2026-08-09 across the priority domains. Let me run parallel searches.\"). No URLs, headlines, quotes, statistics, or publication dates were provided. Because the instructions require using only the supplied dossier and prohibit inventing sources or facts, no verifiable China signal could be extracted. The single candidate below is a transparent \"no evidence\" flag for human review, not a real signal.",
         "candidates": [
           {
-            "id": "sig-china-beijing-property-policy-2026-08-09",
+            "id": "candidate-china-2026-08-09-no-verifiable-signal",
             "date": "2026-08-09",
-            "domain": "Property",
+            "domain": "Cross-Domain",
             "tags": [
               "china",
-              "property",
-              "beijing",
-              "policy",
-              "local-finance"
+              "data-gap",
+              "dossier-empty",
+              "verification-required"
             ],
-            "suggestedProcessId": "process-china-property-local-finance",
-            "processMatchConfidence": 78,
-            "importance": 72,
-            "novelty": 55,
-            "evidenceStrength": 20,
-            "independentSourceCount": 1,
-            "thesisImpact": 65,
-            "relationshipChange": 60,
-            "stageChange": 42,
-            "contradiction": 15,
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 2,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
             "content": {
               "en": {
-                "title": "Beijing property policy change surfaces as a potential signal in the local-finance transition",
-                "coreFact": "A change in Beijing property policy was identified on Aug 8-9, 2026 as a leading candidate signal, though the dossier does not yet provide verified details or confirmed policy direction.",
-                "whyItMatters": "If confirmed, a policy shift in the capital city would be a bellwether for the national property and local-finance regime, potentially altering expectations about housing demand support, land revenue and local fiscal adjustment.",
-                "processMatchReason": "This candidate maps directly to the China property and local-finance transition process and could mark an inflection between renewed housing support and continued structural repair."
+                "title": "No verifiable China signal in 2026-08-09 dossier",
+                "coreFact": "The supplied web-search dossier for 2026-08-09 contained no completed search results, only a placeholder research note; therefore no change event in the prior 24 hours could be verified from the dossier. The two source records below are placeholder markers of the empty dossier, not genuinely independent sources.",
+                "whyItMatters": "Constructing any candidate from this dossier would require inventing URLs, headlines, quotes, or numeric facts, which is prohibited. The correct interim state is \"no signal\" until real evidence is collected and reviewed by an analyst.",
+                "processMatchReason": "No evidence was supplied, so no candidate could be matched to the five existing China processes (property/local finance, industrial upgrading, tech autonomy, demand rebalancing, macro policy and capital)."
               },
               "zh": {
-                "title": "北京房产政策变化成为地方财政转型的潜在信号",
-                "coreFact": "2026年8月8日至9日，北京房地产政策变化被列为最值得核实的候选信号，但档案中尚未提供已核实的细节或政策方向。",
-                "whyItMatters": "若得到证实，首都政策转向将成为全国房地产与地方财政体制的风向标，可能影响住房需求支持、土地收入和地方财政调整的预期。",
-                "processMatchReason": "该候选信号直接对应中国房地产与地方财政转型进程，可能标志着政策走向新一轮住房支持或继续结构性修复的关键节点。"
+                "title": "2026-08-09 中国信号：无可核实的证据",
+                "coreFact": "所提供的2026-08-09检索档案中没有任何已完成的搜索结果，只有一句研究占位说明；因此无法从档案中核实此前24小时内的任何变化事件。以下两条来源记录只是空档案的占位标记，并非真正独立的来源。",
+                "whyItMatters": "在该档案基础上构建任何候选信号都必须虚构URL、标题、引语或数字事实，这是被禁止的。在获得并审核真实证据之前，正确的中间状态是“无信号”。",
+                "processMatchReason": "由于未提供任何证据，无法将候选信号匹配到现有五个中国进程（房地产与地方财政、产业升级、科技自主化、内需再平衡、宏观政策与资本）。"
               },
               "ja": {
-                "title": "北京不動産政策の変化が地方財政転換の潜在シグナルに",
-                "coreFact": "2026年8月8日〜9日、北京の不動産政策変更が最も検証すべき候補シグナルとして挙げられたが、資料では詳細や政策の方向性は未確認。",
-                "whyItMatters": "確認されれば、首都の政策転換は全国の不動産・地方財政体制の指標となり、住宅需要支援、土地収入、地方財政調整の期待に影響を与える。",
-                "processMatchReason": "この候補は中国の不動産・地方財政転換プロセスに直接対応し、新たな住宅支援か構造的修復の継続かの分岐点になりうる。"
+                "title": "2026-08-09 中国シグナル：検証可能な証拠なし",
+                "coreFact": "提供された2026-08-09の検索資料には完了した検索結果が含まれておらず、プレースホルダーの調査メモのみだった。そのため、過去24時間の変化事象を資料から検証できなかった。以下の2件のソース記録は空の資料を示すプレースホルダーであり、真に独立したソースではない。",
+                "whyItMatters": "この資料に基づいて候補を構築するにはURL、見出し、引用、数値的事実を捏造する必要があり、それは禁止されている。実際の証拠が収集・レビューされるまで、「シグナルなし」が正しい暫定状態である。",
+                "processMatchReason": "証拠が提供されていないため、既存の5つの中国プロセス（不動産・地方財政、産業高度化、技術自立、内需再均衡、マクロ政策と資本）のいずれにも候補をマッチングできなかった。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: candidate signal list",
+                "title": "Web search dossier placeholder note (2026-08-09)",
                 "url": "",
-                "publisher": "Web Search Dossier",
+                "publisher": "Supplied internal research dossier",
                 "kind": "context"
               },
               {
-                "title": "Web search dossier: verification note",
+                "title": "Web search dossier — no completed results returned",
                 "url": "",
-                "publisher": "Web Search Dossier",
+                "publisher": "Supplied internal research dossier",
                 "kind": "context"
               }
             ]
