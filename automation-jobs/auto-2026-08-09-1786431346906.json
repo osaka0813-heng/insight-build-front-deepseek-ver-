@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:46:31.851Z",
+  "updatedAt": "2026-08-12T09:46:38.829Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,11 @@
       }
     },
     "us": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_zh",
       "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-08-12T09:46:31.851Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-12T09:46:38.829Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527877114",
@@ -1824,62 +1824,48 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": "insight-us-labor-supply-2026-08-07",
-          "slug": "us-labor-supply-constraint-tightens-july-2026",
+          "insightId": null,
+          "slug": "us-labor-supply-constraint-july-2026",
           "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "US Labor Market",
-              "secondaryEyebrow": "July 2026 Employment Report",
-              "title": "Tight Labor Supply Meets Market Reality",
-              "summary": "The July jobs report reinforces structural labor constraints as wages rise and the Fed faces renewed pressure."
+              "eyebrow": "US Labor & Immigration Regime",
+              "secondaryEyebrow": "Monthly Employment Review",
+              "title": "July jobs report lands and markets react, sharpening the labor-supply test",
+              "summary": "The July 2026 employment report triggers market repricing, reinforcing the structural view that US labor supply constraints now dominate macro outcomes."
             },
             "question": {
-              "lead": "How is the latest employment data reshaping the US labor-supply narrative?",
-              "title": "Can the labor market sustain growth without stoking inflation?",
-              "footnote": "Based on BLS data and market reaction."
+              "lead": "Does the July jobs report confirm that labor supply, not demand, is the binding constraint for US growth and inflation?",
+              "title": "Is US labor supply the new binding macro constraint?",
+              "footnote": "Monthly employment data from BLS, market reaction per Reuters."
             },
             "signals": {
-              "title": "Key Signals from July 2026",
-              "sourceNote": "Sources: U.S. Bureau of Labor Statistics, Reuters Markets.",
+              "title": "Signals from the July 2026 employment report and market response",
+              "sourceNote": "Evidence derived from official BLS data and Reuters market coverage.",
               "items": [
                 {
-                  "label": "Job Growth Moderates",
-                  "title": "Payroll gains continue but pace slows",
-                  "body": "The BLS reported continued job gains, though momentum softened compared to earlier months, signaling emerging capacity limits.",
-                  "whyImportant": "Slowing growth despite high demand indicates supply-side constraints are binding.",
+                  "label": "July 2026 Employment Situation",
+                  "title": "BLS July jobs report shows tight labor market",
+                  "body": "The July 2026 Employment Situation report released by BLS on August 7 indicates continued tightness in the labor market, with key metrics reflecting persistent supply constraints.",
+                  "whyImportant": "This monthly data point is critical for assessing whether labor supply pressures are feeding into wage growth and service inflation.",
                   "evidence": {
-                    "title": "BLS Employment Situation Report – July 2026",
-                    "description": "The official report shows ongoing job creation with decelerating trend.",
-                    "confidence": "developing",
+                    "title": "The Employment Situation – July 2026",
+                    "description": "Official BLS release detailing nonfarm payrolls, unemployment rate, and average hourly earnings.",
+                    "confidence": "verified",
                     "sourceIds": [
                       "us-jobs-market-reaction-2026-08-07-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "Wage Pressure Builds",
-                  "title": "Average hourly earnings accelerate",
-                  "body": "Wage growth picked up, raising concerns that labor costs are feeding into broader services inflation.",
-                  "whyImportant": "Persistent wage gains directly test the Fed’s ability to keep inflation near target.",
+                  "label": "Market Reaction",
+                  "title": "Rates and dollar respond to jobs data",
+                  "body": "Following the jobs report, Reuters reported movements in US Treasury yields and the dollar, as markets repriced expectations for Fed policy and inflation paths.",
+                  "whyImportant": "The market reaction signals how investors are interpreting labor data in the context of Fed tolerance and fiscal-driven growth, shifting the narrative from deficit risk to realized wage constraints.",
                   "evidence": {
-                    "title": "BLS Average Hourly Earnings Data",
-                    "description": "Reported acceleration in wage growth from the July release.",
-                    "confidence": "developing",
-                    "sourceIds": [
-                      "us-jobs-market-reaction-2026-08-07-source-1"
-                    ]
-                  }
-                },
-                {
-                  "label": "Market Reprices Rate Path",
-                  "title": "Yields and dollar jump after data",
-                  "body": "U.S. Treasury yields and the dollar rose immediately following the report, reflecting bets on a more hawkish Fed.",
-                  "whyImportant": "Market reaction shows that labor data is now a primary driver of monetary policy expectations.",
-                  "evidence": {
-                    "title": "Reuters Markets Coverage",
-                    "description": "Market movements reported by Reuters confirm a hawkish repricing on the day of the release.",
+                    "title": "Market reaction to July jobs data",
+                    "description": "Reuters coverage of US market reactions post-jobs report, including bond yields and currency moves.",
                     "confidence": "developing",
                     "sourceIds": [
                       "us-jobs-market-reaction-2026-08-07-source-2"
@@ -1889,75 +1875,75 @@
               ]
             },
             "pattern": {
-              "title": "The Labor-Supply Constraint Tightens",
-              "before": "For years, the US labor market absorbed shocks with ample slack, driven by demographic and policy factors.",
-              "shift": "Post-pandemic immigration restrictions and an aging workforce are now structurally limiting the labor supply, turning cyclical employment data into a persistent constraint.",
-              "now": "Each jobs report now acts as a pulse check on whether wage-driven inflation will force the Fed's hand, linking labor data directly to monetary policy and fiscal sustainability.",
-              "conclusion": "The US economy is transitioning from a labor-abundant to a labor-constrained regime, fundamentally altering the relationship between employment, inflation, and interest rates."
+              "title": "Labor Supply as the Binding Constraint",
+              "before": "Prior to the 2020s, US labor markets operated with relative slack from globalization and demographic trends, keeping wage growth moderate.",
+              "shift": "Since the early 2020s, immigration restrictions and demographic shifts tightened labor supply, making wage pressure a persistent feature of economic cycles.",
+              "now": "The July 2026 jobs report confirms that this tightness remains, with employers competing for workers and wages rising steadily, even as economic growth faces other headwinds.",
+              "conclusion": "The US economy is structurally constrained by labor supply rather than demand; any policy or growth impulse now quickly translates into wage and inflation pressures, limiting the Fed's room to ease."
             },
             "insight": {
-              "title": "The Structural Scarcity of Labor",
-              "formula": "Labor supply < demand → persistent wage pressure → structurally higher inflation floor → constrained Fed → elevated rates and dollar volatility",
-              "explanation": "As immigration remains restricted and workforce participation plateaus, the US faces a structural labor shortage. Every jobs report is not just a cyclical indicator but a measure of how binding this supply constraint has become, feeding directly into wage inflation and forcing the Federal Reserve to maintain restrictive rates, which in turn fuels fiscal concerns and dollar strength."
+              "title": "Labor supply constraint redefines US macroeconomic trade-offs",
+              "formula": "Tightening labor supply + Fiscal expansion → Persistent wage pressure → Elevated inflation → Higher-for-longer rates → Strong dollar",
+              "explanation": "With immigration-strained labor supply, any boost to demand now immediately pressures wages and inflation, forcing the Fed to maintain restrictive rates. This dynamic keeps the dollar strong, creating a feedback loop that further constrains domestic growth."
             },
             "observe": {
-              "title": "Three Signals to Track the Labor Regime",
+              "title": "What to observe next",
               "items": [
                 {
-                  "label": "Monthly Payrolls",
-                  "prompt": "Is job growth sustaining above 150k while labor force participation remains below 63%?",
-                  "meta": "Trend in BLS establishment survey"
+                  "label": "Wage Growth",
+                  "prompt": "Is average hourly earnings growth accelerating beyond 4%?",
+                  "meta": "Monthly BLS data"
                 },
                 {
-                  "label": "Average Hourly Earnings",
-                  "prompt": "Is wage growth accelerating beyond 4% year-over-year?",
-                  "meta": "Wage inflation pressure point"
+                  "label": "Fed Guidance",
+                  "prompt": "Are Fed statements emphasizing labor supply as an inflation driver?",
+                  "meta": "FOMC minutes, speeches"
                 },
                 {
-                  "label": "Market Response",
-                  "prompt": "Does the 2-year yield spike or the dollar jump immediately after the release?",
-                  "meta": "Rate and currency sensitivity"
+                  "label": "Policy Shifts",
+                  "prompt": "Are there any legislative moves to expand work visas or border policies?",
+                  "meta": "Congressional records, executive orders"
                 },
                 {
-                  "label": "Fed Speak",
-                  "prompt": "Does the Fed explicitly cite labor supply constraints in its minutes?",
-                  "meta": "Policy acknowledgment"
+                  "label": "Dollar Strength",
+                  "prompt": "Is the dollar index breaking above prior resistance levels?",
+                  "meta": "DXY, CFTC positioning"
                 }
               ],
-              "ending": "When labor data moves markets, the structural regime is being priced in real time."
+              "ending": "The labor supply constraint will remain the central pin for US macro outcomes; watch these indicators to gauge whether it tightens further or begins to ease."
             }
           },
           "dailyStateEn": {
-            "label": "Emerging",
-            "decisionTitle": "Maintain signal monitoring",
-            "decisionSummary": "The July report reinforces the labor-supply constraint narrative but does not yet warrant a stage upgrade; continued observation of wage and market reactions is needed.",
-            "thresholdReason": "Evidence remains incremental; no structural break apparent from a single report.",
+            "label": "Routine Update",
+            "decisionTitle": "No structural insight shift from July jobs data",
+            "decisionSummary": "The July employment report aligns with the ongoing labor supply constraint thesis; no new relationships or stage changes are observable.",
+            "thresholdReason": "A single monthly jobs report, even with market reaction, does not alter the structural process understanding; it is a confirmatory data point.",
             "observeNext": [
-              "Next BLS report due September 4",
-              "Fed Jackson Hole symposium commentary",
-              "Congressional debate on immigration reform",
-              "Dollar Index response to wage data"
+              "Wage Growth",
+              "Fed Guidance",
+              "Policy Shifts",
+              "Dollar Strength"
             ]
           },
           "processStage": "emerging",
           "processContentEn": {
-            "title": "US Labor and Immigration Regime",
-            "description": "The US labor market is increasingly defined by structural supply constraints rather than cyclical demand weakness, driven by restrictive immigration policies and demographic shifts.",
-            "implication": "This alters the inflation-growth trade-off, embedding a higher inflation floor and forcing the Fed to remain tight, with spillovers into fiscal debt dynamics and dollar strength."
+            "title": "Emerging Stage: Labor Supply Constraint Being Tested",
+            "description": "The US labor and immigration regime is in the emerging stage, where tight supply is beginning to visibly constrain macro policy options. Monthly data confirm the pressure but have not yet forced a structural shift in policy or market frameworks.",
+            "implication": "Investors should monitor whether wage growth persists above pre-pandemic norms and whether Fed policy increasingly accounts for supply-side limits, as this would signal acceleration toward a structural regime."
           },
-          "nextQuestionEn": "Will the August employment report confirm the trend of wage-driven inflation persistence?",
+          "nextQuestionEn": "Will persistent wage growth force the Fed to explicitly acknowledge supply-side constraints as a primary inflation driver?",
           "observeNextEn": [
-            "Average hourly earnings trend",
-            "2-year Treasury yield breaching 4.5%",
-            "Federal Reserve minutes language on labor supply",
-            "Job openings (JOLTS) ratio to unemployed"
+            "Watch for average hourly earnings crossing 4% YoY.",
+            "Monitor FOMC minutes for language on labor supply bottlenecks.",
+            "Track immigration policy changes that could impact labor availability.",
+            "Observe dollar index reaction to further jobs data."
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 2329,
-          "outputTokens": 3241,
-          "cachedInputTokens": 1152
+          "outputTokens": 3724,
+          "cachedInputTokens": 2304
         }
       }
     },
