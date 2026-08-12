@@ -6,14 +6,16 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:39:22.729Z",
+  "updatedAt": "2026-08-12T09:39:24.307Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "retrying",
       "stage": "analyze",
-      "attempts": {},
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T09:39:22.729Z",
+      "attempts": {
+        "analyze": 1
+      },
+      "message": "Automation state write failed: automation-jobs/auto-2026-08-12-1786527490573.json does not match 0dd3be901c0e92b36ca77ae0b7bc2cc3a46727e0",
+      "updatedAt": "2026-08-12T09:39:24.307Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
@@ -91,7 +93,8 @@
             ]
           }
         ]
-      }
+      },
+      "failedStage": "analyze"
     },
     "china": {
       "status": "queued",
@@ -147,5 +150,5 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始四区域任务。"
+  "message": "WORLD analyze 自动重试 1/3"
 }
