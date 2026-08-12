@@ -3,10 +3,10 @@
   "status": "running",
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "japan",
-  "currentStage": "research",
+  "currentScope": "us",
+  "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:50:08.674Z",
+  "updatedAt": "2026-08-12T09:50:09.965Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1513,14 +1513,90 @@
       }
     },
     "us": {
-      "status": "error",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
-        "research": 3
+        "research": 2
       },
-      "message": "DeepSeek Responses API returned no output_text.",
-      "updatedAt": "2026-08-12T09:50:08.674Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T09:50:09.965Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-us-2026-08-12-1786528209961",
+        "status": "draft",
+        "researchedAt": "2026-08-12T09:50:09.961Z",
+        "researchDate": "2026-08-12",
+        "scope": "us",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 105514,
+          "outputTokens": 11704,
+          "cachedInputTokens": 84992
+        },
+        "querySummary": "The supplied dossier contains only a search-level summary indicating that several strong candidate signals for the Aug 11–12 window were surfaced and require verification against primary sources; it does not include article-level facts or URLs. This candidate flags that verification gap while mapping the most likely affected process to the US fiscal-rates-dollar regime.",
+        "candidates": [
+          {
+            "id": "cand-us-2026-08-12-fiscal-rates-dollar-verification-gap",
+            "date": "2026-08-12",
+            "domain": "Fiscal Policy",
+            "tags": [
+              "us",
+              "fiscal",
+              "rates",
+              "dollar",
+              "treasuries",
+              "verification-gap"
+            ],
+            "suggestedProcessId": "process-us-fiscal-rates-dollar",
+            "processMatchConfidence": 80,
+            "importance": 60,
+            "novelty": 70,
+            "evidenceStrength": 10,
+            "independentSourceCount": 2,
+            "thesisImpact": 70,
+            "relationshipChange": 55,
+            "stageChange": 35,
+            "contradiction": 10,
+            "content": {
+              "en": {
+                "title": "Dossier flags Aug 11–12 fiscal-rates-dollar candidates, but event-level evidence is missing",
+                "coreFact": "The supplied web-search dossier states that searches surfaced several strong candidates and that the most recent Aug 11–12 items require verification against primary sources; the dossier text provided to this stage does not include the specific article-level facts or URLs needed to confirm an actual change.",
+                "whyItMatters": "If the underlying candidates are confirmed, the most probable impact is a reassessment of the US fiscal-rates-dollar process, because that is the first area in the research scope and the regime most easily repriced within 24 hours; without the missing article-level data, no reliable revision to the process judgment can yet be made.",
+                "processMatchReason": "This maps to process-us-fiscal-rates-dollar because that process is in an accelerating 'financing stress test' stage and is highly sensitive to any rates, dollar, or Treasury-market event in the Aug 11–12 window."
+              },
+              "zh": {
+                "title": "档案标记8月11-12日财政/利率/美元候选信号，但事件级证据缺失",
+                "coreFact": "提供的网络搜索档案称，搜索发现了多个强候选信号，且最近（8月11-12日）的候选需要与一手来源核对；但本阶段收到的档案文本未包含具体的文章级事实或网址，无法确认实际变化。",
+                "whyItMatters": "如果这些候选得到证实，最可能受影响的是美国财政-利率-美元进程，因为这是研究范围中的第一项，也是24小时内最易被重新定价的制度；在缺少文章级数据的情况下，无法可靠修正进程判断。",
+                "processMatchReason": "该候选对应process-us-fiscal-rates-dollar，因为该进程正处于加速的“融资压力测试”阶段，且对8月11-12日窗口内任何利率、美元或国债市场事件都敏感。"
+              },
+              "ja": {
+                "title": "ダossierは8月11〜12日の財政・金利・ドル候補を示すが、イベントレベルの根拠が欠如",
+                "coreFact": "提供された検索ダossierは、検索で複数の有力な候補が浮上し、直近（8月11〜12日）の候補は一次情報源での検証が必要と述べるが、本段階に提供されたダossier本文には、実際の変化を確認できる記事レベルの事実やURLが含まれていない。",
+                "whyItMatters": "候補が確認されれば、最も影響が大きいのは米国の財政・金利・ドル体制の再評価だろう。これは調査範囲の最初の項目であり、24時間以内に再プライシングされやすいためだ。記事レベルデータが欠けている以上、信頼できるプロセス判断の修正はできない。",
+                "processMatchReason": "この候補はprocess-us-fiscal-rates-dollarに対応する。このプロセスは加速中の「資金調達ストレステスト」段階にあり、8月11〜12日の金利・ドル・国債市場イベントに敏感だからだ。"
+              }
+            },
+            "sources": [
+              {
+                "title": "WEB SEARCH DOSSIER — Search summary indicating strong Aug 11–12 candidates",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-08-12",
+                "kind": "context"
+              },
+              {
+                "title": "Existing United States Processes — Context for process alignment",
+                "url": "",
+                "publisher": "User-provided process registry",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      }
     },
     "japan": {
       "status": "queued",
@@ -1562,5 +1638,5 @@
       }
     ]
   },
-  "message": "US 在 research 连续失败 3 次，保留断点并跳到下一区域。"
+  "message": "US research 自动重试 2/3"
 }
