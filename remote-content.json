@@ -1,8 +1,357 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T09:43:58.205Z",
-  "contentVersion": "publish-global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout-1786527839508",
+  "generatedAt": "2026-08-12T09:49:48.093Z",
+  "contentVersion": "publish-global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure-1786528189245",
   "insights": [
+    {
+      "id": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+      "scope": "global",
+      "slug": "nvidia-wall-street-ai-infrastructure-financing",
+      "status": "update_living",
+      "parentInsightId": "process-ai-infrastructure-race",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "updatedAt": "2026-08-12T09:49:22.916Z",
+      "confidence": "hypothesis",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "AI Infrastructure Race",
+            "secondaryEyebrow": "Capital Mobilization",
+            "title": "NVIDIA and Wall Street Target $500B+ for AI Infrastructure",
+            "summary": "A reported partnership aims to mobilize over half a trillion dollars for AI infrastructure, potentially making institutional capital a structural force in the global AI buildout."
+          },
+          "question": {
+            "lead": "A new financing mechanism signals a shift in how AI infrastructure is funded, but the single-source nature of the report calls its validity into question.",
+            "title": "Will institutional capital become the primary engine for AI infrastructure expansion?",
+            "footnote": "The claim requires further independent verification before it can be treated as established fact."
+          },
+          "signals": {
+            "title": "Early Signals of Institutional Capital Commitments",
+            "sourceNote": "All signals in this section are drawn exclusively from the supplied dossier.",
+            "items": [
+              {
+                "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-1",
+                "label": "Partnership Announcement",
+                "title": "NVIDIA and six Wall Street asset managers reportedly form AI infrastructure financing partnership",
+                "body": "The dossier indicates that NVIDIA has announced a collaboration with six major asset managers to mobilize more than $500 billion for AI infrastructure.",
+                "whyImportant": "If confirmed, it would represent the largest dedicated AI infrastructure fund to date, potentially reshaping the financing landscape.",
+                "evidence": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-1",
+                    "title": "Web-search dossier on NVIDIA AI infrastructure financing",
+                    "description": "Primary dossier summarizing the reported announcement.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1",
+                    "title": "Supplied web-search dossier: NVIDIA AI infrastructure financing candidate",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-12",
+                    "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-financing",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-2",
+                "label": "Verification Gap",
+                "title": "No independent corroboration available for the partnership claim",
+                "body": "A verification dossier accompanying the primary report notes that the claim could not be independently confirmed as of the dossier date.",
+                "whyImportant": "The lack of corroboration means the information must be treated as unverified, limiting its weight in assessing the current state of the AI infrastructure race.",
+                "evidence": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-2",
+                    "title": "Web-search dossier verification note",
+                    "description": "Context dossier providing verification status for the NVIDIA financing report.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2",
+                    "title": "Supplied web-search dossier: Verification note for NVIDIA AI infrastructure financing",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-12",
+                    "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-verification",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Piecemeal Funding to Institutional-Scale Capital",
+            "before": "AI infrastructure expansion relied on a mix of corporate capex, venture funding, and government incentives, often limited by the availability of capital for large-scale projects.",
+            "shift": "A reported $500B+ commitment by NVIDIA and six Wall Street asset managers aims to create a dedicated, institutional-grade financing vehicle specifically for AI infrastructure.",
+            "now": "Institutional capital is positioned to become a structural enabler, potentially removing funding constraints and shifting the bottleneck to the supply of bankable data-center and energy projects.",
+            "conclusion": "If implemented, such large-scale capital mobilization could accelerate the AI infrastructure race, but the transformation depends on the existence of viable, shovel-ready projects."
+          },
+          "insight": {
+            "title": "Institutional Capital as a Structural Shift in AI Infrastructure",
+            "formula": "Institutional capital + $500B+ commitment → structural enabler for AI infrastructure → bottleneck moves from funding to project execution",
+            "explanation": "The reported partnership would embed institutional finance deeply into the AI buildout. Instead of funding being a primary constraint, the limiting factor becomes the availability of technically and financially feasible projects—especially those requiring massive energy and land resources."
+          },
+          "observe": {
+            "title": "What to Watch",
+            "items": [
+              {
+                "label": "Independent Verification",
+                "prompt": "Can multiple independent sources confirm the partnership details and the scale of capital commitments?",
+                "meta": "Without verification, the signal remains speculative."
+              },
+              {
+                "label": "Deployment Velocity",
+                "prompt": "How quickly can committed capital be deployed into actual data-center and energy projects?",
+                "meta": "The gap between announcement and project execution will determine real-world impact."
+              },
+              {
+                "label": "Energy Bottlenecks",
+                "prompt": "Are there enough grid connections and power-generation projects to support the scale of infrastructure being funded?",
+                "meta": "Capital without electrons cannot build AI infrastructure."
+              }
+            ],
+            "ending": "The AI infrastructure race is increasingly about translating capital into concrete projects—watch for signs of actual deployment, not just announcements."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "AI基础设施竞赛",
+            "secondaryEyebrow": "资本动员",
+            "title": "英伟达与华尔街瞄准5000亿美元以上AI基础设施",
+            "summary": "据报道，一项合作旨在为AI基础设施动员超过5000亿美元资金，这可能使机构资本成为全球AI建设中的结构性力量。"
+          },
+          "question": {
+            "lead": "新的融资机制标志着AI基础设施融资方式的转变，但该报道的单一来源性质使其有效性存疑。",
+            "title": "机构资本会成为AI基础设施扩张的主要引擎吗？",
+            "footnote": "该说法在被视为既定事实之前，需要进一步的独立验证。"
+          },
+          "signals": {
+            "title": "机构资本承诺的早期信号",
+            "sourceNote": "本部分所有信号均仅来自所提供的资料档案。",
+            "items": [
+              {
+                "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-1",
+                "label": "合作公告",
+                "title": "据报道，英伟达与六家华尔街资产管理公司结成AI基础设施融资合作关系",
+                "body": "资料档案显示，英伟达已宣布与六家大型资产管理公司合作，为AI基础设施动员超过5000亿美元资金。",
+                "whyImportant": "若得到确认，这将是迄今为止规模最大的专项AI基础设施基金，可能重塑融资格局。",
+                "evidence": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-1",
+                    "title": "关于英伟达AI基础设施融资的网页搜索资料档案",
+                    "description": "总结该报道公告的主要资料档案。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1",
+                    "title": "Supplied web-search dossier: NVIDIA AI infrastructure financing candidate",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-12",
+                    "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-financing",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-2",
+                "label": "验证缺口",
+                "title": "该合作说法目前无法获得独立佐证",
+                "body": "随主要报告附带的验证资料档案指出，截至资料档案日期，该说法尚未得到独立证实。",
+                "whyImportant": "缺乏佐证意味着该信息必须被视为未经验证，这限制了其在评估AI基础设施竞赛现状时的权重。",
+                "evidence": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-2",
+                    "title": "网页搜索资料档案验证说明",
+                    "description": "为英伟达融资报告提供验证状态的情境资料档案。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2",
+                    "title": "Supplied web-search dossier: Verification note for NVIDIA AI infrastructure financing",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-12",
+                    "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-verification",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从零散融资到机构级资本",
+            "before": "AI基础设施扩张依赖于企业资本支出、风险投资和政府激励的组合，且往往受到大型项目资本可得性的限制。",
+            "shift": "据报道，英伟达与六家华尔街资产管理公司承诺投入5000亿美元以上资金，旨在创建专门面向AI基础设施的机构级融资工具。",
+            "now": "机构资本有望成为结构性推动力，可能消除融资约束，并将瓶颈转移至可融资的数据中心和能源项目的供给。",
+            "conclusion": "如果落实，这种大规模资本动员可能加速AI基础设施竞赛，但这一转变取决于具备可行性的、可随时动工的项目是否存在。"
+          },
+          "insight": {
+            "title": "机构资本作为AI基础设施的结构性转变",
+            "formula": "机构资本 + 5000亿美元以上承诺 → AI基础设施的结构性推动力 → 瓶颈从融资转向项目执行",
+            "explanation": "据报道的这项合作将把机构金融深度嵌入AI建设进程。融资不再是最主要的约束，限制因素变成了技术和财务上可行的项目可得性——尤其是那些需要大量能源和土地资源的项目。"
+          },
+          "observe": {
+            "title": "关注要点",
+            "items": [
+              {
+                "label": "独立验证",
+                "prompt": "多个独立来源能否确认合作细节和资本承诺规模？",
+                "meta": "缺乏验证，该信号仍属推测。"
+              },
+              {
+                "label": "部署速度",
+                "prompt": "承诺资本能以多快速度部署到实际的数据中心和能源项目中？",
+                "meta": "公告与项目执行之间的差距将决定实际影响。"
+              },
+              {
+                "label": "能源瓶颈",
+                "prompt": "是否有足够的电网接入和发电项目来支撑正在融资的基础设施规模？",
+                "meta": "没有电力，资本无法建设AI基础设施。"
+              }
+            ],
+            "ending": "AI基础设施竞赛越来越关乎将资本转化为具体项目——要关注实际部署的迹象，而非仅仅公告。"
+          }
+        },
+        "ja": {
+          "cover": {
+            "eyebrow": "AIインフラ競争",
+            "secondaryEyebrow": "資本動員",
+            "title": "NVIDIAとウォール街、AIインフラに5000億ドル以上を目標",
+            "summary": "報道によると、AIインフラ向けに5000億ドル超を動員する提携が模索されており、機関資本がグローバルなAI構築における構造的な力となる可能性がある。"
+          },
+          "question": {
+            "lead": "新しい資金調達メカニズムは、AIインフラの資金調達方法の変化を示唆しているが、この報道が単一情報源に依存しているため、その妥当性は疑問視されている。",
+            "title": "機関資本はAIインフラ拡大の主要な原動力となるか？",
+            "footnote": "この主張は、確定的事実として扱う前に、さらなる独立した検証が必要である。"
+          },
+          "signals": {
+            "title": "機関資本コミットメントの初期シグナル",
+            "sourceNote": "このセクションのすべてのシグナルは、提供された資料のみに基づいている。",
+            "items": [
+              {
+                "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-1",
+                "label": "提携発表",
+                "title": "NVIDIAとウォール街の6社の資産運用会社がAIインフラ資金調達の提携を形成か",
+                "body": "資料は、NVIDIAが6社の大手資産運用会社と協力し、AIインフラのために5000億ドル以上を動員することを発表したことを示している。",
+                "whyImportant": "確認されれば、これまでで最大の専用AIインフラファンドとなり、資金調達環境を再形成する可能性がある。",
+                "evidence": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-1",
+                    "title": "NVIDIAのAIインフラ資金調達に関するウェブ検索資料",
+                    "description": "報告された発表を要約した主要資料。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1",
+                    "title": "Supplied web-search dossier: NVIDIA AI infrastructure financing candidate",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-12",
+                    "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-financing",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-2",
+                "label": "検証ギャップ",
+                "title": "この提携の主張に対する独立した裏付けはない",
+                "body": "主要報告書に付随する検証資料は、その時点でこの主張を独立に確認できなかったと記している。",
+                "whyImportant": "裏付けがないということは、この情報は未検証として扱わなければならず、AIインフラ競争の現状評価における重みが限定される。",
+                "evidence": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-2",
+                    "title": "ウェブ検索資料の検証メモ",
+                    "description": "NVIDIA資金調達報告の検証状況を提供するコンテキスト資料。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2",
+                    "title": "Supplied web-search dossier: Verification note for NVIDIA AI infrastructure financing",
+                    "publisher": "Web Search Dossier",
+                    "publishedAt": "2026-08-12",
+                    "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-verification",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "断片的な資金調達から機関規模の資本へ",
+            "before": "AIインフラの拡大は、企業の設備投資、ベンチャー資金、政府のインセンティブの組み合わせに依存しており、大規模プロジェクトのための資本の利用可能性によって制限されることが多かった。",
+            "shift": "NVIDIAとウォール街の6社の資産運用会社による5000億ドル超のコミットメントは、AIインフラ専用の機関級の資金調達手段を創出することを目指している。",
+            "now": "機関資本は構造的なイネーブラーとして位置づけられ、資金調達の制約を除去し、ボトルネックを銀行融資可能なデータセンターおよびエネルギー・プロジェクトの供給に移す可能性がある。",
+            "conclusion": "実現すれば、このような大規模な資本動員はAIインフラ競争を加速させる可能性があるが、その変革は実行可能な着工準備済みプロジェクトの存在に依存する。"
+          },
+          "insight": {
+            "title": "AIインフラにおける構造的シフトとしての機関資本",
+            "formula": "機関資本 + 5000億ドル超のコミットメント → AIインフラの構造的イネーブラー → ボトルネックは資金調達からプロジェクト実行へ移行",
+            "explanation": "この報告された提携は、機関金融をAI構築に深く組み込むことになる。資金調達が主要な制約である代わりに、制約要因は技術的かつ財務的に実行可能なプロジェクトの利用可能性、特に巨大なエネルギーと土地資源を必要とするプロジェクトの利用可能性となる。"
+          },
+          "observe": {
+            "title": "注目すべきポイント",
+            "items": [
+              {
+                "label": "独立した検証",
+                "prompt": "複数の独立した情報源が提携の詳細と資本コミットメントの規模を確認できるか？",
+                "meta": "検証がなければ、このシグナルは推測の域を出ない。"
+              },
+              {
+                "label": "デプロイメントの速度",
+                "prompt": "コミットされた資本は、実際のデータセンターおよびエネルギー・プロジェクトにどのくらい迅速に配備できるか？",
+                "meta": "発表とプロジェクト実行のギャップが、実際の影響を決定する。"
+              },
+              {
+                "label": "エネルギーのボトルネック",
+                "prompt": "資金提供されるインフラの規模を支えるのに十分な系統接続と発電プロジェクトがあるか？",
+                "meta": "電子なしの資本はAIインフラを構築できない。"
+              }
+            ],
+            "ending": "AIインフラ競争は、資本を具体的なプロジェクトに転換することがますます重要になっている。発表だけでなく、実際の配備の兆候に注目すべきである。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout",
       "scope": "global",
@@ -6719,8 +7068,9 @@
       "status": "accelerating",
       "confidence": "verified",
       "startedAt": "2026-07-01T00:00:00+09:00",
-      "updatedAt": "2026-08-12T09:43:53.127Z",
+      "updatedAt": "2026-08-12T09:49:22.917Z",
       "insightIds": [
+        "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
         "global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout",
         "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
         "global-2026-07-26-capacity-update",
@@ -6750,6 +7100,34 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-candidate-2026-08-12-nvidia-ai-infrastructure-financing",
+          "date": "2026-08-12",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+          "content": {
+            "en": {
+              "title": "The AI Infrastructure Race",
+              "description": "Global competition to build the physical and digital foundations for AI—chips, data centers, energy systems, and the financial mechanisms that support them.",
+              "implication": "Control over AI infrastructure will determine strategic advantage in the next phase of AI-driven economic and military power."
+            },
+            "zh": {
+              "title": "AI基础设施竞赛",
+              "description": "全球范围内为AI构建物理和数字基础的竞争——包括芯片、数据中心、能源系统，以及支持它们的金融机制。",
+              "implication": "对AI基础设施的控制将决定下一阶段AI驱动经济与军事力量的战略优势。"
+            },
+            "ja": {
+              "title": "AIインフラ競争",
+              "description": "チップ、データセンター、エネルギーシステム、そしてそれらを支える金融メカニズムといった、AIの物理的・デジタル基盤を構築するための世界的な競争。",
+              "implication": "AIインフラの支配は、AI駆動型の経済的・軍事的パワーの次の段階における戦略的優位性を決定するだろう。"
+            }
+          },
+          "previousStage": "structural",
+          "changeType": "new_evidence",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "evolution-nvidia-500b-ai-infra-financing-2026-08",
           "date": "2026-08-11",
@@ -6944,7 +7322,7 @@
           "title": "The AI infrastructure race",
           "summary": "AI competition is expanding from model quality into control of power, compute, land and distribution.",
           "thesis": "The durable advantage may belong to companies that can repeatedly convert intelligence into dependable, large-scale capacity.",
-          "nextQuestion": "If confirmed, will NVIDIA's financing platform alter the timeline and scale of global AI infrastructure deployment?",
+          "nextQuestion": "Will institutional capital commitments translate into actual deployed AI infrastructure, or will project viability and energy constraints limit impact?",
           "domains": [
             "AI",
             "Energy",
@@ -6955,16 +7333,16 @@
           "currentStageLabel": "Industrial finance",
           "stageSummary": "AI expansion is becoming a bankable industrial system combining guarantees, dedicated power, land, construction and policy.",
           "observeNext": [
-            "Await NVIDIA official confirmation",
-            "Monitor for large-scale data center partnerships",
-            "Watch for regulatory or energy permitting responses"
+            "Corroborating reports on the NVIDIA–Wall Street partnership",
+            "Capital deployment timelines and specific project allocations",
+            "Energy and land availability for large-scale data-center projects"
           ]
         },
         "zh": {
           "title": "AI基础设施竞赛",
           "summary": "AI竞争正在从模型质量，扩展到对电力、算力、土地和分发能力的控制。",
           "thesis": "更持久的优势，可能属于那些能够持续把智能转化为稳定、大规模供给能力的企业。",
-          "nextQuestion": "如果得到确认，英伟达的融资平台是否会改变全球AI基础设施部署的时间表和规模？",
+          "nextQuestion": "机构资本承诺会转化为实际部署的AI基础设施，还是项目可行性和能源约束将限制其影响？",
           "domains": [
             "人工智能",
             "能源",
@@ -6975,16 +7353,16 @@
           "currentStageLabel": "工业融资期",
           "stageSummary": "AI扩张正成为由担保、专用能源、土地、工程建设与政策共同组成的可融资工业系统。",
           "observeNext": [
-            "等待英伟达官方确认",
-            "监测大型数据中心合作伙伴关系",
-            "关注监管或能源许可方面的回应"
+            "关于英伟达与华尔街合作的佐证报道",
+            "资本部署时间表和具体项目分配",
+            "大型数据中心项目的能源和土地可用性"
           ]
         },
         "ja": {
           "title": "AIインフラ競争",
           "summary": "AI競争はモデル品質から、電力・計算資源・土地・流通能力の支配へ広がっている。",
           "thesis": "持続的な優位は、知能を安定した大規模供給能力へ繰り返し変換できる企業に生まれる可能性がある。",
-          "nextQuestion": "確認された場合、NVIDIAの資金調達プラットフォームは、世界のAIインフラ展開のタイムラインと規模を変えるだろうか？",
+          "nextQuestion": "機関資本のコミットメントは実際に配備されたAIインフラに転換されるのか、それともプロジェクトの実現可能性とエネルギー制約が影響を制限するのか？",
           "domains": [
             "AI",
             "エネルギー",
@@ -6995,9 +7373,9 @@
           "currentStageLabel": "産業金融期",
           "stageSummary": "AI拡張は、保証・専用電源・土地・建設・政策を組み合わせた融資可能な産業システムになりつつある。",
           "observeNext": [
-            "NVIDIAの公式確認を待つ",
-            "大規模データセンターのパートナーシップを監視する",
-            "規制やエネルギー許認可の対応に注目する"
+            "NVIDIAとウォール街の提携に関する裏付け報道",
+            "資本配備のタイムラインと具体的なプロジェクト配分",
+            "大規模データセンター・プロジェクトのためのエネルギーと土地の利用可能性"
           ]
         }
       },
@@ -7008,7 +7386,8 @@
         "global-2026-07-26-capacity-update",
         "global-2026-07-29-capacity",
         "global-2026-07-31-industrial-ai",
-        "global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout"
+        "global-2026-08-11-nvidia-financing-platform-signals-new-capital-vector-in-ai-buildout",
+        "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure"
       ],
       "contradictingInsightIds": [],
       "keyActors": [],
@@ -7019,9 +7398,9 @@
         "Physical Infrastructure"
       ],
       "nextSignals": [
-        "Await NVIDIA official confirmation",
-        "Monitor for large-scale data center partnerships",
-        "Watch for regulatory or energy permitting responses"
+        "Corroborating reports on the NVIDIA–Wall Street partnership",
+        "Capital deployment timelines and specific project allocations",
+        "Energy and land availability for large-scale data-center projects"
       ],
       "confidenceScore": 85
     },
@@ -7725,6 +8104,57 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-global-2026-08-12",
+      "scope": "global",
+      "date": "2026-08-12",
+      "decidedAt": "2026-08-12T09:49:22.917Z",
+      "state": "no_new_global_insight",
+      "insightId": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 40,
+      "evidenceStrength": 40,
+      "noveltyScore": 80,
+      "importanceScore": 92,
+      "candidateSignalIds": [
+        "candidate-2026-08-12-nvidia-ai-infrastructure-financing"
+      ],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "No new global insight to publish",
+          "decisionSummary": "The signal does not meet the threshold for a new global insight due to low evidence strength and lack of independent corroboration. Institutional capital is already a recognized dimension of the AI infrastructure race, and this report does not establish a novel system relationship.",
+          "thresholdReason": "Evidence strength is low (single unverified source). The core idea—institutional capital flowing into AI infrastructure—is an extension of known dynamics rather than a structural break. No additional independent sources confirm the claim.",
+          "observeNext": [
+            "Corroboration of the NVIDIA–Wall Street partnership from multiple independent outlets",
+            "Specific project announcements or capital deployment timelines",
+            "Impact on energy and data-center project pipelines"
+          ]
+        },
+        "zh": {
+          "label": "无新的全球洞察",
+          "decisionTitle": "暂无新的全球洞察可发布",
+          "decisionSummary": "由于证据强度较低且缺乏独立佐证，该信号未达到发布新的全球洞察的门槛。机构资本已是AI基础设施竞赛中公认的维度，该报告并未确立新的系统关系。",
+          "thresholdReason": "证据强度较低（单一未经验证的来源）。核心观点——机构资本流入AI基础设施——是已有动态的延伸，而非结构性断裂。没有其他独立来源证实该说法。",
+          "observeNext": [
+            "多个独立渠道对英伟达与华尔街合作的佐证",
+            "具体项目公告或资本部署时间表",
+            "对能源和数据中心项目管道的影响"
+          ]
+        },
+        "ja": {
+          "label": "新たなグローバル洞察なし",
+          "decisionTitle": "公開する新たなグローバル洞察はなし",
+          "decisionSummary": "このシグナルは、エビデンスの強度が低く、独立した裏付けがないため、新たなグローバル洞察の基準を満たさない。機関資本はすでにAIインフラ競争の認識された側面であり、この報告は新しいシステム関係を確立するものではない。",
+          "thresholdReason": "エビデンスの強度は低い（単一の未検証情報源）。中心となる考え方—AIインフラへの機関資本の流入—は、構造的断絶ではなく、既知のダイナミクスの延長である。この主張を確認する独立した情報源は他にない。",
+          "observeNext": [
+            "NVIDIAとウォール街の提携に関する複数の独立した情報源からの裏付け",
+            "具体的なプロジェクト発表または資本配備のタイムライン",
+            "エネルギーおよびデータセンターのプロジェクト・パイプラインへの影響"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-global-2026-08-11",
       "scope": "global",
@@ -8530,6 +8960,495 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-candidate-2026-08-12-nvidia-ai-infrastructure-financing-1786528162917",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-08-12T09:49:22.917Z",
+      "researchDraftId": "research-global-2026-08-12-1786527921399",
+      "candidateId": "candidate-2026-08-12-nvidia-ai-infrastructure-financing",
+      "model": "deepseek-v4-pro + deepseek-v4-flash + deepseek-v4-flash",
+      "dailyState": "no_new_global_insight",
+      "matchedProcessId": "process-ai-infrastructure-race",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold.",
+          "Fewer than two current or corroborating sources."
+        ],
+        "humanApproved": true,
+        "originalPublishThresholdMet": false
+      },
+      "insight": {
+        "id": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+        "scope": "global",
+        "slug": "nvidia-wall-street-ai-infrastructure-financing",
+        "status": "update_living",
+        "parentInsightId": "process-ai-infrastructure-race",
+        "processId": "process-ai-infrastructure-race",
+        "publishedAt": "2026-08-12T00:00:00.000Z",
+        "updatedAt": "2026-08-12T09:49:22.916Z",
+        "confidence": "hypothesis",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "AI Infrastructure Race",
+              "secondaryEyebrow": "Capital Mobilization",
+              "title": "NVIDIA and Wall Street Target $500B+ for AI Infrastructure",
+              "summary": "A reported partnership aims to mobilize over half a trillion dollars for AI infrastructure, potentially making institutional capital a structural force in the global AI buildout."
+            },
+            "question": {
+              "lead": "A new financing mechanism signals a shift in how AI infrastructure is funded, but the single-source nature of the report calls its validity into question.",
+              "title": "Will institutional capital become the primary engine for AI infrastructure expansion?",
+              "footnote": "The claim requires further independent verification before it can be treated as established fact."
+            },
+            "signals": {
+              "title": "Early Signals of Institutional Capital Commitments",
+              "sourceNote": "All signals in this section are drawn exclusively from the supplied dossier.",
+              "items": [
+                {
+                  "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-1",
+                  "label": "Partnership Announcement",
+                  "title": "NVIDIA and six Wall Street asset managers reportedly form AI infrastructure financing partnership",
+                  "body": "The dossier indicates that NVIDIA has announced a collaboration with six major asset managers to mobilize more than $500 billion for AI infrastructure.",
+                  "whyImportant": "If confirmed, it would represent the largest dedicated AI infrastructure fund to date, potentially reshaping the financing landscape.",
+                  "evidence": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-1",
+                      "title": "Web-search dossier on NVIDIA AI infrastructure financing",
+                      "description": "Primary dossier summarizing the reported announcement.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1",
+                      "title": "Supplied web-search dossier: NVIDIA AI infrastructure financing candidate",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-12",
+                      "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-financing",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-2",
+                  "label": "Verification Gap",
+                  "title": "No independent corroboration available for the partnership claim",
+                  "body": "A verification dossier accompanying the primary report notes that the claim could not be independently confirmed as of the dossier date.",
+                  "whyImportant": "The lack of corroboration means the information must be treated as unverified, limiting its weight in assessing the current state of the AI infrastructure race.",
+                  "evidence": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-2",
+                      "title": "Web-search dossier verification note",
+                      "description": "Context dossier providing verification status for the NVIDIA financing report.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2",
+                      "title": "Supplied web-search dossier: Verification note for NVIDIA AI infrastructure financing",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-12",
+                      "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-verification",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Piecemeal Funding to Institutional-Scale Capital",
+              "before": "AI infrastructure expansion relied on a mix of corporate capex, venture funding, and government incentives, often limited by the availability of capital for large-scale projects.",
+              "shift": "A reported $500B+ commitment by NVIDIA and six Wall Street asset managers aims to create a dedicated, institutional-grade financing vehicle specifically for AI infrastructure.",
+              "now": "Institutional capital is positioned to become a structural enabler, potentially removing funding constraints and shifting the bottleneck to the supply of bankable data-center and energy projects.",
+              "conclusion": "If implemented, such large-scale capital mobilization could accelerate the AI infrastructure race, but the transformation depends on the existence of viable, shovel-ready projects."
+            },
+            "insight": {
+              "title": "Institutional Capital as a Structural Shift in AI Infrastructure",
+              "formula": "Institutional capital + $500B+ commitment → structural enabler for AI infrastructure → bottleneck moves from funding to project execution",
+              "explanation": "The reported partnership would embed institutional finance deeply into the AI buildout. Instead of funding being a primary constraint, the limiting factor becomes the availability of technically and financially feasible projects—especially those requiring massive energy and land resources."
+            },
+            "observe": {
+              "title": "What to Watch",
+              "items": [
+                {
+                  "label": "Independent Verification",
+                  "prompt": "Can multiple independent sources confirm the partnership details and the scale of capital commitments?",
+                  "meta": "Without verification, the signal remains speculative."
+                },
+                {
+                  "label": "Deployment Velocity",
+                  "prompt": "How quickly can committed capital be deployed into actual data-center and energy projects?",
+                  "meta": "The gap between announcement and project execution will determine real-world impact."
+                },
+                {
+                  "label": "Energy Bottlenecks",
+                  "prompt": "Are there enough grid connections and power-generation projects to support the scale of infrastructure being funded?",
+                  "meta": "Capital without electrons cannot build AI infrastructure."
+                }
+              ],
+              "ending": "The AI infrastructure race is increasingly about translating capital into concrete projects—watch for signs of actual deployment, not just announcements."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "AI基础设施竞赛",
+              "secondaryEyebrow": "资本动员",
+              "title": "英伟达与华尔街瞄准5000亿美元以上AI基础设施",
+              "summary": "据报道，一项合作旨在为AI基础设施动员超过5000亿美元资金，这可能使机构资本成为全球AI建设中的结构性力量。"
+            },
+            "question": {
+              "lead": "新的融资机制标志着AI基础设施融资方式的转变，但该报道的单一来源性质使其有效性存疑。",
+              "title": "机构资本会成为AI基础设施扩张的主要引擎吗？",
+              "footnote": "该说法在被视为既定事实之前，需要进一步的独立验证。"
+            },
+            "signals": {
+              "title": "机构资本承诺的早期信号",
+              "sourceNote": "本部分所有信号均仅来自所提供的资料档案。",
+              "items": [
+                {
+                  "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-1",
+                  "label": "合作公告",
+                  "title": "据报道，英伟达与六家华尔街资产管理公司结成AI基础设施融资合作关系",
+                  "body": "资料档案显示，英伟达已宣布与六家大型资产管理公司合作，为AI基础设施动员超过5000亿美元资金。",
+                  "whyImportant": "若得到确认，这将是迄今为止规模最大的专项AI基础设施基金，可能重塑融资格局。",
+                  "evidence": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-1",
+                      "title": "关于英伟达AI基础设施融资的网页搜索资料档案",
+                      "description": "总结该报道公告的主要资料档案。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1",
+                      "title": "Supplied web-search dossier: NVIDIA AI infrastructure financing candidate",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-12",
+                      "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-financing",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-2",
+                  "label": "验证缺口",
+                  "title": "该合作说法目前无法获得独立佐证",
+                  "body": "随主要报告附带的验证资料档案指出，截至资料档案日期，该说法尚未得到独立证实。",
+                  "whyImportant": "缺乏佐证意味着该信息必须被视为未经验证，这限制了其在评估AI基础设施竞赛现状时的权重。",
+                  "evidence": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-2",
+                      "title": "网页搜索资料档案验证说明",
+                      "description": "为英伟达融资报告提供验证状态的情境资料档案。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2",
+                      "title": "Supplied web-search dossier: Verification note for NVIDIA AI infrastructure financing",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-12",
+                      "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-verification",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从零散融资到机构级资本",
+              "before": "AI基础设施扩张依赖于企业资本支出、风险投资和政府激励的组合，且往往受到大型项目资本可得性的限制。",
+              "shift": "据报道，英伟达与六家华尔街资产管理公司承诺投入5000亿美元以上资金，旨在创建专门面向AI基础设施的机构级融资工具。",
+              "now": "机构资本有望成为结构性推动力，可能消除融资约束，并将瓶颈转移至可融资的数据中心和能源项目的供给。",
+              "conclusion": "如果落实，这种大规模资本动员可能加速AI基础设施竞赛，但这一转变取决于具备可行性的、可随时动工的项目是否存在。"
+            },
+            "insight": {
+              "title": "机构资本作为AI基础设施的结构性转变",
+              "formula": "机构资本 + 5000亿美元以上承诺 → AI基础设施的结构性推动力 → 瓶颈从融资转向项目执行",
+              "explanation": "据报道的这项合作将把机构金融深度嵌入AI建设进程。融资不再是最主要的约束，限制因素变成了技术和财务上可行的项目可得性——尤其是那些需要大量能源和土地资源的项目。"
+            },
+            "observe": {
+              "title": "关注要点",
+              "items": [
+                {
+                  "label": "独立验证",
+                  "prompt": "多个独立来源能否确认合作细节和资本承诺规模？",
+                  "meta": "缺乏验证，该信号仍属推测。"
+                },
+                {
+                  "label": "部署速度",
+                  "prompt": "承诺资本能以多快速度部署到实际的数据中心和能源项目中？",
+                  "meta": "公告与项目执行之间的差距将决定实际影响。"
+                },
+                {
+                  "label": "能源瓶颈",
+                  "prompt": "是否有足够的电网接入和发电项目来支撑正在融资的基础设施规模？",
+                  "meta": "没有电力，资本无法建设AI基础设施。"
+                }
+              ],
+              "ending": "AI基础设施竞赛越来越关乎将资本转化为具体项目——要关注实际部署的迹象，而非仅仅公告。"
+            }
+          },
+          "ja": {
+            "cover": {
+              "eyebrow": "AIインフラ競争",
+              "secondaryEyebrow": "資本動員",
+              "title": "NVIDIAとウォール街、AIインフラに5000億ドル以上を目標",
+              "summary": "報道によると、AIインフラ向けに5000億ドル超を動員する提携が模索されており、機関資本がグローバルなAI構築における構造的な力となる可能性がある。"
+            },
+            "question": {
+              "lead": "新しい資金調達メカニズムは、AIインフラの資金調達方法の変化を示唆しているが、この報道が単一情報源に依存しているため、その妥当性は疑問視されている。",
+              "title": "機関資本はAIインフラ拡大の主要な原動力となるか？",
+              "footnote": "この主張は、確定的事実として扱う前に、さらなる独立した検証が必要である。"
+            },
+            "signals": {
+              "title": "機関資本コミットメントの初期シグナル",
+              "sourceNote": "このセクションのすべてのシグナルは、提供された資料のみに基づいている。",
+              "items": [
+                {
+                  "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-1",
+                  "label": "提携発表",
+                  "title": "NVIDIAとウォール街の6社の資産運用会社がAIインフラ資金調達の提携を形成か",
+                  "body": "資料は、NVIDIAが6社の大手資産運用会社と協力し、AIインフラのために5000億ドル以上を動員することを発表したことを示している。",
+                  "whyImportant": "確認されれば、これまでで最大の専用AIインフラファンドとなり、資金調達環境を再形成する可能性がある。",
+                  "evidence": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-1",
+                      "title": "NVIDIAのAIインフラ資金調達に関するウェブ検索資料",
+                      "description": "報告された発表を要約した主要資料。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-1",
+                      "title": "Supplied web-search dossier: NVIDIA AI infrastructure financing candidate",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-12",
+                      "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-financing",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-signal-2",
+                  "label": "検証ギャップ",
+                  "title": "この提携の主張に対する独立した裏付けはない",
+                  "body": "主要報告書に付随する検証資料は、その時点でこの主張を独立に確認できなかったと記している。",
+                  "whyImportant": "裏付けがないということは、この情報は未検証として扱わなければならず、AIインフラ競争の現状評価における重みが限定される。",
+                  "evidence": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-evidence-2",
+                      "title": "ウェブ検索資料の検証メモ",
+                      "description": "NVIDIA資金調達報告の検証状況を提供するコンテキスト資料。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-2026-08-12-nvidia-ai-infrastructure-financing-source-2",
+                      "title": "Supplied web-search dossier: Verification note for NVIDIA AI infrastructure financing",
+                      "publisher": "Web Search Dossier",
+                      "publishedAt": "2026-08-12",
+                      "url": "urn:dossier:2026-08-12:nvidia-ai-infrastructure-verification",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "断片的な資金調達から機関規模の資本へ",
+              "before": "AIインフラの拡大は、企業の設備投資、ベンチャー資金、政府のインセンティブの組み合わせに依存しており、大規模プロジェクトのための資本の利用可能性によって制限されることが多かった。",
+              "shift": "NVIDIAとウォール街の6社の資産運用会社による5000億ドル超のコミットメントは、AIインフラ専用の機関級の資金調達手段を創出することを目指している。",
+              "now": "機関資本は構造的なイネーブラーとして位置づけられ、資金調達の制約を除去し、ボトルネックを銀行融資可能なデータセンターおよびエネルギー・プロジェクトの供給に移す可能性がある。",
+              "conclusion": "実現すれば、このような大規模な資本動員はAIインフラ競争を加速させる可能性があるが、その変革は実行可能な着工準備済みプロジェクトの存在に依存する。"
+            },
+            "insight": {
+              "title": "AIインフラにおける構造的シフトとしての機関資本",
+              "formula": "機関資本 + 5000億ドル超のコミットメント → AIインフラの構造的イネーブラー → ボトルネックは資金調達からプロジェクト実行へ移行",
+              "explanation": "この報告された提携は、機関金融をAI構築に深く組み込むことになる。資金調達が主要な制約である代わりに、制約要因は技術的かつ財務的に実行可能なプロジェクトの利用可能性、特に巨大なエネルギーと土地資源を必要とするプロジェクトの利用可能性となる。"
+            },
+            "observe": {
+              "title": "注目すべきポイント",
+              "items": [
+                {
+                  "label": "独立した検証",
+                  "prompt": "複数の独立した情報源が提携の詳細と資本コミットメントの規模を確認できるか？",
+                  "meta": "検証がなければ、このシグナルは推測の域を出ない。"
+                },
+                {
+                  "label": "デプロイメントの速度",
+                  "prompt": "コミットされた資本は、実際のデータセンターおよびエネルギー・プロジェクトにどのくらい迅速に配備できるか？",
+                  "meta": "発表とプロジェクト実行のギャップが、実際の影響を決定する。"
+                },
+                {
+                  "label": "エネルギーのボトルネック",
+                  "prompt": "資金提供されるインフラの規模を支えるのに十分な系統接続と発電プロジェクトがあるか？",
+                  "meta": "電子なしの資本はAIインフラを構築できない。"
+                }
+              ],
+              "ending": "AIインフラ競争は、資本を具体的なプロジェクトに転換することがますます重要になっている。発表だけでなく、実際の配備の兆候に注目すべきである。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-08-12",
+        "scope": "global",
+        "date": "2026-08-12",
+        "decidedAt": "2026-08-12T09:49:22.917Z",
+        "state": "no_new_global_insight",
+        "insightId": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+        "processId": "process-ai-infrastructure-race",
+        "materialChangeScore": 40,
+        "evidenceStrength": 40,
+        "noveltyScore": 80,
+        "importanceScore": 92,
+        "candidateSignalIds": [
+          "candidate-2026-08-12-nvidia-ai-infrastructure-financing"
+        ],
+        "content": {
+          "en": {
+            "label": "No new global insight",
+            "decisionTitle": "No new global insight to publish",
+            "decisionSummary": "The signal does not meet the threshold for a new global insight due to low evidence strength and lack of independent corroboration. Institutional capital is already a recognized dimension of the AI infrastructure race, and this report does not establish a novel system relationship.",
+            "thresholdReason": "Evidence strength is low (single unverified source). The core idea—institutional capital flowing into AI infrastructure—is an extension of known dynamics rather than a structural break. No additional independent sources confirm the claim.",
+            "observeNext": [
+              "Corroboration of the NVIDIA–Wall Street partnership from multiple independent outlets",
+              "Specific project announcements or capital deployment timelines",
+              "Impact on energy and data-center project pipelines"
+            ]
+          },
+          "zh": {
+            "label": "无新的全球洞察",
+            "decisionTitle": "暂无新的全球洞察可发布",
+            "decisionSummary": "由于证据强度较低且缺乏独立佐证，该信号未达到发布新的全球洞察的门槛。机构资本已是AI基础设施竞赛中公认的维度，该报告并未确立新的系统关系。",
+            "thresholdReason": "证据强度较低（单一未经验证的来源）。核心观点——机构资本流入AI基础设施——是已有动态的延伸，而非结构性断裂。没有其他独立来源证实该说法。",
+            "observeNext": [
+              "多个独立渠道对英伟达与华尔街合作的佐证",
+              "具体项目公告或资本部署时间表",
+              "对能源和数据中心项目管道的影响"
+            ]
+          },
+          "ja": {
+            "label": "新たなグローバル洞察なし",
+            "decisionTitle": "公開する新たなグローバル洞察はなし",
+            "decisionSummary": "このシグナルは、エビデンスの強度が低く、独立した裏付けがないため、新たなグローバル洞察の基準を満たさない。機関資本はすでにAIインフラ競争の認識された側面であり、この報告は新しいシステム関係を確立するものではない。",
+            "thresholdReason": "エビデンスの強度は低い（単一の未検証情報源）。中心となる考え方—AIインフラへの機関資本の流入—は、構造的断絶ではなく、既知のダイナミクスの延長である。この主張を確認する独立した情報源は他にない。",
+            "observeNext": [
+              "NVIDIAとウォール街の提携に関する複数の独立した情報源からの裏付け",
+              "具体的なプロジェクト発表または資本配備のタイムライン",
+              "エネルギーおよびデータセンターのプロジェクト・パイプラインへの影響"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-ai-infrastructure-race",
+        "scope": "global",
+        "updatedAt": "2026-08-12T09:49:22.917Z",
+        "appendInsightId": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+        "evolutionEvent": {
+          "id": "evolution-candidate-2026-08-12-nvidia-ai-infrastructure-financing",
+          "date": "2026-08-12",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "global-2026-08-12-nvidia-and-wall-street-target-500b-for-ai-infrastructure",
+          "content": {
+            "en": {
+              "title": "The AI Infrastructure Race",
+              "description": "Global competition to build the physical and digital foundations for AI—chips, data centers, energy systems, and the financial mechanisms that support them.",
+              "implication": "Control over AI infrastructure will determine strategic advantage in the next phase of AI-driven economic and military power."
+            },
+            "zh": {
+              "title": "AI基础设施竞赛",
+              "description": "全球范围内为AI构建物理和数字基础的竞争——包括芯片、数据中心、能源系统，以及支持它们的金融机制。",
+              "implication": "对AI基础设施的控制将决定下一阶段AI驱动经济与军事力量的战略优势。"
+            },
+            "ja": {
+              "title": "AIインフラ競争",
+              "description": "チップ、データセンター、エネルギーシステム、そしてそれらを支える金融メカニズムといった、AIの物理的・デジタル基盤を構築するための世界的な競争。",
+              "implication": "AIインフラの支配は、AI駆動型の経済的・軍事的パワーの次の段階における戦略的優位性を決定するだろう。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will institutional capital commitments translate into actual deployed AI infrastructure, or will project viability and energy constraints limit impact?",
+          "zh": "机构资本承诺会转化为实际部署的AI基础设施，还是项目可行性和能源约束将限制其影响？",
+          "ja": "機関資本のコミットメントは実際に配備されたAIインフラに転換されるのか、それともプロジェクトの実現可能性とエネルギー制約が影響を制限するのか？"
+        },
+        "observeNext": {
+          "en": [
+            "Corroborating reports on the NVIDIA–Wall Street partnership",
+            "Capital deployment timelines and specific project allocations",
+            "Energy and land availability for large-scale data-center projects"
+          ],
+          "zh": [
+            "关于英伟达与华尔街合作的佐证报道",
+            "资本部署时间表和具体项目分配",
+            "大型数据中心项目的能源和土地可用性"
+          ],
+          "ja": [
+            "NVIDIAとウォール街の提携に関する裏付け報道",
+            "資本配備のタイムラインと具体的なプロジェクト配分",
+            "大規模データセンター・プロジェクトのためのエネルギーと土地の利用可能性"
+          ]
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "staged-writer-v1",
+      "usage": {
+        "inputTokens": 7120,
+        "outputTokens": 9361,
+        "cachedInputTokens": 5760
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-12T09:49:48.093Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "approvedAt": "2026-08-12T09:49:48.093Z"
+    },
     {
       "id": "writer-nvidia-500b-ai-infra-financing-2026-08-1786527833127",
       "scope": "global",
@@ -16698,11 +17617,11 @@
   ],
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-12T09:43:58.205Z",
+    "lastUpdatedAt": "2026-08-12T09:49:48.093Z",
     "lastMatchedProcessId": "process-ai-infrastructure-race"
   },
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-12T09:43:59.508Z"
+    "repairedAt": "2026-08-12T09:49:49.246Z"
   }
 }
