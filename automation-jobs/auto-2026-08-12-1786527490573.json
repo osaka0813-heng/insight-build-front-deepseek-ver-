@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:49:23.890Z",
+  "updatedAt": "2026-08-12T09:49:25.595Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1513,11 +1513,11 @@
       }
     },
     "us": {
-      "status": "queued",
+      "status": "running",
       "stage": "research",
       "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-08-12T09:38:10.573Z"
+      "message": "research",
+      "updatedAt": "2026-08-12T09:49:25.595Z"
     },
     "japan": {
       "status": "queued",
