@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:44:48.685Z",
+  "updatedAt": "2026-08-12T09:44:51.692Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,11 @@
       }
     },
     "us": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_base",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-12T09:44:48.684Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:44:51.692Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527877114",
@@ -1799,21 +1799,20 @@
             "analysis": {
               "matchedProcessId": "process-us-labor-immigration",
               "processMatchConfidence": 88,
-              "impact": "challenges",
+              "impact": "supports",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 76,
+              "materialChangeScore": 60,
               "publishThresholdMet": false,
               "scoreWasNormalized": true,
               "triggerSourceCount": 1,
               "corroboratingSourceCount": 1,
               "contextSourceCount": 0,
-              "rationale": "The July 2026 BLS employment report provides a monthly hard data point for the US labor and immigration regime process. It sharpens the test of whether tight labor supply feeds service inflation and whether the Fed accommodates fiscal-driven growth. However, the candidate itself is flagged as not meeting the publication threshold, with only one trigger source (BLS) and one corroborating source (Reuters). Monthly jobs reports are recurring, expected data releases; while this one triggered market reaction, there is no indication of a structural regime change, new institutional mechanism, or genuinely novel system relationship. The report updates the existing labor-supply narrative rather than establishing a new process connection. The prior analysis correctly assessed this as no_new_global_insight — the evidence may be worth tracking but the publication threshold is not met.",
+              "rationale": "The July 2026 BLS employment report provides a routine monthly data point that supports the existing US labor and immigration regime thesis (tight labor supply feeding wage pressure and inflation constraints). However, a single monthly jobs report—even one that triggered market reaction—does not materially alter the structural understanding of the process. The report is a confirmatory incremental reading, not a regime-shifting signal. Only two sources are cited: one primary (BLS) and one corroborating (Reuters). The evidence strength is moderate and there is no indication of a new system relationship or a material update to the existing process trajectory. The candidate's own pre-analysis agrees with 'no_new_global_insight'. No new process, stage change, or novel linkage is established.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
-                "Legacy 0–10 scores were normalized to 0–100.",
-                "Only two independent sources (BLS primary, Reuters corroborating); limited evidentiary breadth.",
-                "Monthly jobs reports are recurring events; novelty insufficient for publish_new or update_living.",
-                "Market reaction mentioned but not substantively detailed in candidate evidence."
+                "Single monthly data point; no structural shift evident.",
+                "Only two sources with moderate evidence strength.",
+                "Market reaction is noted but not independently verified beyond Reuters."
               ],
               "candidateId": "us-jobs-market-reaction-2026-08-07"
             }
