@@ -6,15 +6,15 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:39:30.580Z",
+  "updatedAt": "2026-08-12T09:39:33.215Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "queued",
       "stage": "analyze",
       "attempts": {
         "analyze": 2
       },
-      "message": "analyze",
+      "message": "重新唤醒 analyze 断点",
       "updatedAt": "2026-08-12T09:39:30.580Z",
       "researchDraft": {
         "ok": true,
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "message": "WORLD analyze 自动重试 2/3"
+  "message": "GLOBAL 从 analyze 断点继续"
 }
