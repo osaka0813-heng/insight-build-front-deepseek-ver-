@@ -1,0 +1,40 @@
+{
+  "id": "auto-2026-08-12-1786504192549",
+  "status": "queued",
+  "date": "2026-08-12",
+  "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
+  "currentScope": "global",
+  "currentStage": "preflight",
+  "createdAt": "2026-08-12T03:09:52.549Z",
+  "updatedAt": "2026-08-12T03:09:52.549Z",
+  "scopes": {
+    "global": {
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "等待执行",
+      "updatedAt": "2026-08-12T03:09:52.549Z"
+    },
+    "china": {
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "等待执行",
+      "updatedAt": "2026-08-12T03:09:52.549Z"
+    },
+    "us": {
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "等待执行",
+      "updatedAt": "2026-08-12T03:09:52.549Z"
+    },
+    "japan": {
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "等待执行",
+      "updatedAt": "2026-08-12T03:09:52.549Z"
+    }
+  }
+}
