@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:49:05.640Z",
+  "updatedAt": "2026-08-12T09:49:09.311Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,13 +1107,14 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_zh",
       "attempts": {
-        "analyze": 1
+        "analyze": 1,
+        "write_base": 2
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-12T09:49:05.640Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-12T09:49:09.311Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1214,7 +1215,7 @@
           }
         ]
       },
-      "failedStage": "analyze",
+      "failedStage": "write_base",
       "analyzedDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1360,47 +1361,47 @@
         "stage": "base",
         "baseDraft": {
           "insightId": "china-housing-as-consumption-2026-08-12",
-          "slug": "china-housing-consumption-shift-2026",
-          "parentInsightId": "process-china-property-local-finance",
+          "slug": "china-housing-as-consumption-2026-08-12",
+          "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "China Property Shift",
-              "secondaryEyebrow": "Structural Change",
+              "eyebrow": "Policy Pivot",
+              "secondaryEyebrow": "China Property & Local-Finance Transition",
               "title": "Housing repositioned as top 'bulk durable consumer good' as Beijing eases purchase curbs; property policy shifts from risk control to consumption stimulus",
-              "summary": "The State Council's 15th Five-Year Plan places housing first among bulk durable consumer goods, signaling a policy pivot from risk containment to consumption stimulus. Beijing's new rules cut purchase requirements, raise loan caps, and multiple cities follow, sparking a rally in property stocks."
+              "summary": "The State Council-approved 15th Five-Year Plan places housing first among bulk durable consumer goods, coinciding with Beijing's relaxation of home-purchase restrictions and follow-on steps by multiple cities, marking a strategic pivot toward using real estate as a consumption engine while maintaining risk guardrails."
             },
             "question": {
-              "lead": "China's property policy is undergoing a structural reorientation.",
-              "title": "Will treating housing as consumption revive the market without reigniting debt risks?",
-              "footnote": "The shift challenges the assumption that the property transition is solely about managing balance-sheet stress."
+              "lead": "This policy reversal raises a critical question about the next phase of the property transition:",
+              "title": "Can housing become a consumption engine without reigniting a speculative frenzy?",
+              "footnote": "The answer will determine whether China can stabilize local finances through housing demand without re-inflating household debt and asset bubbles."
             },
             "signals": {
-              "title": "Key Signals of the Shift",
-              "sourceNote": "Sources include Chinese state media, government announcements, and market data.",
+              "title": "Key signals of the policy shift",
+              "sourceNote": "Sources include state media, government notices, and market data.",
               "items": [
                 {
-                  "label": "Official Framing",
-                  "title": "Housing designated as top bulk durable consumer good in State Council plan",
-                  "body": "The Economic Information Daily reports that the State Council-approved 15th Five-Year Plan for expanding consumption places housing first among bulk durable consumer goods, accelerating the policy positioning toward both risk prevention and consumption promotion.",
-                  "whyImportant": "This reframes housing from a financial risk to a consumption engine, unlocking potential new policy tools.",
+                  "label": "Policy Framing",
+                  "title": "15th Five-Year Plan reclassifies housing as a bulk durable consumer good",
+                  "body": "Economic Information Daily reports that the State Council-approved consumption expansion plan for the 15th Five-Year Plan period explicitly lists housing as the top 'bulk durable consumer good,' accelerating the shift toward dual objectives of risk prevention and consumption promotion.",
+                  "whyImportant": "This official reclassification legitimizes the use of housing policy for demand stimulus, moving beyond the previous singular focus on curbing speculation.",
                   "evidence": {
-                    "title": "Economic Information Daily article on August 12, 2026",
-                    "description": "States explicit inclusion of housing in consumption category and shift in policy stance.",
-                    "confidence": "verified",
+                    "title": "Housing incorporated into bulk consumption framework to unlock domestic demand momentum",
+                    "description": "The Xinhua-run newspaper states the plan positions housing consumption at the forefront, signaling a policy intent to reignite the sector as a growth driver.",
+                    "confidence": "developing",
                     "sourceIds": [
                       "china-housing-as-consumption-2026-08-12-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "Beijing Easing",
-                  "title": "Beijing cuts purchase curbs and raises loan caps for first-time buyers",
-                  "body": "Effective August 8, Beijing reduces the social-insurance/tax requirement for non-Beijing households to 1 year from 2, raises the first-home dual-income public-housing-fund loan cap to 3.4 million yuan, and adjusts gift policies.",
-                  "whyImportant": "As the capital, Beijing's easing signals top-level commitment and sets a precedent for other cities.",
+                  "label": "Policy Action",
+                  "title": "Beijing cuts purchase curbs and expands credit access",
+                  "body": "Effective August 8, Beijing reduces the social insurance/personal income tax requirement for non-Beijing households purchasing inside the 5th Ring Road from 2 years to 1 year, raises the first-home dual-income provident fund loan cap to 3.4 million yuan, and adjusts the gift policy.",
+                  "whyImportant": "As the capital city, Beijing's move sets a precedent for other cities and directly tests the market's response to eased restrictions.",
                   "evidence": {
-                    "title": "Beijing Municipal Government Notice on August 7, 2026",
-                    "description": "Details the new housing policy adjustments.",
+                    "title": "Beijing Municipal Housing and Urban-Rural Construction Committee and other units notice on further optimizing and adjusting the city's real estate policy",
+                    "description": "Official government notification detailing the specific easing measures.",
                     "confidence": "verified",
                     "sourceIds": [
                       "china-housing-as-consumption-2026-08-12-source-2"
@@ -1409,13 +1410,13 @@
                 },
                 {
                   "label": "Market Reaction",
-                  "title": "A-share and HK property stocks surge on policy optimism",
-                  "body": "On August 12, nearly 10 A-share property stocks hit daily limit-ups, and Hong Kong-listed Chinese property stocks rose 9-13%, reflecting strong market anticipation of demand revival.",
-                  "whyImportant": "Market movements validate the perceived impact of the policy shift on the property sector.",
+                  "title": "Property stocks rally sharply on easing hopes",
+                  "body": "On August 12, A-share real estate stocks saw nearly 10 limit-ups, while Hong Kong-listed mainland property stocks surged 9-13%.",
+                  "whyImportant": "The strong market response indicates investor belief that the policy pivot could significantly improve sector prospects, though sustainability remains uncertain.",
                   "evidence": {
-                    "title": "Market data from Gelonhui and Sohu on August 12, 2026",
-                    "description": "A-share property stocks limit-ups and HK property stocks surge.",
-                    "confidence": "verified",
+                    "title": "A-share real estate sector collectively strengthens, multiple stocks hit limit-up",
+                    "description": "Live market report showing nearly 10 property stocks hit daily up-limit.",
+                    "confidence": "developing",
                     "sourceIds": [
                       "china-housing-as-consumption-2026-08-12-source-3",
                       "china-housing-as-consumption-2026-08-12-source-4"
@@ -1423,91 +1424,91 @@
                   }
                 },
                 {
-                  "label": "City Follow-ups",
-                  "title": "Multiple cities prepare easing measures",
-                  "body": "Chengdu, Wuhan, Nanjing, Qingdao and others are reported to have launched or prepared follow-up policies, indicating a coordinated, nationwide relaxation.",
-                  "whyImportant": "Broad adoption suggests the change is not isolated but part of a deliberate national strategy.",
+                  "label": "Regulatory Support",
+                  "title": "State Council approves housing provident fund rule revisions",
+                  "body": "An August 11 State Council executive meeting passed a draft decision to amend the Housing Provident Fund Management Regulations, signaling systemic support for enhanced housing finance.",
+                  "whyImportant": "This top-level approval aligns with the consumption-push narrative and could lead to expanded loan quotas and easier access, complementing local policy moves.",
                   "evidence": {
-                    "title": "Economic Information Daily report mentioning other cities",
-                    "description": "The same article notes multiple cities are following suit.",
+                    "title": "State Council executive meeting deliberates and approves the 'State Council Decision on Amending the Housing Provident Fund Management Regulations (Draft)'",
+                    "description": "Official announcement from a local finance bureau relaying the State Council's approval.",
                     "confidence": "verified",
                     "sourceIds": [
-                      "china-housing-as-consumption-2026-08-12-source-1"
+                      "china-housing-as-consumption-2026-08-12-source-5"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "From Risk Control to Consumption Stimulus",
-              "before": "Housing policy was dominated by tight purchase restrictions, credit curbs, and focus on containing financial risks and deleveraging.",
-              "shift": "The State Council's 15th Five-Year Plan repositions housing as a bulk durable consumer good, explicitly linking property to domestic consumption expansion.",
-              "now": "Local governments are cutting purchase requirements, raising loan limits, and markets are responding with equity rallies, marking a nascent policy pivot.",
-              "conclusion": "The property-local-finance transition is being reshaped: demand-side stimulus may temporarily stabilize land sales and local revenues, but risks reactivating household leverage and asset bubbles."
+              "title": "From Risk Control to Consumption Catalyst: The Structural Shift",
+              "before": "Property policy focused almost exclusively on risk containment—tight purchase restrictions, developer deleveraging, and preventing price runs—treating housing as a financial stability threat.",
+              "shift": "The 15th Five-Year Plan officially reclassifies housing as a 'bulk durable consumer good,' and Beijing led the way by easing curbs and expanding credit access, pivoting to prioritize consumption promotion alongside risk prevention.",
+              "now": "Multiple cities are following suit with local policy adjustments; property stocks have rallied. Housing demand is now being activated as a primary lever for boosting consumption and stabilizing local fiscal conditions.",
+              "conclusion": "The transition may temporarily ease local government fiscal strains but carries the risk of re-leveraging households and reviving asset-price speculation, fundamentally altering the trajectory of China's property-led rebalancing effort."
             },
             "insight": {
-              "title": "Housing consumption pivot rewrites China's property playbook",
-              "formula": "Consumption framing + eased curbs = short-term demand boost but potential re-leveraging risk.",
-              "explanation": "By designating housing as the top consumer good, Beijing is attempting to stimulate economic activity through property purchases. This could ease local fiscal pressures but challenges the goal of reducing economy-wide debt dependence."
+              "title": "China repurposes housing as a consumption tool within risk controls",
+              "formula": "Housing as consumption = targeted demand stimulus within a partially retained restriction framework.",
+              "explanation": "By placing housing in the consumption narrative, Beijing aims to unlock pent-up demand without dismantling all purchase restrictions, attempting a calibrated reflation of the property market to support growth and local finances while maintaining overarching debt discipline."
             },
             "observe": {
-              "title": "What to Watch Next",
+              "title": "What to watch next",
               "items": [
                 {
-                  "label": "Demand response",
-                  "prompt": "Will home sales in Beijing and other cities show a sustained increase in the coming months?",
-                  "meta": "Monitor monthly transaction data for tier-1 and tier-2 cities."
+                  "label": "Transaction Volumes",
+                  "prompt": "Watch for changes in home transaction volumes in major cities like Beijing, Shanghai, Chengdu, and Wuhan after the policy adjustments.",
+                  "meta": "Monthly NBS data and local housing authorities releases."
                 },
                 {
-                  "label": "Local fiscal relief",
-                  "prompt": "Will local governments see an uptick in land sales revenue as developers regain confidence?",
-                  "meta": "Track land auction premiums and volumes."
+                  "label": "Household Leverage",
+                  "prompt": "Monitor household debt-to-disposable-income ratio and new mortgage origination growth.",
+                  "meta": "PBOC credit reports and banking sector data."
                 },
                 {
-                  "label": "Household debt",
-                  "prompt": "Will household leverage ratios start rising again, and how will regulators respond?",
-                  "meta": "Watch credit data and any new macro-prudential measures."
+                  "label": "Local Land Revenue",
+                  "prompt": "Track land auction premiums and land-sale revenues of pilot cities to gauge impact on local fiscal health.",
+                  "meta": "Ministry of Finance monthly fiscal reports."
                 },
                 {
-                  "label": "Policy spread",
-                  "prompt": "How quickly will other major cities adopt similar easing, and will any cities resist?",
-                  "meta": "Follow official announcements from provincial capitals."
+                  "label": "Policy Divergence",
+                  "prompt": "Observe whether smaller lower-tier cities adopt similar easing or face demand and capacity constraints.",
+                  "meta": "City-level government announcements and news reports."
                 }
               ],
-              "ending": "The next few months will reveal whether this policy shift translates into a durable property recovery or merely a short-lived stimulus."
+              "ending": "These signals will reveal whether the policy succeeds in restoring market activity without reigniting systemic financial risk."
             }
           },
           "dailyStateEn": {
-            "label": "update_living",
-            "decisionTitle": "Update the China property and local-finance transition insight",
-            "decisionSummary": "The restructuring of housing policy as a consumption tool materially changes the trajectory: the transition now includes active demand revival, potentially easing local fiscal stress but raising re-leveraging concerns. The living thesis must be revised to reflect this dual-risk, dual-stimulus dynamic.",
-            "thresholdReason": "The official State Council plan and immediate policy actions by Beijing and other cities constitute a material shift that challenges the prior assumption of a managed, loss-absorbing transition.",
+            "label": "Update Living",
+            "decisionTitle": "Policy shift from risk control to consumption stimulus",
+            "decisionSummary": "Beijing is easing housing purchase curbs and reframing property as a consumption good, potentially altering the trajectory of the property-local-finance transition.",
+            "thresholdReason": "The explicit State Council-level endorsement of housing as consumption and the subsequent market reactions cross the threshold for a material change in the transition narrative.",
             "observeNext": [
-              "Home sales volumes in Beijing and other tier-1 cities",
-              "Land auction revenues and developer bidding activity",
-              "Household credit growth and debt-to-income ratios",
-              "Policy announcements from other major cities"
+              "Monitor home sales in Beijing and other major cities in the coming weeks",
+              "Watch for new mortgage lending data from the PBOC",
+              "Track local government land sales revenue announcements",
+              "Observe if other cities announce similar policy adjustments"
             ]
           },
           "processStage": "structural",
           "processContentEn": {
-            "title": "Housing policy repositioned as consumption stimulus",
-            "description": "The State Council's 15th Five-Year Plan explicitly frames housing as a bulk durable consumer good, with immediate policy easing in Beijing and follow-up measures in multiple cities. This represents a structural shift from a risk-containment stance to actively using housing to spur consumption.",
-            "implication": "This could temporarily revive local land finance and housing demand but risks reigniting household debt accumulation and property speculation, complicating the long-term transition toward consumption-driven growth."
+            "title": "China property and local-finance transition",
+            "description": "The process tracks the shift from a property-led growth model to a more diversified local revenue base, including policy, credit, and fiscal reforms.",
+            "implication": "The repositioning of housing as a consumption good may accelerate the transition by reviving market activity, but it also introduces risks of re-leveraging and moral hazard."
           },
-          "nextQuestionEn": "Will the consumption pivot revive property sales sufficiently to stabilize local finances without triggering a new debt cycle?",
+          "nextQuestionEn": "Will the consumption-driven revival of property sales translate into meaningful improvement in local government fiscal health, or will it primarily inflate household balance sheets and systemic risk?",
           "observeNextEn": [
-            "Monthly home sales data in Beijing and selected tier-2 cities",
-            "Local government land sale revenues and auction activity",
-            "Household leverage and mortgage growth trends",
-            "Additional city-level policy easing announcements"
+            "Track monthly home transaction data in Beijing, Shanghai, Chengdu, Wuhan, and other pilot cities",
+            "Monitor household debt-to-GDP ratio and mortgage origination volumes",
+            "Observe land auction premiums and local government land-sale revenues",
+            "Watch for any central government statements clarifying the scope and red lines of housing consumption policies"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 3359,
-          "outputTokens": 4709,
-          "cachedInputTokens": 2432
+          "outputTokens": 3903,
+          "cachedInputTokens": 3328
         }
       }
     },
@@ -1558,5 +1559,5 @@
       }
     ]
   },
-  "message": "CHINA analyze 自动重试 1/3"
+  "message": "CHINA write_base 自动重试 2/3"
 }
