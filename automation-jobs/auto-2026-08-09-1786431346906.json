@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:12:20.641Z",
+  "updatedAt": "2026-08-12T03:12:22.117Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -451,75 +451,101 @@
         "research": 1
       },
       "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T03:12:20.641Z",
+      "updatedAt": "2026-08-12T03:12:22.117Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
-        "id": "research-china-2026-08-09-1786504340635",
+        "id": "research-china-2026-08-09-1786504342111",
         "status": "draft",
-        "researchedAt": "2026-08-12T03:12:20.635Z",
+        "researchedAt": "2026-08-12T03:12:22.111Z",
         "researchDate": "2026-08-09",
         "scope": "china",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 166092,
-          "outputTokens": 16362,
-          "cachedInputTokens": 139776
+          "inputTokens": 140454,
+          "outputTokens": 14891,
+          "cachedInputTokens": 108928
         },
-        "querySummary": "The supplied web-search dossier for 2026-08-09 contains no search-result entries and no primary or reliable-media reports from the past 24 hours. Therefore, no verifiable China-related process change can be extracted. The single candidate below records this coverage gap rather than asserting an unverified event.",
+        "querySummary": "2026年8月9日研究窗口内，最强信号是8月7日晚发布、8月8日生效的北京房地产政策调整：北京基本取消限购门槛，公积金贷款额度大幅提升，并简化父母向成年子女赠与住房的资格审核。高盛认为北京购房限制已“实质上大部分取消”，上海成为一线城市中最严格市场；摩根大通称这是2023年以来第八轮宽松，对信心的提振可能有限。该事件标志着房地产与地方财政进程从“政策回应期”进入“结果检验期”：政策工具箱中需求端松绑空间接近用尽，接下来要看9-10月旺季销售能否在无大规模刺激预期下企稳。",
         "candidates": [
           {
-            "id": "no-qualifying-signal-2026-08-09",
-            "date": "2026-08-09",
-            "domain": "China Macro",
+            "id": "signal-2026-08-08-beijing-property-easing",
+            "date": "2026-08-08",
+            "domain": "Property",
             "tags": [
               "china",
-              "coverage-gap",
-              "evidence-availability",
-              "research-quality",
-              "macro"
+              "beijing",
+              "property",
+              "home-purchase-restrictions",
+              "provident-fund",
+              "housing-policy",
+              "local-finance"
             ],
-            "processMatchConfidence": 0,
-            "importance": 0,
-            "novelty": 0,
-            "evidenceStrength": 0,
-            "independentSourceCount": 1,
-            "thesisImpact": 0,
-            "relationshipChange": 0,
-            "stageChange": 0,
-            "contradiction": 0,
+            "suggestedProcessId": "process-china-property-local-finance",
+            "processMatchConfidence": 95,
+            "importance": 88,
+            "novelty": 72,
+            "evidenceStrength": 85,
+            "independentSourceCount": 4,
+            "thesisImpact": 82,
+            "relationshipChange": 78,
+            "stageChange": 80,
+            "contradiction": 20,
             "content": {
               "en": {
-                "title": "No qualifying 24-hour China signal in supplied dossier",
-                "coreFact": "The supplied web-search dossier for 2026-08-09 contains no primary or reliable-media reports from the past 24 hours that can be used to verify a change in any tracked China process.",
-                "whyItMatters": "With no verifiable event, none of the four existing China process theses (property/local finance, industrial upgrading, technology autonomy, demand rebalancing) should be adjusted on this date; the next step is to re-run or expand the search window.",
-                "processMatchReason": "No candidate describes a concrete change, so no process match is attempted and process-match confidence is zero."
+                "title": "Beijing removes nearly all home-purchase restrictions, shifting the property transition from policy response to outcome test",
+                "coreFact": "On the evening of 7 August 2026, Beijing issued seven property measures effective 8 August: the social-security or personal-income-tax payment requirement for non-Beijing households buying inside the 5th Ring Road was cut from two years to one, parent-to-adult-child home transfers no longer require the child's purchase-qualification review, and provident-fund loan caps were roughly doubled, with dual-income households able to reach 3.4 million yuan under stacking conditions. Goldman Sachs said Beijing's purchase restrictions have been 'effectively largely removed,' making Shanghai the strictest Tier-1 market; JPMorgan noted this is the eighth easing round since 2023 and said the impact on buyer confidence is likely limited.",
+                "whyItMatters": "The property/local-finance transition is now moving from a policy-response phase — what will Beijing do next? — into an outcome-test phase: can sales stabilize heading into the September-October peak season without expectations of large-scale stimulus? The remaining policy headroom is increasingly provincial and financial (mortgage-rate cuts, Shanghai/Shenzhen follow-through, local-debt swap execution) rather than restriction removal, which reframes housing as a consumption category and raises the stakes for the demand-rebalancing process.",
+                "processMatchReason": "This directly updates the property and local-finance process's key next question: local fiscal capacity and credit allocation now depend less on when Beijing will ease further and more on whether demand can stabilize without the old leverage cycle. It also reinforces the existing stage label of structural repair by exhausting a major tool in the demand-side toolkit."
               },
               "zh": {
-                "title": "已提供档案中不存在符合条件的24小时中国信号",
-                "coreFact": "截至2026-08-09，所提供的网页检索档案中没有包含过去24小时内可用来验证中国相关流程发生变化的一手或可靠媒体报道。",
-                "whyItMatters": "由于没有可验证的事件，不应基于本次检索调整现有的四个中国流程判断（地产与地方财政、产业升级、科技自主化、内需再平衡）；下一步应扩大或重新执行检索窗口。",
-                "processMatchReason": "该候选信号未描述任何具体变化，因此没有与现有流程匹配，匹配置信度为零。"
+                "title": "北京基本取消购房限制：房地产与地方财政进程从“政策回应”转向“结果检验”",
+                "coreFact": "2026年8月7日晚，北京发布七项房地产政策、8月8日生效：非京籍家庭在五环内购房的社保或个税缴纳年限由2年降至1年；父母向成年子女赠与住房不再需要子女的购房资格审核；公积金贷款上限大约翻倍，双职工家庭在叠加条件下最高可达340万元。高盛认为北京购房限制已“实质上基本解除”，上海成为最严格的一线城市；摩根大通称这是2023年以来第八轮宽松，对购房者信心的提振可能有限。",
+                "whyItMatters": "房地产与地方财政转型正从“政策回应期”——北京下一步还会做什么——进入“结果检验期”：在缺乏大规模刺激预期的情况下，9-10月旺季销售能否企稳将成为关键。剩余政策空间更多在省级与金融层面（房贷利率、上海深圳跟进、地方债置换执行），而非限购解除；住房也在被重新定义为消费类别，使内需再平衡进程的重要性上升。",
+                "processMatchReason": "该事件直接更新了房地产与地方财政进程的核心问题：地方财政能力与信贷配置的走向，将更少取决于北京何时再加码放松，而更多取决于需求能否在不重演旧杠杆循环的情况下企稳。需求端工具箱中一项主要工具就此基本用尽，进一步印证“结构性修复”阶段判断。"
               },
               "ja": {
-                "title": "提供された資料に24時間以内の中国シグナルなし",
-                "coreFact": "2026-08-09時点で提供されたウェブ検索資料には、過去24時間に中国の追跡プロセス変化を検証できる一次情報または信頼できるメディア報道が含まれていない。",
-                "whyItMatters": "検証可能な事象がないため、既存の中国プロセス4件（不動産・地方財政、産業高度化、技術自立、内需再均衡）の判断をこの日付で調整すべきではない。次のステップは検索窓を広げるか再実行すること。",
-                "processMatchReason": "具体的な変化を記述していないため、どのプロセスにもマッチせず、マッチ信頼度はゼロ。"
+                "title": "北京が住宅購入制限をほぼ撤廃、不動産・地方財政の転換は「政策対応」から「結果検証」へ",
+                "coreFact": "2026年8月7日夜、北京は7項目の不動産政策を発表し、8月8日から施行した。非北京籍世帯が五環路内で購入する際の社会保険・個人所得税納付要件を2年から1年に短縮し、親から成人子への住宅贈与では子の購入資格審査を不要とし、住宅積立金ローンの上限をほぼ倍増、共働き世帯は上乗せ条件で最大340万元まで利用可能とした。ゴールドマン・サックスは北京の購入制限が「実質的にほぼ撤廃」され、上海が最も厳しい一線都市になったと指摘。JPモルガンは2023年以来8回目の緩和で、購入者心理への効果は限定的との見方を示した。",
+                "whyItMatters": "不動産・地方財政転換は「次に北京が何をするか」という政策対応段階から、「大規模刺激への期待なしに9〜10月の繁忙期で販売が安定するか」という結果検証段階へ移る。残る政策余地は省級・金融面（住宅ローン金利、上海・深圳の追従、地方債務スワップ実行）が中心で、制限撤廃ではない。住宅が消費カテゴリーとして再位置づけられることで、内需再均衡の重要性も高まる。",
+                "processMatchReason": "本件は不動産・地方財政プロセスの核心的な次の問いを直接更新する。地方財政能力と信用配分の行方は、北京の追加緩和時期よりも、旧来のレバレッジ循環を再現せず需要が安定するかに依存する。需要側の主要政策手段の一つがほぼ使い切られたことで、「構造的修復」という現段階評価も裏付けられる。"
               }
             },
             "sources": [
               {
-                "title": "Supplied web-search dossier (2026-08-09)",
-                "url": "",
-                "publisher": "Internal research input",
+                "title": "本市进一步优化住房限购政策 非京籍家庭购房社保个税缴纳年限降为1年",
+                "url": "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260808_4814360.html",
+                "publisher": "北京市人民政府（北京日报）",
+                "publishedAt": "2026-08-08",
+                "kind": "primary"
+              },
+              {
+                "title": "北京进一步优化调整房地产政策",
+                "url": "http://finance.people.com.cn/BIG5/n1/2026/0808/c1004-40775907.html",
+                "publisher": "新华社（人民网）",
+                "publishedAt": "2026-08-08",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "China's Beijing further relaxes homebuying curb, authorities say",
+                "url": "https://www.reuters.com/world/asia-pacific/chinas-beijing-further-relaxes-homebuying-curb-authorities-say-2026-08-07/",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-07",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "G Sachs: Beijing Launches New Round of Easing Policies; CN Home Sector Valuation Has Upside",
+                "url": "https://www.aastocks.com/en/stocks/analysis/stock-aafn-con/00817/AAFN/NOW.1537611/hk-stock-news",
+                "publisher": "AASTOCKS（高盛研究摘要）",
+                "publishedAt": "2026-08-10",
                 "kind": "context"
               },
               {
-                "title": "Research focus statement for 2026-08-09 China scan",
-                "url": "",
-                "publisher": "Internal research input",
+                "title": "JPM: Beijing's Easing of Property Mkt Policies Has Limited Impact",
+                "url": "https://www.aastocks.com/en/mobile/news.aspx?newsid=NOW.1537400&newstype=71&newssource=AAFN",
+                "publisher": "AASTOCKS（摩根大通研究摘要）",
+                "publishedAt": "2026-08-09",
                 "kind": "context"
               }
             ]
