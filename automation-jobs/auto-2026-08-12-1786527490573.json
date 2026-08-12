@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:43:22.091Z",
+  "updatedAt": "2026-08-12T09:43:27.038Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1111,7 +1111,7 @@
       "stage": "research",
       "attempts": {},
       "message": "research",
-      "updatedAt": "2026-08-12T09:43:22.091Z"
+      "updatedAt": "2026-08-12T09:43:27.038Z"
     },
     "us": {
       "status": "queued",
