@@ -4,9 +4,9 @@
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "us",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:53:15.867Z",
+  "updatedAt": "2026-08-12T09:53:20.263Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1514,112 +1514,116 @@
     },
     "us": {
       "status": "checkpointed",
-      "stage": "analyze",
-      "attempts": {},
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T09:53:15.867Z",
+      "stage": "write_base",
+      "attempts": {
+        "analyze": 1
+      },
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:53:20.263Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528395861",
+        "id": "research-us-2026-08-12-1786528384212",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:53:15.861Z",
+        "researchedAt": "2026-08-12T09:53:04.212Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 90760,
-          "outputTokens": 10880,
-          "cachedInputTokens": 67456
+          "inputTokens": 53662,
+          "outputTokens": 10846,
+          "cachedInputTokens": 37120
         },
-        "querySummary": "过去24小时最重要的美国进程信号是英伟达联合Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs、KKR六家机构设立独立算力融资平台，拟撬动超过5000亿美元第三方资本进入AI基础设施。该事件直接作用于“美国AI资本开支与电力扩张”进程的融资腿，强化其加速判断，同时引入循环融资、信用风险重定价与电力交付摩擦等新观察维度。",
+        "querySummary": "In the 24 hours through 2026-08-12, the strongest US signal is in the fiscal-rates-dollar regime: 30-year Treasury yields hit 5.231% (highest since 2007), the 10-year reached 18-month highs, Fed Chair Warsh's inflation credibility is being questioned, and the $125bn quarterly refunding week plus July CPI create a decisive 72-hour test. AI capex/power, reindustrialization and labor/immigration items were also noted in the dossier but did not produce a higher-confidence 24-hour signal.",
         "candidates": [
           {
-            "id": "us-ai-capex-nvidia-financing-platform-2026-08-10",
-            "date": "2026-08-10",
-            "domain": "AI Capital Expenditure / Power",
+            "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812",
+            "date": "2026-08-12",
+            "domain": "Fiscal Policy, Rates, Dollar",
             "tags": [
               "us",
-              "ai",
-              "capex",
-              "financing",
-              "datacenter",
-              "power",
-              "credit",
-              "wall-street"
+              "fiscal",
+              "treasury",
+              "rates",
+              "fed",
+              "dollar",
+              "inflation",
+              "credibility",
+              "yields",
+              "auctions"
             ],
-            "suggestedProcessId": "process-us-ai-capex-power",
-            "processMatchConfidence": 92,
-            "importance": 90,
-            "novelty": 82,
+            "suggestedProcessId": "process-us-fiscal-rates-dollar",
+            "processMatchConfidence": 96,
+            "importance": 93,
+            "novelty": 78,
             "evidenceStrength": 88,
-            "independentSourceCount": 5,
-            "thesisImpact": 92,
-            "relationshipChange": 80,
-            "stageChange": 70,
-            "contradiction": 50,
+            "independentSourceCount": 6,
+            "thesisImpact": 90,
+            "relationshipChange": 85,
+            "stageChange": 82,
+            "contradiction": 8,
             "content": {
               "en": {
-                "title": "NVIDIA-Wall Street compute financing platform aims to mobilize $500B+ in third-party AI infrastructure capital",
-                "coreFact": "On Aug 10, 2026, NVIDIA announced MOUs with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to create an independent compute financing platform, seeking to mobilize over $500 billion in third-party capital for NVIDIA ecosystem AI labs, enterprises and AI cloud customers to finance hardware and data-center construction at competitive rates.",
-                "whyItMatters": "This shifts AI capex from balance-sheet-funded tech spending to a potentially credit-market-backed asset class. If the platform scales, customer financing constraints ease and GPU/datacenter capacity can be built faster, but it also creates circular-financing and contingent-liability risks: NVIDIA is simultaneously chip supplier, industry investor and potential credit supporter. Markets repriced risk immediately, with NVIDIA's 5Y CDS widening about 77bp.",
-                "processMatchReason": "The 'US AI capital expenditure and power buildout' process is defined by the shift of the constraint from model access to financing and powering large-scale compute. This event directly attacks the financing leg, strengthening the accelerating stage while introducing a new risk dimension: whether the $500B represents real demand or leveraged/circular finance, and whether delivery (grid, power, approvals) can keep pace."
+                "title": "30-year Treasury yield hits 2007-high as Fed credibility and $125bn refunding collide",
+                "coreFact": "On August 12, 2026, the 30-year Treasury yield rose to 5.231% (highest since 2007), the 10-year reached 4.68–4.75% (an 18-month high), and the 30-year TIPS real yield broke above 3% (highest since 2008) ahead of July CPI and the $125bn quarterly refunding auctions; markets questioned Fed Chair Kevin Warsh's commitment to the 2% inflation target.",
+                "whyItMatters": "This compresses deficits, Treasury supply, Fed policy credibility and global dollar demand into a single 72-hour test: today's CPI, today's $42bn 10-year auction, tomorrow's $25bn 30-year auction, and the September FOMC. If long-end yields approach 5% or auction demand weakens, the existing US fiscal-rates-dollar process could escalate from financing stress test to a term-premium repricing / Fed credibility crisis. It also exposes the Trump–Bessent dilemma: rate cuts could push the 10-year higher, while a hawkish Fed conflicts with political pressure and midterm timing.",
+                "processMatchReason": "Directly pressure-tests process-us-fiscal-rates-dollar: 20-year-high long-end yields, post-GFC-high TIPS real yields, the Treasury's first FX intervention since 1998 to protect foreign demand, and a $125bn refunding week all converge; all stage indicators (auctions, term premium, Fed reaction function, foreign demand) are activated."
               },
               "zh": {
-                "title": "英伟达联合六大资管机构设立算力融资平台，拟撬动超5000亿美元第三方资本进入AI基础设施",
-                "coreFact": "2026年8月10日，英伟达宣布与阿波罗、贝莱德、黑石、布鲁克菲尔德、高盛、KKR签署备忘录，设立独立算力融资平台，目标是在一段时间内动员超5000亿美元第三方资本，为英伟达生态的前沿AI实验室、企业与AI云客户提供有竞争力的融资，用于采购硬件与建设数据中心。",
-                "whyItMatters": "这意味着AI资本开支正从“企业资产负债表内的高成本技术投入”转向可由信贷市场定价与承接的基础设施资产类别。融资约束若缓解，GPU与数据中心扩张可加快；但英伟达同时是芯片供应商、产业投资者和潜在信用支持者，存在循环融资与表外/担保风险。消息公布后英伟达5年期CDS利差一度走阔约77个基点，信用市场已开始重新定价。",
-                "processMatchReason": "该进程核心约束正在从模型获取转向大规模算力的融资与供电能力。本事件直接作用于融资腿，强化“加速”阶段判断，同时把下一个问题从“钱够不够”变成“5000亿美元是真实需求还是杠杆风险”，以及电力、电网、审批等交付端能否跟上。"
+                "title": "30年期美债收益率创2007年以来新高，美联储可信度与$1,250亿再融资拍卖同时接受考验",
+                "coreFact": "2026年8月12日，30年期美债收益率升至5.231%（2007年以来最高），10年期触及4.68–4.75%（18个月高点），30年期TIPS实际收益率升破3%（2008年以来最高）；市场在7月CPI与$1,250亿季度再融资拍卖前，质疑美联储主席Kevin Warsh对2%通胀承诺的可信度。",
+                "whyItMatters": "这意味着赤字、国债供给、美联储政策可信度和全球美元资产需求被压缩进同一个72小时验证窗口：今日CPI、今日$420亿10年期拍卖、明日$250亿30年期拍卖以及9月FOMC。若长端收益率逼近5%或拍卖需求转弱，'财政—利率—美元'进程可能从融资压力测试升级为期限溢价重定价/美联储可信度危机；同时凸显特朗普与贝森特的政策两难。",
+                "processMatchReason": "直接压力测试process-us-fiscal-rates-dollar：20年高位长端收益率、后金融危机高位TIPS实际收益率、1998年以来首次财政部外汇干预、以及单周$1,250亿再融资同时出现；拍卖、期限溢价、美联储反应函数、海外国债需求等阶段指标全部被激活。"
               },
               "ja": {
-                "title": "エヌビディアと米大手金融6社、5000億ドル超のAIインフラ向け第三者資本動員へ",
-                "coreFact": "2026年8月10日、エヌビディアはアポロ、ブラックロック、ブラックストーン、ブルックフィールド、ゴールドマン・サックス、KKRとの間で覚書を結び、独立した計算基盤ファイナンス・プラットフォームを設立。エヌビディアエコシステムのAIラボや企業、AIクラウド顧客向けに、ハードウェア調達とデータセンター建設を支援する資金を競争力のある金利で提供し、5000億ドル超の第三者資本の動員を目指す。",
-                "whyItMatters": "AI設備投資が貸借対照表負担の技術支出から、クレジット市場で価格形成されるインフラ資産クラスへ変わる可能性を示す。資金調達制約が緩和すればGPU・データセンター建設は加速しうるが、エヌビディアが半導体供給者・産業投資家・潜在的信用保証者を兼ねるため、循環融資や偶発債務リスクが生じる。発表直後にはエヌビディア5年CDSスプレッドが約77bp拡大し、信用市場が再評価を始めた。",
-                "processMatchReason": "『米国のAI設備投資・電力増強』プロセスの核心は、制約がモデル利用から大規模計算能力の資金調達と電力供給へ移ること。本件は資金調達側に直接作用し『加速』段階を強める一方、次の問いを『資金が足りるか』から『5000億ドルは実需かレバレッジ／循環融資リスクか』『電力・系統・許認可のデリバリーが追いつくか』へ変える。"
+                "title": "30年米国債利回りが2007年以来の高水準、FRBの信認と1,250億ドル借換入札が同時に試される",
+                "coreFact": "2026年8月12日、30年米国債利回りは5.231%（2007年以来最高）、10年債は4.68–4.75%（18か月ぶり高水準）、30年TIPS実質利回りは3%超（2008年以来最高）に上昇。7月CPIと1,250億ドルの四半期借換入札を控え、市場はKevin Warsh FRB議長の2%インフレ目標への信認を疑問視している。",
+                "whyItMatters": "赤字、国債供給、FRBの政策信認、世界的なドル資産需要が一つの72時間の検証窓口に圧縮される。今日のCPI、今日の420億ドル10年債入札、明日の250億ドル30年債入札、9月FOMCが焦点。長期金利が5%に接近するか入札需要が弱まれば、「財政・金利・ドル体制」プロセスは資金調達ストレステストからタームプレミアム再価格形成／FRB信認危機へ進む可能性がある。",
+                "processMatchReason": "process-us-fiscal-rates-dollarを直接的にストレステスト。20年ぶり高水準の長期金利、金融危機後の高水準のTIPS実質利回り、1998年以来の財務省による為替介入、週間1,250億ドルの借換需要が同時に発生。入札、タームプレミアム、FRB反応関数、海外需要という全段階指標が活性化している。"
               }
             },
             "sources": [
               {
-                "title": "NVIDIA Partners with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
-                "url": "https://am.gs.com/en-us/advisors/news/press-release/2026/NVIDIA-partners-with-asset-managers",
-                "publisher": "Goldman Sachs Asset Management",
-                "publishedAt": "2026-08-10",
-                "kind": "primary"
-              },
-              {
-                "title": "Nvidia and Wall Street team up on $500 billion bet on AI infrastructure",
-                "url": "https://www.cnn.com/2026/08/11/business/nvidia-wall-street-500-billion-financing-intl",
-                "publisher": "CNN Business",
-                "publishedAt": "2026-08-11",
+                "title": "US yield curve twists expose Trump's and Bessent's rate dilemma: McGeever",
+                "url": "https://wealthinsights.metrobank.com.ph/news/rpt-roi-us-yield-curve-twists-expose-trumps-and-bessents-rate-dilemma-mcgeever",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-12",
                 "kind": "reliable_media"
               },
               {
-                "title": "Nvidia lines up $500 billion in financing as CEO Jensen Huang tells CNBC his chips are 'investable asset'",
-                "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+                "title": "Treasury yields are little changed as investors await key inflation data",
+                "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
                 "publisher": "CNBC",
-                "publishedAt": "2026-08-10",
+                "publishedAt": "2026-08-12",
                 "kind": "reliable_media"
               },
               {
-                "title": "【环球财经】英伟达联手华尔街撬动5000亿美元，AI基础设施融资进入新阶段",
-                "url": "https://m.cnfin.com/hg-lb//zixun/20260811/4453856_1.html",
-                "publisher": "新华财经",
+                "title": "Treasury's 3-Year Auction Sees Solid Demand",
+                "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081126/card/treasury-s-3-year-auction-sees-solid-demand-7149H7oFXE7cVKdwZ2gF",
+                "publisher": "Barron's Live",
                 "publishedAt": "2026-08-11",
                 "kind": "reliable_media"
               },
               {
-                "title": "Nvidia partners with Wall Street giants to raise $500bn for AI buildout",
-                "url": "https://www.tbsnews.net/world/nvidia-partners-wall-street-giants-raise-500bn-ai-buildout-1512571",
-                "publisher": "TBS News",
-                "publishedAt": "2026-08-11",
+                "title": "Bessent Seeks Fed Help in Defending Yen in Unusual Call",
+                "url": "https://www.bloomberg.com/news/articles/2026-08-03/bessent-seeks-fed-help-in-defending-yen-in-unusual-call",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-03",
                 "kind": "reliable_media"
               },
               {
-                "title": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says",
-                "url": "https://boereport.com/2026/08/11/us-power-use-to-beat-record-highs-in-2026-and-2027-as-ai-use-surges-eia-says-5/",
-                "publisher": "BOE Report",
-                "publishedAt": "2026-08-11",
-                "kind": "context"
+                "title": "Kevin Warsh to stick with lean Fed messaging despite market backlash",
+                "url": "https://www.ft.com/content/debe096f-ec89-424f-a8ca-d3843ef53549",
+                "publisher": "Financial Times",
+                "publishedAt": "2026-08-05",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "'All hat, no cattle': Markets question Fed's inflation credibility amid elevated bond yields",
+                "url": "https://finance.yahoo.com/markets/article/markets-see-all-hat-no-cattle-in-feds-inflation-credibility-chart-of-the-day-164028370.html",
+                "publisher": "Yahoo Finance",
+                "publishedAt": "2026-08-04",
+                "kind": "reliable_media"
               }
             ]
           }
@@ -1627,135 +1631,158 @@
       },
       "analyzedDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528256749",
+        "id": "research-us-2026-08-12-1786528384212",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:50:56.749Z",
+        "researchedAt": "2026-08-12T09:53:04.212Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 158832,
-          "outputTokens": 10321,
-          "cachedInputTokens": 128384
+          "inputTokens": 53662,
+          "outputTokens": 10846,
+          "cachedInputTokens": 37120
         },
-        "querySummary": "The highest-value signal in the past 24 hours is the EIA's August 11 Short-Term Energy Outlook cutting its Texas 2027 electricity-load growth forecast from 14% to 6%, explicitly attributing the revision to Governor Abbott's August 3 pause/audit of new data-center grid connections. This is the first time a US official energy forecast has been revised down because of a regulatory/political break in AI data-center development. It directly tests the US AI capex & power buildout process and adds a new regulatory/political constraint beyond power availability and financing.",
+        "querySummary": "In the 24 hours through 2026-08-12, the strongest US signal is in the fiscal-rates-dollar regime: 30-year Treasury yields hit 5.231% (highest since 2007), the 10-year reached 18-month highs, Fed Chair Warsh's inflation credibility is being questioned, and the $125bn quarterly refunding week plus July CPI create a decisive 72-hour test. AI capex/power, reindustrialization and labor/immigration items were also noted in the dossier but did not produce a higher-confidence 24-hour signal.",
         "candidates": [
           {
-            "id": "us-ai-power-texas-eia-2026-08-11",
-            "date": "2026-08-11",
-            "domain": "AI Capex / Power / Regulation",
+            "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812",
+            "date": "2026-08-12",
+            "domain": "Fiscal Policy, Rates, Dollar",
             "tags": [
               "us",
-              "ai",
-              "datacenter",
-              "power",
-              "grid",
-              "regulation",
-              "texas",
-              "ercot",
-              "eia",
-              "interconnection"
+              "fiscal",
+              "treasury",
+              "rates",
+              "fed",
+              "dollar",
+              "inflation",
+              "credibility",
+              "yields",
+              "auctions"
             ],
-            "suggestedProcessId": "process-us-ai-capex-power",
-            "processMatchConfidence": 95,
-            "importance": 92,
-            "novelty": 80,
+            "suggestedProcessId": "process-us-fiscal-rates-dollar",
+            "processMatchConfidence": 96,
+            "importance": 93,
+            "novelty": 78,
             "evidenceStrength": 88,
-            "independentSourceCount": 4,
+            "independentSourceCount": 6,
             "thesisImpact": 90,
-            "relationshipChange": 75,
-            "stageChange": 70,
-            "contradiction": 50,
+            "relationshipChange": 85,
+            "stageChange": 82,
+            "contradiction": 80,
             "content": {
               "en": {
-                "title": "EIA cuts Texas 2027 load-growth forecast from 14% to 6% after Abbott pauses data-center grid connections",
-                "coreFact": "In its August 11 Short-Term Energy Outlook, the EIA lowered its Texas 2027 electricity-load growth forecast from 14% to 6%, explicitly attributing the revision to Governor Abbott's August 3 pause and audit of new data-center grid connections.",
-                "whyItMatters": "This is the first time a US official energy forecast has been revised down because of a regulatory/political break in AI data-center development. Roughly 20% of the US data-center pipeline, or about 49.8 GW of ERCOT load, is exposed; BNEF estimates $8–15 billion of revenue at risk. The binding constraint on the US AI buildout is shifting from power availability and financing toward state-level politics and regulation.",
-                "processMatchReason": "This directly tests the 'US AI capital expenditure and power buildout' process: official power-demand modeling is now endogenizing regulatory risk, not just electricity supply, changing the expected physical buildout trajectory and creating a concrete PUCT decision point on August 20."
+                "title": "30-year Treasury yield hits 2007-high as Fed credibility and $125bn refunding collide",
+                "coreFact": "On August 12, 2026, the 30-year Treasury yield rose to 5.231% (highest since 2007), the 10-year reached 4.68–4.75% (an 18-month high), and the 30-year TIPS real yield broke above 3% (highest since 2008) ahead of July CPI and the $125bn quarterly refunding auctions; markets questioned Fed Chair Kevin Warsh's commitment to the 2% inflation target.",
+                "whyItMatters": "This compresses deficits, Treasury supply, Fed policy credibility and global dollar demand into a single 72-hour test: today's CPI, today's $42bn 10-year auction, tomorrow's $25bn 30-year auction, and the September FOMC. If long-end yields approach 5% or auction demand weakens, the existing US fiscal-rates-dollar process could escalate from financing stress test to a term-premium repricing / Fed credibility crisis. It also exposes the Trump–Bessent dilemma: rate cuts could push the 10-year higher, while a hawkish Fed conflicts with political pressure and midterm timing.",
+                "processMatchReason": "Directly pressure-tests process-us-fiscal-rates-dollar: 20-year-high long-end yields, post-GFC-high TIPS real yields, the Treasury's first FX intervention since 1998 to protect foreign demand, and a $125bn refunding week all converge; all stage indicators (auctions, term premium, Fed reaction function, foreign demand) are activated."
               },
               "zh": {
-                "title": "EIA将德州2027年电力负荷增长预测从14%下调至6%，此前州长暂停数据中心并网",
-                "coreFact": "在8月11日发布的短期能源展望中，EIA将德州2027年电力负荷增长预测从此前的14%下调至6%，并明确将这一修正归因于州长阿博特8月3日宣布暂停并审计新建数据中心并网。",
-                "whyItMatters": "这是美国官方能源预测首次因AI数据中心开发的监管/政治中断而下调。美国数据中心管线中约20%（ERCOT约49.8 GW负荷）面临延迟风险；BNEF估计相关收入风险为80亿至150亿美元。AI建设热潮的约束正在从电力可得性和融资转向州级政治与监管。",
-                "processMatchReason": "这直接检验了“美国AI资本开支与电力扩张”进程：官方电力需求模型现在开始把监管风险内生化，而不再只考虑电力供给，从而改变实体建设轨迹，并使8月20日PUCT会议成为具体催化节点。"
+                "title": "30年期美债收益率创2007年以来新高，美联储可信度与$1,250亿再融资拍卖同时接受考验",
+                "coreFact": "2026年8月12日，30年期美债收益率升至5.231%（2007年以来最高），10年期触及4.68–4.75%（18个月高点），30年期TIPS实际收益率升破3%（2008年以来最高）；市场在7月CPI与$1,250亿季度再融资拍卖前，质疑美联储主席Kevin Warsh对2%通胀承诺的可信度。",
+                "whyItMatters": "这意味着赤字、国债供给、美联储政策可信度和全球美元资产需求被压缩进同一个72小时验证窗口：今日CPI、今日$420亿10年期拍卖、明日$250亿30年期拍卖以及9月FOMC。若长端收益率逼近5%或拍卖需求转弱，'财政—利率—美元'进程可能从融资压力测试升级为期限溢价重定价/美联储可信度危机；同时凸显特朗普与贝森特的政策两难。",
+                "processMatchReason": "直接压力测试process-us-fiscal-rates-dollar：20年高位长端收益率、后金融危机高位TIPS实际收益率、1998年以来首次财政部外汇干预、以及单周$1,250亿再融资同时出现；拍卖、期限溢价、美联储反应函数、海外国债需求等阶段指标全部被激活。"
               },
               "ja": {
-                "title": "EIA、テキサス州の2027年電力需要成長予測を14%から6%に引き下げ—知事によるデータセンター系統接続停止を受けて",
-                "coreFact": "2026年8月11日公表の短期エネルギー見通しで、EIAはテキサス州の2027年電力需要成長予測を従来の14%から6%に引き下げ、アボット知事が8月3日に発表した新規データセンターの系統接続停止・監査に原因があると明記した。",
-                "whyItMatters": "米国政府の公式エネルギー予測が、AIデータセンター開発に対する規制・政治的要因で下方修正された初めての事例。米国のデータセンターパイプラインの約20%（ERCOTの約49.8GW）が遅延リスクに直面し、BNEFは80億〜150億ドルの収益リスクを試算。AI建設の制約は電力調達・資金調達から州レベルの政治・規制へ移りつつある。",
-                "processMatchReason": "「米国のAI設備投資・電力増強」プロセスを直接試すもの。公式の電力需要モデルが電力供給だけでなく規制リスクを内生化し始めており、実物建設の軌道を変え、8月20日のPUCT会合が具体的な判断ポイントとなる。"
+                "title": "30年米国債利回りが2007年以来の高水準、FRBの信認と1,250億ドル借換入札が同時に試される",
+                "coreFact": "2026年8月12日、30年米国債利回りは5.231%（2007年以来最高）、10年債は4.68–4.75%（18か月ぶり高水準）、30年TIPS実質利回りは3%超（2008年以来最高）に上昇。7月CPIと1,250億ドルの四半期借換入札を控え、市場はKevin Warsh FRB議長の2%インフレ目標への信認を疑問視している。",
+                "whyItMatters": "赤字、国債供給、FRBの政策信認、世界的なドル資産需要が一つの72時間の検証窓口に圧縮される。今日のCPI、今日の420億ドル10年債入札、明日の250億ドル30年債入札、9月FOMCが焦点。長期金利が5%に接近するか入札需要が弱まれば、「財政・金利・ドル体制」プロセスは資金調達ストレステストからタームプレミアム再価格形成／FRB信認危機へ進む可能性がある。",
+                "processMatchReason": "process-us-fiscal-rates-dollarを直接的にストレステスト。20年ぶり高水準の長期金利、金融危機後の高水準のTIPS実質利回り、1998年以来の財務省による為替介入、週間1,250億ドルの借換需要が同時に発生。入札、タームプレミアム、FRB反応関数、海外需要という全段階指標が活性化している。"
               }
             },
             "sources": [
               {
-                "title": "Short-Term Energy Outlook",
-                "url": "https://www.eia.gov/outlooks/steo/",
-                "publisher": "U.S. Energy Information Administration",
-                "publishedAt": "2026-08-11",
-                "kind": "primary",
-                "id": "us-ai-power-texas-eia-2026-08-11-source-1",
+                "title": "US yield curve twists expose Trump's and Bessent's rate dilemma: McGeever",
+                "url": "https://wealthinsights.metrobank.com.ph/news/rpt-roi-us-yield-curve-twists-expose-trumps-and-bessents-rate-dilemma-mcgeever",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-12",
+                "kind": "reliable_media",
+                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-1",
                 "role": "trigger"
               },
               {
-                "title": "Data center approvals in Texas halted until audits completed",
-                "url": "https://apnews.com/article/data-centers-texas-approvals-paused-audits-5cac087049aeae1b51221043972cf631",
-                "publisher": "Associated Press",
+                "title": "Treasury yields are little changed as investors await key inflation data",
+                "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
+                "publisher": "CNBC",
+                "publishedAt": "2026-08-12",
+                "kind": "reliable_media",
+                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Treasury's 3-Year Auction Sees Solid Demand",
+                "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081126/card/treasury-s-3-year-auction-sees-solid-demand-7149H7oFXE7cVKdwZ2gF",
+                "publisher": "Barron's Live",
+                "publishedAt": "2026-08-11",
+                "kind": "reliable_media",
+                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Bessent Seeks Fed Help in Defending Yen in Unusual Call",
+                "url": "https://www.bloomberg.com/news/articles/2026-08-03/bessent-seeks-fed-help-in-defending-yen-in-unusual-call",
+                "publisher": "Bloomberg",
                 "publishedAt": "2026-08-03",
                 "kind": "reliable_media",
-                "id": "us-ai-power-texas-eia-2026-08-11-source-2",
+                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-4",
                 "role": "corroborating"
               },
               {
-                "title": "Texas Audit Could Delay 49.8 GW of Data Center Load, Cost Projects Up to $15 Billion, BNEF Warns",
-                "url": "https://www.powermag.com/texas-audit-could-delay-49-8-gw-of-data-center-load-cost-projects-up-to-15-billion-bnef-warns/",
-                "publisher": "POWER Magazine",
+                "title": "Kevin Warsh to stick with lean Fed messaging despite market backlash",
+                "url": "https://www.ft.com/content/debe096f-ec89-424f-a8ca-d3843ef53549",
+                "publisher": "Financial Times",
                 "publishedAt": "2026-08-05",
                 "kind": "reliable_media",
-                "id": "us-ai-power-texas-eia-2026-08-11-source-3",
+                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-5",
                 "role": "corroborating"
               },
               {
-                "title": "Texas data center pause puts 20% of US pipeline at risk of delay: BNEF",
-                "url": "https://www.utilitydive.com/news/texas-data-center-pause-puts-20-of-us-pipeline-at-risk-of-delay-bnef/",
-                "publisher": "Utility Dive",
-                "publishedAt": "2026-08-05",
+                "title": "'All hat, no cattle': Markets question Fed's inflation credibility amid elevated bond yields",
+                "url": "https://finance.yahoo.com/markets/article/markets-see-all-hat-no-cattle-in-feds-inflation-credibility-chart-of-the-day-164028370.html",
+                "publisher": "Yahoo Finance",
+                "publishedAt": "2026-08-04",
                 "kind": "reliable_media",
-                "id": "us-ai-power-texas-eia-2026-08-11-source-4",
+                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-6",
                 "role": "corroborating"
               }
             ],
-            "currentEventSourceCount": 1,
+            "currentEventSourceCount": 3,
             "corroboratingSourceCount": 3,
             "contextSourceCount": 0,
             "claimSourceIds": [
-              "us-ai-power-texas-eia-2026-08-11-source-1",
-              "us-ai-power-texas-eia-2026-08-11-source-2",
-              "us-ai-power-texas-eia-2026-08-11-source-3",
-              "us-ai-power-texas-eia-2026-08-11-source-4"
+              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-1",
+              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-2",
+              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-3",
+              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-4",
+              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-5",
+              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-6"
             ],
             "analysis": {
-              "matchedProcessId": "process-us-ai-capex-power",
-              "processMatchConfidence": 95,
-              "impact": "updates",
+              "matchedProcessId": "process-us-fiscal-rates-dollar",
+              "processMatchConfidence": 96,
+              "impact": "challenges",
               "dailyState": "update_living",
-              "materialChangeScore": 74,
+              "materialChangeScore": 85,
               "publishThresholdMet": true,
-              "scoreWasNormalized": false,
-              "triggerSourceCount": 1,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 3,
               "corroboratingSourceCount": 3,
               "contextSourceCount": 0,
-              "rationale": "The candidate matures and materially updates the existing process-us-ai-capex-power thesis. The EIA's August 11 STEO is the first US official energy forecast to revise down load growth explicitly due to a regulatory/political break in AI data-center development, shifting the binding constraint from power availability and financing toward state-level politics and regulation. This change is documented by four independent sources: the primary EIA release, AP News on Abbott's August 3 pause, and BNEF analysis via POWER Magazine and Utility Dive quantifying 49.8 GW of ERCOT load and $8–15 billion in revenue at risk. The update changes the expected physical buildout trajectory and introduces a concrete PUCT decision point on August 20, making it a material update to the living process rather than a brand-new system relationship.",
+              "rationale": "This candidate directly pressure-tests process-us-fiscal-rates-dollar with material new developments that challenge the existing thesis. The 30-year yield at 5.231% (2007 high), 30-year TIPS real yield above 3% (2008 high), and the convergence of a $125bn quarterly refunding with CPI data and the September FOMC represent a significant escalation. The candidate also adds new dimensions not fully captured in the prior process: (1) the first Treasury FX intervention since 1998 to defend foreign demand (Bloomberg source), (2) explicit market questioning of Fed Chair Warsh's 2% inflation credibility ('all hat, no cattle' framing from Yahoo Finance), and (3) the Trump-Bessent policy dilemma where rate cuts could paradoxically push long-end yields higher. Six independent reliable sources (Reuters, CNBC, Barron's, Bloomberg, FT, Yahoo Finance) provide strong evidence. The 72-hour convergence of CPI, auctions, and FOMC expectations represents a genuine stage escalation from financing stress test toward potential term-premium repricing / Fed credibility crisis. This materially updates the living process by documenting a threshold moment where fiscal, rates, and dollar dynamics are compressing into a single stress-test window.",
               "warnings": [
-                "The EIA forecast revision is fresh (August 11) and the August 20 PUCT meeting has not yet occurred; near-term volatility in the forecast or political reversal could alter the trajectory.",
-                "BNEF's $8–15B revenue-at-risk estimate is third-party analysis, not an official government figure; treat as directional."
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "The candidate's pre-computed analysis used legacy 0-10 scores that were normalized to 0-100; the submitted scores reflect material judgment based on source evidence.",
+                "Some sources (Bloomberg, FT) may be behind paywalls limiting verification.",
+                "The actual CPI print and auction results were not yet known on August 12; outcomes could significantly alter the trajectory in either direction."
               ],
-              "candidateId": "us-ai-power-texas-eia-2026-08-11"
+              "candidateId": "us-fiscal-rates-dollar-yield-credibility-test-20260812"
             }
           }
         ],
         "analysisProvider": "deepseek"
-      }
+      },
+      "failedStage": "analyze"
     },
     "japan": {
       "status": "queued",
@@ -1797,5 +1824,5 @@
       }
     ]
   },
-  "message": "CHINA 在 write_zh 连续失败 3 次，保留断点并跳到下一区域。"
+  "message": "US analyze 自动重试 1/3"
 }
