@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:45:00.049Z",
+  "updatedAt": "2026-08-12T09:45:27.841Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,114 +1107,102 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "retrying",
+      "status": "checkpointed",
       "stage": "analyze",
-      "attempts": {
-        "analyze": 1
-      },
-      "message": "Automation state write failed: is at 4ee777809694aa10510ffb46b004010581270a49 but expected 6e7cc6da9fa63471515680edd9a508667a15d2ff",
-      "updatedAt": "2026-08-12T09:45:00.049Z",
+      "attempts": {},
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T09:45:27.841Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-china-2026-08-12-1786527897855",
+        "id": "research-china-2026-08-12-1786527927837",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:44:57.855Z",
+        "researchedAt": "2026-08-12T09:45:27.837Z",
         "researchDate": "2026-08-12",
         "scope": "china",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 135918,
-          "outputTokens": 12158,
-          "cachedInputTokens": 101504
+          "inputTokens": 158757,
+          "outputTokens": 7378,
+          "cachedInputTokens": 128896
         },
-        "querySummary": "过去24小时内（截至2026-08-12），最可能改变中国进程判断的信号是：住房被正式纳入并置于“大宗耐用消费品”首位，北京大幅放松限购，多个城市跟进储备政策，地产股在8月12日集体大涨。该信号同时作用于房地产与地方财政转型、内需再平衡两个现有进程。",
+        "querySummary": "2026-08-12 research window: strongest process-altering signal is the State Council-approved 15th Five-Year Plan for Expanding Consumption listing housing first among bulk durable consumer goods, shifting housing policy from pure risk prevention to 'risk prevention + consumption promotion,' with sub-national housing-consumption measures following.",
         "candidates": [
           {
-            "id": "china-housing-as-consumption-2026-08-12",
+            "id": "cn-housing-consumption-15th-fyp-20260812",
             "date": "2026-08-12",
-            "domain": "Property",
+            "domain": "Property, Consumption, Fiscal Policy",
             "tags": [
-              "china",
-              "property",
-              "housing-market",
-              "local-finance",
+              "housing",
               "consumption",
-              "policy-easing",
-              "urban-renewal",
-              "fiscal"
+              "fiscal-policy",
+              "15th-five-year-plan",
+              "local-finance",
+              "rebalancing"
             ],
-            "suggestedProcessId": "process-china-property-local-finance",
-            "processMatchConfidence": 96,
-            "importance": 92,
-            "novelty": 76,
-            "evidenceStrength": 85,
-            "independentSourceCount": 4,
-            "thesisImpact": 90,
-            "relationshipChange": 82,
-            "stageChange": 73,
-            "contradiction": 65,
+            "suggestedProcessId": "process-china-demand-rebalancing",
+            "processMatchConfidence": 90,
+            "importance": 90,
+            "novelty": 85,
+            "evidenceStrength": 75,
+            "independentSourceCount": 3,
+            "thesisImpact": 85,
+            "relationshipChange": 80,
+            "stageChange": 70,
+            "contradiction": 30,
             "content": {
               "en": {
-                "title": "Housing repositioned as top 'bulk durable consumer good' as Beijing eases purchase curbs; property policy shifts from risk control to consumption stimulus",
-                "coreFact": "On 2026-08-12, Economic Information Daily (Xinhua-run) said the State Council-approved 15th Five-Year Plan for expanding consumption places housing first among bulk durable consumer goods, accelerating the policy positioning of real estate toward both risk prevention and consumption promotion. Beijing's new policy, effective Aug 8, cuts the social-insurance/personal-income-tax requirement for non-Beijing households buying homes inside the 5th Ring Road from 2 years to 1 year, raises the first-home dual-income public-housing-fund loan cap to 3.4 million yuan, and adjusts the gift policy. Multiple cities (Chengdu, Wuhan, Nanjing, Qingdao) are preparing or have launched follow-up policies. On Aug 12, A-share property stocks saw nearly 10 limit-ups and HK property stocks surged double digits.",
-                "whyItMatters": "This changes the property-local-finance process from purely absorbing losses toward actively re-using housing demand as an economic lever. If home sales recover, local land-finance pressure could ease, but household leverage and asset-price expectations may be reactivated. It also rewrites the demand-rebalancing test by defining housing as the top consumption trigger.",
-                "processMatchReason": "Directly matches the existing China property and local-finance transition: the same domains (property, local finance, credit, fiscal policy) and observable indicators (policy stance, home sales, local fiscal capacity) are moving in a new direction, with explicit official framing of housing as a consumption engine."
+                "title": "Housing shifted to #1 'bulk durable consumer good' in State Council consumption plan, adding a consumption-policy channel to property risk management",
+                "coreFact": "On 2026-08-12, Economic Information Daily reported that the State Council-approved 15th Five-Year Plan for Expanding Consumption lists housing first among bulk durable consumer goods, positioning property policy as 'risk prevention + consumption promotion.' Beijing cut the social-security proof requirement for non-Beijing homebuyers from 2 years to 1 year for Fifth Ring Road homes and raised provident-fund loan caps to 3.4M yuan; Shandong/Binzhou unified a 15% minimum down payment for first and second homes and introduced 2026-2027 trade-in tax rebates.",
+                "whyItMatters": "This reframes housing from a risk-stabilization problem into a consumption-expansion lever, opening a new channel for local governments to support home demand through fiscal/trade-in instruments rather than another property-credit boom. It directly tests whether local fiscal capacity and household demand can be stabilized without restarting the old leverage cycle.",
+                "processMatchReason": "The candidate changes the consumption-rebalancing process by making housing the lead item in the flagship consumption plan, and alters the property/local-finance process by adding a consumption-policy route to housing demand alongside risk prevention."
               },
               "zh": {
-                "title": "住房被重新定位为“大宗耐用消费品”之首，北京大幅放松限购，房地产政策从“防风险”转向“防风险与促消费并重”",
-                "coreFact": "2026年8月12日，新华社主管的《经济参考报》头版报道称，国务院批复的《扩大消费“十五五”规划》将住房消费纳入大宗耐用商品消费范畴并置于首位，房地产政策定位加速向“防风险与促消费并重”转变。北京8月8日起施行的新政将非京籍家庭购买五环内商品住房的社保/个税年限由2年调减为1年，双职工家庭首套公积金贷款最高提至340万元，并调整房屋赠与政策。成都、武汉、南京、青岛等多城已落地或储备新政。8月12日A股地产股近10股涨停，港股内房股涨幅达9%-13%。",
-                "whyItMatters": "该信号意味着房地产与地方财政转型进程可能从“吸收损失、压降旧杠杆”转向“主动重启住房需求作为经济抓手”。若销售回暖，地方土地财政压力或边际缓解，但居民资产负债表加杠杆和资产价格预期也可能被重新激活；同时，“住房作为大宗消费首位”正在改写内需再平衡的政策工具箱。",
-                "processMatchReason": "与“中国房地产与地方财政转型”进程高度匹配：房地产、地方财政、信贷、财政政策等核心域均出现方向性变化，且官方首次明确将住房定义为消费引擎，直接影响该进程的下一问——“能否在不重启地产信贷繁荣的情况下稳定地方财政”。"
+                "title": "住房被列为《扩大消费'十五五'规划》大宗消费首位，房地产政策定位转向'防风险+促消费'并重",
+                "coreFact": "2026-08-12《经济参考报》报道，国务院批复的《扩大消费'十五五'规划》将住房列为大宗耐用消费品体系第一项；房地产政策定位正加快转向'防风险与促消费并重'。北京已把五环外非京籍购房社保/个税年限从2年降至1年，公积金贷款上限提高至340万元；山东滨州统一首套和二套15%首付比例，并在2026-2027年实施'以旧换新'税收返还。",
+                "whyItMatters": "该信号把住房从单纯的风险防控对象重新定义为扩大消费的抓手，为地方政府通过财政补贴、以旧换新等非杠杆工具支持购房需求打开新通道，直接影响'能否不靠新一轮地产信贷繁荣而稳定地方财政与内需'这一进程判断。",
+                "processMatchReason": "这一事件将住房置于内需再平衡旗舰规划首位，并给房地产/地方财政进程增加了'消费政策'渠道，可能改变后续政策组合与阶段判断。"
               },
               "ja": {
-                "title": "住宅が「大型耐久消費財」の筆頭に再位置づけされ、北京が購入制限を大幅緩和—不動産政策が「リスク防止」から「消費刺激」へシフト",
-                "coreFact": "2026年8月12日、新華社系の経済参考報が、国務院承認の「消費拡大『十五五』計画」が住宅消費を大型耐久消費財の筆頭に位置づけ、不動産政策の位置づけが「リスク防止と消費促進の併重」へ加速していると報じた。北京は8月8日施行の新政策で、非北京籍世帯による五環路内の住宅購入に必要な社会保険・個人所得税の納付期間を2年から1年に短縮し、夫婦共働きの初回住宅購入における住宅積立金ローンの上限を340万元に引き上げた。成都、武漢、南京、青島なども追随・準備中。8月12日にはA株不動産株が約10銘柄ストップ高、香港内房株が9〜13%上昇した。",
-                "whyItMatters": "不動産・地方財政転換プロセスが、損失吸収と旧レバレッジ抑制から、住宅需要を経済テコとして積極的に再始動する方向へ変わる可能性を示す。販売が回復すれば地方の土地財政圧力は和らぐ一方、家計のレバレッジと資産価格期待が再活性化し得る。また「住宅＝大宗消費の筆頭」という枠組みは内需再均衡の政策手段を書き換える。",
-                "processMatchReason": "「中国の不動産・地方財政転換」プロセスに直接対応する。不動産、地方財政、信用、財政政策という領域と「政策スタンス、住宅販売、地方財政能力」という観測指標が新たな方向へ動いており、住宅を消費エンジンと位置づける公式な枠組みが現れた。"
+                "title": "国務院承認の消費拡大「十五五」計画で住宅が「大口耐久消費財」首位に、不動産政策は「リスク防止+消費促進」へ転換",
+                "coreFact": "2026年8月12日付経済参考報によると、国務院承認の『拡大消費「十五五」計画』は住宅を大宗耐久消費財の第一項目に位置づけ、不動産政策を『リスク防止と消費促進の並立』へ加速させている。北京は五環路外の非北京籍購入者への社保・納税証明要件を2年から1年に短縮し、住宅積立金ローン上限を340万元に引き上げ。山東省浜州市は初回・2回目住宅とも最低頭金15%に統一し、2026-2027年の下取り買い替え税還付を導入。",
+                "whyItMatters": "住宅が消費拡大の最大のてことして再定義され、地方自治体が信用拡大ではなく財政・下取り制度など非レバレッジ手段で住宅需要を支える新ルートが開く。旧来の不動産クレジットブームを再現せずに地方財政と家計需要を安定できるかというプロセス判断に直結する。",
+                "processMatchReason": "内需再均衡プロセスにおいて住宅が旗艦計画の首位に据えられ、不動産・地方財政プロセスにも『消費政策』経路が加わるため、政策段階の評価を変えうる。"
               }
             },
             "sources": [
               {
                 "title": "住房纳入大宗消费范畴 释放内需增长动能",
                 "url": "http://jjckb.xinhuanet.com/20260812/1fa051e53b3749e19dc11daaf68f5504/c.html",
-                "publisher": "经济参考报",
+                "publisher": "经济参考报 (Economic Information Daily)",
                 "publishedAt": "2026-08-12",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "北京市住房和城乡建设委员会等单位关于进一步优化调整本市房地产政策的通知",
-                "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260807_4814015.html",
-                "publisher": "北京市人民政府",
-                "publishedAt": "2026-08-07",
                 "kind": "primary"
               },
               {
-                "title": "A股房地产板块集体走强 多股涨停",
-                "url": "https://dxpress.gelonghui.com/live/2607866",
-                "publisher": "格隆汇",
+                "title": "住房纳入大宗消费范畴 释放内需增长动能",
+                "url": "https://www.cnfin.com/yw-lb/detail/20260812/4454013_1.html",
+                "publisher": "新华财经/中国金融信息网 (Xinhua Finance)",
                 "publishedAt": "2026-08-12",
                 "kind": "reliable_media"
               },
               {
-                "title": "港股内房股午后走强 金辉控股涨超13%",
-                "url": "https://www.sohu.com/a/1061869845_122014422",
-                "publisher": "搜狐",
-                "publishedAt": "2026-08-12",
-                "kind": "reliable_media"
+                "title": "国务院批复同意《扩大消费'十五五'规划》",
+                "url": "https://www.gov.cn/zhengce/zhengceku/202607/content_7075217.htm",
+                "publisher": "中国政府网",
+                "publishedAt": "2026-07-13",
+                "kind": "primary"
               },
               {
                 "title": "国务院常务会议审议通过《国务院关于修改〈住房公积金管理条例〉的决定（草案）》",
-                "url": "https://czj.sxxz.gov.cn/zwxx/rdxw/202608/t20260811_4199889.html",
-                "publisher": "忻州市财政局",
+                "url": "https://czt.henan.gov.cn/2026/08-11/3397644.html",
+                "publisher": "河南省财政厅（转新华社）",
                 "publishedAt": "2026-08-11",
-                "kind": "primary"
+                "kind": "context"
               }
             ]
           }
         ]
-      },
-      "failedStage": "analyze"
+      }
     },
     "us": {
       "status": "queued",
@@ -1263,5 +1251,5 @@
       }
     ]
   },
-  "message": "CHINA analyze 自动重试 1/3"
+  "message": "WORLD publish 自动重试 1/3"
 }
