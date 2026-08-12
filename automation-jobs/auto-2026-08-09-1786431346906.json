@@ -3,21 +3,21 @@
   "status": "running",
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "global",
-  "currentStage": "publish",
+  "currentScope": "china",
+  "currentStage": "research",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:10:09.889Z",
+  "updatedAt": "2026-08-12T03:10:13.673Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 1,
         "analyze": 1,
         "write_ja": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-08-12T03:10:09.889Z",
+      "message": "已发布",
+      "updatedAt": "2026-08-12T03:10:13.673Z",
       "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
@@ -1059,7 +1059,10 @@
           "outputTokens": 11324,
           "cachedInputTokens": 7680
         }
-      }
+      },
+      "insightId": "signal-2026-08-09-evidence-gap",
+      "contentVersion": "publish-signal-2026-08-09-evidence-gap-1786504212626",
+      "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
       "status": "queued",
