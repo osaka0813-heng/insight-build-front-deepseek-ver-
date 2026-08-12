@@ -43,6 +43,7 @@ import {
   type EditorialLogEntry,
 } from '../engine/editorialStorage';
 import { colors, spacing } from '../theme/tokens';
+import { loadAutoJob, resumeAutoJob, startAutoJob, type AutoJob } from '../engine/autoEditorialClient';
 
 const DEFAULT_FOCUS_GLOBAL = '过去24小时内，寻找最可能改变现有世界进程判断的重要跨领域信号，重点关注AI、能源、地缘政治、宏观经济与资本。';
 const DEFAULT_FOCUS_CHINA = '过去24小时内，寻找最可能改变中国进程判断的重要信号，重点关注房地产与地方财政、先进制造、科技自主、内需、贸易与资本。';
@@ -68,7 +69,7 @@ const defaultFocusForScope = (scope: InsightScope) =>
 
 type StepState = 'idle' | 'running' | 'done' | 'blocked' | 'error';
 type AutoStage = 'idle' | 'research' | 'analyze' | 'write' | 'publish' | 'done' | 'error';
-type AutoScopeStatus = { stage: AutoStage; message?: string; insightId?: string };
+type AutoScopeStatus = { stage: AutoStage; message?: string; insightId?: string; candidateCount?: number; analyzeType?: string; checkpoint?: string };
 
 type Props = {
   onBack: () => void;
@@ -163,6 +164,7 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
   const [backendHealthy, setBackendHealthy] = useState<boolean>();
   const [lastBackupPath, setLastBackupPath] = useState<string>();
   const [autoRunning, setAutoRunning] = useState(false);
+  const [autoJob, setAutoJob] = useState<AutoJob>();
   const [autoStatuses, setAutoStatuses] = useState<Record<InsightScope, AutoScopeStatus>>({
     global: { stage: 'idle' },
     china: { stage: 'idle' },
@@ -331,7 +333,7 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
     throw lastError;
   };
 
-  const runAllScopes = async () => {
+  const runAllScopesLegacy = async () => {
     if (autoRunning || isBusy) return;
     if (!researchToken.trim() || !publishToken.trim()) {
       setError('请先保存 Research API Token 和 Publish API Token。');
@@ -367,7 +369,7 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
               scope: targetScope,
               date,
               focus: defaultFocusForScope(targetScope),
-              maxSignals: 1,
+              maxSignals: 6,
             },
             researchToken,
           );
@@ -462,6 +464,48 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
     }
   };
 
+  const applyAutoJob = (job?: AutoJob) => {
+    if (!job) return;
+    setAutoJob(job);
+    setAutoRunning(!['completed', 'completed_with_errors'].includes(job.status));
+    const mapped = {} as Record<InsightScope, AutoScopeStatus>;
+    for (const item of AUTO_SCOPES) {
+      const source = job.scopes?.[item];
+      const raw = source?.stage || 'idle';
+      const stage: AutoStage = raw === 'research' || raw === 'analyze' || raw === 'publish'
+        ? raw : raw.startsWith('write') ? 'write' : source?.status === 'done' ? 'done' : source?.status === 'error' ? 'error' : 'idle';
+      const cp = source?.checkpoints;
+      mapped[item] = { stage, message: source?.message, insightId: source?.insightId, candidateCount: source?.candidateCount, analyzeType: source?.analyzeType, checkpoint: cp ? `R${cp.research?'✓':'·'} A${cp.analyze?'✓':'·'} EN${cp.writeBase?'✓':'·'} ZH${cp.writeZh?'✓':'·'} JA${cp.writeJa?'✓':'·'} F${cp.writer?'✓':'·'}` : undefined };
+    }
+    setAutoStatuses(mapped);
+  };
+
+  const runAllScopes = async () => {
+    if (!researchToken.trim() || !publishToken.trim()) { setError('请先保存 Research 与 Publish Token。'); return; }
+    setError(undefined); setAutoRunning(true);
+    try { applyAutoJob(await startAutoJob(date, researchToken, publishToken)); setMessage('四区域自动任务已建立；状态轮询会从服务器断点逐步推进。'); }
+    catch (failure) { setAutoRunning(false); setError(failure instanceof Error ? failure.message : '自动任务启动失败。'); }
+  };
+
+  const continueAutoJob = async () => {
+    if (!autoJob) return runAllScopes();
+    setError(undefined); setAutoRunning(true);
+    try { applyAutoJob(await resumeAutoJob(autoJob.id, researchToken, publishToken)); }
+    catch (failure) { setAutoRunning(false); setError(failure instanceof Error ? failure.message : '断点恢复失败。'); }
+  };
+
+  useEffect(() => {
+    if (!researchToken.trim()) return;
+    let cancelled = false;
+    const tick = async () => {
+      try { const job = await loadAutoJob(autoJob?.id, researchToken, true); if (!cancelled) applyAutoJob(job); } catch { /* status errors stay quiet; current task card remains */ }
+    };
+    void tick();
+    if (!autoRunning && !autoJob) return () => { cancelled = true; };
+    const timer = setInterval(() => void tick(), 5000);
+    return () => { cancelled = true; clearInterval(timer); };
+  }, [researchToken, autoJob?.id, autoRunning]);
+
   const runPipeline = async () => {
     if (isBusy) return;
     if (!researchToken.trim()) {
@@ -485,7 +529,7 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
       setWriteState('idle');
 
       const research = await runResearch(
-        { scope, date, focus, maxSignals: 1 },
+        { scope, date, focus, maxSignals: 6 },
         researchToken,
       );
       setResearchDraft(research);
@@ -770,6 +814,14 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
           <Text style={styles.note}>
             为避免 DeepSeek / Vercel 长请求超时，界面是一键执行，但内部仍按区域和语言拆成短请求自动串行运行。
           </Text>
+          {autoJob ? (
+            <View style={styles.previewBox}>
+              <Text style={styles.cardTitle}>自动任务 · {autoJob.status}</Text>
+              <Text style={styles.meta}>{autoJob.id}</Text>
+              <Text style={styles.meta}>当前断点：{autoJob.currentScope?.toUpperCase()} / {autoJob.currentStage}</Text>
+              {!autoRunning ? <Pressable onPress={() => void continueAutoJob()} style={styles.secondaryButton}><Text style={styles.secondaryText}>从服务器断点继续</Text></Pressable> : null}
+            </View>
+          ) : null}
           <View style={styles.autoGrid}>
             {AUTO_SCOPES.map((item) => {
               const statusItem = autoStatuses[item];
@@ -799,6 +851,8 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
                     >
                       {stageLabel}
                     </Text>
+                    <Text style={styles.autoMessage}>候选 {statusItem.candidateCount ?? 0} · Analyze {statusItem.analyzeType ? statusItem.analyzeType.replaceAll('_', ' ') : '—'}</Text>
+                    {statusItem.checkpoint ? <Text style={styles.autoMessage}>断点 {statusItem.checkpoint}</Text> : null}
                     {statusItem.message ? (
                       <Text style={styles.autoMessage}>{statusItem.message}</Text>
                     ) : null}
@@ -1043,7 +1097,7 @@ export function EditorialConsoleScreen({ onBack, onPublished }: Props) {
             </Pressable>
           </View>
 
-          {logs.slice(0, 5).map((entry) => (
+          {logs.slice(0, 3).map((entry) => (
             <View key={entry.id} style={styles.logRow}>
               <Text style={styles.logMeta}>
                 {entry.stage.toUpperCase()} · {new Date(entry.createdAt).toLocaleString()}
