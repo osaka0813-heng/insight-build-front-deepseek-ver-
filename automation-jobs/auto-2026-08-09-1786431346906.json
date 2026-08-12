@@ -6,18 +6,18 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:04:03.106Z",
+  "updatedAt": "2026-08-12T03:04:03.991Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "research": 1,
         "analyze": 1,
         "write_zh": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
-      "updatedAt": "2026-08-12T03:04:03.106Z",
+      "message": "write_zh",
+      "updatedAt": "2026-08-12T03:04:03.991Z",
       "failedStage": "write_zh",
       "researchDraft": {
         "ok": true,
