@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:49:35.624Z",
+  "updatedAt": "2026-08-12T09:49:36.472Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1114,7 +1114,7 @@
         "write_zh": 3
       },
       "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
-      "updatedAt": "2026-08-12T09:49:23.890Z",
+      "updatedAt": "2026-08-12T09:49:36.472Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1513,11 +1513,11 @@
       }
     },
     "us": {
-      "status": "running",
+      "status": "queued",
       "stage": "research",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-12T09:49:35.624Z"
+      "message": "等待执行",
+      "updatedAt": "2026-08-12T09:38:10.573Z"
     },
     "japan": {
       "status": "queued",
