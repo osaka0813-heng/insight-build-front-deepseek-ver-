@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:38:18.460Z",
+  "updatedAt": "2026-08-12T09:38:20.097Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1065,13 +1065,11 @@
       "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
-      "status": "retrying",
+      "status": "checkpointed",
       "stage": "write_base",
-      "attempts": {
-        "write_base": 1
-      },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 54e73e40ea3e8f0b5cf624f269e8f5fd25ac72de",
-      "updatedAt": "2026-08-12T09:38:18.460Z",
+      "attempts": {},
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:38:20.097Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-09-1786504361286",
@@ -1232,29 +1230,26 @@
               "processMatchConfidence": 85,
               "impact": "updates",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 64,
+              "materialChangeScore": 30,
               "publishThresholdMet": false,
               "scoreWasNormalized": false,
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "The signal claims Beijing relaxed property purchase restrictions on 2026-08-09, which would be a material development for the China property and local-finance transition process — Beijing is the highest-signal city and one of the last holdouts on strict purchase curbs. However, evidence strength is critically weak: zero independent sources, zero corroborating sources, and zero trigger sources falling within the research window. The candidate itself acknowledges that no numeric or legal details were confirmed. With an independent source count of 0 and evidence strength of 30/100, the claim cannot be treated as verified. While the process match confidence (85) and importance (90) are high, the publication threshold is not met because the factual basis is unsubstantiated. The dossier flags this as significant, but the source is an internal research dossier that itself lacks primary reporting. Without at least two independent, current sources, a 'publish_new' or 'update_living' designation would be premature.",
+              "rationale": "The signal claims Beijing announced property purchase restriction relaxation on 2026-08-09, which would be materially relevant to the China property and local-finance transition process. However, the evidence strength is critically weak: there are zero independent trigger or corroborating sources — only internal context documents. The dossier itself flags that no numeric or legal details were confirmed. For a high-significance claim (Beijing as policy-signaling city), the absence of any verifiable source (official announcement, state media, reputable financial press) means the signal cannot be treated as an established fact. The process match is conceptually sound (85 confidence), and if confirmed this would represent a meaningful update to demand-side policy in the most symbolically important housing market. But under the conservative evidence standard required, the publication threshold is not met. Material change score is set low (30) to reflect that even if true, without details on scope, timing, or conditions, we cannot assess whether this is incremental fine-tuning or a genuinely new phase of demand support.",
               "warnings": [
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "No trigger source falls within the research window.",
-                "Zero independent sources; only internal context documents available.",
-                "No corroborating sources identified.",
-                "Claim lacks numeric or legal detail — core fact is unconfirmed.",
-                "Evidence strength rated very low (30/100) by the candidate metadata."
+                "Zero independent trigger or corroborating sources — claim is unverified.",
+                "No official announcement, state media, or financial press confirmation cited.",
+                "No numeric or legal details available to assess materiality."
               ],
               "candidateId": "sig-2026-08-09-beijing-property-relaxation"
             }
           }
         ],
         "analysisProvider": "deepseek"
-      },
-      "failedStage": "write_base"
+      }
     },
     "us": {
       "status": "queued",
@@ -1303,5 +1298,5 @@
       }
     ]
   },
-  "message": "CHINA write_base 自动重试 1/3"
+  "message": "WORLD write_ja 自动重试 1/3"
 }
