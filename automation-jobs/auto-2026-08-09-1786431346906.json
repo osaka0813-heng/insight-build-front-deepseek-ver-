@@ -6,17 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:02:47.354Z",
+  "updatedAt": "2026-08-12T03:02:48.938Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "research": 1,
         "analyze": 1
       },
-      "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-12T03:02:47.354Z",
+      "message": "write_zh",
+      "updatedAt": "2026-08-12T03:02:48.938Z",
       "failedStage": "analyze",
       "researchDraft": {
         "ok": true,
