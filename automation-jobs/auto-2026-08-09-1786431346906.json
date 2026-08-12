@@ -4,9 +4,9 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "china",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:38:12.020Z",
+  "updatedAt": "2026-08-12T09:38:16.573Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1065,11 +1065,11 @@
       "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-08-12T09:38:12.020Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:38:16.573Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-09-1786504361286",
@@ -1144,6 +1144,113 @@
             ]
           }
         ]
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-china-2026-08-09-1786504361286",
+        "status": "draft",
+        "researchedAt": "2026-08-12T03:12:41.286Z",
+        "researchDate": "2026-08-09",
+        "scope": "china",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 150091,
+          "outputTokens": 16169,
+          "cachedInputTokens": 125568
+        },
+        "querySummary": "The search dossier lists three unverified candidate signals from the past 24 hours: the July CPI/PPI release, an apparent Beijing property purchase relaxation, and US chip export-control news. Of these, the Beijing property policy relaxation is the most direct potential input to the existing China property and local-finance transition process, but the dossier does not include independent source details, so evidence strength is low and this is a draft signal pending verification.",
+        "candidates": [
+          {
+            "id": "sig-2026-08-09-beijing-property-relaxation",
+            "date": "2026-08-09",
+            "domain": "Property",
+            "tags": [
+              "china",
+              "property",
+              "beijing",
+              "housing-policy",
+              "local-finance",
+              "demand-support"
+            ],
+            "suggestedProcessId": "process-china-property-local-finance",
+            "processMatchConfidence": 85,
+            "importance": 90,
+            "novelty": 75,
+            "evidenceStrength": 30,
+            "independentSourceCount": 0,
+            "thesisImpact": 85,
+            "relationshipChange": 75,
+            "stageChange": 60,
+            "contradiction": 15,
+            "content": {
+              "en": {
+                "title": "Beijing relaxes property purchase restrictions",
+                "coreFact": "Beijing announced a relaxation of property purchase restrictions on 2026-08-09, adding the capital to the latest round of local housing demand-support measures. The dossier flags this as one of the most significant China signals in the past 24 hours, though no numeric or legal details were confirmed.",
+                "whyItMatters": "Beijing is the policy-signaling city for the national housing market and one of the last major cities to hold strict purchase restrictions. A relaxation here could support turnover in the capital, influence home-price expectations nationwide, and feed into local fiscal capacity during the property-to-new-finance transition.",
+                "processMatchReason": "This signal directly modifies the China property and local-finance transition process by altering demand-side conditions in the most policy-sensitive housing market and potentially affecting local fiscal revenue, land sales, and the pace of balance-sheet adjustment."
+              },
+              "zh": {
+                "title": "北京放松房地产购买限制",
+                "coreFact": "2026年8月9日，北京宣布放松房地产购买限制，成为本轮地方楼市需求支持措施的最新一环。研究备忘将其列为过去24小时内最可能影响中国进程判断的重要信号之一，但具体数据与政策细节尚未确认。",
+                "whyItMatters": "北京是全国楼市最具政策信号意义的城市，也是少数仍执行严格限购的主要城市。放松限购可能提振首都住房成交、影响全国房价预期，并在房地产向新财政模式转型的过程中为地方财政能力提供支撑。",
+                "processMatchReason": "该信号直接作用于“中国房地产与地方财政转型”进程：改变最具政策敏感性的楼市需求端条件，并可能影响地方财政收入、土地出让和资产负债表修复的节奏。"
+              },
+              "ja": {
+                "title": "北京が不動産購入規制を緩和",
+                "coreFact": "2026年8月9日、北京は不動産購入規制の緩和を発表し、地方都市による住宅需要支援策の最新の動きとなった。調査メモでは過去24時間で中国のプロセス判断を変え得る重要シグナルの一つとされるが、数値や規制の詳細は未確認。",
+                "whyItMatters": "北京は全国の住宅市場で最も政策シグナルを示す都市であり、厳格な購入規制を残す最後の主要都市の一つ。規制緩和は首都の住宅取引を下支えし、全国の価格期待に影響を与え、不動産から新たな財政モデルへの転換期における地方財政能力を支援し得る。",
+                "processMatchReason": "このシグナルは「中国の不動産・地方財政転換」プロセスに直接関わる。最も政策感応度の高い住宅市場の需要側条件を変え、地方財政収入、土地売却、バランスシート調整のペースに影響を与える可能性がある。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web search dossier – candidate signal list",
+                "url": "internal://web-search-dossier",
+                "publisher": "Internal research dossier",
+                "kind": "context",
+                "id": "sig-2026-08-09-beijing-property-relaxation-source-1",
+                "role": "context"
+              },
+              {
+                "title": "China process register – property and local finance",
+                "url": "internal://process-register/china-property-local-finance",
+                "publisher": "Internal knowledge base",
+                "kind": "context",
+                "id": "sig-2026-08-09-beijing-property-relaxation-source-2",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 0,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [],
+            "analysis": {
+              "matchedProcessId": "process-china-property-local-finance",
+              "processMatchConfidence": 85,
+              "impact": "updates",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 64,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 0,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "The signal claims Beijing relaxed property purchase restrictions on 2026-08-09, which would be a material development for the China property and local-finance transition process — Beijing is the highest-signal city and one of the last holdouts on strict purchase curbs. However, evidence strength is critically weak: zero independent sources, zero corroborating sources, and zero trigger sources falling within the research window. The candidate itself acknowledges that no numeric or legal details were confirmed. With an independent source count of 0 and evidence strength of 30/100, the claim cannot be treated as verified. While the process match confidence (85) and importance (90) are high, the publication threshold is not met because the factual basis is unsubstantiated. The dossier flags this as significant, but the source is an internal research dossier that itself lacks primary reporting. Without at least two independent, current sources, a 'publish_new' or 'update_living' designation would be premature.",
+              "warnings": [
+                "No trigger source falls inside the research window.",
+                "Fewer than two current or corroborating sources.",
+                "No trigger source falls within the research window.",
+                "Zero independent sources; only internal context documents available.",
+                "No corroborating sources identified.",
+                "Claim lacks numeric or legal detail — core fact is unconfirmed.",
+                "Evidence strength rated very low (30/100) by the candidate metadata."
+              ],
+              "candidateId": "sig-2026-08-09-beijing-property-relaxation"
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
       }
     },
     "us": {
