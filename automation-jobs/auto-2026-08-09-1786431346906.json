@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "research",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:09:58.607Z",
+  "updatedAt": "2026-08-12T03:09:59.875Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -445,13 +445,13 @@
       }
     },
     "china": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 2
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 8fa14ce2face9c8d2825e4abcda21bff52b9e13e",
-      "updatedAt": "2026-08-12T03:09:58.607Z",
+      "message": "research",
+      "updatedAt": "2026-08-12T03:09:59.875Z",
       "failedStage": "research"
     },
     "us": {
