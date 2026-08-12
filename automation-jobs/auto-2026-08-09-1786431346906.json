@@ -6,7 +6,7 @@
   "currentScope": "global",
   "currentStage": "write_ja",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:05:01.638Z",
+  "updatedAt": "2026-08-12T03:05:06.224Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -16,8 +16,8 @@
         "analyze": 1,
         "write_ja": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"研究インテグリティ\",\"secondaryEyebrow\":\"エビデンス収集\",\"title\":\"ソースレベルのエビデンス不足がシグナル検証を阻む\",\"summary\":\"2026年8月9日付のウェブ検索資料には、浮上しつつあるシグナルに関する抽象的な記述しかなく、ソースレベルの事実・URL・発行元・公開日が一切含まれていない。これは一時的なエビデンス収集のギャップであり、いかなるグローバルプロセスの変化でもない。\"},\"question\":{\"lead\":\"検証可能なソースなしにシグナルを検証できるでしょうか？\",\"title\":\"エビデンス資料にソースレベルの詳細が欠けているとき、何が起きるのか？\",\"footnote\":\"既存のプロセス論題（AIインフラ、エネルギー安全保障、半導体能力、地政学的テクノロジー支配）はすべて、最後",
-      "updatedAt": "2026-08-12T03:05:01.638Z",
+      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
+      "updatedAt": "2026-08-12T03:05:06.224Z",
       "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
