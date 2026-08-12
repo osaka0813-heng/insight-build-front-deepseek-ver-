@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:40:39.479Z",
+  "updatedAt": "2026-08-12T09:40:43.533Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1065,13 +1065,13 @@
       "completedAt": "2026-08-12T03:10:13.673Z"
     },
     "china": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "write_zh": 1
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-09-1786431346906.json does not match 370a96e41bf90952799ffd543b8693ea9bc62aa0",
-      "updatedAt": "2026-08-12T09:40:39.479Z",
+      "message": "write_zh",
+      "updatedAt": "2026-08-12T09:40:43.533Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-09-1786504361286",
