@@ -4,18 +4,18 @@
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:39:35.603Z",
+  "updatedAt": "2026-08-12T09:39:39.605Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "analyze": 2
       },
-      "message": "analyze",
-      "updatedAt": "2026-08-12T09:39:35.603Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:39:39.605Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
@@ -94,7 +94,117 @@
           }
         ]
       },
-      "failedStage": "analyze"
+      "failedStage": "analyze",
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-12-1786527562721",
+        "status": "draft",
+        "researchedAt": "2026-08-12T09:39:22.721Z",
+        "researchDate": "2026-08-12",
+        "scope": "global",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 68282,
+          "outputTokens": 6791,
+          "cachedInputTokens": 45568
+        },
+        "querySummary": "过去24小时内，最重要的跨领域信号是NVIDIA在2026年8月10-11日宣布的5000亿美元AI基础设施融资平台。该信号将AI算力需求、资本市场与基础设施（电力、土地、数据中心）直接绑定，可能改变AI基础设施竞赛的融资与建设节奏。",
+        "candidates": [
+          {
+            "id": "nvidia-500b-ai-infra-financing-2026-08",
+            "date": "2026-08-11",
+            "domain": "AI",
+            "tags": [
+              "ai",
+              "nvidia",
+              "capital",
+              "finance",
+              "datacenter",
+              "infrastructure",
+              "energy",
+              "compute"
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "processMatchConfidence": 95,
+            "importance": 95,
+            "novelty": 85,
+            "evidenceStrength": 60,
+            "independentSourceCount": 0,
+            "thesisImpact": 90,
+            "relationshipChange": 80,
+            "stageChange": 70,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "NVIDIA launches $500B AI infrastructure financing platform",
+                "coreFact": "NVIDIA announced a $500 billion AI infrastructure financing platform on August 10-11, 2026, according to the research dossier.",
+                "whyItMatters": "This creates a new capital channel that ties AI chip demand to data center, power and land development at an unprecedented scale, potentially accelerating the conversion of AI leadership into physical infrastructure capacity.",
+                "processMatchReason": "This directly extends the AI infrastructure race thesis by adding a massive financing vehicle, making capital availability an explicit and structured input for compute expansion."
+              },
+              "zh": {
+                "title": "英伟达推出5000亿美元AI基础设施融资平台",
+                "coreFact": "根据研究档案，英伟达于2026年8月10日至11日宣布了一个5000亿美元的AI基础设施融资平台。",
+                "whyItMatters": "这创造了一个新的资本通道，以前所未有的规模将AI芯片需求与数据中心、电力和土地开发绑定，可能加速将AI优势转化为实体基础设施能力。",
+                "processMatchReason": "这直接扩展了AI基础设施竞赛的论点，通过增加一个大规模融资工具，使资本可用性成为算力扩张的显性结构化输入。"
+              },
+              "ja": {
+                "title": "NVIDIAが5000億ドルのAIインフラ融資プラットフォームを発表",
+                "coreFact": "調査資料によると、NVIDIAは2026年8月10日から11日にかけて、5000億ドルのAIインフラ融資プラットフォームを発表した。",
+                "whyItMatters": "これにより、AIチップ需要とデータセンター・電力・土地開発を前例のない規模で結びつける新たな資本経路が生まれ、AI優位性の物理的インフラ容量への転換が加速する可能性がある。",
+                "processMatchReason": "これはAIインフラ競争のテーゼを直接拡張し、大規模な資金調達手段を追加することで、資本の可用性がコンピュート拡大の明示的な構造的インプットになる。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web search dossier: NVIDIA $500B AI infrastructure financing platform (announced Aug 10-11)",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-08-12",
+                "kind": "context",
+                "id": "nvidia-500b-ai-infra-financing-2026-08-source-1",
+                "role": "context"
+              },
+              {
+                "title": "Primary source leads referenced in dossier for NVIDIA financing platform",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "kind": "context",
+                "id": "nvidia-500b-ai-infra-financing-2026-08-source-2",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 0,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 95,
+              "impact": "updates",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 70,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 0,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "The candidate describes NVIDIA's announced $500B AI infrastructure financing platform. If verified, this would materially extend the AI Infrastructure Race process by introducing a structured capital vehicle at unprecedented scale, directly linking chip demand to finance, data centers, power, and land. This could accelerate the conversion of AI leadership into physical capacity and potentially shift the process stage. However, the evidence is critically weak: there are zero trigger sources within the research window, zero corroborating sources, and only two context sources from a web search dossier with no independent verification. No primary sources (e.g., NVIDIA press release, reputable financial media) are cited. The candidate's own analysis confirms 'No trigger source falls inside the research window' and 'Fewer than two current or corroborating sources.' Per conservative guidance, when sources are weak or not independent, we must withhold publication. The material change score of 70 and high process match confidence do not overcome the evidence threshold. This signal should be tracked for corroboration but does not meet the publish threshold today.",
+              "warnings": [
+                "No trigger source falls inside the research window.",
+                "Fewer than two current or corroborating sources.",
+                "Zero trigger sources within research window",
+                "Zero corroborating or independent sources",
+                "Both sources are web search dossier context summaries, not primary evidence",
+                "No independent verification of the $500B financing platform claim",
+                "Candidate's own analysis flags insufficient sources"
+              ],
+              "candidateId": "nvidia-500b-ai-infra-financing-2026-08"
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      }
     },
     "china": {
       "status": "queued",
@@ -150,5 +260,5 @@
       }
     ]
   },
-  "message": "GLOBAL 从 analyze 断点继续"
+  "message": "WORLD analyze 自动重试 2/3"
 }
