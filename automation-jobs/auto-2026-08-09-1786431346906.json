@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:45:13.523Z",
+  "updatedAt": "2026-08-12T09:45:15.679Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,11 @@
       }
     },
     "us": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_base",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-12T09:45:13.523Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:45:15.679Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527902096",
@@ -1798,16 +1798,16 @@
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "The candidate contains no verifiable article-level evidence, sources, or facts. It consists solely of an internal researcher note about a 'strong candidate emerging' and a verification plan, with zero independent sources, zero trigger sources, and zero corroborating sources. Matching this to any US process would require fabricating a linkage. None of the four tracked US processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) can be updated from this scan. The safe and correct action is to treat this scan as evidence-empty.",
+              "rationale": "The candidate contains zero verifiable article-level evidence, sources, or facts—only an internal researcher note about a potential emerging candidate and a verification plan. No domain or process is identified. Matching to any US process would require fabricating a linkage. All four tracked processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) cannot be updated. The safe state is evidence-empty; no new Insight is warranted.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "No verifiable evidence or independent sources present.",
-                "Candidate is an internal research note, not a signal.",
-                "Zero trigger sources and zero corroborating sources.",
-                "Any process match would be speculative and unsupported.",
-                "No material change to any US process can be derived from this scan."
+                "No trigger sources in research window",
+                "Zero independent or corroborating sources",
+                "Candidate explicitly flagged as unconfirmed by researcher",
+                "Suggested process match in candidate (process-us-labor-immigration) has no evidential basis and was rejected",
+                "Any process-stage adjustment would anchor thesis to unsupported change"
               ],
               "candidateId": "us-evidence-gap-2026-08-09"
             }
