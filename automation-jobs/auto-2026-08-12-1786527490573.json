@@ -4,9 +4,9 @@
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "china",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:46:06.898Z",
+  "updatedAt": "2026-08-12T09:46:08.841Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1105,14 +1105,83 @@
       "completedAt": "2026-08-12T09:44:00.616Z"
     },
     "china": {
-      "status": "retrying",
-      "stage": "research",
-      "attempts": {
-        "research": 1
-      },
-      "message": "DeepSeek Research JSON contains no candidates.",
-      "updatedAt": "2026-08-12T09:46:06.898Z",
-      "failedStage": "research"
+      "status": "checkpointed",
+      "stage": "analyze",
+      "attempts": {},
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T09:46:08.841Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-china-2026-08-12-1786527968836",
+        "status": "draft",
+        "researchedAt": "2026-08-12T09:46:08.836Z",
+        "researchDate": "2026-08-12",
+        "scope": "china",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 146813,
+          "outputTokens": 15255,
+          "cachedInputTokens": 117376
+        },
+        "querySummary": "The supplied web-search dossier contains no actual web-search records with titles, URLs, publishers, or publication dates covering 2026-08-11/12. Because each candidate signal must be built solely from the supplied dossier and supported by at least two independent sources, no evidence-based China signal could be identified. A schema-compliant null-result placeholder is provided so human reviewers can see that no process update is warranted pending fresh evidence.",
+        "candidates": [
+          {
+            "id": "signal-null-dossier-evidence-china-2026-08-12",
+            "date": "2026-08-12",
+            "domain": "Evidence gap (China cross-domain)",
+            "tags": [
+              "china",
+              "evidence-gap",
+              "no-source-records",
+              "research-hold"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 1,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "No verifiable 24-hour signal in supplied dossier",
+                "coreFact": "As of 2026-08-12, the supplied web-search dossier contains no source records covering the preceding 24 hours; therefore no China-specific event, statistic, or policy change can be verified from the supplied material.",
+                "whyItMatters": "Updating any of the active China process judgments would require at least two independent sources; because the dossier is empty, the correct analytic action is to hold all process stages and confidence levels unchanged until new evidence appears.",
+                "processMatchReason": "This placeholder is not a true process match; it is a schema-required null candidate flagging that no supplied evidence maps to any of the four existing China processes."
+              },
+              "zh": {
+                "title": "未在提供的资料中发现可验证的24小时信号",
+                "coreFact": "截至2026年8月12日，提供的搜索档案中没有覆盖此前24小时的中国相关来源记录；因此无法从该档案中验证任何具体事件、数据或政策变化。",
+                "whyItMatters": "更新现有中国进程判断至少需要两个独立来源；档案为空意味着在获得新证据之前，应保持所有进程阶段与信心水平不变。",
+                "processMatchReason": "该占位项并非真正的进程匹配，而是为了满足输出结构而标记“无证据”，不映射到现有的四个中国进程。"
+              },
+              "ja": {
+                "title": "提供された資料に検証可能な24時間シグナルなし",
+                "coreFact": "2026年8月12日時点の提供資料一式には、過去24時間をカバーする中国関連のウェブ検索記録が含まれておらず、提供資料だけから検証できる事象・統計・政策変更は存在しない。",
+                "whyItMatters": "既存の中国プロセス判断を更新するには少なくとも2つの独立ソースが必要であり、資料が空である間は全プロセスの段階と確信度を据え置くのが適切。",
+                "processMatchReason": "この項目は実質的なプロセス一致ではなく、出力形式を満たすための空シグナルであり、既存4プロセスのいずれにも対応しない。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Supplied web-search dossier — no article records returned",
+                "url": "urn:dossier:missing-record:1",
+                "publisher": "Internal search dossier index",
+                "kind": "context"
+              },
+              {
+                "title": "Supplied web-search dossier — no source metadata returned",
+                "url": "urn:dossier:missing-record:2",
+                "publisher": "Internal search dossier index",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      }
     },
     "us": {
       "status": "queued",
@@ -1161,5 +1230,5 @@
       }
     ]
   },
-  "message": "CHINA research 自动重试 1/3"
+  "message": "WORLD write_zh 自动重试 1/3"
 }
