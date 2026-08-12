@@ -4,9 +4,9 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "china",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:10:54.922Z",
+  "updatedAt": "2026-08-12T03:11:24.474Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -16,8 +16,8 @@
         "analyze": 1,
         "write_ja": 3
       },
-      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"研究インテグリティ\",\"secondaryEyebrow\":\"エビデンス収集\",\"title\":\"ソースレベルのエビデンス欠落がシグナル検証を阻む\",\"summary\":\"2026年8月9日付のウェブ検索資料には、出現しつつあるシグナルについての抽象的な主張しか含まれておらず、ソースレベルの事実・URL・発行元・公開日が一切ありません。これは一時的なエビデンス収集の欠落であり、いかなるグローバルプロセスの変化でもありません。\"},\"question\":{\"lead\":\"検証可能なソースなしでシグナルは検証できるか？\",\"title\":\"エビデンス資料にソースレベルの詳細がない場合、何が起こるのか？\",\"footnote\":\"既存のプロセス命題（AIインフラ、エネルギー安全保障、半導体能力、地政学的技術管理）はすべて、前回評価時点の段",
-      "updatedAt": "2026-08-12T03:10:54.922Z",
+      "message": "Automation state write failed: is at 4a69c0f119e349aa4b504dd159e94439ac31dabf but expected bc34908f159da490e38e82bb872214d52cb7364c",
+      "updatedAt": "2026-08-12T03:09:35.591Z",
       "failedStage": "write_ja",
       "researchDraft": {
         "ok": true,
@@ -445,11 +445,85 @@
       }
     },
     "china": {
-      "status": "queued",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-08-11T06:55:46.906Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T03:11:24.474Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-china-2026-08-09-1786504284467",
+        "status": "draft",
+        "researchedAt": "2026-08-12T03:11:24.467Z",
+        "researchDate": "2026-08-09",
+        "scope": "china",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 130928,
+          "outputTokens": 11219,
+          "cachedInputTokens": 102016
+        },
+        "querySummary": "The web search dossier surfaced three candidate signals around Aug 8-9, 2026: a Beijing property policy change, July CPI/PPI data released Aug 9, and reported US-China trade countermeasures. One candidate is selected here: the Beijing property policy change, because it maps most directly to the China property and local-finance transition process.",
+        "candidates": [
+          {
+            "id": "sig-china-beijing-property-policy-2026-08-09",
+            "date": "2026-08-09",
+            "domain": "Property",
+            "tags": [
+              "china",
+              "property",
+              "beijing",
+              "policy",
+              "local-finance"
+            ],
+            "suggestedProcessId": "process-china-property-local-finance",
+            "processMatchConfidence": 78,
+            "importance": 72,
+            "novelty": 55,
+            "evidenceStrength": 20,
+            "independentSourceCount": 1,
+            "thesisImpact": 65,
+            "relationshipChange": 60,
+            "stageChange": 42,
+            "contradiction": 15,
+            "content": {
+              "en": {
+                "title": "Beijing property policy change surfaces as a potential signal in the local-finance transition",
+                "coreFact": "A change in Beijing property policy was identified on Aug 8-9, 2026 as a leading candidate signal, though the dossier does not yet provide verified details or confirmed policy direction.",
+                "whyItMatters": "If confirmed, a policy shift in the capital city would be a bellwether for the national property and local-finance regime, potentially altering expectations about housing demand support, land revenue and local fiscal adjustment.",
+                "processMatchReason": "This candidate maps directly to the China property and local-finance transition process and could mark an inflection between renewed housing support and continued structural repair."
+              },
+              "zh": {
+                "title": "北京房产政策变化成为地方财政转型的潜在信号",
+                "coreFact": "2026年8月8日至9日，北京房地产政策变化被列为最值得核实的候选信号，但档案中尚未提供已核实的细节或政策方向。",
+                "whyItMatters": "若得到证实，首都政策转向将成为全国房地产与地方财政体制的风向标，可能影响住房需求支持、土地收入和地方财政调整的预期。",
+                "processMatchReason": "该候选信号直接对应中国房地产与地方财政转型进程，可能标志着政策走向新一轮住房支持或继续结构性修复的关键节点。"
+              },
+              "ja": {
+                "title": "北京不動産政策の変化が地方財政転換の潜在シグナルに",
+                "coreFact": "2026年8月8日〜9日、北京の不動産政策変更が最も検証すべき候補シグナルとして挙げられたが、資料では詳細や政策の方向性は未確認。",
+                "whyItMatters": "確認されれば、首都の政策転換は全国の不動産・地方財政体制の指標となり、住宅需要支援、土地収入、地方財政調整の期待に影響を与える。",
+                "processMatchReason": "この候補は中国の不動産・地方財政転換プロセスに直接対応し、新たな住宅支援か構造的修復の継続かの分岐点になりうる。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web search dossier: candidate signal list",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "kind": "context"
+              },
+              {
+                "title": "Web search dossier: verification note",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "kind": "context"
+              }
+            ]
+          }
+        ]
+      }
     },
     "us": {
       "status": "queued",
