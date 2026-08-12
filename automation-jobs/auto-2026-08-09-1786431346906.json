@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:46:38.829Z",
+  "updatedAt": "2026-08-12T09:46:41.123Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,13 @@
       }
     },
     "us": {
-      "status": "checkpointed",
+      "status": "retrying",
       "stage": "write_zh",
-      "attempts": {},
-      "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-12T09:46:38.829Z",
+      "attempts": {
+        "write_zh": 1
+      },
+      "message": "Automation state write failed: is at c96805920ab376cdd9ea960b170881600636b608 but expected 7a7471c74cd1c8c7806e37b1e169c4773bad189d",
+      "updatedAt": "2026-08-12T09:46:41.123Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527877114",
@@ -1945,7 +1947,8 @@
           "outputTokens": 3724,
           "cachedInputTokens": 2304
         }
-      }
+      },
+      "failedStage": "write_zh"
     },
     "japan": {
       "status": "queued",
@@ -1987,5 +1990,5 @@
       }
     ]
   },
-  "message": "CHINA 在 write_finalize 连续失败 3 次，保留断点并跳到下一区域。"
+  "message": "US write_zh 自动重试 1/3"
 }
