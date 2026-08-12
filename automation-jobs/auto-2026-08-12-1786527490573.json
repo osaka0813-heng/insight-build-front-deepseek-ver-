@@ -3,10 +3,10 @@
   "status": "running",
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "us",
+  "currentScope": "china",
   "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:54:41.275Z",
+  "updatedAt": "2026-08-12T09:54:51.956Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,14 +1107,14 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "error",
+      "status": "retrying",
       "stage": "write_zh",
       "attempts": {
         "analyze": 1,
-        "write_zh": 3
+        "write_zh": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
-      "updatedAt": "2026-08-12T09:49:23.890Z",
+      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"中国房地产与地方财政转型\",\"secondaryEyebrow\":\"政策框架的结构性转变\",\"title\":\"住房被重新定位为首要“大宗耐用消费品”，北京放松购房限制\",\"summary\":\"2026年8月12日，经济参考报报道，国务院批准的“十五五”扩大消费规划将住房列于大宗耐用消费品首位，使房地产政策从单纯防风险转向防风险与促消费并行。北京新政策自8月8日起生效，将非本市户籍家庭在五环内购房的社保/个税缴纳要求由2年降至1年，将双职工家庭住房公积金贷款上限提高至340万元，并调整赠与规则。成都、武汉、南京、青岛等多个城市正在准备或已出台跟进措施。A股地产板块近10只个股涨停，港股地产股大涨两位数。\"},\"question\":{\"lead\":\"迄今，房地产—地方财政进程的特点一直是吸收损失、遏制杠杆。最新政策动作提出了一个更尖锐的",
+      "updatedAt": "2026-08-12T09:54:51.956Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1513,11 +1513,11 @@
       }
     },
     "us": {
-      "status": "checkpointed",
-      "stage": "write_zh",
+      "status": "running",
+      "stage": "write_base",
       "attempts": {},
-      "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-12T09:54:41.275Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-12T09:52:58.310Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-12-1786528304729",
@@ -1707,131 +1707,6 @@
           }
         ],
         "analysisProvider": "deepseek"
-      },
-      "writeBase": {
-        "ok": true,
-        "stage": "base",
-        "baseDraft": {
-          "insightId": "us-2026-08-12-cpi-10yr-auction-collision",
-          "slug": "us-cpi-10yr-auction-same-day",
-          "parentInsightId": null,
-          "previousInsightId": null,
-          "en": {
-            "cover": {
-              "eyebrow": "US fiscal and rates calendar",
-              "secondaryEyebrow": "August 12, 2026",
-              "title": "CPI Data and $42B 10-Year Auction Collide on Same Day",
-              "summary": "The July CPI release and a large Treasury auction fall on the same calendar date, forcing markets to price inflation risk and duration supply simultaneously."
-            },
-            "question": {
-              "lead": "Can the Treasury market absorb new duration supply immediately after a key inflation print without a term premium spike?",
-              "title": "Inflation + Supply: A Same-Day Test for the US Rates Regime",
-              "footnote": "This Insight tracks the August 12, 2026 calendar alignment between the CPI release and the 10-year note auction, and its implications for the US fiscal-rates-dollar process."
-            },
-            "signals": {
-              "title": "The Two Events That Converge",
-              "sourceNote": "Sources are the official schedules of the BLS and Treasury.",
-              "items": [
-                {
-                  "label": "CPI Report",
-                  "title": "July Consumer Price Index Released at 08:30 ET",
-                  "body": "The Bureau of Labor Statistics releases the CPI data for July 2026, which will be the latest read on US inflation.",
-                  "whyImportant": "It sets the inflation expectations backdrop just hours before the auction.",
-                  "evidence": {
-                    "title": "BLS CPI Release Schedule",
-                    "description": "Official release calendar for July 2026 CPI data.",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "us-2026-08-12-cpi-10yr-auction-collision-source-1"
-                    ]
-                  }
-                },
-                {
-                  "label": "10Y Auction",
-                  "title": "Treasury Auction of $42 Billion in 10-Year Notes",
-                  "body": "The U.S. Treasury auctions $42 billion of 10-year notes, a large long-dated supply event.",
-                  "whyImportant": "Auction demand will reflect investor willingness to hold duration after absorbing the CPI print.",
-                  "evidence": {
-                    "title": "Treasury Auction Calendar",
-                    "description": "Scheduled 10-year note auction for August 12, 2026.",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "us-2026-08-12-cpi-10yr-auction-collision-source-2"
-                    ]
-                  }
-                }
-              ]
-            },
-            "pattern": {
-              "title": "Calendar Coincidence vs. Structural Shift",
-              "before": "CPI and auctions were separate events, rarely aligning on the same day.",
-              "shift": "Calendar density and large auction sizes have made same-day inflation and supply events more common.",
-              "now": "On August 12, 2026, they collide, offering a real-time stress test.",
-              "conclusion": "This alignment does not itself signal a regime change, but it amplifies the existing risk that inflation surprises could trigger a term premium repricing through the auction mechanism."
-            },
-            "insight": {
-              "title": "Same-Day CPI and Auction Alignment: Amplifier, Not a Shifter",
-              "formula": "Calendar coincidence + large supplementary → real-time inflation-scrutinized auction",
-              "explanation": "While this is not a structural change, the same-day sequencing means that the 10-year auction’s clearing price will absorb and reflect the CPI data immediately, making it more sensitive to any inflation surprise. This configuration is a test of whether the current fiscal-rates-dollar regime can smoothly digest inflation data and supply without creating a term premium shock."
-            },
-            "observe": {
-              "title": "What to Watch Next",
-              "items": [
-                {
-                  "label": "Auction Metrics",
-                  "prompt": "Watch the bid-to-cover ratio, indirect bidder participation, and tail in the auction results.",
-                  "meta": "These will signal demand quality after the CPI release."
-                },
-                {
-                  "label": "Yield Reaction",
-                  "prompt": "Track the 10-year yield movement during the auction window and in the hours after.",
-                  "meta": "A large yield spike would indicate supply pressure amplified by inflation data."
-                },
-                {
-                  "label": "Term Premium",
-                  "prompt": "Monitor the ACM term premium estimate for evidence of a structural repricing.",
-                  "meta": "A sustained increase would suggest the market is demanding higher compensation for duration risk."
-                },
-                {
-                  "label": "Fed Funds Futures",
-                  "prompt": "Check Fed funds futures for any repricing of rate expectations after the CPI and auction.",
-                  "meta": "The data combo could shift Fed policy outlook, affecting the dollar."
-                }
-              ],
-              "ending": "The August 12 sequence is a live experiment. How the market handles it will inform whether this calendar pattern becomes a recurring risk factor."
-            }
-          },
-          "dailyStateEn": {
-            "label": "No Structural Insight Generated",
-            "decisionTitle": "Calendar Alignment Observed, No Material Change",
-            "decisionSummary": "The calendar alignment between CPI and the 10-year auction is a scheduling coincidence, not a demonstrable change in the US fiscal-rates-dollar system. The available sources only confirm the event dates; no outcome data exists to assess impact.",
-            "thresholdReason": "Material change score of 12, no corroborating sources, and no post-event evidence.",
-            "observeNext": [
-              "Monitor auction results for demand signals.",
-              "Watch for any term premium repricing in 10-year yields.",
-              "Observe Fed policy expectations shifts."
-            ]
-          },
-          "processStage": "accelerating",
-          "processContentEn": {
-            "title": "Fiscal-Rates-Dollar Process: Accelerating",
-            "description": "The interaction between fiscal supply, inflation data, and US rates is already in an accelerating phase, with markets sensitive to same-day overlaps.",
-            "implication": "Today's calendar alignment is a stress test but does not alter the process stage. The outcome may reinforce existing trends but is unlikely to be a structural turning point."
-          },
-          "nextQuestionEn": "Will the 10-year auction show evidence of a term premium shock following the CPI release, or will demand remain robust?",
-          "observeNextEn": [
-            "Auction bid-to-cover and tail",
-            "10-year yield post-auction trajectory",
-            "ACM term premium movement",
-            "Fed funds futures repricing"
-          ]
-        },
-        "model": "deepseek-v4-pro",
-        "usage": {
-          "inputTokens": 2518,
-          "outputTokens": 4274,
-          "cachedInputTokens": 2432
-        }
       }
     },
     "japan": {
@@ -1874,5 +1749,5 @@
       }
     ]
   },
-  "message": "CHINA 在 write_zh 连续失败 3 次，保留断点并跳到下一区域。"
+  "message": "CHINA write_zh 自动重试 1/3"
 }
