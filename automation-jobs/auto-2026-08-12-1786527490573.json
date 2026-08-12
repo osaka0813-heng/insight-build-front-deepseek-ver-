@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:39:24.307Z",
+  "updatedAt": "2026-08-12T09:39:26.265Z",
   "scopes": {
     "global": {
       "status": "retrying",
       "stage": "analyze",
       "attempts": {
-        "analyze": 1
+        "analyze": 2
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-12-1786527490573.json does not match 0dd3be901c0e92b36ca77ae0b7bc2cc3a46727e0",
-      "updatedAt": "2026-08-12T09:39:24.307Z",
+      "message": "Automation state write failed: is at d722631ce425a673cb3ce984cab1632df08ed630 but expected c261ac8f83d0bfdd5ab9c063f82cb48805e83667",
+      "updatedAt": "2026-08-12T09:39:26.265Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
@@ -150,5 +150,5 @@
       }
     ]
   },
-  "message": "WORLD analyze 自动重试 1/3"
+  "message": "WORLD analyze 自动重试 2/3"
 }
