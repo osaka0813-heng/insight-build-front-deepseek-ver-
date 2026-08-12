@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:39:39.605Z",
+  "updatedAt": "2026-08-12T09:39:40.565Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_base",
       "attempts": {
         "analyze": 2
       },
-      "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-12T09:39:39.605Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-12T09:39:40.565Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
