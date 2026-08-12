@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:12:15.928Z",
+  "updatedAt": "2026-08-12T03:12:20.641Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -451,33 +451,34 @@
         "research": 1
       },
       "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T03:12:15.928Z",
+      "updatedAt": "2026-08-12T03:12:20.641Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
-        "id": "research-china-2026-08-09-1786504335922",
+        "id": "research-china-2026-08-09-1786504340635",
         "status": "draft",
-        "researchedAt": "2026-08-12T03:12:15.922Z",
+        "researchedAt": "2026-08-12T03:12:20.635Z",
         "researchDate": "2026-08-09",
         "scope": "china",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 117839,
-          "outputTokens": 15185,
-          "cachedInputTokens": 92032
+          "inputTokens": 166092,
+          "outputTokens": 16362,
+          "cachedInputTokens": 139776
         },
-        "querySummary": "The supplied web-search dossier for the 2026-08-09 research window was empty; no articles, data releases, or official statements covering the past 24 hours could be extracted. Because no verifiable change was available, one no-signal placeholder candidate is included to satisfy the schema requirement; it should be reviewed and likely discarded by a human analyst.",
+        "querySummary": "The supplied web-search dossier for 2026-08-09 contains no search-result entries and no primary or reliable-media reports from the past 24 hours. Therefore, no verifiable China-related process change can be extracted. The single candidate below records this coverage gap rather than asserting an unverified event.",
         "candidates": [
           {
-            "id": "no-verifiable-signal-2026-08-09",
+            "id": "no-qualifying-signal-2026-08-09",
             "date": "2026-08-09",
-            "domain": "Cross-domain",
+            "domain": "China Macro",
             "tags": [
-              "no-signal",
-              "insufficient-evidence",
               "china",
-              "dossier-gap"
+              "coverage-gap",
+              "evidence-availability",
+              "research-quality",
+              "macro"
             ],
             "processMatchConfidence": 0,
             "importance": 0,
@@ -490,37 +491,35 @@
             "contradiction": 0,
             "content": {
               "en": {
-                "title": "No verifiable 24-hour China signal in supplied dossier",
-                "coreFact": "The supplied web-search dossier for 2026-08-09 contains no article or data release attributable to the past 24 hours, so no verifiable development exists to anchor a candidate signal.",
-                "whyItMatters": "Because the dossier is empty, updating any existing China process would require inference rather than evidence; the five existing processes should remain unchanged until new verifiable material appears.",
-                "processMatchReason": "No candidate signal can be matched to property/local finance, industrial upgrading, tech autonomy, or demand rebalancing without source material."
+                "title": "No qualifying 24-hour China signal in supplied dossier",
+                "coreFact": "The supplied web-search dossier for 2026-08-09 contains no primary or reliable-media reports from the past 24 hours that can be used to verify a change in any tracked China process.",
+                "whyItMatters": "With no verifiable event, none of the four existing China process theses (property/local finance, industrial upgrading, technology autonomy, demand rebalancing) should be adjusted on this date; the next step is to re-run or expand the search window.",
+                "processMatchReason": "No candidate describes a concrete change, so no process match is attempted and process-match confidence is zero."
               },
               "zh": {
-                "title": "已提供档案中没有可核实的24小时中国信号",
-                "coreFact": "截至2026-08-09，提供的搜索档案中没有可归属到过去24小时的文章或数据发布，因此没有可核实的变化可作为候选信号。",
-                "whyItMatters": "由于档案为空，更新任何现有中国进程都将是推断而非基于证据；在出现新的可核实材料前，五个现有进程应保持不变。",
-                "processMatchReason": "在没有来源材料的情况下，无法将候选信号对映到房地产/地方财政、产业升级、科技自主化或内需再平衡。"
+                "title": "已提供档案中不存在符合条件的24小时中国信号",
+                "coreFact": "截至2026-08-09，所提供的网页检索档案中没有包含过去24小时内可用来验证中国相关流程发生变化的一手或可靠媒体报道。",
+                "whyItMatters": "由于没有可验证的事件，不应基于本次检索调整现有的四个中国流程判断（地产与地方财政、产业升级、科技自主化、内需再平衡）；下一步应扩大或重新执行检索窗口。",
+                "processMatchReason": "该候选信号未描述任何具体变化，因此没有与现有流程匹配，匹配置信度为零。"
               },
               "ja": {
-                "title": "提供された資料に検証可能な24時間の中国シグナルなし",
-                "coreFact": "2026-08-09時点で提供されたウェブ検索資料には、直近24時間に紐づく記事やデータ公表が含まれておらず、検証可能な変化は存在しない。",
-                "whyItMatters": "資料が空のため、既存の中国プロセスを更新するには推論が必要となり、証拠に基づかない。新たな検証可能な資料が得られるまで、既存5プロセスは変更すべきではない。",
-                "processMatchReason": "不動産・地方財政、産業高度化、技術自立、内需再均衡のいずれにも、ソース資料なしでは候補シグナルを対応付けられない。"
+                "title": "提供された資料に24時間以内の中国シグナルなし",
+                "coreFact": "2026-08-09時点で提供されたウェブ検索資料には、過去24時間に中国の追跡プロセス変化を検証できる一次情報または信頼できるメディア報道が含まれていない。",
+                "whyItMatters": "検証可能な事象がないため、既存の中国プロセス4件（不動産・地方財政、産業高度化、技術自立、内需再均衡）の判断をこの日付で調整すべきではない。次のステップは検索窓を広げるか再実行すること。",
+                "processMatchReason": "具体的な変化を記述していないため、どのプロセスにもマッチせず、マッチ信頼度はゼロ。"
               }
             },
             "sources": [
               {
-                "title": "WEB SEARCH DOSSIER (empty for 2026-08-09)",
-                "url": "urn:context:web-search-dossier-empty-2026-08-09",
-                "publisher": "Internal",
-                "publishedAt": "2026-08-09",
+                "title": "Supplied web-search dossier (2026-08-09)",
+                "url": "",
+                "publisher": "Internal research input",
                 "kind": "context"
               },
               {
-                "title": "RESEARCH FOCUS: China 24-hour signal scan",
-                "url": "urn:context:china-24h-research-focus-2026-08-09",
-                "publisher": "Internal",
-                "publishedAt": "2026-08-09",
+                "title": "Research focus statement for 2026-08-09 China scan",
+                "url": "",
+                "publisher": "Internal research input",
                 "kind": "context"
               }
             ]
