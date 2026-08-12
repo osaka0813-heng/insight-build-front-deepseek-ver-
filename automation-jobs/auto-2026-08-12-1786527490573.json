@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:51:23.626Z",
+  "updatedAt": "2026-08-12T09:51:24.863Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1111,10 +1111,10 @@
       "stage": "write_zh",
       "attempts": {
         "analyze": 1,
-        "write_zh": 1
+        "write_zh": 2
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-12-1786527490573.json does not match 4455eb6321820e904844d37a9b36a65a139e0124",
-      "updatedAt": "2026-08-12T09:51:23.626Z",
+      "message": "Automation state write failed: is at 8e3a0b583dc65d2fbab1c4da19998b92227b205c but expected 4b7e3ace1cbdad04b8a84696582c8c9437ed50f1",
+      "updatedAt": "2026-08-12T09:51:24.863Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1785,5 +1785,5 @@
       }
     ]
   },
-  "message": "CHINA write_zh 自动重试 1/3"
+  "message": "CHINA write_zh 自动重试 2/3"
 }
