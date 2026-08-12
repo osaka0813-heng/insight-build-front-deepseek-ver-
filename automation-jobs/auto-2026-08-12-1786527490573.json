@@ -3,10 +3,10 @@
   "status": "running",
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "china",
-  "currentStage": "write_zh",
+  "currentScope": "us",
+  "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:47:36.019Z",
+  "updatedAt": "2026-08-12T09:47:41.856Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,14 +1107,14 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "running",
+      "status": "error",
       "stage": "write_zh",
       "attempts": {
         "analyze": 1,
-        "write_zh": 2
+        "write_zh": 3
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-12T09:47:36.019Z",
+      "message": "Automation state write failed: is at 279696c96f7575f88f3f6905f588eb07a26f594f but expected 522f7e0c50b5692af03fcbadc7d5c91c18390200",
+      "updatedAt": "2026-08-12T09:47:41.856Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1559,5 +1559,5 @@
       }
     ]
   },
-  "message": "CHINA write_zh 自动重试 2/3"
+  "message": "CHINA 在 write_zh 连续失败 3 次，保留断点并跳到下一区域。"
 }
