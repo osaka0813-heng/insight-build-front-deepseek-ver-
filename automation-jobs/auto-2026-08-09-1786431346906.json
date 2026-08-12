@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:45:02.100Z",
+  "updatedAt": "2026-08-12T09:45:03.549Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,11 @@
       }
     },
     "us": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "analyze",
       "attempts": {},
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T09:45:02.100Z",
+      "message": "analyze",
+      "updatedAt": "2026-08-12T09:45:03.549Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527902096",
