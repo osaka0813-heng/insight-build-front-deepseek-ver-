@@ -4,9 +4,9 @@
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "us",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:53:27.788Z",
+  "updatedAt": "2026-08-12T09:53:42.389Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1113,8 +1113,8 @@
         "analyze": 1,
         "write_zh": 3
       },
-      "message": "Automation state write failed: is at c9303bd496199bda46ed9760955248b8de59b372 but expected a075db75cf6c9cdfd723400deee6b85c4d8c65b0",
-      "updatedAt": "2026-08-12T09:51:29.095Z",
+      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
+      "updatedAt": "2026-08-12T09:49:23.890Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
@@ -1514,116 +1514,84 @@
     },
     "us": {
       "status": "checkpointed",
-      "stage": "write_base",
-      "attempts": {
-        "analyze": 1
-      },
-      "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-12T09:53:27.788Z",
+      "stage": "write_zh",
+      "attempts": {},
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-12T09:53:42.389Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528384212",
+        "id": "research-us-2026-08-12-1786528304729",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:53:04.212Z",
+        "researchedAt": "2026-08-12T09:51:44.729Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 53662,
-          "outputTokens": 10846,
-          "cachedInputTokens": 37120
+          "inputTokens": 172596,
+          "outputTokens": 15927,
+          "cachedInputTokens": 141568
         },
-        "querySummary": "In the 24 hours through 2026-08-12, the strongest US signal is in the fiscal-rates-dollar regime: 30-year Treasury yields hit 5.231% (highest since 2007), the 10-year reached 18-month highs, Fed Chair Warsh's inflation credibility is being questioned, and the $125bn quarterly refunding week plus July CPI create a decisive 72-hour test. AI capex/power, reindustrialization and labor/immigration items were also noted in the dossier but did not produce a higher-confidence 24-hour signal.",
+        "querySummary": "The dossier provides only a single actionable item: on 2026-08-12, the U.S. CPI report is scheduled for 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes. No actual CPI figures or auction results are yet available. The meaningful signal is the same-day collision of an inflation release with a long-duration Treasury supply event, which puts the fiscal-rates-dollar interaction into a single market-clearing moment.",
         "candidates": [
           {
-            "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812",
+            "id": "us-2026-08-12-cpi-10yr-auction-collision",
             "date": "2026-08-12",
-            "domain": "Fiscal Policy, Rates, Dollar",
+            "domain": "Fiscal Policy / Rates / Treasury",
             "tags": [
               "us",
-              "fiscal",
-              "treasury",
-              "rates",
-              "fed",
-              "dollar",
+              "cpi",
               "inflation",
-              "credibility",
-              "yields",
-              "auctions"
+              "treasury",
+              "auction",
+              "rates",
+              "fiscal",
+              "supply"
             ],
             "suggestedProcessId": "process-us-fiscal-rates-dollar",
-            "processMatchConfidence": 96,
-            "importance": 93,
-            "novelty": 78,
-            "evidenceStrength": 88,
-            "independentSourceCount": 6,
-            "thesisImpact": 90,
-            "relationshipChange": 85,
-            "stageChange": 82,
-            "contradiction": 8,
+            "processMatchConfidence": 85,
+            "importance": 65,
+            "novelty": 55,
+            "evidenceStrength": 55,
+            "independentSourceCount": 2,
+            "thesisImpact": 50,
+            "relationshipChange": 65,
+            "stageChange": 30,
+            "contradiction": 5,
             "content": {
               "en": {
-                "title": "30-year Treasury yield hits 2007-high as Fed credibility and $125bn refunding collide",
-                "coreFact": "On August 12, 2026, the 30-year Treasury yield rose to 5.231% (highest since 2007), the 10-year reached 4.68–4.75% (an 18-month high), and the 30-year TIPS real yield broke above 3% (highest since 2008) ahead of July CPI and the $125bn quarterly refunding auctions; markets questioned Fed Chair Kevin Warsh's commitment to the 2% inflation target.",
-                "whyItMatters": "This compresses deficits, Treasury supply, Fed policy credibility and global dollar demand into a single 72-hour test: today's CPI, today's $42bn 10-year auction, tomorrow's $25bn 30-year auction, and the September FOMC. If long-end yields approach 5% or auction demand weakens, the existing US fiscal-rates-dollar process could escalate from financing stress test to a term-premium repricing / Fed credibility crisis. It also exposes the Trump–Bessent dilemma: rate cuts could push the 10-year higher, while a hawkish Fed conflicts with political pressure and midterm timing.",
-                "processMatchReason": "Directly pressure-tests process-us-fiscal-rates-dollar: 20-year-high long-end yields, post-GFC-high TIPS real yields, the Treasury's first FX intervention since 1998 to protect foreign demand, and a $125bn refunding week all converge; all stage indicators (auctions, term premium, Fed reaction function, foreign demand) are activated."
+                "title": "CPI release coincides with the $42B 10-year note auction",
+                "coreFact": "On 2026-08-12, the U.S. CPI report is due at 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes on the same day, putting inflation data and long-dated Treasury supply directly on the same market calendar.",
+                "whyItMatters": "The auction will be the first pricing event after the CPI release, so investors must absorb new inflation information and new duration supply in one clearing price. That makes the 10-year auction a live test of whether inflation-sensitive demand can absorb Treasury supply without a term premium shock.",
+                "processMatchReason": "This is a direct instance of the fiscal-rates-dollar process: the interaction between inflation data and Treasury issuance is being observed in a single same-day sequence rather than as separate market themes."
               },
               "zh": {
-                "title": "30年期美债收益率创2007年以来新高，美联储可信度与$1,250亿再融资拍卖同时接受考验",
-                "coreFact": "2026年8月12日，30年期美债收益率升至5.231%（2007年以来最高），10年期触及4.68–4.75%（18个月高点），30年期TIPS实际收益率升破3%（2008年以来最高）；市场在7月CPI与$1,250亿季度再融资拍卖前，质疑美联储主席Kevin Warsh对2%通胀承诺的可信度。",
-                "whyItMatters": "这意味着赤字、国债供给、美联储政策可信度和全球美元资产需求被压缩进同一个72小时验证窗口：今日CPI、今日$420亿10年期拍卖、明日$250亿30年期拍卖以及9月FOMC。若长端收益率逼近5%或拍卖需求转弱，'财政—利率—美元'进程可能从融资压力测试升级为期限溢价重定价/美联储可信度危机；同时凸显特朗普与贝森特的政策两难。",
-                "processMatchReason": "直接压力测试process-us-fiscal-rates-dollar：20年高位长端收益率、后金融危机高位TIPS实际收益率、1998年以来首次财政部外汇干预、以及单周$1,250亿再融资同时出现；拍卖、期限溢价、美联储反应函数、海外国债需求等阶段指标全部被激活。"
+                "title": "CPI发布与420亿美元10年期国债拍卖同日进行",
+                "coreFact": "2026年8月12日，美国CPI报告定于美东时间08:30发布，财政部同日计划拍卖420亿美元10年期国债，将通胀数据与长期国债供给放在同一个市场日历上。",
+                "whyItMatters": "10年期国债拍卖将成为CPI发布后的首个定价事件，投资者必须在同一个出清价格中吸收新的通胀信息与新的久期供给。这使得本次拍卖成为一次活体检验：对通胀敏感的国债需求能否在不引发期限溢价冲击的前提下消化供给。",
+                "processMatchReason": "这是财政—利率—美元进程的直接案例：通胀数据与国债发行的互动被压缩进同一天的先后顺序中，而不是作为两个独立的市场主题被分别观察。"
               },
               "ja": {
-                "title": "30年米国債利回りが2007年以来の高水準、FRBの信認と1,250億ドル借換入札が同時に試される",
-                "coreFact": "2026年8月12日、30年米国債利回りは5.231%（2007年以来最高）、10年債は4.68–4.75%（18か月ぶり高水準）、30年TIPS実質利回りは3%超（2008年以来最高）に上昇。7月CPIと1,250億ドルの四半期借換入札を控え、市場はKevin Warsh FRB議長の2%インフレ目標への信認を疑問視している。",
-                "whyItMatters": "赤字、国債供給、FRBの政策信認、世界的なドル資産需要が一つの72時間の検証窓口に圧縮される。今日のCPI、今日の420億ドル10年債入札、明日の250億ドル30年債入札、9月FOMCが焦点。長期金利が5%に接近するか入札需要が弱まれば、「財政・金利・ドル体制」プロセスは資金調達ストレステストからタームプレミアム再価格形成／FRB信認危機へ進む可能性がある。",
-                "processMatchReason": "process-us-fiscal-rates-dollarを直接的にストレステスト。20年ぶり高水準の長期金利、金融危機後の高水準のTIPS実質利回り、1998年以来の財務省による為替介入、週間1,250億ドルの借換需要が同時に発生。入札、タームプレミアム、FRB反応関数、海外需要という全段階指標が活性化している。"
+                "title": "CPI発表と420億ドル10年債入札が同日に重なる",
+                "coreFact": "2026年8月12日、米CPIレポートはET8時30分に発表予定で、財務省は同日に420億ドルの10年債入札を予定しており、インフレデータと長期国債供給が同じ市場カレンダーに載る。",
+                "whyItMatters": "10年債入札はCPI発表後最初のプライシングイベントとなるため、投資家は新しいインフレ情報と新しいデュレーション供給を一つの清算価格に織り込む必要がある。このため入札は、インフレ感応的な国債需要がタームプレミアムの急上昇なしに供給を吸収できるかを試す場となる。",
+                "processMatchReason": "これは財政・金利・ドル体制の中核的問い——インフレと国債供給の相互作用——が、同日の順序として観察される直接的な事例である。"
               }
             },
             "sources": [
               {
-                "title": "US yield curve twists expose Trump's and Bessent's rate dilemma: McGeever",
-                "url": "https://wealthinsights.metrobank.com.ph/news/rpt-roi-us-yield-curve-twists-expose-trumps-and-bessents-rate-dilemma-mcgeever",
-                "publisher": "Reuters",
+                "title": "Consumer Price Index release for July 2026",
+                "url": "",
+                "publisher": "U.S. Bureau of Labor Statistics",
                 "publishedAt": "2026-08-12",
-                "kind": "reliable_media"
+                "kind": "primary"
               },
               {
-                "title": "Treasury yields are little changed as investors await key inflation data",
-                "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
-                "publisher": "CNBC",
+                "title": "Treasury 10-year note auction",
+                "url": "",
+                "publisher": "U.S. Department of the Treasury",
                 "publishedAt": "2026-08-12",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "Treasury's 3-Year Auction Sees Solid Demand",
-                "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081126/card/treasury-s-3-year-auction-sees-solid-demand-7149H7oFXE7cVKdwZ2gF",
-                "publisher": "Barron's Live",
-                "publishedAt": "2026-08-11",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "Bessent Seeks Fed Help in Defending Yen in Unusual Call",
-                "url": "https://www.bloomberg.com/news/articles/2026-08-03/bessent-seeks-fed-help-in-defending-yen-in-unusual-call",
-                "publisher": "Bloomberg",
-                "publishedAt": "2026-08-03",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "Kevin Warsh to stick with lean Fed messaging despite market backlash",
-                "url": "https://www.ft.com/content/debe096f-ec89-424f-a8ca-d3843ef53549",
-                "publisher": "Financial Times",
-                "publishedAt": "2026-08-05",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "'All hat, no cattle': Markets question Fed's inflation credibility amid elevated bond yields",
-                "url": "https://finance.yahoo.com/markets/article/markets-see-all-hat-no-cattle-in-feds-inflation-credibility-chart-of-the-day-164028370.html",
-                "publisher": "Yahoo Finance",
-                "publishedAt": "2026-08-04",
-                "kind": "reliable_media"
+                "kind": "primary"
               }
             ]
           }
@@ -1631,158 +1599,234 @@
       },
       "analyzedDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528384212",
+        "id": "research-us-2026-08-12-1786528304729",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:53:04.212Z",
+        "researchedAt": "2026-08-12T09:51:44.729Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 53662,
-          "outputTokens": 10846,
-          "cachedInputTokens": 37120
+          "inputTokens": 172596,
+          "outputTokens": 15927,
+          "cachedInputTokens": 141568
         },
-        "querySummary": "In the 24 hours through 2026-08-12, the strongest US signal is in the fiscal-rates-dollar regime: 30-year Treasury yields hit 5.231% (highest since 2007), the 10-year reached 18-month highs, Fed Chair Warsh's inflation credibility is being questioned, and the $125bn quarterly refunding week plus July CPI create a decisive 72-hour test. AI capex/power, reindustrialization and labor/immigration items were also noted in the dossier but did not produce a higher-confidence 24-hour signal.",
+        "querySummary": "The dossier provides only a single actionable item: on 2026-08-12, the U.S. CPI report is scheduled for 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes. No actual CPI figures or auction results are yet available. The meaningful signal is the same-day collision of an inflation release with a long-duration Treasury supply event, which puts the fiscal-rates-dollar interaction into a single market-clearing moment.",
         "candidates": [
           {
-            "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812",
+            "id": "us-2026-08-12-cpi-10yr-auction-collision",
             "date": "2026-08-12",
-            "domain": "Fiscal Policy, Rates, Dollar",
+            "domain": "Fiscal Policy / Rates / Treasury",
             "tags": [
               "us",
-              "fiscal",
-              "treasury",
-              "rates",
-              "fed",
-              "dollar",
+              "cpi",
               "inflation",
-              "credibility",
-              "yields",
-              "auctions"
+              "treasury",
+              "auction",
+              "rates",
+              "fiscal",
+              "supply"
             ],
             "suggestedProcessId": "process-us-fiscal-rates-dollar",
-            "processMatchConfidence": 96,
-            "importance": 93,
-            "novelty": 78,
-            "evidenceStrength": 88,
-            "independentSourceCount": 6,
-            "thesisImpact": 90,
-            "relationshipChange": 85,
-            "stageChange": 82,
-            "contradiction": 80,
+            "processMatchConfidence": 85,
+            "importance": 65,
+            "novelty": 55,
+            "evidenceStrength": 55,
+            "independentSourceCount": 2,
+            "thesisImpact": 50,
+            "relationshipChange": 65,
+            "stageChange": 30,
+            "contradiction": 50,
             "content": {
               "en": {
-                "title": "30-year Treasury yield hits 2007-high as Fed credibility and $125bn refunding collide",
-                "coreFact": "On August 12, 2026, the 30-year Treasury yield rose to 5.231% (highest since 2007), the 10-year reached 4.68–4.75% (an 18-month high), and the 30-year TIPS real yield broke above 3% (highest since 2008) ahead of July CPI and the $125bn quarterly refunding auctions; markets questioned Fed Chair Kevin Warsh's commitment to the 2% inflation target.",
-                "whyItMatters": "This compresses deficits, Treasury supply, Fed policy credibility and global dollar demand into a single 72-hour test: today's CPI, today's $42bn 10-year auction, tomorrow's $25bn 30-year auction, and the September FOMC. If long-end yields approach 5% or auction demand weakens, the existing US fiscal-rates-dollar process could escalate from financing stress test to a term-premium repricing / Fed credibility crisis. It also exposes the Trump–Bessent dilemma: rate cuts could push the 10-year higher, while a hawkish Fed conflicts with political pressure and midterm timing.",
-                "processMatchReason": "Directly pressure-tests process-us-fiscal-rates-dollar: 20-year-high long-end yields, post-GFC-high TIPS real yields, the Treasury's first FX intervention since 1998 to protect foreign demand, and a $125bn refunding week all converge; all stage indicators (auctions, term premium, Fed reaction function, foreign demand) are activated."
+                "title": "CPI release coincides with the $42B 10-year note auction",
+                "coreFact": "On 2026-08-12, the U.S. CPI report is due at 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes on the same day, putting inflation data and long-dated Treasury supply directly on the same market calendar.",
+                "whyItMatters": "The auction will be the first pricing event after the CPI release, so investors must absorb new inflation information and new duration supply in one clearing price. That makes the 10-year auction a live test of whether inflation-sensitive demand can absorb Treasury supply without a term premium shock.",
+                "processMatchReason": "This is a direct instance of the fiscal-rates-dollar process: the interaction between inflation data and Treasury issuance is being observed in a single same-day sequence rather than as separate market themes."
               },
               "zh": {
-                "title": "30年期美债收益率创2007年以来新高，美联储可信度与$1,250亿再融资拍卖同时接受考验",
-                "coreFact": "2026年8月12日，30年期美债收益率升至5.231%（2007年以来最高），10年期触及4.68–4.75%（18个月高点），30年期TIPS实际收益率升破3%（2008年以来最高）；市场在7月CPI与$1,250亿季度再融资拍卖前，质疑美联储主席Kevin Warsh对2%通胀承诺的可信度。",
-                "whyItMatters": "这意味着赤字、国债供给、美联储政策可信度和全球美元资产需求被压缩进同一个72小时验证窗口：今日CPI、今日$420亿10年期拍卖、明日$250亿30年期拍卖以及9月FOMC。若长端收益率逼近5%或拍卖需求转弱，'财政—利率—美元'进程可能从融资压力测试升级为期限溢价重定价/美联储可信度危机；同时凸显特朗普与贝森特的政策两难。",
-                "processMatchReason": "直接压力测试process-us-fiscal-rates-dollar：20年高位长端收益率、后金融危机高位TIPS实际收益率、1998年以来首次财政部外汇干预、以及单周$1,250亿再融资同时出现；拍卖、期限溢价、美联储反应函数、海外国债需求等阶段指标全部被激活。"
+                "title": "CPI发布与420亿美元10年期国债拍卖同日进行",
+                "coreFact": "2026年8月12日，美国CPI报告定于美东时间08:30发布，财政部同日计划拍卖420亿美元10年期国债，将通胀数据与长期国债供给放在同一个市场日历上。",
+                "whyItMatters": "10年期国债拍卖将成为CPI发布后的首个定价事件，投资者必须在同一个出清价格中吸收新的通胀信息与新的久期供给。这使得本次拍卖成为一次活体检验：对通胀敏感的国债需求能否在不引发期限溢价冲击的前提下消化供给。",
+                "processMatchReason": "这是财政—利率—美元进程的直接案例：通胀数据与国债发行的互动被压缩进同一天的先后顺序中，而不是作为两个独立的市场主题被分别观察。"
               },
               "ja": {
-                "title": "30年米国債利回りが2007年以来の高水準、FRBの信認と1,250億ドル借換入札が同時に試される",
-                "coreFact": "2026年8月12日、30年米国債利回りは5.231%（2007年以来最高）、10年債は4.68–4.75%（18か月ぶり高水準）、30年TIPS実質利回りは3%超（2008年以来最高）に上昇。7月CPIと1,250億ドルの四半期借換入札を控え、市場はKevin Warsh FRB議長の2%インフレ目標への信認を疑問視している。",
-                "whyItMatters": "赤字、国債供給、FRBの政策信認、世界的なドル資産需要が一つの72時間の検証窓口に圧縮される。今日のCPI、今日の420億ドル10年債入札、明日の250億ドル30年債入札、9月FOMCが焦点。長期金利が5%に接近するか入札需要が弱まれば、「財政・金利・ドル体制」プロセスは資金調達ストレステストからタームプレミアム再価格形成／FRB信認危機へ進む可能性がある。",
-                "processMatchReason": "process-us-fiscal-rates-dollarを直接的にストレステスト。20年ぶり高水準の長期金利、金融危機後の高水準のTIPS実質利回り、1998年以来の財務省による為替介入、週間1,250億ドルの借換需要が同時に発生。入札、タームプレミアム、FRB反応関数、海外需要という全段階指標が活性化している。"
+                "title": "CPI発表と420億ドル10年債入札が同日に重なる",
+                "coreFact": "2026年8月12日、米CPIレポートはET8時30分に発表予定で、財務省は同日に420億ドルの10年債入札を予定しており、インフレデータと長期国債供給が同じ市場カレンダーに載る。",
+                "whyItMatters": "10年債入札はCPI発表後最初のプライシングイベントとなるため、投資家は新しいインフレ情報と新しいデュレーション供給を一つの清算価格に織り込む必要がある。このため入札は、インフレ感応的な国債需要がタームプレミアムの急上昇なしに供給を吸収できるかを試す場となる。",
+                "processMatchReason": "これは財政・金利・ドル体制の中核的問い——インフレと国債供給の相互作用——が、同日の順序として観察される直接的な事例である。"
               }
             },
             "sources": [
               {
-                "title": "US yield curve twists expose Trump's and Bessent's rate dilemma: McGeever",
-                "url": "https://wealthinsights.metrobank.com.ph/news/rpt-roi-us-yield-curve-twists-expose-trumps-and-bessents-rate-dilemma-mcgeever",
-                "publisher": "Reuters",
+                "title": "Consumer Price Index release for July 2026",
+                "url": "",
+                "publisher": "U.S. Bureau of Labor Statistics",
                 "publishedAt": "2026-08-12",
-                "kind": "reliable_media",
-                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-1",
+                "kind": "primary",
+                "id": "us-2026-08-12-cpi-10yr-auction-collision-source-1",
                 "role": "trigger"
               },
               {
-                "title": "Treasury yields are little changed as investors await key inflation data",
-                "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
-                "publisher": "CNBC",
+                "title": "Treasury 10-year note auction",
+                "url": "",
+                "publisher": "U.S. Department of the Treasury",
                 "publishedAt": "2026-08-12",
-                "kind": "reliable_media",
-                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-2",
+                "kind": "primary",
+                "id": "us-2026-08-12-cpi-10yr-auction-collision-source-2",
                 "role": "trigger"
-              },
-              {
-                "title": "Treasury's 3-Year Auction Sees Solid Demand",
-                "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081126/card/treasury-s-3-year-auction-sees-solid-demand-7149H7oFXE7cVKdwZ2gF",
-                "publisher": "Barron's Live",
-                "publishedAt": "2026-08-11",
-                "kind": "reliable_media",
-                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-3",
-                "role": "trigger"
-              },
-              {
-                "title": "Bessent Seeks Fed Help in Defending Yen in Unusual Call",
-                "url": "https://www.bloomberg.com/news/articles/2026-08-03/bessent-seeks-fed-help-in-defending-yen-in-unusual-call",
-                "publisher": "Bloomberg",
-                "publishedAt": "2026-08-03",
-                "kind": "reliable_media",
-                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-4",
-                "role": "corroborating"
-              },
-              {
-                "title": "Kevin Warsh to stick with lean Fed messaging despite market backlash",
-                "url": "https://www.ft.com/content/debe096f-ec89-424f-a8ca-d3843ef53549",
-                "publisher": "Financial Times",
-                "publishedAt": "2026-08-05",
-                "kind": "reliable_media",
-                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-5",
-                "role": "corroborating"
-              },
-              {
-                "title": "'All hat, no cattle': Markets question Fed's inflation credibility amid elevated bond yields",
-                "url": "https://finance.yahoo.com/markets/article/markets-see-all-hat-no-cattle-in-feds-inflation-credibility-chart-of-the-day-164028370.html",
-                "publisher": "Yahoo Finance",
-                "publishedAt": "2026-08-04",
-                "kind": "reliable_media",
-                "id": "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-6",
-                "role": "corroborating"
               }
             ],
-            "currentEventSourceCount": 3,
-            "corroboratingSourceCount": 3,
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
             "contextSourceCount": 0,
             "claimSourceIds": [
-              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-1",
-              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-2",
-              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-3",
-              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-4",
-              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-5",
-              "us-fiscal-rates-dollar-yield-credibility-test-20260812-source-6"
+              "us-2026-08-12-cpi-10yr-auction-collision-source-1",
+              "us-2026-08-12-cpi-10yr-auction-collision-source-2"
             ],
             "analysis": {
               "matchedProcessId": "process-us-fiscal-rates-dollar",
-              "processMatchConfidence": 96,
-              "impact": "challenges",
-              "dailyState": "update_living",
-              "materialChangeScore": 85,
-              "publishThresholdMet": true,
+              "processMatchConfidence": 85,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 12,
+              "publishThresholdMet": false,
               "scoreWasNormalized": true,
-              "triggerSourceCount": 3,
-              "corroboratingSourceCount": 3,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
               "contextSourceCount": 0,
-              "rationale": "This candidate directly pressure-tests process-us-fiscal-rates-dollar with multiple converging signals that materially advance the living thesis. The 30-year yield at 5.231% (highest since 2007), 10-year at 4.68–4.75% (18-month high), and 30-year TIPS real yield above 3% (highest since 2008) represent a term-premium repricing not seen in nearly two decades. The $125bn quarterly refunding week — with today's $42bn 10-year and tomorrow's $25bn 30-year auctions — compresses fiscal supply, Fed credibility (markets questioning Warsh's 2% commitment), and global dollar demand into a single 72-hour test. The Treasury's first FX intervention since 1998 (Bessent seeking Fed help to defend yen, per Bloomberg Aug 3) signals foreign demand fragility. The Trump-Bessent dilemma — rate cuts could steepen the long end while hawkishness conflicts with political pressure — adds a regime-contradiction dynamic. All stage indicators (auction demand, term premium, Fed reaction function, foreign participation) are activated simultaneously, shifting the process from a financing stress test toward a potential credibility-crisis escalation. Six independent reliable sources (Reuters, CNBC, Barron's, Bloomberg, FT, Yahoo Finance) provide strong evidence. The process match is near-perfect at 96, impact is 'challenges' because it tests and potentially destabilizes the existing fiscal-rates-dollar equilibrium, and the material change score of 85 reflects a genuine escalation in severity and urgency over prior states.",
+              "rationale": "The candidate flags a calendar coincidence: the July CPI release and the $42B 10-year note auction both occur on 2026-08-12. This is a scheduling observation, not a demonstrable change in the US fiscal-rates-dollar system. The two primary sources merely confirm the scheduled date of each event; neither provides independent analysis showing that the same-day sequencing has materially altered Treasury demand dynamics, term premium behavior, or the fiscal-rates-dollar interaction. No auction result is available — the candidate describes the setup, not an outcome. The process thesis already captures the interaction between inflation data and Treasury supply; this candidate adds no new structural insight, no stage change evidence, and no measured market impact. The 50% materialChangeScore in the original analysis appears inflated given zero corroborating or context sources and no post-event data. A calendar alignment is an observation worth monitoring, not a publishable Insight.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
-                "Auction results (10-year today, 30-year tomorrow) and July CPI are not yet known at time of analysis; narrative could shift sharply within 24–48 hours.",
-                "FX intervention detail (Bessent-Fed yen call) is from Aug 3 Bloomberg; corroborating sources for this specific claim are limited to one outlet.",
-                "Evidence strength is high but forward-looking; the 'crisis' framing depends on whether auction demand weakens or yields breach 5%, which remains contingent."
+                "Original materialChangeScore of 50 overstates significance given zero corroborating sources and no outcome data.",
+                "Both sources are the scheduled-event notices themselves; neither constitutes independent analysis or evidence of a system change.",
+                "Candidate describes a pre-event configuration; without auction results or market reaction, there is no material update to the process."
               ],
-              "candidateId": "us-fiscal-rates-dollar-yield-credibility-test-20260812"
+              "candidateId": "us-2026-08-12-cpi-10yr-auction-collision"
             }
           }
         ],
         "analysisProvider": "deepseek"
       },
-      "failedStage": "analyze"
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "us-2026-08-12-cpi-10yr-auction-collision",
+          "slug": "cpi-10yr-auction-collision-us-2026-08-12",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "US Fiscal-Rates-Dollar",
+              "secondaryEyebrow": "CPI and 10-Year Auction Collide",
+              "title": "Inflation Data Meets $42B Supply Test",
+              "summary": "Same-day CPI release and Treasury auction put inflation-sensitive demand to the test."
+            },
+            "question": {
+              "lead": "On August 12, 2026, the July CPI report and the Treasury's $42 billion 10-year note auction both land on the calendar. What does this simultaneous test tell us about US fiscal and rate dynamics?",
+              "title": "Does the US Treasury market still clear at stable term premiums when inflation data and supply hit simultaneously?",
+              "footnote": "Based on BLS CPI release and Treasury auction announcement."
+            },
+            "signals": {
+              "title": "Calendar Signals",
+              "sourceNote": "Sources: BLS CPI release, Treasury auction notice.",
+              "items": [
+                {
+                  "label": "CPI Release",
+                  "title": "July CPI Report at 08:30 ET",
+                  "body": "The July 2026 Consumer Price Index data is released on August 12, providing the latest read on US inflation.",
+                  "whyImportant": "Inflation data directly influences rate expectations and the pricing of long-dated Treasuries.",
+                  "evidence": {
+                    "title": "Consumer Price Index release for July 2026",
+                    "description": "Scheduled CPI data publication by BLS.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "us-2026-08-12-cpi-10yr-auction-collision-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "10-Year Auction",
+                  "title": "$42B 10-Year Note Auction",
+                  "body": "Later the same day, the Treasury auctions $42 billion of 10-year notes, a key benchmark for long-term rates.",
+                  "whyImportant": "The auction tests demand for duration following the fresh inflation print, making it a live market barometer.",
+                  "evidence": {
+                    "title": "Treasury 10-year note auction",
+                    "description": "Scheduled Treasury auction of $42 billion 10-year notes.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "us-2026-08-12-cpi-10yr-auction-collision-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Separate Events to Simultaneous Market Test",
+              "before": "Previously, CPI releases and Treasury auctions were often days or weeks apart, allowing markets to digest inflation data before facing new supply.",
+              "shift": "Due to calendar alignment, both events now occur on the same day, forcing investors to reprice inflation and absorb duration simultaneously.",
+              "now": "Today, the 10-year auction acts as an immediate proxy for whether inflation-sensitive buyers can absorb Treasury supply without a spike in term premium.",
+              "conclusion": "The same-day sequencing converts two previously separate market themes into a single stress event for US rates and fiscal dynamics."
+            },
+            "insight": {
+              "title": "The CPI-Auction Collision as a Fiscal-Rates Stress Indicator",
+              "formula": "Colliding CPI release + 10-year auction → live test of inflation tolerance and duration absorption capacity",
+              "explanation": "When the most important inflation release shares a day with a major long-term debt auction, the market must price both new information and new supply in a single clearing. This transforms the auction from a routine funding event into a real-time gauge of the dollar's inflation credibility and Treasury demand resilience."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "Auction Yield",
+                  "prompt": "Compare the auction's stop-through yield to the pre-CPI market level—does inflation data shift the clearing price relative to fair value?",
+                  "meta": "High-frequency indicator"
+                },
+                {
+                  "label": "Dealer vs. Direct Bidders",
+                  "prompt": "Monitor the bidder breakdown: if direct and indirect demand weakens relative to dealers, it signals absorption stress.",
+                  "meta": "Demand composition"
+                },
+                {
+                  "label": "Term Premium Response",
+                  "prompt": "Watch the 10-year term premium immediately after the auction: a sharp rise would indicate investors require extra compensation for the same-day information shock.",
+                  "meta": "ACM term premium model"
+                }
+              ],
+              "ending": "These signals will show whether the market treats the CPI-auction collision as a manageable calendar quirk or an escalating fiscal-rates stress event."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Calendar Alignment",
+            "decisionTitle": "No Material Change Yet",
+            "decisionSummary": "The same-day CPI release and 10-year auction is a scheduling coincidence that warrants monitoring but does not by itself alter the fiscal-rates-dollar regime. Market reactions to the auction outcome could provide future signals.",
+            "thresholdReason": "Insufficient evidence of structural shift; no auction results available to assess impact.",
+            "observeNext": [
+              "Auction stop-through yield versus pre-CPI fair value",
+              "Bidder demand breakdown",
+              "Post-auction term premium movement"
+            ]
+          },
+          "processStage": "accelerating",
+          "processContentEn": {
+            "title": "US Fiscal, Rates and Dollar Regime",
+            "description": "This insight examines how the interaction of US fiscal policy, interest rates, and the dollar is evolving, with the CPI-auction collision as a case study.",
+            "implication": "The same-day collision highlights the potential for fiscal and monetary dynamics to interact more tightly as debt issuance expands."
+          },
+          "nextQuestionEn": "How will the July auction's outcome influence expectations for the next quarterly refunding announcement?",
+          "observeNextEn": [
+            "Auction stop-through yield vs. pre-CPI expectations",
+            "Bidder participation rates",
+            "10-year term premium change"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2518,
+          "outputTokens": 3174,
+          "cachedInputTokens": 2432
+        }
+      }
     },
     "japan": {
       "status": "queued",
@@ -1824,5 +1868,5 @@
       }
     ]
   },
-  "message": "US analyze 自动重试 1/3"
+  "message": "CHINA 在 write_zh 连续失败 3 次，保留断点并跳到下一区域。"
 }
