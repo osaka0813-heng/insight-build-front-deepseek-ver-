@@ -4,21 +4,20 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_ja",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T03:04:44.735Z",
+  "updatedAt": "2026-08-12T03:04:49.362Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
-      "stage": "write_ja",
+      "stage": "write_zh",
       "attempts": {
         "research": 1,
-        "analyze": 1,
-        "write_zh": 1
+        "analyze": 1
       },
-      "message": "已保存 write_zh 断点",
-      "updatedAt": "2026-08-12T03:04:44.735Z",
-      "failedStage": "write_zh",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-12T03:04:49.362Z",
+      "failedStage": "analyze",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-09-1786431679954",
@@ -202,33 +201,33 @@
         "stage": "base",
         "baseDraft": {
           "insightId": "signal-2026-08-09-evidence-gap",
-          "slug": "evidence-gap-blocks-signal-validation",
-          "parentInsightId": "process-geopolitical-technology-control",
-          "previousInsightId": "null",
+          "slug": "evidence-gap-halts-signal-validation",
+          "parentInsightId": null,
+          "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "Research Integrity",
-              "secondaryEyebrow": "Evidence Collection",
-              "title": "Source-Level Evidence Gap Blocks Signal Validation",
-              "summary": "The web-search dossier for August 9, 2026 contains only an abstract claim about emerging signals — no source-level facts, URLs, publishers, or publication dates. This is a temporary evidence-collection gap, not a change in any global process."
+              "eyebrow": "Global Insight Status",
+              "secondaryEyebrow": "Evidence Integrity",
+              "title": "Source-Level Evidence Gap Halts Signal Validation",
+              "summary": "The daily web-search dossier lacked verifiable source details, blocking any update to Global Process theses. This temporary gap requires re-collection of evidence before process judgments can change."
             },
             "question": {
-              "lead": "Can a signal be validated without verifiable sources?",
-              "title": "What happens when the evidence dossier lacks source-level detail?",
-              "footnote": "All existing process theses — AI infrastructure, energy security, semiconductor capacity, and geopolitical technology control — remain at their last-assessed stages with no new information to update them."
+              "lead": "How can we trust signals without sources?",
+              "title": "Can the evidence gap be resolved?",
+              "footnote": "Based on internal web-search dossier and process registry."
             },
             "signals": {
-              "title": "The Only Signal Present",
-              "sourceNote": "Only two context sources from internal research are available; no independent trigger or corroborating sources exist within the research window.",
+              "title": "Signals of an Evidence Gap",
+              "sourceNote": "Sources: internal web-search dossier and process registry.",
               "items": [
                 {
-                  "label": "Evidence",
-                  "title": "Abstract claim without source backing",
-                  "body": "The dossier states that several strong signals are emerging, but provides no URLs, publisher names, publication dates, or verifiable facts to support any specific global process change.",
-                  "whyImportant": "Without source-level detail, no process thesis can be updated, and no independent validation is possible.",
+                  "label": "Incomplete Dossier",
+                  "title": "Dossier lacks source-level facts",
+                  "body": "The web-search dossier for August 9, 2026, contains only the statement that several strong signals are emerging, without any URLs, publishers, or publication dates.",
+                  "whyImportant": "Without source-level detail, signal validation cannot proceed.",
                   "evidence": {
-                    "title": "WEB SEARCH DOSSIER",
-                    "description": "Internal research dossier dated 2026-08-09 containing only an abstract statement about emerging signals, with no source-level facts.",
+                    "title": "Abstract claim without verification",
+                    "description": "The dossier provides no verifiable facts.",
                     "confidence": "hypothesis",
                     "sourceIds": [
                       "signal-2026-08-09-evidence-gap-source-1"
@@ -236,14 +235,14 @@
                   }
                 },
                 {
-                  "label": "Registry",
-                  "title": "Four global processes await evidence",
-                  "body": "The existing process registry covers AI infrastructure race, energy security, semiconductor capacity, and geopolitical technology control — all stagnant at their last-assessed stages.",
-                  "whyImportant": "The absence of evidence is not evidence of absence; processes may be evolving, but no measurement is possible now.",
+                  "label": "Process Freeze",
+                  "title": "No process updates possible",
+                  "body": "The existing Global Process theses (AI infrastructure race, energy security, semiconductor capacity, geopolitical technology control) remain at their last-assessed stages due to lack of new evidence.",
+                  "whyImportant": "Process monitoring is stalled.",
                   "evidence": {
-                    "title": "Existing Global Processes registry",
-                    "description": "Internal registry of all active global process theses, showing four processes with no material change on 2026-08-09.",
-                    "confidence": "verified",
+                    "title": "Process registry unchanged",
+                    "description": "The process registry has no new input to change stages.",
+                    "confidence": "developing",
                     "sourceIds": [
                       "signal-2026-08-09-evidence-gap-source-2"
                     ]
@@ -252,195 +251,68 @@
               ]
             },
             "pattern": {
-              "title": "When the Signal Is Not About the World",
-              "before": "Insight production depended on continuous feeds of web-search evidence with source-level attribution, allowing each candidate signal to be matched against an existing process thesis.",
-              "shift": "The August 9 dossier arrived as an abstract summary without any independent, verifiable, source-attributed facts — a meta-signal about evidence collection rather than about any real-world process.",
-              "now": "The candidate correctly identifies itself as an evidence gap. No process judgment can change, and all four registered processes remain at their last-assessed stages with zero material-change score.",
-              "conclusion": "This is a temporary evidence-collection failure, not a global process insight. Re-collection of evidence with full source attribution is required before any process judgment is updated."
+              "title": "The Pattern: Evidence Void Disrupts Monitoring",
+              "before": "Daily web-search dossiers provided source-level facts that allowed evaluation of global processes.",
+              "shift": "The August 9 dossier failed to include such details, presenting only an abstract claim.",
+              "now": "Process theses are frozen, and the monitoring system cannot assess changes without re-collecting evidence.",
+              "conclusion": "Reliable process monitoring depends on source-level evidence; this gap highlights the system's dependence on rigorous sourcing."
             },
             "insight": {
-              "title": "Evidence integrity is the prerequisite for process tracking",
-              "formula": "No source-level facts → No validation → No process update",
-              "explanation": "When the evidence dossier lacks URLs, publishers, dates, and verifiable facts, the signal pipeline cannot produce meaningful process updates — regardless of how plausible the abstract claim may sound."
+              "title": "Evidence Gap Blocks Global Process Updates",
+              "formula": "No source details → No validation → No process change",
+              "explanation": "The absence of verifiable facts in the signal dossier means that no new information can be incorporated into any Global Process thesis. This creates a temporary standstill in process assessments, underscoring the necessity of source-level evidence for robust monitoring."
             },
             "observe": {
-              "title": "What to Watch While Evidence Is Re-Collected",
+              "title": "What to Observe Next",
               "items": [
                 {
-                  "label": "Process 1",
-                  "prompt": "Has any new, source-attributed evidence emerged for the AI infrastructure race?",
-                  "meta": "process-ai-infrastructure-race"
+                  "label": "Dossier Update",
+                  "prompt": "Has the web-search dossier been updated with source-level details?",
+                  "meta": "Check internal research feed."
                 },
                 {
-                  "label": "Process 2",
-                  "prompt": "Has any new, source-attributed evidence emerged for energy security shifts?",
-                  "meta": "process-energy-security"
+                  "label": "New Signals",
+                  "prompt": "Are new source-level signals emerging from trusted web sources?",
+                  "meta": "Monitor for URLs, publishers, and dates."
                 },
                 {
-                  "label": "Process 3",
-                  "prompt": "Has any new, source-attributed evidence emerged for semiconductor capacity changes?",
-                  "meta": "process-semiconductor-capacity"
-                },
-                {
-                  "label": "Process 4",
-                  "prompt": "Has any new, source-attributed evidence emerged for geopolitical technology control?",
-                  "meta": "process-geopolitical-technology-control"
+                  "label": "Process Registry",
+                  "prompt": "Are any Global Process stages changing due to external evidence?",
+                  "meta": "Review registry for updates."
                 }
               ],
-              "ending": "Until source-level evidence is re-collected, no process stage should be changed."
+              "ending": "The system will resume normal monitoring once source-level evidence is restored."
             }
           },
           "dailyStateEn": {
             "label": "No New Global Insight",
-            "decisionTitle": "Evidence gap prevents any process update",
-            "decisionSummary": "The candidate does not describe a change in any real-world process. It is a meta-signal reporting that the web-search dossier for 2026-08-09 contains no source-level facts, URLs, publishers, or publication dates — only an abstract statement about strong signals emerging. Without verifiable evidence, no existing global process thesis can be evaluated for change.",
-            "thresholdReason": "Material change score is zero; no trigger or corroborating sources exist within the research window; fewer than two independent sources with verifiable facts are provided.",
+            "decisionTitle": "Evidence Gap Halts Signal Validation",
+            "decisionSummary": "The web-search dossier for August 9, 2026 contains no source-level facts, preventing any update to Global Process theses. Re-collection of evidence is required before process judgments can change.",
+            "thresholdReason": "No trigger sources with verifiable facts were provided; only internal context sources were available.",
             "observeNext": [
-              "Re-collect web-search evidence with full source attribution",
-              "Monitor all four registered processes for any independently verifiable change",
-              "Do not update any process stage until source-level evidence is available"
+              "Monitor for new source-level evidence from web-search or other feeds.",
+              "Check if dossier update provides URLs, publishers, and publication dates.",
+              "Await any real-world events reported with source-level detail."
             ]
           },
           "processStage": "uncertain",
           "processContentEn": {
-            "title": "Technology control becomes geopolitical infrastructure",
-            "description": "Geopolitical technology control remains at the accelerating stage as last assessed, but no new source-attributed evidence is available to confirm, revise, or refute that judgment.",
-            "implication": "The absence of evidence means the process stage cannot be updated. Re-collection of evidence is required before any judgment about geopolitical technology control — or any other process — can change."
+            "title": "Source-level evidence gap blocks signal validation",
+            "description": "The web-search dossier for 2026-08-09 lacks source-level facts, URLs, publishers, or publication dates, containing only an abstract statement about strong signals emerging.",
+            "implication": "Without verifiable evidence, no Global Process thesis can be updated; this temporary gap requires re-collection of evidence before any process judgments change."
           },
-          "nextQuestionEn": "What source-level evidence can be collected to verify whether any global process has materially changed since the last assessment?",
+          "nextQuestionEn": "How can we resolve the source-level evidence gap to enable global process monitoring?",
           "observeNextEn": [
-            "Re-collect web-search evidence with full source attribution (URLs, publishers, dates, verifiable facts)",
-            "Monitor the AI infrastructure race for independently verifiable change",
-            "Monitor energy security shifts for independently verifiable change",
-            "Monitor semiconductor capacity and geopolitical technology control for independently verifiable change"
+            "Monitor web-search dossier for updated source-level evidence.",
+            "Track external signals for verifiable facts regarding global processes.",
+            "Review process registry for any changes once evidence arrives."
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 2874,
-          "outputTokens": 1510,
-          "cachedInputTokens": 2816
-        }
-      },
-      "writeZh": {
-        "ok": true,
-        "stage": "zh",
-        "language": "zh",
-        "localizedDraft": {
-          "page": {
-            "cover": {
-              "eyebrow": "研究诚信",
-              "secondaryEyebrow": "证据收集",
-              "title": "来源级证据缺口阻碍信号验证",
-              "summary": "2026年8月9日的网络搜索档案仅包含一条关于新兴信号的抽象陈述——没有来源级事实、网址、发布机构或发布日期。这是一个临时的证据收集缺口，而非任何全球进程的变化。"
-            },
-            "question": {
-              "lead": "没有可验证的来源，信号能否得到验证？",
-              "title": "当证据档案缺乏来源级细节时会发生什么？",
-              "footnote": "所有现有进程命题——人工智能基础设施、能源安全、半导体产能和地缘政治技术控制——仍处于上次评估阶段，没有任何新信息对其进行更新。"
-            },
-            "signals": {
-              "title": "唯一存在的信号",
-              "sourceNote": "仅有来自内部研究的两条背景来源可用；研究窗口内不存在独立的触发来源或佐证来源。",
-              "items": [
-                {
-                  "label": "证据",
-                  "title": "缺乏来源支持的抽象陈述",
-                  "body": "该档案声称若干强信号正在浮现，但未提供任何网址、发布机构名称、发布日期或可验证事实来支持任何具体的全球进程变化。",
-                  "whyImportant": "没有来源级细节，任何进程命题都无法更新，也无法进行独立验证。",
-                  "evidence": {
-                    "title": "网络搜索档案",
-                    "description": "日期为2026-08-09的内部研究档案，仅包含一条关于新兴信号的抽象陈述，且没有来源级事实。",
-                    "confidence": "hypothesis",
-                    "sourceIds": [
-                      "signal-2026-08-09-evidence-gap-source-1"
-                    ]
-                  }
-                },
-                {
-                  "label": "登记册",
-                  "title": "四项全球进程等待证据",
-                  "body": "现有进程登记册涵盖人工智能基础设施竞赛、能源安全、半导体产能和地缘政治技术控制——全部停留在上次评估阶段。",
-                  "whyImportant": "没有证据并不等于证据不存在；进程可能正在演变，但目前无法进行任何测度。",
-                  "evidence": {
-                    "title": "现有全球进程登记册",
-                    "description": "所有活跃全球进程命题的内部登记册，显示四项进程在2026-08-09没有实质变化。",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "signal-2026-08-09-evidence-gap-source-2"
-                    ]
-                  }
-                }
-              ]
-            },
-            "pattern": {
-              "title": "当信号并非关乎世界时",
-              "before": "洞察生产依赖于带有来源归属的网络搜索证据的持续输入，从而能够将每个候选信号与现有进程命题进行匹配。",
-              "shift": "8月9日的档案以抽象摘要的形式出现，不包含任何独立、可验证、有来源归属的事实——这是一个关于证据收集的元信号，而非关于任何现实世界进程。",
-              "now": "该候选信号正确地将其自身识别为证据缺口。任何进程判断都无法改变，所有四项已登记进程仍处于上次评估阶段，实质变化评分为零。",
-              "conclusion": "这是一个临时的证据收集失误，而非全球进程洞察。在更新任何进程判断之前，必须重新收集具有完整来源归属的证据。"
-            },
-            "insight": {
-              "title": "证据完整性是进程追踪的前提",
-              "formula": "没有来源级事实 → 无法验证 → 无法更新进程",
-              "explanation": "当证据档案缺乏网址、发布机构、日期和可验证事实时，信号管道无法产生有意义的进程更新——无论抽象陈述听起来多么合理。"
-            },
-            "observe": {
-              "title": "重新收集证据期间应关注什么",
-              "items": [
-                {
-                  "label": "进程1",
-                  "prompt": "人工智能基础设施竞赛是否出现了新的、有来源归属的证据？",
-                  "meta": "process-ai-infrastructure-race"
-                },
-                {
-                  "label": "进程2",
-                  "prompt": "能源安全转变是否出现了新的、有来源归属的证据？",
-                  "meta": "process-energy-security"
-                },
-                {
-                  "label": "进程3",
-                  "prompt": "半导体产能变化是否出现了新的、有来源归属的证据？",
-                  "meta": "process-semiconductor-capacity"
-                },
-                {
-                  "label": "进程4",
-                  "prompt": "地缘政治技术控制是否出现了新的、有来源归属的证据？",
-                  "meta": "process-geopolitical-technology-control"
-                }
-              ],
-              "ending": "在重新收集来源级证据之前，不应更改任何进程阶段。"
-            }
-          },
-          "dailyState": {
-            "label": "无新全球洞察",
-            "decisionTitle": "证据缺口阻碍任何进程更新",
-            "decisionSummary": "该候选信号并未描述任何现实世界进程的变化。它是一个元信号，报告2026-08-09的网络搜索档案不包含来源级事实、网址、发布机构或发布日期——只有一条关于强信号正在浮现的抽象陈述。没有可验证的证据，任何现有全球进程命题都无法评估其变化。",
-            "thresholdReason": "实质变化评分为零；研究窗口内不存在触发来源或佐证来源；所提供的具有可验证事实的独立来源少于两个。",
-            "observeNext": [
-              "重新收集具有完整来源归属的网络搜索证据",
-              "监测所有四项已登记进程是否出现可独立验证的变化",
-              "在获得来源级证据之前，不更新任何进程阶段"
-            ]
-          },
-          "processContent": {
-            "title": "技术控制成为地缘政治基础设施",
-            "description": "地缘政治技术控制仍处于上次评估时的加速阶段，但没有新的有来源归属的证据来确认、修正或反驳这一判断。",
-            "implication": "证据缺失意味着该进程阶段无法更新。在关于地缘政治技术控制——或任何其他进程——的判断能够改变之前，需要重新收集证据。"
-          },
-          "nextQuestion": "可以收集哪些来源级证据，以验证自上次评估以来是否有任何全球进程发生了实质变化？",
-          "observeNext": [
-            "重新收集具有完整来源归属的网络搜索证据（网址、发布机构、日期、可验证事实）",
-            "监测人工智能基础设施竞赛是否出现可独立验证的变化",
-            "监测能源安全转变是否出现可独立验证的变化",
-            "监测半导体产能和地缘政治技术控制是否出现可独立验证的变化"
-          ]
-        },
-        "model": "deepseek-v4-flash",
-        "usage": {
-          "inputTokens": 2434,
-          "outputTokens": 4636,
-          "cachedInputTokens": 2432
+          "inputTokens": 2342,
+          "outputTokens": 4882,
+          "cachedInputTokens": 2304
         }
       }
     },
@@ -498,5 +370,5 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 1/3"
+  "message": "WORLD analyze 自动重试 1/3"
 }
