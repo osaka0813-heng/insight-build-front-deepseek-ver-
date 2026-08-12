@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_base",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:53:20.263Z",
+  "updatedAt": "2026-08-12T09:53:27.788Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1519,7 +1519,7 @@
         "analyze": 1
       },
       "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-12T09:53:20.263Z",
+      "updatedAt": "2026-08-12T09:53:27.788Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-12-1786528384212",
@@ -1769,12 +1769,12 @@
               "triggerSourceCount": 3,
               "corroboratingSourceCount": 3,
               "contextSourceCount": 0,
-              "rationale": "This candidate directly pressure-tests process-us-fiscal-rates-dollar with material new developments that challenge the existing thesis. The 30-year yield at 5.231% (2007 high), 30-year TIPS real yield above 3% (2008 high), and the convergence of a $125bn quarterly refunding with CPI data and the September FOMC represent a significant escalation. The candidate also adds new dimensions not fully captured in the prior process: (1) the first Treasury FX intervention since 1998 to defend foreign demand (Bloomberg source), (2) explicit market questioning of Fed Chair Warsh's 2% inflation credibility ('all hat, no cattle' framing from Yahoo Finance), and (3) the Trump-Bessent policy dilemma where rate cuts could paradoxically push long-end yields higher. Six independent reliable sources (Reuters, CNBC, Barron's, Bloomberg, FT, Yahoo Finance) provide strong evidence. The 72-hour convergence of CPI, auctions, and FOMC expectations represents a genuine stage escalation from financing stress test toward potential term-premium repricing / Fed credibility crisis. This materially updates the living process by documenting a threshold moment where fiscal, rates, and dollar dynamics are compressing into a single stress-test window.",
+              "rationale": "This candidate directly pressure-tests process-us-fiscal-rates-dollar with multiple converging signals that materially advance the living thesis. The 30-year yield at 5.231% (highest since 2007), 10-year at 4.68–4.75% (18-month high), and 30-year TIPS real yield above 3% (highest since 2008) represent a term-premium repricing not seen in nearly two decades. The $125bn quarterly refunding week — with today's $42bn 10-year and tomorrow's $25bn 30-year auctions — compresses fiscal supply, Fed credibility (markets questioning Warsh's 2% commitment), and global dollar demand into a single 72-hour test. The Treasury's first FX intervention since 1998 (Bessent seeking Fed help to defend yen, per Bloomberg Aug 3) signals foreign demand fragility. The Trump-Bessent dilemma — rate cuts could steepen the long end while hawkishness conflicts with political pressure — adds a regime-contradiction dynamic. All stage indicators (auction demand, term premium, Fed reaction function, foreign participation) are activated simultaneously, shifting the process from a financing stress test toward a potential credibility-crisis escalation. Six independent reliable sources (Reuters, CNBC, Barron's, Bloomberg, FT, Yahoo Finance) provide strong evidence. The process match is near-perfect at 96, impact is 'challenges' because it tests and potentially destabilizes the existing fiscal-rates-dollar equilibrium, and the material change score of 85 reflects a genuine escalation in severity and urgency over prior states.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
-                "The candidate's pre-computed analysis used legacy 0-10 scores that were normalized to 0-100; the submitted scores reflect material judgment based on source evidence.",
-                "Some sources (Bloomberg, FT) may be behind paywalls limiting verification.",
-                "The actual CPI print and auction results were not yet known on August 12; outcomes could significantly alter the trajectory in either direction."
+                "Auction results (10-year today, 30-year tomorrow) and July CPI are not yet known at time of analysis; narrative could shift sharply within 24–48 hours.",
+                "FX intervention detail (Bessent-Fed yen call) is from Aug 3 Bloomberg; corroborating sources for this specific claim are limited to one outlet.",
+                "Evidence strength is high but forward-looking; the 'crisis' framing depends on whether auction demand weakens or yields breach 5%, which remains contingent."
               ],
               "candidateId": "us-fiscal-rates-dollar-yield-credibility-test-20260812"
             }
