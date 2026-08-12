@@ -6,17 +6,17 @@
   "currentScope": "global",
   "currentStage": "write_ja",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:42:44.173Z",
+  "updatedAt": "2026-08-12T09:42:46.985Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_ja",
       "attempts": {
         "analyze": 2,
         "write_zh": 1
       },
-      "message": "已保存 write_zh 断点",
-      "updatedAt": "2026-08-12T09:42:44.173Z",
+      "message": "write_ja",
+      "updatedAt": "2026-08-12T09:42:46.985Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
