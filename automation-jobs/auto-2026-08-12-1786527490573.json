@@ -6,7 +6,7 @@
   "currentScope": "japan",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:50:06.008Z",
+  "updatedAt": "2026-08-12T09:50:08.674Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1518,8 +1518,8 @@
       "attempts": {
         "research": 3
       },
-      "message": "DeepSeek Research JSON contains no candidates.",
-      "updatedAt": "2026-08-12T09:50:06.008Z",
+      "message": "DeepSeek Responses API returned no output_text.",
+      "updatedAt": "2026-08-12T09:50:08.674Z",
       "failedStage": "research"
     },
     "japan": {
