@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:53:42.389Z",
+  "updatedAt": "2026-08-12T09:53:46.854Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1517,81 +1517,97 @@
       "stage": "write_zh",
       "attempts": {},
       "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-12T09:53:42.389Z",
+      "updatedAt": "2026-08-12T09:53:46.854Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528304729",
+        "id": "research-us-2026-08-12-1786528256749",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:51:44.729Z",
+        "researchedAt": "2026-08-12T09:50:56.749Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 172596,
-          "outputTokens": 15927,
-          "cachedInputTokens": 141568
+          "inputTokens": 158832,
+          "outputTokens": 10321,
+          "cachedInputTokens": 128384
         },
-        "querySummary": "The dossier provides only a single actionable item: on 2026-08-12, the U.S. CPI report is scheduled for 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes. No actual CPI figures or auction results are yet available. The meaningful signal is the same-day collision of an inflation release with a long-duration Treasury supply event, which puts the fiscal-rates-dollar interaction into a single market-clearing moment.",
+        "querySummary": "The highest-value signal in the past 24 hours is the EIA's August 11 Short-Term Energy Outlook cutting its Texas 2027 electricity-load growth forecast from 14% to 6%, explicitly attributing the revision to Governor Abbott's August 3 pause/audit of new data-center grid connections. This is the first time a US official energy forecast has been revised down because of a regulatory/political break in AI data-center development. It directly tests the US AI capex & power buildout process and adds a new regulatory/political constraint beyond power availability and financing.",
         "candidates": [
           {
-            "id": "us-2026-08-12-cpi-10yr-auction-collision",
-            "date": "2026-08-12",
-            "domain": "Fiscal Policy / Rates / Treasury",
+            "id": "us-ai-power-texas-eia-2026-08-11",
+            "date": "2026-08-11",
+            "domain": "AI Capex / Power / Regulation",
             "tags": [
               "us",
-              "cpi",
-              "inflation",
-              "treasury",
-              "auction",
-              "rates",
-              "fiscal",
-              "supply"
+              "ai",
+              "datacenter",
+              "power",
+              "grid",
+              "regulation",
+              "texas",
+              "ercot",
+              "eia",
+              "interconnection"
             ],
-            "suggestedProcessId": "process-us-fiscal-rates-dollar",
-            "processMatchConfidence": 85,
-            "importance": 65,
-            "novelty": 55,
-            "evidenceStrength": 55,
-            "independentSourceCount": 2,
-            "thesisImpact": 50,
-            "relationshipChange": 65,
-            "stageChange": 30,
-            "contradiction": 5,
+            "suggestedProcessId": "process-us-ai-capex-power",
+            "processMatchConfidence": 95,
+            "importance": 92,
+            "novelty": 80,
+            "evidenceStrength": 88,
+            "independentSourceCount": 4,
+            "thesisImpact": 90,
+            "relationshipChange": 75,
+            "stageChange": 70,
+            "contradiction": 50,
             "content": {
               "en": {
-                "title": "CPI release coincides with the $42B 10-year note auction",
-                "coreFact": "On 2026-08-12, the U.S. CPI report is due at 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes on the same day, putting inflation data and long-dated Treasury supply directly on the same market calendar.",
-                "whyItMatters": "The auction will be the first pricing event after the CPI release, so investors must absorb new inflation information and new duration supply in one clearing price. That makes the 10-year auction a live test of whether inflation-sensitive demand can absorb Treasury supply without a term premium shock.",
-                "processMatchReason": "This is a direct instance of the fiscal-rates-dollar process: the interaction between inflation data and Treasury issuance is being observed in a single same-day sequence rather than as separate market themes."
+                "title": "EIA cuts Texas 2027 load-growth forecast from 14% to 6% after Abbott pauses data-center grid connections",
+                "coreFact": "In its August 11 Short-Term Energy Outlook, the EIA lowered its Texas 2027 electricity-load growth forecast from 14% to 6%, explicitly attributing the revision to Governor Abbott's August 3 pause and audit of new data-center grid connections.",
+                "whyItMatters": "This is the first time a US official energy forecast has been revised down because of a regulatory/political break in AI data-center development. Roughly 20% of the US data-center pipeline, or about 49.8 GW of ERCOT load, is exposed; BNEF estimates $8–15 billion of revenue at risk. The binding constraint on the US AI buildout is shifting from power availability and financing toward state-level politics and regulation.",
+                "processMatchReason": "This directly tests the 'US AI capital expenditure and power buildout' process: official power-demand modeling is now endogenizing regulatory risk, not just electricity supply, changing the expected physical buildout trajectory and creating a concrete PUCT decision point on August 20."
               },
               "zh": {
-                "title": "CPI发布与420亿美元10年期国债拍卖同日进行",
-                "coreFact": "2026年8月12日，美国CPI报告定于美东时间08:30发布，财政部同日计划拍卖420亿美元10年期国债，将通胀数据与长期国债供给放在同一个市场日历上。",
-                "whyItMatters": "10年期国债拍卖将成为CPI发布后的首个定价事件，投资者必须在同一个出清价格中吸收新的通胀信息与新的久期供给。这使得本次拍卖成为一次活体检验：对通胀敏感的国债需求能否在不引发期限溢价冲击的前提下消化供给。",
-                "processMatchReason": "这是财政—利率—美元进程的直接案例：通胀数据与国债发行的互动被压缩进同一天的先后顺序中，而不是作为两个独立的市场主题被分别观察。"
+                "title": "EIA将德州2027年电力负荷增长预测从14%下调至6%，此前州长暂停数据中心并网",
+                "coreFact": "在8月11日发布的短期能源展望中，EIA将德州2027年电力负荷增长预测从此前的14%下调至6%，并明确将这一修正归因于州长阿博特8月3日宣布暂停并审计新建数据中心并网。",
+                "whyItMatters": "这是美国官方能源预测首次因AI数据中心开发的监管/政治中断而下调。美国数据中心管线中约20%（ERCOT约49.8 GW负荷）面临延迟风险；BNEF估计相关收入风险为80亿至150亿美元。AI建设热潮的约束正在从电力可得性和融资转向州级政治与监管。",
+                "processMatchReason": "这直接检验了“美国AI资本开支与电力扩张”进程：官方电力需求模型现在开始把监管风险内生化，而不再只考虑电力供给，从而改变实体建设轨迹，并使8月20日PUCT会议成为具体催化节点。"
               },
               "ja": {
-                "title": "CPI発表と420億ドル10年債入札が同日に重なる",
-                "coreFact": "2026年8月12日、米CPIレポートはET8時30分に発表予定で、財務省は同日に420億ドルの10年債入札を予定しており、インフレデータと長期国債供給が同じ市場カレンダーに載る。",
-                "whyItMatters": "10年債入札はCPI発表後最初のプライシングイベントとなるため、投資家は新しいインフレ情報と新しいデュレーション供給を一つの清算価格に織り込む必要がある。このため入札は、インフレ感応的な国債需要がタームプレミアムの急上昇なしに供給を吸収できるかを試す場となる。",
-                "processMatchReason": "これは財政・金利・ドル体制の中核的問い——インフレと国債供給の相互作用——が、同日の順序として観察される直接的な事例である。"
+                "title": "EIA、テキサス州の2027年電力需要成長予測を14%から6%に引き下げ—知事によるデータセンター系統接続停止を受けて",
+                "coreFact": "2026年8月11日公表の短期エネルギー見通しで、EIAはテキサス州の2027年電力需要成長予測を従来の14%から6%に引き下げ、アボット知事が8月3日に発表した新規データセンターの系統接続停止・監査に原因があると明記した。",
+                "whyItMatters": "米国政府の公式エネルギー予測が、AIデータセンター開発に対する規制・政治的要因で下方修正された初めての事例。米国のデータセンターパイプラインの約20%（ERCOTの約49.8GW）が遅延リスクに直面し、BNEFは80億〜150億ドルの収益リスクを試算。AI建設の制約は電力調達・資金調達から州レベルの政治・規制へ移りつつある。",
+                "processMatchReason": "「米国のAI設備投資・電力増強」プロセスを直接試すもの。公式の電力需要モデルが電力供給だけでなく規制リスクを内生化し始めており、実物建設の軌道を変え、8月20日のPUCT会合が具体的な判断ポイントとなる。"
               }
             },
             "sources": [
               {
-                "title": "Consumer Price Index release for July 2026",
-                "url": "",
-                "publisher": "U.S. Bureau of Labor Statistics",
-                "publishedAt": "2026-08-12",
+                "title": "Short-Term Energy Outlook",
+                "url": "https://www.eia.gov/outlooks/steo/",
+                "publisher": "U.S. Energy Information Administration",
+                "publishedAt": "2026-08-11",
                 "kind": "primary"
               },
               {
-                "title": "Treasury 10-year note auction",
-                "url": "",
-                "publisher": "U.S. Department of the Treasury",
-                "publishedAt": "2026-08-12",
-                "kind": "primary"
+                "title": "Data center approvals in Texas halted until audits completed",
+                "url": "https://apnews.com/article/data-centers-texas-approvals-paused-audits-5cac087049aeae1b51221043972cf631",
+                "publisher": "Associated Press",
+                "publishedAt": "2026-08-03",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Texas Audit Could Delay 49.8 GW of Data Center Load, Cost Projects Up to $15 Billion, BNEF Warns",
+                "url": "https://www.powermag.com/texas-audit-could-delay-49-8-gw-of-data-center-load-cost-projects-up-to-15-billion-bnef-warns/",
+                "publisher": "POWER Magazine",
+                "publishedAt": "2026-08-05",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Texas data center pause puts 20% of US pipeline at risk of delay: BNEF",
+                "url": "https://www.utilitydive.com/news/texas-data-center-pause-puts-20-of-us-pipeline-at-risk-of-delay-bnef/",
+                "publisher": "Utility Dive",
+                "publishedAt": "2026-08-05",
+                "kind": "reliable_media"
               }
             ]
           }
@@ -1599,110 +1615,130 @@
       },
       "analyzedDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528304729",
+        "id": "research-us-2026-08-12-1786528256749",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:51:44.729Z",
+        "researchedAt": "2026-08-12T09:50:56.749Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 172596,
-          "outputTokens": 15927,
-          "cachedInputTokens": 141568
+          "inputTokens": 158832,
+          "outputTokens": 10321,
+          "cachedInputTokens": 128384
         },
-        "querySummary": "The dossier provides only a single actionable item: on 2026-08-12, the U.S. CPI report is scheduled for 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes. No actual CPI figures or auction results are yet available. The meaningful signal is the same-day collision of an inflation release with a long-duration Treasury supply event, which puts the fiscal-rates-dollar interaction into a single market-clearing moment.",
+        "querySummary": "The highest-value signal in the past 24 hours is the EIA's August 11 Short-Term Energy Outlook cutting its Texas 2027 electricity-load growth forecast from 14% to 6%, explicitly attributing the revision to Governor Abbott's August 3 pause/audit of new data-center grid connections. This is the first time a US official energy forecast has been revised down because of a regulatory/political break in AI data-center development. It directly tests the US AI capex & power buildout process and adds a new regulatory/political constraint beyond power availability and financing.",
         "candidates": [
           {
-            "id": "us-2026-08-12-cpi-10yr-auction-collision",
-            "date": "2026-08-12",
-            "domain": "Fiscal Policy / Rates / Treasury",
+            "id": "us-ai-power-texas-eia-2026-08-11",
+            "date": "2026-08-11",
+            "domain": "AI Capex / Power / Regulation",
             "tags": [
               "us",
-              "cpi",
-              "inflation",
-              "treasury",
-              "auction",
-              "rates",
-              "fiscal",
-              "supply"
+              "ai",
+              "datacenter",
+              "power",
+              "grid",
+              "regulation",
+              "texas",
+              "ercot",
+              "eia",
+              "interconnection"
             ],
-            "suggestedProcessId": "process-us-fiscal-rates-dollar",
-            "processMatchConfidence": 85,
-            "importance": 65,
-            "novelty": 55,
-            "evidenceStrength": 55,
-            "independentSourceCount": 2,
-            "thesisImpact": 50,
-            "relationshipChange": 65,
-            "stageChange": 30,
+            "suggestedProcessId": "process-us-ai-capex-power",
+            "processMatchConfidence": 95,
+            "importance": 92,
+            "novelty": 80,
+            "evidenceStrength": 88,
+            "independentSourceCount": 4,
+            "thesisImpact": 90,
+            "relationshipChange": 75,
+            "stageChange": 70,
             "contradiction": 50,
             "content": {
               "en": {
-                "title": "CPI release coincides with the $42B 10-year note auction",
-                "coreFact": "On 2026-08-12, the U.S. CPI report is due at 08:30 ET and the Treasury is scheduled to auction $42 billion in 10-year notes on the same day, putting inflation data and long-dated Treasury supply directly on the same market calendar.",
-                "whyItMatters": "The auction will be the first pricing event after the CPI release, so investors must absorb new inflation information and new duration supply in one clearing price. That makes the 10-year auction a live test of whether inflation-sensitive demand can absorb Treasury supply without a term premium shock.",
-                "processMatchReason": "This is a direct instance of the fiscal-rates-dollar process: the interaction between inflation data and Treasury issuance is being observed in a single same-day sequence rather than as separate market themes."
+                "title": "EIA cuts Texas 2027 load-growth forecast from 14% to 6% after Abbott pauses data-center grid connections",
+                "coreFact": "In its August 11 Short-Term Energy Outlook, the EIA lowered its Texas 2027 electricity-load growth forecast from 14% to 6%, explicitly attributing the revision to Governor Abbott's August 3 pause and audit of new data-center grid connections.",
+                "whyItMatters": "This is the first time a US official energy forecast has been revised down because of a regulatory/political break in AI data-center development. Roughly 20% of the US data-center pipeline, or about 49.8 GW of ERCOT load, is exposed; BNEF estimates $8–15 billion of revenue at risk. The binding constraint on the US AI buildout is shifting from power availability and financing toward state-level politics and regulation.",
+                "processMatchReason": "This directly tests the 'US AI capital expenditure and power buildout' process: official power-demand modeling is now endogenizing regulatory risk, not just electricity supply, changing the expected physical buildout trajectory and creating a concrete PUCT decision point on August 20."
               },
               "zh": {
-                "title": "CPI发布与420亿美元10年期国债拍卖同日进行",
-                "coreFact": "2026年8月12日，美国CPI报告定于美东时间08:30发布，财政部同日计划拍卖420亿美元10年期国债，将通胀数据与长期国债供给放在同一个市场日历上。",
-                "whyItMatters": "10年期国债拍卖将成为CPI发布后的首个定价事件，投资者必须在同一个出清价格中吸收新的通胀信息与新的久期供给。这使得本次拍卖成为一次活体检验：对通胀敏感的国债需求能否在不引发期限溢价冲击的前提下消化供给。",
-                "processMatchReason": "这是财政—利率—美元进程的直接案例：通胀数据与国债发行的互动被压缩进同一天的先后顺序中，而不是作为两个独立的市场主题被分别观察。"
+                "title": "EIA将德州2027年电力负荷增长预测从14%下调至6%，此前州长暂停数据中心并网",
+                "coreFact": "在8月11日发布的短期能源展望中，EIA将德州2027年电力负荷增长预测从此前的14%下调至6%，并明确将这一修正归因于州长阿博特8月3日宣布暂停并审计新建数据中心并网。",
+                "whyItMatters": "这是美国官方能源预测首次因AI数据中心开发的监管/政治中断而下调。美国数据中心管线中约20%（ERCOT约49.8 GW负荷）面临延迟风险；BNEF估计相关收入风险为80亿至150亿美元。AI建设热潮的约束正在从电力可得性和融资转向州级政治与监管。",
+                "processMatchReason": "这直接检验了“美国AI资本开支与电力扩张”进程：官方电力需求模型现在开始把监管风险内生化，而不再只考虑电力供给，从而改变实体建设轨迹，并使8月20日PUCT会议成为具体催化节点。"
               },
               "ja": {
-                "title": "CPI発表と420億ドル10年債入札が同日に重なる",
-                "coreFact": "2026年8月12日、米CPIレポートはET8時30分に発表予定で、財務省は同日に420億ドルの10年債入札を予定しており、インフレデータと長期国債供給が同じ市場カレンダーに載る。",
-                "whyItMatters": "10年債入札はCPI発表後最初のプライシングイベントとなるため、投資家は新しいインフレ情報と新しいデュレーション供給を一つの清算価格に織り込む必要がある。このため入札は、インフレ感応的な国債需要がタームプレミアムの急上昇なしに供給を吸収できるかを試す場となる。",
-                "processMatchReason": "これは財政・金利・ドル体制の中核的問い——インフレと国債供給の相互作用——が、同日の順序として観察される直接的な事例である。"
+                "title": "EIA、テキサス州の2027年電力需要成長予測を14%から6%に引き下げ—知事によるデータセンター系統接続停止を受けて",
+                "coreFact": "2026年8月11日公表の短期エネルギー見通しで、EIAはテキサス州の2027年電力需要成長予測を従来の14%から6%に引き下げ、アボット知事が8月3日に発表した新規データセンターの系統接続停止・監査に原因があると明記した。",
+                "whyItMatters": "米国政府の公式エネルギー予測が、AIデータセンター開発に対する規制・政治的要因で下方修正された初めての事例。米国のデータセンターパイプラインの約20%（ERCOTの約49.8GW）が遅延リスクに直面し、BNEFは80億〜150億ドルの収益リスクを試算。AI建設の制約は電力調達・資金調達から州レベルの政治・規制へ移りつつある。",
+                "processMatchReason": "「米国のAI設備投資・電力増強」プロセスを直接試すもの。公式の電力需要モデルが電力供給だけでなく規制リスクを内生化し始めており、実物建設の軌道を変え、8月20日のPUCT会合が具体的な判断ポイントとなる。"
               }
             },
             "sources": [
               {
-                "title": "Consumer Price Index release for July 2026",
-                "url": "",
-                "publisher": "U.S. Bureau of Labor Statistics",
-                "publishedAt": "2026-08-12",
+                "title": "Short-Term Energy Outlook",
+                "url": "https://www.eia.gov/outlooks/steo/",
+                "publisher": "U.S. Energy Information Administration",
+                "publishedAt": "2026-08-11",
                 "kind": "primary",
-                "id": "us-2026-08-12-cpi-10yr-auction-collision-source-1",
+                "id": "us-ai-power-texas-eia-2026-08-11-source-1",
                 "role": "trigger"
               },
               {
-                "title": "Treasury 10-year note auction",
-                "url": "",
-                "publisher": "U.S. Department of the Treasury",
-                "publishedAt": "2026-08-12",
-                "kind": "primary",
-                "id": "us-2026-08-12-cpi-10yr-auction-collision-source-2",
-                "role": "trigger"
+                "title": "Data center approvals in Texas halted until audits completed",
+                "url": "https://apnews.com/article/data-centers-texas-approvals-paused-audits-5cac087049aeae1b51221043972cf631",
+                "publisher": "Associated Press",
+                "publishedAt": "2026-08-03",
+                "kind": "reliable_media",
+                "id": "us-ai-power-texas-eia-2026-08-11-source-2",
+                "role": "corroborating"
+              },
+              {
+                "title": "Texas Audit Could Delay 49.8 GW of Data Center Load, Cost Projects Up to $15 Billion, BNEF Warns",
+                "url": "https://www.powermag.com/texas-audit-could-delay-49-8-gw-of-data-center-load-cost-projects-up-to-15-billion-bnef-warns/",
+                "publisher": "POWER Magazine",
+                "publishedAt": "2026-08-05",
+                "kind": "reliable_media",
+                "id": "us-ai-power-texas-eia-2026-08-11-source-3",
+                "role": "corroborating"
+              },
+              {
+                "title": "Texas data center pause puts 20% of US pipeline at risk of delay: BNEF",
+                "url": "https://www.utilitydive.com/news/texas-data-center-pause-puts-20-of-us-pipeline-at-risk-of-delay-bnef/",
+                "publisher": "Utility Dive",
+                "publishedAt": "2026-08-05",
+                "kind": "reliable_media",
+                "id": "us-ai-power-texas-eia-2026-08-11-source-4",
+                "role": "corroborating"
               }
             ],
-            "currentEventSourceCount": 2,
-            "corroboratingSourceCount": 0,
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 3,
             "contextSourceCount": 0,
             "claimSourceIds": [
-              "us-2026-08-12-cpi-10yr-auction-collision-source-1",
-              "us-2026-08-12-cpi-10yr-auction-collision-source-2"
+              "us-ai-power-texas-eia-2026-08-11-source-1",
+              "us-ai-power-texas-eia-2026-08-11-source-2",
+              "us-ai-power-texas-eia-2026-08-11-source-3",
+              "us-ai-power-texas-eia-2026-08-11-source-4"
             ],
             "analysis": {
-              "matchedProcessId": "process-us-fiscal-rates-dollar",
-              "processMatchConfidence": 85,
-              "impact": "no_material_change",
-              "dailyState": "no_new_global_insight",
-              "materialChangeScore": 12,
-              "publishThresholdMet": false,
-              "scoreWasNormalized": true,
-              "triggerSourceCount": 2,
-              "corroboratingSourceCount": 0,
+              "matchedProcessId": "process-us-ai-capex-power",
+              "processMatchConfidence": 95,
+              "impact": "updates",
+              "dailyState": "update_living",
+              "materialChangeScore": 74,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 3,
               "contextSourceCount": 0,
-              "rationale": "The candidate flags a calendar coincidence: the July CPI release and the $42B 10-year note auction both occur on 2026-08-12. This is a scheduling observation, not a demonstrable change in the US fiscal-rates-dollar system. The two primary sources merely confirm the scheduled date of each event; neither provides independent analysis showing that the same-day sequencing has materially altered Treasury demand dynamics, term premium behavior, or the fiscal-rates-dollar interaction. No auction result is available — the candidate describes the setup, not an outcome. The process thesis already captures the interaction between inflation data and Treasury supply; this candidate adds no new structural insight, no stage change evidence, and no measured market impact. The 50% materialChangeScore in the original analysis appears inflated given zero corroborating or context sources and no post-event data. A calendar alignment is an observation worth monitoring, not a publishable Insight.",
+              "rationale": "The candidate matures and materially updates the existing process-us-ai-capex-power thesis. The EIA's August 11 STEO is the first US official energy forecast to revise down load growth explicitly due to a regulatory/political break in AI data-center development, shifting the binding constraint from power availability and financing toward state-level politics and regulation. This change is documented by four independent sources: the primary EIA release, AP News on Abbott's August 3 pause, and BNEF analysis via POWER Magazine and Utility Dive quantifying 49.8 GW of ERCOT load and $8–15 billion in revenue at risk. The update changes the expected physical buildout trajectory and introduces a concrete PUCT decision point on August 20, making it a material update to the living process rather than a brand-new system relationship.",
               "warnings": [
-                "Legacy 0–10 scores were normalized to 0–100.",
-                "Original materialChangeScore of 50 overstates significance given zero corroborating sources and no outcome data.",
-                "Both sources are the scheduled-event notices themselves; neither constitutes independent analysis or evidence of a system change.",
-                "Candidate describes a pre-event configuration; without auction results or market reaction, there is no material update to the process."
+                "The EIA forecast revision is fresh (August 11) and the August 20 PUCT meeting has not yet occurred; near-term volatility in the forecast or political reversal could alter the trajectory.",
+                "BNEF's $8–15B revenue-at-risk estimate is third-party analysis, not an official government figure; treat as directional."
               ],
-              "candidateId": "us-2026-08-12-cpi-10yr-auction-collision"
+              "candidateId": "us-ai-power-texas-eia-2026-08-11"
             }
           }
         ],
@@ -1712,119 +1748,154 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": "us-2026-08-12-cpi-10yr-auction-collision",
-          "slug": "cpi-10yr-auction-collision-us-2026-08-12",
-          "parentInsightId": null,
+          "insightId": "insight-us-ai-power-texas-eia-2026-08-12",
+          "slug": "texas-pause-reshapes-ai-power-map",
+          "parentInsightId": "process-us-ai-capex-power",
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "US Fiscal-Rates-Dollar",
-              "secondaryEyebrow": "CPI and 10-Year Auction Collide",
-              "title": "Inflation Data Meets $42B Supply Test",
-              "summary": "Same-day CPI release and Treasury auction put inflation-sensitive demand to the test."
+              "eyebrow": "Texas Electricity Forecast Slashed",
+              "secondaryEyebrow": "EIA Cuts Texas 2027 Load-Growth Forecast by 8 Points in One Week",
+              "title": "Texas Pause Reshapes the AI Power Map",
+              "summary": "The U.S. Energy Information Administration cut its Texas 2027 electricity-load growth forecast from 14% to 6% after Governor Abbott paused data-center grid connections, marking the first official downgrade driven by state regulatory action—and exposing roughly 49.8 GW of ERCOT load to delay."
             },
             "question": {
-              "lead": "On August 12, 2026, the July CPI report and the Treasury's $42 billion 10-year note auction both land on the calendar. What does this simultaneous test tell us about US fiscal and rate dynamics?",
-              "title": "Does the US Treasury market still clear at stable term premiums when inflation data and supply hit simultaneously?",
-              "footnote": "Based on BLS CPI release and Treasury auction announcement."
+              "lead": "The U.S. AI buildout is now running headlong into state-level politics. How much of the data-center pipeline will this pause actually derail?",
+              "title": "When Regulation Overtakes Supply as the Binding Constraint on AI Power Demand?",
+              "footnote": "As Texas goes, so goes the accelerated US data-center expansion. August 20 PUCT meeting might provide early answers."
             },
             "signals": {
-              "title": "Calendar Signals",
-              "sourceNote": "Sources: BLS CPI release, Treasury auction notice.",
+              "title": "Signals of a Pivot in US Grid Planning",
+              "sourceNote": "Curated from official EIA data, wire service reporting, and BNEF analysis via POWER Magazine and Utility Dive.",
               "items": [
                 {
-                  "label": "CPI Release",
-                  "title": "July CPI Report at 08:30 ET",
-                  "body": "The July 2026 Consumer Price Index data is released on August 12, providing the latest read on US inflation.",
-                  "whyImportant": "Inflation data directly influences rate expectations and the pricing of long-dated Treasuries.",
+                  "label": "EIA",
+                  "title": "EIA Lowers Texas 2027 Load-Growth Forecast from 14% to 6%",
+                  "body": "The August 11 Short-Term Energy Outlook cut its Texas 2027 load-growth forecast by 8 percentage points, explicitly citing Governor Abbott’s August 3 order pausing and auditing new data-center grid connections.",
+                  "whyImportant": "This is the first official U.S. energy forecast to embed a regulatory/political break in AI-driven demand, signaling that state actions are now factored into national grid models.",
                   "evidence": {
-                    "title": "Consumer Price Index release for July 2026",
-                    "description": "Scheduled CPI data publication by BLS.",
+                    "title": "EIA Short-Term Energy Outlook, August 11, 2026",
+                    "description": "The STEO revised Texas forecast attributes the reduction to the pause on data-center connections.",
                     "confidence": "verified",
                     "sourceIds": [
-                      "us-2026-08-12-cpi-10yr-auction-collision-source-1"
+                      "us-ai-power-texas-eia-2026-08-11-source-1"
                     ]
                   }
                 },
                 {
-                  "label": "10-Year Auction",
-                  "title": "$42B 10-Year Note Auction",
-                  "body": "Later the same day, the Treasury auctions $42 billion of 10-year notes, a key benchmark for long-term rates.",
-                  "whyImportant": "The auction tests demand for duration following the fresh inflation print, making it a live market barometer.",
+                  "label": "AP",
+                  "title": "Abbott’s Pause: Data-Center Grid Connections Frozen Pending Audits",
+                  "body": "On August 3, Governor Abbott directed the PUCT to halt approvals for new data-center connections until audits of grid impacts are completed, a move confirmed by the Associated Press.",
+                  "whyImportant": "The freeze directly blocks new AI-related load from coming onto the Texas grid, turning a previously open door into a regulatory bottleneck.",
                   "evidence": {
-                    "title": "Treasury 10-year note auction",
-                    "description": "Scheduled Treasury auction of $42 billion 10-year notes.",
+                    "title": "AP News: Data center approvals in Texas halted until audits completed",
+                    "description": "Wire service report confirming the August 3 executive order.",
                     "confidence": "verified",
                     "sourceIds": [
-                      "us-2026-08-12-cpi-10yr-auction-collision-source-2"
+                      "us-ai-power-texas-eia-2026-08-11-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "POWER",
+                  "title": "BNEF: Audit Could Delay 49.8 GW of Data Center Load, Risk $15 Billion",
+                  "body": "POWER Magazine reported that BloombergNEF warns the Texas audit could delay 49.8 GW of ERCOT data-center load, putting $8–15 billion of projected revenue at risk.",
+                  "whyImportant": "This quantifies the physical and financial scale of the pause: nearly 50 GW of potential demand now in limbo, an amount comparable to the grid needs of a mid-sized state.",
+                  "evidence": {
+                    "title": "POWER Magazine: Texas Audit Could Delay 49.8 GW of Data Center Load",
+                    "description": "Third-party analysis of BNEF’s assessment of delayed load and revenue at risk.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "us-ai-power-texas-eia-2026-08-11-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "Dive",
+                  "title": "Pause Affects 20% of the Entire U.S. Data-Center Pipeline, Says BNEF",
+                  "body": "Utility Dive highlighted BNEF’s finding that the Texas pause puts roughly 20% of the total U.S. data-center pipeline at risk of delay.",
+                  "whyImportant": "Texas is not just another market; it holds one-fifth of the nation’s planned AI compute capacity, so the freeze ripples nationally.",
+                  "evidence": {
+                    "title": "Utility Dive: Texas data center pause puts 20% of US pipeline at risk of delay: BNEF",
+                    "description": "Report emphasizing the national share of the pipeline affected.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "us-ai-power-texas-eia-2026-08-11-source-4"
                     ]
                   }
                 }
               ]
             },
             "pattern": {
-              "title": "From Separate Events to Simultaneous Market Test",
-              "before": "Previously, CPI releases and Treasury auctions were often days or weeks apart, allowing markets to digest inflation data before facing new supply.",
-              "shift": "Due to calendar alignment, both events now occur on the same day, forcing investors to reprice inflation and absorb duration simultaneously.",
-              "now": "Today, the 10-year auction acts as an immediate proxy for whether inflation-sensitive buyers can absorb Treasury supply without a spike in term premium.",
-              "conclusion": "The same-day sequencing converts two previously separate market themes into a single stress event for US rates and fiscal dynamics."
+              "title": "From Assumed Growth to Political Hurdle: The New Reality of AI Power in Texas",
+              "before": "Before August 3, Texas was the epicenter of AI data-center development. ERCOT’s market design and abundant renewable resources attracted hyperscalers, with load-growth forecasts surging to 14% by 2027. Capital poured in on the assumption that grid connections would proceed without major political friction, and national energy models treated this demand as a given.",
+              "shift": "Governor Abbott’s August 3 pause and audit order instantly transformed the regulatory landscape. No new large-load connections will be approved until the PUCT completes its review. Within a week, the EIA—the U.S. government’s authoritative energy modeler—responded by slashing its Texas 2027 load-growth forecast from 14% to 6%, explicitly citing the regulatory action.",
+              "now": "As of August 12, roughly 49.8 GW of planned ERCOT data-center load is in a holding pattern. The binding constraint on AI infrastructure in Texas has shifted from power supply and financing to state-level politics and regulation. Up to $15 billion in projected revenue is now contingent on the outcome of the audits and the PUCT’s August 20 meeting.",
+              "conclusion": "The Texas pause signals a broader structural change: in key US markets, the pace of the AI buildout will be determined not just by how fast we can generate electrons, but by how willing state regulators are to let data centers plug in. The EIA’s swift revision proves that official forecasts are now treating regulatory risk as a first-order variable, not a footnote."
             },
             "insight": {
-              "title": "The CPI-Auction Collision as a Fiscal-Rates Stress Indicator",
-              "formula": "Colliding CPI release + 10-year auction → live test of inflation tolerance and duration absorption capacity",
-              "explanation": "When the most important inflation release shares a day with a major long-term debt auction, the market must price both new information and new supply in a single clearing. This transforms the auction from a routine funding event into a real-time gauge of the dollar's inflation credibility and Treasury demand resilience."
+              "title": "The Grid Bottleneck Shifts from Electrons to Permits",
+              "formula": "Regulatory pause → Official demand downgrade → $15B revenue at risk → Power constraint shifts to politics",
+              "explanation": "The EIA’s 8-point cut to Texas load growth is not just a data revision; it marks a structural pivot. For the first time, a major U.S. energy forecast has been revised down because of a political decision affecting AI data centers. This reorders the hierarchy of constraints: previously the worry was whether generation could be built fast enough; now the immediate gatekeeper is whether regulators will grant access. With 20% of the U.S. data-center pipeline caught in the freeze, the financial implications (up to $15 billion in at-risk revenue) underscore that capital deployment plans are now hostage to state-level administrative processes."
             },
             "observe": {
-              "title": "What to Watch Next",
+              "title": "What to Observe Next",
               "items": [
                 {
-                  "label": "Auction Yield",
-                  "prompt": "Compare the auction's stop-through yield to the pre-CPI market level—does inflation data shift the clearing price relative to fair value?",
-                  "meta": "High-frequency indicator"
+                  "label": "PUCT Meeting",
+                  "prompt": "Monitor the August 20 PUCT open meeting for any preliminary findings from the audit and guidance on resumption of connection approvals.",
+                  "meta": "The first official signal on whether the freeze will extend or ease."
                 },
                 {
-                  "label": "Dealer vs. Direct Bidders",
-                  "prompt": "Monitor the bidder breakdown: if direct and indirect demand weakens relative to dealers, it signals absorption stress.",
-                  "meta": "Demand composition"
+                  "label": "EIA Next STEO",
+                  "prompt": "Watch the next EIA Short-Term Energy Outlook for further adjustments to Texas and other state-level forecasts if regulatory pauses spread.",
+                  "meta": "If other states follow Texas, the national AI load-growth story could weaken further."
                 },
                 {
-                  "label": "Term Premium Response",
-                  "prompt": "Watch the 10-year term premium immediately after the auction: a sharp rise would indicate investors require extra compensation for the same-day information shock.",
-                  "meta": "ACM term premium model"
+                  "label": "Hyperscaler Capex",
+                  "prompt": "Track Q3 earnings calls and capital expenditure guidance from major cloud providers and data-center developers active in Texas.",
+                  "meta": "Early signals of project delays or relocation will reveal the real-world cost of the pause."
+                },
+                {
+                  "label": "Other States",
+                  "prompt": "Observe whether states like Virginia, Arizona, or Ohio introduce similar audit or pause mechanisms in reaction to local grid concerns.",
+                  "meta": "A domino effect would fundamentally alter the U.S. AI infrastructure trajectory."
                 }
               ],
-              "ending": "These signals will show whether the market treats the CPI-auction collision as a manageable calendar quirk or an escalating fiscal-rates stress event."
+              "ending": "The August 20 meeting will be the first test of whether Texas’s pause is a temporary speed bump or a permanent detour for AI power demand."
             }
           },
           "dailyStateEn": {
-            "label": "Calendar Alignment",
-            "decisionTitle": "No Material Change Yet",
-            "decisionSummary": "The same-day CPI release and 10-year auction is a scheduling coincidence that warrants monitoring but does not by itself alter the fiscal-rates-dollar regime. Market reactions to the auction outcome could provide future signals.",
-            "thresholdReason": "Insufficient evidence of structural shift; no auction results available to assess impact.",
+            "label": "update_living",
+            "decisionTitle": "Insight Update: EIA Cut Reflects Regulatory Risk",
+            "decisionSummary": "The research trigger confirms that the US AI power buildout is now being shaped by state-level political decisions, not just market forces. The EIA’s 8-point forecast cut updates our process to 'accelerating' structural change because official models are internalizing this new risk.",
+            "thresholdReason": "Material change score of 74: the EIA revision is a concrete, verifiable downgrade from a primary government source, corroborated by three independent analyses quantifying the scale of delay and financial risk.",
             "observeNext": [
-              "Auction stop-through yield versus pre-CPI fair value",
-              "Bidder demand breakdown",
-              "Post-auction term premium movement"
+              "PUCT August 20 meeting outcomes",
+              "EIA September STEO for potential contagion to other states",
+              "Hyperscaler capex guidance adjustments",
+              "Other states’ regulatory actions"
             ]
           },
           "processStage": "accelerating",
           "processContentEn": {
-            "title": "US Fiscal, Rates and Dollar Regime",
-            "description": "This insight examines how the interaction of US fiscal policy, interest rates, and the dollar is evolving, with the CPI-auction collision as a case study.",
-            "implication": "The same-day collision highlights the potential for fiscal and monetary dynamics to interact more tightly as debt issuance expands."
+            "title": "US AI Capital Expenditure and Power Buildout",
+            "description": "This process tracks the physical and financial expansion of AI infrastructure—data centers, energy supply—across the United States, and the constraints that shape its trajectory.",
+            "implication": "The binding constraint is shifting from electricity supply to state-level regulatory approvals. This introduces a new layer of political risk that could fragment the pace of buildout by region and alter the investment case for AI infrastructure."
           },
-          "nextQuestionEn": "How will the July auction's outcome influence expectations for the next quarterly refunding announcement?",
+          "nextQuestionEn": "Will the Texas pause spread to other leading data-center markets, and how will federal energy policy respond to state-level bottlenecks?",
           "observeNextEn": [
-            "Auction stop-through yield vs. pre-CPI expectations",
-            "Bidder participation rates",
-            "10-year term premium change"
+            "PUCT August 20 meeting and audit findings",
+            "EIA September Short-Term Energy Outlook for broader state-level revisions",
+            "Hyperscaler capex and project timeline adjustments",
+            "New state-level data-center regulations in Virginia, Ohio, Arizona"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 2518,
-          "outputTokens": 3174,
-          "cachedInputTokens": 2432
+          "inputTokens": 3002,
+          "outputTokens": 5634,
+          "cachedInputTokens": 1152
         }
       }
     },
