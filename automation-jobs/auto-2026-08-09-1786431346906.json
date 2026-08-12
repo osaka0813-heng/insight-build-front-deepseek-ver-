@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:46:50.871Z",
+  "updatedAt": "2026-08-12T09:46:53.868Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,11 @@
       }
     },
     "us": {
-      "status": "running",
+      "status": "checkpointed",
       "stage": "write_zh",
       "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-08-12T09:46:50.871Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-12T09:46:53.868Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527902096",
@@ -1798,16 +1798,16 @@
               "triggerSourceCount": 0,
               "corroboratingSourceCount": 0,
               "contextSourceCount": 2,
-              "rationale": "The candidate contains zero verifiable article-level evidence, sources, or facts—only an internal researcher note about a potential emerging candidate and a verification plan. No domain or process is identified. Matching to any US process would require fabricating a linkage. All four tracked processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) cannot be updated. The safe state is evidence-empty; no new Insight is warranted.",
+              "rationale": "The candidate contains no verifiable article-level evidence, sources, or facts. It consists solely of an internal researcher note about a 'strong candidate emerging' and a verification plan, with zero independent sources, zero trigger sources, and zero corroborating sources. Matching this to any US process would require fabricating a linkage. None of the four tracked US processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) can be updated from this scan. The safe and correct action is to treat this scan as evidence-empty.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
                 "No trigger source falls inside the research window.",
                 "Fewer than two current or corroborating sources.",
-                "No trigger sources in research window",
-                "Zero independent or corroborating sources",
-                "Candidate explicitly flagged as unconfirmed by researcher",
-                "Suggested process match in candidate (process-us-labor-immigration) has no evidential basis and was rejected",
-                "Any process-stage adjustment would anchor thesis to unsupported change"
+                "No verifiable evidence or independent sources present.",
+                "Candidate is an internal research note, not a signal.",
+                "Zero trigger sources and zero corroborating sources.",
+                "Any process match would be speculative and unsupported.",
+                "No material change to any US process can be derived from this scan."
               ],
               "candidateId": "us-evidence-gap-2026-08-09"
             }
@@ -1819,34 +1819,34 @@
         "ok": true,
         "stage": "base",
         "baseDraft": {
-          "insightId": "insight-us-labor-immigration-2026-08-09-nochange",
-          "slug": "us-labor-immigration-no-material-change-2026-08-09",
-          "parentInsightId": "process-us-labor-immigration",
+          "insightId": "us-evidence-gap-2026-08-09",
+          "slug": "unverified-signal-us-labor-immigration",
+          "parentInsightId": null,
           "previousInsightId": null,
           "en": {
             "cover": {
               "eyebrow": "US Labor & Immigration",
-              "secondaryEyebrow": "Structural Process Update",
-              "title": "No Material Change in US Labor and Immigration Landscape",
-              "summary": "A 24-hour scan for signals of structural shift in U.S. labor and immigration policy yielded no verifiable evidence. The process remains in an emerging stage, with monitoring ongoing."
+              "secondaryEyebrow": "Structural Change Monitor",
+              "title": "Unverified Signal in US Labor & Immigration Regime",
+              "summary": "A flagged candidate for structural change remains unverified; no article-level evidence found."
             },
             "question": {
-              "lead": "Tracking change",
+              "lead": "The August 8-9 scan of US-specific structural change produced no verifiable evidence.",
               "title": "Is there a structural shift underway in US labor and immigration?",
-              "footnote": "Based on August 8–9, 2026, scan; no signals met verification threshold."
+              "footnote": "Based on internal researcher notes, no external sources."
             },
             "signals": {
-              "title": "Scanned Signals",
-              "sourceNote": "Only internal research notes were available; no article-level triggers.",
+              "title": "Signals of Unverified Candidate",
+              "sourceNote": "This scan contains only internal researcher notes.",
               "items": [
                 {
-                  "label": "POTENTIAL",
-                  "title": "Unconfirmed candidate noted",
-                  "body": "A researcher flagged a 'strong candidate' for labor/immigration structural change, but no details or sources were provided.",
-                  "whyImportant": "Indicates ongoing attention to the process, but falls short of a verifiable signal.",
+                  "label": "Unverified Flag",
+                  "title": "Internal Note Suggests Candidate",
+                  "body": "A researcher noted a 'strong candidate emerging' in the US structural change scan.",
+                  "whyImportant": "It may indicate a potential shift, but lacks verification.",
                   "evidence": {
-                    "title": "Internal research note",
-                    "description": "Note in web-search dossier dated 2026-08-09",
+                    "title": "Internal researcher note",
+                    "description": "The dossier contains a note about a candidate, but no supporting articles.",
                     "confidence": "hypothesis",
                     "sourceIds": [
                       "us-evidence-gap-2026-08-09-source-1"
@@ -1854,14 +1854,14 @@
                   }
                 },
                 {
-                  "label": "MONITORING",
-                  "title": "Verification planned for key sources",
-                  "body": "The research team scheduled verification of key sources within the scan window to confirm any potential shift.",
-                  "whyImportant": "Demonstrates active process monitoring but no confirmed change.",
+                  "label": "Verification Plan",
+                  "title": "Plan to Verify Key Sources",
+                  "body": "A plan to verify key sources within the Aug 8–9 window was recorded, but no results are available.",
+                  "whyImportant": "Verification is essential to confirm or refute the candidate.",
                   "evidence": {
-                    "title": "Verification plan",
-                    "description": "Plan outlined in internal research log",
-                    "confidence": "developing",
+                    "title": "Verification plan note",
+                    "description": "Internal log indicates a verification plan, but no completed verification exists.",
+                    "confidence": "hypothesis",
                     "sourceIds": [
                       "us-evidence-gap-2026-08-09-source-2"
                     ]
@@ -1870,68 +1870,67 @@
               ]
             },
             "pattern": {
-              "title": "What's Holding: US Labor & Immigration",
-              "before": "Prior signals suggested potential reconfiguration of US labor markets and immigration rules, keeping the process in an emerging stage.",
-              "shift": "The August 8–9 scan aimed to capture any structural break or policy shift, but the evidence dossier contained no article-level triggers.",
-              "now": "The process remains in the emerging stage, characterized by early signals without material confirmation.",
-              "conclusion": "No structural change can be reported; the process continues to be monitored for shifts."
+              "title": "From Unverified to Verified: The Need for Evidence",
+              "before": "Before August 8-9, the US labor and immigration regime was being monitored as an emerging structural change, with no confirmed material shift.",
+              "shift": "A researcher flagged a candidate as a potential structural shift, but without verifying key sources.",
+              "now": "The scan yields no article-level evidence; the candidate remains unconfirmed.",
+              "conclusion": "The process stage remains 'emerging', and ongoing monitoring is required until verifiable evidence emerges."
             },
             "insight": {
-              "title": "The Core Dynamic: No Acceleration Detected",
-              "formula": "Scan evidence = 0 → process stage unchanged",
-              "explanation": "Without verifiable sources pointing to a shift, the labor and immigration process does not progress beyond its current emerging stage. The underlying thesis of potential structural change remains unconfirmed."
+              "title": "Verification Gap Prevents Structural Shift Confirmation",
+              "formula": "Unverified candidate + zero external evidence → no structural change confirmation",
+              "explanation": "Without article-level evidence, any claim of structural change in US labor and immigration is premature. The flagged candidate must be corroborated before updating the process stage."
             },
             "observe": {
-              "title": "Where to Watch Next",
+              "title": "What to Watch Next",
               "items": [
                 {
-                  "label": "Labor Data",
-                  "prompt": "Watch for official employment reports and wage growth figures.",
-                  "meta": "Monthly releases"
+                  "label": "Verification",
+                  "prompt": "Has the candidate been verified by external sources?",
+                  "meta": "Check for published articles or data releases."
                 },
                 {
-                  "label": "Immigration Policy",
-                  "prompt": "Track legislative or executive actions on immigration quotas and work visas.",
-                  "meta": "Policy updates"
+                  "label": "Monitoring",
+                  "prompt": "Are there any new signals in the next scan?",
+                  "meta": "Review subsequent dossiers for trigger or corroborating sources."
                 },
                 {
-                  "label": "Corporate Trends",
-                  "prompt": "Monitor major corporate hiring and relocation announcements.",
-                  "meta": "Press releases"
+                  "label": "Policy Changes",
+                  "prompt": "Have there been any US immigration or labor policy announcements?",
+                  "meta": "Monitor government and agency press releases."
                 }
               ],
-              "ending": "Until new, corroborated evidence emerges, the structural narrative holds steady."
+              "ending": "Continue scanning for verifiable evidence of structural change in US labor and immigration."
             }
           },
           "dailyStateEn": {
-            "label": "Insufficient Evidence",
-            "decisionTitle": "No Material Change Detected",
-            "decisionSummary": "The latest scan contained no verifiable signals; the US labor and immigration process remains in the emerging stage.",
-            "thresholdReason": "Zero trigger sources, no corroborating evidence, and candidate flagged as unconfirmed.",
+            "label": "No Material Change",
+            "decisionTitle": "Stage Unchanged: Emerging",
+            "decisionSummary": "The August 8-9 scan provided no verifiable evidence to update the stage of the US labor and immigration process. It remains 'emerging'.",
+            "thresholdReason": "Zero trigger or corroborating sources; internal notes only.",
             "observeNext": [
-              "Official labor market data releases",
-              "Immigration policy announcements",
-              "Corporate hiring trends"
+              "Verify candidate in next scan",
+              "Monitor US immigration policy announcements",
+              "Check labor market data releases"
             ]
           },
           "processStage": "emerging",
           "processContentEn": {
             "title": "US Labor and Immigration Regime",
-            "description": "This process tracks potential structural changes in U.S. labor markets and immigration policy, including workforce reconfiguration, policy shifts, and economic reindustrialization effects.",
-            "implication": "As of the latest scan, there is no evidence of acceleration; the process remains emergent, with monitoring continuing for future signals."
+            "description": "Monitoring potential structural changes in US labor and immigration policies and dynamics.",
+            "implication": "If a structural shift occurs, it could impact labor markets, immigration flows, and economic growth."
           },
-          "nextQuestionEn": "What would constitute a verifiable signal of structural shift in US labor and immigration?",
+          "nextQuestionEn": "Will external sources confirm a structural shift in US labor and immigration?",
           "observeNextEn": [
-            "Official labor market data releases",
-            "Immigration policy announcements",
-            "Corporate hiring trends",
-            "Updated economic forecasts addressing labor supply"
+            "Verify candidate in next scan",
+            "Monitor US immigration policy announcements",
+            "Check labor market data releases"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 2495,
-          "outputTokens": 3419,
+          "inputTokens": 2515,
+          "outputTokens": 3422,
           "cachedInputTokens": 1152
         }
       }
