@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:49:00.591Z",
+  "updatedAt": "2026-08-12T09:49:05.640Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1113,7 +1113,7 @@
         "analyze": 1
       },
       "message": "write_zh",
-      "updatedAt": "2026-08-12T09:49:00.591Z",
+      "updatedAt": "2026-08-12T09:49:05.640Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
