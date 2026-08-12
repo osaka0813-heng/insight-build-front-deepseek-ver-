@@ -3,10 +3,10 @@
   "status": "running",
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "us",
-  "currentStage": "analyze",
+  "currentScope": "japan",
+  "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:50:04.413Z",
+  "updatedAt": "2026-08-12T09:50:06.008Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1513,123 +1513,14 @@
       }
     },
     "us": {
-      "status": "checkpointed",
-      "stage": "analyze",
+      "status": "error",
+      "stage": "research",
       "attempts": {
-        "research": 2
+        "research": 3
       },
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-08-12T09:50:04.413Z",
-      "failedStage": "research",
-      "researchDraft": {
-        "ok": true,
-        "id": "research-us-2026-08-12-1786528204408",
-        "status": "draft",
-        "researchedAt": "2026-08-12T09:50:04.408Z",
-        "researchDate": "2026-08-12",
-        "scope": "us",
-        "provider": "deepseek",
-        "model": "deepseek-v4-flash",
-        "usage": {
-          "inputTokens": 89065,
-          "outputTokens": 13938,
-          "cachedInputTokens": 66304
-        },
-        "querySummary": "In the 24 hours to Aug 12, 2026, US Treasury pricing shifted from an inflation narrative to a fiscal-deficit narrative: the Aug 11 3-year auction cleared at 4.291%, the highest since Feb 2025; 30-year yields reached levels last seen around 2007; CBO projected a $2.1T FY2026 deficit; net interest costs were about $3B per day; and the Aug 12 CPI report became the next test for whether long-end yields can stay contained.",
-        "candidates": [
-          {
-            "id": "sig-us-fiscal-rates-dollar-20260812-auction-narrative",
-            "date": "2026-08-12",
-            "domain": "Fiscal Policy; Rates; Treasuries; Dollar",
-            "tags": [
-              "us",
-              "fiscal",
-              "deficit",
-              "treasury",
-              "rates",
-              "dollar",
-              "yields",
-              "auction",
-              "cpi",
-              "fed"
-            ],
-            "suggestedProcessId": "process-us-fiscal-rates-dollar",
-            "processMatchConfidence": 92,
-            "importance": 88,
-            "novelty": 70,
-            "evidenceStrength": 82,
-            "independentSourceCount": 5,
-            "thesisImpact": 85,
-            "relationshipChange": 76,
-            "stageChange": 72,
-            "contradiction": 18,
-            "content": {
-              "en": {
-                "title": "Treasury pricing starts to be dominated by fiscal deficit rather than inflation",
-                "coreFact": "On Aug 11, 2026, the US Treasury's $58B 3-year note auction cleared at 4.291%, the highest stop-out for that tenor since Feb 2025, with bid-to-cover rising to 2.71 from 2.60. In the same window, the 10-year yield was around 4.68-4.75%, the 30-year yield reached 5.23%, and the 30-year TIPS real yield was above 3% — the highest 30-year nominal level since 2007 and highest 30-year TIPS real level since 2008. CBO released data projecting FY2026 deficit at about $2.1T, up roughly $200B from its February forecast, with net interest costs of about $3B per day.",
-                "whyItMatters": "Market commentary in the Aug 11-12 window explicitly shifted the cause of rising long-end yields from inflation to fiscal supply: ING said the fiscal deficit has been morphing in a more bond-negative direction, and Yonhap Infomax framed the market as shedding inflation concerns with 'fiscal deficit is the problem.' The Aug 12 CPI report now tests whether yields can remain stable without further long-end repricing; commentators said an upside CPI surprise would bring a September hike into view, while a downside miss could push the 10-year toward 5%. This also directly touches dollar dynamics, with the dollar index hovering just below 100, and Fed credibility under Chair Warsh.",
-                "processMatchReason": "This is a direct read-out of the 'financing stress test' for process-us-fiscal-rates-dollar: auction demand, rising deficit-financing needs, record interest costs, and long-end term-premium pressure are interacting with Fed reaction-function uncertainty and dollar demand, rather than being explained mainly by inflation."
-              },
-              "zh": {
-                "title": "美债定价开始由财政赤字而非通胀主导",
-                "coreFact": "8月11日，美国财政部580亿美元3年期国债拍卖得标利率为4.291%，为该期限自2025年2月以来最高，投标倍数从2.60升至2.71。同一窗口内，10年期收益率约在4.68%-4.75%，30年期达5.23%，30年期TIPS实际收益率高于3%；30年期名义收益率处于2007年以来高位，实际收益率处于2008年以来高位。CBO同期数据显示，2026财年赤字预计约2.1万亿美元，较2月预测增加约2000亿美元，净利息成本约每天30亿美元。",
-                "whyItMatters": "8月11-12日的市场评论明确将长端收益率上升的原因从通胀切换为财政供给：ING称财政赤字正朝更利空债券的方向演变，Yonhap Infomax的报道则概括为市场正在摆脱通胀担忧，'财政赤字才是问题'。8月12日CPI因此成为关键测试：若CPI上行，9月加息将进入视野；若低于预期，10年期收益率可能向5%靠近。这也直接影响美元走势——美元指数在100关口下方徘徊——以及Warsh领导下的美联储信誉。",
-                "processMatchReason": "这是us-fiscal-rates-dollar进程'融资压力测试期'的直接读数：拍卖需求、不断上升的赤字融资需求、创纪录利息成本与长端期限溢价压力，正在与美联储反应函数的不确定性及美元需求相互交织，而主要驱动力已不再来自通胀。"
-              },
-              "ja": {
-                "title": "米国債の価格形成はインフレから財政赤字主体へシフト",
-                "coreFact": "2026年8月11日の米3年国債580億ドル入札は4.291%で落札され、同年限としては2025年2月以来の高水準。応札倍率は2.60から2.71へ上昇した。同時点で10年債利回りは4.68〜4.75%前後、30年債は5.23%、30年TIPS実質利回りは3%超。30年債名目利回りは2007年以来、実質利回りは2008年以来の高水準。CBOの同時期の公表では、2026年度赤字は約2.1兆ドルで2月見通しから約2,000億ドル増、純利払い費は1日約30億ドル。",
-                "whyItMatters": "8月11〜12日の市場コメントは、長期金利上昇の主因をインフレから財政供給へ明確に切り替えた。INGは財政赤字が債券にとってより逆風の方向へ変形していると指摘し、Yonhap Infomaxは『財政赤字こそ問題』と市場の受け止めを報じた。8月12日のCPIは、長期金利が再び上昇せずに安定を維持できるかを試す節目。上振れなら9月利上げが視野に入り、下振れなら10年債が5%に接近し得る。ドル指数が100を目前に控える中で、ドルとWarsh FRBの信認にも影響する。",
-                "processMatchReason": "これはus-fiscal-rates-dollarプロセスの『資金調達ストレステスト』の直接的な現れ。入札需要、増大する赤字調達需要、記録的な利払い費、長期間のタームプレミアム圧力が、FRBの反応関数の不確実性とドル需要と相互作用しており、主因はもはやインフレではない。"
-              }
-            },
-            "sources": [
-              {
-                "title": "美国财政部拍卖580亿美元三年期国债，得标利率4.291%",
-                "url": "https://finance.eastmoney.com/a/202608123838303864.html",
-                "publisher": "东方财富/每日经济新闻",
-                "publishedAt": "2026-08-11",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "Treasury yields are little changed as investors await key inflation data",
-                "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
-                "publisher": "CNBC",
-                "publishedAt": "2026-08-12",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "US Bond Market Sheds Inflation Concerns - 'Fiscal Deficit Is the Problem'",
-                "url": "https://en.infomaxai.com/news/articleView.html?idxno=134659",
-                "publisher": "Yonhap Infomax",
-                "publishedAt": "2026-08-12",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "Deficit Will Top $2 Trillion This Year, CBO Says",
-                "url": "https://finance.yahoo.com/economy/policy/articles/deficit-top-2-trillion-cbo-231528943.html",
-                "publisher": "Yahoo Finance",
-                "publishedAt": "2026-08-10",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "Interest on national debt now costs Treasury $3 billion a day…",
-                "url": "https://fortune.com/2026/08/11/us-treasury-national-debt-interest-cbo-yen-unwinds/",
-                "publisher": "Fortune",
-                "publishedAt": "2026-08-11",
-                "kind": "reliable_media"
-              },
-              {
-                "title": "National Debt Reaches $39.83 Trillion…",
-                "url": "https://www.jec.senate.gov/public/index.cfm/republicans/newsroom?ID=67C58929-D721-46E8-AB99-FC03177B09FC",
-                "publisher": "U.S. Congress Joint Economic Committee (JEC) Republicans",
-                "publishedAt": "2026-08-06",
-                "kind": "primary"
-              }
-            ]
-          }
-        ]
-      }
+      "message": "DeepSeek Research JSON contains no candidates.",
+      "updatedAt": "2026-08-12T09:50:06.008Z",
+      "failedStage": "research"
     },
     "japan": {
       "status": "queued",
@@ -1671,5 +1562,5 @@
       }
     ]
   },
-  "message": "US research 自动重试 2/3"
+  "message": "US 在 research 连续失败 3 次，保留断点并跳到下一区域。"
 }
