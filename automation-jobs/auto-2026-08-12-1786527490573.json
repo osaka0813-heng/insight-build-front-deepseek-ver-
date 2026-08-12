@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_base",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:51:59.171Z",
+  "updatedAt": "2026-08-12T09:52:03.372Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1513,11 +1513,11 @@
       }
     },
     "us": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_base",
       "attempts": {},
-      "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-12T09:51:59.171Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-12T09:52:03.372Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-12-1786528304729",
