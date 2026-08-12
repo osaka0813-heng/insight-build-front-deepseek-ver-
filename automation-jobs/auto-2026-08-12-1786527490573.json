@@ -6,7 +6,7 @@
   "currentScope": "china",
   "currentStage": "write_base",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:45:51.645Z",
+  "updatedAt": "2026-08-12T09:45:54.440Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,13 +1107,13 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_base",
       "attempts": {
         "analyze": 1
       },
-      "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-12T09:45:51.645Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-12T09:45:54.440Z",
       "researchDraft": {
         "ok": true,
         "id": "research-china-2026-08-12-1786527897855",
