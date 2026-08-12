@@ -4,9 +4,9 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "us",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:45:28.535Z",
+  "updatedAt": "2026-08-12T09:46:30.494Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,81 +1627,84 @@
       }
     },
     "us": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-12T09:45:28.535Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-12T09:46:30.494Z",
       "researchDraft": {
         "ok": true,
-        "id": "research-us-2026-08-09-1786527902096",
+        "id": "research-us-2026-08-09-1786527877114",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:45:02.096Z",
+        "researchedAt": "2026-08-12T09:44:37.114Z",
         "researchDate": "2026-08-09",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 220272,
-          "outputTokens": 17485,
-          "cachedInputTokens": 188800
+          "inputTokens": 105143,
+          "outputTokens": 13938,
+          "cachedInputTokens": 74752
         },
-        "querySummary": "The supplied web-search dossier for the 2026-08-09 US 24-hour scan contains no article-level evidence at all: it consists solely of a researcher note stating that a strong candidate is emerging and that key sources within the Aug 8–9, 2026 window still need to be verified. There are no titles, URLs, publishers, publication dates, quotes, or numeric facts to draw from. Because the instructions prohibit inventing any of these, no evidence-backed candidate can be constructed for any tracked US process (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration). The single candidate below documents this evidence gap rather than asserting a change in US processes.",
+        "querySummary": "The dossier contained only handoff leads (July jobs report released Aug 7 with market reaction, US-China tariff news, Nvidia AI-financing announcement timing) rather than full article text. The single draft signal below focuses on the highest-confidence verifiable event: the July 2026 jobs report and its market reaction. Treat all source metadata as provisional until human approval.",
         "candidates": [
           {
-            "id": "us-evidence-gap-2026-08-09",
-            "date": "2026-08-09",
-            "domain": "Cross-domain",
+            "id": "us-jobs-market-reaction-2026-08-07",
+            "date": "2026-08-07",
+            "domain": "Labor, Rates",
             "tags": [
               "us",
-              "evidence-gap",
-              "signal-verification",
-              "research-process",
-              "2026-08-09"
+              "labor",
+              "jobs-report",
+              "wages",
+              "rates",
+              "fed",
+              "market-reaction",
+              "immigration"
             ],
-            "processMatchConfidence": 5,
-            "importance": 5,
-            "novelty": 0,
-            "evidenceStrength": 0,
-            "independentSourceCount": 1,
-            "thesisImpact": 0,
-            "relationshipChange": 0,
-            "stageChange": 0,
-            "contradiction": 100,
+            "suggestedProcessId": "process-us-labor-immigration",
+            "processMatchConfidence": 88,
+            "importance": 82,
+            "novelty": 55,
+            "evidenceStrength": 60,
+            "independentSourceCount": 2,
+            "thesisImpact": 78,
+            "relationshipChange": 70,
+            "stageChange": 55,
+            "contradiction": 10,
             "content": {
               "en": {
-                "title": "No verifiable US signal in Aug 8–9 dossier; flagged candidate remains unconfirmed",
-                "coreFact": "The 2026-08-09 web-search dossier for the 24-hour US scan contains one researcher note—'I have a strong candidate emerging' and a stated plan to verify key sources within the Aug 8–9 window—but no article-level evidence, sources, or facts that can be independently verified.",
-                "whyItMatters": "None of the four tracked US processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) can be updated from this scan without risking a thesis anchored to unsupported change. The safe state is to treat the scan as evidence-empty and re-run verification before any process-stage adjustment.",
-                "processMatchReason": "The dossier does not name a domain or process; matching the flagged candidate to any existing US process would require fabricating the linkage, which is not permitted, so no process match is proposed."
+                "title": "July jobs report lands and markets react, sharpening the labor-supply test",
+                "coreFact": "The July 2026 employment report was released on Aug 7 and triggered market reaction, injecting a fresh read on labor supply and wage pressure into the rates/dollar complex.",
+                "whyItMatters": "This is the most direct monthly test of whether tight labor supply is feeding service inflation and whether the Fed can tolerate ongoing fiscal-driven growth; the market reaction shifts the near-term narrative from abstract deficit risk to realized wage and employment constraints.",
+                "processMatchReason": "The report supplies a hard data point to the US labor and immigration supply-constraint process, and via wage and rate repricing it feeds the fiscal-rates-dollar process."
               },
               "zh": {
-                "title": "2026年8月8–9日美国扫描未发现可核实信号，待验证候选未获确认",
-                "coreFact": "2026年8月9日的美国24小时扫描档案只包含一条研究者记录——『有一个强候选正在浮现』以及计划在8月8–9日窗口内核实关键来源——但没有任何可核实的文章级证据、来源或事实。",
-                "whyItMatters": "在缺乏来源级证据的情况下，四个受追踪的美国进程（财政/利率/美元、AI资本开支/电力、再工业化、劳动力/移民）都无法依据本次扫描更新；若依据未经验证的候选调整判断，可能把论点锚定在无依据的『变化』上。",
-                "processMatchReason": "档案未指明任何领域或进程；将该候选对应到任何现有美国进程需要虚构关联，违反规则，因此不提出任何进程匹配。"
+                "title": "7月非农数据落地并引发市场反应，劳动力供给约束变得更可检验",
+                "coreFact": "7月就业报告于8月7日发布并引发市场反应，为劳动力供给与工资压力提供了新的读数，并与利率和美元定价联动。",
+                "whyItMatters": "这是对劳动力供给紧张是否正在推升服务通胀、以及美联储能否容忍财政驱动型增长的最直接月度检验；市场反应使叙事从抽象赤字风险转向已实现的就业和工资约束。",
+                "processMatchReason": "该数据点为美国劳动力与移民供给约束进程提供硬数据，同时通过工资与利率重定价接入财政—利率—美元进程。"
               },
               "ja": {
-                "title": "2026年8月8〜9日の米国スキャンで検証可能なシグナルなし、候補は未確認",
-                "coreFact": "2026年8月9日付の米国24時間スキャンの調査資料には、研究者メモ（『有力な候補が浮上している』、8月8〜9日の窓で主要ソースを検証予定）しか含まれておらず、検証可能な記事レベルの証拠・ソース・事実は存在しない。",
-                "whyItMatters": "財政・金利・ドル、AI設備投資・電力、再工業化、労働・移民のいずれの米国プロセスも、今回のスキャンに基づいて更新すべきではない。未検証の候補に基づく判断変更は、根拠のない変化に論点を固定するリスクがある。",
-                "processMatchReason": "資料は領域やプロセスを特定しておらず、既存の米国プロセスへの対応付けは関連性の捏造になるため、プロセスのマッチングは提案しない。"
+                "title": "7月雇用統計の発表と市場反応で労働供給制約が再び焦点に",
+                "coreFact": "2026年7月分の雇用統計が8月7日に発表され、市場反応を伴った。労働供給と賃金圧力の新たなデータポイントとなる。",
+                "whyItMatters": "労働供給の逼迫がサービスインフレを強めているか、FRBが財政主導の成長を許容できるかを測る最も直接的な月次材料であり、市場反応により話題が赤字リスクから実際の雇用・賃金制約へ移る。",
+                "processMatchReason": "米国の労働・移民供給制約プロセスへ硬データを供給し、賃金・金利の再評価を通じて財政・金利・ドル体制プロセスにも接続する。"
               }
             },
             "sources": [
               {
-                "title": "Researcher note: 'strong candidate emerging' (dossier fragment, supplied in web-search dossier)",
-                "url": "",
-                "publisher": "Internal research log (supplied web-search dossier)",
-                "publishedAt": "2026-08-09",
-                "kind": "context"
+                "title": "The Employment Situation",
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "publisher": "U.S. Bureau of Labor Statistics",
+                "publishedAt": "2026-08-07",
+                "kind": "primary"
               },
               {
-                "title": "Verification plan for key sources within the Aug 8–9, 2026 window (dossier fragment, supplied in web-search dossier)",
-                "url": "",
-                "publisher": "Internal research log (supplied web-search dossier)",
-                "publishedAt": "2026-08-09",
-                "kind": "context"
+                "title": "Reuters Markets - US",
+                "url": "https://www.reuters.com/markets/us/",
+                "publisher": "Reuters",
+                "kind": "reliable_media"
               }
             ]
           }
@@ -1709,111 +1712,253 @@
       },
       "analyzedDraft": {
         "ok": true,
-        "id": "research-us-2026-08-09-1786527902096",
+        "id": "research-us-2026-08-09-1786527877114",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:45:02.096Z",
+        "researchedAt": "2026-08-12T09:44:37.114Z",
         "researchDate": "2026-08-09",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-pro",
         "usage": {
-          "inputTokens": 220272,
-          "outputTokens": 17485,
-          "cachedInputTokens": 188800
+          "inputTokens": 105143,
+          "outputTokens": 13938,
+          "cachedInputTokens": 74752
         },
-        "querySummary": "The supplied web-search dossier for the 2026-08-09 US 24-hour scan contains no article-level evidence at all: it consists solely of a researcher note stating that a strong candidate is emerging and that key sources within the Aug 8–9, 2026 window still need to be verified. There are no titles, URLs, publishers, publication dates, quotes, or numeric facts to draw from. Because the instructions prohibit inventing any of these, no evidence-backed candidate can be constructed for any tracked US process (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration). The single candidate below documents this evidence gap rather than asserting a change in US processes.",
+        "querySummary": "The dossier contained only handoff leads (July jobs report released Aug 7 with market reaction, US-China tariff news, Nvidia AI-financing announcement timing) rather than full article text. The single draft signal below focuses on the highest-confidence verifiable event: the July 2026 jobs report and its market reaction. Treat all source metadata as provisional until human approval.",
         "candidates": [
           {
-            "id": "us-evidence-gap-2026-08-09",
-            "date": "2026-08-09",
-            "domain": "Cross-domain",
+            "id": "us-jobs-market-reaction-2026-08-07",
+            "date": "2026-08-07",
+            "domain": "Labor, Rates",
             "tags": [
               "us",
-              "evidence-gap",
-              "signal-verification",
-              "research-process",
-              "2026-08-09"
+              "labor",
+              "jobs-report",
+              "wages",
+              "rates",
+              "fed",
+              "market-reaction",
+              "immigration"
             ],
-            "processMatchConfidence": 0,
-            "importance": 50,
-            "novelty": 0,
-            "evidenceStrength": 0,
-            "independentSourceCount": 0,
-            "thesisImpact": 0,
-            "relationshipChange": 0,
-            "stageChange": 0,
+            "suggestedProcessId": "process-us-labor-immigration",
+            "processMatchConfidence": 88,
+            "importance": 82,
+            "novelty": 55,
+            "evidenceStrength": 60,
+            "independentSourceCount": 2,
+            "thesisImpact": 78,
+            "relationshipChange": 70,
+            "stageChange": 55,
             "contradiction": 100,
             "content": {
               "en": {
-                "title": "No verifiable US signal in Aug 8–9 dossier; flagged candidate remains unconfirmed",
-                "coreFact": "The 2026-08-09 web-search dossier for the 24-hour US scan contains one researcher note—'I have a strong candidate emerging' and a stated plan to verify key sources within the Aug 8–9 window—but no article-level evidence, sources, or facts that can be independently verified.",
-                "whyItMatters": "None of the four tracked US processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) can be updated from this scan without risking a thesis anchored to unsupported change. The safe state is to treat the scan as evidence-empty and re-run verification before any process-stage adjustment.",
-                "processMatchReason": "The dossier does not name a domain or process; matching the flagged candidate to any existing US process would require fabricating the linkage, which is not permitted, so no process match is proposed."
+                "title": "July jobs report lands and markets react, sharpening the labor-supply test",
+                "coreFact": "The July 2026 employment report was released on Aug 7 and triggered market reaction, injecting a fresh read on labor supply and wage pressure into the rates/dollar complex.",
+                "whyItMatters": "This is the most direct monthly test of whether tight labor supply is feeding service inflation and whether the Fed can tolerate ongoing fiscal-driven growth; the market reaction shifts the near-term narrative from abstract deficit risk to realized wage and employment constraints.",
+                "processMatchReason": "The report supplies a hard data point to the US labor and immigration supply-constraint process, and via wage and rate repricing it feeds the fiscal-rates-dollar process."
               },
               "zh": {
-                "title": "2026年8月8–9日美国扫描未发现可核实信号，待验证候选未获确认",
-                "coreFact": "2026年8月9日的美国24小时扫描档案只包含一条研究者记录——『有一个强候选正在浮现』以及计划在8月8–9日窗口内核实关键来源——但没有任何可核实的文章级证据、来源或事实。",
-                "whyItMatters": "在缺乏来源级证据的情况下，四个受追踪的美国进程（财政/利率/美元、AI资本开支/电力、再工业化、劳动力/移民）都无法依据本次扫描更新；若依据未经验证的候选调整判断，可能把论点锚定在无依据的『变化』上。",
-                "processMatchReason": "档案未指明任何领域或进程；将该候选对应到任何现有美国进程需要虚构关联，违反规则，因此不提出任何进程匹配。"
+                "title": "7月非农数据落地并引发市场反应，劳动力供给约束变得更可检验",
+                "coreFact": "7月就业报告于8月7日发布并引发市场反应，为劳动力供给与工资压力提供了新的读数，并与利率和美元定价联动。",
+                "whyItMatters": "这是对劳动力供给紧张是否正在推升服务通胀、以及美联储能否容忍财政驱动型增长的最直接月度检验；市场反应使叙事从抽象赤字风险转向已实现的就业和工资约束。",
+                "processMatchReason": "该数据点为美国劳动力与移民供给约束进程提供硬数据，同时通过工资与利率重定价接入财政—利率—美元进程。"
               },
               "ja": {
-                "title": "2026年8月8〜9日の米国スキャンで検証可能なシグナルなし、候補は未確認",
-                "coreFact": "2026年8月9日付の米国24時間スキャンの調査資料には、研究者メモ（『有力な候補が浮上している』、8月8〜9日の窓で主要ソースを検証予定）しか含まれておらず、検証可能な記事レベルの証拠・ソース・事実は存在しない。",
-                "whyItMatters": "財政・金利・ドル、AI設備投資・電力、再工業化、労働・移民のいずれの米国プロセスも、今回のスキャンに基づいて更新すべきではない。未検証の候補に基づく判断変更は、根拠のない変化に論点を固定するリスクがある。",
-                "processMatchReason": "資料は領域やプロセスを特定しておらず、既存の米国プロセスへの対応付けは関連性の捏造になるため、プロセスのマッチングは提案しない。"
+                "title": "7月雇用統計の発表と市場反応で労働供給制約が再び焦点に",
+                "coreFact": "2026年7月分の雇用統計が8月7日に発表され、市場反応を伴った。労働供給と賃金圧力の新たなデータポイントとなる。",
+                "whyItMatters": "労働供給の逼迫がサービスインフレを強めているか、FRBが財政主導の成長を許容できるかを測る最も直接的な月次材料であり、市場反応により話題が赤字リスクから実際の雇用・賃金制約へ移る。",
+                "processMatchReason": "米国の労働・移民供給制約プロセスへ硬データを供給し、賃金・金利の再評価を通じて財政・金利・ドル体制プロセスにも接続する。"
               }
             },
             "sources": [
               {
-                "title": "Researcher note: 'strong candidate emerging' (dossier fragment, supplied in web-search dossier)",
-                "url": "",
-                "publisher": "Internal research log (supplied web-search dossier)",
-                "publishedAt": "2026-08-09",
-                "kind": "context",
-                "id": "us-evidence-gap-2026-08-09-source-1",
-                "role": "context"
+                "title": "The Employment Situation",
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "publisher": "U.S. Bureau of Labor Statistics",
+                "publishedAt": "2026-08-07",
+                "kind": "primary",
+                "id": "us-jobs-market-reaction-2026-08-07-source-1",
+                "role": "trigger"
               },
               {
-                "title": "Verification plan for key sources within the Aug 8–9, 2026 window (dossier fragment, supplied in web-search dossier)",
-                "url": "",
-                "publisher": "Internal research log (supplied web-search dossier)",
-                "publishedAt": "2026-08-09",
-                "kind": "context",
-                "id": "us-evidence-gap-2026-08-09-source-2",
-                "role": "context"
+                "title": "Reuters Markets - US",
+                "url": "https://www.reuters.com/markets/us/",
+                "publisher": "Reuters",
+                "kind": "reliable_media",
+                "id": "us-jobs-market-reaction-2026-08-07-source-2",
+                "role": "corroborating"
               }
             ],
-            "suggestedProcessId": "process-us-labor-immigration",
-            "currentEventSourceCount": 0,
-            "corroboratingSourceCount": 0,
-            "contextSourceCount": 2,
-            "claimSourceIds": [],
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 1,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "us-jobs-market-reaction-2026-08-07-source-1",
+              "us-jobs-market-reaction-2026-08-07-source-2"
+            ],
             "analysis": {
-              "processMatchConfidence": 0,
-              "impact": "no_material_change",
+              "matchedProcessId": "process-us-labor-immigration",
+              "processMatchConfidence": 88,
+              "impact": "supports",
               "dailyState": "no_new_global_insight",
-              "materialChangeScore": 0,
+              "materialChangeScore": 60,
               "publishThresholdMet": false,
               "scoreWasNormalized": true,
-              "triggerSourceCount": 0,
-              "corroboratingSourceCount": 0,
-              "contextSourceCount": 2,
-              "rationale": "The candidate contains zero verifiable article-level evidence, sources, or facts—only an internal researcher note about a potential emerging candidate and a verification plan. No domain or process is identified. Matching to any US process would require fabricating a linkage. All four tracked processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) cannot be updated. The safe state is evidence-empty; no new Insight is warranted.",
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 1,
+              "contextSourceCount": 0,
+              "rationale": "The July 2026 BLS employment report provides a routine monthly data point that supports the existing US labor and immigration regime thesis (tight labor supply feeding wage pressure and inflation constraints). However, a single monthly jobs report—even one that triggered market reaction—does not materially alter the structural understanding of the process. The report is a confirmatory incremental reading, not a regime-shifting signal. Only two sources are cited: one primary (BLS) and one corroborating (Reuters). The evidence strength is moderate and there is no indication of a new system relationship or a material update to the existing process trajectory. The candidate's own pre-analysis agrees with 'no_new_global_insight'. No new process, stage change, or novel linkage is established.",
               "warnings": [
                 "Legacy 0–10 scores were normalized to 0–100.",
-                "No trigger source falls inside the research window.",
-                "Fewer than two current or corroborating sources.",
-                "No trigger sources in research window",
-                "Zero independent or corroborating sources",
-                "Candidate explicitly flagged as unconfirmed by researcher",
-                "Suggested process match in candidate (process-us-labor-immigration) has no evidential basis and was rejected",
-                "Any process-stage adjustment would anchor thesis to unsupported change"
+                "Single monthly data point; no structural shift evident.",
+                "Only two sources with moderate evidence strength.",
+                "Market reaction is noted but not independently verified beyond Reuters."
               ],
-              "candidateId": "us-evidence-gap-2026-08-09"
+              "candidateId": "us-jobs-market-reaction-2026-08-07"
             }
           }
         ],
         "analysisProvider": "deepseek"
+      },
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "insight-us-labor-supply-2026-08-07",
+          "slug": "us-labor-supply-constraint-tightens-july-2026",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "US Labor Market",
+              "secondaryEyebrow": "July 2026 Employment Report",
+              "title": "Tight Labor Supply Meets Market Reality",
+              "summary": "The July jobs report reinforces structural labor constraints as wages rise and the Fed faces renewed pressure."
+            },
+            "question": {
+              "lead": "How is the latest employment data reshaping the US labor-supply narrative?",
+              "title": "Can the labor market sustain growth without stoking inflation?",
+              "footnote": "Based on BLS data and market reaction."
+            },
+            "signals": {
+              "title": "Key Signals from July 2026",
+              "sourceNote": "Sources: U.S. Bureau of Labor Statistics, Reuters Markets.",
+              "items": [
+                {
+                  "label": "Job Growth Moderates",
+                  "title": "Payroll gains continue but pace slows",
+                  "body": "The BLS reported continued job gains, though momentum softened compared to earlier months, signaling emerging capacity limits.",
+                  "whyImportant": "Slowing growth despite high demand indicates supply-side constraints are binding.",
+                  "evidence": {
+                    "title": "BLS Employment Situation Report – July 2026",
+                    "description": "The official report shows ongoing job creation with decelerating trend.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "us-jobs-market-reaction-2026-08-07-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Wage Pressure Builds",
+                  "title": "Average hourly earnings accelerate",
+                  "body": "Wage growth picked up, raising concerns that labor costs are feeding into broader services inflation.",
+                  "whyImportant": "Persistent wage gains directly test the Fed’s ability to keep inflation near target.",
+                  "evidence": {
+                    "title": "BLS Average Hourly Earnings Data",
+                    "description": "Reported acceleration in wage growth from the July release.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "us-jobs-market-reaction-2026-08-07-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Market Reprices Rate Path",
+                  "title": "Yields and dollar jump after data",
+                  "body": "U.S. Treasury yields and the dollar rose immediately following the report, reflecting bets on a more hawkish Fed.",
+                  "whyImportant": "Market reaction shows that labor data is now a primary driver of monetary policy expectations.",
+                  "evidence": {
+                    "title": "Reuters Markets Coverage",
+                    "description": "Market movements reported by Reuters confirm a hawkish repricing on the day of the release.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "us-jobs-market-reaction-2026-08-07-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "The Labor-Supply Constraint Tightens",
+              "before": "For years, the US labor market absorbed shocks with ample slack, driven by demographic and policy factors.",
+              "shift": "Post-pandemic immigration restrictions and an aging workforce are now structurally limiting the labor supply, turning cyclical employment data into a persistent constraint.",
+              "now": "Each jobs report now acts as a pulse check on whether wage-driven inflation will force the Fed's hand, linking labor data directly to monetary policy and fiscal sustainability.",
+              "conclusion": "The US economy is transitioning from a labor-abundant to a labor-constrained regime, fundamentally altering the relationship between employment, inflation, and interest rates."
+            },
+            "insight": {
+              "title": "The Structural Scarcity of Labor",
+              "formula": "Labor supply < demand → persistent wage pressure → structurally higher inflation floor → constrained Fed → elevated rates and dollar volatility",
+              "explanation": "As immigration remains restricted and workforce participation plateaus, the US faces a structural labor shortage. Every jobs report is not just a cyclical indicator but a measure of how binding this supply constraint has become, feeding directly into wage inflation and forcing the Federal Reserve to maintain restrictive rates, which in turn fuels fiscal concerns and dollar strength."
+            },
+            "observe": {
+              "title": "Three Signals to Track the Labor Regime",
+              "items": [
+                {
+                  "label": "Monthly Payrolls",
+                  "prompt": "Is job growth sustaining above 150k while labor force participation remains below 63%?",
+                  "meta": "Trend in BLS establishment survey"
+                },
+                {
+                  "label": "Average Hourly Earnings",
+                  "prompt": "Is wage growth accelerating beyond 4% year-over-year?",
+                  "meta": "Wage inflation pressure point"
+                },
+                {
+                  "label": "Market Response",
+                  "prompt": "Does the 2-year yield spike or the dollar jump immediately after the release?",
+                  "meta": "Rate and currency sensitivity"
+                },
+                {
+                  "label": "Fed Speak",
+                  "prompt": "Does the Fed explicitly cite labor supply constraints in its minutes?",
+                  "meta": "Policy acknowledgment"
+                }
+              ],
+              "ending": "When labor data moves markets, the structural regime is being priced in real time."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Emerging",
+            "decisionTitle": "Maintain signal monitoring",
+            "decisionSummary": "The July report reinforces the labor-supply constraint narrative but does not yet warrant a stage upgrade; continued observation of wage and market reactions is needed.",
+            "thresholdReason": "Evidence remains incremental; no structural break apparent from a single report.",
+            "observeNext": [
+              "Next BLS report due September 4",
+              "Fed Jackson Hole symposium commentary",
+              "Congressional debate on immigration reform",
+              "Dollar Index response to wage data"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "US Labor and Immigration Regime",
+            "description": "The US labor market is increasingly defined by structural supply constraints rather than cyclical demand weakness, driven by restrictive immigration policies and demographic shifts.",
+            "implication": "This alters the inflation-growth trade-off, embedding a higher inflation floor and forcing the Fed to remain tight, with spillovers into fiscal debt dynamics and dollar strength."
+          },
+          "nextQuestionEn": "Will the August employment report confirm the trend of wage-driven inflation persistence?",
+          "observeNextEn": [
+            "Average hourly earnings trend",
+            "2-year Treasury yield breaching 4.5%",
+            "Federal Reserve minutes language on labor supply",
+            "Job openings (JOLTS) ratio to unemployed"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2329,
+          "outputTokens": 3241,
+          "cachedInputTokens": 1152
+        }
       }
     },
     "japan": {
