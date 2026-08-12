@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:50:25.988Z",
+  "updatedAt": "2026-08-12T09:50:27.784Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1513,89 +1513,116 @@
       }
     },
     "us": {
-      "status": "retrying",
+      "status": "checkpointed",
       "stage": "analyze",
       "attempts": {
-        "research": 2,
-        "analyze": 1
+        "research": 2
       },
-      "message": "Automation state write failed: is at 0df116a3f0255812eaad17671d117eb1392ad789 but expected bd4cfe45c4592b01bc3b2c40cd618603f13ee05a",
-      "updatedAt": "2026-08-12T09:50:25.988Z",
-      "failedStage": "analyze",
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T09:50:27.784Z",
+      "failedStage": "research",
       "researchDraft": {
         "ok": true,
-        "id": "research-us-2026-08-12-1786528224926",
+        "id": "research-us-2026-08-12-1786528227777",
         "status": "draft",
-        "researchedAt": "2026-08-12T09:50:24.926Z",
+        "researchedAt": "2026-08-12T09:50:27.777Z",
         "researchDate": "2026-08-12",
         "scope": "us",
         "provider": "deepseek",
         "model": "deepseek-v4-flash",
         "usage": {
-          "inputTokens": 140086,
-          "outputTokens": 15894,
-          "cachedInputTokens": 112384
+          "inputTokens": 232545,
+          "outputTokens": 19394,
+          "cachedInputTokens": 197888
         },
-        "querySummary": "In the 24 hours to Aug 12, 2026, the strongest US macro signal comes from three simultaneous fiscal-market inputs: the July CPI report, the Aug 11 Treasury 3-year auction, and a revised CBO deficit forecast. They converge on the existing US fiscal-rates-dollar process, forcing markets to price inflation, Treasury supply and deficits as one problem.",
+        "querySummary": "在截至2026-08-12的24小时窗口中，主导美国进程判断的信号是现有'us-fiscal-rates-dollar'进程内部四股力量的汇合：财政部$1250亿季度再融资拍卖正在执行（3年期首场结果已显示收益率上行）、伊朗霍尔木兹海峡僵局推动油价一周上涨约13%、FOMC出现罕见的9-3鹰派分裂、以及8月12日公布的7月CPI成为近期裁决点——背景是7月非农意外减少2.3万人。该窗口显示美国宏观判断正从'货币周期'转向'财政—货币—能源互动'。",
         "candidates": [
           {
-            "id": "us-cpi-treasury-cbo-2026-08-12",
+            "id": "us-fiscal-rates-dollar-20260812-refunding-cpi-energy-confluence",
             "date": "2026-08-12",
-            "domain": "Fiscal Policy",
+            "domain": "Fiscal Policy, Rates, Dollar, Inflation",
             "tags": [
               "us",
               "fiscal",
               "treasury",
               "rates",
+              "fed",
+              "dollar",
               "cpi",
-              "deficit",
-              "cbo",
-              "auction"
+              "oil"
             ],
             "suggestedProcessId": "process-us-fiscal-rates-dollar",
-            "processMatchConfidence": 90,
-            "importance": 82,
-            "novelty": 58,
-            "evidenceStrength": 45,
-            "independentSourceCount": 2,
-            "thesisImpact": 78,
-            "relationshipChange": 72,
-            "stageChange": 58,
-            "contradiction": 15,
+            "processMatchConfidence": 95,
+            "importance": 92,
+            "novelty": 76,
+            "evidenceStrength": 74,
+            "independentSourceCount": 6,
+            "thesisImpact": 90,
+            "relationshipChange": 80,
+            "stageChange": 72,
+            "contradiction": 40,
             "content": {
               "en": {
-                "title": "CPI, 3-year auction and CBO revision collide in one fiscal-rates signal",
-                "coreFact": "Within the 24 hours to Aug 12, US macro attention is being shaped by three simultaneous inputs: the July CPI report, the Aug 11 Treasury 3-year note auction, and a revised CBO deficit forecast. Markets are being forced to read inflation, Treasury supply and the fiscal outlook as one pricing problem.",
-                "whyItMatters": "A one-day combination of inflation data, an auction test and an official deficit revision can change how the term premium and Fed expectations are formed. If this pattern persists, the cost of capital becomes the main transmission channel linking fiscal policy to the real economy.",
-                "processMatchReason": "This is the clearest 24-hour manifestation of the fiscal-rates-dollar process: Treasury supply, inflation and deficit forecasts are being priced simultaneously, not as separate stories."
+                "title": "Watershed 24 hours for US fiscal-rates-dollar: $125B refunding, Hormuz oil shock and 9-3 Fed split put July CPI at the center",
+                "coreFact": "On August 11-12, 2026, the US fiscal-rates-dollar regime entered its first live financing stress test. Treasury began quarterly refunding auctions totaling $125B: $58B of 3-year notes sold Aug 11 at 4.291%, up 11.2bp from the prior 4.179%, with bid-to-cover 2.71; $42B of 10-year and $25B of 30-year notes follow Aug 12-13. Treasury projects a TGA peak of up to $1.05T in late October and roughly $28.7B of net new financing. Iran's Revolutionary Guard said it will not reopen the Strait of Hormuz until conditions are met, sending Brent up about 13% week-over-week to $89.99 and driving the 10-year UST yield to 4.735% (highest since July 31) and the 30-year to 5.24%. The FOMC held rates at 3.50%-3.75% by a 9-3 vote, with three regional Fed presidents backing an immediate hike — the first three-dissent same-direction vote since 2016. Goolsbee called inflation 'the biggest problem' while Hammack said 'it is time to act.' July CPI, due Aug 12 at 8:30 ET, is expected at +0.1% headline m/m and +3.4% y/y, with core at +0.2% m/m and +2.5% y/y; BofA says core +0.1% would rule out a September hike while +0.3% would put it back on the agenda. Background: July payrolls fell by 23k and unemployment fell to 4.1%.",
+                "whyItMatters": "This is no longer just a monetary cycle. The same 24 hours now contain record Treasury supply, an energy-driven inflation shock, a rare three-dissent FOMC split, and reported CTA short positioning in global bonds at historical extremes. The market is being forced to answer the process's core question in real time: can rising Treasury supply coexist with stable inflation and durable dollar demand? A hot CPI would harden the narrative of a structurally higher cost of capital and reprice September; a soft CPI would only postpone the test while the Hormuz supply shock remains unresolved.",
+                "processMatchReason": "The signal directly tests the 'financing stress test' stage of process-us-fiscal-rates-dollar and draws simultaneously on all four observed dimensions: Treasury auctions ($125B schedule, 3-year result, 10/30-year follow-ups), term premium (10-year 4.735%, 30-year 5.24%), Fed reaction function (9-3 split, Goolsbee/Hammack comments), and dollar/global demand (DXY near 99.8, CTA bond shorts at reported extremes). It supports the shift from a monetary cycle to fiscal-monetary-energy interaction, while questioning whether the regime can absorb supply without structurally higher rates."
               },
               "zh": {
-                "title": "CPI、3年期国债拍卖与CBO赤字修正同一天冲击市场",
-                "coreFact": "截至8月12日的24小时内，美国宏观注意力被三个同时出现的输入所塑造：7月CPI报告、8月11日的3年期国债拍卖，以及CBO修正后的赤字预测。市场被迫把通胀、国债供给和财政前景合并为一个定价问题。",
-                "whyItMatters": "一天之内同时出现通胀数据、拍卖压力和官方赤字修正，可能改变期限溢价与美联储预期的形成方式。如果这种模式持续，资本成本将成为财政政策向实体经济传导的主要渠道。",
-                "processMatchReason": "这是财政—利率—美元过程最清晰的24小时体现：国债供给、通胀和赤字预测正在被同时定价，而不是被当作彼此独立的故事。"
+                "title": "决定美国财政—利率—美元进程的24小时：$1250亿再融资拍卖 × 霍尔木兹油价冲击 × 9-3鹰派分裂，7月CPI成裁决点",
+                "coreFact": "2026年8月11-12日，美国财政—利率—美元体制进入首次实战融资压力测试。财政部启动三季度总计$1250亿再融资拍卖：$580亿3年期于8/11以4.291%得标（前次4.179%，上行11.2个基点），投标倍数2.71；$420亿10年期与$250亿30年期分别于8/12、8/13跟进；财政部预计10月下旬TGA峰值可达$1.05万亿，净新增融资约$287亿。伊朗革命卫队称在条件满足前不重开霍尔木兹海峡，布伦特一周上涨约13%至$89.99；10年期美债升至4.735%（7月31日以来最高）、30年期升至5.24%。7月29日FOMC以9-3维持利率于3.50%-3.75%，三名地区联储主席主张立即加息，为2016年以来首次出现三票同方向异议；古尔斯比称通胀是当前最大问题，哈马克称“现在是行动的时候”。7月CPI于8/12 8:30 ET公布，一致预期整体环比+0.1%、同比3.4%，核心环比+0.2%、同比2.5%；美银设定核心环比0.1%即排除9月加息、0.3%则将加息放回议程。背景是7月非农减少2.3万、失业率降至4.1%。",
+                "whyItMatters": "这不再是单纯的货币周期。同一24小时内叠加了创纪录的国债供给、能源驱动的通胀冲击、罕见的三票异议FOMC分裂，以及处于历史极值的全球债券CTA空头仓位。市场被迫实时回答进程的核心问题：国债供给持续上升，能否与稳定通胀和美元资产持久需求共存？若CPI走强，“结构性更高资本成本”的叙事将被强化并重新定价9月会议；若CPI走软，只会推迟测试，霍尔木兹供给冲击仍然未解。",
+                "processMatchReason": "该信号直接检验“us-fiscal-rates-dollar”进程的“融资压力测试”阶段，并同时覆盖四个观察维度：国债拍卖（$1250亿时间表、3年期结果、10/30年期跟进）、期限溢价（10年期4.735%、30年期5.24%）、美联储反应函数（9-3分裂、古尔斯比/哈马克表态）、美元与全球需求（DXY约99.8、CTA债券空头历史极值）。它确认叙事正从货币周期转向财政—货币—能源互动，并直接拷问体制能否在不把利率结构性推高的前提下吸收供给。"
               },
               "ja": {
-                "title": "CPI、3年国債入札、CBO赤字改定が同日に交錯",
-                "coreFact": "8月12日までの24時間で、米国のマクロ関心は7月CPI、8月11日の3年国債入札、CBOによる赤字見通し改定という三つの同時投入に集中している。市場はインフレ、国債供給、財政見通しを一つのプライシング問題として読むことを迫られている。",
-                "whyItMatters": "インフレ指標・入札テスト・公式赤字改定が同日に重なると、タームプレミアムやFRB期待の形成が変わり得る。このパターンが続けば、資本コストが財政政策を実体経済へつなぐ主要経路になる。",
-                "processMatchReason": "財政・金利・ドル体制の24時間で最も明確な現れであり、国債供給・インフレ・赤字予測が別々の話題ではなく同時に価格形成されている。"
+                "title": "米国財政・金利・ドル体制を左右する24時間：$1250億リファイナンス × ホルムズ原油ショック × 9-3タカ派分裂、7月CPIが判定点に",
+                "coreFact": "2026年8月11〜12日、米国の財政・金利・ドル体制は初の実戦的資金調達ストレステストに入った。財務省はQ3リファイナンス総額$1250億を開始：$580億の3年債は8/11に4.291%で落札（前回4.179%から11.2bp上昇）、応札倍率2.71。$420億の10年債と$250億の30年債は8/12、8/13に実施予定。TGA残高は10月下旬に最大$1.05兆、純新規調達は約$287億を見込む。イラン革命防衛隊が条件充足までホルムズ海峡を再開しないと表明し、ブレントは週間で約13%上昇し$89.99に。10年米国債は4.735%（7/31以来の高水準）、30年債は5.24%に上昇。7/29のFOMCは9-3で3.50%〜3.75%を維持、3人の地区連銀総裁が即時利上げを主張（2016年以来初の3票同方向異議）。グールズビー氏はインフレが最大の問題と発言し、ハマック氏は「行動する時」と述べた。7月CPIは8/12 8:30 ETに公表予定で、予想は総合が前月比+0.1%、前年比+3.4%、コアが前月比+0.2%、前年比+2.5%。BofAはコア+0.1%なら9月利上げを排除、+0.3%なら再浮上と設定。背景として7月雇用統計は-2.3万人、失業率4.1%。",
+                "whyItMatters": "もはや単なる金融サイクルではない。同じ24時間に、巨額の国債供給、エネルギー起因のインフレショック、2016年以来初の3票同方向異議というFOMC分裂、そして歴史的な極値と報じられるCTAの債券空持ちが重なった。市場は「国債供給の増加は安定インフレとドル資産需要と共存できるか」というプロセスの核心問いへの回答を迫られている。CPIが強ければ「構造的高資本コスト」の物語は強まり、9月利上げが再プライシングされる。CPIが弱くても、ホルムズ供給ショックが残る限りテストは先送りされるだけだ。",
+                "processMatchReason": "このシグナルは「us-fiscal-rates-dollar」プロセスの「資金調達ストレステスト」段階を直接検証し、観察4軸すべてに同時に抵触する：国債入札（$1250億スケジュール、3年債結果、10/30年債フォロー）、タームプレミアム（10年4.735%、30年5.24%）、FRBの反応関数（9-3分裂、グールズビー/ハマック発言）、ドルと世界需要（DXY約99.8、CTA債券空持ちの歴史的極値）。金融サイクルから財政・金融・エネルギー相互作用への転換を裏付け、供給を金利の構造的上昇なしで吸収できるかを問う。"
               }
             },
             "sources": [
               {
-                "title": "Web search dossier: initial coverage of July CPI, Treasury 3-year auction and CBO revision",
-                "url": "not-available",
-                "publisher": "Web search dossier",
-                "publishedAt": "2026-08-12",
-                "kind": "context"
+                "title": "Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith",
+                "url": "https://home.treasury.gov/news/press-releases/sb0590",
+                "publisher": "U.S. Department of the Treasury",
+                "publishedAt": "2026-08-04",
+                "kind": "primary"
               },
               {
-                "title": "Web search dossier: verification of the 24-hour window",
-                "url": "not-available",
-                "publisher": "Web search dossier",
+                "title": "财联社8月12日电",
+                "url": "https://www.cls.cn/detail/2451724",
+                "publisher": "财联社 CLS",
                 "publishedAt": "2026-08-12",
-                "kind": "context"
+                "kind": "reliable_media"
+              },
+              {
+                "title": "US Stock Market: Treasury yields pare gains as Iran comments dampen hopes for Strait of Hormuz deal",
+                "url": "https://m.economictimes.com/markets/us-stocks/news/us-stock-market-treasury-yields-pare-gains-as-iran-comments-dampen-hopes-for-strait-of-hormuz-deal/articleshow/133171566.cms",
+                "publisher": "The Economic Times / Reuters",
+                "publishedAt": "2026-08-12",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Global bond yields climb to monthly highs as oil jumps 13%",
+                "url": "https://www.edgen.tech/zh/news/post/global-bond-yields-climb-to-monthly-highs-as-oil-jumps-13",
+                "publisher": "edgen.tech",
+                "publishedAt": "2026-08-12",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "Treasury yields are little changed as investors await key inflation data",
+                "url": "https://www.cnbc.com/2026/08/12/treasury-yields-inflation-cpi-data.html",
+                "publisher": "CNBC",
+                "publishedAt": "2026-08-12",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "沃什的“沉默”遇上CPI数据，美元等待今晚“判决”",
+                "url": "https://forex.hexun.com/2026-08-12/224809638.html",
+                "publisher": "和讯外汇",
+                "publishedAt": "2026-08-12",
+                "kind": "reliable_media"
               }
             ]
           }
@@ -1642,5 +1669,5 @@
       }
     ]
   },
-  "message": "US analyze 自动重试 1/3"
+  "message": "US research 自动重试 2/3"
 }
