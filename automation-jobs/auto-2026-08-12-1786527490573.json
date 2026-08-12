@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:54:10.111Z",
+  "updatedAt": "2026-08-12T09:54:20.925Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1517,7 +1517,7 @@
       "stage": "write_zh",
       "attempts": {},
       "message": "已保存 write_base 断点",
-      "updatedAt": "2026-08-12T09:54:10.111Z",
+      "updatedAt": "2026-08-12T09:54:20.925Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-12-1786528304729",
@@ -1713,33 +1713,33 @@
         "stage": "base",
         "baseDraft": {
           "insightId": "us-2026-08-12-cpi-10yr-auction-collision",
-          "slug": "us-2026-08-12-cpi-10yr-auction-collision",
+          "slug": "us-cpi-10yr-auction-collision-2026-08-12",
           "parentInsightId": "process-us-fiscal-rates-dollar",
           "previousInsightId": null,
           "en": {
             "cover": {
-              "eyebrow": "U.S. Treasury Market",
-              "secondaryEyebrow": "Fiscal-Rates-Dollar Regime",
-              "title": "CPI Day Meets $42B 10-Year Auction",
-              "summary": "On August 12, 2026, the CPI release and a $42 billion Treasury 10-year note auction share the calendar, forcing a live test of how inflation data and new duration supply price together in the U.S. government bond market."
+              "eyebrow": "US Treasury Market",
+              "secondaryEyebrow": "August 12, 2026",
+              "title": "CPI Release and 10-Year Auction Collide on Same Day",
+              "summary": "The July CPI report and a $42 billion 10-year note auction fall on the same calendar, forcing investors to price new inflation data and fresh long-duration supply simultaneously."
             },
             "question": {
-              "lead": "Can a same-day collision of inflation data and heavy Treasury supply reveal a structural shift in the US fiscal-rates-dollar regime?",
-              "title": "Is the CPI-10Y auction overlap a catalyst for structural change or a routine scheduling event?",
-              "footnote": "Examining the August 12, 2026 calendar collision."
+              "lead": "How does the same-day sequencing of an inflation report and a major Treasury auction affect the absorption of duration supply?",
+              "title": "Can the 10-Year Auction Digest the CPI Shock?",
+              "footnote": "This question probes the US fiscal-rates-dollar regime's resilience to compressed information events."
             },
             "signals": {
-              "title": "Signals",
+              "title": "Two Events, One Morning",
               "sourceNote": "Sources: U.S. Bureau of Labor Statistics and U.S. Department of the Treasury.",
               "items": [
                 {
                   "label": "CPI Release",
-                  "title": "July 2026 CPI Report",
-                  "body": "The Consumer Price Index for July 2026 is scheduled for release on August 12 at 08:30 ET, providing the latest inflation print.",
-                  "whyImportant": "CPI data directly influences Fed policy expectations and real yields, affecting demand for nominal Treasuries.",
+                  "title": "July CPI Report Due at 8:30 ET",
+                  "body": "The Consumer Price Index for July 2026 provides the latest inflation reading before the auction.",
+                  "whyImportant": "Inflation data directly influences inflation expectations and Fed rate outlook, which affect Treasury yields.",
                   "evidence": {
-                    "title": "BLS CPI Schedule",
-                    "description": "The Bureau of Labor Statistics has advertised the July CPI report for August 12, 2026.",
+                    "title": "Scheduled CPI release",
+                    "description": "The BLS notice confirms the publication time for the July CPI report on August 12, 2026.",
                     "confidence": "verified",
                     "sourceIds": [
                       "us-2026-08-12-cpi-10yr-auction-collision-source-1"
@@ -1747,13 +1747,13 @@
                   }
                 },
                 {
-                  "label": "10Y Auction",
-                  "title": "$42 Billion 10-Year Note Auction",
-                  "body": "The Treasury is auctioning $42 billion in 10-year notes on August 12, the first long-duration supply event after the CPI release.",
-                  "whyImportant": "The auction’s demand metrics (bid-to-cover, tail, dealer participation) will reflect how investors price inflation risk alongside new supply.",
+                  "label": "10-Year Auction",
+                  "title": "$42B 10-Year Note Auction",
+                  "body": "The Treasury auctions $42 billion in 10-year notes on the same day.",
+                  "whyImportant": "The auction is the first pricing event after CPI, making it a real-time test of inflation-sensitive demand.",
                   "evidence": {
-                    "title": "Treasury Auction Announcement",
-                    "description": "The U.S. Treasury has announced the 10-year note auction for August 12, 2026.",
+                    "title": "Scheduled 10-year note auction",
+                    "description": "The Treasury notice confirms the auction date and size for August 12, 2026.",
                     "confidence": "verified",
                     "sourceIds": [
                       "us-2026-08-12-cpi-10yr-auction-collision-source-2"
@@ -1763,67 +1763,72 @@
               ]
             },
             "pattern": {
-              "title": "From Routine Separation to Same-Day Pricing Pressure",
-              "before": "Previously, CPI releases and Treasury auctions occurred on separate days, allowing markets to digest inflation data before facing new supply, or vice versa. The fiscal-rates-dollar regime typically saw rates adjust to data and then auctions tested that level.",
-              "shift": "On August 12, 2026, the two events are compressed into a single morning, with CPI at 08:30 and the auction later, effectively merging the two market themes. This forces investors to absorb inflation news and duration supply in one pricing event.",
-              "now": "The outcome is uncertain. Without auction results, we observe only the schedule. The potential for a term premium shock exists if inflation surprises and weak auction demand coincide, but no such evidence is yet available.",
-              "conclusion": "The collision is a scheduling anomaly that merits monitoring but does not by itself constitute a structural change in the US fiscal-rates-dollar system. Structural change would require a persistent shift in how markets jointly price inflation and supply, not a one-day overlap."
+              "title": "From Sequential to Simultaneous: The Compression of Information and Supply",
+              "before": "Investors typically absorbed inflation data and Treasury supply on separate days, allowing time to digest each signal independently.",
+              "shift": "The August 12 schedule compresses the two into a single morning, with the auction following the CPI report, creating a live stress test.",
+              "now": "Markets must price new inflation information and $42 billion of duration supply in one clearing price, tightening the feedback loop between data and debt management.",
+              "conclusion": "This calendar collision exemplifies the accelerating fiscal-rates-dollar regime where macro data and fiscal supply are increasingly intertwined, raising the stakes for bond market stability."
             },
             "insight": {
-              "title": "A Live Test Without Verdict",
-              "formula": "CPI-auction collision + no post-event data = observation, not structural shift.",
-              "explanation": "The coincidence places two major market events on the same calendar, theoretically allowing observation of their interaction. However, without actual auction results, the event remains a potential test, not evidence of a regime change. The structural insight is that markets must now price these together, but the current data only confirms the schedule, not a new dynamic."
+              "title": "The CPI-Auction Collision as a Focal Point for Regime Stress",
+              "formula": "Same-day CPI + 10-year auction = Compressed inflation-supply stress test.",
+              "explanation": "When the most-watched inflation indicator and a benchmark duration auction occupy the same market window, the auction acts as a real-time gauge of whether demand can absorb supply without a term premium spike, offering a concentrated snapshot of the US fiscal-rates-dollar feedback loop."
             },
             "observe": {
-              "title": "What to Watch",
+              "title": "What to Watch After the CPI-Auction Intersection",
               "items": [
                 {
-                  "label": "10Y Auction Results",
-                  "prompt": "Watch the bid-to-cover ratio, tail, and indirect bidder participation. A poor auction could signal term premium repricing.",
-                  "meta": "Key metric: stop-through vs. when-issued yield."
+                  "label": "Auction Metrics",
+                  "prompt": "How does the 10-year auction's bid-to-cover and indirect bidder participation compare to recent auctions?",
+                  "meta": "Key indicators of demand resilience."
                 },
                 {
-                  "label": "10-Year Yield Movement",
-                  "prompt": "Track the 10-year U.S. Treasury yield on August 12, especially post-CPI and post-auction. A sustained rise could indicate supply absorption stress.",
-                  "meta": "Focus on intraday range and closing level."
+                  "label": "Breakeven Inflation",
+                  "prompt": "Do 10-year breakeven rates move sharply after the CPI print?",
+                  "meta": "Reveals inflation expectation repricing."
                 },
                 {
-                  "label": "Fed Communication",
-                  "prompt": "Any Fed speaker reaction on August 12-13 that references the treasury market or inflation expectations could add context to whether this coincidence matters.",
-                  "meta": "Check Fed calendar."
+                  "label": "Term Premium",
+                  "prompt": "Does the 10-year term premium shift on the auction result?",
+                  "meta": "A significant rise would signal stress in absorbing duration supply."
+                },
+                {
+                  "label": "Market Liquidity",
+                  "prompt": "How do bid-ask spreads in Treasury markets behave around the auction?",
+                  "meta": "Liquidity conditions can amplify the interaction."
                 }
               ],
-              "ending": "Until the auction outcome is known, the observation remains a scheduling note, not a structural verdict."
+              "ending": "The convergence of these two events on a single morning provides a rare opportunity to observe the accelerating fiscal-rates-dollar regime in real time."
             }
           },
           "dailyStateEn": {
-            "label": "Monitoring",
-            "decisionTitle": "No structural change; CPI-auction collision is a scheduling event",
-            "decisionSummary": "The August 12 calendar overlap does not yet demonstrate a material shift in the US fiscal-rates-dollar regime. The events are noted but no outcome data is available.",
-            "thresholdReason": "Material change threshold not met: only event notices provided, no auction result or market reaction data, materialChangeScore of 12.",
+            "label": "Calendar Observation",
+            "decisionTitle": "No Material Change in Regime",
+            "decisionSummary": "The CPI-auction calendar collision is consistent with the existing accelerating process but does not itself indicate a structural shift.",
+            "thresholdReason": "The evidence only confirms the scheduling; no market outcome or measured impact is available to demonstrate a change in dynamics.",
             "observeNext": [
-              "10-year auction bid-to-cover and tail",
-              "10-year yield intraday change",
-              "Fed commentary on treasury market"
+              "Auction results",
+              "CPI-driven yield movements",
+              "Term premium changes"
             ]
           },
           "processStage": "accelerating",
           "processContentEn": {
-            "title": "US fiscal, rates and dollar regime",
-            "description": "The interaction between U.S. fiscal policy, interest rates, and the dollar is in an accelerating phase, where data and supply events increasingly test the equilibrium.",
-            "implication": "A same-day CPI and 10-year auction forces a direct confrontation between inflation data and duration supply, which could reveal vulnerabilities in demand for Treasuries if repeated, but a single instance is insufficient to confirm acceleration."
+            "title": "US Fiscal, Rates and Dollar Regime: Accelerating",
+            "description": "The interaction between inflation data and Treasury supply is becoming more compressed, as seen in same-day CPI and auction events.",
+            "implication": "Such compression may increase the sensitivity of long-end yields to inflation surprises and test the depth of Treasury demand."
           },
-          "nextQuestionEn": "Will the 10-year auction reveal a shift in term premium or demand dynamics that suggests structural change in the fiscal-rates-dollar regime?",
+          "nextQuestionEn": "Will the 10-year auction reject the CPI-driven rate move, or will it confirm a new yield regime?",
           "observeNextEn": [
-            "10-year auction results: bid-to-cover, tail, indirect bidder share",
-            "10-year yield change on August 12",
-            "Upcoming Treasury issuance calendars for overlapping events"
+            "10-year auction yield and demand metrics",
+            "Inflation expectations across the curve",
+            "Dollar response to CPI and auction outcome"
           ]
         },
         "model": "deepseek-v4-pro",
         "usage": {
           "inputTokens": 2518,
-          "outputTokens": 4214,
+          "outputTokens": 4161,
           "cachedInputTokens": 2432
         }
       }
