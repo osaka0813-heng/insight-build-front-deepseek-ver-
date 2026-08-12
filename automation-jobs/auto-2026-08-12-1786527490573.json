@@ -6,10 +6,10 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:43:08.150Z",
+  "updatedAt": "2026-08-12T09:43:12.032Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "analyze": 2,
@@ -17,8 +17,8 @@
         "write_ja": 1,
         "publish": 1
       },
-      "message": "Automation state write failed: automation-jobs/auto-2026-08-12-1786527490573.json does not match 17ca786b5446121fefed8bf549d662ef30610459",
-      "updatedAt": "2026-08-12T09:43:08.150Z",
+      "message": "publish",
+      "updatedAt": "2026-08-12T09:43:12.032Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
