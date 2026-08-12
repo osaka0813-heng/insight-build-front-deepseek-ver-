@@ -4,9 +4,9 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "us",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:45:08.619Z",
+  "updatedAt": "2026-08-12T09:45:10.338Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,11 @@
       }
     },
     "us": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-08-12T09:45:08.619Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-12T09:45:10.338Z",
       "researchDraft": {
         "ok": true,
         "id": "research-us-2026-08-09-1786527902096",
@@ -1706,6 +1706,114 @@
             ]
           }
         ]
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-us-2026-08-09-1786527902096",
+        "status": "draft",
+        "researchedAt": "2026-08-12T09:45:02.096Z",
+        "researchDate": "2026-08-09",
+        "scope": "us",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 220272,
+          "outputTokens": 17485,
+          "cachedInputTokens": 188800
+        },
+        "querySummary": "The supplied web-search dossier for the 2026-08-09 US 24-hour scan contains no article-level evidence at all: it consists solely of a researcher note stating that a strong candidate is emerging and that key sources within the Aug 8–9, 2026 window still need to be verified. There are no titles, URLs, publishers, publication dates, quotes, or numeric facts to draw from. Because the instructions prohibit inventing any of these, no evidence-backed candidate can be constructed for any tracked US process (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration). The single candidate below documents this evidence gap rather than asserting a change in US processes.",
+        "candidates": [
+          {
+            "id": "us-evidence-gap-2026-08-09",
+            "date": "2026-08-09",
+            "domain": "Cross-domain",
+            "tags": [
+              "us",
+              "evidence-gap",
+              "signal-verification",
+              "research-process",
+              "2026-08-09"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 50,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 0,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 100,
+            "content": {
+              "en": {
+                "title": "No verifiable US signal in Aug 8–9 dossier; flagged candidate remains unconfirmed",
+                "coreFact": "The 2026-08-09 web-search dossier for the 24-hour US scan contains one researcher note—'I have a strong candidate emerging' and a stated plan to verify key sources within the Aug 8–9 window—but no article-level evidence, sources, or facts that can be independently verified.",
+                "whyItMatters": "None of the four tracked US processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) can be updated from this scan without risking a thesis anchored to unsupported change. The safe state is to treat the scan as evidence-empty and re-run verification before any process-stage adjustment.",
+                "processMatchReason": "The dossier does not name a domain or process; matching the flagged candidate to any existing US process would require fabricating the linkage, which is not permitted, so no process match is proposed."
+              },
+              "zh": {
+                "title": "2026年8月8–9日美国扫描未发现可核实信号，待验证候选未获确认",
+                "coreFact": "2026年8月9日的美国24小时扫描档案只包含一条研究者记录——『有一个强候选正在浮现』以及计划在8月8–9日窗口内核实关键来源——但没有任何可核实的文章级证据、来源或事实。",
+                "whyItMatters": "在缺乏来源级证据的情况下，四个受追踪的美国进程（财政/利率/美元、AI资本开支/电力、再工业化、劳动力/移民）都无法依据本次扫描更新；若依据未经验证的候选调整判断，可能把论点锚定在无依据的『变化』上。",
+                "processMatchReason": "档案未指明任何领域或进程；将该候选对应到任何现有美国进程需要虚构关联，违反规则，因此不提出任何进程匹配。"
+              },
+              "ja": {
+                "title": "2026年8月8〜9日の米国スキャンで検証可能なシグナルなし、候補は未確認",
+                "coreFact": "2026年8月9日付の米国24時間スキャンの調査資料には、研究者メモ（『有力な候補が浮上している』、8月8〜9日の窓で主要ソースを検証予定）しか含まれておらず、検証可能な記事レベルの証拠・ソース・事実は存在しない。",
+                "whyItMatters": "財政・金利・ドル、AI設備投資・電力、再工業化、労働・移民のいずれの米国プロセスも、今回のスキャンに基づいて更新すべきではない。未検証の候補に基づく判断変更は、根拠のない変化に論点を固定するリスクがある。",
+                "processMatchReason": "資料は領域やプロセスを特定しておらず、既存の米国プロセスへの対応付けは関連性の捏造になるため、プロセスのマッチングは提案しない。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Researcher note: 'strong candidate emerging' (dossier fragment, supplied in web-search dossier)",
+                "url": "",
+                "publisher": "Internal research log (supplied web-search dossier)",
+                "publishedAt": "2026-08-09",
+                "kind": "context",
+                "id": "us-evidence-gap-2026-08-09-source-1",
+                "role": "context"
+              },
+              {
+                "title": "Verification plan for key sources within the Aug 8–9, 2026 window (dossier fragment, supplied in web-search dossier)",
+                "url": "",
+                "publisher": "Internal research log (supplied web-search dossier)",
+                "publishedAt": "2026-08-09",
+                "kind": "context",
+                "id": "us-evidence-gap-2026-08-09-source-2",
+                "role": "context"
+              }
+            ],
+            "suggestedProcessId": "process-us-labor-immigration",
+            "currentEventSourceCount": 0,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 0,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 0,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "The candidate contains no verifiable article-level evidence, sources, or facts. It consists solely of an internal researcher note about a 'strong candidate emerging' and a verification plan, with zero independent sources, zero trigger sources, and zero corroborating sources. Matching this to any US process would require fabricating a linkage. None of the four tracked US processes (fiscal/rates/dollar, AI capex/power, reindustrialization, labor/immigration) can be updated from this scan. The safe and correct action is to treat this scan as evidence-empty.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "No trigger source falls inside the research window.",
+                "Fewer than two current or corroborating sources.",
+                "No verifiable evidence or independent sources present.",
+                "Candidate is an internal research note, not a signal.",
+                "Zero trigger sources and zero corroborating sources.",
+                "Any process match would be speculative and unsupported.",
+                "No material change to any US process can be derived from this scan."
+              ],
+              "candidateId": "us-evidence-gap-2026-08-09"
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
       }
     },
     "japan": {
