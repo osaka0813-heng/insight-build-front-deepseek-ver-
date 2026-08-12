@@ -4,7 +4,7 @@ import type { LanguageCode } from '../types/insight';
 import { languageLabels, translations, type TranslationKey } from './translations';
 
 const STORAGE_KEY = '@insight/language';
-const LANGUAGE_ORDER: LanguageCode[] = ['en', 'zh', 'ja'];
+const LANGUAGE_ORDER: LanguageCode[] = ['en', 'zh'];
 
 type I18nValue = {
   language: LanguageCode;
@@ -22,8 +22,10 @@ export function I18nProvider({ children }: React.PropsWithChildren) {
   useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY)
       .then((stored) => {
-        if (stored === 'en' || stored === 'zh' || stored === 'ja') {
+        if (stored === 'en' || stored === 'zh') {
           setLanguageState(stored);
+        } else if (stored === 'ja') {
+          setLanguageState('en');
         }
       })
       .catch(() => undefined);

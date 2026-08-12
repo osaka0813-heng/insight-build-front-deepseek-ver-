@@ -17,8 +17,8 @@ export type WriterProcessUpdate = {
   updatedAt: string;
   appendInsightId: string;
   evolutionEvent: LocalizedEvolutionEvent;
-  nextQuestion: { en: string; zh: string; ja: string };
-  observeNext: { en: string[]; zh: string[]; ja: string[] };
+  nextQuestion: { en: string; zh: string; ja?: string };
+  observeNext: { en: string[]; zh: string[]; ja?: string[] };
 };
 
 export type WriterDraftBundle = {

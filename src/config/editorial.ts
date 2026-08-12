@@ -17,3 +17,8 @@ export const PREFLIGHT_API_URL = `${INSIGHT_API_BASE_URL}/api/preflight`;
 export const HEALTH_API_URL = `${INSIGHT_API_BASE_URL}/api/health`;
 
 export const ROLLBACK_API_URL = `${INSIGHT_API_BASE_URL}/api/rollback-latest`;
+
+export const AUTO_START_API_URL = `${INSIGHT_API_BASE_URL}/api/auto-start`;
+export const AUTO_STATUS_API_URL = `${INSIGHT_API_BASE_URL}/api/auto-status`;
+export const AUTO_RESUME_API_URL = `${INSIGHT_API_BASE_URL}/api/auto-resume`;
+export const EDITORIAL_AUTO_JOB_STORAGE_KEY = '@insight/editorial/auto-job/v1';

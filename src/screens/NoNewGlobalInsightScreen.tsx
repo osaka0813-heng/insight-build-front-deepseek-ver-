@@ -11,7 +11,6 @@ import {
 } from 'react-native';
 import { AttentionReveal } from '../components/AttentionReveal';
 import { DailyStateBadge } from '../components/DailyStateBadge';
-import { ScopeSwitcher } from '../components/ScopeSwitcher';
 import { DailyContinuityCard } from '../components/DailyContinuityCard';
 import { LanguageSwitcher } from '../components/LanguageSwitcher';
 import { useI18n } from '../i18n/I18nProvider';
@@ -109,7 +108,6 @@ export function NoNewGlobalInsightScreen({
             <Text style={styles.eyebrow}>{t('todayObservation')}</Text>
             <DailyStateBadge label={dailyState.label} state={dailyState.state} />
           </View>
-          <ScopeSwitcher activeScope={activeScope} onChangeScope={onChangeScope} />
         </AttentionReveal>
 
         <AttentionReveal active delay={90} rise={16}>

@@ -10,7 +10,6 @@ import { DailyContinuityCard } from '../components/DailyContinuityCard';
 import { BreathingTitle } from '../components/BreathingTitle';
 import { SectionHeader } from '../components/SectionHeader';
 import { SignalCard } from '../components/SignalCard';
-import { ScopeSwitcher } from '../components/ScopeSwitcher';
 import type { ExplorerRoot } from '../components/ExplorerSheet';
 import { enrichSignal } from '../data/signalExplorerSeed';
 import type { InsightEdition, InsightScope } from '../types/insight';
@@ -93,10 +92,6 @@ export function CoverPage({
               <ConfidenceBadge level={edition.confidence} />
             </View>
           </View>
-          <ScopeSwitcher
-            activeScope={activeScope}
-            onChangeScope={onChangeScope}
-          />
         </View>
       </AttentionReveal>
 

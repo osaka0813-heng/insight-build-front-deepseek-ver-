@@ -18,7 +18,6 @@ const options: Array<{
 }> = [
   { code: 'en', shortLabel: 'EN', nativeLabel: 'English' },
   { code: 'zh', shortLabel: '中', nativeLabel: '简体中文' },
-  { code: 'ja', shortLabel: '日', nativeLabel: '日本語' },
 ];
 
 type Props = {

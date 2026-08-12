@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { insightRepository } from '../engine/insightRepository';
 import { dailyStateRepository } from '../engine/dailyStateRepository';
 import { dailyContinuityRepository } from '../engine/dailyContinuityRepository';
@@ -33,7 +33,7 @@ export function AppNavigator() {
   const { language } = useI18n();
   const { revision: contentRevision } = useRemoteContent();
   const { lastInsightByProcess } = useLivingMemory();
-  const [activeScope, setActiveScope] = useState<InsightScope>('global');
+  const activeScope: InsightScope = 'global';
   const current = useMemo(
     () => insightRepository.getCurrent(language, activeScope),
     [language, contentRevision, activeScope],
@@ -85,19 +85,9 @@ export function AppNavigator() {
     setOverlayStack([]);
   }, []);
 
-  const changeScope = useCallback((nextScope: InsightScope) => {
-    if (nextScope === activeScope) return;
-    if (!insightRepository.hasScope(nextScope)) {
-      Alert.alert(
-        '该区域暂无内容',
-        '请先进入 AI 编辑台运行“一键自动更新四个区域”。发布完成后，这里会自动出现内容。',
-      );
-      return;
-    }
-    setActiveScope(nextScope);
-    setShowDailyLanding(false);
-    setOverlayStack([]);
-  }, [activeScope]);
+  const changeScope = useCallback((_nextScope: InsightScope) => {
+    // Build014 is intentionally Global-only.
+  }, []);
 
   const process = edition.processId
     ? worldProcessRepository.getById(edition.processId, language)

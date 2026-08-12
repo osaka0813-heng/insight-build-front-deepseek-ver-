@@ -4,11 +4,10 @@ import {
   RESEARCH_API_URL,
   WRITE_API_URL,
 } from '../config/editorial';
-import type { InsightScope, ResearchDraftBundle } from '../types/research';
+import type { ResearchDraftBundle } from '../types/research';
 import type { WriterDraftBundle } from '../types/writer';
 
 export type ResearchRequest = {
-  scope: InsightScope;
   date: string;
   focus: string;
   maxSignals: number;
@@ -22,7 +21,7 @@ export type AnalyzeResponse = {
 
 export type WriteStageUsage = { inputTokens?: number; outputTokens?: number; cachedInputTokens?: number };
 export type WriteBaseResponse = { ok: true; stage: 'base'; baseDraft: any; model: string; usage?: WriteStageUsage };
-export type WriteTranslationResponse = { ok: true; stage: 'zh' | 'ja'; language: 'zh' | 'ja'; localizedDraft: any; model: string; usage?: WriteStageUsage };
+export type WriteTranslationResponse = { ok: true; stage: 'zh'; language: 'zh'; localizedDraft: any; model: string; usage?: WriteStageUsage };
 export type WriteResponse = { ok: true; stage: 'finalize'; writerDraft: WriterDraftBundle; editorialGate?: any };
 
 export type EditorialRequestError = Error & {
@@ -96,14 +95,85 @@ export function runAnalyze(draft: ResearchDraftBundle, token: string) {
   return postJson<AnalyzeResponse>(ANALYZE_API_URL, token, draft, 'analyze');
 }
 
-export type WriteProgressStage = 'english' | 'chinese' | 'japanese' | 'finalizing';
-export async function runWrite(draft: ResearchDraftBundle, token: string, force = false, onProgress?: (stage: WriteProgressStage) => void) {
-  onProgress?.('english');
-  const base = await postJson<WriteBaseResponse>(WRITE_API_URL, token, { stage: 'base', researchDraft: draft, force }, 'write');
-  onProgress?.('chinese');
-  const zh = await postJson<WriteTranslationResponse>(WRITE_API_URL, token, { stage: 'zh', researchDraft: draft, baseDraft: base.baseDraft, force }, 'write');
-  onProgress?.('japanese');
-  const ja = await postJson<WriteTranslationResponse>(WRITE_API_URL, token, { stage: 'ja', researchDraft: draft, baseDraft: base.baseDraft, force }, 'write');
+export type WriteProgressStage = 'english' | 'chinese' | 'finalizing';
+export type WriteCheckpoint = {
+  base?: WriteBaseResponse;
+  zh?: WriteTranslationResponse;
+};
+
+export async function runWriteResumable(
+  draft: ResearchDraftBundle,
+  token: string,
+  checkpoint: WriteCheckpoint = {},
+  force = false,
+  onProgress?: (stage: WriteProgressStage) => void,
+  onCheckpoint?: (checkpoint: WriteCheckpoint) => Promise<void> | void,
+) {
+  let current = { ...checkpoint };
+
+  if (!current.base) {
+    onProgress?.('english');
+    current.base = await postJson<WriteBaseResponse>(
+      WRITE_API_URL,
+      token,
+      { stage: 'base', researchDraft: draft, force },
+      'write',
+    );
+    await onCheckpoint?.(current);
+  }
+
+  if (!current.zh) {
+    onProgress?.('chinese');
+    current.zh = await postJson<WriteTranslationResponse>(
+      WRITE_API_URL,
+      token,
+      {
+        stage: 'zh',
+        researchDraft: draft,
+        baseDraft: current.base.baseDraft,
+        force,
+      },
+      'write',
+    );
+    await onCheckpoint?.(current);
+  }
+
   onProgress?.('finalizing');
-  return postJson<WriteResponse>(WRITE_API_URL, token, { stage: 'finalize', researchDraft: draft, baseDraft: base.baseDraft, zhDraft: zh.localizedDraft, jaDraft: ja.localizedDraft, stageUsage: { base: base.usage, zh: zh.usage, ja: ja.usage }, stageModels: { base: base.model, zh: zh.model, ja: ja.model }, force }, 'write');
+  const result = await postJson<WriteResponse>(
+    WRITE_API_URL,
+    token,
+    {
+      stage: 'finalize',
+      researchDraft: draft,
+      baseDraft: current.base.baseDraft,
+      zhDraft: current.zh.localizedDraft,
+      stageUsage: {
+        base: current.base.usage,
+        zh: current.zh.usage,
+      },
+      stageModels: {
+        base: current.base.model,
+        zh: current.zh.model,
+      },
+      force,
+    },
+    'write',
+  );
+
+  return { ...result, checkpoint: current };
+}
+
+export async function runWrite(
+  draft: ResearchDraftBundle,
+  token: string,
+  force = false,
+  onProgress?: (stage: WriteProgressStage) => void,
+) {
+  return runWriteResumable(
+    draft,
+    token,
+    {},
+    force,
+    onProgress,
+  );
 }

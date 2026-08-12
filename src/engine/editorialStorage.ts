@@ -2,6 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as SecureStore from 'expo-secure-store';
 import {
   EDITORIAL_ADMIN_SESSION_KEY,
+  EDITORIAL_AUTO_JOB_STORAGE_KEY,
   EDITORIAL_LOG_STORAGE_KEY,
   EDITORIAL_PIPELINE_STORAGE_KEY,
   EDITORIAL_PUBLISH_TOKEN_KEY,
@@ -17,6 +18,12 @@ export type EditorialTokens = {
   publishToken: string;
 };
 
+export type WriteCheckpoint = {
+  base?: any;
+  zh?: any;
+  ja?: any;
+};
+
 export type PipelineSnapshot = {
   savedAt: string;
   scope?: InsightScope;
@@ -25,6 +32,7 @@ export type PipelineSnapshot = {
   researchDraft?: ResearchDraftBundle;
   analyzedDraft?: ResearchDraftBundle;
   writerDraft?: WriterDraftBundle;
+  writeCheckpoint?: WriteCheckpoint;
 };
 
 export type EditorialLogEntry = {
@@ -122,31 +130,72 @@ export async function clearAdminSession(): Promise<void> {
   await SecureStore.deleteItemAsync(EDITORIAL_ADMIN_SESSION_KEY);
 }
 
+
+function scopedPipelineKey(scope: InsightScope = 'global') {
+  return `${EDITORIAL_PIPELINE_STORAGE_KEY}:${scope}`;
+}
+
 export async function savePipelineSnapshot(
   snapshot: PipelineSnapshot,
 ): Promise<void> {
+  const scope = snapshot.scope || 'global';
+  await AsyncStorage.setItem(
+    scopedPipelineKey(scope),
+    JSON.stringify(snapshot),
+  );
+  // Compatibility pointer: most recently used scope.
   await AsyncStorage.setItem(
     EDITORIAL_PIPELINE_STORAGE_KEY,
-    JSON.stringify(snapshot),
+    JSON.stringify({ scope }),
   );
 }
 
-export async function loadPipelineSnapshot(): Promise<
-  PipelineSnapshot | undefined
-> {
-  const raw = await AsyncStorage.getItem(EDITORIAL_PIPELINE_STORAGE_KEY);
+export async function loadPipelineSnapshot(
+  requestedScope?: InsightScope,
+): Promise<PipelineSnapshot | undefined> {
+  let scope = requestedScope;
+  if (!scope) {
+    const pointer = await AsyncStorage.getItem(EDITORIAL_PIPELINE_STORAGE_KEY);
+    try {
+      const parsed = pointer ? JSON.parse(pointer) : undefined;
+      scope =
+        parsed?.scope === 'china' ||
+        parsed?.scope === 'us' ||
+        parsed?.scope === 'japan'
+          ? parsed.scope
+          : 'global';
+    } catch {
+      scope = 'global';
+    }
+  }
+  const raw = await AsyncStorage.getItem(scopedPipelineKey(scope || 'global'));
   if (!raw) return undefined;
   try {
     return JSON.parse(raw) as PipelineSnapshot;
   } catch {
-    await AsyncStorage.removeItem(EDITORIAL_PIPELINE_STORAGE_KEY);
+    await AsyncStorage.removeItem(scopedPipelineKey(scope || 'global'));
     return undefined;
   }
 }
 
-export async function clearPipelineSnapshot(): Promise<void> {
-  await AsyncStorage.removeItem(EDITORIAL_PIPELINE_STORAGE_KEY);
+export async function clearPipelineSnapshot(
+  scope: InsightScope = 'global',
+): Promise<void> {
+  await AsyncStorage.removeItem(scopedPipelineKey(scope));
 }
+
+export async function saveAutoJobId(jobId: string): Promise<void> {
+  await AsyncStorage.setItem(EDITORIAL_AUTO_JOB_STORAGE_KEY, jobId);
+}
+
+export async function loadAutoJobId(): Promise<string | undefined> {
+  return (await AsyncStorage.getItem(EDITORIAL_AUTO_JOB_STORAGE_KEY)) || undefined;
+}
+
+export async function clearAutoJobId(): Promise<void> {
+  await AsyncStorage.removeItem(EDITORIAL_AUTO_JOB_STORAGE_KEY);
+}
+
 
 export async function loadEditorialLogs(): Promise<EditorialLogEntry[]> {
   const raw = await AsyncStorage.getItem(EDITORIAL_LOG_STORAGE_KEY);
