@@ -6,7 +6,7 @@
   "currentScope": "us",
   "currentStage": "research",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:47:41.856Z",
+  "updatedAt": "2026-08-12T09:47:44.079Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1513,11 +1513,14 @@
       }
     },
     "us": {
-      "status": "queued",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-08-12T09:38:10.573Z"
+      "attempts": {
+        "research": 1
+      },
+      "message": "Automation state write failed: is at 36eb1c766ee82d1ee56523e9ff29c6d072f682bc but expected 6dd63fc482de820f4e3a01d9937fbfc94017f8dd",
+      "updatedAt": "2026-08-12T09:47:44.079Z",
+      "failedStage": "research"
     },
     "japan": {
       "status": "queued",
@@ -1559,5 +1562,5 @@
       }
     ]
   },
-  "message": "CHINA 在 write_zh 连续失败 3 次，保留断点并跳到下一区域。"
+  "message": "US research 自动重试 1/3"
 }
