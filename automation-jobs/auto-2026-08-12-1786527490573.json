@@ -3,10 +3,10 @@
   "status": "running",
   "date": "2026-08-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
-  "currentScope": "us",
-  "currentStage": "write_base",
+  "currentScope": "china",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:51:18.439Z",
+  "updatedAt": "2026-08-12T09:51:21.440Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1107,13 +1107,13 @@
       "completedAt": "2026-08-12T09:43:15.277Z"
     },
     "china": {
-      "status": "error",
+      "status": "queued",
       "stage": "write_zh",
       "attempts": {
         "analyze": 1,
-        "write_zh": 3
+        "write_zh": 0
       },
-      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
+      "message": "从 write_zh 断点继续",
       "updatedAt": "2026-08-12T09:49:23.890Z",
       "researchDraft": {
         "ok": true,
@@ -1785,5 +1785,5 @@
       }
     ]
   },
-  "message": "CHINA 在 write_zh 连续失败 3 次，保留断点并跳到下一区域。"
+  "message": "CHINA 从 write_zh 断点继续"
 }
