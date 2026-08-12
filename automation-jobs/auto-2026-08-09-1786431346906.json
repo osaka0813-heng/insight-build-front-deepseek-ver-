@@ -4,9 +4,9 @@
   "date": "2026-08-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "us",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-11T06:55:46.904Z",
-  "updatedAt": "2026-08-12T09:42:38.521Z",
+  "updatedAt": "2026-08-12T09:44:27.035Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1627,11 +1627,97 @@
       }
     },
     "us": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-12T09:42:38.521Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-12T09:44:27.035Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-us-2026-08-09-1786527867019",
+        "status": "draft",
+        "researchedAt": "2026-08-12T09:44:27.019Z",
+        "researchDate": "2026-08-09",
+        "scope": "us",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 101336,
+          "outputTokens": 13456,
+          "cachedInputTokens": 78336
+        },
+        "querySummary": "In the 24 hours before 2026-08-09, the strongest US signal is the July 2026 employment report released 2026-08-07: nonfarm payrolls unexpectedly fell 23,000, prior months were revised down sharply, September Fed hike odds dropped to about 44%, and the dollar and Treasury yields fell. It was selected because it simultaneously changes judgments across the labor/immigration and fiscal-rates-dollar processes.",
+        "candidates": [
+          {
+            "id": "signal-us-july-payrolls-fade-hike-2026-08-07",
+            "date": "2026-08-07",
+            "domain": "Labor",
+            "tags": [
+              "nonfarm-payrolls",
+              "federal-reserve",
+              "rate-hike",
+              "dollar",
+              "treasury-yields",
+              "labor-force-participation",
+              "immigration",
+              "us"
+            ],
+            "suggestedProcessId": "process-us-labor-immigration",
+            "processMatchConfidence": 92,
+            "importance": 95,
+            "novelty": 82,
+            "evidenceStrength": 95,
+            "independentSourceCount": 3,
+            "thesisImpact": 90,
+            "relationshipChange": 88,
+            "stageChange": 80,
+            "contradiction": 75,
+            "content": {
+              "en": {
+                "title": "July payrolls unexpectedly negative, cutting September Fed hike odds and pulling the dollar down",
+                "coreFact": "US nonfarm payrolls fell by 23,000 in July 2026 versus +83,000 expected, with May–June revised down by roughly 103,000. The unemployment rate fell to 4.1% only because the labor force dropped 264,000; participation fell to its lowest since mid-1976 outside the pandemic, and the employment-population ratio hit its lowest since May 2014. CME FedWatch put September hike probability at about 44%, down from about 67% a week earlier; 10-year Treasury yield fell to 4.637% and the dollar hit a near two-month low.",
+                "whyItMatters": "This is the clearest near-term evidence that labor-supply constraints, not just demand, are shaping US macro outcomes. It weakens the case for a September Fed hike, but coexists with high fiscal pressure: 30-year Treasury yields had just broken above 5% and term premiums remained elevated. That creates a 'fiscal-labor' policy squeeze ahead of the August 11 CPI print: short-rate expectations are falling while the long-end fiscal premium remains high. It directly validates the labor-immigration process and forces a recalibration of the fiscal-rates-dollar process.",
+                "processMatchReason": "Matches the US labor and immigration regime process: participation is at a multi-decade low, the employment-population ratio is at a 2014 low, and policymakers attribute the weakness to reduced immigration and an aging workforce—confirming that labor supply is now a structural constraint on growth and inflation."
+              },
+              "zh": {
+                "title": "7月非农意外转负，9月加息概率骤降，美元与美债收益率同跌",
+                "coreFact": "2026年7月美国非农就业减少2.3万人，远低于预期增加8.3万人，5-6月合计下修约10.3万人。失业率降至4.1%，原因是劳动力人口减少26.4万人；劳动参与率降至剔除疫情期后1976年中以来最低，就业人口比率创2014年5月以来新低。CME FedWatch显示9月加息概率从约67%降至约44%；10年期美债收益率降至4.637%，美元指数接近两个多月低点。",
+                "whyItMatters": "这是劳动力供给约束正在直接改变宏观路径的最清晰短期证据。它削弱了9月加息的理由，但与财政压力并存：30年期收益率刚刚突破5%，期限溢价仍高。这形成“财政—劳动力”双重挤压，使美联储在8月11日CPI公布前陷入政策两难：短端加息预期下降，长端财政溢价未消。该信号直接验证劳动力与移民体制进程，也要求重新校准财政—利率—美元进程。",
+                "processMatchReason": "直接命中美国劳动力与移民体制：劳动参与率处于数十年低点，就业人口比率创2014年以来新低，决策者将就业疲软归因于移民减少和劳动力老龄化，确认劳动力供给已成为增长与通胀的结构性约束。"
+              },
+              "ja": {
+                "title": "7月雇用統計が予想外の減少、9月利上げ確率急落でドルと米国債利回りが低下",
+                "coreFact": "2026年7月の米非農業部門雇用者数は2.3万人減（予想は8.3万人増）となり、5-6月分は合計約10.3万人下方修正。失業率は4.1%に低下したが、労働力人口が26.4万人減ったため。労働参加率はパンデミック期を除けば1976年半ば以来の低水準、就業者比率は2014年5月以来の低水準。CME FedWatchの9月利上げ確率は約67%から約44%へ低下し、10年債利回りは4.637%、ドルは約2カ月ぶりの安値圏。",
+                "whyItMatters": "労働供給制約が米国のマクロ経路を直接変え始めたことを示す短期的に最も明確な材料。9月利上げ観測は後退したが、30年債利回りが5%を突破するなど財政圧力と併存し、8月11日のCPIを前に「財政・労働」の二重の政策難局を生んでいる。労働・移民体制の検証になると同時に、財政・金利・ドル体制の再調整を迫る。",
+                "processMatchReason": "労働・移民体制プロセスに直接一致する。労働参加率は数十年ぶりの低水準、就業者比率は2014年以来の低水準で、当局者は移民減少と高齢化を雇用弱気の要因としており、労働供給が成長とインフレの構造的制約になっていることを裏付ける。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Employment Situation Summary",
+                "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+                "publisher": "U.S. Bureau of Labor Statistics",
+                "publishedAt": "2026-08-07",
+                "kind": "primary"
+              },
+              {
+                "title": "U.S. economy unexpectedly lost 23,000 jobs in July",
+                "url": "https://www.cnbcafrica.com/2026/u-s-economy-unexpectedly-lost-23000-jobs-in-july",
+                "publisher": "CNBC Africa",
+                "publishedAt": "2026-08-07",
+                "kind": "reliable_media"
+              },
+              {
+                "title": "TREASURIES-Treasury yields fall as jobs report dashes hike bets",
+                "url": "https://wealthinsights.metrobank.com.ph/news/treasuries-treasury-yields-fall-as-jobs-report-dashes-hike-bets",
+                "publisher": "Metrobank Wealth Insights (Reuters)",
+                "publishedAt": "2026-08-09",
+                "kind": "reliable_media"
+              }
+            ]
+          }
+        ]
+      }
     },
     "japan": {
       "status": "queued",
