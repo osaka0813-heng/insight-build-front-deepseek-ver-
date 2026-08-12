@@ -6,16 +6,16 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-12T09:38:10.570Z",
-  "updatedAt": "2026-08-12T09:39:26.265Z",
+  "updatedAt": "2026-08-12T09:39:30.580Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "analyze",
       "attempts": {
         "analyze": 2
       },
-      "message": "Automation state write failed: is at d722631ce425a673cb3ce984cab1632df08ed630 but expected c261ac8f83d0bfdd5ab9c063f82cb48805e83667",
-      "updatedAt": "2026-08-12T09:39:26.265Z",
+      "message": "analyze",
+      "updatedAt": "2026-08-12T09:39:30.580Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-12-1786527562721",
