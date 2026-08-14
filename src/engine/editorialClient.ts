@@ -101,6 +101,23 @@ export type WriteCheckpoint = {
   zh?: WriteTranslationResponse;
 };
 
+
+function isValidBaseCheckpoint(value: any): value is WriteBaseResponse {
+  return Boolean(
+    value?.baseDraft?.en?.cover?.title &&
+    value?.baseDraft?.dailyStateEn,
+  );
+}
+
+function isValidZhCheckpoint(
+  value: any,
+): value is WriteTranslationResponse {
+  return Boolean(
+    value?.localizedDraft?.page?.cover?.title &&
+    value?.localizedDraft?.dailyState,
+  );
+}
+
 export async function runWriteResumable(
   draft: ResearchDraftBundle,
   token: string,
@@ -110,6 +127,17 @@ export async function runWriteResumable(
   onCheckpoint?: (checkpoint: WriteCheckpoint) => Promise<void> | void,
 ) {
   let current = { ...checkpoint };
+
+  // Build014 must not trust legacy Build013 Writer checkpoints.
+  // If the stored shape is incomplete, discard only that stage and regenerate it.
+  if (current.base && !isValidBaseCheckpoint(current.base)) {
+    current.base = undefined;
+    current.zh = undefined;
+  }
+
+  if (current.zh && !isValidZhCheckpoint(current.zh)) {
+    current.zh = undefined;
+  }
 
   if (!current.base) {
     onProgress?.('english');
@@ -136,6 +164,14 @@ export async function runWriteResumable(
       'write',
     );
     await onCheckpoint?.(current);
+  }
+
+  if (!isValidBaseCheckpoint(current.base)) {
+    throw new Error('英文写作断点无效，请重新生成英文主稿。');
+  }
+
+  if (!isValidZhCheckpoint(current.zh)) {
+    throw new Error('中文写作断点无效，请从中文步骤继续。');
   }
 
   onProgress?.('finalizing');

@@ -417,7 +417,7 @@ export function EditorialConsoleScreen({
             <Text style={styles.back}>‹ 返回</Text>
           </Pressable>
           <Text style={styles.version}>
-            BUILD014 · ONE WORLD
+            BUILD014.1 · ONE WORLD
           </Text>
           <Text style={styles.title}>AI 编辑台</Text>
           <Text style={styles.subtitle}>
@@ -510,7 +510,7 @@ export function EditorialConsoleScreen({
             style={styles.secondaryButton}
           >
             <Text style={styles.secondaryText}>
-              开启新的研究周期
+              清除断点并开启新周期
             </Text>
           </Pressable>
 

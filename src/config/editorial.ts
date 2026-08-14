@@ -9,7 +9,7 @@ export const LEGACY_EDITORIAL_TOKEN_STORAGE_KEY = '@insight/editorial/tokens/v1'
 export const EDITORIAL_RESEARCH_TOKEN_KEY = 'insight.editorial.research-token.v2';
 export const EDITORIAL_PUBLISH_TOKEN_KEY = 'insight.editorial.publish-token.v2';
 export const EDITORIAL_ADMIN_SESSION_KEY = 'insight.editorial.admin-session.v1';
-export const EDITORIAL_PIPELINE_STORAGE_KEY = '@insight/editorial/pipeline/v1';
+export const EDITORIAL_PIPELINE_STORAGE_KEY = '@insight/build014/editorial/pipeline/v1';
 export const EDITORIAL_LOG_STORAGE_KEY = '@insight/editorial/logs/v1';
 export const EDITORIAL_ADMIN_SESSION_MS = 10 * 60 * 1000;
 

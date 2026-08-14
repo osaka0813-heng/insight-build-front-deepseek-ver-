@@ -1,6 +1,6 @@
 {
-  "name": "insight-build014-one-world-expo",
-  "version": "1.0.0",
+  "name": "insight-build014-1-one-world-expo",
+  "version": "1.0.1",
   "private": true,
   "main": "index.js",
   "scripts": {
