@@ -1,8 +1,313 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T12:10:00+09:00",
-  "contentVersion": "build012.1-alpha-world-process-foundation",
+  "generatedAt": "2026-08-21T09:29:41.406Z",
+  "contentVersion": "publish-global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal-1787304582213",
   "insights": [
+    {
+      "id": "global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal",
+      "scope": "global",
+      "slug": "fomc-dissents-hike-2026",
+      "status": "update_living",
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "updatedAt": "2026-08-21T09:29:38.562Z",
+      "confidence": "hypothesis",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Global Insight",
+            "secondaryEyebrow": "Fed policy signal review",
+            "title": "Three FOMC dissents favoring a hike: unverified signal",
+            "summary": "A research dossier claims FOMC minutes included three dissents in favor of a rate hike, but it does not identify the meeting or the dissenting voters. The claim is potentially market-moving and remains unverified."
+          },
+          "question": {
+            "lead": "How much weight should markets give to an unattributed single-source report of hawkish Fed dissents?",
+            "title": "Can three dissents favoring a hike be verified from the public FOMC record?",
+            "footnote": "Based on a single research dossier dated 2026-08-21. No meeting date, dissenter names, or primary source link was provided."
+          },
+          "signals": {
+            "title": "What the dossier says",
+            "sourceNote": "The dossier is the only trigger source. A second dossier item provides context but no independent corroboration.",
+            "items": [
+              {
+                "id": "fomc-dissents-hike-2026-signal-1",
+                "label": "Claimed dissents",
+                "title": "Dossier says three FOMC members dissented toward a hike",
+                "body": "A research dossier states that FOMC minutes included three dissents in favor of a rate hike. It does not name the meeting or the voters.",
+                "whyImportant": "Three dissents would be a meaningful hawkish signal inside the Fed and could challenge market expectations for cuts.",
+                "evidence": [
+                  {
+                    "id": "fomc-dissents-hike-2026-evidence-1",
+                    "title": "Research dossier claim",
+                    "description": "Single trigger source; no primary link or meeting identifier is provided.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "fomc-dissents-hike-2026-source-1",
+                    "title": "WEB SEARCH DOSSIER",
+                    "publisher": "Research Dossier",
+                    "publishedAt": "2026-08-21",
+                    "url": "",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "fomc-dissents-hike-2026-signal-2",
+                "label": "Missing verification",
+                "title": "No meeting date, names, or primary source",
+                "body": "The same dossier leaves out the FOMC meeting date, the dissenting voters, and any direct link to the minutes.",
+                "whyImportant": "Without those details, the report cannot be checked against the public FOMC record.",
+                "evidence": [
+                  {
+                    "id": "fomc-dissents-hike-2026-evidence-2",
+                    "title": "Source limitations",
+                    "description": "Dossier lacks identifiers; corroborating source count is zero.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "fomc-dissents-hike-2026-source-1",
+                    "title": "WEB SEARCH DOSSIER",
+                    "publisher": "Research Dossier",
+                    "publishedAt": "2026-08-21",
+                    "url": "",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "fomc-dissents-hike-2026-signal-3",
+                "label": "Market signal risk",
+                "title": "Hawkish pressure could reprice rate expectations",
+                "body": "If three dissents favoring a hike were confirmed, rate-path pricing could shift away from cut expectations.",
+                "whyImportant": "The signal is potentially market-moving, making verification urgent before amplification.",
+                "evidence": [
+                  {
+                    "id": "fomc-dissents-hike-2026-evidence-3",
+                    "title": "Potential impact",
+                    "description": "Assessment notes possible significance but no verifiable detail.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "fomc-dissents-hike-2026-source-1",
+                    "title": "WEB SEARCH DOSSIER",
+                    "publisher": "Research Dossier",
+                    "publishedAt": "2026-08-21",
+                    "url": "",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "Unverified hawkish dissent signal",
+            "before": "Market narratives expected Fed rate cuts, with little public evidence of a strong hawkish bloc inside the FOMC.",
+            "shift": "A single research dossier claims FOMC minutes showed three dissents in favor of a rate hike.",
+            "now": "The claim is unverified: no meeting date, dissenter names, or primary source have been supplied.",
+            "conclusion": "Treat this as a low-confidence signal until primary FOMC records identify the meeting and the dissenting voters."
+          },
+          "insight": {
+            "title": "Verification precedes repricing",
+            "formula": "If three hike dissents are confirmed + they align with a known FOMC meeting → hawkish repricing; until then → noise",
+            "explanation": "The dossier's claim is potentially significant but insufficiently specified. Market participants should not reprice rate expectations based on an unattributed single-source assertion."
+          },
+          "observe": {
+            "title": "What to watch next",
+            "items": [
+              {
+                "label": "Primary record",
+                "prompt": "Locate the FOMC minutes and vote counts for recent meetings.",
+                "meta": "Check Federal Reserve releases"
+              },
+              {
+                "label": "Dissenter names",
+                "prompt": "Identify any three voters who dissented in favor of a hike in the same meeting.",
+                "meta": "Compare with public statements"
+              },
+              {
+                "label": "Market pricing",
+                "prompt": "Track fed funds futures and front-end yields for any hawkish repricing.",
+                "meta": "Monitor daily rate-path measures"
+              },
+              {
+                "label": "Secondary reporting",
+                "prompt": "Wait for independent reporting or official transcripts to corroborate the dossier.",
+                "meta": "Require at least one additional source"
+              }
+            ],
+            "ending": "Until the meeting and dissenters are identified, this dossier should be treated as an unverified tip, not a confirmed macro signal."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "全球洞察",
+            "secondaryEyebrow": "美联储政策信号审查",
+            "title": "三位FOMC委员支持加息的不同意见：未经验证的信号",
+            "summary": "一份研究档案声称FOMC会议纪要包含三项赞成加息的不同意见，但未指明会议或投不同意见的委员。该说法可能影响市场，但仍未得到验证。"
+          },
+          "question": {
+            "lead": "市场应如何权衡一份未注明来源、单一来源的美联储鹰派异议报告？",
+            "title": "官方FOMC记录能否证实存在三项赞成加息的不同意见？",
+            "footnote": "基于一份日期为2026-08-21的研究档案。未提供会议日期、异议委员姓名或原始来源链接。"
+          },
+          "signals": {
+            "title": "档案中的内容",
+            "sourceNote": "该档案是唯一触发来源。第二份档案条目提供背景，但没有独立佐证。",
+            "items": [
+              {
+                "id": "fomc-dissents-hike-2026-signal-1",
+                "label": "声称的异议",
+                "title": "档案称三位FOMC成员倾向加息并提出异议",
+                "body": "一份研究档案称FOMC会议纪要包含三项赞成加息的不同意见。未指明会议或投票委员。",
+                "whyImportant": "三项异议将是美联储内部有意义的鹰派信号，可能挑战市场对降息的预期。",
+                "evidence": [
+                  {
+                    "id": "fomc-dissents-hike-2026-evidence-1",
+                    "title": "研究档案的说法",
+                    "description": "单一触发来源；未提供原始链接或会议标识。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "fomc-dissents-hike-2026-source-1",
+                    "title": "WEB SEARCH DOSSIER",
+                    "publisher": "Research Dossier",
+                    "publishedAt": "2026-08-21",
+                    "url": "",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "fomc-dissents-hike-2026-signal-2",
+                "label": "缺乏验证",
+                "title": "没有会议日期、姓名或原始来源",
+                "body": "同一档案未提供FOMC会议日期、投异议的委员，也无直接链接到会议纪要。",
+                "whyImportant": "缺少这些细节，就无法对照公开FOMC记录进行核查。",
+                "evidence": [
+                  {
+                    "id": "fomc-dissents-hike-2026-evidence-2",
+                    "title": "来源局限",
+                    "description": "档案缺少识别信息；佐证来源数为零。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "fomc-dissents-hike-2026-source-1",
+                    "title": "WEB SEARCH DOSSIER",
+                    "publisher": "Research Dossier",
+                    "publishedAt": "2026-08-21",
+                    "url": "",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "fomc-dissents-hike-2026-signal-3",
+                "label": "市场信号风险",
+                "title": "鹰派压力可能重新定价利率预期",
+                "body": "若确认有三项赞成加息的不同意见，利率路径定价可能从降息预期转向。",
+                "whyImportant": "该信号可能影响市场，在放大之前核验尤为紧迫。",
+                "evidence": [
+                  {
+                    "id": "fomc-dissents-hike-2026-evidence-3",
+                    "title": "潜在影响",
+                    "description": "评估指出可能存在重要性，但没有可核实的细节。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "fomc-dissents-hike-2026-source-1",
+                    "title": "WEB SEARCH DOSSIER",
+                    "publisher": "Research Dossier",
+                    "publishedAt": "2026-08-21",
+                    "url": "",
+                    "type": "official",
+                    "reliability": "primary",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "未经核实的美联储鹰派异议信号",
+            "before": "市场叙事原本预期美联储降息，公开证据中几乎没有显示FOMC内部存在强势鹰派阵营。",
+            "shift": "一份研究档案声称FOMC会议纪要显示三项赞成加息的不同意见。",
+            "now": "该说法未经验证：未提供会议日期、异议委员姓名或原始来源。",
+            "conclusion": "在官方FOMC记录确认具体会议及异议委员之前，应将其视为低置信度信号。"
+          },
+          "insight": {
+            "title": "核验先于重新定价",
+            "formula": "若三项加息异议得到确认 + 对应已知FOMC会议 → 鹰派重新定价；在此之前 → 噪音",
+            "explanation": "档案的说法可能意义重大，但细节不足。市场参与者不应基于一项未署名、单一来源的断言来重新定价利率预期。"
+          },
+          "observe": {
+            "title": "后续观察",
+            "items": [
+              {
+                "label": "官方记录",
+                "prompt": "查找近期FOMC会议纪要及投票统计。",
+                "meta": "查看美联储发布的材料"
+              },
+              {
+                "label": "异议委员姓名",
+                "prompt": "确认同一次会议中是否有三位委员投票赞成加息。",
+                "meta": "与公开声明交叉比对"
+              },
+              {
+                "label": "市场定价",
+                "prompt": "跟踪联邦基金期货和前端收益率是否出现鹰派重新定价。",
+                "meta": "每日观察利率路径指标"
+              },
+              {
+                "label": "二手报道",
+                "prompt": "等待独立报道或官方记录来佐证该档案。",
+                "meta": "至少需要另一个来源"
+              }
+            ],
+            "ending": "在会议和异议委员身份得到确认之前，这份档案应被视为未经证实的线索，而非已确认的宏观信号。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
       "slug": "doe-paducah-ai-campus-brookfield-nextera",
@@ -2342,6 +2647,45 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-08-21",
+      "scope": "global",
+      "date": "2026-08-21",
+      "decidedAt": "2026-08-21T09:29:38.562Z",
+      "state": "no_new_global_insight",
+      "insightId": "global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal",
+      "materialChangeScore": 14,
+      "evidenceStrength": 15,
+      "noveltyScore": 70,
+      "importanceScore": 80,
+      "candidateSignalIds": [
+        "fomc-dissents-hike-2026"
+      ],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Hold for verification",
+          "decisionSummary": "The dossier is a single trigger source with zero corroborating sources, no meeting date, no dissenter names, and no primary link; it fails the publication threshold.",
+          "thresholdReason": "Evidence strength is low, corroborating source count is zero, and the suggested process match is unrelated to monetary policy.",
+          "observeNext": [
+            "Locate primary FOMC minutes for recent meetings and check vote tallies.",
+            "Identify any three dissents in favor of a hike in a single meeting.",
+            "Wait for at least one independent corroborating report."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "维持观望，等待核验",
+          "decisionSummary": "该档案是单一触发来源，佐证来源数为零，没有会议日期、异议委员姓名和原始链接；未达到发布门槛。",
+          "thresholdReason": "证据强度低，佐证来源数为零，且建议匹配的流程与货币政策无关。",
+          "observeNext": [
+            "查找近期FOMC官方会议纪要并核对投票统计。",
+            "确认某次会议中是否有三项赞成加息的不同意见。",
+            "等待至少一份独立的佐证报告。"
+          ]
+        }
+      }
+    },
+    {
       "id": "daily-2026-08-01",
       "date": "2026-08-01",
       "decidedAt": "2026-08-01T15:12:48.498Z",
@@ -2779,6 +3123,386 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-fomc-dissents-hike-2026-1787304578562",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-08-21T09:29:38.562Z",
+      "researchDraftId": "research-global-2026-08-21-1787304427795",
+      "candidateId": "fomc-dissents-hike-2026",
+      "model": "deepseek-v4-pro + deepseek-v4-flash",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold.",
+          "Fewer than two current or corroborating sources."
+        ],
+        "humanApproved": true,
+        "originalPublishThresholdMet": false
+      },
+      "insight": {
+        "id": "global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal",
+        "scope": "global",
+        "slug": "fomc-dissents-hike-2026",
+        "status": "update_living",
+        "publishedAt": "2026-08-21T00:00:00.000Z",
+        "updatedAt": "2026-08-21T09:29:38.562Z",
+        "confidence": "hypothesis",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Fed policy signal review",
+              "title": "Three FOMC dissents favoring a hike: unverified signal",
+              "summary": "A research dossier claims FOMC minutes included three dissents in favor of a rate hike, but it does not identify the meeting or the dissenting voters. The claim is potentially market-moving and remains unverified."
+            },
+            "question": {
+              "lead": "How much weight should markets give to an unattributed single-source report of hawkish Fed dissents?",
+              "title": "Can three dissents favoring a hike be verified from the public FOMC record?",
+              "footnote": "Based on a single research dossier dated 2026-08-21. No meeting date, dissenter names, or primary source link was provided."
+            },
+            "signals": {
+              "title": "What the dossier says",
+              "sourceNote": "The dossier is the only trigger source. A second dossier item provides context but no independent corroboration.",
+              "items": [
+                {
+                  "id": "fomc-dissents-hike-2026-signal-1",
+                  "label": "Claimed dissents",
+                  "title": "Dossier says three FOMC members dissented toward a hike",
+                  "body": "A research dossier states that FOMC minutes included three dissents in favor of a rate hike. It does not name the meeting or the voters.",
+                  "whyImportant": "Three dissents would be a meaningful hawkish signal inside the Fed and could challenge market expectations for cuts.",
+                  "evidence": [
+                    {
+                      "id": "fomc-dissents-hike-2026-evidence-1",
+                      "title": "Research dossier claim",
+                      "description": "Single trigger source; no primary link or meeting identifier is provided.",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "fomc-dissents-hike-2026-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "fomc-dissents-hike-2026-source-1",
+                      "title": "WEB SEARCH DOSSIER",
+                      "publisher": "Research Dossier",
+                      "publishedAt": "2026-08-21",
+                      "url": "",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "fomc-dissents-hike-2026-signal-2",
+                  "label": "Missing verification",
+                  "title": "No meeting date, names, or primary source",
+                  "body": "The same dossier leaves out the FOMC meeting date, the dissenting voters, and any direct link to the minutes.",
+                  "whyImportant": "Without those details, the report cannot be checked against the public FOMC record.",
+                  "evidence": [
+                    {
+                      "id": "fomc-dissents-hike-2026-evidence-2",
+                      "title": "Source limitations",
+                      "description": "Dossier lacks identifiers; corroborating source count is zero.",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "fomc-dissents-hike-2026-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "fomc-dissents-hike-2026-source-1",
+                      "title": "WEB SEARCH DOSSIER",
+                      "publisher": "Research Dossier",
+                      "publishedAt": "2026-08-21",
+                      "url": "",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "fomc-dissents-hike-2026-signal-3",
+                  "label": "Market signal risk",
+                  "title": "Hawkish pressure could reprice rate expectations",
+                  "body": "If three dissents favoring a hike were confirmed, rate-path pricing could shift away from cut expectations.",
+                  "whyImportant": "The signal is potentially market-moving, making verification urgent before amplification.",
+                  "evidence": [
+                    {
+                      "id": "fomc-dissents-hike-2026-evidence-3",
+                      "title": "Potential impact",
+                      "description": "Assessment notes possible significance but no verifiable detail.",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "fomc-dissents-hike-2026-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "fomc-dissents-hike-2026-source-1",
+                      "title": "WEB SEARCH DOSSIER",
+                      "publisher": "Research Dossier",
+                      "publishedAt": "2026-08-21",
+                      "url": "",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Unverified hawkish dissent signal",
+              "before": "Market narratives expected Fed rate cuts, with little public evidence of a strong hawkish bloc inside the FOMC.",
+              "shift": "A single research dossier claims FOMC minutes showed three dissents in favor of a rate hike.",
+              "now": "The claim is unverified: no meeting date, dissenter names, or primary source have been supplied.",
+              "conclusion": "Treat this as a low-confidence signal until primary FOMC records identify the meeting and the dissenting voters."
+            },
+            "insight": {
+              "title": "Verification precedes repricing",
+              "formula": "If three hike dissents are confirmed + they align with a known FOMC meeting → hawkish repricing; until then → noise",
+              "explanation": "The dossier's claim is potentially significant but insufficiently specified. Market participants should not reprice rate expectations based on an unattributed single-source assertion."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Primary record",
+                  "prompt": "Locate the FOMC minutes and vote counts for recent meetings.",
+                  "meta": "Check Federal Reserve releases"
+                },
+                {
+                  "label": "Dissenter names",
+                  "prompt": "Identify any three voters who dissented in favor of a hike in the same meeting.",
+                  "meta": "Compare with public statements"
+                },
+                {
+                  "label": "Market pricing",
+                  "prompt": "Track fed funds futures and front-end yields for any hawkish repricing.",
+                  "meta": "Monitor daily rate-path measures"
+                },
+                {
+                  "label": "Secondary reporting",
+                  "prompt": "Wait for independent reporting or official transcripts to corroborate the dossier.",
+                  "meta": "Require at least one additional source"
+                }
+              ],
+              "ending": "Until the meeting and dissenters are identified, this dossier should be treated as an unverified tip, not a confirmed macro signal."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "美联储政策信号审查",
+              "title": "三位FOMC委员支持加息的不同意见：未经验证的信号",
+              "summary": "一份研究档案声称FOMC会议纪要包含三项赞成加息的不同意见，但未指明会议或投不同意见的委员。该说法可能影响市场，但仍未得到验证。"
+            },
+            "question": {
+              "lead": "市场应如何权衡一份未注明来源、单一来源的美联储鹰派异议报告？",
+              "title": "官方FOMC记录能否证实存在三项赞成加息的不同意见？",
+              "footnote": "基于一份日期为2026-08-21的研究档案。未提供会议日期、异议委员姓名或原始来源链接。"
+            },
+            "signals": {
+              "title": "档案中的内容",
+              "sourceNote": "该档案是唯一触发来源。第二份档案条目提供背景，但没有独立佐证。",
+              "items": [
+                {
+                  "id": "fomc-dissents-hike-2026-signal-1",
+                  "label": "声称的异议",
+                  "title": "档案称三位FOMC成员倾向加息并提出异议",
+                  "body": "一份研究档案称FOMC会议纪要包含三项赞成加息的不同意见。未指明会议或投票委员。",
+                  "whyImportant": "三项异议将是美联储内部有意义的鹰派信号，可能挑战市场对降息的预期。",
+                  "evidence": [
+                    {
+                      "id": "fomc-dissents-hike-2026-evidence-1",
+                      "title": "研究档案的说法",
+                      "description": "单一触发来源；未提供原始链接或会议标识。",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "fomc-dissents-hike-2026-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "fomc-dissents-hike-2026-source-1",
+                      "title": "WEB SEARCH DOSSIER",
+                      "publisher": "Research Dossier",
+                      "publishedAt": "2026-08-21",
+                      "url": "",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "fomc-dissents-hike-2026-signal-2",
+                  "label": "缺乏验证",
+                  "title": "没有会议日期、姓名或原始来源",
+                  "body": "同一档案未提供FOMC会议日期、投异议的委员，也无直接链接到会议纪要。",
+                  "whyImportant": "缺少这些细节，就无法对照公开FOMC记录进行核查。",
+                  "evidence": [
+                    {
+                      "id": "fomc-dissents-hike-2026-evidence-2",
+                      "title": "来源局限",
+                      "description": "档案缺少识别信息；佐证来源数为零。",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "fomc-dissents-hike-2026-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "fomc-dissents-hike-2026-source-1",
+                      "title": "WEB SEARCH DOSSIER",
+                      "publisher": "Research Dossier",
+                      "publishedAt": "2026-08-21",
+                      "url": "",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "fomc-dissents-hike-2026-signal-3",
+                  "label": "市场信号风险",
+                  "title": "鹰派压力可能重新定价利率预期",
+                  "body": "若确认有三项赞成加息的不同意见，利率路径定价可能从降息预期转向。",
+                  "whyImportant": "该信号可能影响市场，在放大之前核验尤为紧迫。",
+                  "evidence": [
+                    {
+                      "id": "fomc-dissents-hike-2026-evidence-3",
+                      "title": "潜在影响",
+                      "description": "评估指出可能存在重要性，但没有可核实的细节。",
+                      "confidence": "hypothesis",
+                      "sourceIds": [
+                        "fomc-dissents-hike-2026-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "fomc-dissents-hike-2026-source-1",
+                      "title": "WEB SEARCH DOSSIER",
+                      "publisher": "Research Dossier",
+                      "publishedAt": "2026-08-21",
+                      "url": "",
+                      "type": "official",
+                      "reliability": "primary",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "未经核实的美联储鹰派异议信号",
+              "before": "市场叙事原本预期美联储降息，公开证据中几乎没有显示FOMC内部存在强势鹰派阵营。",
+              "shift": "一份研究档案声称FOMC会议纪要显示三项赞成加息的不同意见。",
+              "now": "该说法未经验证：未提供会议日期、异议委员姓名或原始来源。",
+              "conclusion": "在官方FOMC记录确认具体会议及异议委员之前，应将其视为低置信度信号。"
+            },
+            "insight": {
+              "title": "核验先于重新定价",
+              "formula": "若三项加息异议得到确认 + 对应已知FOMC会议 → 鹰派重新定价；在此之前 → 噪音",
+              "explanation": "档案的说法可能意义重大，但细节不足。市场参与者不应基于一项未署名、单一来源的断言来重新定价利率预期。"
+            },
+            "observe": {
+              "title": "后续观察",
+              "items": [
+                {
+                  "label": "官方记录",
+                  "prompt": "查找近期FOMC会议纪要及投票统计。",
+                  "meta": "查看美联储发布的材料"
+                },
+                {
+                  "label": "异议委员姓名",
+                  "prompt": "确认同一次会议中是否有三位委员投票赞成加息。",
+                  "meta": "与公开声明交叉比对"
+                },
+                {
+                  "label": "市场定价",
+                  "prompt": "跟踪联邦基金期货和前端收益率是否出现鹰派重新定价。",
+                  "meta": "每日观察利率路径指标"
+                },
+                {
+                  "label": "二手报道",
+                  "prompt": "等待独立报道或官方记录来佐证该档案。",
+                  "meta": "至少需要另一个来源"
+                }
+              ],
+              "ending": "在会议和异议委员身份得到确认之前，这份档案应被视为未经证实的线索，而非已确认的宏观信号。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-08-21",
+        "scope": "global",
+        "date": "2026-08-21",
+        "decidedAt": "2026-08-21T09:29:38.562Z",
+        "state": "no_new_global_insight",
+        "insightId": "global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal",
+        "materialChangeScore": 14,
+        "evidenceStrength": 15,
+        "noveltyScore": 70,
+        "importanceScore": 80,
+        "candidateSignalIds": [
+          "fomc-dissents-hike-2026"
+        ],
+        "content": {
+          "en": {
+            "label": "No new global insight",
+            "decisionTitle": "Hold for verification",
+            "decisionSummary": "The dossier is a single trigger source with zero corroborating sources, no meeting date, no dissenter names, and no primary link; it fails the publication threshold.",
+            "thresholdReason": "Evidence strength is low, corroborating source count is zero, and the suggested process match is unrelated to monetary policy.",
+            "observeNext": [
+              "Locate primary FOMC minutes for recent meetings and check vote tallies.",
+              "Identify any three dissents in favor of a hike in a single meeting.",
+              "Wait for at least one independent corroborating report."
+            ]
+          },
+          "zh": {
+            "label": "无新增全球洞察",
+            "decisionTitle": "维持观望，等待核验",
+            "decisionSummary": "该档案是单一触发来源，佐证来源数为零，没有会议日期、异议委员姓名和原始链接；未达到发布门槛。",
+            "thresholdReason": "证据强度低，佐证来源数为零，且建议匹配的流程与货币政策无关。",
+            "observeNext": [
+              "查找近期FOMC官方会议纪要并核对投票统计。",
+              "确认某次会议中是否有三项赞成加息的不同意见。",
+              "等待至少一份独立的佐证报告。"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4346,
+        "outputTokens": 6498,
+        "cachedInputTokens": 0
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-21T09:29:41.406Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "approvedAt": "2026-08-21T09:29:41.406Z"
+    },
     {
       "id": "writer-sig-2026-08-01-paducah-ai-campus-1785594109578",
       "status": "approved",
@@ -3766,5 +4490,9 @@
         }
       }
     }
-  ]
+  ],
+  "linkageIntegrity": {
+    "version": 1,
+    "repairedAt": "2026-08-21T09:29:42.214Z"
+  }
 }
