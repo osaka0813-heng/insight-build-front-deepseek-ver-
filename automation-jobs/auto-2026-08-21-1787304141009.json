@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-08-21T09:22:21.009Z",
-  "updatedAt": "2026-08-21T09:27:07.799Z",
+  "updatedAt": "2026-08-21T09:27:34.835Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -246,11 +246,6 @@
         ]
       }
     }
-  },
-  "lease": {
-    "owner": "cron-1787304140609-226yorxz",
-    "acquiredAt": "2026-08-21T09:22:22.692Z",
-    "expiresAt": "2026-08-21T09:27:12.692Z"
   },
   "preflight": {
     "ok": true,
