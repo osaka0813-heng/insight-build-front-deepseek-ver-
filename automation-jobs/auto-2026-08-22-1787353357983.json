@@ -2,25 +2,29 @@
   "id": "auto-2026-08-22-1787353357983",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-08-22",
   "baseUrl": "https://insight-build-back-deepseek-lo76egm2i-osaka0813-hengs-projects.vercel.app",
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-08-21T23:02:37.983Z",
-  "updatedAt": "2026-08-21T23:02:39.774Z",
+  "updatedAt": "2026-08-21T23:02:40.579Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-08-21T23:02:37.983Z"
+      "attempts": {
+        "preflight": 1
+      },
+      "message": "[object Object]",
+      "updatedAt": "2026-08-21T23:02:40.579Z",
+      "failedStage": "preflight"
     }
   },
   "lease": {
     "owner": "cron-1787353357628-mpipekf1",
     "acquiredAt": "2026-08-21T23:02:39.774Z",
     "expiresAt": "2026-08-21T23:07:29.774Z"
-  }
+  },
+  "message": "WORLD preflight 自动重试 1/3"
 }
