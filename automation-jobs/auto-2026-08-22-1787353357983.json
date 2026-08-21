@@ -2,22 +2,22 @@
   "id": "auto-2026-08-22-1787353357983",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed_with_errors",
   "date": "2026-08-22",
   "baseUrl": "https://insight-build-back-deepseek-lo76egm2i-osaka0813-hengs-projects.vercel.app",
   "currentScope": "global",
-  "currentStage": "preflight",
+  "currentStage": "complete",
   "createdAt": "2026-08-21T23:02:37.983Z",
-  "updatedAt": "2026-08-21T23:02:41.759Z",
+  "updatedAt": "2026-08-21T23:02:42.601Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "error",
       "stage": "research",
       "attempts": {
-        "preflight": 2
+        "preflight": 3
       },
       "message": "[object Object]",
-      "updatedAt": "2026-08-21T23:02:41.759Z",
+      "updatedAt": "2026-08-21T23:02:42.600Z",
       "failedStage": "preflight"
     }
   },
@@ -26,5 +26,6 @@
     "acquiredAt": "2026-08-21T23:02:39.774Z",
     "expiresAt": "2026-08-21T23:07:29.774Z"
   },
-  "message": "WORLD preflight 自动重试 2/3"
+  "message": "WORLD 在 preflight 连续失败 3 次，已保留断点。",
+  "completedAt": "2026-08-21T23:02:42.601Z"
 }
