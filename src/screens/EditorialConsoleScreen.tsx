@@ -125,7 +125,14 @@ export function EditorialConsoleScreen({
   useEffect(() => {
     checkBackendHealth()
       .then((result) => setBackendHealthy(result.ok))
-      .catch(() => setBackendHealthy(false));
+      .catch((failure) => {
+        setBackendHealthy(false);
+        setError(
+          failure instanceof Error
+            ? failure.message
+            : '后端健康检查失败。',
+        );
+      });
 
     Promise.all([
       loadEditorialTokens(),

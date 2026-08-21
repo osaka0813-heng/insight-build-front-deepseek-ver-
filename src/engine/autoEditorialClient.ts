@@ -1,9 +1,8 @@
 import { INSIGHT_API_BASE_URL } from '../config/editorial';
-import type { InsightScope } from '../types/research';
 
-export type AutoCheckpoint = { research:boolean; analyze:boolean; writeBase:boolean; writeZh:boolean; writeJa:boolean; writer:boolean };
+export type AutoCheckpoint = { research:boolean; analyze:boolean; writeBase:boolean; writeZh:boolean; writer:boolean };
 export type AutoScope = { status:string; stage:string; failedStage?:string; message?:string; candidateCount?:number; analyzeType?:string; selectedCandidateId?:string; insightId?:string; checkpoints:AutoCheckpoint };
-export type AutoJob = { id:string; status:string; date:string; currentScope:InsightScope; currentStage:string; message?:string; scopes:Record<InsightScope,AutoScope> };
+export type AutoJob = { id:string; pipelineVersion?:string; mode?:'global_en_zh'; status:string; date:string; currentScope:'global'; currentStage:string; message?:string; scopes:{global:AutoScope} };
 
 async function post(path:string, researchToken:string, publishToken:string|undefined, body:unknown) {
   const response=await fetch(`${INSIGHT_API_BASE_URL}${path}`,{method:'POST',headers:{'Content-Type':'application/json','x-research-token':researchToken.trim(),...(publishToken?{'x-publish-token':publishToken.trim()}:{})},body:JSON.stringify(body)});

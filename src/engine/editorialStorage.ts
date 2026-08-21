@@ -21,7 +21,6 @@ export type EditorialTokens = {
 export type WriteCheckpoint = {
   base?: any;
   zh?: any;
-  ja?: any;
 };
 
 export type PipelineSnapshot = {
@@ -153,21 +152,7 @@ export async function savePipelineSnapshot(
 export async function loadPipelineSnapshot(
   requestedScope?: InsightScope,
 ): Promise<PipelineSnapshot | undefined> {
-  let scope = requestedScope;
-  if (!scope) {
-    const pointer = await AsyncStorage.getItem(EDITORIAL_PIPELINE_STORAGE_KEY);
-    try {
-      const parsed = pointer ? JSON.parse(pointer) : undefined;
-      scope =
-        parsed?.scope === 'china' ||
-        parsed?.scope === 'us' ||
-        parsed?.scope === 'japan'
-          ? parsed.scope
-          : 'global';
-    } catch {
-      scope = 'global';
-    }
-  }
+  const scope: InsightScope = 'global';
   const raw = await AsyncStorage.getItem(scopedPipelineKey(scope || 'global'));
   if (!raw) return undefined;
   try {

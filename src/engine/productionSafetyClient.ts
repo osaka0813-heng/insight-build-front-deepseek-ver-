@@ -1,4 +1,5 @@
 import {
+  EXPECTED_BACKEND_VERSION,
   HEALTH_API_URL,
   PREFLIGHT_API_URL,
   ROLLBACK_API_URL,
@@ -31,6 +32,7 @@ async function parseJson(response: Response): Promise<any> {
 export async function checkBackendHealth(): Promise<{
   ok: boolean;
   version?: string;
+  pipeline?: string;
   checkedAt?: string;
 }> {
   const controller = new AbortController();
@@ -45,6 +47,12 @@ export async function checkBackendHealth(): Promise<{
 
     if (!response.ok || payload?.ok !== true) {
       throw new Error(payload?.error || `后端健康检查失败（${response.status}）。`);
+    }
+
+    if (payload.version !== EXPECTED_BACKEND_VERSION) {
+      throw new Error(
+        `前后端版本不一致：需要 ${EXPECTED_BACKEND_VERSION}，线上仍是 ${payload.version || 'unknown'}。`,
+      );
     }
 
     return payload;

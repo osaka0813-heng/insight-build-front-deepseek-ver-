@@ -1,4 +1,5 @@
 export const INSIGHT_API_BASE_URL = 'https://insight-build-back-deepseek-ver.vercel.app';
+export const EXPECTED_BACKEND_VERSION = '014.2-recovery-global';
 export const RESEARCH_API_URL = `${INSIGHT_API_BASE_URL}/api/research`;
 export const ANALYZE_API_URL = `${INSIGHT_API_BASE_URL}/api/analyze`;
 export const WRITE_API_URL = `${INSIGHT_API_BASE_URL}/api/write`;
