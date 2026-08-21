@@ -6,18 +6,18 @@
   "date": "2026-08-21",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-21T09:22:21.009Z",
-  "updatedAt": "2026-08-21T09:27:36.730Z",
+  "updatedAt": "2026-08-21T09:27:48.228Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "analyze",
-      "updatedAt": "2026-08-21T09:27:36.730Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-21T09:27:48.228Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -244,7 +244,360 @@
             ]
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-21-1787304427795",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-21T09:27:07.795Z",
+        "researchDate": "2026-08-21",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 234181,
+          "outputTokens": 18434,
+          "cachedInputTokens": 193536
+        },
+        "querySummary": "The dossier lists four unverified topic threads — Texas data center pause, US-Iran 'Economic D-Day', FOMC dissents for a hike, and China-US AI initiative friction — but provides no URLs, source details, or named documents. Four provisional candidate signals are flagged with low evidence strength because they cannot be independently sourced from the supplied material.",
+        "candidates": [
+          {
+            "id": "fomc-dissents-hike-2026",
+            "date": "2026-08-21",
+            "domain": "Monetary Policy",
+            "tags": [
+              "Federal Reserve",
+              "FOMC",
+              "interest rates",
+              "dissents"
+            ],
+            "processMatchConfidence": 11,
+            "importance": 80,
+            "novelty": 70,
+            "evidenceStrength": 15,
+            "independentSourceCount": 1,
+            "thesisImpact": 55,
+            "relationshipChange": 20,
+            "stageChange": 100,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "FOMC minutes reveal three dissents favoring a hike",
+                "coreFact": "The dossier says FOMC minutes included three dissents for a rate hike, but does not identify the meeting or names.",
+                "whyItMatters": "Three dissents would signal meaningful hawkish pressure inside the Fed, challenging market expectations of cuts and potentially reshaping rate-path pricing.",
+                "processMatchReason": "No existing process fits because the dossier lacks meeting details and primary source links."
+              },
+              "zh": {
+                "title": "FOMC会议纪要显示三人反对加息",
+                "coreFact": "档案称FOMC会议纪要包含三次加息异议，但未指明会议时间或委员姓名。",
+                "whyItMatters": "若属实，三次异议将表明美联储内部鹰派压力显著，可能挑战市场对降息的预期并重塑利率路径定价。",
+                "processMatchReason": "因档案缺少会议细节和原始来源链接，无法匹配现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "WEB SEARCH DOSSIER",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "primary",
+                "id": "fomc-dissents-hike-2026-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Initial scans surfaced several strong threads",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "context",
+                "id": "fomc-dissents-hike-2026-source-2",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "fomc-dissents-hike-2026-source-1"
+            ],
+            "analysis": {
+              "processMatchConfidence": 11,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 14,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "Potentially significant macro signal (three FOMC dissents favoring a hike) but no meeting date, names, or primary source. Without verifiable detail this cannot be distinguished from speculation. Suggested process match is unrelated to monetary policy.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Fewer than two current or corroborating sources.",
+                "Single trigger source, zero corroborating sources.",
+                "No meeting date or dissenter names; no primary source link.",
+                "Suggested process match (geopolitical tech control) is unrelated."
+              ],
+              "candidateId": "fomc-dissents-hike-2026",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 26
+            }
+          },
+          {
+            "id": "tx-datacenter-pause-2026",
+            "date": "2026-08-21",
+            "domain": "Energy Infrastructure",
+            "tags": [
+              "data center",
+              "Texas",
+              "power grid",
+              "regulatory pause"
+            ],
+            "processMatchConfidence": 22,
+            "importance": 65,
+            "novelty": 60,
+            "evidenceStrength": 15,
+            "independentSourceCount": 1,
+            "thesisImpact": 40,
+            "relationshipChange": 100,
+            "stageChange": 100,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Texas data center pause signals possible energy-grid constraint",
+                "coreFact": "The dossier mentions a Texas data center pause but provides no project name, scope, cause, or source URL.",
+                "whyItMatters": "If confirmed, a pause in Texas data center construction would point to growing friction between AI infrastructure demand and grid/water capacity, with implications for compute supply and local economies.",
+                "processMatchReason": "No existing process can be matched because the dossier lacks verifiable details and URLs."
+              },
+              "zh": {
+                "title": "得州数据中心暂停或反映电网负荷制约",
+                "coreFact": "档案提到得州数据中心暂停，但未提供项目名称、范围、原因或来源链接。",
+                "whyItMatters": "若获证实，得州数据中心建设暂停将意味着AI基础设施需求与电网/水资源容量之间的矛盾加剧，影响算力供给和当地经济。",
+                "processMatchReason": "由于档案缺乏可核实细节和链接，无法匹配现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "WEB SEARCH DOSSIER",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "primary",
+                "id": "tx-datacenter-pause-2026-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Initial scans surfaced several strong threads",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "context",
+                "id": "tx-datacenter-pause-2026-source-2",
+                "role": "context"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "tx-datacenter-pause-2026-source-1"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 22,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 15,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "Single unverified dossier mention of a Texas data center pause with no project name, scope, cause, or URL. If confirmed it could touch the AI infrastructure race and energy-security processes, but there is zero corroboration and no actionable detail. Cannot be published as a global insight.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Fewer than two current or corroborating sources.",
+                "Single trigger source, zero corroborating sources.",
+                "No source URLs or verifiable specifics (project, cause, scope).",
+                "Evidence strength is minimal (15/100)."
+              ],
+              "candidateId": "tx-datacenter-pause-2026",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 22
+            }
+          },
+          {
+            "id": "china-us-ai-friction-2026",
+            "date": "2026-08-21",
+            "domain": "Technology Trade",
+            "tags": [
+              "China",
+              "US",
+              "AI",
+              "initiative friction"
+            ],
+            "processMatchConfidence": 15,
+            "importance": 75,
+            "novelty": 65,
+            "evidenceStrength": 15,
+            "independentSourceCount": 1,
+            "thesisImpact": 50,
+            "relationshipChange": 15,
+            "stageChange": 100,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "China-US AI initiative friction suggests cooperation strain",
+                "coreFact": "The dossier mentions friction in a China-US AI initiative, but no initiative name or issue detail is given.",
+                "whyItMatters": "Any friction in bilateral AI cooperation could affect standards, research exchanges, and export controls, but the absence of specifics prevents a firm assessment.",
+                "processMatchReason": "No existing process fits because the dossier does not identify the initiative or provide sources."
+              },
+              "zh": {
+                "title": "中美AI倡议摩擦显示合作承压",
+                "coreFact": "档案提到中美AI倡议存在摩擦，但未说明倡议名称或具体争议点。",
+                "whyItMatters": "双边AI合作中的任何摩擦都可能影响标准、研究交流和出口管制，但缺乏具体信息无法做出可靠评估。",
+                "processMatchReason": "因档案未指明相关倡议也未提供来源，无法匹配现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "WEB SEARCH DOSSIER",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "primary",
+                "id": "china-us-ai-friction-2026-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Initial scans surfaced several strong threads",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "context",
+                "id": "china-us-ai-friction-2026-source-2",
+                "role": "context"
+              }
+            ],
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "china-us-ai-friction-2026-source-1"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-geopolitical-technology-control",
+              "processMatchConfidence": 15,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 12,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "Mentions friction in a China-US AI initiative without naming the initiative or the specific dispute. Thematically relevant to technology-control processes, but with zero corroboration and no specifics it cannot be published.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Fewer than two current or corroborating sources.",
+                "Single trigger source, zero corroborating sources.",
+                "No initiative name, issue detail, or source URL.",
+                "Evidence strength minimal (15/100)."
+              ],
+              "candidateId": "china-us-ai-friction-2026",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 20
+            }
+          },
+          {
+            "id": "us-iran-economic-d-day-2026",
+            "date": "2026-08-21",
+            "domain": "Geopolitics",
+            "tags": [
+              "US",
+              "Iran",
+              "sanctions",
+              "economic pressure"
+            ],
+            "processMatchConfidence": 9,
+            "importance": 70,
+            "novelty": 65,
+            "evidenceStrength": 15,
+            "independentSourceCount": 1,
+            "thesisImpact": 45,
+            "relationshipChange": 15,
+            "stageChange": 100,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "US-Iran 'Economic D-Day' campaign points to sanctions escalation",
+                "coreFact": "The dossier references a US-Iran 'Economic D-Day' campaign without specifying measures, timing, or targets.",
+                "whyItMatters": "A coordinated US economic pressure campaign against Iran could disrupt oil markets, shipping, and regional diplomacy, but lacks evidence to assess severity.",
+                "processMatchReason": "No existing process fits because this is a one-line mention without source URLs."
+              },
+              "zh": {
+                "title": "美伊“经济D日”行动或意味着制裁升级",
+                "coreFact": "档案提到美伊“经济D日”行动，但未说明具体措施、时间或目标。",
+                "whyItMatters": "美国对伊朗的协调经济施压可能扰乱石油市场、航运和区域外交，但缺少证据评估其严重程度。",
+                "processMatchReason": "因档案仅有一句提及且无来源链接，无法匹配现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "WEB SEARCH DOSSIER",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "primary",
+                "id": "us-iran-economic-d-day-2026-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Initial scans surfaced several strong threads",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-21",
+                "kind": "context",
+                "id": "us-iran-economic-d-day-2026-source-2",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "us-iran-economic-d-day-2026-source-1"
+            ],
+            "analysis": {
+              "processMatchConfidence": 9,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 12,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "One-line dossier reference to a US-Iran 'Economic D-Day' campaign with no measures, timing, targets, or source. The suggested process match (semiconductor capacity) is clearly wrong given the geopolitical/sanctions content. Insufficient evidence to publish.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Fewer than two current or corroborating sources.",
+                "Single trigger source, zero corroborating sources.",
+                "No specifics (measures, timing, targets) or URLs.",
+                "Suggested process match is likely incorrect."
+              ],
+              "candidateId": "us-iran-economic-d-day-2026",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 18
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 4,
+      "selectedCandidateId": "fomc-dissents-hike-2026"
     }
   },
   "preflight": {
