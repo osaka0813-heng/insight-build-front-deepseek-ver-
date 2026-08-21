@@ -6,18 +6,18 @@
   "date": "2026-08-21",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-21T09:22:21.009Z",
-  "updatedAt": "2026-08-21T09:27:49.205Z",
+  "updatedAt": "2026-08-21T09:29:10.519Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-08-21T09:27:49.205Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-21T09:29:10.519Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -597,7 +597,146 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 4,
-      "selectedCandidateId": "fomc-dissents-hike-2026"
+      "selectedCandidateId": "fomc-dissents-hike-2026",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "fomc-dissents-hike-2026",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Fed policy signal review",
+              "title": "Three FOMC dissents favoring a hike: unverified signal",
+              "summary": "A research dossier claims FOMC minutes included three dissents in favor of a rate hike, but it does not identify the meeting or the dissenting voters. The claim is potentially market-moving and remains unverified."
+            },
+            "question": {
+              "lead": "How much weight should markets give to an unattributed single-source report of hawkish Fed dissents?",
+              "title": "Can three dissents favoring a hike be verified from the public FOMC record?",
+              "footnote": "Based on a single research dossier dated 2026-08-21. No meeting date, dissenter names, or primary source link was provided."
+            },
+            "signals": {
+              "title": "What the dossier says",
+              "sourceNote": "The dossier is the only trigger source. A second dossier item provides context but no independent corroboration.",
+              "items": [
+                {
+                  "label": "Claimed dissents",
+                  "title": "Dossier says three FOMC members dissented toward a hike",
+                  "body": "A research dossier states that FOMC minutes included three dissents in favor of a rate hike. It does not name the meeting or the voters.",
+                  "whyImportant": "Three dissents would be a meaningful hawkish signal inside the Fed and could challenge market expectations for cuts.",
+                  "evidence": {
+                    "title": "Research dossier claim",
+                    "description": "Single trigger source; no primary link or meeting identifier is provided.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Missing verification",
+                  "title": "No meeting date, names, or primary source",
+                  "body": "The same dossier leaves out the FOMC meeting date, the dissenting voters, and any direct link to the minutes.",
+                  "whyImportant": "Without those details, the report cannot be checked against the public FOMC record.",
+                  "evidence": {
+                    "title": "Source limitations",
+                    "description": "Dossier lacks identifiers; corroborating source count is zero.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Market signal risk",
+                  "title": "Hawkish pressure could reprice rate expectations",
+                  "body": "If three dissents favoring a hike were confirmed, rate-path pricing could shift away from cut expectations.",
+                  "whyImportant": "The signal is potentially market-moving, making verification urgent before amplification.",
+                  "evidence": {
+                    "title": "Potential impact",
+                    "description": "Assessment notes possible significance but no verifiable detail.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "fomc-dissents-hike-2026-source-1"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Unverified hawkish dissent signal",
+              "before": "Market narratives expected Fed rate cuts, with little public evidence of a strong hawkish bloc inside the FOMC.",
+              "shift": "A single research dossier claims FOMC minutes showed three dissents in favor of a rate hike.",
+              "now": "The claim is unverified: no meeting date, dissenter names, or primary source have been supplied.",
+              "conclusion": "Treat this as a low-confidence signal until primary FOMC records identify the meeting and the dissenting voters."
+            },
+            "insight": {
+              "title": "Verification precedes repricing",
+              "formula": "If three hike dissents are confirmed + they align with a known FOMC meeting → hawkish repricing; until then → noise",
+              "explanation": "The dossier's claim is potentially significant but insufficiently specified. Market participants should not reprice rate expectations based on an unattributed single-source assertion."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Primary record",
+                  "prompt": "Locate the FOMC minutes and vote counts for recent meetings.",
+                  "meta": "Check Federal Reserve releases"
+                },
+                {
+                  "label": "Dissenter names",
+                  "prompt": "Identify any three voters who dissented in favor of a hike in the same meeting.",
+                  "meta": "Compare with public statements"
+                },
+                {
+                  "label": "Market pricing",
+                  "prompt": "Track fed funds futures and front-end yields for any hawkish repricing.",
+                  "meta": "Monitor daily rate-path measures"
+                },
+                {
+                  "label": "Secondary reporting",
+                  "prompt": "Wait for independent reporting or official transcripts to corroborate the dossier.",
+                  "meta": "Require at least one additional source"
+                }
+              ],
+              "ending": "Until the meeting and dissenters are identified, this dossier should be treated as an unverified tip, not a confirmed macro signal."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No new global insight",
+            "decisionTitle": "Hold for verification",
+            "decisionSummary": "The dossier is a single trigger source with zero corroborating sources, no meeting date, no dissenter names, and no primary link; it fails the publication threshold.",
+            "thresholdReason": "Evidence strength is low, corroborating source count is zero, and the suggested process match is unrelated to monetary policy.",
+            "observeNext": [
+              "Locate primary FOMC minutes for recent meetings and check vote tallies.",
+              "Identify any three dissents in favor of a hike in a single meeting.",
+              "Wait for at least one independent corroborating report."
+            ]
+          },
+          "processStage": "uncertain",
+          "processContentEn": {
+            "title": "Unverified FOMC dissent signal",
+            "description": "A dossier claims three FOMC dissents favored a rate hike but does not identify the meeting or names.",
+            "implication": "No process update can be made without verifiable details; if confirmed, it would signal hawkish pressure inside the Fed."
+          },
+          "nextQuestionEn": "Which FOMC meeting, if any, shows three dissents in favor of a rate hike in the official minutes?",
+          "observeNextEn": [
+            "Locate primary FOMC minutes for recent meetings and check vote tallies.",
+            "Identify any three dissents in favor of a hike in a single meeting.",
+            "Track fed funds futures and front-end yields for any hawkish repricing.",
+            "Wait for at least one independent corroborating report."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 1935,
+          "outputTokens": 4110,
+          "cachedInputTokens": 0
+        }
+      }
     }
   },
   "preflight": {
