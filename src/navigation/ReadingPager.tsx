@@ -72,7 +72,14 @@ export function ReadingPager({ edition, onOpenArchive, onOpenProcess, dailyState
           Math.abs(gesture.dx) > Math.abs(gesture.dy) * 1.35,
         onPanResponderRelease: (_, gesture) => {
           if (gesture.dx > 72 && gesture.vx > 0.12) {
-            onOpenProcess?.();
+            // A daily edition may intentionally have no processId (for
+            // example, while a signal is still awaiting verification). Keep
+            // the right-swipe useful by opening the daily decision instead.
+            if (onOpenProcess) {
+              onOpenProcess();
+            } else {
+              onOpenDailyLanding?.();
+            }
             return;
           }
 
@@ -81,7 +88,7 @@ export function ReadingPager({ edition, onOpenArchive, onOpenProcess, dailyState
           }
         },
       }),
-    [onOpenArchive, onOpenProcess],
+    [onOpenArchive, onOpenDailyLanding, onOpenProcess],
   );
 
   const pages = useMemo(
@@ -160,7 +167,7 @@ export function ReadingPager({ edition, onOpenArchive, onOpenProcess, dailyState
         extrapolate: 'clamp',
       });
 
-      const active = currentPage === index && !isInteracting;
+      const active = currentPage === index;
       // Build006 displayed every mounted page during a swipe. The incoming
       // page was therefore visible first, then reset to opacity 0 when the
       // swipe settled, producing a full → blank → reveal flash.
@@ -168,7 +175,10 @@ export function ReadingPager({ edition, onOpenArchive, onOpenProcess, dailyState
       // Only completed pages (including the page being left) are forced
       // visible now. A new incoming page stays hidden until it becomes active,
       // then reveals exactly once from opacity 0.
-      const forceVisible = completedPages.has(index);
+      // React Native Web does not reliably emit momentum-end events for every
+      // wheel/touch gesture. Never gate page content on that event: otherwise
+      // pages 2–6 can remain mounted at opacity 0 forever in a mobile browser.
+      const forceVisible = true;
       const props = {
         active,
         edition,
