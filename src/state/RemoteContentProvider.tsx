@@ -56,8 +56,6 @@ async function fetchRemoteBundle(url: string): Promise<RemoteContentBundle> {
     const response = await fetch(requestUrl, {
       headers: {
         Accept: 'application/json',
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        Pragma: 'no-cache',
       },
       signal: controller.signal,
     });
