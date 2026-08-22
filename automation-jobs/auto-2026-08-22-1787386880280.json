@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-08-22T08:21:20.280Z",
-  "updatedAt": "2026-08-22T08:21:22.600Z",
+  "updatedAt": "2026-08-22T08:21:23.517Z",
   "scopes": {
     "global": {
       "status": "retrying",
       "stage": "research",
       "attempts": {
-        "preflight": 1
+        "preflight": 2
       },
       "message": "[object Object]",
-      "updatedAt": "2026-08-22T08:21:22.600Z",
+      "updatedAt": "2026-08-22T08:21:23.517Z",
       "failedStage": "preflight"
     }
   },
@@ -26,5 +26,5 @@
     "acquiredAt": "2026-08-22T08:21:21.772Z",
     "expiresAt": "2026-08-22T08:26:11.772Z"
   },
-  "message": "WORLD preflight 自动重试 1/3"
+  "message": "WORLD preflight 自动重试 2/3"
 }
