@@ -2,22 +2,22 @@
   "id": "auto-2026-08-22-1787387026230",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-08-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-08-22T08:23:46.230Z",
-  "updatedAt": "2026-08-22T08:33:05.930Z",
+  "updatedAt": "2026-08-22T08:33:09.170Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "write_zh": 2
       },
-      "message": "publish",
-      "updatedAt": "2026-08-22T08:33:05.930Z",
+      "message": "已发布",
+      "updatedAt": "2026-08-22T08:33:09.170Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-22-1787387237463",
@@ -1670,7 +1670,10 @@
           "outputTokens": 7844,
           "cachedInputTokens": 2816
         }
-      }
+      },
+      "insightId": "null",
+      "contentVersion": "publish-null-1787387588328",
+      "completedAt": "2026-08-22T08:33:09.170Z"
     }
   },
   "lease": {
@@ -1710,5 +1713,6 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 2/3"
+  "message": "Global Insight 已自动发布。",
+  "completedAt": "2026-08-22T08:33:09.170Z"
 }
