@@ -6,16 +6,16 @@
   "date": "2026-08-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-22T22:01:14.040Z",
-  "updatedAt": "2026-08-22T22:04:38.231Z",
+  "updatedAt": "2026-08-22T22:06:02.638Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-22T22:04:38.231Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-22T22:06:02.638Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-23-1787436269122",
@@ -187,7 +187,134 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 1,
-      "selectedCandidateId": "candidate-001"
+      "selectedCandidateId": "candidate-001",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-001",
+          "slug": "no-actionable-signal-2026-08-23",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "No material change",
+              "title": "Dossier offers only a note, not a signal",
+              "summary": "The 2026-08-23 dossier contains no concrete facts or URLs, only a 'rich picture' note and an intention to dig deeper. This cannot support a process update, new process candidate, or standalone insight."
+            },
+            "question": {
+              "lead": "Before investing further analysis, we should ask whether the dossier has enough sourceable content.",
+              "title": "Is there an actionable signal to assess?",
+              "footnote": "Candidate-001 analysis: no trigger source, no corroborating source, no material change."
+            },
+            "signals": {
+              "title": "Signals in the dossier",
+              "sourceNote": "Only two context sources from the dossier are available: candidate-001-source-1 and candidate-001-source-2. No current or corroborating trigger source falls inside the research window.",
+              "items": [
+                {
+                  "label": "Context note",
+                  "title": "Only a 'rich picture' note is present",
+                  "body": "The web-search dossier for 2026-08-23 contains a note about a 'rich picture' and an intention to dig deeper, with no URLs or concrete facts.",
+                  "whyImportant": "Without sourceable facts, no claim can be verified or assessed.",
+                  "evidence": {
+                    "title": "Research dossier note",
+                    "description": "The dossier contains only contextual language; no factual assertion, URL, or sourceable claim is supplied.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-001-source-1",
+                      "candidate-001-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Analyst decision",
+                  "title": "Analysis returns noise follow-through",
+                  "body": "The candidate analysis reports no material change, no trigger source in the research window, and no corroborating sources, with a publish threshold not met.",
+                  "whyImportant": "This indicates the selected signal is a placeholder, not a publishable insight.",
+                  "evidence": {
+                    "title": "Analysis rationale",
+                    "description": "Decision type is noise_follow_through; materialChangeScore is 0 and publishThresholdMet is false.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-001-source-1",
+                      "candidate-001-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "No actionable signal pattern",
+              "before": "A dossier was expected to contain concrete signals or sourceable facts for assessment.",
+              "shift": "The supplied dossier contains only a note about a 'rich picture' and an intention to dig deeper, with no concrete facts.",
+              "now": "The analysis classifies this as no_material_change, with no publishable insight, no matched process, and a placeholder candidate.",
+              "conclusion": "No Global Insight can be responsibly built from this dossier; further research is required before any process update or new process candidate can be considered."
+            },
+            "insight": {
+              "title": "No actionable signal in current dossier",
+              "formula": "No sourceable facts + no trigger source + no corroboration ⇒ no publishable insight",
+              "explanation": "The candidate content itself states there is no actionable signal; the analysis confirms no material change and no process match. This is a placeholder rather than a standalone insight."
+            },
+            "observe": {
+              "title": "What to watch before publishing",
+              "items": [
+                {
+                  "label": "Dossier substance",
+                  "prompt": "Does the next dossier contain at least one concrete, sourceable fact with a URL?",
+                  "meta": "Threshold: clear claim and source"
+                },
+                {
+                  "label": "Trigger source",
+                  "prompt": "Does a trigger source appear inside the research window?",
+                  "meta": "Requirement: current trigger source"
+                },
+                {
+                  "label": "Corroboration",
+                  "prompt": "Are there at least two current or corroborating sources?",
+                  "meta": "Threshold: source count"
+                },
+                {
+                  "label": "Process match",
+                  "prompt": "Can the evidence match an existing process or justify a new process candidate?",
+                  "meta": "Review: match confidence"
+                }
+              ],
+              "ending": "Until these criteria are met, treat the signal as noise follow-through and do not publish."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No new global insight",
+            "decisionTitle": "Do not publish: dossier lacks actionable facts",
+            "decisionSummary": "The dossier contains no concrete facts or URLs; materialChangeScore is 0, publish threshold is not met, and no process is matched.",
+            "thresholdReason": "publishThresholdMet is false; no trigger source inside research window; fewer than two current or corroborating sources.",
+            "observeNext": [
+              "Wait for a substantive dossier with concrete facts and URLs",
+              "Re-evaluate when a trigger source appears inside the research window",
+              "Confirm whether the 'rich picture' note corresponds to sourceable material"
+            ]
+          },
+          "processStage": "uncertain",
+          "processContentEn": {
+            "title": "No process matched",
+            "description": "The dossier provides no concrete facts or URLs, so no existing process can be updated, challenged, or newly proposed. The analyst supplied matchedProcess as null and process match confidence as negligible.",
+            "implication": "Without a matched process, this Insight cannot be classified as a process update or new process candidate; it should remain a placeholder."
+          },
+          "nextQuestionEn": "What concrete facts or sourceable claims should replace the current placeholder dossier?",
+          "observeNextEn": [
+            "Does the next dossier contain at least one concrete, sourceable fact with a URL?",
+            "Does a trigger source appear inside the research window?",
+            "Are there at least two current or corroborating sources?",
+            "Can the evidence match an existing process or justify a new process candidate?"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2011,
+          "outputTokens": 5217,
+          "cachedInputTokens": 0
+        }
+      }
     }
   },
   "lease": {
