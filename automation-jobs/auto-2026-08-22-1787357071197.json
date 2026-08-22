@@ -1,0 +1,21 @@
+{
+  "id": "auto-2026-08-22-1787357071197",
+  "pipelineVersion": "014.2-global-en-zh",
+  "mode": "global_en_zh",
+  "status": "queued",
+  "date": "2026-08-22",
+  "baseUrl": "https://insight-build-back-deepseek-lo76egm2i-osaka0813-hengs-projects.vercel.app",
+  "currentScope": "global",
+  "currentStage": "preflight",
+  "createdAt": "2026-08-22T00:04:31.197Z",
+  "updatedAt": "2026-08-22T00:04:31.197Z",
+  "scopes": {
+    "global": {
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "等待执行",
+      "updatedAt": "2026-08-22T00:04:31.197Z"
+    }
+  }
+}
