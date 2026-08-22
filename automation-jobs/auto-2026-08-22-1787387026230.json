@@ -6,16 +6,16 @@
   "date": "2026-08-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-22T08:23:46.230Z",
-  "updatedAt": "2026-08-22T08:29:25.728Z",
+  "updatedAt": "2026-08-22T08:29:52.493Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-08-22T08:29:25.728Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-22T08:29:52.493Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-22-1787387237463",
@@ -410,7 +410,592 @@
             ]
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-22-1787387237463",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-22T08:27:17.463Z",
+        "researchDate": "2026-08-22",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 213296,
+          "outputTokens": 26219,
+          "cachedInputTokens": 163968
+        },
+        "querySummary": "Six distinct candidate signals from the 2026-08-18/22 dossier: Powell's dovish pivot vs hawkish minutes; Anthropic's potential $2T IPO; OpenAI's first frontier-training pause; China's managed H200 import with Hong Kong deployment; Treasury's doubled long-bond buybacks and gold surge; Nvidia's licensing-and-investment wave across model/chip/power layers.",
+        "candidates": [
+          {
+            "id": "C1",
+            "date": "2026-08-22",
+            "domain": "Macro-Monetary",
+            "tags": [
+              "monetary-policy",
+              "federal-reserve",
+              "interest-rates",
+              "dollar"
+            ],
+            "processMatchConfidence": 5,
+            "importance": 92,
+            "novelty": 85,
+            "evidenceStrength": 90,
+            "independentSourceCount": 4,
+            "thesisImpact": 90,
+            "relationshipChange": 75,
+            "stageChange": 80,
+            "contradiction": 95,
+            "content": {
+              "en": {
+                "title": "Powell’s Jackson Hole dovish pivot collides with hawkish Fed minutes",
+                "coreFact": "On Aug 22, Fed Chair Powell said the shifting balance of risks may require adjustments to policy stance, with analysts reading it as a pivot to cutting mode and market pricing a possible September rate cut. This comes days after the Aug 19 FOMC minutes showed a 9-3 hold with three officials voting for an immediate hike and many seeing further tightening if inflation did not cool.",
+                "whyItMatters": "The macro narrative flipped from potential hikes to potential cuts within a week, lowering the cost of capital for AI infrastructure, energy capex, and sovereign financing, and amplifying dollar weakness, gold strength, and risk-on assets.",
+                "processMatchReason": "No existing process in the dossier matches this sudden monetary-policy reversal; it is a standalone macro-signal."
+              },
+              "zh": {
+                "title": "鲍威尔杰克逊霍尔鸽派转向与本周鹰派纪要正面冲突",
+                "coreFact": "8月22日，美联储主席鲍威尔称风险平衡的转变可能要求调整政策立场，分析人士解读为转向降息模式，市场开始定价9月降息可能；而8月19日公布的7月纪要显示9:3维持利率不变、三名官员支持立即加息，且多名官员认为若通胀不降温需进一步收紧。",
+                "whyItMatters": "一周内宏观叙事从“可能加息”急转为“可能降息”，直接降低AI基础设施、能源资本开支与主权融资的成本中枢，并与美元走弱、黄金上涨、风险资产走强形成共振。",
+                "processMatchReason": "现有流程中没有对应这种突发货币政策逆转的流程；本项为独立的宏观信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Fed Chair Powell pivots to cutting mode",
+                "url": "",
+                "publisher": "ING",
+                "publishedAt": "2026-08-22",
+                "kind": "reliable_media",
+                "id": "C1-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Powell signals possible September rate cut",
+                "url": "",
+                "publisher": "fxverify",
+                "publishedAt": "2026-08-22",
+                "kind": "reliable_media",
+                "id": "C1-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "美元指数跌至98.6创三个月低点，道指涨0.98%",
+                "url": "",
+                "publisher": "证券时报",
+                "publishedAt": "2026-08-22",
+                "kind": "reliable_media",
+                "id": "C1-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "美联储7月纪要：9:3维持利率不变，三名官员支持加息",
+                "url": "",
+                "publisher": "FX678",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "C1-source-4",
+                "role": "corroborating"
+              }
+            ],
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 1,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "C1-source-1",
+              "C1-source-2",
+              "C1-source-3",
+              "C1-source-4"
+            ],
+            "analysis": {
+              "processMatchConfidence": 5,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 85,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 1,
+              "contextSourceCount": 0,
+              "rationale": "Highest combined importance/novelty/evidence and clearest global macro-signal. Powell's Jackson Hole dovish pivot, one week after hawkish FOMC minutes (9-3 hold, three favoring a hike), flips the macro narrative from tightening risk to easing, repricing the cost of capital for AI infrastructure, energy capex, and sovereign financing while amplifying dollar weakness, gold strength, and risk-on sentiment. Four independent reliable sources (ING, fxverify, Securities Times, FX678) with a corroborating minutes source. The suggested 'process-geopolitical-technology-control' match is a poor fit at 5% confidence; this is a discrete monetary-policy inflection, not a long-running structural process, so it is best captured as a standalone important insight rather than a forced process mapping.",
+              "warnings": [
+                "Suggested process-geopolitical-technology-control is an inappropriate match for a monetary-policy event; assigned null with 5% confidence.",
+                "Sources C1-source-3 and the FX678 minutes item may not be fully independent trigger sources; corroboration is directional."
+              ],
+              "candidateId": "C1",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 92
+            }
+          },
+          {
+            "id": "C2",
+            "date": "2026-08-20",
+            "domain": "Capital Markets",
+            "tags": [
+              "ai",
+              "ipo",
+              "capital-markets",
+              "anthropic"
+            ],
+            "processMatchConfidence": 10,
+            "importance": 95,
+            "novelty": 90,
+            "evidenceStrength": 85,
+            "independentSourceCount": 2,
+            "thesisImpact": 95,
+            "relationshipChange": 85,
+            "stageChange": 90,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Anthropic races toward a potential $2 trillion IPO, the largest ever",
+                "coreFact": "Bloomberg reported on Aug 20 that Anthropic may publicly file its S-1 as soon as late August, targeting an October 2026 listing at a valuation of $2 trillion or higher, with a raise matching or exceeding SpaceX's $75 billion record. Q2 2026 revenue was $11.5 billion+, up 14x YoY, with first adjusted operating profit; H-round valuation reached $965 billion in May, surpassing OpenAI.",
+                "whyItMatters": "AI capital formation is shifting from private/strategic investment to public equity and debt markets, transferring AI infrastructure risk to public markets and credit systems; the prospectus reportedly lists negative sentiment on AI and data centers as a risk factor.",
+                "processMatchReason": "No existing process in the dossier covers this unprecedented IPO-scale event; it is a distinct capital-structure signal."
+              },
+              "zh": {
+                "title": "Anthropic冲刺2万亿美元IPO，或成史上最大IPO",
+                "coreFact": "彭博8月20日报道，Anthropic最快8月底公开S-1，目标2026年10月上市，估值指向2万亿美元或更高，募资额可能匹配或超越SpaceX的750亿美元纪录；2026年Q2营收115亿美元以上、同比增超14倍，首次实现调整后营业利润转正；5月H轮估值9650亿美元，已超过OpenAI。",
+                "whyItMatters": "AI资本形成正从私募和战略投资切换到公开市场与债务市场，AI基础设施风险开始向公共资本市场和信贷体系转移；招股书还将“对AI和数据中心的负面情绪”列为风险因素。",
+                "processMatchReason": "现有流程中没有对应这种史无前例IPO规模的事件；本项为独立的资本结构信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Anthropic prepares to go public as soon as October",
+                "url": "",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-20",
+                "kind": "reliable_media",
+                "id": "C2-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Anthropic S-1 to list negative sentiment on AI and data centers as risk factor",
+                "url": "",
+                "publisher": "CNBC",
+                "publishedAt": "2026-08-21",
+                "kind": "reliable_media",
+                "id": "C2-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Anthropic's H-round values it at $965 billion, surpassing OpenAI",
+                "url": "",
+                "publisher": "Business Insider",
+                "kind": "context",
+                "id": "C2-source-3",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "C2-source-1",
+              "C2-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 10,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 83,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "Strong, novel, structurally significant: a potential $2 trillion Anthropic IPO (largest ever) marks a shift of AI capital formation from private/strategic to public and credit markets. High importance (95) and novelty (90). However, it has only two independent triggering sources (Bloomberg, CNBC plus a context source) and the event is still prospective (S-1 not yet filed, October date uncertain). A strong candidate for a new process on AI capital-structure migration, but on this cycle it ranks second to C1, whose narrative flip is already occurring and market-priced. Not selected for today's single Insight.",
+              "warnings": [
+                "Relies on a single primary (Bloomberg) plus secondary confirmation; core facts not yet final (filing and valuation still pending).",
+                "Suggested process-geopolitical-technology-control match is a poor fit (10%)."
+              ],
+              "candidateId": "C2",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 90
+            }
+          },
+          {
+            "id": "C3",
+            "date": "2026-08-18",
+            "domain": "AI Safety",
+            "tags": [
+              "ai-safety",
+              "openai",
+              "frontier-model",
+              "alignment"
+            ],
+            "processMatchConfidence": 8,
+            "importance": 85,
+            "novelty": 90,
+            "evidenceStrength": 80,
+            "independentSourceCount": 3,
+            "thesisImpact": 85,
+            "relationshipChange": 80,
+            "stageChange": 85,
+            "contradiction": 70,
+            "content": {
+              "en": {
+                "title": "OpenAI hits the brakes on frontier model training for the first time",
+                "coreFact": "On Aug 18, OpenAI paused RL training on its latest planned model for two weeks and indefinitely postponed its largest frontier RL training run to tighten alignment, security and monitoring standards. Altman said the pause was to meet appropriate standards for the new level of capabilities. Reports tied the slowdown to an AI model hacking Hugging Face.",
+                "whyItMatters": "This is the first voluntary public brake by a frontier lab, challenging the default assumption of unlimited scaling and race-only speed, and affecting AI-safety narratives, regulation, and market pricing of AI risk.",
+                "processMatchReason": "No existing process in the dossier anticipates a leading lab voluntarily slowing frontier training; this is a new governance/strategy signal."
+              },
+              "zh": {
+                "title": "OpenAI首次主动踩下前沿模型训练“刹车”",
+                "coreFact": "8月18日，OpenAI宣布暂停计划部署最新模型的强化学习训练两周，并无限期推迟规模最大的前沿RL训练，以收紧对齐、安全与监控标准；奥尔特曼称暂停是为了满足新能力水平所需的标准。报道还提到事件与AI模型对Hugging Face实施黑客攻击的背景相关。",
+                "whyItMatters": "这是前沿实验室首次公开自愿减速，直接挑战“scaling无上限、竞赛只比速度”的默认假设，并影响AI监管叙事与资本市场对AI风险的定价。",
+                "processMatchReason": "现有流程中没有对应头部实验室自愿放缓前沿训练的机制；本项为新的治理/战略信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "OpenAI pauses some frontier RL training to tighten safety and monitoring",
+                "url": "",
+                "publisher": "The Hill",
+                "publishedAt": "2026-08-18",
+                "kind": "reliable_media",
+                "id": "C3-source-1",
+                "role": "corroborating"
+              },
+              {
+                "title": "OpenAI shelves major frontier training over cyber risks",
+                "url": "",
+                "publisher": "Help Net Security",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "C3-source-2",
+                "role": "corroborating"
+              },
+              {
+                "title": "OpenAI首次主动踩下前沿模型刹车",
+                "url": "",
+                "publisher": "澎湃新闻",
+                "publishedAt": "2026-08-21",
+                "kind": "reliable_media",
+                "id": "C3-source-3",
+                "role": "trigger"
+              }
+            ],
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 2,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "C3-source-1",
+              "C3-source-2",
+              "C3-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 8,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 81,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 2,
+              "contextSourceCount": 0,
+              "rationale": "Notable and novel (first voluntary frontier-lab training pause by OpenAI) with three independent sources, but evidence strength is slightly lower (80) and the cyber-hack attribution to the Hugging Face incident is weakly sourced. It challenges the scaling hypothesis and is a meaningful AI-governance signal worth a candidate process, but it does not outrank C1's live macro inflection for the single Insight today.",
+              "warnings": [
+                "Causal link to the Hugging Face hacking incident is reported but not firmly established.",
+                "Only one source classified as trigger; other two are corroborating."
+              ],
+              "candidateId": "C3",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 83
+            }
+          },
+          {
+            "id": "C4",
+            "date": "2026-08-19",
+            "domain": "Export Controls",
+            "tags": [
+              "export-controls",
+              "semiconductors",
+              "h200",
+              "hong-kong",
+              "china-us"
+            ],
+            "processMatchConfidence": 45,
+            "importance": 82,
+            "novelty": 85,
+            "evidenceStrength": 85,
+            "independentSourceCount": 3,
+            "thesisImpact": 88,
+            "relationshipChange": 90,
+            "stageChange": 75,
+            "contradiction": 75,
+            "content": {
+              "en": {
+                "title": "China allows small Nvidia H200 imports but requires chips to stay in Hong Kong",
+                "coreFact": "FT reported on Aug 18-19 that Beijing approved small-batch imports of Nvidia H200 chips, with ByteDance and Tencent each buying around 10,000 units; US approval allows up to 100,000 per company, but Beijing requires most chips to be deployed in Hong Kong to protect domestic makers like Huawei. DeepSeek also released a model that runs on Huawei chips.",
+                "whyItMatters": "The binary decoupling narrative is replaced by a managed hybrid flow, making Hong Kong a computing enclave between US and Chinese AI systems and reshaping the geography of AI compute supply chains and export controls.",
+                "processMatchReason": "No existing process in the dossier captures this mixed-control geographic model; it is a distinct signal on export controls and supply chains."
+              },
+              "zh": {
+                "title": "中国放开Nvidia H200小额进口，但要求芯片“留港”",
+                "coreFact": "据英国《金融时报》8月18-19日报道，北京已批准小批量进口Nvidia H200芯片，字节跳动与腾讯各购入约1万枚；美国允许每家公司最多购买10万颗，但北京要求企业将大部分芯片部署在香港以保护华为等国产芯片商；DeepSeek还推出了可在华为芯片上运行的新模型。",
+                "whyItMatters": "“全面脱钩/全面禁运”的二元判断需修正为“受控混合流动”，香港正在成为中美算力之间的离岸计算节点，重塑AI算力供应链地理与出口管制格局。",
+                "processMatchReason": "现有流程中没有对应这种混合控制地理模式；本项为出口管制与供应链的独立信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Beijing approves small H200 imports, requires deployment in Hong Kong",
+                "url": "",
+                "publisher": "Financial Times",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "C4-source-1",
+                "role": "corroborating"
+              },
+              {
+                "title": "字节腾讯各购约1万枚H200，大部分部署香港",
+                "url": "",
+                "publisher": "星岛日报",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "C4-source-2",
+                "role": "corroborating"
+              },
+              {
+                "title": "传北京放开H200小额进口，要求芯片留港",
+                "url": "",
+                "publisher": "中时",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "C4-source-3",
+                "role": "corroborating"
+              }
+            ],
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "currentEventSourceCount": 0,
+            "corroboratingSourceCount": 3,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "C4-source-1",
+              "C4-source-2",
+              "C4-source-3"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-geopolitical-technology-control",
+              "processMatchConfidence": 45,
+              "impact": "challenges",
+              "dailyState": "publish_new",
+              "materialChangeScore": 83,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 0,
+              "corroboratingSourceCount": 3,
+              "contextSourceCount": 0,
+              "rationale": "Geopolitically important shift from decoupling to managed hybrid flow, with Hong Kong becoming a compute enclave. However, it has zero trigger sources inside the research window (all three are corroborating), and independent-source quality is weak relative to others. It genuinely updates/challenges the technology-control process (moderate 45% match), but its publication threshold is not met on this cycle.",
+              "warnings": [
+                "No trigger source falls inside the research window.",
+                "No trigger source falls inside the research window (0 trigger source count).",
+                "All three sources are corroborating; core facts hinge on a single FT report."
+              ],
+              "candidateId": "C4",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 80
+            }
+          },
+          {
+            "id": "C6",
+            "date": "2026-08-20",
+            "domain": "AI Infrastructure",
+            "tags": [
+              "nvidia",
+              "ai-infrastructure",
+              "licensing",
+              "investment",
+              "energy"
+            ],
+            "processMatchConfidence": 55,
+            "importance": 78,
+            "novelty": 85,
+            "evidenceStrength": 82,
+            "independentSourceCount": 4,
+            "thesisImpact": 85,
+            "relationshipChange": 85,
+            "stageChange": 85,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Nvidia deploys a licensing-plus-minority-stake capital wave across model, chip and power layers",
+                "coreFact": "On Aug 20-21, Nvidia agreed to pay Poolside $6 billion for a non-exclusive license to its Model Factory software/models, plus a $1 billion investment at a $12 billion pre-money valuation, and made job offers to 109 employees; it is in talks with Korean AI chip designer Rebellions for cooperation or investment; it also announced a strategic partnership and minority investment in data-center power developer Cloverleaf Infrastructure, following up to $3 billion in Lancium.",
+                "whyItMatters": "Nvidia is vertically integrating beyond chips into model IP, competing chip design, and power development, using licensing instead of M&A to avoid antitrust review—a new playbook that changes competition policy and capital structure in AI infrastructure.",
+                "processMatchReason": "No existing process in the dossier captures this multi-layer licensing/investment expansion by Nvidia; it is a distinct structural signal."
+              },
+              "zh": {
+                "title": "英伟达“许可+少数股权”资本部署浪潮：模型、芯片、电力三线并进",
+                "coreFact": "8月20-21日，英伟达同意向Poolside支付60亿美元获取其“模型工厂”软件/模型非排他许可，并另投10亿美元（投前估值120亿美元），同时向109名员工发出聘用邀约；与韩国AI芯片设计公司Rebellions洽谈合作或投资；还宣布与数据中心电力开发商Cloverleaf Infrastructure战略合作并少数股权投资，此前已宣布对Lancium投资至多30亿美元。",
+                "whyItMatters": "英伟达正从单纯堆算力转向垂直整合与生态控制，以“许可而非并购”规避反垄断审查，同时连续入股电力开发商，印证电力已成为AI扩张的硬瓶颈。",
+                "processMatchReason": "现有流程中没有对应英伟达这种多层许可/投资扩张模式；本项为独立的结构性信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Nvidia to pay Poolside $6 billion for licensing deal and invest $1 billion",
+                "url": "",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-20",
+                "kind": "reliable_media",
+                "id": "C6-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Nvidia's licensing playbook raises antitrust questions",
+                "url": "",
+                "publisher": "Yahoo Finance",
+                "publishedAt": "2026-08-20",
+                "kind": "reliable_media",
+                "id": "C6-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Nvidia in talks with Korean AI chip designer Rebellions",
+                "url": "",
+                "publisher": "钛媒体",
+                "publishedAt": "2026-08-21",
+                "kind": "reliable_media",
+                "id": "C6-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Nvidia makes minority investment in data center power developer Cloverleaf",
+                "url": "",
+                "publisher": "财联社",
+                "publishedAt": "2026-08-21",
+                "kind": "reliable_media",
+                "id": "C6-source-4",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 4,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "C6-source-1",
+              "C6-source-2",
+              "C6-source-3",
+              "C6-source-4"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 55,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 78,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 4,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Well-evidenced (4 trigger sources) and structurally significant: Nvidia's licensing-plus-minority-stake vertical expansion across model IP, competing chip design, and power. It meaningfully updates the AI-infrastructure-race process (moderate-high 55% match) and the energy-security dimension of power development. Strong candidate, but lower importance (78) than C1 and more incremental-evolutionary than a single-track inflection; held for the living process rather than today's single global Insight.",
+              "warnings": [
+                "Multiple distinct deals bundled; aggregate framing may overstate a unified 'capital wave' thesis.",
+                "Suggested process-geopolitical-technology-control in the source field is a mismatch; the true match is process-ai-infrastructure-race."
+              ],
+              "candidateId": "C6",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 76
+            }
+          },
+          {
+            "id": "C5",
+            "date": "2026-08-19",
+            "domain": "Treasury/Fiscal",
+            "tags": [
+              "treasury",
+              "bonds",
+              "gold",
+              "fiscal-policy"
+            ],
+            "processMatchConfidence": 5,
+            "importance": 80,
+            "novelty": 80,
+            "evidenceStrength": 80,
+            "independentSourceCount": 2,
+            "thesisImpact": 82,
+            "relationshipChange": 70,
+            "stageChange": 70,
+            "contradiction": 60,
+            "content": {
+              "en": {
+                "title": "US Treasury suddenly doubles long-end bond buybacks, sending gold above $4,500",
+                "coreFact": "On Aug 19, the Treasury unexpectedly doubled the size of long-term liquidity-support buybacks for 10-30 year bonds to $40 billion per operation starting September, after a failed 20-year auction. Spot gold jumped 4.05% to $4,508.64/oz that day, broke $4,500, and later rose toward $4,600; the dollar weakened.",
+                "whyItMatters": "The Treasury is explicitly managing long-end yields through buybacks, a visible sign of fiscal dominance, and combined with Powell's dovish pivot, it reprices dollar credit, gold, commodities, and sovereign-debt risk.",
+                "processMatchReason": "No existing process in the dossier models direct Treasury yield management at this scale; this is a distinct fiscal/market signal."
+              },
+              "zh": {
+                "title": "美国财政部突然加倍长债回购，金价突破4500美元",
+                "coreFact": "8月19日，美国财政部意外宣布将10-30年期长债流动性支持回购上限由20亿美元提高至40亿美元，9月起实施；此前一次20年期国债拍卖失败。当日现货黄金暴涨4.05%收于4508.64美元/盎司并突破4500关口，随后继续走高至4600美元附近，美元指数走弱。",
+                "whyItMatters": "财政部以买断式回购直接管理长端利率，显性化“财政主导”倾向；叠加鲍威尔鸽派转向，形成对美元信用、黄金、大宗商品与主权债务风险的重定价。",
+                "processMatchReason": "现有流程中没有对应这种规模的财政部直接收益率管理；本项为独立的财政/市场信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "美国财政部意外加倍长债回购规模",
+                "url": "",
+                "publisher": "goldsilver.com",
+                "publishedAt": "2026-08-19",
+                "kind": "context",
+                "id": "C5-source-1",
+                "role": "context"
+              },
+              {
+                "title": "黄金暴涨4%突破4500美元，因财政部加倍长债回购",
+                "url": "",
+                "publisher": "新浪财经",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "C5-source-2",
+                "role": "corroborating"
+              },
+              {
+                "title": "金价站上4600美元，美元指数跌向98.6",
+                "url": "",
+                "publisher": "金融界",
+                "publishedAt": "2026-08-22",
+                "kind": "reliable_media",
+                "id": "C5-source-3",
+                "role": "trigger"
+              }
+            ],
+            "currentEventSourceCount": 1,
+            "corroboratingSourceCount": 1,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "C5-source-2",
+              "C5-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 5,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 72,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 1,
+              "corroboratingSourceCount": 1,
+              "contextSourceCount": 1,
+              "rationale": "Treasury doubling long-end buybacks is a real fiscal-dominance signal and repriced gold/dollar, but it is a two-day-old event with only two independent sources and one context source; evidence strength and significance trail C1. Its key impact is already subsumed by C1's dovish-pivot repricing narrative, which is the higher-value single Insight.",
+              "warnings": [
+                "Source mix is thin (1 context, 1 corroborating, 1 trigger); core claim rests on a gold-focus outlet.",
+                "Represents a same-week complementary repricing event largely captured by C1."
+              ],
+              "candidateId": "C5",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 75
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 6,
+      "selectedCandidateId": "C1"
     }
   },
   "lease": {
