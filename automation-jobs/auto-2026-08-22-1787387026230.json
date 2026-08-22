@@ -2,13 +2,13 @@
   "id": "auto-2026-08-22-1787387026230",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-08-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "preflight",
+  "currentStage": "research",
   "createdAt": "2026-08-22T08:23:46.230Z",
-  "updatedAt": "2026-08-22T08:23:47.656Z",
+  "updatedAt": "2026-08-22T08:23:49.388Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -22,5 +22,38 @@
     "owner": "cron-1787387025927-s31f2kjn",
     "acquiredAt": "2026-08-22T08:23:47.656Z",
     "expiresAt": "2026-08-22T08:28:37.656Z"
-  }
+  },
+  "preflight": {
+    "ok": true,
+    "checkedAt": "2026-08-22T08:23:49.380Z",
+    "contentVersion": "publish-global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal-1787304582213",
+    "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
+    "checks": [
+      {
+        "id": "environment",
+        "label": "环境变量",
+        "ok": true,
+        "detail": "DEEPSEEK_API_KEY:OK · RESEARCH_API_TOKEN:OK · PUBLISH_API_TOKEN:OK · GITHUB_TOKEN:OK · GITHUB_OWNER:OK · GITHUB_REPO:OK"
+      },
+      {
+        "id": "github-read",
+        "label": "GitHub 内容读取",
+        "ok": true,
+        "detail": "osaka0813-heng/insight-build-front-deepseek-ver- · remote-content.json"
+      },
+      {
+        "id": "content-schema",
+        "label": "内容结构与引用",
+        "ok": true,
+        "detail": "结构通过；0 条警告。"
+      },
+      {
+        "id": "backup-write",
+        "label": "备份写入权限",
+        "ok": true,
+        "detail": "backups/remote-content/2026-08-22T08-23-48-745Z-preflight-probe-1787387028745.json"
+      }
+    ]
+  },
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
 }
