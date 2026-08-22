@@ -6,16 +6,85 @@
   "date": "2026-08-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-22T22:01:14.040Z",
-  "updatedAt": "2026-08-22T22:01:18.764Z",
+  "updatedAt": "2026-08-22T22:04:29.131Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-22T22:01:18.764Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-22T22:04:29.131Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-23-1787436269122",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-22T22:04:29.122Z",
+        "researchDate": "2026-08-23",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 150457,
+          "outputTokens": 20830,
+          "cachedInputTokens": 112896
+        },
+        "querySummary": "The dossier contains only a status statement and a research date; there are no concrete facts, URLs, named entities, or verifiable events. No evidence-backed candidate signals can be extracted.",
+        "candidates": [
+          {
+            "id": "candidate-001",
+            "date": "2026-08-23",
+            "domain": "meta",
+            "tags": [
+              "insufficient-evidence",
+              "status-only",
+              "dossier-incomplete"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 1,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "No actionable signal in current dossier",
+                "coreFact": "The web-search dossier for 2026-08-23 contains only a note about a 'rich picture' and an intention to dig deeper; no concrete facts or URLs are present.",
+                "whyItMatters": "Without sourceable facts, any candidate signal would be speculative; current analysis should await a substantive dossier.",
+                "processMatchReason": "No existing process can be matched because there is no change to assess."
+              },
+              "zh": {
+                "title": "当前卷宗无可操作信号",
+                "coreFact": "2026-08-23 的网络搜索卷宗仅包含一句“信息丰富”的说明和继续深挖的意图，没有具体事实或 URL。",
+                "whyItMatters": "在缺乏可引用事实的情况下，任何候选信号都将是推测；当前应等待有实质内容的卷宗。",
+                "processMatchReason": "没有可评估的变化，因此无法匹配任何现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "WEB SEARCH DOSSIER",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-23",
+                "kind": "context",
+                "id": "candidate-001-source-1"
+              },
+              {
+                "title": "Research date: 2026-08-23",
+                "url": "",
+                "publisher": "Research Dossier",
+                "publishedAt": "2026-08-23",
+                "kind": "context",
+                "id": "candidate-001-source-2"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
