@@ -6,16 +6,16 @@
   "date": "2026-08-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-22T08:23:46.230Z",
-  "updatedAt": "2026-08-22T08:29:53.544Z",
+  "updatedAt": "2026-08-22T08:30:30.262Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-22T08:29:53.544Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-22T08:30:30.262Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-22-1787387237463",
@@ -995,7 +995,148 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "C1"
+      "selectedCandidateId": "C1",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "null",
+          "slug": "powell-jackson-hole-dovish-pivot-collides-hawkish-fed-minutes",
+          "parentInsightId": "null",
+          "previousInsightId": "null",
+          "en": {
+            "cover": {
+              "eyebrow": "Global Macro",
+              "secondaryEyebrow": "Monetary Policy Inflection",
+              "title": "Powell's Jackson Hole Pivot Collides With Hawkish Fed Minutes",
+              "summary": "In the space of a single week, the macro narrative flipped from the risk of further tightening to the prospect of rate cuts. Chair Powell's August 22 Jackson Hole remarks pointing to a shifting balance of risks landed days after FOMC minutes showed a 9-3 hold with three officials favoring a hike — a collision that is repricing the cost of capital for AI infrastructure, energy capex, and sovereign financing while amplifying dollar weakness, gold strength, and risk-on sentiment."
+            },
+            "question": {
+              "lead": "Are we witnessing a genuine turn in the global monetary cycle, or a market over-reading of a single speech?",
+              "title": "Does Powell's dovish pivot, one week after hawkish minutes, mark the start of an easing cycle?",
+              "footnote": "A standalone macro-signal: no existing process in the dossier captures this sudden monetary-policy reversal."
+            },
+            "signals": {
+              "title": "Signals of a Sudden Pivot",
+              "sourceNote": "Four independent reliable sources (ING, fxverify, Securities Times, FX678) plus a corroborating minutes item.",
+              "items": [
+                {
+                  "label": "Dovish Pivot",
+                  "title": "Powell opens the door to policy adjustment",
+                  "body": "On August 22, Fed Chair Powell said the shifting balance of risks may require adjustments to policy stance. Analysts read the Jackson Hole remarks as a pivot toward cutting mode, with markets beginning to price a possible September rate cut.",
+                  "whyImportant": "This is the clearest signal yet that the Federal Reserve is reconsidering its tightening bias, directly lowering the future cost of capital.",
+                  "evidence": {
+                    "title": "Fed Chair Powell pivots to cutting mode",
+                    "description": "ING reports Powell's Jackson Hole remarks signal a shift toward easing, with market pricing of a September cut.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-1",
+                      "C1-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Hawkish Minutes",
+                  "title": "Minutes showed a 9-3 hold with three favoring a hike",
+                  "body": "Days earlier, the August 19 FOMC minutes revealed a 9-3 hold, with three officials voting for an immediate rate increase and many members seeing further tightening if inflation failed to cool.",
+                  "whyImportant": "The seconds of distance between a hawkish committee and a dovish chair exposes deep internal division and a rapid shift in the consensus narrative.",
+                  "evidence": {
+                    "title": "Fed July minutes: 9-3 hold, three officials support hike",
+                    "description": "FX678 reports the minutes showed three officials favoring an immediate hike and many anticipating further tightening absent cooling inflation.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-4"
+                    ]
+                  }
+                },
+                {
+                  "label": "Market Repricing",
+                  "title": "Dollar drops, gold strengthens, risk assets rally",
+                  "body": "The dollar index fell to 98.6, a three-month low, while the Dow rose 0.98% on August 22. Gold strength and broader risk-on sentiment accompanied the repricing.",
+                  "whyImportant": "Financial conditions are loosening in real time — the transmission of a rate-cut narrative into weaker dollar, stronger gold, and rising equities.",
+                  "evidence": {
+                    "title": "Dollar index hits 98.6 three-month low, Dow up 0.98%",
+                    "description": "Securities Times reports the dollar's decline and equity gains following the dovish repricing.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-3"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Tightening Risk to Easing Narrative in One Week",
+              "before": "Only days before Jackson Hole, the FOMC minutes projected a committee leaning hawkish: a 9-3 hold with three members pushing for an immediate hike and many officials warning of further tightening if inflation did not cool. The macro consensus priced continued restrictiveness.",
+              "shift": "On August 22, Chair Powell reframed the debate around a 'shifting balance of risks,' signaling that policy may need to adjust. Markets and analysts immediately translated this into a dovish pivot, with a September cut entering the pricing.",
+              "now": "The narrative has flipped from 'possible hikes' to 'possible cuts' within a week. The cost of capital is being marked down across AI infrastructure, energy capex, and sovereign financing, while a weaker dollar, stronger gold, and risk-on equities reinforce the easing signal.",
+              "conclusion": "This is a discrete monetary-policy inflection rather than a long-running structural process. The sharp collision between hawkish minutes and dovish leadership marks a rapid reset of the macro narrative, with immediate and broad asset-market consequences."
+            },
+            "insight": {
+              "title": "Leadership pivots faster than the committee's record",
+              "formula": "Hawkish minutes (9-3 hold, three favoring hike) + dovish chair (shifting balance of risks) = easing narrative repricing global cost of capital",
+              "explanation": "The market does not wait for the committee's consensus; it follows the chair. When Powell's Jackson Hole framing contradicted the committee's recorded hawkishness, markets discarded the last tightening signal and rerated the entire cost-of-capital curve — lowering financing costs for capital-intensive sectors like AI infrastructure and energy, while weakening the dollar, lifting gold, and feeding risk-on equity flows."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "September FOMC",
+                  "prompt": "Does the September meeting deliver the cut the market has begun to price, or reassert the committee's hawkish majority?",
+                  "meta": "Watch the rate decision and the vote split for confirmation or reversal of the pivot."
+                },
+                {
+                  "label": "Dollar & Gold",
+                  "prompt": "Does dollar weakness and gold strength persist, confirming a durable easing regime, or reverse on any hawkish pushback?",
+                  "meta": "Track the dollar index and gold as corroborating price signals of the policy shift."
+                },
+                {
+                  "label": "AI & Energy Capex",
+                  "prompt": "Do AI infrastructure and energy capital-expenditure plans accelerate on cheaper financing, validating the repricing of the cost of capital?",
+                  "meta": "Monitor capex announcements and financing terms across these capital-intensive sectors."
+                },
+                {
+                  "label": "Sovereign Financing",
+                  "prompt": "Do sovereign borrowing costs ease as the rate-cut narrative lowers global funding costs?",
+                  "meta": "Track sovereign yield spreads and issuance conditions."
+                }
+              ],
+              "ending": "The test of this pivot is not the speech, but whether the committee and the data follow the chair into an easing cycle — or pull back toward the hawkish record left behind just days earlier."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish New",
+            "decisionTitle": "Publish as a standalone important insight",
+            "decisionSummary": "A discrete monetary-policy inflection with the highest combined importance, novelty, and evidence strength, corroborated by four reliable sources. No existing process matches this sudden reversal, so it is published as a standalone macro-signal rather than forced into a poor process fit.",
+            "thresholdReason": "Material-change score of 85 with publish threshold met; the macro narrative flipped from tightening risk to easing within a week, with broad repricing effects.",
+            "observeNext": [
+              "September FOMC decision and vote split",
+              "Dollar index and gold resumption or reversal",
+              "AI infrastructure and energy capex acceleration",
+              "Sovereign borrowing-cost easing"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Standalone Monetary-Policy Inflection",
+            "description": "A sudden reversal in the Federal Reserve's policy narrative: Chair Powell's August 22 Jackson Hole dovish remarks, arriving days after hawkish FOMC minutes (9-3 hold, three favoring a hike), collapsed the market's tightening expectations into an easing outlook within a week.",
+            "implication": "The repriced cost of capital lowers financing costs for AI infrastructure, energy capex, and sovereign borrowing while amplifying dollar weakness, gold strength, and risk-on assets — with the durability of the pivot hinging on the September decision and subsequent data."
+          },
+          "nextQuestionEn": "Will the September FOMC deliver the rate cut the market has begun to price, or will the committee's hawkish majority reassert itself and reverse this easing narrative?",
+          "observeNextEn": [
+            "Whether the September FOMC meeting delivers the cut and how the vote splits",
+            "Whether dollar weakness and gold strength persist or reverse",
+            "Whether AI infrastructure and energy capital expenditure accelerate on cheaper financing",
+            "Whether sovereign borrowing costs ease as global funding conditions loosen"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2740,
+          "outputTokens": 2024,
+          "cachedInputTokens": 0
+        }
+      }
     }
   },
   "lease": {
