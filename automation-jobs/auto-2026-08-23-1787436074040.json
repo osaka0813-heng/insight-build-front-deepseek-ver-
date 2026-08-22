@@ -6,16 +6,16 @@
   "date": "2026-08-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-08-22T22:01:14.040Z",
-  "updatedAt": "2026-08-22T22:35:29.661Z",
+  "updatedAt": "2026-08-22T22:36:06.677Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-08-22T22:35:29.661Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-22T22:36:06.677Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-23-1787436269122",
@@ -313,6 +313,129 @@
           "inputTokens": 2011,
           "outputTokens": 5217,
           "cachedInputTokens": 0
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "全球洞见",
+              "secondaryEyebrow": "无实质性变化",
+              "title": "档案仅提供说明，而非信号",
+              "summary": "2026-08-23 档案不包含具体事实或 URL，仅有“丰富图景”说明和进一步深挖的意图。这无法支撑流程更新、新流程候选或独立洞见。"
+            },
+            "question": {
+              "lead": "在投入进一步分析之前，我们应询问该档案是否具有足够的可溯源内容。",
+              "title": "是否存在可评估的可行动信号？",
+              "footnote": "候选-001 分析：无触发来源、无佐证来源、无实质性变化。"
+            },
+            "signals": {
+              "title": "档案中的信号",
+              "sourceNote": "档案中仅有两个可用背景来源：candidate-001-source-1 和 candidate-001-source-2。研究窗口内没有当前或佐证的触发来源。",
+              "items": [
+                {
+                  "label": "背景说明",
+                  "title": "仅有一则“丰富图景”说明",
+                  "body": "2026-08-23 的网络搜索档案包含一则关于“丰富图景”的说明以及进一步深挖的意图，没有 URL 或具体事实。",
+                  "whyImportant": "没有可溯源的事实，任何主张都无法被核实或评估。",
+                  "evidence": {
+                    "title": "研究档案说明",
+                    "description": "该档案仅包含背景性表述；未提供事实性断言、URL 或可溯源主张。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-001-source-1",
+                      "candidate-001-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "分析师决策",
+                  "title": "分析返回噪音跟进",
+                  "body": "候选分析报告无实质性变化、研究窗口内无触发来源、无佐证来源，且未达到发布阈值。",
+                  "whyImportant": "这表明所选信号是占位符，而非可发布的洞见。",
+                  "evidence": {
+                    "title": "分析理由",
+                    "description": "决策类型为 noise_follow_through；materialChangeScore 为 0，publishThresholdMet 为 false。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-001-source-1",
+                      "candidate-001-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "无可行动信号模式",
+              "before": "原本预期档案包含具体信号或可供评估的可溯源事实。",
+              "shift": "所提供档案仅包含关于“丰富图景”的说明和进一步深挖的意图，没有具体事实。",
+              "now": "分析将其归类为 no_material_change，没有可发布洞见、没有匹配流程，且候选为占位符。",
+              "conclusion": "无法负责任地基于该档案构建全球洞见；在考虑任何流程更新或新流程候选之前，需先进行进一步研究。"
+            },
+            "insight": {
+              "title": "当前档案中无可行动信号",
+              "formula": "无具体事实 + 无触发来源 + 无佐证 ⇒ 无可发布洞见",
+              "explanation": "候选内容本身即表明不存在可行动信号；分析确认无实质性变化、无流程匹配。这是占位符，而非独立洞见。"
+            },
+            "observe": {
+              "title": "发布前应关注的内容",
+              "items": [
+                {
+                  "label": "档案实质",
+                  "prompt": "下一份档案是否至少包含一则带 URL 的具体、可溯源事实？",
+                  "meta": "阈值：清晰主张与来源"
+                },
+                {
+                  "label": "触发来源",
+                  "prompt": "研究窗口内是否出现触发来源？",
+                  "meta": "要求：当前触发来源"
+                },
+                {
+                  "label": "佐证",
+                  "prompt": "是否至少有两条当前来源或佐证来源？",
+                  "meta": "阈值：来源数量"
+                },
+                {
+                  "label": "流程匹配",
+                  "prompt": "证据能否匹配现有流程，或证明新流程候选的合理性？",
+                  "meta": "审查：匹配置信度"
+                }
+              ],
+              "ending": "在满足这些标准之前，请将该信号视为噪音跟进，不要发布。"
+            }
+          },
+          "dailyState": {
+            "label": "无新增全球洞见",
+            "decisionTitle": "不发布：档案缺乏可行动事实",
+            "decisionSummary": "档案不包含具体事实或 URL；materialChangeScore 为 0，发布阈值未达到，且未匹配任何流程。",
+            "thresholdReason": "publishThresholdMet 为 false；研究窗口内无触发来源；当前来源或佐证来源少于两条。",
+            "observeNext": [
+              "等待包含具体事实和 URL 的实质性档案",
+              "当研究窗口内出现触发来源时重新评估",
+              "确认“丰富图景”说明是否对应可溯源材料"
+            ]
+          },
+          "processContent": {
+            "title": "未匹配任何流程",
+            "description": "档案未提供具体事实或 URL，因此无法更新、质疑或新提出任何现有流程。分析师将 matchedProcess 设为 null，流程匹配置信度可忽略不计。",
+            "implication": "没有匹配流程，此洞见无法归类为流程更新或新流程候选；应保持为占位符。"
+          },
+          "nextQuestion": "哪些具体事实或可溯源主张应取代当前占位档案？",
+          "observeNext": [
+            "下一份档案是否至少包含一则带 URL 的具体、可溯源事实？",
+            "研究窗口内是否出现触发来源？",
+            "是否至少有两条当前来源或佐证来源？",
+            "证据能否匹配现有流程，或证明新流程候选的合理性？"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2274,
+          "outputTokens": 2594,
+          "cachedInputTokens": 2176
         }
       }
     }
