@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-22T08:23:46.230Z",
-  "updatedAt": "2026-08-22T08:31:29.516Z",
+  "updatedAt": "2026-08-22T08:31:30.434Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "write_zh": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"全球宏观\",\"secondaryEyebrow\":\"货币政策拐点\",\"title\":\"鲍威尔杰克逊霍尔转向与鹰派美联储纪要正面碰撞\",\"summary\":\"短短一周内，宏观叙事从进一步紧缩的风险翻转至降息前景。主席鲍威尔8月22日杰克逊霍尔讲话指出风险平衡正在变化，而几天前公布的美联储纪要显示9比3维持利率不变，三名官员赞成加息——这一碰撞正重新定价AI基础设施、能源资本开支与主权融资的资本成本，同时放大美元走弱、黄金走强与风险偏好升温。\"},\"question\":{\"lead\":\"我们是在见证全球货币政策周期的真正转折，还是市场过度解读一次讲话？\",\"title\":\"鲍威尔在鹰派纪要一周后转鸽，是否标志着宽松周期的开始？\",\"footnote\":\"独立宏观信号：档案中现有流程均未捕捉到这一突发的货币政策逆转。\"},\"signals",
-      "updatedAt": "2026-08-22T08:31:29.516Z",
+      "message": "write_zh",
+      "updatedAt": "2026-08-22T08:31:30.434Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-22-1787387237463",
