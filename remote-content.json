@@ -1,8 +1,336 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T09:29:41.406Z",
-  "contentVersion": "publish-global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal-1787304582213",
+  "generatedAt": "2026-08-22T08:33:07.513Z",
+  "contentVersion": "publish-null-1787387588328",
   "insights": [
+    {
+      "id": "null",
+      "scope": "global",
+      "slug": "powell-jackson-hole-dovish-pivot-collides-hawkish-fed-minutes",
+      "status": "publish_new",
+      "parentInsightId": "null",
+      "publishedAt": "2026-08-22T00:00:00.000Z",
+      "updatedAt": "2026-08-22T08:33:04.998Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Global Macro",
+            "secondaryEyebrow": "Monetary Policy Inflection",
+            "title": "Powell's Jackson Hole Pivot Collides With Hawkish Fed Minutes",
+            "summary": "In the space of a single week, the macro narrative flipped from the risk of further tightening to the prospect of rate cuts. Chair Powell's August 22 Jackson Hole remarks pointing to a shifting balance of risks landed days after FOMC minutes showed a 9-3 hold with three officials favoring a hike — a collision that is repricing the cost of capital for AI infrastructure, energy capex, and sovereign financing while amplifying dollar weakness, gold strength, and risk-on sentiment."
+          },
+          "question": {
+            "lead": "Are we witnessing a genuine turn in the global monetary cycle, or a market over-reading of a single speech?",
+            "title": "Does Powell's dovish pivot, one week after hawkish minutes, mark the start of an easing cycle?",
+            "footnote": "A standalone macro-signal: no existing process in the dossier captures this sudden monetary-policy reversal."
+          },
+          "signals": {
+            "title": "Signals of a Sudden Pivot",
+            "sourceNote": "Four independent reliable sources (ING, fxverify, Securities Times, FX678) plus a corroborating minutes item.",
+            "items": [
+              {
+                "id": "C1-signal-1",
+                "label": "Dovish Pivot",
+                "title": "Powell opens the door to policy adjustment",
+                "body": "On August 22, Fed Chair Powell said the shifting balance of risks may require adjustments to policy stance. Analysts read the Jackson Hole remarks as a pivot toward cutting mode, with markets beginning to price a possible September rate cut.",
+                "whyImportant": "This is the clearest signal yet that the Federal Reserve is reconsidering its tightening bias, directly lowering the future cost of capital.",
+                "evidence": [
+                  {
+                    "id": "C1-evidence-1",
+                    "title": "Fed Chair Powell pivots to cutting mode",
+                    "description": "ING reports Powell's Jackson Hole remarks signal a shift toward easing, with market pricing of a September cut.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-1",
+                      "C1-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "C1-source-1",
+                    "title": "Fed Chair Powell pivots to cutting mode",
+                    "publisher": "ING",
+                    "publishedAt": "2026-08-22",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "C1-source-2",
+                    "title": "Powell signals possible September rate cut",
+                    "publisher": "fxverify",
+                    "publishedAt": "2026-08-22",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "C1-signal-2",
+                "label": "Hawkish Minutes",
+                "title": "Minutes showed a 9-3 hold with three favoring a hike",
+                "body": "Days earlier, the August 19 FOMC minutes revealed a 9-3 hold, with three officials voting for an immediate rate increase and many members seeing further tightening if inflation failed to cool.",
+                "whyImportant": "The seconds of distance between a hawkish committee and a dovish chair exposes deep internal division and a rapid shift in the consensus narrative.",
+                "evidence": [
+                  {
+                    "id": "C1-evidence-2",
+                    "title": "Fed July minutes: 9-3 hold, three officials support hike",
+                    "description": "FX678 reports the minutes showed three officials favoring an immediate hike and many anticipating further tightening absent cooling inflation.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "C1-source-4",
+                    "title": "美联储7月纪要：9:3维持利率不变，三名官员支持加息",
+                    "publisher": "FX678",
+                    "publishedAt": "2026-08-19",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "C1-signal-3",
+                "label": "Market Repricing",
+                "title": "Dollar drops, gold strengthens, risk assets rally",
+                "body": "The dollar index fell to 98.6, a three-month low, while the Dow rose 0.98% on August 22. Gold strength and broader risk-on sentiment accompanied the repricing.",
+                "whyImportant": "Financial conditions are loosening in real time — the transmission of a rate-cut narrative into weaker dollar, stronger gold, and rising equities.",
+                "evidence": [
+                  {
+                    "id": "C1-evidence-3",
+                    "title": "Dollar index hits 98.6 three-month low, Dow up 0.98%",
+                    "description": "Securities Times reports the dollar's decline and equity gains following the dovish repricing.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "C1-source-3",
+                    "title": "美元指数跌至98.6创三个月低点，道指涨0.98%",
+                    "publisher": "证券时报",
+                    "publishedAt": "2026-08-22",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Tightening Risk to Easing Narrative in One Week",
+            "before": "Only days before Jackson Hole, the FOMC minutes projected a committee leaning hawkish: a 9-3 hold with three members pushing for an immediate hike and many officials warning of further tightening if inflation did not cool. The macro consensus priced continued restrictiveness.",
+            "shift": "On August 22, Chair Powell reframed the debate around a 'shifting balance of risks,' signaling that policy may need to adjust. Markets and analysts immediately translated this into a dovish pivot, with a September cut entering the pricing.",
+            "now": "The narrative has flipped from 'possible hikes' to 'possible cuts' within a week. The cost of capital is being marked down across AI infrastructure, energy capex, and sovereign financing, while a weaker dollar, stronger gold, and risk-on equities reinforce the easing signal.",
+            "conclusion": "This is a discrete monetary-policy inflection rather than a long-running structural process. The sharp collision between hawkish minutes and dovish leadership marks a rapid reset of the macro narrative, with immediate and broad asset-market consequences."
+          },
+          "insight": {
+            "title": "Leadership pivots faster than the committee's record",
+            "formula": "Hawkish minutes (9-3 hold, three favoring hike) + dovish chair (shifting balance of risks) = easing narrative repricing global cost of capital",
+            "explanation": "The market does not wait for the committee's consensus; it follows the chair. When Powell's Jackson Hole framing contradicted the committee's recorded hawkishness, markets discarded the last tightening signal and rerated the entire cost-of-capital curve — lowering financing costs for capital-intensive sectors like AI infrastructure and energy, while weakening the dollar, lifting gold, and feeding risk-on equity flows."
+          },
+          "observe": {
+            "title": "What to Watch Next",
+            "items": [
+              {
+                "label": "September FOMC",
+                "prompt": "Does the September meeting deliver the cut the market has begun to price, or reassert the committee's hawkish majority?",
+                "meta": "Watch the rate decision and the vote split for confirmation or reversal of the pivot."
+              },
+              {
+                "label": "Dollar & Gold",
+                "prompt": "Does dollar weakness and gold strength persist, confirming a durable easing regime, or reverse on any hawkish pushback?",
+                "meta": "Track the dollar index and gold as corroborating price signals of the policy shift."
+              },
+              {
+                "label": "AI & Energy Capex",
+                "prompt": "Do AI infrastructure and energy capital-expenditure plans accelerate on cheaper financing, validating the repricing of the cost of capital?",
+                "meta": "Monitor capex announcements and financing terms across these capital-intensive sectors."
+              },
+              {
+                "label": "Sovereign Financing",
+                "prompt": "Do sovereign borrowing costs ease as the rate-cut narrative lowers global funding costs?",
+                "meta": "Track sovereign yield spreads and issuance conditions."
+              }
+            ],
+            "ending": "The test of this pivot is not the speech, but whether the committee and the data follow the chair into an easing cycle — or pull back toward the hawkish record left behind just days earlier."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "全球宏观",
+            "secondaryEyebrow": "货币政策拐点",
+            "title": "鲍威尔杰克逊霍尔转鸽与美联储鹰派纪要正面相撞",
+            "summary": "短短一周内，宏观叙事从进一步收紧的风险翻转为降息预期。美联储主席鲍威尔8月22日在杰克逊霍尔的讲话指出风险平衡正在转变，而几天前公布的FOMC会议纪要显示9比3维持不变、三位官员支持加息——这一碰撞正在重新定价AI基础设施、能源资本开支和主权融资的资本成本，同时放大美元走弱、黄金走强和风险偏好升温。"
+          },
+          "question": {
+            "lead": "我们看到的是一场真正的全球货币政策周期转向，还是市场对一次讲话的过度解读？",
+            "title": "在鹰派纪要公布一周后，鲍威尔的转鸽是否标志着宽松周期的开始？",
+            "footnote": "独立宏观信号：档案中现有流程均未捕捉到这一突发货币政策逆转。"
+          },
+          "signals": {
+            "title": "突然转向的信号",
+            "sourceNote": "四个独立可靠信源（ING、fxverify、证券时报、FX678）以及一条佐证的会议纪要信息。",
+            "items": [
+              {
+                "id": "C1-signal-1",
+                "label": "转鸽信号",
+                "title": "鲍威尔为政策调整打开大门",
+                "body": "8月22日，美联储主席鲍威尔表示，风险平衡的转变可能需要对政策立场进行调整。分析师将杰克逊霍尔讲话解读为转向降息模式，市场开始押注9月可能降息。",
+                "whyImportant": "这是迄今最明确的信号，表明美联储正在重新考虑其紧缩倾向，直接降低了未来的资本成本。",
+                "evidence": [
+                  {
+                    "id": "C1-evidence-1",
+                    "title": "美联储主席鲍威尔转向降息模式",
+                    "description": "ING报道称，鲍威尔杰克逊霍尔讲话释放转向宽松的信号，市场已开始定价9月降息。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-1",
+                      "C1-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "C1-source-1",
+                    "title": "Fed Chair Powell pivots to cutting mode",
+                    "publisher": "ING",
+                    "publishedAt": "2026-08-22",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "C1-source-2",
+                    "title": "Powell signals possible September rate cut",
+                    "publisher": "fxverify",
+                    "publishedAt": "2026-08-22",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "C1-signal-2",
+                "label": "鹰派纪要",
+                "title": "纪要显示9比3维持不变，三人支持加息",
+                "body": "几天前，8月19日的FOMC纪要显示，9比3维持不变，三名官员投票支持立即加息，许多成员认为如果通胀未能降温，可能需要进一步收紧。",
+                "whyImportant": "鹰派委员会与转鸽主席之间相隔数日，暴露出内部严重分歧以及共识叙事的迅速转变。",
+                "evidence": [
+                  {
+                    "id": "C1-evidence-2",
+                    "title": "美联储7月纪要：9比3维持不变，三名官员支持加息",
+                    "description": "FX678报道，纪要显示三名官员支持立即加息，许多官员预计在通胀未降温的情况下将进一步收紧。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "C1-source-4",
+                    "title": "美联储7月纪要：9:3维持利率不变，三名官员支持加息",
+                    "publisher": "FX678",
+                    "publishedAt": "2026-08-19",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              },
+              {
+                "id": "C1-signal-3",
+                "label": "市场重新定价",
+                "title": "美元下跌，黄金走强，风险资产上涨",
+                "body": "美元指数跌至98.6，创三个月新低；8月22日道指上涨0.98%。黄金走强和更广泛的风险偏好情绪伴随此次重新定价。",
+                "whyImportant": "金融条件正在实时放松——降息叙事传导为美元走弱、黄金走强和股市上涨。",
+                "evidence": [
+                  {
+                    "id": "C1-evidence-3",
+                    "title": "美元指数触及98.6三个月低点，道指上涨0.98%",
+                    "description": "证券时报报道了转鸽重新定价后美元下跌和股市上涨。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "C1-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "C1-source-3",
+                    "title": "美元指数跌至98.6创三个月低点，道指涨0.98%",
+                    "publisher": "证券时报",
+                    "publishedAt": "2026-08-22",
+                    "url": "",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "一周之内，从紧缩风险到宽松叙事",
+            "before": "杰克逊霍尔会议前几天，FOMC纪要展现出一个倾向鹰派的委员会：9比3维持不变，三名成员推动立即加息，许多官员警告若通胀未降温将进一步收紧。宏观共识定价的是持续紧缩。",
+            "shift": "8月22日，鲍威尔主席围绕‘风险平衡正在转变’重新框定讨论，暗示政策可能需要调整。市场和分析师立即将其解读为转鸽，9月降息进入定价。",
+            "now": "一周之内，叙事已从‘可能加息’翻转为‘可能降息’。AI基础设施、能源资本开支和主权融资的资本成本正在被下调，而美元走弱、黄金走强和风险偏好型股票上涨强化了宽松信号。",
+            "conclusion": "这是一个独立、离散的货币政策拐点，而非长期结构性进程。鹰派纪要与会晤中的转鸽领导层之间的剧烈碰撞，标志着宏观叙事的快速重置，并带来即时而广泛的资产市场影响。"
+          },
+          "insight": {
+            "title": "领导层的转向快于委员会纪要",
+            "formula": "鹰派纪要（9比3维持不变，三人支持加息）+ 转鸽主席（风险平衡转变）= 宽松叙事重新定价全球资本成本",
+            "explanation": "市场不会等待委员会达成共识；它追随主席。当鲍威尔在杰克逊霍尔的表述与委员会记录的鹰派立场相矛盾时，市场弃置了最后的紧缩信号，重新评级整条资本成本曲线——降低了AI基础设施和能源等资本密集型行业的融资成本，同时令美元走弱、黄金走强，并推动风险偏好型股票资金流入。"
+          },
+          "observe": {
+            "title": "接下来关注什么",
+            "items": [
+              {
+                "label": "9月FOMC会议",
+                "prompt": "9月会议会兑现市场已开始定价的降息，还是重申委员会的鹰派多数？",
+                "meta": "关注利率决定和投票分布，以确认或逆转这一转向。"
+              },
+              {
+                "label": "美元与黄金",
+                "prompt": "美元走弱和黄金走强会持续，确认一个持久的宽松格局，还是会因任何鹰派回击而逆转？",
+                "meta": "追踪美元指数和黄金，作为政策转变的佐证价格信号。"
+              },
+              {
+                "label": "AI与能源资本开支",
+                "prompt": "AI基础设施和能源资本开支计划是否会因融资成本降低而加速，验证资本成本的重新定价？",
+                "meta": "关注这些资本密集型行业的资本开支公告和融资条件。"
+              },
+              {
+                "label": "主权融资",
+                "prompt": "随着降息叙事压降全球融资成本，主权借贷成本是否会有所缓解？",
+                "meta": "追踪主权收益率利差和发行条件。"
+              }
+            ],
+            "ending": "这一转向的考验不在讲话本身，而在于委员会和数据是否会追随主席进入宽松周期——还是回到几天前留下的鹰派记录。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-21-three-fomc-dissents-favoring-a-hike-unverified-signal",
       "scope": "global",
@@ -2647,6 +2975,48 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-08-22",
+      "scope": "global",
+      "date": "2026-08-22",
+      "decidedAt": "2026-08-22T08:33:04.998Z",
+      "state": "publish_new",
+      "insightId": "null",
+      "previousInsightId": "null",
+      "materialChangeScore": 85,
+      "evidenceStrength": 90,
+      "noveltyScore": 85,
+      "importanceScore": 92,
+      "candidateSignalIds": [
+        "C1"
+      ],
+      "content": {
+        "en": {
+          "label": "Publish New",
+          "decisionTitle": "Publish as a standalone important insight",
+          "decisionSummary": "A discrete monetary-policy inflection with the highest combined importance, novelty, and evidence strength, corroborated by four reliable sources. No existing process matches this sudden reversal, so it is published as a standalone macro-signal rather than forced into a poor process fit.",
+          "thresholdReason": "Material-change score of 85 with publish threshold met; the macro narrative flipped from tightening risk to easing within a week, with broad repricing effects.",
+          "observeNext": [
+            "September FOMC decision and vote split",
+            "Dollar index and gold resumption or reversal",
+            "AI infrastructure and energy capex acceleration",
+            "Sovereign borrowing-cost easing"
+          ]
+        },
+        "zh": {
+          "label": "发布新条目",
+          "decisionTitle": "作为独立重要洞见发布",
+          "decisionSummary": "这是一个独立的货币政策拐点，综合重要性、新颖性和证据强度最高，且有四个可靠信源佐证。现有流程均不匹配这一突然逆转，因此作为独立宏观信号发布，而非强行套入不合适的流程。",
+          "thresholdReason": "重大变化评分85，达到发布门槛；宏观叙事一周内从紧缩风险翻转为宽松，且产生广泛重新定价效应。",
+          "observeNext": [
+            "9月FOMC决议及投票分布",
+            "美元指数与黄金的延续或逆转",
+            "AI基础设施与能源资本开支加速",
+            "主权借贷成本缓解"
+          ]
+        }
+      }
+    },
+    {
       "id": "daily-global-2026-08-21",
       "scope": "global",
       "date": "2026-08-21",
@@ -3123,6 +3493,409 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-C1-1787387584998",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-08-22T08:33:04.998Z",
+      "researchDraftId": "research-global-2026-08-22-1787387237463",
+      "candidateId": "C1",
+      "model": "deepseek-v4-pro + deepseek-v4-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": true,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "null",
+        "scope": "global",
+        "slug": "powell-jackson-hole-dovish-pivot-collides-hawkish-fed-minutes",
+        "status": "publish_new",
+        "parentInsightId": "null",
+        "publishedAt": "2026-08-22T00:00:00.000Z",
+        "updatedAt": "2026-08-22T08:33:04.998Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Macro",
+              "secondaryEyebrow": "Monetary Policy Inflection",
+              "title": "Powell's Jackson Hole Pivot Collides With Hawkish Fed Minutes",
+              "summary": "In the space of a single week, the macro narrative flipped from the risk of further tightening to the prospect of rate cuts. Chair Powell's August 22 Jackson Hole remarks pointing to a shifting balance of risks landed days after FOMC minutes showed a 9-3 hold with three officials favoring a hike — a collision that is repricing the cost of capital for AI infrastructure, energy capex, and sovereign financing while amplifying dollar weakness, gold strength, and risk-on sentiment."
+            },
+            "question": {
+              "lead": "Are we witnessing a genuine turn in the global monetary cycle, or a market over-reading of a single speech?",
+              "title": "Does Powell's dovish pivot, one week after hawkish minutes, mark the start of an easing cycle?",
+              "footnote": "A standalone macro-signal: no existing process in the dossier captures this sudden monetary-policy reversal."
+            },
+            "signals": {
+              "title": "Signals of a Sudden Pivot",
+              "sourceNote": "Four independent reliable sources (ING, fxverify, Securities Times, FX678) plus a corroborating minutes item.",
+              "items": [
+                {
+                  "id": "C1-signal-1",
+                  "label": "Dovish Pivot",
+                  "title": "Powell opens the door to policy adjustment",
+                  "body": "On August 22, Fed Chair Powell said the shifting balance of risks may require adjustments to policy stance. Analysts read the Jackson Hole remarks as a pivot toward cutting mode, with markets beginning to price a possible September rate cut.",
+                  "whyImportant": "This is the clearest signal yet that the Federal Reserve is reconsidering its tightening bias, directly lowering the future cost of capital.",
+                  "evidence": [
+                    {
+                      "id": "C1-evidence-1",
+                      "title": "Fed Chair Powell pivots to cutting mode",
+                      "description": "ING reports Powell's Jackson Hole remarks signal a shift toward easing, with market pricing of a September cut.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "C1-source-1",
+                        "C1-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "C1-source-1",
+                      "title": "Fed Chair Powell pivots to cutting mode",
+                      "publisher": "ING",
+                      "publishedAt": "2026-08-22",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "C1-source-2",
+                      "title": "Powell signals possible September rate cut",
+                      "publisher": "fxverify",
+                      "publishedAt": "2026-08-22",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "C1-signal-2",
+                  "label": "Hawkish Minutes",
+                  "title": "Minutes showed a 9-3 hold with three favoring a hike",
+                  "body": "Days earlier, the August 19 FOMC minutes revealed a 9-3 hold, with three officials voting for an immediate rate increase and many members seeing further tightening if inflation failed to cool.",
+                  "whyImportant": "The seconds of distance between a hawkish committee and a dovish chair exposes deep internal division and a rapid shift in the consensus narrative.",
+                  "evidence": [
+                    {
+                      "id": "C1-evidence-2",
+                      "title": "Fed July minutes: 9-3 hold, three officials support hike",
+                      "description": "FX678 reports the minutes showed three officials favoring an immediate hike and many anticipating further tightening absent cooling inflation.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "C1-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "C1-source-4",
+                      "title": "美联储7月纪要：9:3维持利率不变，三名官员支持加息",
+                      "publisher": "FX678",
+                      "publishedAt": "2026-08-19",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "C1-signal-3",
+                  "label": "Market Repricing",
+                  "title": "Dollar drops, gold strengthens, risk assets rally",
+                  "body": "The dollar index fell to 98.6, a three-month low, while the Dow rose 0.98% on August 22. Gold strength and broader risk-on sentiment accompanied the repricing.",
+                  "whyImportant": "Financial conditions are loosening in real time — the transmission of a rate-cut narrative into weaker dollar, stronger gold, and rising equities.",
+                  "evidence": [
+                    {
+                      "id": "C1-evidence-3",
+                      "title": "Dollar index hits 98.6 three-month low, Dow up 0.98%",
+                      "description": "Securities Times reports the dollar's decline and equity gains following the dovish repricing.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "C1-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "C1-source-3",
+                      "title": "美元指数跌至98.6创三个月低点，道指涨0.98%",
+                      "publisher": "证券时报",
+                      "publishedAt": "2026-08-22",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Tightening Risk to Easing Narrative in One Week",
+              "before": "Only days before Jackson Hole, the FOMC minutes projected a committee leaning hawkish: a 9-3 hold with three members pushing for an immediate hike and many officials warning of further tightening if inflation did not cool. The macro consensus priced continued restrictiveness.",
+              "shift": "On August 22, Chair Powell reframed the debate around a 'shifting balance of risks,' signaling that policy may need to adjust. Markets and analysts immediately translated this into a dovish pivot, with a September cut entering the pricing.",
+              "now": "The narrative has flipped from 'possible hikes' to 'possible cuts' within a week. The cost of capital is being marked down across AI infrastructure, energy capex, and sovereign financing, while a weaker dollar, stronger gold, and risk-on equities reinforce the easing signal.",
+              "conclusion": "This is a discrete monetary-policy inflection rather than a long-running structural process. The sharp collision between hawkish minutes and dovish leadership marks a rapid reset of the macro narrative, with immediate and broad asset-market consequences."
+            },
+            "insight": {
+              "title": "Leadership pivots faster than the committee's record",
+              "formula": "Hawkish minutes (9-3 hold, three favoring hike) + dovish chair (shifting balance of risks) = easing narrative repricing global cost of capital",
+              "explanation": "The market does not wait for the committee's consensus; it follows the chair. When Powell's Jackson Hole framing contradicted the committee's recorded hawkishness, markets discarded the last tightening signal and rerated the entire cost-of-capital curve — lowering financing costs for capital-intensive sectors like AI infrastructure and energy, while weakening the dollar, lifting gold, and feeding risk-on equity flows."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "September FOMC",
+                  "prompt": "Does the September meeting deliver the cut the market has begun to price, or reassert the committee's hawkish majority?",
+                  "meta": "Watch the rate decision and the vote split for confirmation or reversal of the pivot."
+                },
+                {
+                  "label": "Dollar & Gold",
+                  "prompt": "Does dollar weakness and gold strength persist, confirming a durable easing regime, or reverse on any hawkish pushback?",
+                  "meta": "Track the dollar index and gold as corroborating price signals of the policy shift."
+                },
+                {
+                  "label": "AI & Energy Capex",
+                  "prompt": "Do AI infrastructure and energy capital-expenditure plans accelerate on cheaper financing, validating the repricing of the cost of capital?",
+                  "meta": "Monitor capex announcements and financing terms across these capital-intensive sectors."
+                },
+                {
+                  "label": "Sovereign Financing",
+                  "prompt": "Do sovereign borrowing costs ease as the rate-cut narrative lowers global funding costs?",
+                  "meta": "Track sovereign yield spreads and issuance conditions."
+                }
+              ],
+              "ending": "The test of this pivot is not the speech, but whether the committee and the data follow the chair into an easing cycle — or pull back toward the hawkish record left behind just days earlier."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球宏观",
+              "secondaryEyebrow": "货币政策拐点",
+              "title": "鲍威尔杰克逊霍尔转鸽与美联储鹰派纪要正面相撞",
+              "summary": "短短一周内，宏观叙事从进一步收紧的风险翻转为降息预期。美联储主席鲍威尔8月22日在杰克逊霍尔的讲话指出风险平衡正在转变，而几天前公布的FOMC会议纪要显示9比3维持不变、三位官员支持加息——这一碰撞正在重新定价AI基础设施、能源资本开支和主权融资的资本成本，同时放大美元走弱、黄金走强和风险偏好升温。"
+            },
+            "question": {
+              "lead": "我们看到的是一场真正的全球货币政策周期转向，还是市场对一次讲话的过度解读？",
+              "title": "在鹰派纪要公布一周后，鲍威尔的转鸽是否标志着宽松周期的开始？",
+              "footnote": "独立宏观信号：档案中现有流程均未捕捉到这一突发货币政策逆转。"
+            },
+            "signals": {
+              "title": "突然转向的信号",
+              "sourceNote": "四个独立可靠信源（ING、fxverify、证券时报、FX678）以及一条佐证的会议纪要信息。",
+              "items": [
+                {
+                  "id": "C1-signal-1",
+                  "label": "转鸽信号",
+                  "title": "鲍威尔为政策调整打开大门",
+                  "body": "8月22日，美联储主席鲍威尔表示，风险平衡的转变可能需要对政策立场进行调整。分析师将杰克逊霍尔讲话解读为转向降息模式，市场开始押注9月可能降息。",
+                  "whyImportant": "这是迄今最明确的信号，表明美联储正在重新考虑其紧缩倾向，直接降低了未来的资本成本。",
+                  "evidence": [
+                    {
+                      "id": "C1-evidence-1",
+                      "title": "美联储主席鲍威尔转向降息模式",
+                      "description": "ING报道称，鲍威尔杰克逊霍尔讲话释放转向宽松的信号，市场已开始定价9月降息。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "C1-source-1",
+                        "C1-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "C1-source-1",
+                      "title": "Fed Chair Powell pivots to cutting mode",
+                      "publisher": "ING",
+                      "publishedAt": "2026-08-22",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "C1-source-2",
+                      "title": "Powell signals possible September rate cut",
+                      "publisher": "fxverify",
+                      "publishedAt": "2026-08-22",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "C1-signal-2",
+                  "label": "鹰派纪要",
+                  "title": "纪要显示9比3维持不变，三人支持加息",
+                  "body": "几天前，8月19日的FOMC纪要显示，9比3维持不变，三名官员投票支持立即加息，许多成员认为如果通胀未能降温，可能需要进一步收紧。",
+                  "whyImportant": "鹰派委员会与转鸽主席之间相隔数日，暴露出内部严重分歧以及共识叙事的迅速转变。",
+                  "evidence": [
+                    {
+                      "id": "C1-evidence-2",
+                      "title": "美联储7月纪要：9比3维持不变，三名官员支持加息",
+                      "description": "FX678报道，纪要显示三名官员支持立即加息，许多官员预计在通胀未降温的情况下将进一步收紧。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "C1-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "C1-source-4",
+                      "title": "美联储7月纪要：9:3维持利率不变，三名官员支持加息",
+                      "publisher": "FX678",
+                      "publishedAt": "2026-08-19",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                },
+                {
+                  "id": "C1-signal-3",
+                  "label": "市场重新定价",
+                  "title": "美元下跌，黄金走强，风险资产上涨",
+                  "body": "美元指数跌至98.6，创三个月新低；8月22日道指上涨0.98%。黄金走强和更广泛的风险偏好情绪伴随此次重新定价。",
+                  "whyImportant": "金融条件正在实时放松——降息叙事传导为美元走弱、黄金走强和股市上涨。",
+                  "evidence": [
+                    {
+                      "id": "C1-evidence-3",
+                      "title": "美元指数触及98.6三个月低点，道指上涨0.98%",
+                      "description": "证券时报报道了转鸽重新定价后美元下跌和股市上涨。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "C1-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "C1-source-3",
+                      "title": "美元指数跌至98.6创三个月低点，道指涨0.98%",
+                      "publisher": "证券时报",
+                      "publishedAt": "2026-08-22",
+                      "url": "",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "一周之内，从紧缩风险到宽松叙事",
+              "before": "杰克逊霍尔会议前几天，FOMC纪要展现出一个倾向鹰派的委员会：9比3维持不变，三名成员推动立即加息，许多官员警告若通胀未降温将进一步收紧。宏观共识定价的是持续紧缩。",
+              "shift": "8月22日，鲍威尔主席围绕‘风险平衡正在转变’重新框定讨论，暗示政策可能需要调整。市场和分析师立即将其解读为转鸽，9月降息进入定价。",
+              "now": "一周之内，叙事已从‘可能加息’翻转为‘可能降息’。AI基础设施、能源资本开支和主权融资的资本成本正在被下调，而美元走弱、黄金走强和风险偏好型股票上涨强化了宽松信号。",
+              "conclusion": "这是一个独立、离散的货币政策拐点，而非长期结构性进程。鹰派纪要与会晤中的转鸽领导层之间的剧烈碰撞，标志着宏观叙事的快速重置，并带来即时而广泛的资产市场影响。"
+            },
+            "insight": {
+              "title": "领导层的转向快于委员会纪要",
+              "formula": "鹰派纪要（9比3维持不变，三人支持加息）+ 转鸽主席（风险平衡转变）= 宽松叙事重新定价全球资本成本",
+              "explanation": "市场不会等待委员会达成共识；它追随主席。当鲍威尔在杰克逊霍尔的表述与委员会记录的鹰派立场相矛盾时，市场弃置了最后的紧缩信号，重新评级整条资本成本曲线——降低了AI基础设施和能源等资本密集型行业的融资成本，同时令美元走弱、黄金走强，并推动风险偏好型股票资金流入。"
+            },
+            "observe": {
+              "title": "接下来关注什么",
+              "items": [
+                {
+                  "label": "9月FOMC会议",
+                  "prompt": "9月会议会兑现市场已开始定价的降息，还是重申委员会的鹰派多数？",
+                  "meta": "关注利率决定和投票分布，以确认或逆转这一转向。"
+                },
+                {
+                  "label": "美元与黄金",
+                  "prompt": "美元走弱和黄金走强会持续，确认一个持久的宽松格局，还是会因任何鹰派回击而逆转？",
+                  "meta": "追踪美元指数和黄金，作为政策转变的佐证价格信号。"
+                },
+                {
+                  "label": "AI与能源资本开支",
+                  "prompt": "AI基础设施和能源资本开支计划是否会因融资成本降低而加速，验证资本成本的重新定价？",
+                  "meta": "关注这些资本密集型行业的资本开支公告和融资条件。"
+                },
+                {
+                  "label": "主权融资",
+                  "prompt": "随着降息叙事压降全球融资成本，主权借贷成本是否会有所缓解？",
+                  "meta": "追踪主权收益率利差和发行条件。"
+                }
+              ],
+              "ending": "这一转向的考验不在讲话本身，而在于委员会和数据是否会追随主席进入宽松周期——还是回到几天前留下的鹰派记录。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-08-22",
+        "scope": "global",
+        "date": "2026-08-22",
+        "decidedAt": "2026-08-22T08:33:04.998Z",
+        "state": "publish_new",
+        "insightId": "null",
+        "previousInsightId": "null",
+        "materialChangeScore": 85,
+        "evidenceStrength": 90,
+        "noveltyScore": 85,
+        "importanceScore": 92,
+        "candidateSignalIds": [
+          "C1"
+        ],
+        "content": {
+          "en": {
+            "label": "Publish New",
+            "decisionTitle": "Publish as a standalone important insight",
+            "decisionSummary": "A discrete monetary-policy inflection with the highest combined importance, novelty, and evidence strength, corroborated by four reliable sources. No existing process matches this sudden reversal, so it is published as a standalone macro-signal rather than forced into a poor process fit.",
+            "thresholdReason": "Material-change score of 85 with publish threshold met; the macro narrative flipped from tightening risk to easing within a week, with broad repricing effects.",
+            "observeNext": [
+              "September FOMC decision and vote split",
+              "Dollar index and gold resumption or reversal",
+              "AI infrastructure and energy capex acceleration",
+              "Sovereign borrowing-cost easing"
+            ]
+          },
+          "zh": {
+            "label": "发布新条目",
+            "decisionTitle": "作为独立重要洞见发布",
+            "decisionSummary": "这是一个独立的货币政策拐点，综合重要性、新颖性和证据强度最高，且有四个可靠信源佐证。现有流程均不匹配这一突然逆转，因此作为独立宏观信号发布，而非强行套入不合适的流程。",
+            "thresholdReason": "重大变化评分85，达到发布门槛；宏观叙事一周内从紧缩风险翻转为宽松，且产生广泛重新定价效应。",
+            "observeNext": [
+              "9月FOMC决议及投票分布",
+              "美元指数与黄金的延续或逆转",
+              "AI基础设施与能源资本开支加速",
+              "主权借贷成本缓解"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 5661,
+        "outputTokens": 7844,
+        "cachedInputTokens": 2816
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-22T08:33:07.513Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "publish_new"
+      },
+      "approvedAt": "2026-08-22T08:33:07.513Z"
+    },
     {
       "id": "writer-fomc-dissents-hike-2026-1787304578562",
       "scope": "global",
@@ -4493,6 +5266,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-21T09:29:42.214Z"
+    "repairedAt": "2026-08-22T08:33:08.328Z"
   }
 }
