@@ -6,19 +6,408 @@
   "date": "2026-08-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-23T22:01:14.165Z",
-  "updatedAt": "2026-08-23T22:35:29.779Z",
+  "updatedAt": "2026-08-23T22:40:11.913Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-08-23T22:35:29.779Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-23T22:40:11.913Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-24-1787524811896",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-23T22:40:11.896Z",
+        "researchDate": "2026-08-24",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 326874,
+          "outputTokens": 31052,
+          "cachedInputTokens": 266112
+        },
+        "querySummary": "Scanned 2026-08-19 to 2026-08-24 across AI, energy, geopolitics, macro and capital markets; six candidate signals rise above threshold, ranging from Iran monetizing Hormuz transit, US-Canada trade rupture, Alibaba's record placement, Hugging Face sale exploration, AI price deflation with anonymous frontier model, to AI financing colliding with sovereign debt markets.",
+        "candidates": [
+          {
+            "id": "sig-2026-08-24-hormuz-toll",
+            "date": "2026-08-23",
+            "domain": "Energy/Geopolitics",
+            "tags": [
+              "Hormuz",
+              "Iran",
+              "oil transit",
+              "sanctions",
+              "chokepoint",
+              "tanker passage"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 85,
+            "novelty": 75,
+            "evidenceStrength": 70,
+            "independentSourceCount": 4,
+            "thesisImpact": 85,
+            "relationshipChange": 80,
+            "stageChange": 70,
+            "contradiction": 80,
+            "content": {
+              "en": {
+                "title": "Hormuz shifts from blockade to tolled passage: Iran begins monetizing chokepoint control",
+                "coreFact": "Iran's parliamentary national security committee passed a draft legal clause authorizing service fees for authorized vessels transiting the Strait of Hormuz; in the same week Iran granted special passage permits to Iraqi tankers. US officials told Axios roughly 40 tankers carrying about 16 million barrels moved through the southern deep-water channel on Aug 21, while UKMTO reported commercial transits remained in single digits per direction over 48 hours.",
+                "whyItMatters": "Iran appears to be moving from a binary blockade/open posture to a toll-based 'controlled passage' regime, using exception permits to divide opponents. If institutionalized, energy security logic partly shifts from tail-risk of supply cutoff to transit costs and chokepoint politics; the effectiveness of US maximum-pressure sanctions and China's continued oil purchases would be re-priced.",
+                "processMatchReason": "No existing process ID supplied; this marks a possible second-order change within the energy-as-strategic-capability thesis, but the toll regime is a new institutional form rather than an escalation of the existing conflict."
+              },
+              "zh": {
+                "title": "霍尔木兹从封锁转向收费放行：伊朗将海峡控制权货币化",
+                "coreFact": "伊朗议会国家安全与外交政策委员会通过法律草案条款，授权对经霍尔木兹海峡的授权船只收取导航、环境、燃油、保险和安全等服务费；同一周伊朗向伊拉克油轮发放特别通行许可。Axios引述美国官员称8月21日夜约有40艘油轮经南部深水航道通行、约1600万桶原油运出；UKMTO则称过去48小时商业通行仍仅为每方向个位数。",
+                "whyItMatters": "伊朗正从二元式封锁/开放转向‘受控通行+收费’的准税权体制，并以伊拉克例外许可分化对手。若过路费体制成立，能源安全逻辑将从断供尾部风险部分转为通行成本与通道政治；美国最严厉制裁的有效性以及中国继续购油的角色都会被重估。",
+                "processMatchReason": "未提供现有流程ID；该信号属于‘能源即战略能力’进程中的二阶变化，但收费放行是新的制度形态，而非原有冲突烈度的升级。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Iran parliament committee approves bill authorizing fees for Hormuz transit",
+                "url": "N/A",
+                "publisher": "Anadolu",
+                "publishedAt": "2026-08-23",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-hormuz-toll-source-1"
+              },
+              {
+                "title": "IRNA: Iran grants special passage permits to Iraqi oil tankers",
+                "url": "N/A",
+                "publisher": "IRNA",
+                "publishedAt": "2026-08-23",
+                "kind": "primary",
+                "id": "sig-2026-08-24-hormuz-toll-source-2"
+              },
+              {
+                "title": "Axios: US official says ~40 tankers moved ~16M barrels through Hormuz on Aug 21",
+                "url": "N/A",
+                "publisher": "Axios",
+                "publishedAt": "2026-08-22",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-hormuz-toll-source-3"
+              },
+              {
+                "title": "UKMTO: commercial transits remain in single digits per direction",
+                "url": "N/A",
+                "publisher": "UKMTO",
+                "publishedAt": "2026-08-23",
+                "kind": "primary",
+                "id": "sig-2026-08-24-hormuz-toll-source-4"
+              }
+            ]
+          },
+          {
+            "id": "sig-2026-08-24-us-canada-tariff-break",
+            "date": "2026-08-22",
+            "domain": "Trade/Economic Security",
+            "tags": [
+              "US-Canada",
+              "CUSMA",
+              "tariffs",
+              "retaliation",
+              "alliance fragmentation",
+              "critical minerals"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 85,
+            "novelty": 70,
+            "evidenceStrength": 85,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 85,
+            "stageChange": 75,
+            "contradiction": 85,
+            "content": {
+              "en": {
+                "title": "US-Canada trade rupture: 50% tariffs take effect and Canadian dollar-for-dollar retaliation breaks the CUSMA renewal framework",
+                "coreFact": "US 50% tariffs on C$20 billion of Canadian goods took effect at 0400 GMT Aug 22 after talks collapsed Aug 21. Canadian PM Carney announced dollar-for-dollar retaliation on C$20 billion of US goods from Sept 8, covering dairy, steel, appliances, pulp/paper and electronics, and accused Washington of disregarding CUSMA's annual review process after the US refused renewal in 2026.",
+                "whyItMatters": "The alliance base of technology controls is being eroded from within. Canada supplies 99% of US natural gas imports, 85% of electricity imports and 60% of crude oil imports; with a parallel US threat of large tariffs on the EU, the credibility of export-control coordination and AI supply-chain provenance platforms is in doubt.",
+                "processMatchReason": "No existing process ID supplied; this is a direct fracture inside the 'technology control as geopolitical infrastructure' coalition, not a routine tariff dispute."
+              },
+              "zh": {
+                "title": "美加贸易决裂：50%关税生效与对等报复动摇CUSMA续约框架",
+                "coreFact": "美加谈判8月21日破裂，8月22日0400 GMT起美国对200亿美元加拿大商品加征50%关税生效。加拿大总理卡尼宣布自9月8日起对200亿美元美国商品实施对等报复，涵盖乳制品、钢铁、家电、纸浆纸张和电子产品，并批评美方无视CUSMA年度复审程序。",
+                "whyItMatters": "技术控制体系的地缘盟友根基正从内部被侵蚀。加拿大供应美国99%的天然气进口、85%的电力进口和60%的原油进口；若美欧关税战同步升级，以盟友协调为基础的出口管制体系和AI供应链溯源平台的可信度将被重估。",
+                "processMatchReason": "未提供现有流程ID；这是‘技术控制成为地缘基础设施’进程中联盟基础的结构性破裂，而非普通贸易摩擦升级。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US 50% tariffs on C$20B of Canadian goods take effect",
+                "url": "N/A",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-22",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-us-canada-tariff-break-source-1"
+              },
+              {
+                "title": "PM Carney: Canada will impose dollar-for-dollar retaliation",
+                "url": "N/A",
+                "publisher": "Office of the Prime Minister of Canada",
+                "publishedAt": "2026-08-22",
+                "kind": "primary",
+                "id": "sig-2026-08-24-us-canada-tariff-break-source-2"
+              }
+            ]
+          },
+          {
+            "id": "sig-2026-08-24-alibaba-record-placement",
+            "date": "2026-08-23",
+            "domain": "AI/Capital Markets",
+            "tags": [
+              "Alibaba",
+              "Hong Kong",
+              "AI capex",
+              "equity financing",
+              "China",
+              "semiconductors"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 80,
+            "novelty": 70,
+            "evidenceStrength": 90,
+            "independentSourceCount": 3,
+            "thesisImpact": 75,
+            "relationshipChange": 55,
+            "stageChange": 75,
+            "contradiction": 70,
+            "content": {
+              "en": {
+                "title": "Alibaba's record $10.2B Hong Kong placement: China AI capex enters a debt-funded sprint",
+                "coreFact": "Alibaba launched on Sunday a roughly HK$80 billion (~$10.2 billion) Hong Kong share placement of 710 million shares at HK$112.70 each, a 3.6% discount, the largest primary follow-on in Hong Kong history; net proceeds will be fully directed to AI full-stack, including chips, infrastructure and model R&D. This follows Alibaba Q2 capex of RMB 67.68 billion (+75% YoY) and Tencent Q2 capex of RMB 52.8 billion.",
+                "whyItMatters": "Chinese AI leaders are shifting from retained earnings to large equity raises to fund AI infrastructure, forming a global symmetric AI capital arms race with US frontier labs. Tightening export controls (Japan's third round effective Aug 1, Taiwan adding Huawei/SMIC to export control lists) have not slowed the stated shift of funding toward domestic compute; this changes assumptions about China's autonomous pace.",
+                "processMatchReason": "No existing process ID supplied; the closest implied process is AI infrastructure competition, but the observed financing-mode shift is a distinct structural development."
+              },
+              "zh": {
+                "title": "阿里巴巴创纪录102亿美元港股配售：中国AI资本开支进入举债冲刺",
+                "coreFact": "阿里巴巴周日晚启动约800亿港元（约102亿美元）港股配售：7.1亿股、每股112.70港元，较上周五收盘折价3.6%，为港交所史上最大规模一级增发；净收益将全部投向人工智能全栈——芯片、基础设施与模型研发。此前阿里Q2资本开支676.8亿元人民币（同比+75%），腾讯Q2资本开支528亿元。",
+                "whyItMatters": "中国头部AI厂商正从利润留存转向股权市场大规模募资，与美国前沿实验室的IPO形成全球对称的AI资本军备竞赛。日本最新半导体设备管制和台湾出口管制并未改变资金流向国产算力的明确取向，这会改变对中国自主算力节奏的既有判断。",
+                "processMatchReason": "未提供现有流程ID；最接近的隐含进程是AI基础设施竞赛，但此次融资模式切换是独立的结构性信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Alibaba announces HK$80 billion placement",
+                "url": "N/A",
+                "publisher": "Alibaba Group / HKEX filing",
+                "publishedAt": "2026-08-23",
+                "kind": "primary",
+                "id": "sig-2026-08-24-alibaba-record-placement-source-1"
+              },
+              {
+                "title": "Alibaba to use proceeds for AI chips, infrastructure and model R&D",
+                "url": "N/A",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-23",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-alibaba-record-placement-source-2"
+              },
+              {
+                "title": "Tencent Q2 capex RMB 52.8 billion; ByteDance AI infrastructure budget reported higher",
+                "url": "N/A",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-23",
+                "kind": "context",
+                "id": "sig-2026-08-24-alibaba-record-placement-source-3"
+              }
+            ]
+          },
+          {
+            "id": "sig-2026-08-24-hugging-face-sale",
+            "date": "2026-08-23",
+            "domain": "Open-Source AI",
+            "tags": [
+              "Hugging Face",
+              "open source",
+              "M&A",
+              "model distribution",
+              "AI ecosystem"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 75,
+            "novelty": 85,
+            "evidenceStrength": 60,
+            "independentSourceCount": 2,
+            "thesisImpact": 70,
+            "relationshipChange": 75,
+            "stageChange": 60,
+            "contradiction": 75,
+            "content": {
+              "en": {
+                "title": "Hugging Face explores $13B sale: the open-source AI distribution layer begins to be priced and consolidated",
+                "coreFact": "Business Insider reported Sunday, republished by Reuters, that Hugging Face is exploring a sale, with potential valuation of $13 billion or higher, and has hired bankers to gauge buyer interest. The company was valued at $4.5 billion in its Aug 2023 Series D.",
+                "whyItMatters": "Hugging Face is the most public-good-like distribution layer for open-source models, including Chinese open models (Qwen, GLM) that use it as a global channel. If acquired by a US hyperscaler or consortium, the 'neutral harbor' assumption for open source would be weakened; control of model weights distribution and the ability of non-US models to go global would change.",
+                "processMatchReason": "No existing process ID supplied; this is a potential structural change in the AI infrastructure competition's ecosystem dimension, specifically the boundary between open and closed AI."
+              },
+              "zh": {
+                "title": "Hugging Face探索以130亿美元出售：开源AI分发层的定价与整合即将开始",
+                "coreFact": "Business Insider周日报道（路透转发），开源AI社区Hugging Face正探索出售，潜在估值130亿美元或更高，并已聘请银行探询竞购方兴趣。参照2023年8月D轮2.35亿美元、估值45亿美元，若成交投资人回报约为上轮估值3倍。",
+                "whyItMatters": "Hugging Face是开源模型权重托管、数据集与生态入口中最具公共品性质的一环，也是Qwen、GLM等中国开源模型的实际全球分发渠道。若被美国超大规模厂商或财团收购，‘开源中立港’假设将动摇，开源与闭源边界、模型分发通道控制权、以及全球模型借道出海的能力都会改变。",
+                "processMatchReason": "未提供现有流程ID；该信号属于AI基础设施竞赛中生态维度的结构变化，直接影响开源与闭源的力量对比判断。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Hugging Face explores sale at $13B+ valuation",
+                "url": "N/A",
+                "publisher": "Business Insider",
+                "publishedAt": "2026-08-23",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-hugging-face-sale-source-1"
+              },
+              {
+                "title": "Reuters confirms/republishes Hugging Face sale exploration",
+                "url": "N/A",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-23",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-hugging-face-sale-source-2"
+              }
+            ]
+          },
+          {
+            "id": "sig-2026-08-24-ai-price-deflation",
+            "date": "2026-08-21",
+            "domain": "AI/Competition",
+            "tags": [
+              "OpenAI",
+              "DeepSeek",
+              "LLM pricing",
+              "frontier models",
+              "anonymous benchmark",
+              "deflation"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 75,
+            "novelty": 85,
+            "evidenceStrength": 65,
+            "independentSourceCount": 3,
+            "thesisImpact": 75,
+            "relationshipChange": 60,
+            "stageChange": 70,
+            "contradiction": 75,
+            "content": {
+              "en": {
+                "title": "AI price deflation plus anonymous frontier model: OpenAI cuts 20%, Ox Alpha and DeepSeek approach closed frontier",
+                "coreFact": "OpenAI announced Friday a price cut of more than 20% on GPT-5.6 Sol API and credit pricing for three months, after Google's Gemini 3.7 Flash pricing fell to about half the prior version. On Aug 20, OpenRouter listed anonymous model 'Ox Alpha' with 1M-token context, reported ~80% completion on DeepSWE tasks vs 65% for Fable 5 Max, 62% for GLM-5.3 Max/Grok 4.6 and 52% for GPT-5.6 Sol Max; community suspects it is a flash-tier Chinese model. DeepSeek released a multimodal experimental model and B.AI platform became fully free.",
+                "whyItMatters": "If frontier-grade cheap models are arriving while US frontier labs are cutting prices and Anthropic is preparing a $2 trillion IPO, the core assumption that massive AI capex returns are supported by frontier scarcity is under pressure. Persistent price deflation changes the dynamic between compute ROI, the $700-800B financing gap, and IPO valuation sustainability.",
+                "processMatchReason": "No existing process ID supplied; this signal tests the AI infrastructure competition thesis by challenging the scarcity pricing that underpins capital formation."
+              },
+              "zh": {
+                "title": "AI定价通缩与匿名前沿模型：OpenAI降价20%、Ox Alpha与DeepSeek逼近闭源前沿",
+                "coreFact": "OpenAI周五宣布GPT-5.6 Sol的API与积分定价未来3个月下调20%以上；此前Google Gemini 3.7 Flash定价已降至约上一版一半。8月20日OpenRouter上架匿名模型‘Ox Alpha’，在DeepSWE任务上完成率约80%，高于Fable 5 Max（65%）、GLM-5.3 Max与Grok 4.6（62%）、GPT-5.6 Sol Max（52%）；社区高度怀疑为智谱GLM-5.3 Flash匿名测试。DeepSeek上线多模态实验模型，B.AI平台8月23日全量免费。",
+                "whyItMatters": "若匿名模型确为中国Flash级产品，则‘中国低价逼近前沿’与‘美国前沿模型主动降价’同时发生——智能的边际价格快速通缩，而Anthropic正以2万亿美元估值冲刺IPO。该组合直接挑战AI基础设施竞赛的核心隐含假设：巨额资本开支回报由前沿智能稀缺性支撑。",
+                "processMatchReason": "未提供现有流程ID；这挑战AI基础设施竞赛进程的定价基础，是稀缺性假设面临的实证压力。"
+              }
+            },
+            "sources": [
+              {
+                "title": "OpenAI cuts GPT-5.6 Sol API and credit pricing by >20%",
+                "url": "N/A",
+                "publisher": "OpenAI",
+                "publishedAt": "2026-08-21",
+                "kind": "primary",
+                "id": "sig-2026-08-24-ai-price-deflation-source-1"
+              },
+              {
+                "title": "OpenRouter lists anonymous model Ox Alpha with 1M context and strong DeepSWE results",
+                "url": "N/A",
+                "publisher": "OpenRouter",
+                "publishedAt": "2026-08-20",
+                "kind": "primary",
+                "id": "sig-2026-08-24-ai-price-deflation-source-2"
+              },
+              {
+                "title": "DeepSeek releases V4-Flash-Vision-Exp; B.AI platform becomes free",
+                "url": "N/A",
+                "publisher": "DeepSeek",
+                "publishedAt": "2026-08-23",
+                "kind": "primary",
+                "id": "sig-2026-08-24-ai-price-deflation-source-3"
+              }
+            ]
+          },
+          {
+            "id": "sig-2026-08-24-ai-debt-meets-sovereign-bond",
+            "date": "2026-08-20",
+            "domain": "Macro/AI Finance",
+            "tags": [
+              "Anthropic IPO",
+              "Broadcom debt",
+              "Treasury market",
+              "Fed policy",
+              "AI credit risk",
+              "sovereign debt"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 95,
+            "novelty": 80,
+            "evidenceStrength": 85,
+            "independentSourceCount": 4,
+            "thesisImpact": 95,
+            "relationshipChange": 70,
+            "stageChange": 80,
+            "contradiction": 90,
+            "content": {
+              "en": {
+                "title": "AI financing collides with sovereign debt markets: Anthropic's $2T IPO prospect, Broadcom's $100B debt talk, Treasury intervention failure and Fed minutes flag AI credit risk",
+                "coreFact": "Anthropic investors aim for an IPO at $2T or higher in October, with Q2 revenue >$11.5B; Broadcom is in talks for $60-100B debt financing for custom AI chips. The US Treasury doubled its liquidity-support buyback cap to $4B on Aug 19, but on Aug 20 30-year yields returned to ~5.25%, signaling the intervention failed to hold. July FOMC minutes named AI credit risk 18 times, noted hyperscaler debt spreads widening, and the Fed paused reserve-management purchases.",
+                "whyItMatters": "AI infrastructure financing has grown large enough to compete with sovereign debt for capital and to raise economy-wide funding costs, while Treasury and Fed tools appear ineffective. If the AI debt supercycle continues, the financing base for AI infrastructure, energy strategicization, semiconductor geopolitics and technology control shifts from cheap capital to a constraint imposed by long-end rates, credit spreads and IPO pricing.",
+                "processMatchReason": "No existing process ID supplied; this is the first direct collision between the AI infrastructure competition and sovereign fiscal/monetary constraints."
+              },
+              "zh": {
+                "title": "AI融资撞上主权债市场：Anthropic 2万亿美元IPO在望、博通千亿美元发债、财政部救市失效",
+                "coreFact": "Anthropic投资人期望10月以2万亿美元或以上估值IPO；Q2营收超115亿美元。博通洽谈600-1000亿美元级债务融资。美国财政部8月19日将10-30年期国债回购单次上限从20亿翻倍至40亿美元，但8月20日美股债双杀，30年期收益率回到约5.25%，干预仅维持一天。7月FOMC纪要18次提及AI，点名AI热潮向信用体系传导的风险，并暂停准备金管理购债。",
+                "whyItMatters": "AI基础设施竞赛与主权财政/货币政策首次正面相撞：AI融资规模已大到挤压国债市场、抬高全社会融资成本，而财政部和联储的干预工具在结构性压力前失效。若AI债务超级周期继续，AI基础设施竞赛、能源战略化、半导体地缘化与技术控制地缘化的融资基础都将从低成本资本切换为与主权信用争夺资金的新约束。",
+                "processMatchReason": "未提供现有流程ID；这是AI基础设施竞赛与主权财政约束之间的首次直接对撞，属于跨进程的结构性信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Anthropic investors seek $2T+ IPO in October",
+                "url": "N/A",
+                "publisher": "Financial Times",
+                "publishedAt": "2026-08-19",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-1"
+              },
+              {
+                "title": "Broadcom in talks for $60-100B debt financing",
+                "url": "N/A",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-20",
+                "kind": "reliable_media",
+                "id": "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-2"
+              },
+              {
+                "title": "US Treasury doubles buyback cap to $4B",
+                "url": "N/A",
+                "publisher": "U.S. Department of the Treasury",
+                "publishedAt": "2026-08-19",
+                "kind": "primary",
+                "id": "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-3"
+              },
+              {
+                "title": "July FOMC minutes: 18 AI mentions, hyperscaler credit risk, RMP pause",
+                "url": "N/A",
+                "publisher": "Federal Reserve",
+                "publishedAt": "2026-08-19",
+                "kind": "primary",
+                "id": "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-4"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
