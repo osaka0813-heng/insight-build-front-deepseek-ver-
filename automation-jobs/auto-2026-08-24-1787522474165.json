@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-23T22:01:14.165Z",
-  "updatedAt": "2026-08-24T00:07:04.342Z",
+  "updatedAt": "2026-08-24T00:07:05.260Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "已保存 analyze 断点",
-      "updatedAt": "2026-08-24T00:07:04.342Z",
+      "message": "write_base",
+      "updatedAt": "2026-08-24T00:07:05.260Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
