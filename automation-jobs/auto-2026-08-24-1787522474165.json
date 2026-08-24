@@ -6,18 +6,18 @@
   "date": "2026-08-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-23T22:01:14.165Z",
-  "updatedAt": "2026-08-24T00:12:22.622Z",
+  "updatedAt": "2026-08-24T00:14:13.861Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-08-24T00:12:22.622Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-24T00:14:13.861Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -998,7 +998,161 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "sig-2026-08-24-ai-debt-meets-sovereign-bond"
+      "selectedCandidateId": "sig-2026-08-24-ai-debt-meets-sovereign-bond",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "ai-debt-meets-sovereign-bond",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight · Capital Markets & AI",
+              "secondaryEyebrow": "New process candidate",
+              "title": "AI financing collides with sovereign debt markets",
+              "summary": "Anthropic's $2T IPO aim and Broadcom's $60–100B debt talk now sit alongside a failed Treasury buyback and Fed minutes flagging AI credit risk. The binding constraint on AI infrastructure is shifting from cheap capital to long-end rates and credit spreads."
+            },
+            "question": {
+              "lead": "Can sovereign debt capacity absorb AI infrastructure financing without becoming the constraint?",
+              "title": "Is the AI debt supercycle hitting the sovereign debt ceiling?",
+              "footnote": "Four sources, including US Treasury and Federal Reserve primary releases, show AI financing competing with sovereign debt for capital."
+            },
+            "signals": {
+              "title": "Four signals of collision",
+              "sourceNote": "Evidence drawn from Financial Times, Bloomberg, U.S. Treasury and Federal Reserve sources; four corroborating sources.",
+              "items": [
+                {
+                  "label": "AI IPO",
+                  "title": "Anthropic investors seek $2T+ IPO in October",
+                  "body": "Investors aim to take Anthropic public at a $2 trillion or higher valuation in October, with Q2 revenue above $11.5 billion.",
+                  "whyImportant": "Puts a benchmark on AI equity value at a time when long-end yields are rising and debt markets are tightening.",
+                  "evidence": {
+                    "title": "Anthropic investors seek $2T+ IPO in October",
+                    "description": "Financial Times reports investor aim for an October IPO at $2T+ and Q2 revenue above $11.5B.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "AI debt",
+                  "title": "Broadcom in talks for $60–100B debt financing",
+                  "body": "Broadcom is discussing debt financing of $60–100 billion for custom AI chips.",
+                  "whyImportant": "Would be a historically large corporate debt raise, directly competing with Treasury issuance for fixed-income demand.",
+                  "evidence": {
+                    "title": "Broadcom in talks for $60-100B debt financing",
+                    "description": "Bloomberg reports Broadcom talks for $60–100B debt financing for custom AI chips.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Treasury intervention",
+                  "title": "Treasury doubles buyback cap, then long-end yields return to ~5.25%",
+                  "body": "The US Treasury doubled its liquidity-support buyback cap to $4B on Aug 19. On Aug 20, the 30-year yield returned to about 5.25%, signaling the intervention failed to hold.",
+                  "whyImportant": "Shows sovereign debt management tools are losing effectiveness just as AI debt demand grows.",
+                  "evidence": {
+                    "title": "US Treasury doubles buyback cap to $4B",
+                    "description": "Treasury raised the single-operation buyback cap from $2B to $4B on Aug 19; 30-year yield returned to ~5.25% on Aug 20.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "Fed credit risk",
+                  "title": "July FOMC minutes flag AI credit risk 18 times",
+                  "body": "Minutes named AI credit risk 18 times, noted hyperscaler debt spreads widening, and showed the Fed paused reserve-management purchases.",
+                  "whyImportant": "The central bank is explicitly monitoring how AI financing stress could transmit to the broader credit system.",
+                  "evidence": {
+                    "title": "July FOMC minutes: 18 AI mentions, hyperscaler credit risk, RMP pause",
+                    "description": "Federal Reserve minutes from July flag AI credit risk, widening hyperscaler debt spreads and a pause in reserve-management purchases.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-2026-08-24-ai-debt-meets-sovereign-bond-source-4"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From cheap capital to a sovereign debt constraint",
+              "before": "AI infrastructure expansion was financed on the assumption of abundant, relatively cheap capital, with equity valuations rising and corporate debt absorbing large-scale compute build-outs.",
+              "shift": "Sovereign debt tools failed to hold long-end yields, and the Fed began explicitly flagging AI credit risk, indicating that AI financing demand is now large enough to move Treasury markets and credit spreads.",
+              "now": "Anthropic's $2T IPO aim and Broadcom's $60–100B debt talks must now clear a market where the 30-year yield is around 5.25% and hyperscaler spreads are widening.",
+              "conclusion": "The financing base for AI infrastructure is shifting from a cheap-capital enabler to a constraint imposed by long-end rates, credit spreads and IPO pricing."
+            },
+            "insight": {
+              "title": "The AI debt supercycle is becoming a sovereign debt problem",
+              "formula": "AI financing at sovereign scale + failed sovereign debt intervention + central bank credit-risk alert → financing cost replaces capital availability as the binding constraint",
+              "explanation": "When AI infrastructure issuers compete with Treasury supply and the Fed pauses reserve-management purchases, the marginal price of financing is set by long-end yields and credit spreads rather than by AI equity enthusiasm. The infrastructure race thus becomes contingent on sovereign debt market absorption."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "IPO pricing",
+                  "prompt": "Does Anthropic file its IPO with a valuation at or above $2T in October, and does initial pricing hold if long-end yields remain near 5.25%?",
+                  "meta": "Watch SEC filings and initial price range; compare to 30-year yield."
+                },
+                {
+                  "label": "Broadcom debt size",
+                  "prompt": "Does Broadcom finalize debt financing, and at what size and spread, relative to the $60–100B talks and widening hyperscaler spreads?",
+                  "meta": "Track Bloomberg and issuance documentation."
+                },
+                {
+                  "label": "Treasury follow-through",
+                  "prompt": "Does the US Treasury expand buyback operations further, or accept higher long-end yields after the Aug 20 return to ~5.25%?",
+                  "meta": "Watch Treasury announcements and 30-year auction tails."
+                },
+                {
+                  "label": "Fed actions",
+                  "prompt": "Does the Fed resume reserve-management purchases or explicitly link AI credit risk to rate path or financial stability tools?",
+                  "meta": "FOMC minutes and speeches; watch 'AI credit risk' mentions."
+                }
+              ],
+              "ending": "If these moves show widening AI credit spreads alongside failed sovereign yield control, the constraint will become structural rather than episodic."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish as new process candidate",
+            "decisionTitle": "AI financing has reached sovereign debt scale",
+            "decisionSummary": "Four corroborating sources—two reliable media and two primary regulators—show AI infrastructure financing colliding with sovereign debt markets. Treasury intervention failed to hold long-end yields, and the Fed is flagging AI credit risk.",
+            "thresholdReason": "Material change score 88 and publish threshold met; AI financing now appears capable of raising economy-wide funding costs, shifting the binding constraint from cheap capital to long-end rates and credit spreads.",
+            "observeNext": [
+              "Anthropic October IPO valuation and pricing",
+              "Broadcom final debt size and spread",
+              "Next Treasury buyback operation and 30-year yield response",
+              "Fed signals on AI credit risk and reserve-management purchases"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Sovereign debt absorption as AI's binding constraint",
+            "description": "A new process candidate tracking the collision between AI infrastructure financing and sovereign debt markets. Evidence includes Anthropic's $2T IPO aim, Broadcom's $60–100B debt talks, a failed Treasury buyback at the long end, and Fed minutes flagging AI credit risk.",
+            "implication": "If this collision deepens, future AI compute, energy and semiconductor build-outs will be paced by Treasury yields, corporate credit spreads and IPO windows, not only by technology or electricity supply."
+          },
+          "nextQuestionEn": "Will AI infrastructure issuers reprice to sovereign debt yields, or will sovereign debt tools adapt to absorb AI financing demand?",
+          "observeNextEn": [
+            "Watch Anthropic's October IPO filing and initial pricing against a ~5.25% 30-year yield.",
+            "Watch Broadcom's final debt raise size and spread versus the $60–100B talks.",
+            "Watch whether the US Treasury expands buybacks after the Aug 20 long-end yield return.",
+            "Watch the Fed's next minutes and speeches for AI credit risk and reserve-management purchase decisions."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2736,
+          "outputTokens": 5653,
+          "cachedInputTokens": 2688
+        }
+      }
     }
   },
   "lease": {
