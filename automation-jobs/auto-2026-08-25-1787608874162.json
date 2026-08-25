@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-08-24T22:01:14.162Z",
-  "updatedAt": "2026-08-24T22:35:29.776Z",
+  "updatedAt": "2026-08-25T00:06:43.026Z",
   "scopes": {
     "global": {
       "status": "running",
@@ -19,9 +19,9 @@
     }
   },
   "lease": {
-    "owner": "cron-1787610928650-9bmlbt64",
-    "acquiredAt": "2026-08-24T22:35:28.990Z",
-    "expiresAt": "2026-08-24T22:40:18.990Z"
+    "owner": "cron-1787616402629-a9uzu105",
+    "acquiredAt": "2026-08-25T00:06:43.026Z",
+    "expiresAt": "2026-08-25T00:11:33.026Z"
   },
   "preflight": {
     "ok": true,
