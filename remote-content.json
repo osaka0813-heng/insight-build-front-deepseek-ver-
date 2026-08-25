@@ -1,8 +1,375 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T00:14:53.310Z",
-  "contentVersion": "publish-candidate-1-1787616894147",
+  "generatedAt": "2026-08-25T22:39:37.550Z",
+  "contentVersion": "publish-global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit-1787697578560",
   "insights": [
+    {
+      "id": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+      "scope": "global",
+      "slug": "us-china-control-rebalancing-sept24-summit",
+      "status": "update_living",
+      "parentInsightId": "process-geopolitical-technology-control",
+      "processId": "process-geopolitical-technology-control",
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "updatedAt": "2026-08-25T22:39:34.722Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Global Insight",
+            "secondaryEyebrow": "US-China technology controls",
+            "title": "Loosening and tightening collide before the Sept 24 summit",
+            "summary": "Tariff plans, conditional H200 entry, smuggling prosecutions and critical-mineral bans show the control regime rebalancing in multiple directions at once."
+          },
+          "question": {
+            "lead": "The control regime is moving in two directions at once.",
+            "title": "Is the US-China technology control system rebalancing rather than simply escalating?",
+            "footnote": "A reported tariff hike, H200 access under NDRC approval, Taiwan B300 prosecutions and China's mineral export ban all land in the same window."
+          },
+          "signals": {
+            "title": "Signals",
+            "sourceNote": "This insight uses only the five supplied sources: Bloomberg, Kompas, AP and a trade warning service. No additional dates, figures or quotes are added.",
+            "items": [
+              {
+                "id": "cand-005-us-china-controls-signal-1",
+                "label": "Tariff plan",
+                "title": "Trump plans a 7.5% tariff increase on Chinese goods before the Sept 24 summit",
+                "body": "Bloomberg reports the plan as a pre-summit lever, not yet enacted.",
+                "whyImportant": "It indicates that formal tariff tightening remains in play despite summit diplomacy.",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-1",
+                    "title": "Bloomberg report on planned tariff increase",
+                    "description": "The plan is reported but not yet implemented; treat as developing.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-1",
+                    "title": "Trump plans 7.5% tariff on Chinese goods before Sept 24 summit",
+                    "publisher": "Bloomberg via 星岛/联合早报",
+                    "publishedAt": "2026-08-25",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-005-us-china-controls-signal-2",
+                "label": "Conditional H200 entry",
+                "title": "Nvidia H200 finally enters China, but only with NDRC approval and per-firm purchase limits",
+                "body": "The H200 is not a blanket opening; access is conditional and firm-specific.",
+                "whyImportant": "It shows loosening is being administered through approval mechanisms, not free trade.",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-2",
+                    "title": "Kompas report on H200 entry",
+                    "description": "Reported entry with conditions; conditional access is the operative fact.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-2",
+                    "title": "Nvidia H200 finally enters China with NDRC approval requirement",
+                    "publisher": "Kompas",
+                    "publishedAt": "2026-08-24",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-005-us-china-controls-signal-3",
+                "label": "Smuggling prosecutions",
+                "title": "Taiwan prosecutors charge nine people over disguised B300 server exports",
+                "body": "AP reports the charges reveal a shadow route beneath official controls.",
+                "whyImportant": "Enforcement is tightening on covert re-exports even as some legal access expands.",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-3",
+                    "title": "AP report on Taiwan B300 prosecutions",
+                    "description": "Nine people charged; enforcement layer is active.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-3",
+                    "title": "Taiwan prosecutors charge nine over disguised B300 server exports",
+                    "publisher": "AP",
+                    "publishedAt": "2026-08-24",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-005-us-china-controls-signal-4",
+                "label": "Mineral export ban",
+                "title": "China bans gallium, germanium and antimony exports to the US",
+                "body": "AP reports the ban as a critical-mineral countermeasure in the same window.",
+                "whyImportant": "It pairs metal supply controls with chip and tariff moves, widening the domain.",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-4",
+                    "title": "AP report on China mineral export ban",
+                    "description": "Ban on three critical minerals to the US.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-5"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-5",
+                    "title": "China bans gallium, germanium and antimony exports to US",
+                    "publisher": "AP",
+                    "publishedAt": "2026-08-20",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From one-direction escalation to multi-speed rebalancing",
+            "before": "Before this window, the controlling pattern read as a linear escalatory spiral: new restrictions, broader entities, higher tariffs, with loosening mostly absent outside diplomatic statements.",
+            "shift": "In the same news cycle, a planned tariff hike and China's mineral ban tightened controls, while H200 conditional entry and summit diplomacy loosened them; Taiwan's B300 prosecution exposed a separate enforcement track operating beneath the visible trade flow.",
+            "now": "The control regime is acting as a rebalancing system: loosening and tightening are paired, access is conditional per firm, per item and per end-use, and summit diplomacy is one variable among several.",
+            "conclusion": "The Sept 24 summit is therefore a decision point within a volatile regime, not a simple pivot to detente or a continuation of one-way escalation."
+          },
+          "insight": {
+            "title": "The control regime is rebalancing, not ratcheting",
+            "formula": "Tariff escalation + conditional H200 access + B300 smuggling prosecutions + critical-mineral export ban = multi-speed control rebalancing on the eve of a summit.",
+            "explanation": "Each signal alone would suggest direction; together they show that US and Chinese actions are now being calibrated across trade, licenses, enforcement and minerals simultaneously, so the system can loosen and tighten within days."
+          },
+          "observe": {
+            "title": "What to watch next",
+            "items": [
+              {
+                "label": "Sept 24 summit",
+                "prompt": "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the meeting.",
+                "meta": "Diplomacy as control variable"
+              },
+              {
+                "label": "H200 conditions",
+                "prompt": "Track whether NDRC approvals are granted or denied and whether per-firm limits become a template for future chips.",
+                "meta": "Conditional access test"
+              },
+              {
+                "label": "Smuggling enforcement",
+                "prompt": "Watch for additional prosecutions or export-control legal actions involving disguised B300 server shipments.",
+                "meta": "Shadow-route crackdown"
+              },
+              {
+                "label": "Mineral leverage",
+                "prompt": "Monitor whether the gallium, germanium and antimony export ban expands or is used as a bargaining chip.",
+                "meta": "Critical-mineral countermeasure"
+              }
+            ],
+            "ending": "If loosening and tightening appear together again, the system is rebalancing; if only one direction dominates after the summit, the regime may be entering a new phase."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "全球洞察",
+            "secondaryEyebrow": "中美技术管制",
+            "title": "9月24日峰会前，放宽与收紧相互碰撞",
+            "summary": "关税计划、有条件的H200准入、走私起诉和关键矿产禁令表明，管制体系正同时向多个方向再平衡。"
+          },
+          "question": {
+            "lead": "管制体系正同时朝两个方向移动。",
+            "title": "中美技术管制体系是在再平衡，而不只是升级？",
+            "footnote": "据报道的关税上调、经国家发改委批准的H200准入、台湾B300起诉以及中国矿产出口禁令，都出现在同一时间窗口。"
+          },
+          "signals": {
+            "title": "信号",
+            "sourceNote": "本洞察仅使用所提供的五个来源：彭博社、Kompas、美联社和一家贸易预警机构。未添加额外的日期、数字或引文。",
+            "items": [
+              {
+                "id": "cand-005-us-china-controls-signal-1",
+                "label": "关税计划",
+                "title": "特朗普计划在9月24日峰会前对中国商品加征7.5%关税",
+                "body": "彭博社报道该计划是峰会前的施压手段，尚未实施。",
+                "whyImportant": "这表明尽管有峰会外交，正式关税收紧仍在进行中。",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-1",
+                    "title": "彭博社关于计划加征关税的报道",
+                    "description": "该计划已被报道但尚未实施；视为发展中。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-1",
+                    "title": "Trump plans 7.5% tariff on Chinese goods before Sept 24 summit",
+                    "publisher": "Bloomberg via 星岛/联合早报",
+                    "publishedAt": "2026-08-25",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-005-us-china-controls-signal-2",
+                "label": "有条件的H200准入",
+                "title": "英伟达H200终于进入中国，但仅限经国家发改委批准且有单家企业采购限额",
+                "body": "H200并非全面开放；准入是有条件的、针对特定企业的。",
+                "whyImportant": "这表明放宽是通过审批机制管理的，而非自由贸易。",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-2",
+                    "title": "Kompas关于H200准入的报道",
+                    "description": "报道称有条件准入；有条件的准入是实际关键事实。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-2",
+                    "title": "Nvidia H200 finally enters China with NDRC approval requirement",
+                    "publisher": "Kompas",
+                    "publishedAt": "2026-08-24",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-005-us-china-controls-signal-3",
+                "label": "走私起诉",
+                "title": "台湾检方起诉九人，涉及伪装的B300服务器出口",
+                "body": "美联社报道，这些指控揭示了官方管制之下的暗线渠道。",
+                "whyImportant": "即使部分合法准入扩大，对隐蔽转口的执法也在收紧。",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-3",
+                    "title": "美联社关于台湾B300起诉的报道",
+                    "description": "九人被起诉；执法层面正在运作。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-3",
+                    "title": "Taiwan prosecutors charge nine over disguised B300 server exports",
+                    "publisher": "AP",
+                    "publishedAt": "2026-08-24",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-005-us-china-controls-signal-4",
+                "label": "矿产出口禁令",
+                "title": "中国禁止向美国出口镓、锗和锑",
+                "body": "美联社报道，该禁令是同一窗口期内的关键矿产反制措施。",
+                "whyImportant": "它将金属供应管制与芯片和关税行动相结合，扩大了领域。",
+                "evidence": [
+                  {
+                    "id": "cand-005-us-china-controls-evidence-4",
+                    "title": "美联社关于中国矿产出口禁令的报道",
+                    "description": "禁止向美国出口三种关键矿产。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-5"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-005-us-china-controls-source-5",
+                    "title": "China bans gallium, germanium and antimony exports to US",
+                    "publisher": "AP",
+                    "publishedAt": "2026-08-20",
+                    "url": "N/A",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "corroborating source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从单向升级到多速再平衡",
+            "before": "在此窗口之前，管制模式呈现为线性升级螺旋：新的限制、更大范围的实体、更高的关税，除外交声明外基本没有放宽。",
+            "shift": "在同一新闻周期内，计划中的关税上调和中国矿产禁令收紧了管制，而H200有条件准入和峰会外交则放宽了管制；台湾的B300起诉暴露了在可见贸易流之下运作的独立执法轨道。",
+            "now": "管制体系正在发挥再平衡系统的作用：放宽与收紧配对出现，准入按企业、按项目、按最终用途设定条件，峰会外交只是多个变量之一。",
+            "conclusion": "因此，9月24日峰会是多变体制中的一个决策点，而非简单转向缓和或单向升级的延续。"
+          },
+          "insight": {
+            "title": "管制体系正在再平衡，而非逐步收紧",
+            "formula": "关税升级 + 有条件的H200准入 + B300走私起诉 + 关键矿产出口禁令 = 峰会前夕的多速管制再平衡。",
+            "explanation": "每个信号单独来看都会指示方向；合在一起则表明，美中行动现在正同时在贸易、许可、执法和矿产领域进行校准，因此系统可以在数天内既放宽又收紧。"
+          },
+          "observe": {
+            "title": "接下来关注什么",
+            "items": [
+              {
+                "label": "9月24日峰会",
+                "prompt": "关注7.5%关税计划在会前或会议期间是被确认、推迟还是放弃。",
+                "meta": "外交作为控制变量"
+              },
+              {
+                "label": "H200条件",
+                "prompt": "跟踪国家发改委的批准与否决情况，以及单个企业限额是否会成为未来芯片的模板。",
+                "meta": "有条件准入的测试"
+              },
+              {
+                "label": "走私执法",
+                "prompt": "关注是否出现更多涉及伪装B300服务器发货的起诉或出口管制法律行动。",
+                "meta": "暗线渠道打击"
+              },
+              {
+                "label": "矿产杠杆",
+                "prompt": "监测镓、锗、锑出口禁令是否扩大，或被用作谈判筹码。",
+                "meta": "关键矿产反制"
+              }
+            ],
+            "ending": "如果放宽与收紧再次同时出现，系统就在再平衡；如果峰会后只由单一方向主导，则体制可能正在进入新阶段。"
+          }
+        }
+      }
+    },
     {
       "id": "candidate-1",
       "scope": "global",
@@ -3886,8 +4253,10 @@
       "status": "accelerating",
       "confidence": "developing",
       "startedAt": "2026-07-24T00:00:00+09:00",
-      "updatedAt": "2026-07-31T09:00:00+09:00",
-      "insightIds": [],
+      "updatedAt": "2026-08-25T22:39:34.723Z",
+      "insightIds": [
+        "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit"
+      ],
       "tags": [
         "geopolitics",
         "policy",
@@ -3911,6 +4280,29 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-cand-005-us-china-controls",
+          "date": "2026-08-25",
+          "stage": "accelerating",
+          "impact": "challenges",
+          "insightId": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+          "content": {
+            "en": {
+              "title": "Technology control becomes geopolitical infrastructure",
+              "description": "The geography of technological growth is increasingly shaped by security policy, alliances and controlled access to critical capacity. Current stage: accelerating.",
+              "implication": "This rebalancing pattern requires watching tariff, licensing, enforcement and mineral channels together rather than tracking any single control measure."
+            },
+            "zh": {
+              "title": "技术管制成为地缘政治基础设施",
+              "description": "技术增长的地理格局日益受到安全政策、联盟以及对关键能力的受控准入的影响。当前阶段：加速。",
+              "implication": "这种再平衡模式要求同时关注关税、许可、执法和矿产渠道，而不是只跟踪任何单一管制措施。"
+            }
+          },
+          "previousStage": "accelerating",
+          "changeType": "contradiction",
+          "confidenceDelta": -4,
+          "evidenceIds": []
+        },
         {
           "id": "geo-e1",
           "date": "2026-07-24T00:00:00+09:00",
@@ -3995,7 +4387,7 @@
           "title": "Technology control becomes geopolitical infrastructure",
           "summary": "States are treating chips, energy, data and industrial supply chains as instruments of national power.",
           "thesis": "The geography of technological growth will increasingly be shaped by security policy, alliances and controlled access to critical capacity.",
-          "nextQuestion": "Will technology blocs become more important than global market efficiency?",
+          "nextQuestion": "Does the Sept 24 summit mark a rebalancing point or a temporary pause before the next round of controls?",
           "domains": [
             "Geopolitics",
             "Technology Policy",
@@ -4006,16 +4398,17 @@
           "currentStageLabel": "Bloc formation",
           "stageSummary": "Technology controls are accelerating from targeted restrictions into ecosystem-level alignment.",
           "observeNext": [
-            "Expansion of export-control categories",
-            "Allied investment-screening rules",
-            "Cross-border cloud, data and energy restrictions"
+            "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the Sept 24 meeting.",
+            "Track whether NDRC approval terms for the H200 become a template for future chips.",
+            "Watch for additional prosecutions or legal actions involving disguised B300 server exports.",
+            "Monitor whether China's gallium, germanium and antimony export ban expands or is used as a bargaining chip."
           ]
         },
         "zh": {
           "title": "技术控制成为地缘基础设施",
           "summary": "国家正在把芯片、能源、数据与工业供应链视为国家力量的工具。",
           "thesis": "技术增长的地理分布，将越来越受到安全政策、联盟关系和关键能力准入的塑造。",
-          "nextQuestion": "技术阵营的重要性是否会超过全球市场效率？",
+          "nextQuestion": "9月24日峰会标志着再平衡点，还是新一轮管制前的暂时停顿？",
           "domains": [
             "地缘政治",
             "技术政策",
@@ -4026,9 +4419,10 @@
           "currentStageLabel": "阵营形成期",
           "stageSummary": "技术管制正从定向限制，加速成为生态系统层面的阵营协同。",
           "observeNext": [
-            "出口管制品类扩张",
-            "盟友投资审查规则",
-            "跨境云、数据与能源限制"
+            "关注7.5%关税计划在9月24日会议前或会议期间是被确认、推迟还是放弃。",
+            "跟踪国家发改委对H200的批准条件是否会成为未来芯片的模板。",
+            "关注是否出现更多涉及伪装B300服务器出口的起诉或法律行动。",
+            "监测中国对镓、锗和锑的出口禁令是否扩大或被用作谈判筹码。"
           ]
         },
         "ja": {
@@ -4054,7 +4448,9 @@
       },
       "currentStage": "accelerating",
       "stageChangedAt": "2026-07-31T09:00:00+09:00",
-      "supportingInsightIds": [],
+      "supportingInsightIds": [
+        "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit"
+      ],
       "contradictingInsightIds": [],
       "keyActors": [],
       "domains": [
@@ -4064,14 +4460,57 @@
         "Supply Chains"
       ],
       "nextSignals": [
-        "Expansion of export-control categories",
-        "Allied investment-screening rules",
-        "Cross-border cloud, data and energy restrictions"
+        "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the Sept 24 meeting.",
+        "Track whether NDRC approval terms for the H200 become a template for future chips.",
+        "Watch for additional prosecutions or legal actions involving disguised B300 server exports.",
+        "Monitor whether China's gallium, germanium and antimony export ban expands or is used as a bargaining chip."
       ],
       "confidenceScore": 68
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-global-2026-08-25",
+      "scope": "global",
+      "date": "2026-08-25",
+      "decidedAt": "2026-08-25T22:39:34.723Z",
+      "state": "update_living",
+      "insightId": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+      "processId": "process-geopolitical-technology-control",
+      "materialChangeScore": 84,
+      "evidenceStrength": 85,
+      "noveltyScore": 70,
+      "importanceScore": 85,
+      "candidateSignalIds": [
+        "cand-005-us-china-controls"
+      ],
+      "content": {
+        "en": {
+          "label": "Update living",
+          "decisionTitle": "Update the existing technology-control process with multi-directional rebalancing evidence.",
+          "decisionSummary": "The candidate materially reconfigures the process by showing simultaneous loosening and tightening across tariffs, H200 licensing, smuggling enforcement and mineral bans, all converging on the Sept 24 summit.",
+          "thresholdReason": "Meets threshold with three trigger sources and two corroborating sources, high evidence strength and material change score, and contradiction/relationship-change signals.",
+          "observeNext": [
+            "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the Sept 24 meeting.",
+            "Track whether H200 NDRC approval terms become a template for future chip access.",
+            "Watch for more prosecutions or legal actions on disguised B300 server exports.",
+            "Monitor whether China's mineral export ban expands or becomes a bargaining chip."
+          ]
+        },
+        "zh": {
+          "label": "更新进行中",
+          "decisionTitle": "用多方向再平衡的证据更新现有技术管制流程。",
+          "decisionSummary": "该候选内容通过展示关税、H200许可、走私执法和矿产禁令方面的同步放宽与收紧，并全部汇聚于9月24日峰会，实质性地重新配置了这一流程。",
+          "thresholdReason": "满足阈值：三个触发来源和两个佐证来源，证据强度高，实质性变化得分高，且存在矛盾/关系变化信号。",
+          "observeNext": [
+            "关注7.5%关税计划在9月24日会议前或会议期间是被确认、推迟还是放弃。",
+            "跟踪H200的国家发改委批准条件是否会成为未来芯片准入的模板。",
+            "关注是否出现更多针对伪装B300服务器出口的起诉或法律行动。",
+            "监测中国矿产出口禁令是否扩大或成为谈判筹码。"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-global-2026-08-24",
       "scope": "global",
@@ -4714,6 +5153,492 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-cand-005-us-china-controls-1787697574723",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-08-25T22:39:34.723Z",
+      "researchDraftId": "research-global-2026-08-26-1787695521520",
+      "candidateId": "cand-005-us-china-controls",
+      "model": "deepseek-v4-pro + deepseek-v4-flash",
+      "dailyState": "update_living",
+      "matchedProcessId": "process-geopolitical-technology-control",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": true,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+        "scope": "global",
+        "slug": "us-china-control-rebalancing-sept24-summit",
+        "status": "update_living",
+        "parentInsightId": "process-geopolitical-technology-control",
+        "processId": "process-geopolitical-technology-control",
+        "publishedAt": "2026-08-25T00:00:00.000Z",
+        "updatedAt": "2026-08-25T22:39:34.722Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "US-China technology controls",
+              "title": "Loosening and tightening collide before the Sept 24 summit",
+              "summary": "Tariff plans, conditional H200 entry, smuggling prosecutions and critical-mineral bans show the control regime rebalancing in multiple directions at once."
+            },
+            "question": {
+              "lead": "The control regime is moving in two directions at once.",
+              "title": "Is the US-China technology control system rebalancing rather than simply escalating?",
+              "footnote": "A reported tariff hike, H200 access under NDRC approval, Taiwan B300 prosecutions and China's mineral export ban all land in the same window."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "This insight uses only the five supplied sources: Bloomberg, Kompas, AP and a trade warning service. No additional dates, figures or quotes are added.",
+              "items": [
+                {
+                  "id": "cand-005-us-china-controls-signal-1",
+                  "label": "Tariff plan",
+                  "title": "Trump plans a 7.5% tariff increase on Chinese goods before the Sept 24 summit",
+                  "body": "Bloomberg reports the plan as a pre-summit lever, not yet enacted.",
+                  "whyImportant": "It indicates that formal tariff tightening remains in play despite summit diplomacy.",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-1",
+                      "title": "Bloomberg report on planned tariff increase",
+                      "description": "The plan is reported but not yet implemented; treat as developing.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-1",
+                      "title": "Trump plans 7.5% tariff on Chinese goods before Sept 24 summit",
+                      "publisher": "Bloomberg via 星岛/联合早报",
+                      "publishedAt": "2026-08-25",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-005-us-china-controls-signal-2",
+                  "label": "Conditional H200 entry",
+                  "title": "Nvidia H200 finally enters China, but only with NDRC approval and per-firm purchase limits",
+                  "body": "The H200 is not a blanket opening; access is conditional and firm-specific.",
+                  "whyImportant": "It shows loosening is being administered through approval mechanisms, not free trade.",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-2",
+                      "title": "Kompas report on H200 entry",
+                      "description": "Reported entry with conditions; conditional access is the operative fact.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-2",
+                      "title": "Nvidia H200 finally enters China with NDRC approval requirement",
+                      "publisher": "Kompas",
+                      "publishedAt": "2026-08-24",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-005-us-china-controls-signal-3",
+                  "label": "Smuggling prosecutions",
+                  "title": "Taiwan prosecutors charge nine people over disguised B300 server exports",
+                  "body": "AP reports the charges reveal a shadow route beneath official controls.",
+                  "whyImportant": "Enforcement is tightening on covert re-exports even as some legal access expands.",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-3",
+                      "title": "AP report on Taiwan B300 prosecutions",
+                      "description": "Nine people charged; enforcement layer is active.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-3",
+                      "title": "Taiwan prosecutors charge nine over disguised B300 server exports",
+                      "publisher": "AP",
+                      "publishedAt": "2026-08-24",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-005-us-china-controls-signal-4",
+                  "label": "Mineral export ban",
+                  "title": "China bans gallium, germanium and antimony exports to the US",
+                  "body": "AP reports the ban as a critical-mineral countermeasure in the same window.",
+                  "whyImportant": "It pairs metal supply controls with chip and tariff moves, widening the domain.",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-4",
+                      "title": "AP report on China mineral export ban",
+                      "description": "Ban on three critical minerals to the US.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-5"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-5",
+                      "title": "China bans gallium, germanium and antimony exports to US",
+                      "publisher": "AP",
+                      "publishedAt": "2026-08-20",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From one-direction escalation to multi-speed rebalancing",
+              "before": "Before this window, the controlling pattern read as a linear escalatory spiral: new restrictions, broader entities, higher tariffs, with loosening mostly absent outside diplomatic statements.",
+              "shift": "In the same news cycle, a planned tariff hike and China's mineral ban tightened controls, while H200 conditional entry and summit diplomacy loosened them; Taiwan's B300 prosecution exposed a separate enforcement track operating beneath the visible trade flow.",
+              "now": "The control regime is acting as a rebalancing system: loosening and tightening are paired, access is conditional per firm, per item and per end-use, and summit diplomacy is one variable among several.",
+              "conclusion": "The Sept 24 summit is therefore a decision point within a volatile regime, not a simple pivot to detente or a continuation of one-way escalation."
+            },
+            "insight": {
+              "title": "The control regime is rebalancing, not ratcheting",
+              "formula": "Tariff escalation + conditional H200 access + B300 smuggling prosecutions + critical-mineral export ban = multi-speed control rebalancing on the eve of a summit.",
+              "explanation": "Each signal alone would suggest direction; together they show that US and Chinese actions are now being calibrated across trade, licenses, enforcement and minerals simultaneously, so the system can loosen and tighten within days."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Sept 24 summit",
+                  "prompt": "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the meeting.",
+                  "meta": "Diplomacy as control variable"
+                },
+                {
+                  "label": "H200 conditions",
+                  "prompt": "Track whether NDRC approvals are granted or denied and whether per-firm limits become a template for future chips.",
+                  "meta": "Conditional access test"
+                },
+                {
+                  "label": "Smuggling enforcement",
+                  "prompt": "Watch for additional prosecutions or export-control legal actions involving disguised B300 server shipments.",
+                  "meta": "Shadow-route crackdown"
+                },
+                {
+                  "label": "Mineral leverage",
+                  "prompt": "Monitor whether the gallium, germanium and antimony export ban expands or is used as a bargaining chip.",
+                  "meta": "Critical-mineral countermeasure"
+                }
+              ],
+              "ending": "If loosening and tightening appear together again, the system is rebalancing; if only one direction dominates after the summit, the regime may be entering a new phase."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "中美技术管制",
+              "title": "9月24日峰会前，放宽与收紧相互碰撞",
+              "summary": "关税计划、有条件的H200准入、走私起诉和关键矿产禁令表明，管制体系正同时向多个方向再平衡。"
+            },
+            "question": {
+              "lead": "管制体系正同时朝两个方向移动。",
+              "title": "中美技术管制体系是在再平衡，而不只是升级？",
+              "footnote": "据报道的关税上调、经国家发改委批准的H200准入、台湾B300起诉以及中国矿产出口禁令，都出现在同一时间窗口。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "本洞察仅使用所提供的五个来源：彭博社、Kompas、美联社和一家贸易预警机构。未添加额外的日期、数字或引文。",
+              "items": [
+                {
+                  "id": "cand-005-us-china-controls-signal-1",
+                  "label": "关税计划",
+                  "title": "特朗普计划在9月24日峰会前对中国商品加征7.5%关税",
+                  "body": "彭博社报道该计划是峰会前的施压手段，尚未实施。",
+                  "whyImportant": "这表明尽管有峰会外交，正式关税收紧仍在进行中。",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-1",
+                      "title": "彭博社关于计划加征关税的报道",
+                      "description": "该计划已被报道但尚未实施；视为发展中。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-1",
+                      "title": "Trump plans 7.5% tariff on Chinese goods before Sept 24 summit",
+                      "publisher": "Bloomberg via 星岛/联合早报",
+                      "publishedAt": "2026-08-25",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-005-us-china-controls-signal-2",
+                  "label": "有条件的H200准入",
+                  "title": "英伟达H200终于进入中国，但仅限经国家发改委批准且有单家企业采购限额",
+                  "body": "H200并非全面开放；准入是有条件的、针对特定企业的。",
+                  "whyImportant": "这表明放宽是通过审批机制管理的，而非自由贸易。",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-2",
+                      "title": "Kompas关于H200准入的报道",
+                      "description": "报道称有条件准入；有条件的准入是实际关键事实。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-2",
+                      "title": "Nvidia H200 finally enters China with NDRC approval requirement",
+                      "publisher": "Kompas",
+                      "publishedAt": "2026-08-24",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-005-us-china-controls-signal-3",
+                  "label": "走私起诉",
+                  "title": "台湾检方起诉九人，涉及伪装的B300服务器出口",
+                  "body": "美联社报道，这些指控揭示了官方管制之下的暗线渠道。",
+                  "whyImportant": "即使部分合法准入扩大，对隐蔽转口的执法也在收紧。",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-3",
+                      "title": "美联社关于台湾B300起诉的报道",
+                      "description": "九人被起诉；执法层面正在运作。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-3",
+                      "title": "Taiwan prosecutors charge nine over disguised B300 server exports",
+                      "publisher": "AP",
+                      "publishedAt": "2026-08-24",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-005-us-china-controls-signal-4",
+                  "label": "矿产出口禁令",
+                  "title": "中国禁止向美国出口镓、锗和锑",
+                  "body": "美联社报道，该禁令是同一窗口期内的关键矿产反制措施。",
+                  "whyImportant": "它将金属供应管制与芯片和关税行动相结合，扩大了领域。",
+                  "evidence": [
+                    {
+                      "id": "cand-005-us-china-controls-evidence-4",
+                      "title": "美联社关于中国矿产出口禁令的报道",
+                      "description": "禁止向美国出口三种关键矿产。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-005-us-china-controls-source-5"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-005-us-china-controls-source-5",
+                      "title": "China bans gallium, germanium and antimony exports to US",
+                      "publisher": "AP",
+                      "publishedAt": "2026-08-20",
+                      "url": "N/A",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "corroborating source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从单向升级到多速再平衡",
+              "before": "在此窗口之前，管制模式呈现为线性升级螺旋：新的限制、更大范围的实体、更高的关税，除外交声明外基本没有放宽。",
+              "shift": "在同一新闻周期内，计划中的关税上调和中国矿产禁令收紧了管制，而H200有条件准入和峰会外交则放宽了管制；台湾的B300起诉暴露了在可见贸易流之下运作的独立执法轨道。",
+              "now": "管制体系正在发挥再平衡系统的作用：放宽与收紧配对出现，准入按企业、按项目、按最终用途设定条件，峰会外交只是多个变量之一。",
+              "conclusion": "因此，9月24日峰会是多变体制中的一个决策点，而非简单转向缓和或单向升级的延续。"
+            },
+            "insight": {
+              "title": "管制体系正在再平衡，而非逐步收紧",
+              "formula": "关税升级 + 有条件的H200准入 + B300走私起诉 + 关键矿产出口禁令 = 峰会前夕的多速管制再平衡。",
+              "explanation": "每个信号单独来看都会指示方向；合在一起则表明，美中行动现在正同时在贸易、许可、执法和矿产领域进行校准，因此系统可以在数天内既放宽又收紧。"
+            },
+            "observe": {
+              "title": "接下来关注什么",
+              "items": [
+                {
+                  "label": "9月24日峰会",
+                  "prompt": "关注7.5%关税计划在会前或会议期间是被确认、推迟还是放弃。",
+                  "meta": "外交作为控制变量"
+                },
+                {
+                  "label": "H200条件",
+                  "prompt": "跟踪国家发改委的批准与否决情况，以及单个企业限额是否会成为未来芯片的模板。",
+                  "meta": "有条件准入的测试"
+                },
+                {
+                  "label": "走私执法",
+                  "prompt": "关注是否出现更多涉及伪装B300服务器发货的起诉或出口管制法律行动。",
+                  "meta": "暗线渠道打击"
+                },
+                {
+                  "label": "矿产杠杆",
+                  "prompt": "监测镓、锗、锑出口禁令是否扩大，或被用作谈判筹码。",
+                  "meta": "关键矿产反制"
+                }
+              ],
+              "ending": "如果放宽与收紧再次同时出现，系统就在再平衡；如果峰会后只由单一方向主导，则体制可能正在进入新阶段。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-08-25",
+        "scope": "global",
+        "date": "2026-08-25",
+        "decidedAt": "2026-08-25T22:39:34.723Z",
+        "state": "update_living",
+        "insightId": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+        "processId": "process-geopolitical-technology-control",
+        "materialChangeScore": 84,
+        "evidenceStrength": 85,
+        "noveltyScore": 70,
+        "importanceScore": 85,
+        "candidateSignalIds": [
+          "cand-005-us-china-controls"
+        ],
+        "content": {
+          "en": {
+            "label": "Update living",
+            "decisionTitle": "Update the existing technology-control process with multi-directional rebalancing evidence.",
+            "decisionSummary": "The candidate materially reconfigures the process by showing simultaneous loosening and tightening across tariffs, H200 licensing, smuggling enforcement and mineral bans, all converging on the Sept 24 summit.",
+            "thresholdReason": "Meets threshold with three trigger sources and two corroborating sources, high evidence strength and material change score, and contradiction/relationship-change signals.",
+            "observeNext": [
+              "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the Sept 24 meeting.",
+              "Track whether H200 NDRC approval terms become a template for future chip access.",
+              "Watch for more prosecutions or legal actions on disguised B300 server exports.",
+              "Monitor whether China's mineral export ban expands or becomes a bargaining chip."
+            ]
+          },
+          "zh": {
+            "label": "更新进行中",
+            "decisionTitle": "用多方向再平衡的证据更新现有技术管制流程。",
+            "decisionSummary": "该候选内容通过展示关税、H200许可、走私执法和矿产禁令方面的同步放宽与收紧，并全部汇聚于9月24日峰会，实质性地重新配置了这一流程。",
+            "thresholdReason": "满足阈值：三个触发来源和两个佐证来源，证据强度高，实质性变化得分高，且存在矛盾/关系变化信号。",
+            "observeNext": [
+              "关注7.5%关税计划在9月24日会议前或会议期间是被确认、推迟还是放弃。",
+              "跟踪H200的国家发改委批准条件是否会成为未来芯片准入的模板。",
+              "关注是否出现更多针对伪装B300服务器出口的起诉或法律行动。",
+              "监测中国矿产出口禁令是否扩大或成为谈判筹码。"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-geopolitical-technology-control",
+        "scope": "global",
+        "updatedAt": "2026-08-25T22:39:34.723Z",
+        "appendInsightId": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+        "evolutionEvent": {
+          "id": "evolution-cand-005-us-china-controls",
+          "date": "2026-08-25",
+          "stage": "accelerating",
+          "impact": "challenges",
+          "insightId": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
+          "content": {
+            "en": {
+              "title": "Technology control becomes geopolitical infrastructure",
+              "description": "The geography of technological growth is increasingly shaped by security policy, alliances and controlled access to critical capacity. Current stage: accelerating.",
+              "implication": "This rebalancing pattern requires watching tariff, licensing, enforcement and mineral channels together rather than tracking any single control measure."
+            },
+            "zh": {
+              "title": "技术管制成为地缘政治基础设施",
+              "description": "技术增长的地理格局日益受到安全政策、联盟以及对关键能力的受控准入的影响。当前阶段：加速。",
+              "implication": "这种再平衡模式要求同时关注关税、许可、执法和矿产渠道，而不是只跟踪任何单一管制措施。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Does the Sept 24 summit mark a rebalancing point or a temporary pause before the next round of controls?",
+          "zh": "9月24日峰会标志着再平衡点，还是新一轮管制前的暂时停顿？"
+        },
+        "observeNext": {
+          "en": [
+            "Watch whether the 7.5% tariff plan is confirmed, delayed or dropped before or during the Sept 24 meeting.",
+            "Track whether NDRC approval terms for the H200 become a template for future chips.",
+            "Watch for additional prosecutions or legal actions involving disguised B300 server exports.",
+            "Monitor whether China's gallium, germanium and antimony export ban expands or is used as a bargaining chip."
+          ],
+          "zh": [
+            "关注7.5%关税计划在9月24日会议前或会议期间是被确认、推迟还是放弃。",
+            "跟踪国家发改委对H200的批准条件是否会成为未来芯片的模板。",
+            "关注是否出现更多涉及伪装B300服务器出口的起诉或法律行动。",
+            "监测中国对镓、锗和锑的出口禁令是否扩大或被用作谈判筹码。"
+          ]
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 5231,
+        "outputTokens": 11258,
+        "cachedInputTokens": 3968
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-25T22:39:37.550Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "update_living"
+      },
+      "approvedAt": "2026-08-25T22:39:37.550Z"
+    },
     {
       "id": "writer-candidate-1-1787616890600",
       "scope": "global",
@@ -7843,11 +8768,11 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-25T00:14:54.148Z"
+    "repairedAt": "2026-08-25T22:39:38.562Z"
   },
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-25T00:14:53.310Z",
-    "lastMatchedProcessId": "process-energy-security"
+    "lastUpdatedAt": "2026-08-25T22:39:37.550Z",
+    "lastMatchedProcessId": "process-geopolitical-technology-control"
   }
 }
