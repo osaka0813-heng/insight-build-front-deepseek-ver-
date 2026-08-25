@@ -6,16 +6,16 @@
   "date": "2026-08-25",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-24T22:01:14.162Z",
-  "updatedAt": "2026-08-25T00:12:23.686Z",
+  "updatedAt": "2026-08-25T00:14:08.618Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-25T00:12:23.686Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-25T00:14:08.618Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-25-1787616661316",
@@ -1185,7 +1185,162 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "candidate-1"
+      "selectedCandidateId": "candidate-1",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-1",
+          "slug": "economic-d-day-hormuz-financial-siege",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Energy Security / Geopolitics",
+              "title": "Economic D-Day: The Strait of Hormuz Becomes a Financial Siege",
+              "summary": "The US sanctions campaign against Iran's oil network is escalating a shipping blockade into a financial war aimed at China, with Strait transit collapsing to about 17 commercial ships in 48 hours and markets pricing prolonged closure."
+            },
+            "question": {
+              "lead": "What changes when an energy blockade is also a financial weapon?",
+              "title": "Is the Strait of Hormuz now the center of a war-driven restructuring of oil flows and sanctions?",
+              "footnote": "This Insight is based solely on the August 24-25 signal dossier; oil and gold figures are directional."
+            },
+            "signals": {
+              "title": "Signals from the dossier",
+              "sourceNote": "Sources are limited to the supplied dossier; confidence levels reflect the evidence available.",
+              "items": [
+                {
+                  "label": "Sanctions",
+                  "title": "Treasury launches Operation Economic Outcast",
+                  "body": "US sanctions hit shadow fleets, brokers, and corporate networks in UAE, Hong Kong, mainland China, Singapore, Switzerland, and Europe that fund IRGC-Quds Force.",
+                  "whyImportant": "It converts the naval blockade into a financial siege targeting Iran's largest oil buyer, China.",
+                  "evidence": {
+                    "title": "NPR reports Treasury announcement",
+                    "description": "Reliable media source reports the sanctions campaign launch on August 24.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-1-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Escalation",
+                  "title": "Bessent calls it 'Economic D-Day'",
+                  "body": "Treasury Secretary Bessent frames the sanctions as an economic D-Day against Iran.",
+                  "whyImportant": "Signals a strategic shift from military containment to coordinated economic warfare, making financial infrastructure a battleground.",
+                  "evidence": {
+                    "title": "Financial Times reports Bessent quote",
+                    "description": "Reliable media source reports the economic D-Day framing.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-1-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Iran response",
+                  "title": "Iran blacklists 45 tankers",
+                  "body": "Iran's new security chief Rezaei threatens 'earthquake-style' retaliation and blacklists 45 tankers for violating Strait rules.",
+                  "whyImportant": "Shows Iran will escalate against shipping, deepening the blockade and legitimizing reciprocal blacklisting.",
+                  "evidence": {
+                    "title": "PUKmedia/Oman Daily reports Iranian blacklist",
+                    "description": "Reliable media source reports the Iranian response and blacklist.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-1-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "Transit collapse",
+                  "title": "Only 17 commercial ships pass through Strait in 48 hours",
+                  "body": "Weekend traffic fell to 17 commercial ships over 48 hours, versus about 130 per day before the war. Xinhua estimates Strait oil flow at 15% of pre-war level.",
+                  "whyImportant": "Confirms that the Strait is effectively closed to normal commercial flows, turning regional escalation into a global oil shock.",
+                  "evidence": {
+                    "title": "World Ports and Xinhua report transit and oil flow collapse",
+                    "description": "Context and corroborating sources report the 48-hour transit count and pre-war oil flow estimate.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-1-source-4",
+                      "candidate-1-source-5"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From shipping chokepoint to financial siege",
+              "before": "Before the war, the Strait of Hormuz was a strategic energy chokepoint, with about 130 commercial ships per day transiting and oil flows governed primarily by naval and diplomatic leverage. Sanctions against Iran existed but were not yet a coordinated financial blockade of its largest buyer, China.",
+              "shift": "The US launched Operation Economic Outcast, extending sanctions to shadow fleets, brokers, and corporate networks across UAE, Hong Kong, mainland China, Singapore, Switzerland, and Europe. Iran responded by blacklisting 45 tankers and threatening 'earthquake-style' retaliation. Over 48 hours, only 17 commercial ships transited the Strait, and markets began pricing prolonged closure with Brent at $92.17 and gold above $4,713.",
+              "now": "Energy access is no longer just a strategic capability; it is also a financial weapon aimed at China and the networks that move Iranian oil. The Strait is effectively closed to normal commercial traffic, and the war is restructuring oil flows and sanctions enforcement simultaneously.",
+              "conclusion": "The signal is a standalone important insight: the Hormuz blockade is merging shipping denial with financial warfare, creating inflationary and geopolitical feedback that challenges the assumption that energy remains a manageable strategic capability."
+            },
+            "insight": {
+              "title": "Blockade as financial warfare",
+              "formula": "shipping denial + financial sanctions on Iran's buyers and shadow networks = war-driven restructuring of oil flows",
+              "explanation": "When a naval chokepoint closes while sanctions target the financial intermediaries and corporate networks that sustain Iranian oil exports, the energy crisis becomes a financial siege. This compounds supply shock with credit and compliance shock, especially for China, and signals that energy infrastructure is now a direct instrument of geopolitical coercion."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Transit recovery",
+                  "prompt": "Watch whether the 48-hour collapse in Strait transits reverses or hardens, and whether normal commercial shipping resumes above emergency levels.",
+                  "meta": "daily shipping data / naval statements"
+                },
+                {
+                  "label": "China sanctions response",
+                  "prompt": "Track how China, UAE, Hong Kong, Singapore, and Swiss entities respond to US secondary sanctions and whether Chinese buyers divert or reduce Iranian crude purchases.",
+                  "meta": "finance ministries / trade data"
+                },
+                {
+                  "label": "Oil and gold thresholds",
+                  "prompt": "Monitor whether Brent sustains above $90 and gold above $4,700 as thresholds for broader inflation repricing.",
+                  "meta": "market close data"
+                },
+                {
+                  "label": "Iran escalation",
+                  "prompt": "Watch for further Iranian retaliation, including tanker seizures, missile/drone attacks on shipping, or expansion of blacklists.",
+                  "meta": "Iranian official statements / maritime alerts"
+                }
+              ],
+              "ending": "The key question is whether the financial siege breaks Iran's export capacity before the blockade inflicts unacceptable global economic damage."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Standalone important insight",
+            "decisionTitle": "Publish standalone Global Insight on Economic D-Day and Hormuz financial siege",
+            "decisionSummary": "Classify as standalone_important_insight rather than forcing a process match; the signal materially updates the energy-security theme but is bigger than a process update.",
+            "thresholdReason": "High importance (95), novelty (85), thesis impact (90), and evidence strength (90) meet publish threshold; three trigger sources plus one context and one corroborating source.",
+            "observeNext": [
+              "Strait transit and oil flow recovery",
+              "China and intermediary compliance with US sanctions",
+              "Iran retaliatory escalation",
+              "Brent/gold inflation thresholds"
+            ]
+          },
+          "processStage": "accelerating",
+          "processContentEn": {
+            "title": "Energy becomes strategic capability",
+            "description": "Reliable energy access increasingly determines where strategic digital and industrial capacity can grow. The Hormuz blockade shows energy is also a financial weapon, accelerating this process.",
+            "implication": "If the Strait stays closed and sanctions target China-linked networks, the energy-security process accelerates: capital will divert to resilient and non-chokepoint energy routes, and financial compliance will become a strategic capability bottleneck."
+          },
+          "nextQuestionEn": "Will the US financial siege against Iran's oil network force China to choose between compliance and a deeper energy-security alliance with Iran?",
+          "observeNextEn": [
+            "Strait commercial transit counts and any return toward 130 ships/day",
+            "Chinese, UAE, Hong Kong, Singapore, and Swiss entity responses to US secondary sanctions",
+            "Brent crude and gold repricing if closure persists",
+            "Iranian escalation such as tanker blacklists, seizures, or attacks"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2673,
+          "outputTokens": 4983,
+          "cachedInputTokens": 0
+        }
+      }
     }
   },
   "preflight": {
