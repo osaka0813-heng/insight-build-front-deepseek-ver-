@@ -8,14 +8,16 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-25T22:01:14.289Z",
-  "updatedAt": "2026-08-25T22:37:14.290Z",
+  "updatedAt": "2026-08-25T22:38:15.313Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "write_zh",
-      "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-08-25T22:37:14.290Z",
+      "attempts": {
+        "write_zh": 1
+      },
+      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
+      "updatedAt": "2026-08-25T22:38:15.313Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-26-1787695521520",
@@ -1306,7 +1308,8 @@
           "outputTokens": 5137,
           "cachedInputTokens": 1280
         }
-      }
+      },
+      "failedStage": "write_zh"
     }
   },
   "lease": {
@@ -1346,5 +1349,5 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
+  "message": "WORLD write_zh 自动重试 1/3"
 }
