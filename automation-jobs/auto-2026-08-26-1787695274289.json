@@ -6,18 +6,18 @@
   "date": "2026-08-26",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-08-25T22:01:14.289Z",
-  "updatedAt": "2026-08-25T22:38:16.291Z",
+  "updatedAt": "2026-08-25T22:39:32.912Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {
         "write_zh": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-25T22:38:16.291Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-25T22:39:32.912Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-26-1787695521520",
@@ -1309,7 +1309,157 @@
           "cachedInputTokens": 1280
         }
       },
-      "failedStage": "write_zh"
+      "failedStage": "write_zh",
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "中美技术管制",
+              "title": "9月24日峰会前，放宽与收紧相互碰撞",
+              "summary": "关税计划、有条件的H200准入、走私起诉和关键矿产禁令表明，管制体系正同时向多个方向再平衡。"
+            },
+            "question": {
+              "lead": "管制体系正同时朝两个方向移动。",
+              "title": "中美技术管制体系是在再平衡，而不只是升级？",
+              "footnote": "据报道的关税上调、经国家发改委批准的H200准入、台湾B300起诉以及中国矿产出口禁令，都出现在同一时间窗口。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "本洞察仅使用所提供的五个来源：彭博社、Kompas、美联社和一家贸易预警机构。未添加额外的日期、数字或引文。",
+              "items": [
+                {
+                  "label": "关税计划",
+                  "title": "特朗普计划在9月24日峰会前对中国商品加征7.5%关税",
+                  "body": "彭博社报道该计划是峰会前的施压手段，尚未实施。",
+                  "whyImportant": "这表明尽管有峰会外交，正式关税收紧仍在进行中。",
+                  "evidence": {
+                    "title": "彭博社关于计划加征关税的报道",
+                    "description": "该计划已被报道但尚未实施；视为发展中。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "有条件的H200准入",
+                  "title": "英伟达H200终于进入中国，但仅限经国家发改委批准且有单家企业采购限额",
+                  "body": "H200并非全面开放；准入是有条件的、针对特定企业的。",
+                  "whyImportant": "这表明放宽是通过审批机制管理的，而非自由贸易。",
+                  "evidence": {
+                    "title": "Kompas关于H200准入的报道",
+                    "description": "报道称有条件准入；有条件的准入是实际关键事实。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "走私起诉",
+                  "title": "台湾检方起诉九人，涉及伪装的B300服务器出口",
+                  "body": "美联社报道，这些指控揭示了官方管制之下的暗线渠道。",
+                  "whyImportant": "即使部分合法准入扩大，对隐蔽转口的执法也在收紧。",
+                  "evidence": {
+                    "title": "美联社关于台湾B300起诉的报道",
+                    "description": "九人被起诉；执法层面正在运作。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "矿产出口禁令",
+                  "title": "中国禁止向美国出口镓、锗和锑",
+                  "body": "美联社报道，该禁令是同一窗口期内的关键矿产反制措施。",
+                  "whyImportant": "它将金属供应管制与芯片和关税行动相结合，扩大了领域。",
+                  "evidence": {
+                    "title": "美联社关于中国矿产出口禁令的报道",
+                    "description": "禁止向美国出口三种关键矿产。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-005-us-china-controls-source-5"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从单向升级到多速再平衡",
+              "before": "在此窗口之前，管制模式呈现为线性升级螺旋：新的限制、更大范围的实体、更高的关税，除外交声明外基本没有放宽。",
+              "shift": "在同一新闻周期内，计划中的关税上调和中国矿产禁令收紧了管制，而H200有条件准入和峰会外交则放宽了管制；台湾的B300起诉暴露了在可见贸易流之下运作的独立执法轨道。",
+              "now": "管制体系正在发挥再平衡系统的作用：放宽与收紧配对出现，准入按企业、按项目、按最终用途设定条件，峰会外交只是多个变量之一。",
+              "conclusion": "因此，9月24日峰会是多变体制中的一个决策点，而非简单转向缓和或单向升级的延续。"
+            },
+            "insight": {
+              "title": "管制体系正在再平衡，而非逐步收紧",
+              "formula": "关税升级 + 有条件的H200准入 + B300走私起诉 + 关键矿产出口禁令 = 峰会前夕的多速管制再平衡。",
+              "explanation": "每个信号单独来看都会指示方向；合在一起则表明，美中行动现在正同时在贸易、许可、执法和矿产领域进行校准，因此系统可以在数天内既放宽又收紧。"
+            },
+            "observe": {
+              "title": "接下来关注什么",
+              "items": [
+                {
+                  "label": "9月24日峰会",
+                  "prompt": "关注7.5%关税计划在会前或会议期间是被确认、推迟还是放弃。",
+                  "meta": "外交作为控制变量"
+                },
+                {
+                  "label": "H200条件",
+                  "prompt": "跟踪国家发改委的批准与否决情况，以及单个企业限额是否会成为未来芯片的模板。",
+                  "meta": "有条件准入的测试"
+                },
+                {
+                  "label": "走私执法",
+                  "prompt": "关注是否出现更多涉及伪装B300服务器发货的起诉或出口管制法律行动。",
+                  "meta": "暗线渠道打击"
+                },
+                {
+                  "label": "矿产杠杆",
+                  "prompt": "监测镓、锗、锑出口禁令是否扩大，或被用作谈判筹码。",
+                  "meta": "关键矿产反制"
+                }
+              ],
+              "ending": "如果放宽与收紧再次同时出现，系统就在再平衡；如果峰会后只由单一方向主导，则体制可能正在进入新阶段。"
+            }
+          },
+          "dailyState": {
+            "label": "更新进行中",
+            "decisionTitle": "用多方向再平衡的证据更新现有技术管制流程。",
+            "decisionSummary": "该候选内容通过展示关税、H200许可、走私执法和矿产禁令方面的同步放宽与收紧，并全部汇聚于9月24日峰会，实质性地重新配置了这一流程。",
+            "thresholdReason": "满足阈值：三个触发来源和两个佐证来源，证据强度高，实质性变化得分高，且存在矛盾/关系变化信号。",
+            "observeNext": [
+              "关注7.5%关税计划在9月24日会议前或会议期间是被确认、推迟还是放弃。",
+              "跟踪H200的国家发改委批准条件是否会成为未来芯片准入的模板。",
+              "关注是否出现更多针对伪装B300服务器出口的起诉或法律行动。",
+              "监测中国矿产出口禁令是否扩大或成为谈判筹码。"
+            ]
+          },
+          "processContent": {
+            "title": "技术管制成为地缘政治基础设施",
+            "description": "技术增长的地理格局日益受到安全政策、联盟以及对关键能力的受控准入的影响。当前阶段：加速。",
+            "implication": "这种再平衡模式要求同时关注关税、许可、执法和矿产渠道，而不是只跟踪任何单一管制措施。"
+          },
+          "nextQuestion": "9月24日峰会标志着再平衡点，还是新一轮管制前的暂时停顿？",
+          "observeNext": [
+            "关注7.5%关税计划在9月24日会议前或会议期间是被确认、推迟还是放弃。",
+            "跟踪国家发改委对H200的批准条件是否会成为未来芯片的模板。",
+            "关注是否出现更多涉及伪装B300服务器出口的起诉或法律行动。",
+            "监测中国对镓、锗和锑的出口禁令是否扩大或被用作谈判筹码。"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2745,
+          "outputTokens": 6121,
+          "cachedInputTokens": 2688
+        }
+      }
     }
   },
   "lease": {
