@@ -6,16 +6,16 @@
   "date": "2026-08-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-27T22:02:10.078Z",
-  "updatedAt": "2026-08-27T22:35:30.076Z",
+  "updatedAt": "2026-08-27T22:37:33.642Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-27T22:35:30.076Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-27T22:37:33.642Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-28-1787868320443",
@@ -953,7 +953,147 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "IRAN-WAR-DIPLOMATIC-WINDOW"
+      "selectedCandidateId": "IRAN-WAR-DIPLOMATIC-WINDOW",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "IRAN-WAR-DIPLOMATIC-WINDOW",
+          "slug": "us-iran-war-diplomatic-window",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Middle East / Energy / Security",
+              "title": "A diplomatic window opens inside a sixth month of war",
+              "summary": "As the US-Iran war enters month six, a concrete nuclear off-ramp emerges while kinetic risk persists. Brent falls for a fourth day to ~$87 as Hormuz flows recover to ~70% of pre-war, but a fresh tanker strike shows the window can close quickly."
+            },
+            "question": {
+              "lead": "Three signals on Aug 27 created a rare state: official diplomacy, ongoing combat, and market pricing of de-escalation all at once.",
+              "title": "Is the market's de-escalation trade outrunning the diplomatic reality?",
+              "footnote": "Assessed from UKMTO, DOE and White House signals through Aug 27, 2026."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Primary sources: UKMTO incident report, U.S. Department of Energy statement, White House remarks.",
+              "items": [
+                {
+                  "label": "Maritime friction",
+                  "title": "Tanker hit in Strait of Hormuz, first since Aug 18",
+                  "body": "UKMTO reported a tanker hit in Hormuz, the first such incident since Aug 18. The strike confirms kinetic risk is not eliminated even as diplomacy advances.",
+                  "whyImportant": "Hormuz is the critical chokepoint for oil flows; repeated attacks can quickly reverse the recent flow recovery and oil-price decline.",
+                  "evidence": {
+                    "title": "UKMTO incident report",
+                    "description": "Primary report of a tanker hit in the Strait of Hormuz on Aug 27.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "IRAN-WAR-DIPLOMATIC-WINDOW-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Nuclear off-ramp",
+                  "title": "U.S. offers enriched uranium for IAEA-supervised civilian program",
+                  "body": "Energy Secretary Wright said the U.S. has offered to supply enriched uranium to Iran for an IAEA-supervised civilian nuclear program. Qatar is mediating.",
+                  "whyImportant": "This is a concrete diplomatic offer, not just talk; if accepted, it could address a core nuclear escalation concern and open a war exit.",
+                  "evidence": {
+                    "title": "U.S. Department of Energy statement",
+                    "description": "Energy Secretary Wright describes the enriched-uranium offer to Iran.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "IRAN-WAR-DIPLOMATIC-WINDOW-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Political signal",
+                  "title": "Trump says war with Iran will end 'soon'",
+                  "body": "The White House signaled that the war will end soon, while Qatar continues mediation. This language compounds the diplomatic opening.",
+                  "whyImportant": "A top-level political signal can anchor market expectations, but it remains a claim until verified by a ceasefire or agreement.",
+                  "evidence": {
+                    "title": "White House remarks",
+                    "description": "Trump states the war with Iran will end soon.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "IRAN-WAR-DIPLOMATIC-WINDOW-source-3"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From shock to window: the market prices de-escalation before it is secured",
+              "before": "For five months, the US-Iran war was a supply-shock story. Hormuz tanker traffic was intermittently disrupted, Brent carried a large war premium, and nuclear diplomacy was absent or only indirect.",
+              "shift": "On Aug 27, the structure changed: the U.S. offered enriched uranium for an IAEA-supervised civilian program, Trump said the war would end 'soon', and Qatar was mediating. At the same time, a tanker hit in Hormuz showed that combat continues.",
+              "now": "Brent fell for a fourth day to ~$87, and Hormuz flows recovered to about 70% of pre-war levels. Markets are pricing a workable off-ramp, but the fresh tanker strike keeps the risk alive.",
+              "conclusion": "The coexistence of a concrete diplomatic offer, ongoing kinetic friction, and a falling risk premium defines a new state: a tradable diplomatic window. If it holds, oil, inflation and Fed expectations all move together; if it snaps shut, the premium unwind will reverse violently."
+            },
+            "insight": {
+              "title": "The diplomatic window is now a market variable",
+              "formula": "Concrete nuclear offer + political 'soon' signal + residual tanker strike → market prices de-escalation while kinetic risk remains live",
+              "explanation": "The U.S. enriched-uranium offer is a specific, verifiable proposal, not just rhetoric. Trump's 'soon' language and Qatar's mediation add a political on-ramp. Yet the UKMTO tanker strike proves the window can close. Brent down four days and Hormuz flows at 70% show markets have already discounted substantial de-escalation. The gap between diplomatic promise and verified agreement is the new risk surface."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Hormuz flow and incidents",
+                  "prompt": "Track daily UKMTO reports and tanker flow estimates near the Strait of Hormuz for any second strike or new closure.",
+                  "meta": "Daily / shipping data"
+                },
+                {
+                  "label": "Nuclear offer confirmation",
+                  "prompt": "Watch for Iranian response or IAEA involvement that confirms or rejects the enriched-uranium offer.",
+                  "meta": "Official / IAEA channels"
+                },
+                {
+                  "label": "Oil price and volatility",
+                  "prompt": "Monitor Brent settlement and implied volatility; four down days could reverse if talks stall or strikes resume.",
+                  "meta": "Market close / options"
+                },
+                {
+                  "label": "Mediation announcements",
+                  "prompt": "Track Qatar or other mediators for ceasefire, de-escalation or verification announcements.",
+                  "meta": "Diplomatic statements"
+                }
+              ],
+              "ending": "If any of these break against the window, the de-escalation trade can unwind quickly."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish new insight",
+            "decisionTitle": "Open a new process candidate: tradable diplomatic window in a war-state",
+            "decisionSummary": "Three primary signals on Aug 27 show a concrete US nuclear offer, ongoing combat, and market-priced de-escalation coexisting. No existing process captures this simultaneous war-state diplomacy and risk-premium reversal.",
+            "thresholdReason": "Material change score 85, priority score 93; three independent primary sources; candidate is a new process candidate because matched process confidence is only 15 and generic geopolitical risk is insufficient.",
+            "observeNext": [
+              "Daily UKMTO incident reports and Hormuz flow data.",
+              "Iranian or IAEA confirmation of the enriched-uranium offer.",
+              "Brent settlement and implied volatility for risk-premium reversal.",
+              "Qatar or other mediator announcements on ceasefire or de-escalation."
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "The diplomatic window as tradable infrastructure",
+            "description": "This candidate process covers a war-state where a concrete diplomatic nuclear offer and political 'soon' signals coexist with ongoing kinetic friction and market-priced de-escalation. The current evidence is thin but cross-domain: maritime security, nuclear diplomacy, and oil market pricing move together.",
+            "implication": "If this process matures, it would change how de-escalation is priced across oil, inflation expectations and central-bank paths; closing the window would produce a sudden risk-premium snapback. It requires a new process hypothesis because existing geopolitical risk frameworks do not capture the simultaneous tradable diplomatic off-ramp."
+          },
+          "nextQuestionEn": "Will the U.S. diplomatic window convert into a verified de-escalation before the next tanker strike or nuclear escalation closes it?",
+          "observeNextEn": [
+            "Track daily UKMTO reports and tanker flow estimates near Hormuz.",
+            "Watch for Iranian or IAEA confirmation of the enriched-uranium offer.",
+            "Monitor Brent settlement and implied volatility for reversal signals.",
+            "Track Qatar or other mediators for formal de-escalation announcements."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2414,
+          "outputTokens": 6339,
+          "cachedInputTokens": 2304
+        }
+      }
     }
   },
   "lease": {
