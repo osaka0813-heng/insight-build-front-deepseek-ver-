@@ -6,16 +6,390 @@
   "date": "2026-08-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-27T22:02:10.078Z",
-  "updatedAt": "2026-08-27T22:02:15.559Z",
+  "updatedAt": "2026-08-27T22:05:20.459Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-27T22:02:15.559Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-27T22:05:20.459Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-28-1787868320443",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-27T22:05:20.443Z",
+        "researchDate": "2026-08-28",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 185057,
+          "outputTokens": 21116,
+          "cachedInputTokens": 141696
+        },
+        "querySummary": "过去24小时最强信号集中在AI基建的融资与监管界面：Anthropic/Nscale的450亿美元算力长约、英伟达财报与表外风险、BIS首次调查物流走私、佐治亚/德州/内华达监管分裂、Jackson Hole长期利率与AI资本开支相撞，以及美伊战争的外交窗口与油价降级。",
+        "candidates": [
+          {
+            "id": "AI-INFRA-NSCALE-450",
+            "date": "2026-08-27",
+            "domain": "AI + Capital + Energy",
+            "tags": [
+              "AI",
+              "Compute",
+              "Datacenter",
+              "IPO",
+              "Energy",
+              "Nscale"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 95,
+            "novelty": 90,
+            "evidenceStrength": 85,
+            "independentSourceCount": 2,
+            "thesisImpact": 90,
+            "relationshipChange": 80,
+            "stageChange": 80,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "Anthropic signs $45B, 460MW compute lease with Nscale ahead of IPO",
+                "coreFact": "Anthropic agreed to pay Nscale $45B over six years for ~460MW of compute at Monarch Compute Campus, using Vera Rubin chips, with operations expected in 2027. Anthropic has privately filed S-1 and is valued at $965B, with 2028 revenue projection around $190-200B.",
+                "whyItMatters": "This shifts AI infrastructure power toward independent third-party compute developers. Capital commitments at this scale, bundled with IPO valuation narratives, turn debt-funded datacenter middlemen into strategic gatekeepers beyond the lab-cloud-chip triangle.",
+                "processMatchReason": "No existing process covers the rise of independent compute capacity providers as a strategic layer; nearest process is hyperscaler capex but not applicable."
+              },
+              "zh": {
+                "title": "Anthropic在IPO前与Nscale签下450亿美元、460兆瓦算力长约",
+                "coreFact": "Anthropic同意六年内向Nscale支付450亿美元，租用Monarch Compute Campus约460兆瓦算力，使用Vera Rubin芯片，预计2027年底投运。Anthropic已秘密递交S-1，估值9650亿美元，2028年营收预期约1900—2000亿美元。",
+                "whyItMatters": "这把AI基建的权力重心转向独立的第三方算力开发商。如此规模的资本承诺与IPO估值叙事捆绑，使债务融资的数据中心中间商成为实验室—云厂商—芯片三角之外的战略把关者。",
+                "processMatchReason": "现有流程未覆盖独立算力提供商崛起为战略层；最接近的是超大规模云厂商资本开支流程，但不适用。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Anthropic agrees to $45 billion compute deal with Nscale",
+                "url": "",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-27",
+                "kind": "reliable_media",
+                "id": "AI-INFRA-NSCALE-450-source-1"
+              },
+              {
+                "title": "Anthropic pre-IPO compute commitment reported by Reuters",
+                "url": "",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-27",
+                "kind": "reliable_media",
+                "id": "AI-INFRA-NSCALE-450-source-2"
+              }
+            ]
+          },
+          {
+            "id": "NVDA-Q2-DOUBLE-EXPOSURE",
+            "date": "2026-08-26",
+            "domain": "Semiconductors + Capital",
+            "tags": [
+              "Nvidia",
+              "Earnings",
+              "AI",
+              "GPU",
+              "AWS",
+              "Off-Balance-Sheet"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 95,
+            "novelty": 75,
+            "evidenceStrength": 90,
+            "independentSourceCount": 2,
+            "thesisImpact": 88,
+            "relationshipChange": 75,
+            "stageChange": 85,
+            "contradiction": 60,
+            "content": {
+              "en": {
+                "title": "Nvidia Q2 revenue doubles to $96.2B and guides $108B, but margin trough and ~$200B off-balance-sheet exposure signal a shift to financing risk",
+                "coreFact": "Nvidia reported Q2 FY2027 revenue of $96.2B (+106% YoY), net income $59.69B, Q3 guide $108B. It warned Q4 gross margin would bottom at 71-72%, and reports point to ~$200B potential off-balance-sheet credit exposure. AWS simultaneously announced orders tripling to 2 million GPUs for 2027-2028.",
+                "whyItMatters": "Demand acceleration and supply-side margin/financing warnings appear together. The AI buildout story is moving from profit growth to debt absorption, where long-term financing costs and balance-sheet risks constrain the pace.",
+                "processMatchReason": "No existing process maps Nvidia off-balance-sheet financing and gross margin cycles to AI capex expansion; standard semiconductor process is product-cycle focused."
+              },
+              "zh": {
+                "title": "英伟达Q2营收翻倍至962亿美元、指引1080亿，但毛利率触底与约2000亿美元表外风险浮现",
+                "coreFact": "英伟达Q2 FY2027营收962亿美元（同比+106%），净利596.9亿，Q3指引1080亿美元；警告Q4毛利率跌至71%—72%触底，且报道指约2000亿美元潜在表外信贷敞口。同日AWS宣布2027—2028年GPU订单翻三倍至200万块。",
+                "whyItMatters": "需求加速与供给端毛利率/融资警告同时出现。AI建设故事正从利润增长转向债务消化，长期融资成本和资产负债表风险将成为节奏约束。",
+                "processMatchReason": "现有流程未覆盖英伟达的表外融资与毛利率周期对AI资本开支的交互；标准半导体流程侧重产品周期。"
+              }
+            },
+            "sources": [
+              {
+                "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+                "url": "",
+                "publisher": "NVIDIA",
+                "publishedAt": "2026-08-26",
+                "kind": "primary",
+                "id": "NVDA-Q2-DOUBLE-EXPOSURE-source-1"
+              },
+              {
+                "title": "AWS expands GPU deployment to 2 million Nvidia chips for 2027-2028",
+                "url": "",
+                "publisher": "Amazon Web Services",
+                "publishedAt": "2026-08-26",
+                "kind": "primary",
+                "id": "NVDA-Q2-DOUBLE-EXPOSURE-source-2"
+              }
+            ]
+          },
+          {
+            "id": "BIS-LOGISTICS-SMUGGLING",
+            "date": "2026-08-27",
+            "domain": "Geopolitics + Export Control",
+            "tags": [
+              "BIS",
+              "Export Control",
+              "AI Chips",
+              "Logistics",
+              "China",
+              "Semiconductors"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 82,
+            "novelty": 92,
+            "evidenceStrength": 75,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 85,
+            "stageChange": 75,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "BIS launches first logistics-layer probe into Apex for Nvidia chip smuggling to China",
+                "coreFact": "BIS is investigating Apex Logistics, a Kühne+Nagel subsidiary, over 47 shipments in 2024 that allegedly moved Supermicro servers/Nvidia AI chips to China via Taiwan-US-Southeast Asia-Hong Kong. Two former employees marked goods with non-export-controlled codes and left after BIS contact; Kühne+Nagel stock fell 4.2%.",
+                "whyItMatters": "Export control enforcement has expanded to transport and labeling intermediaries, closing the transshipment loophole. This could reshape assessments of smuggling networks and make logistics companies liable in the AI supply chain.",
+                "processMatchReason": "No existing process covers logistics intermediaries as export-control enforcement targets; current process follows chip/customer entities."
+              },
+              "zh": {
+                "title": "BIS首次对物流层出手：调查Apex涉嫌将英伟达芯片走私至中国",
+                "coreFact": "BIS调查Kühne+Nagel子公司Apex Logistics，涉2024年47批货物疑似经台湾—美国—东南亚—香港将Supermicro服务器/英伟达AI芯片运往中国。两名前员工曾用“不受出口管制”代码标注货物，在BIS接触后离职；Kühne+Nagel股价跌4.2%。",
+                "whyItMatters": "出口管制执法延伸到运输和标签中介，封闭转口漏洞。这可能改变对走私网络规模和管控有效性的判断，并使物流公司在AI供应链中承担法律责任。",
+                "processMatchReason": "现有流程未覆盖物流中介作为出口管制执法对象；现流程聚焦芯片与客户实体。"
+              }
+            },
+            "sources": [
+              {
+                "title": "BIS probes Kuehne+Nagel unit Apex over Nvidia chip exports to China",
+                "url": "",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-27",
+                "kind": "reliable_media",
+                "id": "BIS-LOGISTICS-SMUGGLING-source-1"
+              },
+              {
+                "title": "BIS investigation into Apex Logistics and export-control codes",
+                "url": "",
+                "publisher": "U.S. Department of Commerce BIS",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "BIS-LOGISTICS-SMUGGLING-source-2"
+              }
+            ]
+          },
+          {
+            "id": "IRAN-WAR-DIPLOMATIC-WINDOW",
+            "date": "2026-08-27",
+            "domain": "Geopolitics + Energy + Macro",
+            "tags": [
+              "Iran",
+              "War",
+              "Oil",
+              "Hormuz",
+              "Diplomacy",
+              "Nuclear"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 88,
+            "novelty": 80,
+            "evidenceStrength": 80,
+            "independentSourceCount": 3,
+            "thesisImpact": 90,
+            "relationshipChange": 85,
+            "stageChange": 80,
+            "contradiction": 70,
+            "content": {
+              "en": {
+                "title": "US-Iran war enters month 6 with diplomatic opening and tanker strike coexisting, oil falls for 4th day",
+                "coreFact": "Trump says war with Iran will end 'soon'; Qatar mediates, US offered enriched uranium to Iran for IAEA-supervised civilian nuclear program, per Energy Secretary Wright. Yet UKMTO reported a tanker hit in Hormuz, first since Aug 18. Brent is ~$87, down four days; Hormuz flows are back to ~70% of pre-war.",
+                "whyItMatters": "The market and diplomacy are pricing de-escalation even as fighting continues. If the window closes, the risk-premium unwind reverses; if it opens, oil, inflation and Fed path shift together.",
+                "processMatchReason": "No existing process captures a war-state with simultaneous diplomatic nuclear offer and market pricing of de-escalation; generic geopolitical risk process insufficient."
+              },
+              "zh": {
+                "title": "美伊战争进入第6个月：外交窗口与油轮遇袭并存，油价连跌4日",
+                "coreFact": "特朗普称与伊朗战争将“很快结束”；卡塔尔斡旋；美能源部长Wright称美方多次提议向伊朗供应浓缩铀以换取IAEA监督。同日UKMTO报告霍尔木兹一艘油轮被击中，为8月18日以来首起；布伦特约87美元，连跌4日；霍尔木兹流量恢复至战前约70%。",
+                "whyItMatters": "市场与外交正在定价降级，尽管战事持续。若窗口关闭，风险溢价消退将逆转；若打开，油价、通胀预期与美联储路径将同步改变。",
+                "processMatchReason": "现有流程未覆盖战争状态与外交核供应提议及市场降级定价并存；通用地缘政治风险流程不足。"
+              }
+            },
+            "sources": [
+              {
+                "title": "UKMTO reports tanker hit in Strait of Hormuz",
+                "url": "",
+                "publisher": "United Kingdom Maritime Trade Operations",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-1"
+              },
+              {
+                "title": "U.S. offers enriched uranium to Iran, says Energy Secretary Wright",
+                "url": "",
+                "publisher": "U.S. Department of Energy",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-2"
+              },
+              {
+                "title": "Trump says Iran war will end soon",
+                "url": "",
+                "publisher": "White House",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-3"
+              }
+            ]
+          },
+          {
+            "id": "GA-OPENAI-POWER-REGULATORY-SPLIT",
+            "date": "2026-08-26",
+            "domain": "Energy + AI + Regulation",
+            "tags": [
+              "Georgia",
+              "OpenAI",
+              "Data Center",
+              "Electricity",
+              "Regulation",
+              "Texas",
+              "Nevada"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 85,
+            "novelty": 85,
+            "evidenceStrength": 85,
+            "independentSourceCount": 3,
+            "thesisImpact": 80,
+            "relationshipChange": 80,
+            "stageChange": 80,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Georgia approves OpenAI 3,200MW power deal while Texas pauses and Nevada sues — regulatory split defines AI electricity constraint",
+                "coreFact": "Georgia PSC approved Georgia Power's 3,200MW contract with OpenAI (Project Camellia, $20B, phased 2028-2032) without a public vote. OpenAI will pay grid costs and allow up to 1,000MW curtailment. Texas suspended datacenter interconnection approvals; Nevada utility sued developers over cost-shifting.",
+                "whyItMatters": "Utility regulation, rate design and political contestation—not just physical grid capacity—are becoming binding constraints on AI expansion. The split regulatory landscape means AI power projects face uneven approval risk.",
+                "processMatchReason": "No existing process covers rate-payer politics and conditional approval as a constraint on AI datacenter power; grid capacity process only."
+              },
+              "zh": {
+                "title": "佐治亚批准OpenAI 3200兆瓦供电合同，德州暂停、内华达诉讼——监管分裂成为AI电力约束",
+                "coreFact": "佐治亚PSC在不公开投票情况下批准佐治亚电力与OpenAI的3200兆瓦供电合同（Project Camellia，200亿美元，2028—2032分阶段供电）；OpenAI承担电网成本并同意高峰让出最多1000兆瓦。德州暂停数据中心并网审批；内华达州电力公司起诉开发商转嫁电费。",
+                "whyItMatters": "电价政治、费率设计与监管审批——而非仅电网物理容量——正成为AI扩张的约束变量。监管分裂意味着AI电力项目面临不均衡的审批风险。",
+                "processMatchReason": "现有流程未覆盖费率政治与有条件审批作为AI数据中心电力约束；仅有电网容量流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Georgia PSC approves Georgia Power's contract with OpenAI",
+                "url": "",
+                "publisher": "Georgia Public Service Commission",
+                "publishedAt": "2026-08-26",
+                "kind": "primary",
+                "id": "GA-OPENAI-POWER-REGULATORY-SPLIT-source-1"
+              },
+              {
+                "title": "Texas governor orders pause on datacenter interconnection approvals",
+                "url": "",
+                "publisher": "Office of the Texas Governor",
+                "publishedAt": "2026-08-03",
+                "kind": "primary",
+                "id": "GA-OPENAI-POWER-REGULATORY-SPLIT-source-2"
+              },
+              {
+                "title": "Nevada utility sues datacenter developers over cost shifting",
+                "url": "",
+                "publisher": "Nevada utility court filing (reported)",
+                "publishedAt": "2026-08-26",
+                "kind": "context",
+                "id": "GA-OPENAI-POWER-REGULATORY-SPLIT-source-3"
+              }
+            ]
+          },
+          {
+            "id": "JACKSONHOLE-LONGRATE-AICAPEX",
+            "date": "2026-08-27",
+            "domain": "Macro + Capital",
+            "tags": [
+              "Federal Reserve",
+              "Inflation",
+              "Treasury Yields",
+              "AI Capex",
+              "Jackson Hole"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 90,
+            "novelty": 70,
+            "evidenceStrength": 85,
+            "independentSourceCount": 4,
+            "thesisImpact": 85,
+            "relationshipChange": 80,
+            "stageChange": 70,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Jackson Hole opens with hawkish inflation warnings; 30-year yield at 5.19% collides with AI capex financing needs",
+                "coreFact": "At Jackson Hole, Kansas City Fed's Schmid said policy rate may be loose for short end and inflation is sticky; Chicago Fed's Goolsbee called five years above target troubling. 10-year yield ~4.66%, 30-year ~5.19%; 7-year auction at 4.512%, highest since Dec 2024. Treasury will double long-end buyback cap from $2B to at least $4B starting Sep 9.",
+                "whyItMatters": "AI infrastructure deals (Anthropic/Nscale, AWS 2M GPUs, Volta debt) require massive long-term financing just as long-term rates are at two-year highs and Fed officials lean hawkish. The competition between AI capex and sovereign debt costs becomes the core macro tension.",
+                "processMatchReason": "No existing process links Fed communications and long-end Treasury auctions to AI infrastructure financing cycles; macro process lacks AI capex linkage."
+              },
+              "zh": {
+                "title": "Jackson Hole开幕：联储官员警告通胀顽固，30年期收益率5.19%与AI资本开支需求正面相撞",
+                "coreFact": "Jackson Hole年会开幕；堪萨斯城联储Schmid称现行利率对短端可能宽松、通胀顽固且黏性；芝加哥联储Goolsbee称通胀连续五年多高于目标“令人不安”。10年期约4.66%，30年期约5.19%；7年期拍卖收益率4.512%，为2024年12月以来最高。财政部自9月9日起将长端回购上限翻倍至至少40亿美元。",
+                "whyItMatters": "AI基建交易（Anthropic/Nscale、AWS 200万GPU、Volta债务）需要海量长期融资，恰逢长期利率两年高位、联储偏鹰。AI资本开支与主权债务成本之间的竞争成为宏观定价核心张力。",
+                "processMatchReason": "现有流程未将联储沟通与长端国债拍卖同AI基建融资周期挂钩；宏观流程缺乏AI资本开支联系。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Schmid: policy rate may be loose for short end, inflation sticky",
+                "url": "",
+                "publisher": "Federal Reserve Bank of Kansas City",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "JACKSONHOLE-LONGRATE-AICAPEX-source-1"
+              },
+              {
+                "title": "Goolsbee: inflation above target for five-plus years is troubling",
+                "url": "",
+                "publisher": "Federal Reserve Bank of Chicago",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "JACKSONHOLE-LONGRATE-AICAPEX-source-2"
+              },
+              {
+                "title": "Treasury 7-year note auction yield 4.512%",
+                "url": "",
+                "publisher": "U.S. Department of the Treasury",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "JACKSONHOLE-LONGRATE-AICAPEX-source-3"
+              },
+              {
+                "title": "Treasury to double long-end buyback cap to at least $4B",
+                "url": "",
+                "publisher": "U.S. Department of the Treasury",
+                "publishedAt": "2026-08-27",
+                "kind": "primary",
+                "id": "JACKSONHOLE-LONGRATE-AICAPEX-source-4"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
