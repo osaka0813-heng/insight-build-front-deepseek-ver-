@@ -6,18 +6,18 @@
   "date": "2026-08-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:10:39.875Z",
+  "updatedAt": "2026-08-27T00:11:14.850Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 2
       },
-      "message": "analyze",
-      "updatedAt": "2026-08-27T00:10:39.875Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-08-27T00:11:14.850Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -431,7 +431,619 @@
             ]
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-27-1787789438855",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-27T00:10:38.855Z",
+        "researchDate": "2026-08-27",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 159831,
+          "outputTokens": 28077,
+          "cachedInputTokens": 129536
+        },
+        "querySummary": "Past 24h signals show the AI infrastructure race is simultaneously financializing and hitting energy/regulatory ceilings: NVIDIA's record earnings and Vera Rubin production ramp, US PCE inflation repricing rate-hike risk, Anthropic's $45B compute lease with on-site gas generation, OpenAI's first superior self-designed inference chip benchmarks, Taiwan-led export-control prosecution at the logistics/packaging layer, Texas's ERCOT interconnection audit, and SoftBank's bond/margin-loan leverage build.",
+        "candidates": [
+          {
+            "id": "candidate-003",
+            "date": "2026-08-26",
+            "domain": "AI Infrastructure / Energy",
+            "tags": [
+              "Anthropic",
+              "Nscale",
+              "compute lease",
+              "Vera Rubin",
+              "gas generation",
+              "microgrid",
+              "data center",
+              "neocloud"
+            ],
+            "processMatchConfidence": 70,
+            "importance": 90,
+            "novelty": 88,
+            "evidenceStrength": 82,
+            "independentSourceCount": 2,
+            "thesisImpact": 85,
+            "relationshipChange": 80,
+            "stageChange": 70,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "Anthropic signs $45B, six-year compute lease with Nscale using on-site gas power",
+                "coreFact": "Anthropic will pay Nscale $45B over six years for ~460MW at the Monarch site in West Virginia; the system begins ramping in late 2027 using Nvidia Vera Rubin; Nscale's Phase 1 plans 1.35GW with a long-term power runway of over 8GW and a target of 2GW from Caterpillar gas microgrid generation by early 2028; Nscale also has a 1.35GW LOI with Microsoft and closed $790M project financing for its Narvik, Norway data center.",
+                "whyItMatters": "This is the largest known single AI compute lease and brings natural-gas on-site generation into hyperscale AI, shifting the energy strategy debate beyond nuclear and grid extension. It also entrenches the 'neocloud' model and a cross-Atlantic AI infrastructure structure.",
+                "processMatchReason": "No existing process in the dossier fits this compute-lease-plus-energy signal; suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "Anthropic与Nscale签下450亿美元/6年算力租赁，并采用现场天然气发电",
+                "coreFact": "Anthropic承诺6年支付450亿美元，租用Nscale在西弗吉尼亚Monarch园区约460MW算力，系统2027年底起上线，采用Nvidia Vera Rubin；园区一期规划1.35GW，长期电力跑道超8GW，目标2028年初达2GW Caterpillar天然气微电网发电；Nscale还与微软签有1.35GW LOI，并为挪威Narvik数据中心完成7.9亿美元项目融资。",
+                "whyItMatters": "这是已知最大的单一AI计算租赁承诺，标志着天然气现场发电正式进入超大规模AI算力；“租用而非自建”的neocloud模式成为主流路径，并构成跨大西洋AI基建新结构。",
+                "processMatchReason": "本档案中无既有进程完全对应此算力租赁与能源绑定信号，故suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Anthropic-Nscale $45 billion compute lease",
+                "url": "https://www.bloomberg.com",
+                "publisher": "Bloomberg",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-003-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Nscale Monarch details and Microsoft LOI",
+                "url": "https://blockspace.media",
+                "publisher": "Blockspace",
+                "publishedAt": "2026-08-26",
+                "kind": "context",
+                "id": "candidate-003-source-2",
+                "role": "context"
+              },
+              {
+                "title": "Anthropic-Nscale deal report",
+                "url": "https://www.reuters.com",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-003-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Anthropic与Nscale交易报道",
+                "url": "https://www.gelonghui.com",
+                "publisher": "格隆汇",
+                "publishedAt": "2026-08-26",
+                "kind": "context",
+                "id": "candidate-003-source-4",
+                "role": "context"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [
+              "candidate-003-source-1",
+              "candidate-003-source-3"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 70,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 85,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "The Anthropic-Nscale $45B six-year compute lease (~460MW at Monarch, West Virginia, ramping late 2027 on Vera Rubin; Phase 1 at 1.35GW with >8GW runway; 2GW Caterpillar gas microgrid target by early 2028; plus 1.35GW Microsoft LOI and $790M Narvik financing) is the single most structurally revealing item in this cycle. It (1) is the largest known single AI compute lease, (2) introduces on-site natural-gas generation directly into hyperscale AI, shifting the energy debate beyond nuclear and grid extension, and (3) entrenches the 'neocloud' / lease-rather-than-own model. It fuses the AI-infrastructure-race and energy-security processes and elevates a new structural hypothesis: AI capacity is increasingly financed and provisioned through third-party compute leases co-located with dedicated (including fossil-gas) generation, decoupling compute growth from grid interconnection. Evidence is strong (Bloomberg, Reuters primary-led) with meaningful corroboration. This is today's Global Insight.",
+              "warnings": [
+                "Bloomberg/Reuters are paywalled and details (e.g., site specifics) need direct confirmation",
+                "Gas microgrid reliance introduces ESG/political friction not yet surfaced in the sources",
+                "Nscale's 8GW+ pipeline is an aspiration; current confirmed near-term capacity (~460MW committed + 1.35GW phase) should not be conflated"
+              ],
+              "candidateId": "candidate-003",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 94
+            }
+          },
+          {
+            "id": "candidate-001",
+            "date": "2026-08-26",
+            "domain": "AI and Capital Markets",
+            "tags": [
+              "NVIDIA",
+              "Vera Rubin",
+              "AI infrastructure",
+              "data center",
+              "earnings",
+              "capital markets",
+              "energy"
+            ],
+            "processMatchConfidence": 80,
+            "importance": 95,
+            "novelty": 68,
+            "evidenceStrength": 90,
+            "independentSourceCount": 2,
+            "thesisImpact": 90,
+            "relationshipChange": 80,
+            "stageChange": 70,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "NVIDIA reports record revenue and confirms Vera Rubin volume production",
+                "coreFact": "NVIDIA Q2 FY2027 revenue was $96.22B, +106% YoY; data center revenue was $89B, +117%; Q3 guide is $108B (±2%); Vera Rubin is in full production and expected to be ~20% of Q3 data center revenue; CFO sees ~70% FY2028 revenue growth; management frames opportunity as ~$400B revenue per 1GW of compute deployed.",
+                "whyItMatters": "Confirms AI infrastructure demand is structurally accelerating, not peaking, and directly ties compute value to gigawatt-scale power. It also signals NVIDIA's shift from chip vendor to financing intermediary through the $500B third-party AI infrastructure plan.",
+                "processMatchReason": "No existing process in the dossier fits this specific earnings-plus-production ramp; suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "英伟达创纪录营收并确认Vera Rubin全面量产",
+                "coreFact": "英伟达2027财年第二季度营收962.2亿美元，同比增长106%；数据中心营收890亿美元，同比增长117%；第三季度指引1080亿美元（±2%）；Vera Rubin已全面投产，预计贡献第三季度约20%数据中心营收；管理层提出“每部署1吉瓦算力对应约400亿美元营收机会”；CFO预计2028财年营收增速约70%。",
+                "whyItMatters": "这证实AI基建需求处于结构性加速而非见顶，并将算力价值直接锚定在吉瓦级电力上。同时，英伟达正通过5000亿美元第三方AI基建融资计划从芯片销售商转向融资中介。",
+                "processMatchReason": "本档案中无既有进程完全对应此财报与量产信号，故suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "NVIDIA Q2 FY2027 earnings release",
+                "url": "https://nvidianews.nvidia.com",
+                "publisher": "NVIDIA Newsroom",
+                "publishedAt": "2026-08-26",
+                "kind": "primary",
+                "id": "candidate-001-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "NVIDIA earnings and AI infrastructure financing coverage",
+                "url": "https://www.reuters.com",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-001-source-2",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "candidate-001-source-1",
+              "candidate-001-source-2"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 80,
+              "impact": "updates",
+              "dailyState": "update_living",
+              "materialChangeScore": 72,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "NVIDIA Q2 FY2027 record revenue (+106% YoY, $96.22B), data center $89B (+117%), Q3 guide $108B, and confirmation that Vera Rubin is in full production (~20% of Q3 data center revenue) materially strengthen the AI Infrastructure Race process. The '$400B revenue per 1GW' framing and the $500B third-party AI infrastructure financing plan confirm both structural demand acceleration and the financialization of compute. However, this is a strong confirmation/update of an already-established structural trend rather than a change in the process's direction. It does not by itself alter what an analyst believes about the trajectory in a way that warrants today's single Global Insight when compared against candidate-003 (largest-ever compute lease bringing on-site gas generation into hyperscale) and candidate-005 (enforcement cracking down on individual-level smuggling at the TSMC packaging chokepoint).",
+              "warnings": [
+                "Single-cycle earnings data point; prone to hype/granularity distortion",
+                "No independent analysis yet of whether 70% FY2028 growth guidance is sustainable or demand-pull vs financing-pull"
+              ],
+              "candidateId": "candidate-001",
+              "decisionType": "existing_process_update",
+              "priorityScore": 92
+            }
+          },
+          {
+            "id": "candidate-005",
+            "date": "2026-08-26",
+            "domain": "Geopolitics / Export Controls",
+            "tags": [
+              "export controls",
+              "B300",
+              "Nvidia",
+              "Taiwan",
+              "China",
+              "smuggling",
+              "Super Micro",
+              "TSMC"
+            ],
+            "processMatchConfidence": 78,
+            "importance": 88,
+            "novelty": 90,
+            "evidenceStrength": 75,
+            "independentSourceCount": 3,
+            "thesisImpact": 85,
+            "relationshipChange": 80,
+            "stageChange": 75,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Taiwan indicts nine, including an Nvidia employee, for smuggling B300 servers to China",
+                "coreFact": "Keelung prosecutors indicted nine people including a Taiwan-based Nvidia employee; 130 high-end AI servers with B300 chips were allegedly exported through Japan and Indonesia to evade US controls; 74 reached China and 56 were seized; a Super Micro employee and Taiwanese distributors were named; prosecutors seek up to 5 years for four people; B300 chips built at TSMC Phoenix are then packaged in Taiwan.",
+                "whyItMatters": "US export-control enforcement has moved down to individuals, logistics and packaging, operated by Taiwan's judiciary. The Taiwan packaging step is a physical chokepoint in the allied AI supply chain, now shown to be vulnerable to insider smuggling.",
+                "processMatchReason": "No existing process in the dossier fits this enforcement-and-supply-chain signal; suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "台湾起诉英伟达员工等9人涉嫌走私B300服务器至中国",
+                "coreFact": "基隆地检署起诉英伟达台湾员工等9人，涉130台B300高端AI服务器黑市出口：74台已运抵中国、56台被台海关截获；经日本、印尼中转规避美国出口管制；涉及超微电脑员工及台湾分销商；检方对4人求处最高5年刑期。B300由台积电凤凰城厂生产后送回台湾封装。",
+                "whyItMatters": "美国出口管制执法首次下沉到个人、物流与封装环节，并由台湾司法执行；台湾封装环节成为盟友AI供应链的物理咽喉，也显示出该环节的执法脆弱性。",
+                "processMatchReason": "本档案中无既有进程完全对应此管制执法与供应链咽喉信号，故suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Taiwan indicts nine in B300 server smuggling case",
+                "url": "https://www.americanbazaar.com",
+                "publisher": "American Bazaar",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-005-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "台湾起诉英伟达员工等9人",
+                "url": "https://www.detik.com",
+                "publisher": "Detik",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-005-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "央视相关转载报道",
+                "url": "https://www.cctv.com",
+                "publisher": "央视网",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-005-source-3",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "candidate-005-source-1",
+              "candidate-005-source-2",
+              "candidate-005-source-3"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-geopolitical-technology-control",
+              "processMatchConfidence": 78,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 83,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Taiwan's indictment of nine individuals (including an Nvidia employee and a Super Micro employee) for smuggling 130 B300 servers to China via Japan/Indonesia, with 74 reaching China and 56 seized, signals a meaningful escalation of export-control enforcement: it has moved from company/entity-level action down to individuals, logistics, and the TSMC-then-Taiwan packaging step that is a physical chokepoint in the allied supply chain. This materially advances process-geopolitical-technology-control and reveals the enforcement fragility of the packaging chokepoint. It is a strong candidate with three trigger sources. It is narrowly outranked by candidate-003 for the single slot only because candidate-003's scale (~$45B, ~460MW, gas generation, neocloud model, cross-Atlantic structure) carries broader structural reach across two processes, whereas candidate-005 extends an already evolving enforcement process.",
+              "warnings": [
+                "Details sourced partly from second-tier outlets (American Bazaar, Detik, CCTV); primary court documents not directly cited",
+                "Scale of 130 servers is material but small relative to overall China-bound compute demand",
+                "Legal process (indictment) is early; convictions and penalties not yet decided"
+              ],
+              "candidateId": "candidate-005",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 90
+            }
+          },
+          {
+            "id": "candidate-004",
+            "date": "2026-08-25",
+            "domain": "Semiconductors / AI",
+            "tags": [
+              "OpenAI",
+              "Jalapeño",
+              "inference chip",
+              "energy efficiency",
+              "Nvidia GB200",
+              "workload performance"
+            ],
+            "processMatchConfidence": 55,
+            "importance": 85,
+            "novelty": 92,
+            "evidenceStrength": 75,
+            "independentSourceCount": 3,
+            "thesisImpact": 80,
+            "relationshipChange": 85,
+            "stageChange": 68,
+            "contradiction": 60,
+            "content": {
+              "en": {
+                "title": "OpenAI's self-designed 'Jalapeño' inference chip shows 1.5-1.9x better per-watt throughput than Nvidia systems",
+                "coreFact": "OpenAI released first benchmark data for its 700W custom inference chip: at peak throughput, per-watt AI workload is 1.5-1.9x higher than Nvidia GB200/GB300 systems and end-to-end latency is 1.7-3.6x lower; OpenAI says 'We made a chip and it is fast.'",
+                "whyItMatters": "If scaled, it would reduce AI inference demand for Nvidia GPUs and improve energy efficiency in data centers, challenging the assumption that semiconductor advantage equals Nvidia's ecosystem and process technology.",
+                "processMatchReason": "No existing process in the dossier fits this chip-advantage signal; suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "OpenAI自研推理芯片Jalapeño基准首公开：每瓦吞吐较Nvidia高1.5-1.9倍",
+                "coreFact": "OpenAI发布700W TDP自研推理芯片基准：相对Nvidia GB200/GB300系统，峰值吞吐下每瓦AI工作量高1.5-1.9倍，端到端延迟低1.7-3.6倍；OpenAI表示“我们造了一颗芯片，而且它很快”。",
+                "whyItMatters": "若规模化部署，自研芯片首次拿出优于Nvidia的可比证据，将改写推理算力需求结构，并直接改善数据中心能效，对“半导体优势=生态+制程”的默认判断构成修正压力。",
+                "processMatchReason": "本档案中无既有进程完全对应此自研芯片性能信号，故suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "OpenAI Jalapeño inference chip benchmark",
+                "url": "https://openai.com",
+                "publisher": "OpenAI",
+                "publishedAt": "2026-08-25",
+                "kind": "primary",
+                "id": "candidate-004-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "OpenAI chip claims analysis",
+                "url": "https://www.datacenterdynamics.com",
+                "publisher": "DataCenterDynamics",
+                "publishedAt": "2026-08-25",
+                "kind": "reliable_media",
+                "id": "candidate-004-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "OpenAI custom chip coverage",
+                "url": "https://tech.yahoo.com",
+                "publisher": "Yahoo Tech",
+                "publishedAt": "2026-08-25",
+                "kind": "reliable_media",
+                "id": "candidate-004-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "OpenAI自研芯片Jalapeño报道",
+                "url": "https://www.pconline.com.cn",
+                "publisher": "PConline",
+                "publishedAt": "2026-08-25",
+                "kind": "context",
+                "id": "candidate-004-source-4",
+                "role": "context"
+              }
+            ],
+            "suggestedProcessId": "process-semiconductor-capacity",
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "candidate-004-source-1",
+              "candidate-004-source-2",
+              "candidate-004-source-3"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-semiconductor-capacity",
+              "processMatchConfidence": 55,
+              "impact": "challenges",
+              "dailyState": "publish_new",
+              "materialChangeScore": 78,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "OpenAI's first benchmark release for its 700W custom 'Jalapeño' inference chip, claiming 1.5-1.9x per-watt throughput and 1.7-3.6x lower latency than Nvidia GB200/GB300, is novelty-rich (92) and would, if validated and scaled, challenge Nvidia's inference dominance and improve data-center energy efficiency. However, the evidence is a single self-published vendor benchmark (no independent third-party verification) with a low evidence strength (75) and high contradiction risk vs Nvidia's ecosystem moat. It is a promising new-process candidate (custom silicon eroding Nvidia's inference share) but is not yet sufficiently corroborated to be the day's single Global Insight, especially when candidate-003 and candidate-005 offer more independently confirmable structural shifts.",
+              "warnings": [
+                "Vendor-published benchmark, not independently verified",
+                "'At peak throughput' framing may overstate real-world advantage",
+                "No deployment/scale or volume timeline demonstrated"
+              ],
+              "candidateId": "candidate-004",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 86
+            }
+          },
+          {
+            "id": "candidate-006",
+            "date": "2026-08-26",
+            "domain": "Energy Policy / AI Infrastructure",
+            "tags": [
+              "ERCOT",
+              "Texas",
+              "data center",
+              "interconnection queue",
+              "grid capacity",
+              "regulation",
+              "energy policy"
+            ],
+            "processMatchConfidence": 71,
+            "importance": 88,
+            "novelty": 86,
+            "evidenceStrength": 78,
+            "independentSourceCount": 3,
+            "thesisImpact": 82,
+            "relationshipChange": 75,
+            "stageChange": 70,
+            "contradiction": 65,
+            "content": {
+              "en": {
+                "title": "Texas ERCOT audit finds ~474GW of interconnection requests, 90% from data centers",
+                "coreFact": "Governor Abbott ordered a suspension of data center interconnection progress; PUCT and ERCOT are auditing the queue of ~250-300 projects; ERCOT disclosed it is considering ~474GW of interconnection requests, ~90% of which are data centers; large-load reports were deferred. Similar EU moves: Spain's draft requires 80% renewable hourly matching for data centers; Finland raised the data center electricity tax ~44x; Germany mandates PUE 1.2 and waste-heat reuse.",
+                "whyItMatters": "Grid interconnection approval is becoming the physical ceiling on compute expansion. Texas's administrative pause may push capital to other states and strengthen the model of co-locating generation with compute, as in the Nscale deal.",
+                "processMatchReason": "No existing process in the dossier fits this energy-governance signal; suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "得州ERCOT审计：互联队列约474GW，90%为数据中心",
+                "coreFact": "得州州长Abbott暂停数据中心互联推进，PUCT与ERCOT对约250-300个项目进行核查审计；ERCOT披露正在考虑约474GW互联申请，其中90%为数据中心；大负荷报告延期。同向信号：西班牙草案要求数据中心每小时80%可再生电力实时匹配，芬兰将数据中心电税提高约44倍，德国强制PUE 1.2与余热利用。",
+                "whyItMatters": "互联审批成为算力扩张的物理上限。美国最大数据中心市场的政策暂停将迫使资本向其他地区再配置，并提高“发电资产+算力绑定”模式的吸引力；能源治理正在决定算力地理。",
+                "processMatchReason": "本档案中无既有进程完全对应此能源治理与算力地理信号，故suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Texas Governor Abbott directive on data center interconnection",
+                "url": "https://gov.texas.gov",
+                "publisher": "Office of the Texas Governor",
+                "publishedAt": "2026-08-03",
+                "kind": "primary",
+                "id": "candidate-006-source-1",
+                "role": "corroborating"
+              },
+              {
+                "title": "ERCOT/PUCT interconnection audit filing",
+                "url": "https://www.ercot.com",
+                "publisher": "ERCOT",
+                "publishedAt": "2026-08-26",
+                "kind": "primary",
+                "id": "candidate-006-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Texas grid queue analysis",
+                "url": "https://www.gibsondunn.com",
+                "publisher": "Gibson Dunn",
+                "publishedAt": "2026-08-26",
+                "kind": "context",
+                "id": "candidate-006-source-3",
+                "role": "context"
+              },
+              {
+                "title": "Texas Lawbook coverage",
+                "url": "https://texaslawbook.net",
+                "publisher": "The Texas Lawbook",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-006-source-4",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 1,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "candidate-006-source-1",
+              "candidate-006-source-2",
+              "candidate-006-source-4"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 71,
+              "impact": "challenges",
+              "dailyState": "publish_new",
+              "materialChangeScore": 80,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 1,
+              "contextSourceCount": 1,
+              "rationale": "ERCOT's disclosure of ~474GW of interconnection requests (90% data centers), Governor Abbott's suspension of data center interconnection, the PUCT/ERCOT audit, and parallel EU moves (Spain's 80% hourly renewable matching; Finland's ~44x data center electricity tax; Germany's PUE 1.2 and waste-heat requirements) collectively establish that grid interconnection and energy governance are becoming the physical ceiling on compute expansion. This is genuinely important and well-sourced (ERCOT primary trigger + governor directive + two corroborating). It strongly supports the emerging 'co-locate generation with compute' model seen in candidate-003. It is a close runner-up, but as a policy/regulatory development it is better characterized as reinforcing the AI Infrastructure Race process rather than launching a distinct structural hypothesis, and it does not exceed candidate-003's direct evidence of a new provisioning/generation model.",
+              "warnings": [
+                "~474GW is 'considering' not approved; audit outcome and final queue size unresolved",
+                "Regulatory signals are cross-jurisdictional and heterogeneous, requiring care in generalization",
+                "No confirmed capital-reallocation effect yet, only the inference that capital shifts elsewhere"
+              ],
+              "candidateId": "candidate-006",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 84
+            }
+          },
+          {
+            "id": "candidate-002",
+            "date": "2026-08-26",
+            "domain": "Macro / Capital Markets",
+            "tags": [
+              "PCE",
+              "inflation",
+              "Federal Reserve",
+              "rate hike",
+              "AI financing",
+              "bond yields",
+              "debt leverage"
+            ],
+            "processMatchConfidence": 30,
+            "importance": 85,
+            "novelty": 75,
+            "evidenceStrength": 88,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 75,
+            "stageChange": 60,
+            "contradiction": 75,
+            "content": {
+              "en": {
+                "title": "US July PCE at 3.7% forces market to reprice rate-hike risk",
+                "coreFact": "July PCE rose 3.7% YoY vs 3.6% expected; core PCE was 3.3%; the federal funds rate is 3.50%-3.75%; the market now sees a slightly higher chance of a Fed hike; the 10Y Treasury yield is about 4.64%; the 2s/30s curve closed at its flattest since the July FOMC; Boston Fed's Collins supports holding rates only if inflation keeps falling.",
+                "whyItMatters": "Higher-for-longer or a hike raises debt financing costs for AI infrastructure just as Anthropic, OpenAI, SoftBank and others are adding billions in leverage, exposing the AI boom's growing dependence on cheap capital.",
+                "processMatchReason": "No existing process in the dossier fits this macro-financial repricing signal; suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "美国7月PCE同比3.7%超预期，市场重新定价加息风险",
+                "coreFact": "7月PCE同比3.7%（预期3.6%），核心PCE 3.3%；联邦基金利率处于3.50%-3.75%；市场认为美联储加息可能性略升；10年期美债收益率约4.64%；2s/30s曲线收于7月FOMC以来最平；波士顿联储柯林斯支持维持利率不变但前提是通胀持续回落。",
+                "whyItMatters": "若美联储转向加息，AI基建的债务融资成本将上升。此时正值Anthropic、OpenAI、软银等大规模加杠杆，AI热潮的边际融资正日益依赖债务，资本成本可能成为新约束。",
+                "processMatchReason": "本档案中无既有进程完全对应此宏观金融重定价信号，故suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Personal Consumption Expenditures Price Index, July 2026",
+                "url": "https://www.bea.gov",
+                "publisher": "U.S. Bureau of Economic Analysis",
+                "publishedAt": "2026-08-26",
+                "kind": "primary",
+                "id": "candidate-002-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Fed seen a bit more likely to hike after inflation data",
+                "url": "https://www.reuters.com",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-002-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "StoneX market commentary on PCE and rates",
+                "url": "https://www.stonex.com",
+                "publisher": "StoneX",
+                "publishedAt": "2026-08-26",
+                "kind": "context",
+                "id": "candidate-002-source-3",
+                "role": "context"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "candidate-002-source-1",
+              "candidate-002-source-2"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 30,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 74,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "US July PCE at 3.7% YoY (vs 3.6% expected), core 3.3%, and market repricing toward a possible Fed hike are macroeconomically significant, especially given 10Y yields around 4.64% and a flattening curve. The relevant cross-link is that a higher-for-longer or hiking regime raises debt costs precisely as AI investors (Anthropic, OpenAI, SoftBank) add leverage, exposing the AI boom's dependence on cheap capital. But the signal is preliminary (one-month miss, 'slightly higher chance' of hike), and its chain to AI infrastructure is a second-order risk thesis rather than an established causal process. It is important now but premature to convert into a long-running process; it does not beat candidate-003 or candidate-005 for the single Global Insight.",
+              "warnings": [
+                "A single 0.1pp PCE miss is thin evidence for a policy-regime reversal",
+                "The link to AI infrastructure financing is inferential, not yet demonstrated in data",
+                "Boston Fed's Collins comments actually support holding, softening the hike signal"
+              ],
+              "candidateId": "candidate-002",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 80
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 6,
+      "selectedCandidateId": "candidate-003"
     }
   },
   "lease": {
