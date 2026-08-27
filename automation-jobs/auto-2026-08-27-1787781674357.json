@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:12:21.545Z",
+  "updatedAt": "2026-08-27T00:12:21.797Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -1078,5 +1078,10 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD research 自动重试 2/3",
+  "lease": {
+    "owner": "cron-1787789541553-5ihi709n",
+    "acquiredAt": "2026-08-27T00:12:21.797Z",
+    "expiresAt": "2026-08-27T00:17:11.797Z"
+  }
 }
