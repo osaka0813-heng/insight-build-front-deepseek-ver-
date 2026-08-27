@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-27T22:02:10.078Z",
-  "updatedAt": "2026-08-27T22:38:43.482Z",
+  "updatedAt": "2026-08-27T22:38:44.529Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "write_zh": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"全球洞察\",\"secondaryEyebrow\":\"中东 / 能源 / 安全\",\"title\":\"战争进入第六个月，一扇外交之窗开启\",\"summary\":\"随着美伊战争进入第六个月，一个具体的核问题出口显现，而动能风险依然存在。布伦特原油连续第四日下跌至约87美元，霍尔木兹海峡流量恢复到战前水平的约70%，但新的油轮遇袭显示这扇窗口可能迅速关闭。\"},\"question\":{\"lead\":\"8月27日的三个信号造就了一种罕见状态：官方外交、持续战斗和市场对局势缓和的定价同时出现。\",\"title\":\"市场的缓和交易是否跑在了外交现实前面？\",\"footnote\":\"基于截至2026年8月27日的UKMTO、美国能源部和白宫信号评估。\"},\"signals\":{\"title\":\"信号\",\"sourceNote\":\"主要来源：UKMT",
-      "updatedAt": "2026-08-27T22:38:43.482Z",
+      "message": "write_zh",
+      "updatedAt": "2026-08-27T22:38:44.529Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-28-1787868320443",
