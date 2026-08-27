@@ -6,18 +6,18 @@
   "date": "2026-08-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:14:32.247Z",
+  "updatedAt": "2026-08-27T00:16:12.861Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {
         "research": 2
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-27T00:14:32.247Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-27T00:16:12.861Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -1185,6 +1185,145 @@
           "inputTokens": 2593,
           "outputTokens": 6075,
           "cachedInputTokens": 1280
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "AI基础设施竞赛——结构性更新",
+              "title": "450亿美元天然气支持的算力租约改变AI扩展格局",
+              "summary": "Anthropic与Nscale达成为期六年、总额450亿美元的承诺，涉及西弗吉尼亚州约460MW算力，配套现场天然气发电及1.35GW一期规模，使第三方“新云”算力和化石燃料成为AI基础设施竞赛的核心部分。"
+            },
+            "question": {
+              "lead": "这是已知最大的一笔单项AI算力租约。它将天然气发电直接设在现场，使AI能源讨论超越了核能和电网扩建的范畴。",
+              "title": "AI算力现在是否已成为“租约即发电”的业务？",
+              "footnote": "基于彭博社、路透社、Blockspace和格隆汇2026年8月26日的报道。项目具体细节有待确认。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "证据来自彭博社、路透社、Blockspace和格隆汇。彭博社和路透社为付费墙内容；在直接确认之前，项目具体细节应视为“发展中”。",
+              "items": [
+                {
+                  "label": "租约",
+                  "title": "450亿美元、为期六年的Anthropic-Nscale租约",
+                  "body": "Anthropic将在六年内向Nscale支付450亿美元，租用西弗吉尼亚州Monarch站点约460MW算力；系统将于2027年底开始爬坡，采用英伟达Vera Rubin。",
+                  "whyImportant": "这是已知最大的一笔单项AI算力租约，表明前沿实验室愿意将核心算力外包。",
+                  "evidence": {
+                    "title": "Anthropic-Nscale 450亿美元算力租约",
+                    "description": "彭博社和路透社报道了西弗吉尼亚州Monarch站点为期六年、约460MW的租约。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-1",
+                      "candidate-003-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "天然气发电",
+                  "title": "现场天然气微电网",
+                  "body": "Nscale的一期规划为1.35GW，长期电力储备超过8GW，并计划到2028年初通过卡特彼勒天然气微电网实现2GW发电目标。",
+                  "whyImportant": "现场天然气发电绕过了电网并网排队，将AI算力与化石燃料供应直接挂钩，形成新的能源和政策风险面。",
+                  "evidence": {
+                    "title": "Nscale Monarch电力与天然气微电网细节",
+                    "description": "Blockspace和格隆汇的报道描述了一期规划、超过8GW的电力储备以及2GW卡特彼勒天然气微电网目标。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                },
+                {
+                  "label": "新云",
+                  "title": "跨大西洋新云结构",
+                  "body": "Nscale还与微软达成1.35GW的意向书（LOI），并为其挪威纳尔维克数据中心完成了7.9亿美元的项目融资。",
+                  "whyImportant": "微软的意向书和纳尔维克融资表明Nscale并不是为单一客户建设；它正在成为多租户、跨大西洋的AI基础设施提供商，使新云模式更加稳固。",
+                  "evidence": {
+                    "title": "微软意向书与纳尔维克融资",
+                    "description": "Blockspace和格隆汇报道了1.35GW微软意向书和7.9亿美元纳尔维克项目融资。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从并网自建到天然气支持的租约即发电",
+              "before": "超大规模AI算力此前主要由大型实验室自建或直接签约，通过电网并网及长期核电或可再生能源协议保障电力；算力增长与公用事业时间表和低碳电力供应紧密绑定。",
+              "shift": "Anthropic与Nscale签订为期六年、总额450亿美元的租约，租用西弗吉尼亚州Monarch站点约460MW算力，一期规划1.35GW，并计划到2028年初实现2GW卡特彼勒天然气微电网发电目标，这将第三方“新云”算力和现场天然气发电带入超大规模AI的核心。",
+              "now": "AI算力越来越多地通过第三方算力租约获得融资和供给，这些租约与专用发电设施（包括化石天然气）同址建设，使算力部署摆脱电网并网限制，并将能源战略扩展到核能和电网扩建之外。",
+              "conclusion": "结构性问题已不再只是总兆瓦数，而是谁拥有产能、物理上配套何种发电方式。观察“租约即发电”是否会成为前沿实验室的默认路径，以及天然气微电网是否会引发新的政策和ESG摩擦。"
+            },
+            "insight": {
+              "title": "租约即发电是新的AI瓶颈",
+              "formula": "第三方算力租约 + 现场天然气发电 = 解耦的AI产能增长",
+              "explanation": "Anthropic对Nscale的450亿美元承诺将算力采购与专用能源供应合二为一。前沿实验室无需等待电网并网，即可购买与天然气微电网捆绑的算力。这使瓶颈从公用事业时间表转向资本和燃料供应，并让天然气成为AI基础设施的一级变量。"
+            },
+            "observe": {
+              "title": "观察要点",
+              "items": [
+                {
+                  "label": "合同",
+                  "prompt": "跟踪Anthropic-Nscale及类似微软-Nscale协议的合同备案和产能爬坡里程碑。",
+                  "meta": "AI基础设施、合同"
+                },
+                {
+                  "label": "天然气微电网",
+                  "prompt": "关注Monarch及其他Nscale天然气供电站点的许可、排放报告以及社区或政治阻力。",
+                  "meta": "能源、政策"
+                },
+                {
+                  "label": "竞争对手",
+                  "prompt": "关注其他前沿实验室是否宣布与专用发电同址的大型第三方算力租约。",
+                  "meta": "AI基础设施、金融"
+                },
+                {
+                  "label": "并网与离网",
+                  "prompt": "在未来两个季度，比较已公布的离网天然气发电容量与并网的可再生能源或核电项目。",
+                  "meta": "能源、结构性"
+                }
+              ],
+              "ending": "如果更多前沿实验室效仿Anthropic采用天然气支持的新云租约，AI基础设施竞赛将被重新定价，核心变量将变为天然气和私人资本的可得性，而非电网并网排队。"
+            }
+          },
+          "dailyState": {
+            "label": "全球洞察——发布",
+            "decisionTitle": "在AI基础设施竞赛下发布新的全球洞察",
+            "decisionSummary": "Anthropic-Nscale这笔为期六年、总额450亿美元且配套现场天然气发电的算力租约，是已知最大的一笔单项AI算力租约，在结构上更新了AI基础设施竞赛。",
+            "thresholdReason": "重大变化评分85；触发与背景来源为彭博社、路透社、Blockspace和格隆汇；将天然气引入超大规模AI，并使新云模式更加稳固。",
+            "observeNext": [
+              "跟踪Anthropic-Nscale和微软-Nscale协议中的产能爬坡与合同备案",
+              "关注Monarch及其他Nscale站点的天然气微电网许可和当地反对声音",
+              "关注其他前沿实验室是否签署带专用发电的大型第三方算力租约",
+              "比较离网天然气发电容量与并网可再生能源或核电项目"
+            ]
+          },
+          "processContent": {
+            "title": "AI基础设施竞赛——结构性更新",
+            "description": "该进程现在包含一个新的结构分支：前沿实验室正在签署与现场专用天然气发电同址的多年期、数十亿美元第三方算力租约，Anthropic-Nscale协议即为例证。这使天然气和新云融资成为AI基础设施竞赛中的一级变量。",
+            "implication": "持久的AI优势可能越来越依赖通过“租约即发电”安排获得私人资本和燃料供应，而不仅仅是电网并网或核电时间表。这可能加速产能部署，但也会带来新的政策、碳和地缘政治摩擦。"
+          },
+          "nextQuestion": "Anthropic-Nscale的“租约即发电”模式是否会成为前沿AI实验室的默认路径？它又将如何重塑能源安全、天然气市场和AI建设时间表？",
+          "observeNext": [
+            "跟踪Anthropic-Nscale及类似微软-Nscale协议中的合同备案和产能爬坡里程碑",
+            "关注Monarch及其他Nscale天然气供电站点的许可、排放报告及社区或政治阻力",
+            "关注其他前沿实验室是否宣布与专用发电同址的大型第三方算力租约",
+            "在未来两个季度，比较已公布的离网天然气发电容量与并网可再生能源或核电项目"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2915,
+          "outputTokens": 6157,
+          "cachedInputTokens": 2816
         }
       }
     }
