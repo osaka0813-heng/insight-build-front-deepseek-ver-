@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:06:43.216Z",
+  "updatedAt": "2026-08-27T00:06:44.015Z",
   "scopes": {
     "global": {
       "status": "running",
@@ -17,7 +17,7 @@
         "research": 2
       },
       "message": "research",
-      "updatedAt": "2026-08-26T22:38:33.304Z",
+      "updatedAt": "2026-08-27T00:06:44.015Z",
       "failedStage": "research"
     }
   },
