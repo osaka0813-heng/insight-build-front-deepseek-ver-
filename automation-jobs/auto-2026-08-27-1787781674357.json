@@ -2,22 +2,22 @@
   "id": "auto-2026-08-27-1787781674357",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-08-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:16:16.126Z",
+  "updatedAt": "2026-08-27T00:16:19.963Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 2
       },
-      "message": "publish",
-      "updatedAt": "2026-08-27T00:16:16.126Z",
+      "message": "已发布",
+      "updatedAt": "2026-08-27T00:16:19.963Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -1808,7 +1808,10 @@
           "outputTokens": 12232,
           "cachedInputTokens": 4096
         }
-      }
+      },
+      "insightId": "candidate-003",
+      "contentVersion": "publish-candidate-003-1787789778966",
+      "completedAt": "2026-08-27T00:16:19.963Z"
     }
   },
   "preflight": {
@@ -1843,10 +1846,11 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1787789541553-5ihi709n",
     "acquiredAt": "2026-08-27T00:12:21.797Z",
     "expiresAt": "2026-08-27T00:17:11.797Z"
-  }
+  },
+  "completedAt": "2026-08-27T00:16:19.963Z"
 }
