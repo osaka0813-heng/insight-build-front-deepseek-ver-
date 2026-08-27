@@ -1,8 +1,381 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T22:39:37.550Z",
-  "contentVersion": "publish-global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit-1787697578560",
+  "generatedAt": "2026-08-27T00:16:17.936Z",
+  "contentVersion": "publish-candidate-003-1787789778966",
   "insights": [
+    {
+      "id": "candidate-003",
+      "scope": "global",
+      "slug": "anthropic-nscale-45b-compute-lease-gas-power",
+      "status": "publish_new",
+      "parentInsightId": "process-ai-infrastructure-race",
+      "processId": "process-ai-infrastructure-race",
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "updatedAt": "2026-08-27T00:16:14.894Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Global Insight",
+            "secondaryEyebrow": "AI infrastructure race — structural update",
+            "title": "The $45B gas-backed compute lease that changes AI scaling",
+            "summary": "Anthropic's six-year, $45B commitment to Nscale for ~460MW in West Virginia—with on-site natural gas generation and a 1.35GW first phase—makes third-party 'neocloud' compute and fossil fuel a core part of the AI infrastructure race."
+          },
+          "question": {
+            "lead": "This is the largest known single AI compute lease. It moves the AI energy debate beyond nuclear and grid extension by putting natural gas generation directly on site.",
+            "title": "Is AI compute now a lease-to-generate business?",
+            "footnote": "Based on Bloomberg, Reuters, Blockspace, and Gelonghui reporting from August 26, 2026. Site-specific details should be confirmed."
+          },
+          "signals": {
+            "title": "Signals",
+            "sourceNote": "Evidence from Bloomberg, Reuters, Blockspace, and Gelonghui. Bloomberg and Reuters are paywalled; treat site specifics as developing until directly confirmed.",
+            "items": [
+              {
+                "id": "candidate-003-signal-1",
+                "label": "Lease",
+                "title": "$45B, six-year Anthropic-Nscale lease",
+                "body": "Anthropic will pay Nscale $45B over six years for ~460MW at the Monarch site in West Virginia, with systems ramping in late 2027 using Nvidia Vera Rubin.",
+                "whyImportant": "This is the largest known single AI compute lease and signals frontier labs are willing to outsource core compute capacity.",
+                "evidence": [
+                  {
+                    "id": "candidate-003-evidence-1",
+                    "title": "Anthropic-Nscale $45 billion compute lease",
+                    "description": "Bloomberg and Reuters report the six-year ~460MW lease at Monarch, West Virginia.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-1",
+                      "candidate-003-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-003-source-1",
+                    "title": "Anthropic-Nscale $45 billion compute lease",
+                    "publisher": "Bloomberg",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.bloomberg.com",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "candidate-003-source-3",
+                    "title": "Anthropic-Nscale deal report",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.reuters.com",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-003-signal-2",
+                "label": "Gas power",
+                "title": "On-site natural gas microgrids",
+                "body": "Nscale's Phase 1 plans 1.35GW with a long-term power runway of over 8GW and a target of 2GW from Caterpillar gas microgrid generation by early 2028.",
+                "whyImportant": "On-site gas generation bypasses grid interconnection queues and directly ties AI capacity to fossil fuel supply, creating a new energy and policy risk surface.",
+                "evidence": [
+                  {
+                    "id": "candidate-003-evidence-2",
+                    "title": "Nscale Monarch power and gas microgrid details",
+                    "description": "Blockspace and Gelonghui context describe Phase 1 plans, the >8GW runway, and the 2GW Caterpillar gas microgrid target.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-003-source-2",
+                    "title": "Nscale Monarch details and Microsoft LOI",
+                    "publisher": "Blockspace",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://blockspace.media",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  },
+                  {
+                    "id": "candidate-003-source-4",
+                    "title": "Anthropic与Nscale交易报道",
+                    "publisher": "格隆汇",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.gelonghui.com",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-003-signal-3",
+                "label": "Neocloud",
+                "title": "Cross-Atlantic neocloud structure",
+                "body": "Nscale also has a 1.35GW LOI with Microsoft and closed $790M project financing for its Narvik, Norway data center.",
+                "whyImportant": "The Microsoft LOI and Narvik financing show Nscale is not a one-customer build; it is becoming a multi-tenant, cross-Atlantic AI infrastructure provider, entrenching the neocloud model.",
+                "evidence": [
+                  {
+                    "id": "candidate-003-evidence-3",
+                    "title": "Microsoft LOI and Narvik financing",
+                    "description": "Blockspace and Gelonghui report the 1.35GW Microsoft LOI and $790M Narvik project financing.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-003-source-2",
+                    "title": "Nscale Monarch details and Microsoft LOI",
+                    "publisher": "Blockspace",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://blockspace.media",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  },
+                  {
+                    "id": "candidate-003-source-4",
+                    "title": "Anthropic与Nscale交易报道",
+                    "publisher": "格隆汇",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.gelonghui.com",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From grid-coupled self-build to gas-backed lease-to-generate",
+            "before": "Hyperscale AI capacity was mostly self-built or directly contracted by large labs, with power secured through grid interconnections and long-term nuclear or renewable agreements; compute growth was coupled to utility timelines and low-carbon power availability.",
+            "shift": "Anthropic's $45B, six-year lease of ~460MW from Nscale at Monarch, West Virginia, with Phase 1 planned at 1.35GW and a target 2GW of Caterpillar gas microgrid generation by early 2028, brings third-party 'neocloud' compute and on-site natural gas generation into the core of hyperscale AI.",
+            "now": "AI capacity is increasingly financed and provisioned through third-party compute leases co-located with dedicated generation, including fossil gas, decoupling compute deployment from grid interconnection and broadening the energy strategy beyond nuclear and grid extension.",
+            "conclusion": "The structural issue is no longer just total megawatts; it is who owns the capacity and what generation is physically attached. Watch whether lease-to-generate becomes the default route for frontier labs and whether gas microgrids trigger new policy and ESG friction."
+          },
+          "insight": {
+            "title": "Lease-to-generate is the new AI bottleneck",
+            "formula": "Third-party compute lease + on-site gas generation = decoupled AI capacity growth",
+            "explanation": "Anthropic's $45B commitment to Nscale fuses compute procurement with dedicated energy supply. Instead of waiting on grid interconnection, frontier labs can buy capacity bundled with gas microgrids. This shifts the bottleneck from utility timelines to capital and fuel availability, and makes natural gas a first-class AI infrastructure variable."
+          },
+          "observe": {
+            "title": "What to watch",
+            "items": [
+              {
+                "label": "Contracts",
+                "prompt": "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements.",
+                "meta": "AI infrastructure, contracts"
+              },
+              {
+                "label": "Gas microgrids",
+                "prompt": "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites.",
+                "meta": "Energy, policy"
+              },
+              {
+                "label": "Competitors",
+                "prompt": "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation.",
+                "meta": "AI infrastructure, finance"
+              },
+              {
+                "label": "Grid vs. off-grid",
+                "prompt": "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters.",
+                "meta": "Energy, structural"
+              }
+            ],
+            "ending": "If more frontier labs follow Anthropic into gas-backed neocloud leases, the AI infrastructure race will be re-priced around natural gas and private capital availability rather than grid interconnection queues."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "全球洞察",
+            "secondaryEyebrow": "AI基础设施竞赛——结构性更新",
+            "title": "450亿美元天然气支持的算力租约改变AI扩展格局",
+            "summary": "Anthropic与Nscale达成为期六年、总额450亿美元的承诺，涉及西弗吉尼亚州约460MW算力，配套现场天然气发电及1.35GW一期规模，使第三方“新云”算力和化石燃料成为AI基础设施竞赛的核心部分。"
+          },
+          "question": {
+            "lead": "这是已知最大的一笔单项AI算力租约。它将天然气发电直接设在现场，使AI能源讨论超越了核能和电网扩建的范畴。",
+            "title": "AI算力现在是否已成为“租约即发电”的业务？",
+            "footnote": "基于彭博社、路透社、Blockspace和格隆汇2026年8月26日的报道。项目具体细节有待确认。"
+          },
+          "signals": {
+            "title": "信号",
+            "sourceNote": "证据来自彭博社、路透社、Blockspace和格隆汇。彭博社和路透社为付费墙内容；在直接确认之前，项目具体细节应视为“发展中”。",
+            "items": [
+              {
+                "id": "candidate-003-signal-1",
+                "label": "租约",
+                "title": "450亿美元、为期六年的Anthropic-Nscale租约",
+                "body": "Anthropic将在六年内向Nscale支付450亿美元，租用西弗吉尼亚州Monarch站点约460MW算力；系统将于2027年底开始爬坡，采用英伟达Vera Rubin。",
+                "whyImportant": "这是已知最大的一笔单项AI算力租约，表明前沿实验室愿意将核心算力外包。",
+                "evidence": [
+                  {
+                    "id": "candidate-003-evidence-1",
+                    "title": "Anthropic-Nscale 450亿美元算力租约",
+                    "description": "彭博社和路透社报道了西弗吉尼亚州Monarch站点为期六年、约460MW的租约。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-1",
+                      "candidate-003-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-003-source-1",
+                    "title": "Anthropic-Nscale $45 billion compute lease",
+                    "publisher": "Bloomberg",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.bloomberg.com",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "candidate-003-source-3",
+                    "title": "Anthropic-Nscale deal report",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.reuters.com",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-003-signal-2",
+                "label": "天然气发电",
+                "title": "现场天然气微电网",
+                "body": "Nscale的一期规划为1.35GW，长期电力储备超过8GW，并计划到2028年初通过卡特彼勒天然气微电网实现2GW发电目标。",
+                "whyImportant": "现场天然气发电绕过了电网并网排队，将AI算力与化石燃料供应直接挂钩，形成新的能源和政策风险面。",
+                "evidence": [
+                  {
+                    "id": "candidate-003-evidence-2",
+                    "title": "Nscale Monarch电力与天然气微电网细节",
+                    "description": "Blockspace和格隆汇的报道描述了一期规划、超过8GW的电力储备以及2GW卡特彼勒天然气微电网目标。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-003-source-2",
+                    "title": "Nscale Monarch details and Microsoft LOI",
+                    "publisher": "Blockspace",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://blockspace.media",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  },
+                  {
+                    "id": "candidate-003-source-4",
+                    "title": "Anthropic与Nscale交易报道",
+                    "publisher": "格隆汇",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.gelonghui.com",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              },
+              {
+                "id": "candidate-003-signal-3",
+                "label": "新云",
+                "title": "跨大西洋新云结构",
+                "body": "Nscale还与微软达成1.35GW的意向书（LOI），并为其挪威纳尔维克数据中心完成了7.9亿美元的项目融资。",
+                "whyImportant": "微软的意向书和纳尔维克融资表明Nscale并不是为单一客户建设；它正在成为多租户、跨大西洋的AI基础设施提供商，使新云模式更加稳固。",
+                "evidence": [
+                  {
+                    "id": "candidate-003-evidence-3",
+                    "title": "微软意向书与纳尔维克融资",
+                    "description": "Blockspace和格隆汇报道了1.35GW微软意向书和7.9亿美元纳尔维克项目融资。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "candidate-003-source-2",
+                    "title": "Nscale Monarch details and Microsoft LOI",
+                    "publisher": "Blockspace",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://blockspace.media",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  },
+                  {
+                    "id": "candidate-003-source-4",
+                    "title": "Anthropic与Nscale交易报道",
+                    "publisher": "格隆汇",
+                    "publishedAt": "2026-08-26",
+                    "url": "https://www.gelonghui.com",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从并网自建到天然气支持的租约即发电",
+            "before": "超大规模AI算力此前主要由大型实验室自建或直接签约，通过电网并网及长期核电或可再生能源协议保障电力；算力增长与公用事业时间表和低碳电力供应紧密绑定。",
+            "shift": "Anthropic与Nscale签订为期六年、总额450亿美元的租约，租用西弗吉尼亚州Monarch站点约460MW算力，一期规划1.35GW，并计划到2028年初实现2GW卡特彼勒天然气微电网发电目标，这将第三方“新云”算力和现场天然气发电带入超大规模AI的核心。",
+            "now": "AI算力越来越多地通过第三方算力租约获得融资和供给，这些租约与专用发电设施（包括化石天然气）同址建设，使算力部署摆脱电网并网限制，并将能源战略扩展到核能和电网扩建之外。",
+            "conclusion": "结构性问题已不再只是总兆瓦数，而是谁拥有产能、物理上配套何种发电方式。观察“租约即发电”是否会成为前沿实验室的默认路径，以及天然气微电网是否会引发新的政策和ESG摩擦。"
+          },
+          "insight": {
+            "title": "租约即发电是新的AI瓶颈",
+            "formula": "第三方算力租约 + 现场天然气发电 = 解耦的AI产能增长",
+            "explanation": "Anthropic对Nscale的450亿美元承诺将算力采购与专用能源供应合二为一。前沿实验室无需等待电网并网，即可购买与天然气微电网捆绑的算力。这使瓶颈从公用事业时间表转向资本和燃料供应，并让天然气成为AI基础设施的一级变量。"
+          },
+          "observe": {
+            "title": "观察要点",
+            "items": [
+              {
+                "label": "合同",
+                "prompt": "跟踪Anthropic-Nscale及类似微软-Nscale协议的合同备案和产能爬坡里程碑。",
+                "meta": "AI基础设施、合同"
+              },
+              {
+                "label": "天然气微电网",
+                "prompt": "关注Monarch及其他Nscale天然气供电站点的许可、排放报告以及社区或政治阻力。",
+                "meta": "能源、政策"
+              },
+              {
+                "label": "竞争对手",
+                "prompt": "关注其他前沿实验室是否宣布与专用发电同址的大型第三方算力租约。",
+                "meta": "AI基础设施、金融"
+              },
+              {
+                "label": "并网与离网",
+                "prompt": "在未来两个季度，比较已公布的离网天然气发电容量与并网的可再生能源或核电项目。",
+                "meta": "能源、结构性"
+              }
+            ],
+            "ending": "如果更多前沿实验室效仿Anthropic采用天然气支持的新云租约，AI基础设施竞赛将被重新定价，核心变量将变为天然气和私人资本的可得性，而非电网并网排队。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-08-25-loosening-and-tightening-collide-before-the-sept-24-summit",
       "scope": "global",
@@ -3532,8 +3905,9 @@
       "status": "accelerating",
       "confidence": "verified",
       "startedAt": "2026-07-01T00:00:00+09:00",
-      "updatedAt": "2026-08-24T00:15:36.503Z",
+      "updatedAt": "2026-08-27T00:16:14.894Z",
       "insightIds": [
+        "candidate-003",
         "global-2026-08-20-ai-financing-collides-with-sovereign-debt-markets",
         "global-2026-08-01-doe-taps-brookfield-for-paducah-ai-campus-nextera-to-build-2-gw-gas-2-6-",
         "global-2026-07-26-capacity-update",
@@ -3563,6 +3937,29 @@
         }
       ],
       "evolution": [
+        {
+          "id": "evolution-candidate-003",
+          "date": "2026-08-26",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "candidate-003",
+          "content": {
+            "en": {
+              "title": "AI infrastructure race — structural update",
+              "description": "The process now includes a new structural branch: frontier labs are signing multi-year, multi-billion-dollar third-party compute leases co-located with dedicated on-site gas generation, as seen in the Anthropic-Nscale agreement. This adds natural gas and neocloud financing as first-class variables in the AI infrastructure race.",
+              "implication": "Durable AI advantage may increasingly depend on access to private capital and fuel supply through lease-to-generate arrangements, not solely on grid interconnection or nuclear timetables. This could accelerate capacity deployment but also create new policy, carbon, and geopolitical frictions."
+            },
+            "zh": {
+              "title": "AI基础设施竞赛——结构性更新",
+              "description": "该进程现在包含一个新的结构分支：前沿实验室正在签署与现场专用天然气发电同址的多年期、数十亿美元第三方算力租约，Anthropic-Nscale协议即为例证。这使天然气和新云融资成为AI基础设施竞赛中的一级变量。",
+              "implication": "持久的AI优势可能越来越依赖通过“租约即发电”安排获得私人资本和燃料供应，而不仅仅是电网并网或核电时间表。这可能加速产能部署，但也会带来新的政策、碳和地缘政治摩擦。"
+            }
+          },
+          "previousStage": "structural",
+          "changeType": "new_evidence",
+          "confidenceDelta": 1,
+          "evidenceIds": []
+        },
         {
           "id": "evolution-sig-2026-08-24-ai-debt-meets-sovereign-bond",
           "date": "2026-08-20",
@@ -3752,7 +4149,7 @@
           "title": "The AI infrastructure race",
           "summary": "AI competition is expanding from model quality into control of power, compute, land and distribution.",
           "thesis": "The durable advantage may belong to companies that can repeatedly convert intelligence into dependable, large-scale capacity.",
-          "nextQuestion": "Will AI infrastructure issuers reprice to sovereign debt yields, or will sovereign debt tools adapt to absorb AI financing demand?",
+          "nextQuestion": "Will the Anthropic-Nscale lease-to-generate model become the default route for frontier AI labs, and how will it reshape energy security, natural gas markets, and AI buildout timelines?",
           "domains": [
             "AI",
             "Energy",
@@ -3763,17 +4160,17 @@
           "currentStageLabel": "Industrial finance",
           "stageSummary": "AI expansion is becoming a bankable industrial system combining guarantees, dedicated power, land, construction and policy.",
           "observeNext": [
-            "Watch Anthropic's October IPO filing and initial pricing against a ~5.25% 30-year yield.",
-            "Watch Broadcom's final debt raise size and spread versus the $60–100B talks.",
-            "Watch whether the US Treasury expands buybacks after the Aug 20 long-end yield return.",
-            "Watch the Fed's next minutes and speeches for AI credit risk and reserve-management purchase decisions."
+            "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements",
+            "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites",
+            "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation",
+            "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters"
           ]
         },
         "zh": {
           "title": "AI基础设施竞赛",
           "summary": "AI竞争正在从模型质量，扩展到对电力、算力、土地和分发能力的控制。",
           "thesis": "更持久的优势，可能属于那些能够持续把智能转化为稳定、大规模供给能力的企业。",
-          "nextQuestion": "AI基础设施发行人是会按照主权债务收益率重新定价，还是主权债务工具会调整以适应AI融资需求？",
+          "nextQuestion": "Anthropic-Nscale的“租约即发电”模式是否会成为前沿AI实验室的默认路径？它又将如何重塑能源安全、天然气市场和AI建设时间表？",
           "domains": [
             "人工智能",
             "能源",
@@ -3784,10 +4181,10 @@
           "currentStageLabel": "工业融资期",
           "stageSummary": "AI扩张正成为由担保、专用能源、土地、工程建设与政策共同组成的可融资工业系统。",
           "observeNext": [
-            "关注Anthropic 10月IPO文件和初始定价，对照约5.25%的30年期收益率。",
-            "关注博通最终债务融资规模和利差，对照600亿至1000亿美元谈判。",
-            "关注8月20日长端收益率回升后，美国财政部是否扩大回购。",
-            "关注美联储下一次会议纪要和讲话中关于AI信用风险及储备管理购买的决定。"
+            "跟踪Anthropic-Nscale及类似微软-Nscale协议中的合同备案和产能爬坡里程碑",
+            "关注Monarch及其他Nscale天然气供电站点的许可、排放报告及社区或政治阻力",
+            "关注其他前沿实验室是否宣布与专用发电同址的大型第三方算力租约",
+            "在未来两个季度，比较已公布的离网天然气发电容量与并网可再生能源或核电项目"
           ]
         },
         "ja": {
@@ -3819,7 +4216,8 @@
         "global-2026-07-26-capacity-update",
         "global-2026-07-29-capacity",
         "global-2026-07-31-industrial-ai",
-        "global-2026-08-20-ai-financing-collides-with-sovereign-debt-markets"
+        "global-2026-08-20-ai-financing-collides-with-sovereign-debt-markets",
+        "candidate-003"
       ],
       "contradictingInsightIds": [],
       "keyActors": [],
@@ -3830,10 +4228,10 @@
         "Physical Infrastructure"
       ],
       "nextSignals": [
-        "Watch Anthropic's October IPO filing and initial pricing against a ~5.25% 30-year yield.",
-        "Watch Broadcom's final debt raise size and spread versus the $60–100B talks.",
-        "Watch whether the US Treasury expands buybacks after the Aug 20 long-end yield return.",
-        "Watch the Fed's next minutes and speeches for AI credit risk and reserve-management purchase decisions."
+        "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements",
+        "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites",
+        "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation",
+        "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters"
       ],
       "confidenceScore": 85
     },
@@ -4469,6 +4867,48 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-global-2026-08-26",
+      "scope": "global",
+      "date": "2026-08-26",
+      "decidedAt": "2026-08-27T00:16:14.894Z",
+      "state": "publish_new",
+      "insightId": "candidate-003",
+      "processId": "process-ai-infrastructure-race",
+      "materialChangeScore": 85,
+      "evidenceStrength": 82,
+      "noveltyScore": 88,
+      "importanceScore": 90,
+      "candidateSignalIds": [
+        "candidate-003"
+      ],
+      "content": {
+        "en": {
+          "label": "Global Insight — publish",
+          "decisionTitle": "Publish new Global Insight under AI infrastructure race",
+          "decisionSummary": "The Anthropic-Nscale $45B, six-year compute lease with on-site gas generation is the largest known single AI compute lease and structurally updates the AI infrastructure race.",
+          "thresholdReason": "Material change score 85; trigger and context sources from Bloomberg, Reuters, Blockspace, and Gelonghui; introduces natural gas into hyperscale AI and entrenches neocloud model.",
+          "observeNext": [
+            "Track capacity ramp and contract filings for Anthropic-Nscale and Microsoft-Nscale agreements",
+            "Watch for gas microgrid permits and local opposition at Monarch and other Nscale sites",
+            "Monitor other frontier labs for large third-party compute leases with dedicated generation",
+            "Compare off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects"
+          ]
+        },
+        "zh": {
+          "label": "全球洞察——发布",
+          "decisionTitle": "在AI基础设施竞赛下发布新的全球洞察",
+          "decisionSummary": "Anthropic-Nscale这笔为期六年、总额450亿美元且配套现场天然气发电的算力租约，是已知最大的一笔单项AI算力租约，在结构上更新了AI基础设施竞赛。",
+          "thresholdReason": "重大变化评分85；触发与背景来源为彭博社、路透社、Blockspace和格隆汇；将天然气引入超大规模AI，并使新云模式更加稳固。",
+          "observeNext": [
+            "跟踪Anthropic-Nscale和微软-Nscale协议中的产能爬坡与合同备案",
+            "关注Monarch及其他Nscale站点的天然气微电网许可和当地反对声音",
+            "关注其他前沿实验室是否签署带专用发电的大型第三方算力租约",
+            "比较离网天然气发电容量与并网可再生能源或核电项目"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-global-2026-08-25",
       "scope": "global",
@@ -5153,6 +5593,498 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-candidate-003-1787789774894",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-08-27T00:16:14.894Z",
+      "researchDraftId": "research-global-2026-08-27-1787789438855",
+      "candidateId": "candidate-003",
+      "model": "deepseek-v4-pro + deepseek-v4-flash",
+      "dailyState": "publish_new",
+      "matchedProcessId": "process-ai-infrastructure-race",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": true,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "candidate-003",
+        "scope": "global",
+        "slug": "anthropic-nscale-45b-compute-lease-gas-power",
+        "status": "publish_new",
+        "parentInsightId": "process-ai-infrastructure-race",
+        "processId": "process-ai-infrastructure-race",
+        "publishedAt": "2026-08-26T00:00:00.000Z",
+        "updatedAt": "2026-08-27T00:16:14.894Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "AI infrastructure race — structural update",
+              "title": "The $45B gas-backed compute lease that changes AI scaling",
+              "summary": "Anthropic's six-year, $45B commitment to Nscale for ~460MW in West Virginia—with on-site natural gas generation and a 1.35GW first phase—makes third-party 'neocloud' compute and fossil fuel a core part of the AI infrastructure race."
+            },
+            "question": {
+              "lead": "This is the largest known single AI compute lease. It moves the AI energy debate beyond nuclear and grid extension by putting natural gas generation directly on site.",
+              "title": "Is AI compute now a lease-to-generate business?",
+              "footnote": "Based on Bloomberg, Reuters, Blockspace, and Gelonghui reporting from August 26, 2026. Site-specific details should be confirmed."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Evidence from Bloomberg, Reuters, Blockspace, and Gelonghui. Bloomberg and Reuters are paywalled; treat site specifics as developing until directly confirmed.",
+              "items": [
+                {
+                  "id": "candidate-003-signal-1",
+                  "label": "Lease",
+                  "title": "$45B, six-year Anthropic-Nscale lease",
+                  "body": "Anthropic will pay Nscale $45B over six years for ~460MW at the Monarch site in West Virginia, with systems ramping in late 2027 using Nvidia Vera Rubin.",
+                  "whyImportant": "This is the largest known single AI compute lease and signals frontier labs are willing to outsource core compute capacity.",
+                  "evidence": [
+                    {
+                      "id": "candidate-003-evidence-1",
+                      "title": "Anthropic-Nscale $45 billion compute lease",
+                      "description": "Bloomberg and Reuters report the six-year ~460MW lease at Monarch, West Virginia.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-003-source-1",
+                        "candidate-003-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-003-source-1",
+                      "title": "Anthropic-Nscale $45 billion compute lease",
+                      "publisher": "Bloomberg",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.bloomberg.com",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "candidate-003-source-3",
+                      "title": "Anthropic-Nscale deal report",
+                      "publisher": "Reuters",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.reuters.com",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-003-signal-2",
+                  "label": "Gas power",
+                  "title": "On-site natural gas microgrids",
+                  "body": "Nscale's Phase 1 plans 1.35GW with a long-term power runway of over 8GW and a target of 2GW from Caterpillar gas microgrid generation by early 2028.",
+                  "whyImportant": "On-site gas generation bypasses grid interconnection queues and directly ties AI capacity to fossil fuel supply, creating a new energy and policy risk surface.",
+                  "evidence": [
+                    {
+                      "id": "candidate-003-evidence-2",
+                      "title": "Nscale Monarch power and gas microgrid details",
+                      "description": "Blockspace and Gelonghui context describe Phase 1 plans, the >8GW runway, and the 2GW Caterpillar gas microgrid target.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-003-source-2",
+                        "candidate-003-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-003-source-2",
+                      "title": "Nscale Monarch details and Microsoft LOI",
+                      "publisher": "Blockspace",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://blockspace.media",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    },
+                    {
+                      "id": "candidate-003-source-4",
+                      "title": "Anthropic与Nscale交易报道",
+                      "publisher": "格隆汇",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.gelonghui.com",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-003-signal-3",
+                  "label": "Neocloud",
+                  "title": "Cross-Atlantic neocloud structure",
+                  "body": "Nscale also has a 1.35GW LOI with Microsoft and closed $790M project financing for its Narvik, Norway data center.",
+                  "whyImportant": "The Microsoft LOI and Narvik financing show Nscale is not a one-customer build; it is becoming a multi-tenant, cross-Atlantic AI infrastructure provider, entrenching the neocloud model.",
+                  "evidence": [
+                    {
+                      "id": "candidate-003-evidence-3",
+                      "title": "Microsoft LOI and Narvik financing",
+                      "description": "Blockspace and Gelonghui report the 1.35GW Microsoft LOI and $790M Narvik project financing.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-003-source-2",
+                        "candidate-003-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-003-source-2",
+                      "title": "Nscale Monarch details and Microsoft LOI",
+                      "publisher": "Blockspace",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://blockspace.media",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    },
+                    {
+                      "id": "candidate-003-source-4",
+                      "title": "Anthropic与Nscale交易报道",
+                      "publisher": "格隆汇",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.gelonghui.com",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From grid-coupled self-build to gas-backed lease-to-generate",
+              "before": "Hyperscale AI capacity was mostly self-built or directly contracted by large labs, with power secured through grid interconnections and long-term nuclear or renewable agreements; compute growth was coupled to utility timelines and low-carbon power availability.",
+              "shift": "Anthropic's $45B, six-year lease of ~460MW from Nscale at Monarch, West Virginia, with Phase 1 planned at 1.35GW and a target 2GW of Caterpillar gas microgrid generation by early 2028, brings third-party 'neocloud' compute and on-site natural gas generation into the core of hyperscale AI.",
+              "now": "AI capacity is increasingly financed and provisioned through third-party compute leases co-located with dedicated generation, including fossil gas, decoupling compute deployment from grid interconnection and broadening the energy strategy beyond nuclear and grid extension.",
+              "conclusion": "The structural issue is no longer just total megawatts; it is who owns the capacity and what generation is physically attached. Watch whether lease-to-generate becomes the default route for frontier labs and whether gas microgrids trigger new policy and ESG friction."
+            },
+            "insight": {
+              "title": "Lease-to-generate is the new AI bottleneck",
+              "formula": "Third-party compute lease + on-site gas generation = decoupled AI capacity growth",
+              "explanation": "Anthropic's $45B commitment to Nscale fuses compute procurement with dedicated energy supply. Instead of waiting on grid interconnection, frontier labs can buy capacity bundled with gas microgrids. This shifts the bottleneck from utility timelines to capital and fuel availability, and makes natural gas a first-class AI infrastructure variable."
+            },
+            "observe": {
+              "title": "What to watch",
+              "items": [
+                {
+                  "label": "Contracts",
+                  "prompt": "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements.",
+                  "meta": "AI infrastructure, contracts"
+                },
+                {
+                  "label": "Gas microgrids",
+                  "prompt": "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites.",
+                  "meta": "Energy, policy"
+                },
+                {
+                  "label": "Competitors",
+                  "prompt": "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation.",
+                  "meta": "AI infrastructure, finance"
+                },
+                {
+                  "label": "Grid vs. off-grid",
+                  "prompt": "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters.",
+                  "meta": "Energy, structural"
+                }
+              ],
+              "ending": "If more frontier labs follow Anthropic into gas-backed neocloud leases, the AI infrastructure race will be re-priced around natural gas and private capital availability rather than grid interconnection queues."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "AI基础设施竞赛——结构性更新",
+              "title": "450亿美元天然气支持的算力租约改变AI扩展格局",
+              "summary": "Anthropic与Nscale达成为期六年、总额450亿美元的承诺，涉及西弗吉尼亚州约460MW算力，配套现场天然气发电及1.35GW一期规模，使第三方“新云”算力和化石燃料成为AI基础设施竞赛的核心部分。"
+            },
+            "question": {
+              "lead": "这是已知最大的一笔单项AI算力租约。它将天然气发电直接设在现场，使AI能源讨论超越了核能和电网扩建的范畴。",
+              "title": "AI算力现在是否已成为“租约即发电”的业务？",
+              "footnote": "基于彭博社、路透社、Blockspace和格隆汇2026年8月26日的报道。项目具体细节有待确认。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "证据来自彭博社、路透社、Blockspace和格隆汇。彭博社和路透社为付费墙内容；在直接确认之前，项目具体细节应视为“发展中”。",
+              "items": [
+                {
+                  "id": "candidate-003-signal-1",
+                  "label": "租约",
+                  "title": "450亿美元、为期六年的Anthropic-Nscale租约",
+                  "body": "Anthropic将在六年内向Nscale支付450亿美元，租用西弗吉尼亚州Monarch站点约460MW算力；系统将于2027年底开始爬坡，采用英伟达Vera Rubin。",
+                  "whyImportant": "这是已知最大的一笔单项AI算力租约，表明前沿实验室愿意将核心算力外包。",
+                  "evidence": [
+                    {
+                      "id": "candidate-003-evidence-1",
+                      "title": "Anthropic-Nscale 450亿美元算力租约",
+                      "description": "彭博社和路透社报道了西弗吉尼亚州Monarch站点为期六年、约460MW的租约。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-003-source-1",
+                        "candidate-003-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-003-source-1",
+                      "title": "Anthropic-Nscale $45 billion compute lease",
+                      "publisher": "Bloomberg",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.bloomberg.com",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "candidate-003-source-3",
+                      "title": "Anthropic-Nscale deal report",
+                      "publisher": "Reuters",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.reuters.com",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-003-signal-2",
+                  "label": "天然气发电",
+                  "title": "现场天然气微电网",
+                  "body": "Nscale的一期规划为1.35GW，长期电力储备超过8GW，并计划到2028年初通过卡特彼勒天然气微电网实现2GW发电目标。",
+                  "whyImportant": "现场天然气发电绕过了电网并网排队，将AI算力与化石燃料供应直接挂钩，形成新的能源和政策风险面。",
+                  "evidence": [
+                    {
+                      "id": "candidate-003-evidence-2",
+                      "title": "Nscale Monarch电力与天然气微电网细节",
+                      "description": "Blockspace和格隆汇的报道描述了一期规划、超过8GW的电力储备以及2GW卡特彼勒天然气微电网目标。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-003-source-2",
+                        "candidate-003-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-003-source-2",
+                      "title": "Nscale Monarch details and Microsoft LOI",
+                      "publisher": "Blockspace",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://blockspace.media",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    },
+                    {
+                      "id": "candidate-003-source-4",
+                      "title": "Anthropic与Nscale交易报道",
+                      "publisher": "格隆汇",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.gelonghui.com",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-003-signal-3",
+                  "label": "新云",
+                  "title": "跨大西洋新云结构",
+                  "body": "Nscale还与微软达成1.35GW的意向书（LOI），并为其挪威纳尔维克数据中心完成了7.9亿美元的项目融资。",
+                  "whyImportant": "微软的意向书和纳尔维克融资表明Nscale并不是为单一客户建设；它正在成为多租户、跨大西洋的AI基础设施提供商，使新云模式更加稳固。",
+                  "evidence": [
+                    {
+                      "id": "candidate-003-evidence-3",
+                      "title": "微软意向书与纳尔维克融资",
+                      "description": "Blockspace和格隆汇报道了1.35GW微软意向书和7.9亿美元纳尔维克项目融资。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-003-source-2",
+                        "candidate-003-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-003-source-2",
+                      "title": "Nscale Monarch details and Microsoft LOI",
+                      "publisher": "Blockspace",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://blockspace.media",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    },
+                    {
+                      "id": "candidate-003-source-4",
+                      "title": "Anthropic与Nscale交易报道",
+                      "publisher": "格隆汇",
+                      "publishedAt": "2026-08-26",
+                      "url": "https://www.gelonghui.com",
+                      "type": "research",
+                      "reliability": "context",
+                      "note": "context source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从并网自建到天然气支持的租约即发电",
+              "before": "超大规模AI算力此前主要由大型实验室自建或直接签约，通过电网并网及长期核电或可再生能源协议保障电力；算力增长与公用事业时间表和低碳电力供应紧密绑定。",
+              "shift": "Anthropic与Nscale签订为期六年、总额450亿美元的租约，租用西弗吉尼亚州Monarch站点约460MW算力，一期规划1.35GW，并计划到2028年初实现2GW卡特彼勒天然气微电网发电目标，这将第三方“新云”算力和现场天然气发电带入超大规模AI的核心。",
+              "now": "AI算力越来越多地通过第三方算力租约获得融资和供给，这些租约与专用发电设施（包括化石天然气）同址建设，使算力部署摆脱电网并网限制，并将能源战略扩展到核能和电网扩建之外。",
+              "conclusion": "结构性问题已不再只是总兆瓦数，而是谁拥有产能、物理上配套何种发电方式。观察“租约即发电”是否会成为前沿实验室的默认路径，以及天然气微电网是否会引发新的政策和ESG摩擦。"
+            },
+            "insight": {
+              "title": "租约即发电是新的AI瓶颈",
+              "formula": "第三方算力租约 + 现场天然气发电 = 解耦的AI产能增长",
+              "explanation": "Anthropic对Nscale的450亿美元承诺将算力采购与专用能源供应合二为一。前沿实验室无需等待电网并网，即可购买与天然气微电网捆绑的算力。这使瓶颈从公用事业时间表转向资本和燃料供应，并让天然气成为AI基础设施的一级变量。"
+            },
+            "observe": {
+              "title": "观察要点",
+              "items": [
+                {
+                  "label": "合同",
+                  "prompt": "跟踪Anthropic-Nscale及类似微软-Nscale协议的合同备案和产能爬坡里程碑。",
+                  "meta": "AI基础设施、合同"
+                },
+                {
+                  "label": "天然气微电网",
+                  "prompt": "关注Monarch及其他Nscale天然气供电站点的许可、排放报告以及社区或政治阻力。",
+                  "meta": "能源、政策"
+                },
+                {
+                  "label": "竞争对手",
+                  "prompt": "关注其他前沿实验室是否宣布与专用发电同址的大型第三方算力租约。",
+                  "meta": "AI基础设施、金融"
+                },
+                {
+                  "label": "并网与离网",
+                  "prompt": "在未来两个季度，比较已公布的离网天然气发电容量与并网的可再生能源或核电项目。",
+                  "meta": "能源、结构性"
+                }
+              ],
+              "ending": "如果更多前沿实验室效仿Anthropic采用天然气支持的新云租约，AI基础设施竞赛将被重新定价，核心变量将变为天然气和私人资本的可得性，而非电网并网排队。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-08-26",
+        "scope": "global",
+        "date": "2026-08-26",
+        "decidedAt": "2026-08-27T00:16:14.894Z",
+        "state": "publish_new",
+        "insightId": "candidate-003",
+        "processId": "process-ai-infrastructure-race",
+        "materialChangeScore": 85,
+        "evidenceStrength": 82,
+        "noveltyScore": 88,
+        "importanceScore": 90,
+        "candidateSignalIds": [
+          "candidate-003"
+        ],
+        "content": {
+          "en": {
+            "label": "Global Insight — publish",
+            "decisionTitle": "Publish new Global Insight under AI infrastructure race",
+            "decisionSummary": "The Anthropic-Nscale $45B, six-year compute lease with on-site gas generation is the largest known single AI compute lease and structurally updates the AI infrastructure race.",
+            "thresholdReason": "Material change score 85; trigger and context sources from Bloomberg, Reuters, Blockspace, and Gelonghui; introduces natural gas into hyperscale AI and entrenches neocloud model.",
+            "observeNext": [
+              "Track capacity ramp and contract filings for Anthropic-Nscale and Microsoft-Nscale agreements",
+              "Watch for gas microgrid permits and local opposition at Monarch and other Nscale sites",
+              "Monitor other frontier labs for large third-party compute leases with dedicated generation",
+              "Compare off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects"
+            ]
+          },
+          "zh": {
+            "label": "全球洞察——发布",
+            "decisionTitle": "在AI基础设施竞赛下发布新的全球洞察",
+            "decisionSummary": "Anthropic-Nscale这笔为期六年、总额450亿美元且配套现场天然气发电的算力租约，是已知最大的一笔单项AI算力租约，在结构上更新了AI基础设施竞赛。",
+            "thresholdReason": "重大变化评分85；触发与背景来源为彭博社、路透社、Blockspace和格隆汇；将天然气引入超大规模AI，并使新云模式更加稳固。",
+            "observeNext": [
+              "跟踪Anthropic-Nscale和微软-Nscale协议中的产能爬坡与合同备案",
+              "关注Monarch及其他Nscale站点的天然气微电网许可和当地反对声音",
+              "关注其他前沿实验室是否签署带专用发电的大型第三方算力租约",
+              "比较离网天然气发电容量与并网可再生能源或核电项目"
+            ]
+          }
+        }
+      },
+      "processUpdate": {
+        "processId": "process-ai-infrastructure-race",
+        "scope": "global",
+        "updatedAt": "2026-08-27T00:16:14.894Z",
+        "appendInsightId": "candidate-003",
+        "evolutionEvent": {
+          "id": "evolution-candidate-003",
+          "date": "2026-08-26",
+          "stage": "structural",
+          "impact": "updates",
+          "insightId": "candidate-003",
+          "content": {
+            "en": {
+              "title": "AI infrastructure race — structural update",
+              "description": "The process now includes a new structural branch: frontier labs are signing multi-year, multi-billion-dollar third-party compute leases co-located with dedicated on-site gas generation, as seen in the Anthropic-Nscale agreement. This adds natural gas and neocloud financing as first-class variables in the AI infrastructure race.",
+              "implication": "Durable AI advantage may increasingly depend on access to private capital and fuel supply through lease-to-generate arrangements, not solely on grid interconnection or nuclear timetables. This could accelerate capacity deployment but also create new policy, carbon, and geopolitical frictions."
+            },
+            "zh": {
+              "title": "AI基础设施竞赛——结构性更新",
+              "description": "该进程现在包含一个新的结构分支：前沿实验室正在签署与现场专用天然气发电同址的多年期、数十亿美元第三方算力租约，Anthropic-Nscale协议即为例证。这使天然气和新云融资成为AI基础设施竞赛中的一级变量。",
+              "implication": "持久的AI优势可能越来越依赖通过“租约即发电”安排获得私人资本和燃料供应，而不仅仅是电网并网或核电时间表。这可能加速产能部署，但也会带来新的政策、碳和地缘政治摩擦。"
+            }
+          }
+        },
+        "nextQuestion": {
+          "en": "Will the Anthropic-Nscale lease-to-generate model become the default route for frontier AI labs, and how will it reshape energy security, natural gas markets, and AI buildout timelines?",
+          "zh": "Anthropic-Nscale的“租约即发电”模式是否会成为前沿AI实验室的默认路径？它又将如何重塑能源安全、天然气市场和AI建设时间表？"
+        },
+        "observeNext": {
+          "en": [
+            "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements",
+            "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites",
+            "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation",
+            "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters"
+          ],
+          "zh": [
+            "跟踪Anthropic-Nscale及类似微软-Nscale协议中的合同备案和产能爬坡里程碑",
+            "关注Monarch及其他Nscale天然气供电站点的许可、排放报告及社区或政治阻力",
+            "关注其他前沿实验室是否宣布与专用发电同址的大型第三方算力租约",
+            "在未来两个季度，比较已公布的离网天然气发电容量与并网可再生能源或核电项目"
+          ]
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 5508,
+        "outputTokens": 12232,
+        "cachedInputTokens": 4096
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-08-27T00:16:17.936Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "publish_new"
+      },
+      "approvedAt": "2026-08-27T00:16:17.936Z"
+    },
     {
       "id": "writer-cand-005-us-china-controls-1787697574723",
       "scope": "global",
@@ -8768,11 +9700,11 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-08-25T22:39:38.562Z"
+    "repairedAt": "2026-08-27T00:16:18.967Z"
   },
   "processFoundation": {
     "version": 2,
-    "lastUpdatedAt": "2026-08-25T22:39:37.550Z",
-    "lastMatchedProcessId": "process-geopolitical-technology-control"
+    "lastUpdatedAt": "2026-08-27T00:16:17.936Z",
+    "lastMatchedProcessId": "process-ai-infrastructure-race"
   }
 }
