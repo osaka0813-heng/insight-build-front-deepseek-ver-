@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:11:14.850Z",
+  "updatedAt": "2026-08-27T00:12:21.545Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -1045,11 +1045,6 @@
       "candidateCount": 6,
       "selectedCandidateId": "candidate-003"
     }
-  },
-  "lease": {
-    "owner": "cron-1787789202859-htic8glu",
-    "acquiredAt": "2026-08-27T00:06:43.216Z",
-    "expiresAt": "2026-08-27T00:11:33.216Z"
   },
   "preflight": {
     "ok": true,
