@@ -6,18 +6,18 @@
   "date": "2026-08-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-26T22:01:14.357Z",
-  "updatedAt": "2026-08-27T00:12:23.795Z",
+  "updatedAt": "2026-08-27T00:14:31.254Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 2
       },
-      "message": "write_base",
-      "updatedAt": "2026-08-27T00:12:23.795Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-27T00:14:31.254Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -1043,7 +1043,150 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "candidate-003"
+      "selectedCandidateId": "candidate-003",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-003",
+          "slug": "anthropic-nscale-45b-compute-lease-gas-power",
+          "parentInsightId": "process-ai-infrastructure-race",
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "AI infrastructure race — structural update",
+              "title": "The $45B gas-backed compute lease that changes AI scaling",
+              "summary": "Anthropic's six-year, $45B commitment to Nscale for ~460MW in West Virginia—with on-site natural gas generation and a 1.35GW first phase—makes third-party 'neocloud' compute and fossil fuel a core part of the AI infrastructure race."
+            },
+            "question": {
+              "lead": "This is the largest known single AI compute lease. It moves the AI energy debate beyond nuclear and grid extension by putting natural gas generation directly on site.",
+              "title": "Is AI compute now a lease-to-generate business?",
+              "footnote": "Based on Bloomberg, Reuters, Blockspace, and Gelonghui reporting from August 26, 2026. Site-specific details should be confirmed."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Evidence from Bloomberg, Reuters, Blockspace, and Gelonghui. Bloomberg and Reuters are paywalled; treat site specifics as developing until directly confirmed.",
+              "items": [
+                {
+                  "label": "Lease",
+                  "title": "$45B, six-year Anthropic-Nscale lease",
+                  "body": "Anthropic will pay Nscale $45B over six years for ~460MW at the Monarch site in West Virginia, with systems ramping in late 2027 using Nvidia Vera Rubin.",
+                  "whyImportant": "This is the largest known single AI compute lease and signals frontier labs are willing to outsource core compute capacity.",
+                  "evidence": {
+                    "title": "Anthropic-Nscale $45 billion compute lease",
+                    "description": "Bloomberg and Reuters report the six-year ~460MW lease at Monarch, West Virginia.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-1",
+                      "candidate-003-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "Gas power",
+                  "title": "On-site natural gas microgrids",
+                  "body": "Nscale's Phase 1 plans 1.35GW with a long-term power runway of over 8GW and a target of 2GW from Caterpillar gas microgrid generation by early 2028.",
+                  "whyImportant": "On-site gas generation bypasses grid interconnection queues and directly ties AI capacity to fossil fuel supply, creating a new energy and policy risk surface.",
+                  "evidence": {
+                    "title": "Nscale Monarch power and gas microgrid details",
+                    "description": "Blockspace and Gelonghui context describe Phase 1 plans, the >8GW runway, and the 2GW Caterpillar gas microgrid target.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                },
+                {
+                  "label": "Neocloud",
+                  "title": "Cross-Atlantic neocloud structure",
+                  "body": "Nscale also has a 1.35GW LOI with Microsoft and closed $790M project financing for its Narvik, Norway data center.",
+                  "whyImportant": "The Microsoft LOI and Narvik financing show Nscale is not a one-customer build; it is becoming a multi-tenant, cross-Atlantic AI infrastructure provider, entrenching the neocloud model.",
+                  "evidence": {
+                    "title": "Microsoft LOI and Narvik financing",
+                    "description": "Blockspace and Gelonghui report the 1.35GW Microsoft LOI and $790M Narvik project financing.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-003-source-2",
+                      "candidate-003-source-4"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From grid-coupled self-build to gas-backed lease-to-generate",
+              "before": "Hyperscale AI capacity was mostly self-built or directly contracted by large labs, with power secured through grid interconnections and long-term nuclear or renewable agreements; compute growth was coupled to utility timelines and low-carbon power availability.",
+              "shift": "Anthropic's $45B, six-year lease of ~460MW from Nscale at Monarch, West Virginia, with Phase 1 planned at 1.35GW and a target 2GW of Caterpillar gas microgrid generation by early 2028, brings third-party 'neocloud' compute and on-site natural gas generation into the core of hyperscale AI.",
+              "now": "AI capacity is increasingly financed and provisioned through third-party compute leases co-located with dedicated generation, including fossil gas, decoupling compute deployment from grid interconnection and broadening the energy strategy beyond nuclear and grid extension.",
+              "conclusion": "The structural issue is no longer just total megawatts; it is who owns the capacity and what generation is physically attached. Watch whether lease-to-generate becomes the default route for frontier labs and whether gas microgrids trigger new policy and ESG friction."
+            },
+            "insight": {
+              "title": "Lease-to-generate is the new AI bottleneck",
+              "formula": "Third-party compute lease + on-site gas generation = decoupled AI capacity growth",
+              "explanation": "Anthropic's $45B commitment to Nscale fuses compute procurement with dedicated energy supply. Instead of waiting on grid interconnection, frontier labs can buy capacity bundled with gas microgrids. This shifts the bottleneck from utility timelines to capital and fuel availability, and makes natural gas a first-class AI infrastructure variable."
+            },
+            "observe": {
+              "title": "What to watch",
+              "items": [
+                {
+                  "label": "Contracts",
+                  "prompt": "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements.",
+                  "meta": "AI infrastructure, contracts"
+                },
+                {
+                  "label": "Gas microgrids",
+                  "prompt": "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites.",
+                  "meta": "Energy, policy"
+                },
+                {
+                  "label": "Competitors",
+                  "prompt": "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation.",
+                  "meta": "AI infrastructure, finance"
+                },
+                {
+                  "label": "Grid vs. off-grid",
+                  "prompt": "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters.",
+                  "meta": "Energy, structural"
+                }
+              ],
+              "ending": "If more frontier labs follow Anthropic into gas-backed neocloud leases, the AI infrastructure race will be re-priced around natural gas and private capital availability rather than grid interconnection queues."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Global Insight — publish",
+            "decisionTitle": "Publish new Global Insight under AI infrastructure race",
+            "decisionSummary": "The Anthropic-Nscale $45B, six-year compute lease with on-site gas generation is the largest known single AI compute lease and structurally updates the AI infrastructure race.",
+            "thresholdReason": "Material change score 85; trigger and context sources from Bloomberg, Reuters, Blockspace, and Gelonghui; introduces natural gas into hyperscale AI and entrenches neocloud model.",
+            "observeNext": [
+              "Track capacity ramp and contract filings for Anthropic-Nscale and Microsoft-Nscale agreements",
+              "Watch for gas microgrid permits and local opposition at Monarch and other Nscale sites",
+              "Monitor other frontier labs for large third-party compute leases with dedicated generation",
+              "Compare off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects"
+            ]
+          },
+          "processStage": "structural",
+          "processContentEn": {
+            "title": "AI infrastructure race — structural update",
+            "description": "The process now includes a new structural branch: frontier labs are signing multi-year, multi-billion-dollar third-party compute leases co-located with dedicated on-site gas generation, as seen in the Anthropic-Nscale agreement. This adds natural gas and neocloud financing as first-class variables in the AI infrastructure race.",
+            "implication": "Durable AI advantage may increasingly depend on access to private capital and fuel supply through lease-to-generate arrangements, not solely on grid interconnection or nuclear timetables. This could accelerate capacity deployment but also create new policy, carbon, and geopolitical frictions."
+          },
+          "nextQuestionEn": "Will the Anthropic-Nscale lease-to-generate model become the default route for frontier AI labs, and how will it reshape energy security, natural gas markets, and AI buildout timelines?",
+          "observeNextEn": [
+            "Track contract filings and capacity ramp milestones for Anthropic-Nscale and similar Microsoft-Nscale agreements",
+            "Watch for permits, emissions reporting, and community or political pushback at Monarch and other Nscale gas-powered sites",
+            "Monitor whether other frontier labs announce large third-party compute leases co-located with dedicated generation",
+            "Compare announced off-grid gas-powered capacity with grid-interconnected renewable or nuclear projects over the next two quarters"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2593,
+          "outputTokens": 6075,
+          "cachedInputTokens": 1280
+        }
+      }
     }
   },
   "preflight": {
