@@ -6,18 +6,18 @@
   "date": "2026-08-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_finalize",
+  "currentStage": "publish",
   "createdAt": "2026-08-27T22:02:10.078Z",
-  "updatedAt": "2026-08-28T00:07:30.511Z",
+  "updatedAt": "2026-08-28T00:07:31.465Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_finalize",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {
         "write_zh": 1
       },
-      "message": "write_finalize",
-      "updatedAt": "2026-08-28T00:07:30.511Z",
+      "message": "已保存 write_finalize 断点",
+      "updatedAt": "2026-08-28T00:07:31.465Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-28-1787868320443",
@@ -1231,6 +1231,422 @@
           "inputTokens": 2829,
           "outputTokens": 4912,
           "cachedInputTokens": 2816
+        }
+      },
+      "writerDraft": {
+        "id": "writer-IRAN-WAR-DIPLOMATIC-WINDOW-1787875651459",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-08-28T00:07:31.459Z",
+        "researchDraftId": "research-global-2026-08-28-1787868320443",
+        "candidateId": "IRAN-WAR-DIPLOMATIC-WINDOW",
+        "model": "deepseek-v4-pro + deepseek-v4-flash",
+        "dailyState": "publish_new",
+        "matchedProcessId": "process-geopolitical-technology-control",
+        "qualityChecks": {
+          "publishThresholdMet": true,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": []
+        },
+        "insight": {
+          "id": "IRAN-WAR-DIPLOMATIC-WINDOW",
+          "scope": "global",
+          "slug": "us-iran-war-diplomatic-window",
+          "status": "publish_new",
+          "processId": "process-geopolitical-technology-control",
+          "publishedAt": "2026-08-27T00:00:00.000Z",
+          "updatedAt": "2026-08-28T00:07:31.459Z",
+          "confidence": "verified",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "Global Insight",
+                "secondaryEyebrow": "Middle East / Energy / Security",
+                "title": "A diplomatic window opens inside a sixth month of war",
+                "summary": "As the US-Iran war enters month six, a concrete nuclear off-ramp emerges while kinetic risk persists. Brent falls for a fourth day to ~$87 as Hormuz flows recover to ~70% of pre-war, but a fresh tanker strike shows the window can close quickly."
+              },
+              "question": {
+                "lead": "Three signals on Aug 27 created a rare state: official diplomacy, ongoing combat, and market pricing of de-escalation all at once.",
+                "title": "Is the market's de-escalation trade outrunning the diplomatic reality?",
+                "footnote": "Assessed from UKMTO, DOE and White House signals through Aug 27, 2026."
+              },
+              "signals": {
+                "title": "Signals",
+                "sourceNote": "Primary sources: UKMTO incident report, U.S. Department of Energy statement, White House remarks.",
+                "items": [
+                  {
+                    "id": "IRAN-WAR-DIPLOMATIC-WINDOW-signal-1",
+                    "label": "Maritime friction",
+                    "title": "Tanker hit in Strait of Hormuz, first since Aug 18",
+                    "body": "UKMTO reported a tanker hit in Hormuz, the first such incident since Aug 18. The strike confirms kinetic risk is not eliminated even as diplomacy advances.",
+                    "whyImportant": "Hormuz is the critical chokepoint for oil flows; repeated attacks can quickly reverse the recent flow recovery and oil-price decline.",
+                    "evidence": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-evidence-1",
+                        "title": "UKMTO incident report",
+                        "description": "Primary report of a tanker hit in the Strait of Hormuz on Aug 27.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "IRAN-WAR-DIPLOMATIC-WINDOW-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-1",
+                        "title": "UKMTO reports tanker hit in Strait of Hormuz",
+                        "publisher": "United Kingdom Maritime Trade Operations",
+                        "publishedAt": "2026-08-27",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "IRAN-WAR-DIPLOMATIC-WINDOW-signal-2",
+                    "label": "Nuclear off-ramp",
+                    "title": "U.S. offers enriched uranium for IAEA-supervised civilian program",
+                    "body": "Energy Secretary Wright said the U.S. has offered to supply enriched uranium to Iran for an IAEA-supervised civilian nuclear program. Qatar is mediating.",
+                    "whyImportant": "This is a concrete diplomatic offer, not just talk; if accepted, it could address a core nuclear escalation concern and open a war exit.",
+                    "evidence": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-evidence-2",
+                        "title": "U.S. Department of Energy statement",
+                        "description": "Energy Secretary Wright describes the enriched-uranium offer to Iran.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "IRAN-WAR-DIPLOMATIC-WINDOW-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-2",
+                        "title": "U.S. offers enriched uranium to Iran, says Energy Secretary Wright",
+                        "publisher": "U.S. Department of Energy",
+                        "publishedAt": "2026-08-27",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "IRAN-WAR-DIPLOMATIC-WINDOW-signal-3",
+                    "label": "Political signal",
+                    "title": "Trump says war with Iran will end 'soon'",
+                    "body": "The White House signaled that the war will end soon, while Qatar continues mediation. This language compounds the diplomatic opening.",
+                    "whyImportant": "A top-level political signal can anchor market expectations, but it remains a claim until verified by a ceasefire or agreement.",
+                    "evidence": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-evidence-3",
+                        "title": "White House remarks",
+                        "description": "Trump states the war with Iran will end soon.",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "IRAN-WAR-DIPLOMATIC-WINDOW-source-3"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-3",
+                        "title": "Trump says Iran war will end soon",
+                        "publisher": "White House",
+                        "publishedAt": "2026-08-27",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "From shock to window: the market prices de-escalation before it is secured",
+                "before": "For five months, the US-Iran war was a supply-shock story. Hormuz tanker traffic was intermittently disrupted, Brent carried a large war premium, and nuclear diplomacy was absent or only indirect.",
+                "shift": "On Aug 27, the structure changed: the U.S. offered enriched uranium for an IAEA-supervised civilian program, Trump said the war would end 'soon', and Qatar was mediating. At the same time, a tanker hit in Hormuz showed that combat continues.",
+                "now": "Brent fell for a fourth day to ~$87, and Hormuz flows recovered to about 70% of pre-war levels. Markets are pricing a workable off-ramp, but the fresh tanker strike keeps the risk alive.",
+                "conclusion": "The coexistence of a concrete diplomatic offer, ongoing kinetic friction, and a falling risk premium defines a new state: a tradable diplomatic window. If it holds, oil, inflation and Fed expectations all move together; if it snaps shut, the premium unwind will reverse violently."
+              },
+              "insight": {
+                "title": "The diplomatic window is now a market variable",
+                "formula": "Concrete nuclear offer + political 'soon' signal + residual tanker strike → market prices de-escalation while kinetic risk remains live",
+                "explanation": "The U.S. enriched-uranium offer is a specific, verifiable proposal, not just rhetoric. Trump's 'soon' language and Qatar's mediation add a political on-ramp. Yet the UKMTO tanker strike proves the window can close. Brent down four days and Hormuz flows at 70% show markets have already discounted substantial de-escalation. The gap between diplomatic promise and verified agreement is the new risk surface."
+              },
+              "observe": {
+                "title": "What to watch next",
+                "items": [
+                  {
+                    "label": "Hormuz flow and incidents",
+                    "prompt": "Track daily UKMTO reports and tanker flow estimates near the Strait of Hormuz for any second strike or new closure.",
+                    "meta": "Daily / shipping data"
+                  },
+                  {
+                    "label": "Nuclear offer confirmation",
+                    "prompt": "Watch for Iranian response or IAEA involvement that confirms or rejects the enriched-uranium offer.",
+                    "meta": "Official / IAEA channels"
+                  },
+                  {
+                    "label": "Oil price and volatility",
+                    "prompt": "Monitor Brent settlement and implied volatility; four down days could reverse if talks stall or strikes resume.",
+                    "meta": "Market close / options"
+                  },
+                  {
+                    "label": "Mediation announcements",
+                    "prompt": "Track Qatar or other mediators for ceasefire, de-escalation or verification announcements.",
+                    "meta": "Diplomatic statements"
+                  }
+                ],
+                "ending": "If any of these break against the window, the de-escalation trade can unwind quickly."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "全球洞察",
+                "secondaryEyebrow": "中东 / 能源 / 安全",
+                "title": "战争进入第六个月，外交窗口打开",
+                "summary": "美伊战争进入第六个月，一条具体的核撤离通道浮现，而军事动能风险仍在。布伦特原油连续第四日下跌至约87美元，霍尔木兹海峡流量恢复至战前约70%，但新的油轮遇袭表明窗口可能迅速关闭。"
+              },
+              "question": {
+                "lead": "8月27日的三个信号造就了一种罕见状态：官方外交、持续作战与市场对降级的定价同时出现。",
+                "title": "市场的降级交易是否跑在了外交现实前面？",
+                "footnote": "根据截至2026年8月27日的UKMTO、美国能源部及白宫信号评估。"
+              },
+              "signals": {
+                "title": "信号",
+                "sourceNote": "主要来源：UKMTO事件报告、美国能源部声明、白宫表态。",
+                "items": [
+                  {
+                    "id": "IRAN-WAR-DIPLOMATIC-WINDOW-signal-1",
+                    "label": "海上摩擦",
+                    "title": "霍尔木兹海峡油轮遇袭，为8月18日以来首次",
+                    "body": "UKMTO报告一艘油轮在霍尔木兹海峡遇袭，为8月18日以来首次。此次袭击证实，即便外交推进，军事动能风险仍未消除。",
+                    "whyImportant": "霍尔木兹海峡是石油运输的关键咽喉；反复袭击可能迅速逆转近期的流量恢复和油价下跌。",
+                    "evidence": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-evidence-1",
+                        "title": "UKMTO事件报告",
+                        "description": "关于8月27日霍尔木兹海峡油轮遇袭的主要报告。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "IRAN-WAR-DIPLOMATIC-WINDOW-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-1",
+                        "title": "UKMTO reports tanker hit in Strait of Hormuz",
+                        "publisher": "United Kingdom Maritime Trade Operations",
+                        "publishedAt": "2026-08-27",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "IRAN-WAR-DIPLOMATIC-WINDOW-signal-2",
+                    "label": "核撤离通道",
+                    "title": "美国提出为IAEA监督的民用核项目提供浓缩铀",
+                    "body": "能源部长赖特表示，美国已提出向伊朗供应浓缩铀，用于国际原子能机构监督的民用核项目。卡塔尔正在斡旋。",
+                    "whyImportant": "这是一个具体的外交提议，而非空谈；若被接受，可能化解一项核心核升级担忧，并打开战争出口。",
+                    "evidence": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-evidence-2",
+                        "title": "美国能源部声明",
+                        "description": "能源部长赖特阐述向伊朗提出的浓缩铀方案。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "IRAN-WAR-DIPLOMATIC-WINDOW-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-2",
+                        "title": "U.S. offers enriched uranium to Iran, says Energy Secretary Wright",
+                        "publisher": "U.S. Department of Energy",
+                        "publishedAt": "2026-08-27",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "IRAN-WAR-DIPLOMATIC-WINDOW-signal-3",
+                    "label": "政治信号",
+                    "title": "特朗普称对伊战争将“很快”结束",
+                    "body": "白宫释放信号称战争将很快结束，卡塔尔则继续斡旋。这一表述强化了外交窗口。",
+                    "whyImportant": "高层政治信号可以锚定市场预期，但在停火或协议证实之前，它仍是一种说法。",
+                    "evidence": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-evidence-3",
+                        "title": "白宫表态",
+                        "description": "特朗普称对伊战争将很快结束。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "IRAN-WAR-DIPLOMATIC-WINDOW-source-3"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "IRAN-WAR-DIPLOMATIC-WINDOW-source-3",
+                        "title": "Trump says Iran war will end soon",
+                        "publisher": "White House",
+                        "publishedAt": "2026-08-27",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "从冲击到窗口：市场在降级得到确认前就为其定价",
+                "before": "过去五个月，美伊战争是一个供应冲击的故事。霍尔木兹海峡油轮运输时断时续，布伦特原油带有大量战争溢价，核外交缺席或仅以间接方式进行。",
+                "shift": "8月27日，结构发生了变化：美国提出为IAEA监督的民用项目提供浓缩铀，特朗普称战争将“很快”结束，卡塔尔在斡旋。与此同时，霍尔木兹海峡一艘油轮遇袭表明战斗仍在继续。",
+                "now": "布伦特原油连续第四日下跌至约87美元，霍尔木兹海峡流量恢复至战前约70%。市场在为可行的撤离通道定价，但新的油轮遇袭使风险继续存在。",
+                "conclusion": "具体外交提议、持续的军事摩擦与不断下降的风险溢价并存，定义了一种新状态：可交易的外交窗口。若窗口保持开放，石油、通胀与美联储预期将同步移动；若骤然关闭，溢价回吐将剧烈反转。"
+              },
+              "insight": {
+                "title": "外交窗口如今已成为一个市场变量",
+                "formula": "具体的核提议 + 政治上的“很快”信号 + 残余油轮遇袭 → 市场为降级定价，而军事动能风险仍在",
+                "explanation": "美国的浓缩铀提议是一个具体、可核验的方案，而非仅口头表态。特朗普的“很快”表述与卡塔尔斡旋提供了政治入口。然而UKMTO记录的油轮遇袭证明窗口可能关闭。布伦特连跌四日、霍尔木兹流量恢复至70%，显示市场已消化了相当程度的降级。外交承诺与经核实的协议之间的差距，是新的风险面。"
+              },
+              "observe": {
+                "title": "下一步关注要点",
+                "items": [
+                  {
+                    "label": "霍尔木兹流量与事件",
+                    "prompt": "跟踪每日UKMTO报告及霍尔木兹海峡附近的油轮流量估算，留意是否出现第二次袭击或新的关闭。",
+                    "meta": "每日 / 航运数据"
+                  },
+                  {
+                    "label": "核提议的确认",
+                    "prompt": "关注伊朗的回应或国际原子能机构的介入，以确认或拒绝浓缩铀提议。",
+                    "meta": "官方 / IAEA渠道"
+                  },
+                  {
+                    "label": "油价与波动率",
+                    "prompt": "监测布伦特结算价与隐含波动率；若谈判停滞或袭击再起，四日连跌可能反转。",
+                    "meta": "收盘 / 期权"
+                  },
+                  {
+                    "label": "斡旋公告",
+                    "prompt": "跟踪卡塔尔或其他斡旋方关于停火、降级或核查的公告。",
+                    "meta": "外交声明"
+                  }
+                ],
+                "ending": "若其中任何一项朝着不利于窗口的方向发展，降级交易可能迅速瓦解。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-08-27",
+          "scope": "global",
+          "date": "2026-08-27",
+          "decidedAt": "2026-08-28T00:07:31.459Z",
+          "state": "publish_new",
+          "insightId": "IRAN-WAR-DIPLOMATIC-WINDOW",
+          "processId": "process-geopolitical-technology-control",
+          "materialChangeScore": 85,
+          "evidenceStrength": 80,
+          "noveltyScore": 80,
+          "importanceScore": 88,
+          "candidateSignalIds": [
+            "IRAN-WAR-DIPLOMATIC-WINDOW"
+          ],
+          "content": {
+            "en": {
+              "label": "Publish new insight",
+              "decisionTitle": "Open a new process candidate: tradable diplomatic window in a war-state",
+              "decisionSummary": "Three primary signals on Aug 27 show a concrete US nuclear offer, ongoing combat, and market-priced de-escalation coexisting. No existing process captures this simultaneous war-state diplomacy and risk-premium reversal.",
+              "thresholdReason": "Material change score 85, priority score 93; three independent primary sources; candidate is a new process candidate because matched process confidence is only 15 and generic geopolitical risk is insufficient.",
+              "observeNext": [
+                "Daily UKMTO incident reports and Hormuz flow data.",
+                "Iranian or IAEA confirmation of the enriched-uranium offer.",
+                "Brent settlement and implied volatility for risk-premium reversal.",
+                "Qatar or other mediator announcements on ceasefire or de-escalation."
+              ]
+            },
+            "zh": {
+              "label": "发布新洞察",
+              "decisionTitle": "开启新流程候选：战争状态下的可交易外交窗口",
+              "decisionSummary": "8月27日的三个主要信号显示，美国具体核提议、持续作战与市场定价的降级并存。现有流程均未捕捉到这种同步发生的战争状态外交与风险溢价反转。",
+              "thresholdReason": "实质性变化评分85，优先级评分93；三个独立主要来源；该候选属于新流程候选，因为匹配流程置信度仅为15，且一般性地缘政治风险不足以涵盖。",
+              "observeNext": [
+                "每日UKMTO事件报告与霍尔木兹流量数据。",
+                "伊朗或IAEA对浓缩铀提议的确认。",
+                "布伦特结算价与隐含波动率，以观察风险溢价反转。",
+                "卡塔尔或其他斡旋方关于停火或降级的公告。"
+              ]
+            }
+          }
+        },
+        "processUpdate": {
+          "processId": "process-geopolitical-technology-control",
+          "scope": "global",
+          "updatedAt": "2026-08-28T00:07:31.459Z",
+          "appendInsightId": "IRAN-WAR-DIPLOMATIC-WINDOW",
+          "evolutionEvent": {
+            "id": "evolution-IRAN-WAR-DIPLOMATIC-WINDOW",
+            "date": "2026-08-27",
+            "stage": "emerging",
+            "impact": "challenges",
+            "insightId": "IRAN-WAR-DIPLOMATIC-WINDOW",
+            "content": {
+              "en": {
+                "title": "The diplomatic window as tradable infrastructure",
+                "description": "This candidate process covers a war-state where a concrete diplomatic nuclear offer and political 'soon' signals coexist with ongoing kinetic friction and market-priced de-escalation. The current evidence is thin but cross-domain: maritime security, nuclear diplomacy, and oil market pricing move together.",
+                "implication": "If this process matures, it would change how de-escalation is priced across oil, inflation expectations and central-bank paths; closing the window would produce a sudden risk-premium snapback. It requires a new process hypothesis because existing geopolitical risk frameworks do not capture the simultaneous tradable diplomatic off-ramp."
+              },
+              "zh": {
+                "title": "作为可交易基础设施的外交窗口",
+                "description": "该候选流程涵盖一种战争状态：具体的外交核提议与政治上的“很快”信号，同持续的军事摩擦和市场定价的降级并存。当前证据虽然单薄，但跨领域一致：海上安全、核外交与石油市场定价同步变动。",
+                "implication": "若这一流程走向成熟，将改变石油、通胀预期与央行路径中降级的定价方式；窗口关闭则会导致风险溢价骤然回弹。由于现有地缘政治风险框架无法捕捉这种同时存在的可交易外交撤离通道，因此需要一个新的流程假设。"
+              }
+            }
+          },
+          "nextQuestion": {
+            "en": "Will the U.S. diplomatic window convert into a verified de-escalation before the next tanker strike or nuclear escalation closes it?",
+            "zh": "在下一场油轮遇袭或核升级关闭窗口之前，美国的外交窗口能否转化为经核实的降级？"
+          },
+          "observeNext": {
+            "en": [
+              "Track daily UKMTO reports and tanker flow estimates near Hormuz.",
+              "Watch for Iranian or IAEA confirmation of the enriched-uranium offer.",
+              "Monitor Brent settlement and implied volatility for reversal signals.",
+              "Track Qatar or other mediators for formal de-escalation announcements."
+            ],
+            "zh": [
+              "跟踪每日UKMTO报告及霍尔木兹海峡附近的油轮流量估算。",
+              "关注伊朗或IAEA对浓缩铀提议的确认。",
+              "监测布伦特结算价与隐含波动率，寻找反转信号。",
+              "跟踪卡塔尔或其他斡旋方关于正式降级的公告。"
+            ]
+          }
+        },
+        "provider": "deepseek",
+        "pipeline": "build014-one-world-v1",
+        "usage": {
+          "inputTokens": 5243,
+          "outputTokens": 11251,
+          "cachedInputTokens": 5120
         }
       }
     }
