@@ -6,16 +6,16 @@
   "date": "2026-08-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-28T22:01:14.129Z",
-  "updatedAt": "2026-08-28T22:03:32.510Z",
+  "updatedAt": "2026-08-28T22:04:55.928Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-28T22:03:32.510Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-28T22:04:55.928Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-29-1787954604115",
@@ -185,7 +185,132 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 1,
-      "selectedCandidateId": "no-viable-signal-2026-08-29"
+      "selectedCandidateId": "no-viable-signal-2026-08-29",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "no-viable-signal-2026-08-29",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Insight",
+              "secondaryEyebrow": "Global",
+              "title": "No Extractable Signal",
+              "summary": "The 2026-08-29 dossier contains no facts or URLs, so no global insight can be formed."
+            },
+            "question": {
+              "lead": "No question can be answered from the empty dossier.",
+              "title": "What evidence would turn this into a signal?",
+              "footnote": "This placeholder is scored zero across all dimensions."
+            },
+            "signals": {
+              "title": "Signals of Absence",
+              "sourceNote": "Only the internal research log and plan note are available.",
+              "items": [
+                {
+                  "label": "Data gap",
+                  "title": "Dossier contains no facts or URLs",
+                  "body": "The 2026-08-29 dossier consists solely of a research intent statement. It contains no search results, data points, quotes, or URLs.",
+                  "whyImportant": "Without underlying evidence, any candidate signal would be speculative, so no process can be evaluated.",
+                  "evidence": {
+                    "title": "Research log confirms absence of facts",
+                    "description": "The internal research log for 2026-08-29 contains only a plan to research AI, energy, geopolitics, macroeconomics, and capital for the past 24 hours. No actual findings are present.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "no-viable-signal-2026-08-29-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Process mismatch",
+                  "title": "No concrete process can be matched",
+                  "body": "The zero-evidence signal cannot match an existing world process because there are no data points to compare against process criteria.",
+                  "whyImportant": "This prevents false classification as an existing process update or new process candidate.",
+                  "evidence": {
+                    "title": "Internal research plan note",
+                    "description": "The internal note reiterates the research scope but provides no concrete event, metric, or URL for analysis.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "no-viable-signal-2026-08-29-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "No Pattern",
+              "before": "A complete daily dossier would contain search results, data points, quotes, and URLs across AI, energy, geopolitics, macroeconomics, and capital.",
+              "shift": "The 2026-08-29 dossier delivered only a statement of intent to research those areas; it contained no actual findings.",
+              "now": "There is no concrete pattern, event, or metric to evaluate; any process match would be unsupported.",
+              "conclusion": "The dossier must be re-run or completed before any world process classification or publication decision."
+            },
+            "insight": {
+              "title": "Empty Evidence Cannot Form Insight",
+              "formula": "no facts + no URLs = no signal",
+              "explanation": "Insight requires at least one verifiable fact linked to a source. With zero evidence, the only action is to request more data."
+            },
+            "observe": {
+              "title": "What to Observe Next",
+              "items": [
+                {
+                  "label": "Re-research",
+                  "prompt": "Ask the research agent to rerun the 2026-08-29 query with explicit instruction to return URLs and data points.",
+                  "meta": "data gap"
+                },
+                {
+                  "label": "Dossier completion",
+                  "prompt": "Confirm whether attachments or search exports were omitted from the internal research log.",
+                  "meta": "data gap"
+                },
+                {
+                  "label": "Source corroboration",
+                  "prompt": "Require at least two independent sources with facts before evaluating a candidate signal.",
+                  "meta": "threshold"
+                },
+                {
+                  "label": "Process re-check",
+                  "prompt": "Once evidence exists, re-run process matching against existing world processes.",
+                  "meta": "process"
+                }
+              ],
+              "ending": "No publication until evidence arrives."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No global insight",
+            "decisionTitle": "Hold publication: dossier missing evidence",
+            "decisionSummary": "The 2026-08-29 dossier contains no facts, data points, quotes, or URLs, so there is no concrete signal to evaluate. Publishing would be speculation.",
+            "thresholdReason": "Evidence strength is zero and fewer than two current or corroborating sources; material change score is zero.",
+            "observeNext": [
+              "Request a completed dossier with search results or URLs for 2026-08-29.",
+              "Re-run broad research across AI, energy, geopolitics, macroeconomics, and capital for the past 24 hours.",
+              "Check for any omitted attachments or reports from the internal research log.",
+              "Confirm whether a downstream research agent can supply two or more corroborating sources."
+            ]
+          },
+          "processStage": "uncertain",
+          "processContentEn": {
+            "title": "Data-gap: no extractable signal",
+            "description": "The selected candidate is a placeholder scored zero across importance, novelty, thesis impact, and evidence strength. The dossier contains only a statement of research intent and no facts or URLs.",
+            "implication": "No Insight should be published from this dossier. The correct next step is re-research or dossier completion before evaluating any world process."
+          },
+          "nextQuestionEn": "What complete evidence can be gathered for the 2026-08-29 dossier to identify a real signal?",
+          "observeNextEn": [
+            "Request full search results with URLs for 2026-08-29.",
+            "Re-run the broad research query for the past 24 hours.",
+            "Confirm whether any internal notes contain omitted data points or quotes."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2190,
+          "outputTokens": 3882,
+          "cachedInputTokens": 1280
+        }
+      }
     }
   },
   "lease": {
