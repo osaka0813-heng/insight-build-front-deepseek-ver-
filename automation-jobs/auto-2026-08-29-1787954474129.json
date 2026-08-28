@@ -6,16 +6,16 @@
   "date": "2026-08-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_finalize",
+  "currentStage": "publish",
   "createdAt": "2026-08-28T22:01:14.129Z",
-  "updatedAt": "2026-08-28T22:05:25.429Z",
+  "updatedAt": "2026-08-28T22:05:26.507Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_finalize",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {},
-      "message": "write_finalize",
-      "updatedAt": "2026-08-28T22:05:25.429Z",
+      "message": "已保存 write_finalize 断点",
+      "updatedAt": "2026-08-28T22:05:26.507Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-29-1787954604115",
@@ -430,6 +430,317 @@
           "inputTokens": 2249,
           "outputTokens": 2544,
           "cachedInputTokens": 1152
+        }
+      },
+      "writerDraft": {
+        "id": "writer-no-viable-signal-2026-08-29-1787954726505",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-08-28T22:05:26.505Z",
+        "researchDraftId": "research-global-2026-08-29-1787954604115",
+        "candidateId": "no-viable-signal-2026-08-29",
+        "model": "deepseek-v4-pro + deepseek-v4-flash",
+        "dailyState": "no_new_global_insight",
+        "qualityChecks": {
+          "publishThresholdMet": false,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": [
+            "Candidate does not meet publication threshold.",
+            "Fewer than two current or corroborating sources."
+          ]
+        },
+        "insight": {
+          "id": "global-2026-08-29-no-extractable-signal",
+          "scope": "global",
+          "slug": "no-viable-signal-2026-08-29",
+          "status": "update_living",
+          "publishedAt": "2026-08-29T00:00:00.000Z",
+          "updatedAt": "2026-08-28T22:05:26.504Z",
+          "confidence": "hypothesis",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "Insight",
+                "secondaryEyebrow": "Global",
+                "title": "No Extractable Signal",
+                "summary": "The 2026-08-29 dossier contains no facts or URLs, so no global insight can be formed."
+              },
+              "question": {
+                "lead": "No question can be answered from the empty dossier.",
+                "title": "What evidence would turn this into a signal?",
+                "footnote": "This placeholder is scored zero across all dimensions."
+              },
+              "signals": {
+                "title": "Signals of Absence",
+                "sourceNote": "Only the internal research log and plan note are available.",
+                "items": [
+                  {
+                    "id": "no-viable-signal-2026-08-29-signal-1",
+                    "label": "Data gap",
+                    "title": "Dossier contains no facts or URLs",
+                    "body": "The 2026-08-29 dossier consists solely of a research intent statement. It contains no search results, data points, quotes, or URLs.",
+                    "whyImportant": "Without underlying evidence, any candidate signal would be speculative, so no process can be evaluated.",
+                    "evidence": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-evidence-1",
+                        "title": "Research log confirms absence of facts",
+                        "description": "The internal research log for 2026-08-29 contains only a plan to research AI, energy, geopolitics, macroeconomics, and capital for the past 24 hours. No actual findings are present.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "no-viable-signal-2026-08-29-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-source-1",
+                        "title": "Web Search Dossier (research intent only)",
+                        "publisher": "Internal research log",
+                        "publishedAt": "2026-08-29",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "no-viable-signal-2026-08-29-signal-2",
+                    "label": "Process mismatch",
+                    "title": "No concrete process can be matched",
+                    "body": "The zero-evidence signal cannot match an existing world process because there are no data points to compare against process criteria.",
+                    "whyImportant": "This prevents false classification as an existing process update or new process candidate.",
+                    "evidence": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-evidence-2",
+                        "title": "Internal research plan note",
+                        "description": "The internal note reiterates the research scope but provides no concrete event, metric, or URL for analysis.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "no-viable-signal-2026-08-29-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-source-2",
+                        "title": "Research plan note for 2026-08-29",
+                        "publisher": "Internal",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "No Pattern",
+                "before": "A complete daily dossier would contain search results, data points, quotes, and URLs across AI, energy, geopolitics, macroeconomics, and capital.",
+                "shift": "The 2026-08-29 dossier delivered only a statement of intent to research those areas; it contained no actual findings.",
+                "now": "There is no concrete pattern, event, or metric to evaluate; any process match would be unsupported.",
+                "conclusion": "The dossier must be re-run or completed before any world process classification or publication decision."
+              },
+              "insight": {
+                "title": "Empty Evidence Cannot Form Insight",
+                "formula": "no facts + no URLs = no signal",
+                "explanation": "Insight requires at least one verifiable fact linked to a source. With zero evidence, the only action is to request more data."
+              },
+              "observe": {
+                "title": "What to Observe Next",
+                "items": [
+                  {
+                    "label": "Re-research",
+                    "prompt": "Ask the research agent to rerun the 2026-08-29 query with explicit instruction to return URLs and data points.",
+                    "meta": "data gap"
+                  },
+                  {
+                    "label": "Dossier completion",
+                    "prompt": "Confirm whether attachments or search exports were omitted from the internal research log.",
+                    "meta": "data gap"
+                  },
+                  {
+                    "label": "Source corroboration",
+                    "prompt": "Require at least two independent sources with facts before evaluating a candidate signal.",
+                    "meta": "threshold"
+                  },
+                  {
+                    "label": "Process re-check",
+                    "prompt": "Once evidence exists, re-run process matching against existing world processes.",
+                    "meta": "process"
+                  }
+                ],
+                "ending": "No publication until evidence arrives."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "Insight",
+                "secondaryEyebrow": "全球",
+                "title": "无可提取信号",
+                "summary": "2026-08-29 档案中不包含事实或 URL，无法形成全球洞察。"
+              },
+              "question": {
+                "lead": "空档案无法回答任何问题。",
+                "title": "什么证据能将其转化为信号？",
+                "footnote": "此占位内容在所有维度上均计为零分。"
+              },
+              "signals": {
+                "title": "缺失的信号",
+                "sourceNote": "仅有内部研究日志和计划说明可供参考。",
+                "items": [
+                  {
+                    "id": "no-viable-signal-2026-08-29-signal-1",
+                    "label": "数据缺口",
+                    "title": "档案中不包含事实或 URL",
+                    "body": "2026-08-29 档案仅包含一项研究意图说明，没有任何搜索结果、数据点、引文或 URL。",
+                    "whyImportant": "若缺乏底层证据，任何候选信号都将是推测性的，因此无法评估任何流程。",
+                    "evidence": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-evidence-1",
+                        "title": "研究日志确认事实缺失",
+                        "description": "2026-08-29 的内部研究日志仅包含一项计划，拟对过去 24 小时的 AI、能源、地缘政治、宏观经济和资本进行研究；其中没有实际发现。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "no-viable-signal-2026-08-29-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-source-1",
+                        "title": "Web Search Dossier (research intent only)",
+                        "publisher": "Internal research log",
+                        "publishedAt": "2026-08-29",
+                        "url": "",
+                        "type": "official",
+                        "reliability": "primary",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "no-viable-signal-2026-08-29-signal-2",
+                    "label": "流程不匹配",
+                    "title": "无法匹配具体流程",
+                    "body": "零证据信号因缺少可与流程标准比较的数据点，无法匹配现有世界流程。",
+                    "whyImportant": "这可以避免被错误归类为现有流程更新或新流程候选。",
+                    "evidence": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-evidence-2",
+                        "title": "内部研究计划说明",
+                        "description": "内部说明重申了研究范围，但没有提供任何具体事件、指标或 URL 供分析。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "no-viable-signal-2026-08-29-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "no-viable-signal-2026-08-29-source-2",
+                        "title": "Research plan note for 2026-08-29",
+                        "publisher": "Internal",
+                        "url": "",
+                        "type": "research",
+                        "reliability": "context",
+                        "note": "context source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "无模式",
+                "before": "完整的每日档案本应包含跨 AI、能源、地缘政治、宏观经济和资本领域的搜索结果、数据点、引文和 URL。",
+                "shift": "2026-08-29 档案只交付了一份研究这些领域的意图声明，并未包含实际发现。",
+                "now": "目前没有可评估的具体模式、事件或指标；任何流程匹配都缺乏支撑。",
+                "conclusion": "在进行任何世界流程分类或发布决策之前，必须重新运行或补全档案。"
+              },
+              "insight": {
+                "title": "空证据无法形成洞察",
+                "formula": "无事实 + 无 URL = 无信号",
+                "explanation": "洞察至少需要一个可核实的事实并关联来源。在零证据的情况下，唯一行动是请求更多数据。"
+              },
+              "observe": {
+                "title": "下一步观察",
+                "items": [
+                  {
+                    "label": "重新研究",
+                    "prompt": "请研究代理重新运行 2026-08-29 查询，并明确要求返回 URL 和数据点。",
+                    "meta": "数据缺口"
+                  },
+                  {
+                    "label": "档案补全",
+                    "prompt": "确认内部研究日志中是否遗漏了附件或搜索导出内容。",
+                    "meta": "数据缺口"
+                  },
+                  {
+                    "label": "来源佐证",
+                    "prompt": "在评估候选信号前，要求至少两个独立来源提供事实。",
+                    "meta": "阈值"
+                  },
+                  {
+                    "label": "流程复核",
+                    "prompt": "一旦证据就绪，重新对照现有世界流程进行匹配。",
+                    "meta": "流程"
+                  }
+                ],
+                "ending": "在证据到位前不发布。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-08-29",
+          "scope": "global",
+          "date": "2026-08-29",
+          "decidedAt": "2026-08-28T22:05:26.505Z",
+          "state": "no_new_global_insight",
+          "insightId": "global-2026-08-29-no-extractable-signal",
+          "materialChangeScore": 0,
+          "evidenceStrength": 0,
+          "noveltyScore": 0,
+          "importanceScore": 0,
+          "candidateSignalIds": [
+            "no-viable-signal-2026-08-29"
+          ],
+          "content": {
+            "en": {
+              "label": "No global insight",
+              "decisionTitle": "Hold publication: dossier missing evidence",
+              "decisionSummary": "The 2026-08-29 dossier contains no facts, data points, quotes, or URLs, so there is no concrete signal to evaluate. Publishing would be speculation.",
+              "thresholdReason": "Evidence strength is zero and fewer than two current or corroborating sources; material change score is zero.",
+              "observeNext": [
+                "Request a completed dossier with search results or URLs for 2026-08-29.",
+                "Re-run broad research across AI, energy, geopolitics, macroeconomics, and capital for the past 24 hours.",
+                "Check for any omitted attachments or reports from the internal research log.",
+                "Confirm whether a downstream research agent can supply two or more corroborating sources."
+              ]
+            },
+            "zh": {
+              "label": "无全球洞察",
+              "decisionTitle": "暂缓发布：档案缺少证据",
+              "decisionSummary": "2026-08-29 档案中不包含事实、数据点、引文或 URL，因此没有可评估的具体信号。发布将属于臆测。",
+              "thresholdReason": "证据强度为零，且当前或佐证来源少于两个；实质性变化评分为零。",
+              "observeNext": [
+                "要求提供包含 2026-08-29 搜索结果或 URL 的完整档案。",
+                "针对过去 24 小时的 AI、能源、地缘政治、宏观经济和资本领域，重新开展广泛研究。",
+                "检查内部研究日志中是否有任何被遗漏的附件或报告。",
+                "确认下游研究代理能否提供两个或以上佐证来源。"
+              ]
+            }
+          }
+        },
+        "provider": "deepseek",
+        "pipeline": "build014-one-world-v1",
+        "usage": {
+          "inputTokens": 4439,
+          "outputTokens": 6426,
+          "cachedInputTokens": 2432
         }
       }
     }
