@@ -6,16 +6,16 @@
   "date": "2026-08-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-08-28T22:01:14.129Z",
-  "updatedAt": "2026-08-28T22:04:56.983Z",
+  "updatedAt": "2026-08-28T22:05:24.407Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-08-28T22:04:56.983Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-28T22:05:24.407Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-29-1787954604115",
@@ -309,6 +309,127 @@
           "inputTokens": 2190,
           "outputTokens": 3882,
           "cachedInputTokens": 1280
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "Insight",
+              "secondaryEyebrow": "全球",
+              "title": "无可提取信号",
+              "summary": "2026-08-29 档案中不包含事实或 URL，无法形成全球洞察。"
+            },
+            "question": {
+              "lead": "空档案无法回答任何问题。",
+              "title": "什么证据能将其转化为信号？",
+              "footnote": "此占位内容在所有维度上均计为零分。"
+            },
+            "signals": {
+              "title": "缺失的信号",
+              "sourceNote": "仅有内部研究日志和计划说明可供参考。",
+              "items": [
+                {
+                  "label": "数据缺口",
+                  "title": "档案中不包含事实或 URL",
+                  "body": "2026-08-29 档案仅包含一项研究意图说明，没有任何搜索结果、数据点、引文或 URL。",
+                  "whyImportant": "若缺乏底层证据，任何候选信号都将是推测性的，因此无法评估任何流程。",
+                  "evidence": {
+                    "title": "研究日志确认事实缺失",
+                    "description": "2026-08-29 的内部研究日志仅包含一项计划，拟对过去 24 小时的 AI、能源、地缘政治、宏观经济和资本进行研究；其中没有实际发现。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "no-viable-signal-2026-08-29-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "流程不匹配",
+                  "title": "无法匹配具体流程",
+                  "body": "零证据信号因缺少可与流程标准比较的数据点，无法匹配现有世界流程。",
+                  "whyImportant": "这可以避免被错误归类为现有流程更新或新流程候选。",
+                  "evidence": {
+                    "title": "内部研究计划说明",
+                    "description": "内部说明重申了研究范围，但没有提供任何具体事件、指标或 URL 供分析。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "no-viable-signal-2026-08-29-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "无模式",
+              "before": "完整的每日档案本应包含跨 AI、能源、地缘政治、宏观经济和资本领域的搜索结果、数据点、引文和 URL。",
+              "shift": "2026-08-29 档案只交付了一份研究这些领域的意图声明，并未包含实际发现。",
+              "now": "目前没有可评估的具体模式、事件或指标；任何流程匹配都缺乏支撑。",
+              "conclusion": "在进行任何世界流程分类或发布决策之前，必须重新运行或补全档案。"
+            },
+            "insight": {
+              "title": "空证据无法形成洞察",
+              "formula": "无事实 + 无 URL = 无信号",
+              "explanation": "洞察至少需要一个可核实的事实并关联来源。在零证据的情况下，唯一行动是请求更多数据。"
+            },
+            "observe": {
+              "title": "下一步观察",
+              "items": [
+                {
+                  "label": "重新研究",
+                  "prompt": "请研究代理重新运行 2026-08-29 查询，并明确要求返回 URL 和数据点。",
+                  "meta": "数据缺口"
+                },
+                {
+                  "label": "档案补全",
+                  "prompt": "确认内部研究日志中是否遗漏了附件或搜索导出内容。",
+                  "meta": "数据缺口"
+                },
+                {
+                  "label": "来源佐证",
+                  "prompt": "在评估候选信号前，要求至少两个独立来源提供事实。",
+                  "meta": "阈值"
+                },
+                {
+                  "label": "流程复核",
+                  "prompt": "一旦证据就绪，重新对照现有世界流程进行匹配。",
+                  "meta": "流程"
+                }
+              ],
+              "ending": "在证据到位前不发布。"
+            }
+          },
+          "dailyState": {
+            "label": "无全球洞察",
+            "decisionTitle": "暂缓发布：档案缺少证据",
+            "decisionSummary": "2026-08-29 档案中不包含事实、数据点、引文或 URL，因此没有可评估的具体信号。发布将属于臆测。",
+            "thresholdReason": "证据强度为零，且当前或佐证来源少于两个；实质性变化评分为零。",
+            "observeNext": [
+              "要求提供包含 2026-08-29 搜索结果或 URL 的完整档案。",
+              "针对过去 24 小时的 AI、能源、地缘政治、宏观经济和资本领域，重新开展广泛研究。",
+              "检查内部研究日志中是否有任何被遗漏的附件或报告。",
+              "确认下游研究代理能否提供两个或以上佐证来源。"
+            ]
+          },
+          "processContent": {
+            "title": "数据缺口：无可提取信号",
+            "description": "所选候选者为占位内容，在重要性、新颖性、论点影响和证据强度上均计为零分。档案仅包含研究意图声明，没有事实或 URL。",
+            "implication": "不应基于此档案发布任何洞察。在评估任何世界流程之前，正确的下一步是重新研究或补全档案。"
+          },
+          "nextQuestion": "能为 2026-08-29 档案收集到哪些完整证据，以识别真实信号？",
+          "observeNext": [
+            "要求提供 2026-08-29 的完整搜索结果及 URL。",
+            "重新运行过去 24 小时的广泛研究查询。",
+            "确认内部说明中是否遗漏了数据点或引文。"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2249,
+          "outputTokens": 2544,
+          "cachedInputTokens": 1152
         }
       }
     }
