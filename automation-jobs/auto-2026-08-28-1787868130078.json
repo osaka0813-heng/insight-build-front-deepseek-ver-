@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-27T22:02:10.078Z",
-  "updatedAt": "2026-08-28T00:06:43.037Z",
+  "updatedAt": "2026-08-28T00:06:43.926Z",
   "scopes": {
     "global": {
       "status": "running",
@@ -17,7 +17,7 @@
         "write_zh": 1
       },
       "message": "write_zh",
-      "updatedAt": "2026-08-27T22:38:44.529Z",
+      "updatedAt": "2026-08-28T00:06:43.926Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-28-1787868320443",
