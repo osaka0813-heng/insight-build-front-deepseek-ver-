@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-08-27T22:02:10.078Z",
-  "updatedAt": "2026-08-28T00:07:36.446Z",
+  "updatedAt": "2026-08-28T00:12:21.475Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1653,11 +1653,6 @@
       "contentVersion": "publish-IRAN-WAR-DIPLOMATIC-WINDOW-1787875655172",
       "completedAt": "2026-08-28T00:07:36.446Z"
     }
-  },
-  "lease": {
-    "owner": "cron-1787875602668-6dnkghy5",
-    "acquiredAt": "2026-08-28T00:06:43.037Z",
-    "expiresAt": "2026-08-28T00:11:33.037Z"
   },
   "preflight": {
     "ok": true,
