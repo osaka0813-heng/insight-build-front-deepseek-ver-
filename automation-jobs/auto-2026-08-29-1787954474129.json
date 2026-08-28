@@ -6,16 +6,84 @@
   "date": "2026-08-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-28T22:01:14.129Z",
-  "updatedAt": "2026-08-28T22:01:19.409Z",
+  "updatedAt": "2026-08-28T22:03:24.125Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-28T22:01:19.409Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-28T22:03:24.125Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-29-1787954604115",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-28T22:03:24.115Z",
+        "researchDate": "2026-08-29",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 103956,
+          "outputTokens": 13072,
+          "cachedInputTokens": 69504
+        },
+        "querySummary": "The dossier for 2026-08-29 contains no actual search results, facts, data points, or URLs. It only includes an unfulfilled research-intent statement ('I'll research broadly across AI, energy, geopolitics, macroeconomics, and capital for signals from the past 24 hours around 2026-08-29.'). As a result, no evidence-based signal can be extracted; the single placeholder candidate below flags this data gap rather than asserting a real-world change.",
+        "candidates": [
+          {
+            "id": "no-viable-signal-2026-08-29",
+            "date": "2026-08-29",
+            "domain": "meta",
+            "tags": [
+              "insufficient-evidence",
+              "empty-dossier",
+              "data-gap"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 1,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "No extractable signals: dossier contains no facts or URLs",
+                "coreFact": "The 2026-08-29 dossier consists solely of the statement 'I'll research broadly across AI, energy, geopolitics, macroeconomics, and capital for signals from the past 24 hours around 2026-08-29.' It contains no search results, data points, quotes, or URLs that could serve as evidence for any candidate signal.",
+                "whyItMatters": "Without underlying evidence, any candidate signal would be entirely speculative. This placeholder is deliberately scored at zero across all dimensions to flag the data gap so downstream processes can request a complete dossier or re-run the research before making decisions.",
+                "processMatchReason": "No existing process can be matched because there is no concrete signal to evaluate; a dossier-completion or re-research step is required first."
+              },
+              "zh": {
+                "title": "无法提取信号：卷宗内无事实或 URL",
+                "coreFact": "2026-08-29 的卷宗仅包含一句研究意向陈述（“I'll research broadly across AI, energy, geopolitics, macroeconomics, and capital for signals from the past 24 hours around 2026-08-29.”），未提供任何搜索结果、数据点、引文或 URL 作为证据。",
+                "whyItMatters": "在缺乏证据的情况下，任何候选信号都只是推测。此占位信号在所有维度上均打零分，旨在标记数据缺口，提醒下游流程先补齐卷宗或重新调研，再做决策。",
+                "processMatchReason": "因无具体信号，无法匹配任何现有流程；需先完成卷宗补齐或重新研究。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Web Search Dossier (research intent only)",
+                "url": "",
+                "publisher": "Internal research log",
+                "publishedAt": "2026-08-29",
+                "kind": "primary",
+                "id": "no-viable-signal-2026-08-29-source-1"
+              },
+              {
+                "title": "Research plan note for 2026-08-29",
+                "url": "",
+                "publisher": "Internal",
+                "kind": "context",
+                "id": "no-viable-signal-2026-08-29-source-2"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
