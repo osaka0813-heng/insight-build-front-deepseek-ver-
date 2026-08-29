@@ -6,16 +6,456 @@
   "date": "2026-08-30",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-29T22:02:09.828Z",
-  "updatedAt": "2026-08-29T22:02:14.897Z",
+  "updatedAt": "2026-08-29T22:06:28.587Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-29T22:02:14.897Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-29T22:06:28.587Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-30-1788041188576",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-29T22:06:28.576Z",
+        "researchDate": "2026-08-30",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 281100,
+          "outputTokens": 32427,
+          "cachedInputTokens": 224512
+        },
+        "querySummary": "Six candidate signals extracted from the Aug 28-30 dossier window: Fed rate-hike repricing after Warsh's hawkish Jackson Hole debut, the US-Venezuela oil mega-deal, a possible sweeping US semiconductor tariff round, China's cross-threshold compute mobilization, AI value-chain verticalization/conflict, and the Anthropic-OpenAI IPO divergence.",
+        "candidates": [
+          {
+            "id": "candidate-1-fed-warsh-hawkish-jackson-hole",
+            "date": "2026-08-28",
+            "domain": "Macroeconomics / Central Banks",
+            "tags": [
+              "Federal Reserve",
+              "Kevin Warsh",
+              "rate hike",
+              "Jackson Hole",
+              "inflation",
+              "AI capex"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 92,
+            "novelty": 78,
+            "evidenceStrength": 88,
+            "independentSourceCount": 6,
+            "thesisImpact": 95,
+            "relationshipChange": 65,
+            "stageChange": 75,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "Fed regime shift: Warsh's hawkish Jackson Hole debut lifts September hike odds to ~60%",
+                "coreFact": "New Fed Chair Kevin Warsh used his first Jackson Hole keynote to commit to returning inflation to 2%, saying the Fed 'still has work to do' and will 'take action as needed.' CME FedWatch pricing for a September 16-17 hike jumped from about 35-40% to roughly 60%. Markets repriced on Friday Aug 28: S&P 500 -0.25%, Nasdaq -0.52%, spot gold -3%+ to ~$4,450-4,504, 10Y Treasury 4.73%, 30Y 5.19%, 2Y 4.34%, Nvidia -4.57% to $217.55 despite record earnings, oil closed the week down >5% (Brent $89.31, WTI $83.40).",
+                "whyItMatters": "If the Fed turns from hold to tightening after holding at 3.50-3.75% since January, the entire debt-funded AI capex supercycle gets re-rated. New AI-infrastructure financing is already being done at 9% (Iren's $2.4B led by Blue Owl for Nvidia Blackwell Ultra GPUs; Lambda's ~$1B private debt). Rogoff is quoted predicting a September hike would trigger 'fierce backlash' from Trump, adding political-economy volatility.",
+                "processMatchReason": "No existing world-process in the dossier matches this macro regime shift; it would create a new monetary-policy-tightening process."
+              },
+              "zh": {
+                "title": "美联储制度转向：沃什鹰派杰克逊霍尔首秀将9月加息概率推至约60%",
+                "coreFact": "新任美联储主席凯文·沃什在杰克逊霍尔首次主旨演讲中承诺将通胀率拉回2%，称美联储“仍有工作要做”，并将“视需要采取行动”。CME FedWatch显示9月16-17日加息概率从此前的约35-40%升至约60%。8月28日（周五）市场重新定价：标普500跌0.25%，纳指跌0.52%，现货黄金跌逾3%至约4,450-4,504美元，10年期美债收益率4.73%，30年期5.19%，2年期4.34%，英伟达在公布创纪录财报后仍跌4.57%至217.55美元，油价本周收跌逾5%（布伦特89.31美元，WTI 83.40美元）。",
+                "whyItMatters": "若美联储在1月以来维持3.50-3.75%利率后从按兵不动转向收紧，整个由债务推动的AI资本开支超级周期都将被重新定价。新的AI基础设施融资利率已达9%（Iren的24亿美元由Blue Owl牵头用于英伟达Blackwell Ultra GPU；Lambda约10亿美元私人债务）。Rogoff预计9月加息将引发特朗普的“激烈反弹”，为宏观路径增添政治经济波动。",
+                "processMatchReason": "档案中没有现有的世界进程与该宏观制度转向匹配；这将创建新的货币政策紧缩进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Fed Chair Warsh says more work to do on inflation",
+                "url": "https://edgen.tech",
+                "publisher": "edgen.tech",
+                "publishedAt": "2026-08-27",
+                "kind": "reliable_media",
+                "id": "candidate-1-fed-warsh-hawkish-jackson-hole-source-1"
+              },
+              {
+                "title": "Morningstar macro update: September hike probability reaches 60%",
+                "url": "https://morningstar.com",
+                "publisher": "Morningstar",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-1-fed-warsh-hawkish-jackson-hole-source-2"
+              },
+              {
+                "title": "Schwab Network: Markets react to hawkish Jackson Hole",
+                "url": "https://schwabnetwork.com",
+                "publisher": "Schwab Network",
+                "publishedAt": "2026-08-28",
+                "kind": "context",
+                "id": "candidate-1-fed-warsh-hawkish-jackson-hole-source-3"
+              },
+              {
+                "title": "Stocks, gold, oil fall on rate-hike repricing",
+                "url": "https://apnews.com",
+                "publisher": "AP",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-1-fed-warsh-hawkish-jackson-hole-source-4"
+              }
+            ]
+          },
+          {
+            "id": "candidate-2-us-venezuela-oil-mega-deal",
+            "date": "2026-08-28",
+            "domain": "Energy / Geopolitics",
+            "tags": [
+              "Venezuela",
+              "oil reserves",
+              "US-China competition",
+              "OPEC",
+              "foreign investment",
+              "gasoline prices"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 88,
+            "novelty": 92,
+            "evidenceStrength": 82,
+            "independentSourceCount": 5,
+            "thesisImpact": 86,
+            "relationshipChange": 82,
+            "stageChange": 70,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "US claims majority control of 65B+ barrels in 'largest oil deal in history' with Venezuela",
+                "coreFact": "On Aug 28, Trump announced on Truth Social that the US and Venezuela reached 'THE LARGEST OIL DEAL IN THE HISTORY OF THE WORLD,' with the US securing majority control of more than 65 billion barrels of Venezuela's proven reserves—Trump says this more than doubles US reserves. Rubio says the deal will bring about $100B in private investment. It comes ~8 months after the Maduro government fell; Chevron is currently the sole exporter from Venezuela.",
+                "whyItMatters": "This is a structural supply addition outside OPEC+/Russia/Iran at a moment of Hormuz risk, while simultaneously a geopolitical rebalancing—the US displacing China as Venezuela's dominant oil partner—and a domestic political lever on US fuel prices. US average gasoline was ~$4.09/gal (+27% y/y) on Aug 28. Al Bawaba's analysis calls it 'bearish for long-term oil prices and for OPEC's strategic leverage.'",
+                "processMatchReason": "No existing process in the dossier tracks US-Venezuela energy relations; this creates a new geopolitical-energy process."
+              },
+              "zh": {
+                "title": "美国宣称在委内瑞拉‘史上最大石油交易’中获得650亿桶以上多数控制权",
+                "coreFact": "8月28日，特朗普在Truth Social上宣布，美国和委内瑞拉达成了“世界历史上最大的石油交易”，美国获得委内瑞拉已探明储量超过650亿桶的多数控制权——特朗普称这使美国储量翻倍以上。Rubio称该交易将带来约1000亿美元私人投资。此时距马杜罗政府倒台约8个月；雪佛龙目前是委内瑞拉唯一出口商。",
+                "whyItMatters": "这是在霍尔木兹风险时刻、OPEC+/俄罗斯/伊朗之外的结构性供应增量，同时是地缘政治再平衡——美国取代中国成为委内瑞拉主要石油伙伴——以及影响美国国内油价的政绩杠杆。8月28日美国平均汽油价格约4.09美元/加仑（同比+27%）。Al Bawaba分析称“对长期油价和OPEC战略杠杆构成利空”。",
+                "processMatchReason": "档案中没有现有进程跟踪美委能源关系；这将创建新的地缘政治-能源进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Trump announces 'largest oil deal in history' with Venezuela",
+                "url": "https://reuters.com",
+                "publisher": "Reuters via USA Today",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-2-us-venezuela-oil-mega-deal-source-1"
+              },
+              {
+                "title": "US-Venezuela oil deal: $100B investment and 65B barrels",
+                "url": "https://xinhuanet.com",
+                "publisher": "Xinhua",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-2-us-venezuela-oil-mega-deal-source-2"
+              },
+              {
+                "title": "CCTV coverage: US claims majority control of Venezuela reserves",
+                "url": "https://cctv.com",
+                "publisher": "CCTV",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-2-us-venezuela-oil-mega-deal-source-3"
+              },
+              {
+                "title": "Analysis: US-Venezuela deal bearish for OPEC",
+                "url": "https://albawaba.com",
+                "publisher": "Al Bawaba",
+                "publishedAt": "2026-08-29",
+                "kind": "context",
+                "id": "candidate-2-us-venezuela-oil-mega-deal-source-4"
+              }
+            ]
+          },
+          {
+            "id": "candidate-3-semiconductor-tariffs-servers",
+            "date": "2026-08-27",
+            "domain": "Trade / Technology",
+            "tags": [
+              "semiconductors",
+              "tariffs",
+              "AI servers",
+              "supply chains",
+              "Taiwan",
+              "South Korea"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 85,
+            "novelty": 72,
+            "evidenceStrength": 76,
+            "independentSourceCount": 4,
+            "thesisImpact": 85,
+            "relationshipChange": 75,
+            "stageChange": 65,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "US weighs sweeping semiconductor tariffs covering servers and finished goods",
+                "coreFact": "Politico reported Aug 27 that the administration is weighing a new broad tariff round on semiconductors extending beyond chips to finished goods—laptops, game consoles, datacenter servers—with differentiated country rates/quota frameworks, company-specific rules, and tariff relief tied to US fab investment; phased implementation is under discussion. This follows the 25% tariff on certain AI chips in January 2026. Markets reacted Aug 28: Kioxia -8.76%; Samsung, SK Hynix and Taiwanese chip names sold off; SK Hynix confirmed US HBM production (2029) and broke ground Aug 27 on a $4B HBM advanced-packaging plant in Indiana.",
+                "whyItMatters": "Tariffs on AI servers would directly raise AI datacenter capex in the US and force restructuring of allied supply chains (Taiwan, Korea, Japan), interacting with the China export-control spiral (China's Aug 5 countermeasures: drone export controls, first national-security trade investigation into imported printers/copiers) and the Unimicron 'origin-laundering' probe in Taiwan (Aug 28) tied to US 'red supply chain' enforcement.",
+                "processMatchReason": "No existing process in the dossier covers the evolution of US semiconductor tariffs as a distinct world-process; this signal would create or extend one."
+              },
+              "zh": {
+                "title": "美国考虑对半导体征收全面关税，覆盖服务器和终端成品",
+                "coreFact": "Politico 8月27日报道，政府正在考虑新一轮广泛的半导体关税，范围将超越芯片，延伸到笔记本电脑、游戏机、数据中心服务器等成品，并设有差异化国家税率/配额框架、公司特定规则，以及与在美建厂投资挂钩的关税减免；分阶段实施正在讨论中。此前2026年1月已对部分AI芯片征收25%关税。8月28日市场反应：铠侠跌8.76%；三星、SK海力士及台湾芯片股走低；SK海力士确认2029年在美生产HBM，并于8月27日在印第安纳州为一座40亿美元的HBM先进封装厂破土动工。",
+                "whyItMatters": "对AI服务器征收关税将直接提高美国AI数据中心资本开支，并迫使台湾、韩国、日本等盟友供应链重组，同时与中国出口管制螺旋（中国8月5日反制措施：无人机出口管制、首次对进口打印机/复印机启动国家安全贸易调查）以及台湾Unimicron 8月28日与美方‘红色供应链’执法相关的‘原产地洗白’调查产生互动。",
+                "processMatchReason": "档案中没有现有进程单独涵盖美国半导体关税的演变；该信号将创建或扩展此类进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US weighs semiconductor tariffs on finished goods",
+                "url": "https://cnbc.com",
+                "publisher": "CNBC",
+                "publishedAt": "2026-08-27",
+                "kind": "reliable_media",
+                "id": "candidate-3-semiconductor-tariffs-servers-source-1"
+              },
+              {
+                "title": "Korean chipmakers fall on tariff fears; SK Hynix confirms US HBM",
+                "url": "https://ytn.co.kr",
+                "publisher": "YTN",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-3-semiconductor-tariffs-servers-source-2"
+              },
+              {
+                "title": "Taiwan chip stocks sell off after tariff report",
+                "url": "https://digitimes.com",
+                "publisher": "DIGITIMES",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-3-semiconductor-tariffs-servers-source-3"
+              },
+              {
+                "title": "Asian tech supply chain reacts to potential US tariff expansion",
+                "url": "https://chinatimes.com",
+                "publisher": "Chinatimes",
+                "publishedAt": "2026-08-28",
+                "kind": "context",
+                "id": "candidate-3-semiconductor-tariffs-servers-source-4"
+              }
+            ]
+          },
+          {
+            "id": "candidate-4-china-compute-monitoring",
+            "date": "2026-08-29",
+            "domain": "China / AI Infrastructure",
+            "tags": [
+              "China",
+              "smart computing",
+              "national data administration",
+              "domestic chips",
+              "export controls",
+              "compute network"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 90,
+            "novelty": 84,
+            "evidenceStrength": 72,
+            "independentSourceCount": 5,
+            "thesisImpact": 92,
+            "relationshipChange": 80,
+            "stageChange": 75,
+            "contradiction": 60,
+            "content": {
+              "en": {
+                "title": "China says 60% of national smart-compute is on state monitoring, running on domestic chips",
+                "coreFact": "At the Guiyang Big Data Expo (Aug 29), National Data Administration Director Liu Liehong said that as of end-July, China's total smart-compute was 2.45M PFLOPS (FP16); over 85% sits in the 8 national hubs plus 3 compute-power coordination zones; 1.45M PFLOPS (~60%) is already on the national-level monitoring/dispatch platform. The '15th Five-Year' integrated compute network—one of the 'six networks,' coupled to the power grid, water, communications, pipelines, logistics—implies over ¥4T in new direct investment.",
+                "whyItMatters": "This directly tests the export-control/geopolitical-technology thesis that China is durably compute-constrained. Corroborating signals: Z.AI's GLM-5.3 Flash is serving ~100T tokens/day of inference entirely from 100,000+ domestic chips (Aug 26); Chinese media citing TrendForce claim domestic solutions are ~90% of China's AI chip market (Aug 29); Meituan's LongCat-2.0 trained a 1.6T-parameter class model on 50k domestic ASICs. Beijing is building state-orchestrated compute and compute-power-grid coupling as strategic infrastructure, while the US sends a 'pick a side' AI letter to 35 countries.",
+                "processMatchReason": "No existing process in the dossier tracks China's compute-governance build-out; this is a new state-infrastructure process."
+              },
+              "zh": {
+                "title": "中国称全国智能算力60%已接入国家监测调度平台，且运行在国产芯片上",
+                "coreFact": "8月29日在贵阳数博会上，国家数据局局长刘烈宏表示，截至7月底，全国智能算力总规模达245万PFLOPS（FP16）；超过85%集中于8大枢纽和3个算力协同区；其中145万PFLOPS（约60%）已接入国家级监测调度平台。“十五五”一体化算力网——作为“六张网”之一，与电力网、水网、通信网、管网、物流网协同——意味着超过4万亿元新增直接投资。",
+                "whyItMatters": "这直接考验出口管制/地缘科技论点中“中国长期受算力制约”的假设。佐证信号：智谱GLM-5.3 Flash每天服务约100万亿token推理，完全使用10万+国产芯片；中国媒体援引TrendForce称国产方案已约占中国AI芯片市场90%；美团LongCat-2.0在5万颗国产ASIC上训练了1.6T参数级模型。北京正把国家统筹算力及算力-电力耦合建设为战略基础设施，与此同时美国向35国发出“选边站”AI信函。",
+                "processMatchReason": "档案中没有现有进程跟踪中国算力治理建设；这是一个新的国家基础设施进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "National Data Administration: 60% of smart computing on national dispatch platform",
+                "url": "https://xinhuanet.com",
+                "publisher": "Xinhua",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-4-china-compute-monitoring-source-1"
+              },
+              {
+                "title": "Guiyang Big Data Expo: China builds integrated compute network",
+                "url": "http://people.com.cn",
+                "publisher": "People's Daily",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-4-china-compute-monitoring-source-2"
+              },
+              {
+                "title": "China's smart-compute scale and 15th Five-Year compute network investment",
+                "url": "https://eastmoney.com",
+                "publisher": "eastmoney",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-4-china-compute-monitoring-source-3"
+              },
+              {
+                "title": "Z.AI servers 100 trillion tokens/day on domestic chips",
+                "url": "https://aibusiness.com",
+                "publisher": "AI Business",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-4-china-compute-monitoring-source-4"
+              }
+            ]
+          },
+          {
+            "id": "candidate-5-ai-verticalization-openai-nvidia",
+            "date": "2026-08-28",
+            "domain": "AI Industry / Corporate Strategy",
+            "tags": [
+              "OpenAI",
+              "Cursor",
+              "Anthropic",
+              "Nvidia",
+              "Hugging Face",
+              "Musk-Altman",
+              "vertical integration"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 82,
+            "novelty": 85,
+            "evidenceStrength": 76,
+            "independentSourceCount": 4,
+            "thesisImpact": 80,
+            "relationshipChange": 70,
+            "stageChange": 60,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "AI value chain turns combative: OpenAI cuts off Cursor as Nvidia buys Hugging Face",
+                "coreFact": "On Aug 28, OpenAI said it will end its agreement providing AI models to Cursor, the coding tool SpaceX acquired in June for $60B all-stock purchase of Anysphere, citing its contractual right to cancel after a 'change of control' and ToS concerns. Musk responded: 'I don't care, Altman is a liar.' Anthropic immediately said it will add compute to keep Claude available in Cursor. Separately, Nvidia has agreed to acquire Hugging Face for $12.9B—its largest acquisition—extending full-stack AI control from silicon into model distribution (reported Aug 26-27).",
+                "whyItMatters": "Model access is becoming a weaponized, consolidated layer of the AI infrastructure race. Platform owners can cut off rivals, while the compute leader buys the open-ecosystem distribution point. This merges AI, capital markets, and the personal/political rivalry between Musk and Altman (Musk holding government power) into the industry's structural dynamics.",
+                "processMatchReason": "No existing process in the dossier captures this vertical-integration/conflict dynamic; it signals a new competitive-structure process."
+              },
+              "zh": {
+                "title": "AI价值链对抗化：OpenAI切断Cursor供应，英伟达收购Hugging Face",
+                "coreFact": "8月28日，OpenAI宣布将终止向Cursor提供AI模型的协议。Cursor是SpaceX在6月以600亿美元全股票收购Anysphere后获得的编码工具；OpenAI援引在“控制权变更”后有权终止合同及服务条款担忧。马斯克回应：“我不在乎，奥特曼是个骗子。”Anthropic随即表示将增加算力，让Claude继续在Cursor中可用。另外，8月26-27日报道，英伟达已同意以129亿美元收购Hugging Face——英伟达最大一笔收购，将“全栈AI”控制从芯片延伸到模型分发。",
+                "whyItMatters": "模型访问正在成为AI基础设施竞赛中被武器化、整合的一层。平台方可以切断对竞争对手的供应，而算力领导者买下开放生态的分发入口。这将AI、资本市场以及马斯克与奥特曼之间的个人/政治对抗（马斯克手握政府权力）融合进产业结构动态。",
+                "processMatchReason": "档案中没有现有进程反映这种垂直整合/冲突动态；它预示着新的竞争结构进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "OpenAI to end Cursor agreement after SpaceX acquisition",
+                "url": "https://reuters.com",
+                "publisher": "Reuters",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-5-ai-verticalization-openai-nvidia-source-1"
+              },
+              {
+                "title": "Musk: 'Altman is a liar'; Anthropic steps in for Cursor",
+                "url": "https://cnnbrasil.com.br",
+                "publisher": "CNN Brasil",
+                "publishedAt": "2026-08-28",
+                "kind": "reliable_media",
+                "id": "candidate-5-ai-verticalization-openai-nvidia-source-2"
+              },
+              {
+                "title": "Nvidia agrees to acquire Hugging Face for $12.9B",
+                "url": "https://theinformation.com",
+                "publisher": "The Information",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-5-ai-verticalization-openai-nvidia-source-3"
+              },
+              {
+                "title": "Hugging Face acquisition extends Nvidia's full-stack AI control",
+                "url": "https://geekpark.net",
+                "publisher": "GeekPark",
+                "publishedAt": "2026-08-27",
+                "kind": "context",
+                "id": "candidate-5-ai-verticalization-openai-nvidia-source-4"
+              }
+            ]
+          },
+          {
+            "id": "candidate-6-anthropic-ipo-openai-delay",
+            "date": "2026-08-27",
+            "domain": "Capital Markets / AI",
+            "tags": [
+              "Anthropic",
+              "IPO",
+              "OpenAI",
+              "S-1",
+              "Amazon",
+              "AI valuations",
+              "public markets"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 86,
+            "novelty": 78,
+            "evidenceStrength": 74,
+            "independentSourceCount": 4,
+            "thesisImpact": 80,
+            "relationshipChange": 50,
+            "stageChange": 80,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "Anthropic pushes toward record ~$100B IPO while OpenAI slips to 2027",
+                "coreFact": "Anthropic plans to publish its IPO prospectus after Labor Day (Sept 7), with bankers floating a record ~$100B raise at a valuation near $2T; secondary markets already pricing ~$2T. It has raised $130B+ to date, which would surpass SpaceX's $86B June IPO; existing shareholders may sell in the offering; Amazon's 21% stake would be worth ~$420B (32x on $13B). By contrast, OpenAI's CFO told an all-hands that the company will go public 'in 2027,' with earlier reports citing -122% non-GAAP operating margin on ~$25B annualized revenue and ~18% revenue growth that trails Anthropic; OpenAI completed a $7B buyback (Aug 11) and is testing ads in India (Aug 29).",
+                "whyItMatters": "Public markets are about to receive the first true transparency into generative-AI unit economics at unprecedented scale—a ~$2T print would be among the largest listings in history and set the reference price for the whole AI capex cycle, precisely as the Fed turns hawkish (Candidate 1).",
+                "processMatchReason": "No existing process in the dossier tracks AI IPO sequencing; this is a new public-market transparency process."
+              },
+              "zh": {
+                "title": "Anthropic推进创纪录的约1000亿美元IPO，OpenAI滑至2027年",
+                "coreFact": "Anthropic计划在劳动节（9月7日）后公布招股说明书，投行提出创纪录的约1000亿美元募资、估值近2万亿美元；二级市场已给出约2万亿美元估值。其迄今已融资超过1300亿美元，将超过SpaceX 6月860亿美元的IPO；现有股东可能在此次发行中出售股份；亚马逊21%的股份将价值约4200亿美元（对130亿美元投资为32倍）。相比之下，OpenAI CFO在全员会上表示公司“2027年”上市，此前报道称其非GAAP营业利润率-122%、年化收入约250亿美元、收入增长约18%落后于Anthropic；OpenAI于8月11日完成70亿美元回购，8月29日在印度测试广告。",
+                "whyItMatters": "公开市场即将首次以空前规模看到生成式AI单位经济学的真实透明度——约2万亿美元的发行将成为历史上最大上市之一，并为整个AI资本开支周期设定参考价格，恰逢美联储转鹰（信号1）。",
+                "processMatchReason": "档案中没有现有进程跟踪AI IPO时序；这是一个新的公开市场透明度进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Anthropic plans record ~$100B IPO at ~$2T valuation",
+                "url": "https://economictimes.indiatimes.com",
+                "publisher": "Economic Times",
+                "publishedAt": "2026-08-26",
+                "kind": "reliable_media",
+                "id": "candidate-6-anthropic-ipo-openai-delay-source-1"
+              },
+              {
+                "title": "Anthropic S-1 expected after Labor Day; secondary prices ~$2T",
+                "url": "https://edgen.tech",
+                "publisher": "edgen.tech",
+                "publishedAt": "2026-08-27",
+                "kind": "reliable_media",
+                "id": "candidate-6-anthropic-ipo-openai-delay-source-2"
+              },
+              {
+                "title": "OpenAI CFO says IPO in 2027 after buyback and ads trial",
+                "url": "https://wionews.com",
+                "publisher": "WION",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-6-anthropic-ipo-openai-delay-source-3"
+              },
+              {
+                "title": "OpenAI's negative operating margin and slower growth compared to Anthropic",
+                "url": "https://benzinga.com",
+                "publisher": "Benzinga",
+                "publishedAt": "2026-08-29",
+                "kind": "reliable_media",
+                "id": "candidate-6-anthropic-ipo-openai-delay-source-4"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
