@@ -6,18 +6,18 @@
   "date": "2026-08-31",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-30T22:01:14.013Z",
-  "updatedAt": "2026-08-30T22:39:03.987Z",
+  "updatedAt": "2026-08-30T22:40:23.460Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-08-30T22:39:03.987Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-30T22:40:23.460Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -190,7 +190,134 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 1,
-      "selectedCandidateId": "candidate-2026-08-31-null"
+      "selectedCandidateId": "candidate-2026-08-31-null",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-2026-08-31-null",
+          "slug": "unverified-emerging-signal-set-2026-08-31",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Unverified signal set",
+              "title": "An Emerging Signal Set Remains Unverified",
+              "summary": "A researcher reports a strong signal set but supplies no primary-source evidence; the only defensible action is to withhold process linkage until concrete facts arrive."
+            },
+            "question": {
+              "lead": "Can an unverified meta-statement justify a World Process update?",
+              "title": "What would make this signal actionable?",
+              "footnote": "Use only supplied evidence; no URLs, dates, or specific facts beyond the researcher's statement are available."
+            },
+            "signals": {
+              "title": "Available signals from the dossier",
+              "sourceNote": "Evidence is limited to two internal context sources; no trigger or corroborating sources exist.",
+              "items": [
+                {
+                  "label": "Reported signal",
+                  "title": "Researcher states a strong signal set has emerged",
+                  "body": "An internal researcher statement dated 2026-08-31 says a strong signal set has emerged and that top candidates will be verified with primary sources.",
+                  "whyImportant": "It is the only available signal, but it contains no concrete evidence or URLs.",
+                  "evidence": {
+                    "title": "Researcher's internal signal statement",
+                    "description": "The statement announces an intention to verify, but does not specify what the signal set contains.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-2026-08-31-null-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Evidence gap",
+                  "title": "No primary-source evidence or URLs are included",
+                  "body": "The dossier contains no trigger sources, no corroborating sources, and no URLs; only two internal context sources are listed.",
+                  "whyImportant": "Without this, the signal cannot be verified or linked to any World Process.",
+                  "evidence": {
+                    "title": "Research date context",
+                    "description": "The research date is internal context and does not provide substantive evidence.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-2026-08-31-null-source-1",
+                      "candidate-2026-08-31-null-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Before, Shift, Now, Conclusion",
+              "before": "A reported signal set was treated as a potential starting point for process matching.",
+              "shift": "The dossier provides no concrete facts, URLs, primary sources, or named process, so the signal cannot be substantiated.",
+              "now": "The signal is an unverified meta-statement; the correct stance is to wait for primary-source verification rather than force a World Process link.",
+              "conclusion": "No material change exists; do not publish a process-linked Insight until at least one trigger source with verifiable details appears."
+            },
+            "insight": {
+              "title": "Absence of evidence is not evidence of process change",
+              "formula": "Unverified meta-statement + zero trigger sources + zero corroborating sources = no actionable Global Insight.",
+              "explanation": "The selected candidate is a researcher's intention to verify, not an observed event. No named process can be updated without specific facts."
+            },
+            "observe": {
+              "title": "Observe before acting",
+              "items": [
+                {
+                  "label": "Primary evidence",
+                  "prompt": "Has any concrete event, URL, or document been supplied?",
+                  "meta": "Trigger source"
+                },
+                {
+                  "label": "Process match",
+                  "prompt": "Does any named process connect to a specific fact?",
+                  "meta": "Classification"
+                },
+                {
+                  "label": "Corroboration",
+                  "prompt": "Have at least two current or corroborating sources appeared?",
+                  "meta": "Evidence threshold"
+                },
+                {
+                  "label": "Researcher follow-through",
+                  "prompt": "Has the researcher returned with primary sources?",
+                  "meta": "Verification"
+                }
+              ],
+              "ending": "Return only when a trigger source with concrete, verifiable evidence is available."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No new global insight",
+            "decisionTitle": "Do not publish a Global Insight this cycle",
+            "decisionSummary": "The signal is a meta-statement with no concrete evidence, so it does not meet the material-change threshold.",
+            "thresholdReason": "Zero trigger sources and zero corroborating sources; the candidate is an internal note about future verification.",
+            "observeNext": [
+              "Has any concrete event, URL, or document been supplied?",
+              "Does any named process connect to a specific fact?",
+              "Have at least two current or corroborating sources appeared?",
+              "Has the researcher returned with primary sources?"
+            ]
+          },
+          "processStage": "uncertain",
+          "processContentEn": {
+            "title": "Unverified signal set",
+            "description": "A researcher says a strong signal set has emerged and will be verified, but the dossier contains no specifics.",
+            "implication": "No existing process can be matched or updated because no process or concrete fact is defined."
+          },
+          "nextQuestionEn": "What primary-source evidence could turn this reported signal into an observable fact?",
+          "observeNextEn": [
+            "Has any concrete event, URL, or document been supplied?",
+            "Does any named process connect to a specific fact?",
+            "Have at least two current or corroborating sources appeared?",
+            "Has the researcher returned with primary sources?"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2082,
+          "outputTokens": 4384,
+          "cachedInputTokens": 1280
+        }
+      }
     }
   },
   "lease": {
