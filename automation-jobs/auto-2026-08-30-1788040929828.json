@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-08-29T22:02:09.828Z",
-  "updatedAt": "2026-08-30T00:09:49.332Z",
+  "updatedAt": "2026-08-30T00:12:21.176Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1747,11 +1747,6 @@
       "contentVersion": "publish-candidate-1-fed-warsh-hawkish-jackson-hole-1788048588248",
       "completedAt": "2026-08-30T00:09:49.332Z"
     }
-  },
-  "lease": {
-    "owner": "cron-1788048402686-2sfu7hk2",
-    "acquiredAt": "2026-08-30T00:06:43.092Z",
-    "expiresAt": "2026-08-30T00:11:33.092Z"
   },
   "preflight": {
     "ok": true,
