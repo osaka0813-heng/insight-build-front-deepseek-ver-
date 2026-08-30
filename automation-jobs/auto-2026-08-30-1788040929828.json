@@ -6,16 +6,16 @@
   "date": "2026-08-30",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-29T22:02:09.828Z",
-  "updatedAt": "2026-08-30T00:06:43.939Z",
+  "updatedAt": "2026-08-30T00:08:52.751Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-30T00:06:43.939Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-30T00:08:52.751Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-08-30-1788041188576",
@@ -1096,7 +1096,147 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "candidate-1-fed-warsh-hawkish-jackson-hole"
+      "selectedCandidateId": "candidate-1-fed-warsh-hawkish-jackson-hole",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-1-fed-warsh-hawkish-jackson-hole",
+          "slug": "fed-warsh-hawkish-jackson-hole-september-hike-repricing",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Monetary policy regime signal",
+              "title": "Warsh's Hawkish Debut Reprices the Fed Path",
+              "summary": "New Fed Chair Kevin Warsh used Jackson Hole to signal more work on inflation; markets moved September hike odds from ~35-40% to ~60%, repricing equities, gold, yields and AI infrastructure."
+            },
+            "question": {
+              "lead": "The question is not whether Warsh sounded hawkish, but whether the Fed will follow through in September and what that means for the debt-funded AI capital expenditure boom.",
+              "title": "Is the Fed shifting from hold to tightening—and can AI capex survive it?",
+              "footnote": "Market pricing is a forecast, not a commitment; a single speech may overstate the durability of the regime."
+            },
+            "signals": {
+              "title": "Signals of a policy repricing",
+              "sourceNote": "Source IDs from the supplied dossier; evidence strength reflects reported market moves and direct quotes.",
+              "items": [
+                {
+                  "label": "Jackson Hole speech",
+                  "title": "Warsh commits to 2% inflation and 'action as needed'",
+                  "body": "In his first Jackson Hole keynote, new Fed Chair Kevin Warsh said the Fed 'still has work to do' and will 'take action as needed' to return inflation to 2%.",
+                  "whyImportant": "It marks a shift from the hold at 3.50-3.75% since January toward active tightening, directly changing the discount rate for all risk assets.",
+                  "evidence": {
+                    "title": "Fed Chair Warsh says more work to do on inflation",
+                    "description": "Reported direct quotes from the Jackson Hole speech.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-1-fed-warsh-hawkish-jackson-hole-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Rate hike odds",
+                  "title": "September hike probability jumps to ~60%",
+                  "body": "CME FedWatch pricing for the September 16-17 meeting moved from about 35-40% to roughly 60% after the speech.",
+                  "whyImportant": "A shift in market-implied probability from less than coin-flip to likely hike re-anchors expectations for funding costs across the economy.",
+                  "evidence": {
+                    "title": "Morningstar macro update: September hike probability reaches 60%",
+                    "description": "Market pricing update published after the speech.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-1-fed-warsh-hawkish-jackson-hole-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Market repricing",
+                  "title": "Equities, gold, oil and yields react on Friday Aug 28",
+                  "body": "S&P 500 fell 0.25%, Nasdaq 0.52%, spot gold dropped over 3% to ~$4,450-4,504, 10Y Treasury yield hit 4.73%, 30Y 5.19%, 2Y 4.34%, Nvidia fell 4.57% to $217.55 despite record earnings, and oil closed the week down more than 5% (Brent $89.31, WTI $83.40).",
+                  "whyImportant": "Broad, correlated moves show the speech was treated as a macro regime signal, not a one-off comment, with AI high-valuation stocks hit hardest.",
+                  "evidence": {
+                    "title": "Stocks, gold, oil fall on rate-hike repricing",
+                    "description": "Market data from the AP report on August 28.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-1-fed-warsh-hawkish-jackson-hole-source-4"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Hold to Tightening: The Pattern Shift",
+              "before": "Before Jackson Hole, the Fed had held rates at 3.50-3.75% since January and markets priced September hike odds at roughly 35-40%. The AI capex boom was financed at increasingly high private-debt rates, but the Fed path stayed neutral.",
+              "shift": "Warsh's Jackson Hole keynote committed to 2% inflation and 'action as needed,' lifting September hike probability to ~60% and triggering a broad repricing on August 28: S&P 500 -0.25%, Nasdaq -0.52%, spot gold -3%+ to ~$4,450-4,504, 10Y Treasury 4.73%, 30Y 5.19%, 2Y 4.34%, Nvidia -4.57% to $217.55 despite record earnings, oil down >5% for the week.",
+              "now": "Markets now price a likely September 16-17 hike. Debt-funded AI infrastructure is already being financed at 9% (Iren's $2.4B led by Blue Owl; Lambda's ~$1B private debt). Rogoff predicts a hike would trigger 'fierce backlash' from Trump, adding political-economy risk.",
+              "conclusion": "The signal is an emerging monetary-policy tightening process, not a settled hike. If the Fed follows through, the AI capex supercycle and all rate-sensitive assets face a deeper re-rating; if the hike fails to materialize or is reversed under political pressure, the regime remains uncertain."
+            },
+            "insight": {
+              "title": "The Hawkish Fed Re-rates the AI Debt Supercycle",
+              "formula": "Hawkish central bank + debt-funded AI capex + political backlash risk = forced repricing of growth assets",
+              "explanation": "Warsh's speech shifted expected policy from hold to tightening, raising the discount rate applied to future AI cash flows. Since much AI infrastructure is financed with expensive private debt, higher base rates compound funding costs, while political opposition to hikes adds volatility. The result is a market regime where AI valuations and long-duration assets become more fragile."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "September FOMC",
+                  "prompt": "Will the September 16-17 meeting deliver the hike markets now price at ~60%?",
+                  "meta": "Watch CME FedWatch odds in the days before the meeting and the dot plot language."
+                },
+                {
+                  "label": "Trump response",
+                  "prompt": "Does the Trump administration escalate pressure against Fed independence after a hawkish pivot?",
+                  "meta": "Track statements, appointments or legislative threats that could alter the policy path."
+                },
+                {
+                  "label": "AI financing costs",
+                  "prompt": "Do new AI-infrastructure debt deals price above the current 9% benchmark?",
+                  "meta": "Monitor Iren, Lambda and similar private-debt issuances for widening spreads."
+                },
+                {
+                  "label": "Market follow-through",
+                  "prompt": "Do gold, Treasury yields and Nvidia continue the August 28 repricing or reverse?",
+                  "meta": "Watch spot gold versus $4,450-4,504, 10Y yield versus 4.73%, and Nvidia versus $217.55."
+                }
+              ],
+              "ending": "A confirmed September hike would move this from a signal to an accelerating tightening process; a dovish surprise or political intervention would likely unwind the repricing."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish new process",
+            "decisionTitle": "New process candidate: Fed hawkish regime shift",
+            "decisionSummary": "Warsh's Jackson Hole speech and the subsequent market repricing lifted September hike odds to ~60%, signaling a shift from hold to tightening. No existing world process covers this monetary-policy regime change; material change score 88 with high thesis impact 95 and evidence strength 88.",
+            "thresholdReason": "Publish threshold met because the signal is high importance (92), high thesis impact (95), and combines trigger and corroborating sources with broad asset repricing, while no current process matches.",
+            "observeNext": [
+              "Monitor September FOMC pricing and Warsh follow-up comments.",
+              "Track Trump administration response and Fed independence rhetoric.",
+              "Watch AI-infrastructure private-debt issuance pricing beyond 9%.",
+              "Track gold, Treasury yields, and Nvidia for continuation or reversal."
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Monetary policy tightening regime",
+            "description": "After holding rates at 3.50-3.75% since January, new Fed Chair Kevin Warsh used Jackson Hole to signal more work on inflation. Markets repriced September hike probability from ~35-40% to ~60%, with equities, gold, oil and AI stocks falling.",
+            "implication": "A shift to active tightening would re-rate the debt-funded AI capex supercycle, raise private AI financing costs above current 9% benchmarks, and add political pressure on the Fed—creating a new process of monetary-policy-driven asset repricing."
+          },
+          "nextQuestionEn": "Will the September 16-17 FOMC meeting confirm a rate hike, and how will AI-infrastructure financing costs and political pressure evolve if the Fed shifts to active tightening?",
+          "observeNextEn": [
+            "Watch CME FedWatch September hike odds before the FOMC meeting.",
+            "Monitor Trump administration rhetoric and any threats to Fed independence.",
+            "Track new AI-infrastructure debt deals for spreads above 9%.",
+            "Track spot gold, 10Y Treasury yield, and Nvidia for continuation of the August 28 move."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2611,
+          "outputTokens": 6987,
+          "cachedInputTokens": 2560
+        }
+      }
     }
   },
   "lease": {
