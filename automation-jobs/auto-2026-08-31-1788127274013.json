@@ -8,14 +8,17 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-08-30T22:01:14.013Z",
-  "updatedAt": "2026-08-30T22:01:19.152Z",
+  "updatedAt": "2026-08-30T22:05:12.534Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-30T22:01:19.152Z"
+      "attempts": {
+        "research": 1
+      },
+      "message": "Research returned no candidate signals.",
+      "updatedAt": "2026-08-30T22:05:12.534Z",
+      "failedStage": "research"
     }
   },
   "lease": {
@@ -55,5 +58,5 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
+  "message": "WORLD research 自动重试 1/3"
 }
