@@ -6,19 +6,88 @@
   "date": "2026-08-31",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-30T22:01:14.013Z",
-  "updatedAt": "2026-08-30T22:35:29.731Z",
+  "updatedAt": "2026-08-30T22:38:55.296Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-08-30T22:35:29.730Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-30T22:38:55.296Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-08-31-1788129535284",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-30T22:38:55.284Z",
+        "researchDate": "2026-08-31",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 209996,
+          "outputTokens": 12066,
+          "cachedInputTokens": 175488
+        },
+        "querySummary": "The provided dossier contains only a research intent statement without specific search results or compiled evidence. No concrete signal details or URLs were supplied.",
+        "candidates": [
+          {
+            "id": "candidate-2026-08-31-null",
+            "date": "2026-08-31",
+            "domain": "unknown",
+            "tags": [
+              "signal-set",
+              "pre-verification",
+              "insufficient-data"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 5,
+            "novelty": 10,
+            "evidenceStrength": 5,
+            "independentSourceCount": 1,
+            "thesisImpact": 5,
+            "relationshipChange": 5,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Emerging Signal Set Requires Primary Source Verification",
+                "coreFact": "The researcher states that a strong signal set has emerged and plans to verify top candidates with primary sources, but no specific evidence or URLs are included in the dossier.",
+                "whyItMatters": "Without concrete data, the signal remains unsubstantiated. This highlights the need to gather primary-source evidence before any actionable conclusion can be drawn.",
+                "processMatchReason": "No existing process can be matched because the signal details are undefined; verification would be premature without specific facts."
+              },
+              "zh": {
+                "title": "新兴信号集需进行主要来源验证",
+                "coreFact": "研究员表示已出现强信号集，并计划用主要来源验证顶级候选人，但档案中未包含具体证据或URL。",
+                "whyItMatters": "缺乏具体数据，信号尚未证实。这突显了在得出任何可行动结论前收集主要来源证据的必要性。",
+                "processMatchReason": "由于信号细节未定义，无法匹配现有流程；在没有具体事实的情况下进行验证为时过早。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Researcher's signal statement",
+                "url": "internal://researcher-statement",
+                "publisher": "Researcher",
+                "publishedAt": "2026-08-31",
+                "kind": "context",
+                "id": "candidate-2026-08-31-null-source-1"
+              },
+              {
+                "title": "Research date",
+                "url": "internal://research-date",
+                "publisher": "Researcher",
+                "publishedAt": "2026-08-31",
+                "kind": "context",
+                "id": "candidate-2026-08-31-null-source-2"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
