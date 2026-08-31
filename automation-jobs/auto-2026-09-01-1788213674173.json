@@ -6,16 +6,83 @@
   "date": "2026-09-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-08-31T22:01:14.173Z",
-  "updatedAt": "2026-08-31T22:35:32.511Z",
+  "updatedAt": "2026-08-31T22:38:24.222Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-08-31T22:35:32.511Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-08-31T22:38:24.222Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-01-1788215904213",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-08-31T22:38:24.213Z",
+        "researchDate": "2026-09-01",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 190669,
+          "outputTokens": 18098,
+          "cachedInputTokens": 155520
+        },
+        "querySummary": "The supplied dossier is empty—it contains only a statement of intent to search, with no facts, events, or URLs. No evidence-based candidate signals can be derived, and any candidate would be fabricated. The single candidate below represents this absence of evidence and must be treated as a null result.",
+        "candidates": [
+          {
+            "id": "null-signal-empty-dossier",
+            "date": "2026-09-01",
+            "domain": "cross-domain",
+            "tags": [
+              "no-signal",
+              "insufficient-data"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 0,
+            "novelty": 0,
+            "evidenceStrength": 0,
+            "independentSourceCount": 1,
+            "thesisImpact": 0,
+            "relationshipChange": 0,
+            "stageChange": 0,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "No actionable signals in empty dossier",
+                "coreFact": "The supplied dossier contains no facts, URLs, or events from the research date; it only states an intention to search.",
+                "whyItMatters": "No evidence-based signal can be identified. Any candidate generated without dossier content would be speculative.",
+                "processMatchReason": "No existing process can be matched because no dossier content was supplied."
+              },
+              "zh": {
+                "title": "空档案中无可操作信号",
+                "coreFact": "所提供的档案中没有任何事实、URL或事件；仅包含一句计划进行检索的说明。",
+                "whyItMatters": "无法基于证据识别任何信号。在没有档案内容的情况下生成的任何候选都将属于臆测。",
+                "processMatchReason": "由于未提供任何档案内容，无法匹配现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Dossier placeholder text",
+                "url": "",
+                "publisher": "Unknown",
+                "publishedAt": "2026-09-01",
+                "kind": "context",
+                "id": "null-signal-empty-dossier-source-1"
+              },
+              {
+                "title": "No additional dossier data",
+                "url": "",
+                "publisher": "Unknown",
+                "kind": "context",
+                "id": "null-signal-empty-dossier-source-2"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
