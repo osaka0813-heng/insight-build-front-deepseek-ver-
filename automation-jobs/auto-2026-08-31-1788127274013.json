@@ -6,18 +6,18 @@
   "date": "2026-08-31",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-08-30T22:01:14.013Z",
-  "updatedAt": "2026-08-31T00:06:43.664Z",
+  "updatedAt": "2026-08-31T00:07:13.341Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {
         "research": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-08-31T00:06:43.664Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-08-31T00:07:13.341Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -316,6 +316,129 @@
           "inputTokens": 2082,
           "outputTokens": 4384,
           "cachedInputTokens": 1280
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "未经验证的信号集",
+              "title": "新兴信号集仍未获验证",
+              "summary": "研究人员报告了一个强信号集，但未提供任何原始证据；在具体事实出现前，唯一稳妥的做法是暂缓流程关联。"
+            },
+            "question": {
+              "lead": "未经证实的元陈述能否构成世界流程更新的依据？",
+              "title": "什么条件能让这一信号具备可操作性？",
+              "footnote": "仅使用所提供的证据；除研究人员陈述外，没有可用的URL、日期或具体事实。"
+            },
+            "signals": {
+              "title": "档案中可用的信号",
+              "sourceNote": "证据仅限于两个内部背景来源；不存在触发来源或佐证来源。",
+              "items": [
+                {
+                  "label": "报告的信号",
+                  "title": "研究人员称已出现强信号集",
+                  "body": "一份日期为2026-08-31的内部研究人员声明称，已出现强信号集，且首要候选将用原始来源进行验证。",
+                  "whyImportant": "这是唯一可用的信号，但它不含具体证据或URL。",
+                  "evidence": {
+                    "title": "研究人员的内部信号声明",
+                    "description": "该声明宣布了验证意图，但未说明信号集的具体内容。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-2026-08-31-null-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "证据缺口",
+                  "title": "未包含原始证据或URL",
+                  "body": "档案中不含触发来源、佐证来源或URL；仅列出两个内部背景来源。",
+                  "whyImportant": "缺少这些，信号就无法被验证，也无法与任何世界流程关联。",
+                  "evidence": {
+                    "title": "研究日期背景",
+                    "description": "研究日期属于内部背景，不构成实质性证据。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-2026-08-31-null-source-1",
+                      "candidate-2026-08-31-null-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "先前、转变、现在、结论",
+              "before": "一个被报告的信号集曾被视作流程匹配的潜在起点。",
+              "shift": "档案未提供具体事实、URL、原始来源或具名流程，因此该信号无法得到证实。",
+              "now": "该信号属于未经证实的元陈述；正确做法是等待原始来源验证，而不是强行建立世界流程关联。",
+              "conclusion": "不存在实质性变化；在至少一个含可验证细节的触发来源出现前，不要发布与流程关联的洞察。"
+            },
+            "insight": {
+              "title": "证据缺失不等于流程发生改变",
+              "formula": "未经证实的元陈述 + 零触发来源 + 零佐证来源 = 无可执行的全球洞察。",
+              "explanation": "所选候选对象是研究人员的验证意图，而非已观察到的事件。没有具体事实，任何具名流程都无法更新。"
+            },
+            "observe": {
+              "title": "先观察，再行动",
+              "items": [
+                {
+                  "label": "原始证据",
+                  "prompt": "是否已提供任何具体事件、URL或文件？",
+                  "meta": "触发来源"
+                },
+                {
+                  "label": "流程匹配",
+                  "prompt": "是否有具名流程与某个具体事实相关联？",
+                  "meta": "分类"
+                },
+                {
+                  "label": "佐证",
+                  "prompt": "是否已出现至少两个当前或佐证来源？",
+                  "meta": "证据阈值"
+                },
+                {
+                  "label": "研究人员的后续行动",
+                  "prompt": "研究人员是否已带着原始来源返回？",
+                  "meta": "验证"
+                }
+              ],
+              "ending": "只有在出现含具体可验证证据的触发来源时，才返回。"
+            }
+          },
+          "dailyState": {
+            "label": "无新的全球洞察",
+            "decisionTitle": "本周期不发布全球洞察",
+            "decisionSummary": "该信号是无具体证据的元陈述，未达到实质性变化阈值。",
+            "thresholdReason": "触发来源为零，佐证来源也为零；候选对象只是关于未来验证的内部备注。",
+            "observeNext": [
+              "是否已提供任何具体事件、URL或文件？",
+              "是否有具名流程与某个具体事实相关联？",
+              "是否已出现至少两个当前或佐证来源？",
+              "研究人员是否已带着原始来源返回？"
+            ]
+          },
+          "processContent": {
+            "title": "未经验证的信号集",
+            "description": "研究人员称已出现强信号集并将进行验证，但档案中没有任何具体内容。",
+            "implication": "由于未定义任何流程或具体事实，现有流程无法被匹配或更新。"
+          },
+          "nextQuestion": "哪些原始证据能将这一被报告的信号转化为可观察的事实？",
+          "observeNext": [
+            "是否已提供任何具体事件、URL或文件？",
+            "是否有具名流程与某个具体事实相关联？",
+            "是否已出现至少两个当前或佐证来源？",
+            "研究人员是否已带着原始来源返回？"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2188,
+          "outputTokens": 3199,
+          "cachedInputTokens": 1152
         }
       }
     }
