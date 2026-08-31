@@ -6,16 +6,16 @@
   "date": "2026-09-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-08-31T22:01:14.173Z",
-  "updatedAt": "2026-08-31T22:38:32.128Z",
+  "updatedAt": "2026-08-31T22:40:09.598Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-08-31T22:38:32.128Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-08-31T22:40:09.598Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-01-1788215904213",
@@ -182,7 +182,128 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 1,
-      "selectedCandidateId": "null-signal-empty-dossier"
+      "selectedCandidateId": "null-signal-empty-dossier",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "empty-dossier-no-actionable-signal",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "No actionable signal",
+              "title": "Empty dossier yields no evidence-based global insight",
+              "summary": "The supplied dossier contains no facts, URLs, or events from the research date; it only states an intention to search. No evidence-based signal can be identified, and any candidate generated without dossier content would be speculative. No existing world process can be matched."
+            },
+            "question": {
+              "lead": "Can an evidence-based global insight be formed from an empty dossier?",
+              "title": "No actionable signals in empty dossier",
+              "footnote": "Assessment based solely on the supplied dossier placeholder text and no additional data."
+            },
+            "signals": {
+              "title": "Signals reviewed",
+              "sourceNote": "Only placeholder context entries were available; no trigger sources inside the research window.",
+              "items": [
+                {
+                  "label": "Dossier placeholder",
+                  "title": "Intention to search, not an event",
+                  "body": "The dossier states an intention to search but supplies no facts, URLs, or events from the research date.",
+                  "whyImportant": "A statement of intent is not evidence of a material change; it cannot support a signal.",
+                  "evidence": {
+                    "title": "Dossier placeholder text",
+                    "description": "Placeholder context entry with no published URL or factual claim.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "null-signal-empty-dossier-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "No additional data",
+                  "title": "No corroborating or trigger sources",
+                  "body": "Analysis found zero current or corroborating sources; only placeholder/context entries remain.",
+                  "whyImportant": "Without trigger or corroborating sources, no evidence-based signal can meet the publication threshold.",
+                  "evidence": {
+                    "title": "No additional dossier data",
+                    "description": "Context entry confirming no additional dossier data.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "null-signal-empty-dossier-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From absent evidence to no publication",
+              "before": "The candidate was assessed for a possible global insight despite having no actionable signals.",
+              "shift": "The dossier supplied no facts, URLs, or events from the research date; it only stated an intention to search.",
+              "now": "No evidence-based signal can be identified, and any candidate generated without dossier content would be speculative.",
+              "conclusion": "No world process can be updated, challenged, or supported; no Global Insight should be published."
+            },
+            "insight": {
+              "title": "Absence of evidence is not evidence of change",
+              "formula": "No facts + no URLs + no events -> no signal -> no global insight",
+              "explanation": "Without dossier content, there is no factual basis to classify a signal, update a process, or form a credible new process hypothesis. Publishing would fabricate a basis for analysis."
+            },
+            "observe": {
+              "title": "What to observe before reassessing",
+              "items": [
+                {
+                  "label": "Dossier content",
+                  "prompt": "Check for actual trigger events, URLs, or dated facts from the research date.",
+                  "meta": "Requires at least one current source inside the research window."
+                },
+                {
+                  "label": "Source count",
+                  "prompt": "Confirm at least two current or corroborating sources before generating a candidate.",
+                  "meta": "Current source count is zero."
+                },
+                {
+                  "label": "Process match",
+                  "prompt": "Identify a specific world process that a new fact would update, challenge, or support.",
+                  "meta": "No process match can be made from an empty dossier."
+                }
+              ],
+              "ending": "Reassess only when substantive dossier content is supplied."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No new global insight",
+            "decisionTitle": "Do not publish a Global Insight",
+            "decisionSummary": "The candidate has no actionable signals; the dossier contains no facts, URLs, or events. Publishing would be speculative.",
+            "thresholdReason": "All signal metrics are zero by the candidate's own assessment, and there are no trigger sources inside the research window.",
+            "observeNext": [
+              "Look for dated trigger events from the research date.",
+              "Require at least two current or corroborating sources.",
+              "Match any new fact to an existing world process before drafting.",
+              "Re-run candidate scoring once substantive content is available."
+            ]
+          },
+          "processStage": "uncertain",
+          "processContentEn": {
+            "title": "No process update",
+            "description": "No existing process can be matched because no dossier content was supplied; no new process candidate can be formed.",
+            "implication": "There is no material change to any world process; maintain current stances without adjustment."
+          },
+          "nextQuestionEn": "What substantive dossier content, if any, should be supplied before a Global Insight can be considered?",
+          "observeNextEn": [
+            "Provide dated facts, URLs, or events from the research date that indicate a material change.",
+            "Identify at least two independent sources that corroborate a possible trigger event.",
+            "Specify which existing world process the new evidence would update or challenge.",
+            "Re-run the candidate evaluation with non-zero importance, novelty, and evidence strength."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 1915,
+          "outputTokens": 6236,
+          "cachedInputTokens": 1280
+        }
+      }
     }
   },
   "lease": {
