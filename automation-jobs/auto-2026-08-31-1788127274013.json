@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-08-30T22:01:14.013Z",
-  "updatedAt": "2026-08-30T22:40:23.460Z",
+  "updatedAt": "2026-08-31T00:06:42.879Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -321,9 +321,9 @@
     }
   },
   "lease": {
-    "owner": "cron-1788129328577-7oq5ttrn",
-    "acquiredAt": "2026-08-30T22:35:28.918Z",
-    "expiresAt": "2026-08-30T22:40:18.918Z"
+    "owner": "cron-1788134802532-hnsb6vzc",
+    "acquiredAt": "2026-08-31T00:06:42.879Z",
+    "expiresAt": "2026-08-31T00:11:32.879Z"
   },
   "preflight": {
     "ok": true,
