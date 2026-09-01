@@ -6,16 +6,16 @@
   "date": "2026-09-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-08-31T22:01:14.173Z",
-  "updatedAt": "2026-09-01T00:06:43.961Z",
+  "updatedAt": "2026-09-01T00:07:19.858Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-09-01T00:06:43.961Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-09-01T00:07:19.858Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-01-1788215904213",
@@ -302,6 +302,123 @@
           "inputTokens": 1915,
           "outputTokens": 6236,
           "cachedInputTokens": 1280
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "无有效信号",
+              "title": "空档案无法产生基于证据的全球洞察",
+              "summary": "所提供档案中不包含研究日期内的事实、URL或事件，仅表明搜索意图。无法识别基于证据的信号，任何在没有档案内容情况下生成的候选都将是推测性的。无法匹配任何现有世界进程。"
+            },
+            "question": {
+              "lead": "能否从空档案中形成基于证据的全球洞察？",
+              "title": "空档案中无有效信号",
+              "footnote": "评估仅基于所提供的档案占位文本，无额外数据。"
+            },
+            "signals": {
+              "title": "已审查的信号",
+              "sourceNote": "仅存在占位上下文条目；研究窗口内无触发源。",
+              "items": [
+                {
+                  "label": "档案占位符",
+                  "title": "搜索意图，而非事件",
+                  "body": "档案表明搜索意图，但未提供研究日期内的事实、URL或事件。",
+                  "whyImportant": "意图声明并非重大变化的证据；无法支持信号。",
+                  "evidence": {
+                    "title": "档案占位文本",
+                    "description": "没有已发布URL或事实断言的占位上下文条目。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "null-signal-empty-dossier-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "无额外数据",
+                  "title": "无佐证或触发源",
+                  "body": "分析发现当前或佐证来源为零；仅剩占位/上下文条目。",
+                  "whyImportant": "没有触发或佐证来源，任何基于证据的信号都无法达到发布门槛。",
+                  "evidence": {
+                    "title": "无额外档案数据",
+                    "description": "确认无额外档案数据的上下文条目。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "null-signal-empty-dossier-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从证据缺失到不予发布",
+              "before": "在没有有效信号的情况下，对该候选进行了可能的全球洞察评估。",
+              "shift": "档案未提供研究日期内的事实、URL或事件；仅表明搜索意图。",
+              "now": "无法识别任何基于证据的信号，任何在无档案内容情况下生成的候选都将是推测性的。",
+              "conclusion": "无法更新、挑战或支持任何世界进程；不应发布任何全球洞察。"
+            },
+            "insight": {
+              "title": "证据缺失并非变化之证",
+              "formula": "无事实 + 无URL + 无事件 → 无信号 → 无全球洞察",
+              "explanation": "没有档案内容，就没有事实依据来分类信号、更新进程或形成可信的新进程假设。发布将捏造分析基础。"
+            },
+            "observe": {
+              "title": "重新评估前需观察的内容",
+              "items": [
+                {
+                  "label": "档案内容",
+                  "prompt": "检查研究日期内是否有实际触发事件、URL或带日期的事实。",
+                  "meta": "要求研究窗口内至少有一个当前来源。"
+                },
+                {
+                  "label": "来源数量",
+                  "prompt": "在生成候选前，确认至少两个当前或佐证来源。",
+                  "meta": "当前来源数量为零。"
+                },
+                {
+                  "label": "进程匹配",
+                  "prompt": "识别新事实将更新、挑战或支持的具体世界进程。",
+                  "meta": "从空档案中无法进行进程匹配。"
+                }
+              ],
+              "ending": "仅在提供实质性档案内容时重新评估。"
+            }
+          },
+          "dailyState": {
+            "label": "无新的全球洞察",
+            "decisionTitle": "不发布全球洞察",
+            "decisionSummary": "候选无有效信号；档案不包含事实、URL或事件。发布将是推测性的。",
+            "thresholdReason": "根据候选自身评估，所有信号指标均为零，且研究窗口内没有触发源。",
+            "observeNext": [
+              "寻找研究日期内带日期的触发事件。",
+              "要求至少两个当前或佐证来源。",
+              "在起草前，将任何新事实与现有世界进程匹配。",
+              "一旦有实质性内容，重新运行候选评分。"
+            ]
+          },
+          "processContent": {
+            "title": "无进程更新",
+            "description": "由于未提供档案内容，无法匹配任何现有进程；无法形成新的进程候选。",
+            "implication": "任何世界进程均无重大变化；保持当前立场，不做调整。"
+          },
+          "nextQuestion": "在考虑全球洞察之前，应提供哪些实质性档案内容（如果有的话）？",
+          "observeNext": [
+            "提供研究日期内表明重大变化的带日期事实、URL或事件。",
+            "识别至少两个佐证可能触发事件的独立来源。",
+            "指明新证据将更新或挑战哪个现有世界进程。",
+            "以非零的重要性、新颖性和证据强度重新运行候选评估。"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2160,
+          "outputTokens": 3892,
+          "cachedInputTokens": 1152
         }
       }
     }
