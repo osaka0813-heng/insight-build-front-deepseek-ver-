@@ -2,20 +2,20 @@
   "id": "auto-2026-09-01-1788213674173",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-08-31T22:01:14.173Z",
-  "updatedAt": "2026-09-01T00:07:23.239Z",
+  "updatedAt": "2026-09-01T00:07:27.285Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-01T00:07:23.239Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-01T00:07:27.285Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-01-1788215904213",
@@ -721,7 +721,10 @@
           "outputTokens": 10128,
           "cachedInputTokens": 2432
         }
-      }
+      },
+      "insightId": "global-2026-09-01-empty-dossier-yields-no-evidence-based-global-insight",
+      "contentVersion": "publish-global-2026-09-01-empty-dossier-yields-no-evidence-based-global-insight-1788221246213",
+      "completedAt": "2026-09-01T00:07:27.285Z"
     }
   },
   "lease": {
@@ -761,5 +764,6 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
+  "message": "Global Insight 已自动发布。",
+  "completedAt": "2026-09-01T00:07:27.285Z"
 }
