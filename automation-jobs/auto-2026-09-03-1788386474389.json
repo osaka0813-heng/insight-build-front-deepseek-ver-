@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-09-02T22:01:14.389Z",
-  "updatedAt": "2026-09-02T22:01:14.389Z",
+  "updatedAt": "2026-09-02T22:01:16.232Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -17,5 +17,10 @@
       "message": "等待执行",
       "updatedAt": "2026-09-02T22:01:14.389Z"
     }
+  },
+  "lease": {
+    "owner": "cron-1788386473897-ig4fx380",
+    "acquiredAt": "2026-09-02T22:01:16.232Z",
+    "expiresAt": "2026-09-02T22:06:06.232Z"
   }
 }
