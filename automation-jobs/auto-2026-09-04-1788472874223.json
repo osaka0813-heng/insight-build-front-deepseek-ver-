@@ -6,19 +6,299 @@
   "date": "2026-09-04",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-03T22:01:14.223Z",
-  "updatedAt": "2026-09-03T22:35:29.775Z",
+  "updatedAt": "2026-09-03T22:39:28.252Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-09-03T22:35:29.775Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-03T22:39:28.252Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-04-1788475168240",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-03T22:39:28.240Z",
+        "researchDate": "2026-09-04",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 204722,
+          "outputTokens": 29765,
+          "cachedInputTokens": 162688
+        },
+        "querySummary": "The supplied dossier is an incomplete preliminary scan. It names five candidate areas but provides no underlying facts, URLs, or two independent sources for any of them. The candidates below mirror the initial scan and are marked as unverified.",
+        "candidates": [
+          {
+            "id": "candidate-iran-kuwait-bases-2026-09-04",
+            "date": "2026-09-04",
+            "domain": "geopolitics-security",
+            "tags": [
+              "middle-east",
+              "military-escalation",
+              "kuwait",
+              "us-bases",
+              "unverified-signal"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 90,
+            "novelty": 80,
+            "evidenceStrength": 5,
+            "independentSourceCount": 1,
+            "thesisImpact": 90,
+            "relationshipChange": 70,
+            "stageChange": 55,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Iran attack on US bases in Kuwait is only an initial scan item",
+                "coreFact": "The dossier dated 2026-09-04 lists 'Iran attack on US bases in Kuwait' as a strong candidate signal, but provides no timing, location, casualties, consequences, or URL.",
+                "whyItMatters": "If confirmed, this would mark a major military escalation in the Gulf and affect US force posture and energy security; however, the current dossier cannot substantiate it.",
+                "processMatchReason": "No existing process is described in the dossier, so no process mapping can be made."
+              },
+              "zh": {
+                "title": "伊朗袭击美国驻科威特基地：仅见于初步扫描，缺乏详证",
+                "coreFact": "2026-09-04 的资料仅列出“伊朗袭击美国驻科威特基地”是强候选信号；未包含具体时间、地点、伤亡、后果或 URL。",
+                "whyItMatters": "若获证实，这将标志海湾地区重大军事升级，影响美军部署和能源安全；但当前资料无法支撑该判断。",
+                "processMatchReason": "资料未提供任何可匹配的现有流程，因此无法指定 suggestedProcessId。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-iran-kuwait-bases-2026-09-04-source-1"
+              },
+              {
+                "title": "Let me dig deeper into each and broaden the scan.",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-iran-kuwait-bases-2026-09-04-source-2"
+              }
+            ]
+          },
+          {
+            "id": "candidate-fed-pivot-2026-09-04",
+            "date": "2026-09-04",
+            "domain": "macroeconomics-monetary-policy",
+            "tags": [
+              "monetary-policy",
+              "federal-reserve",
+              "interest-rates",
+              "unverified-signal"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 80,
+            "novelty": 60,
+            "evidenceStrength": 5,
+            "independentSourceCount": 1,
+            "thesisImpact": 80,
+            "relationshipChange": 40,
+            "stageChange": 50,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Fed pivot signals are named but not evidenced",
+                "coreFact": "The dossier names 'Fed pivot signals' as a candidate but gives no FOMC date, statement, rate target, or market context.",
+                "whyItMatters": "A Federal Reserve pivot would influence global liquidity and asset valuations, but the dossier contains no primary Fed source.",
+                "processMatchReason": "No process is provided against which to map this candidate, so suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "美联储转向信号：列为候选但无原始沟通依据",
+                "coreFact": "资料称“美联储转向信号”为强候选；但未提供议息会议、声明、利率目标或市场反应等细节。",
+                "whyItMatters": "美联储政策转向将影响全球流动性与资产定价；现有资料未引述任何美联储文件，证据不足。",
+                "processMatchReason": "资料未给出与现有流程匹配的依据，故不匹配任何流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-fed-pivot-2026-09-04-source-1"
+              },
+              {
+                "title": "Let me dig deeper into each and broaden the scan.",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-fed-pivot-2026-09-04-source-2"
+              }
+            ]
+          },
+          {
+            "id": "candidate-korea-export-controls-2026-09-04",
+            "date": "2026-09-04",
+            "domain": "trade-policy-technology",
+            "tags": [
+              "export-controls",
+              "south-korea",
+              "semiconductors",
+              "unverified-signal"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 75,
+            "novelty": 75,
+            "evidenceStrength": 5,
+            "independentSourceCount": 1,
+            "thesisImpact": 70,
+            "relationshipChange": 65,
+            "stageChange": 50,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Korea export controls are a listed but unsupported signal",
+                "coreFact": "The dossier only names 'Korea export controls' without specifying the target country, technology categories, regulation, or implementation date.",
+                "whyItMatters": "If confirmed, expanded export controls could reshape semiconductor and advanced-technology supply chains; however, no source supports the claim here.",
+                "processMatchReason": "No existing process is identified in the dossier; no mapping is forced."
+              },
+              "zh": {
+                "title": "韩国出口管制：列为候选但对象与规则不明",
+                "coreFact": "资料仅提到“韩国出口管制”，未说明目标国家、技术品类、管制条款或生效日期。",
+                "whyItMatters": "若确认出口管制扩围，可能重塑半导体和先进技术供应链；但当前无源可查。",
+                "processMatchReason": "没有现有流程信息，建议不强制匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-korea-export-controls-2026-09-04-source-1"
+              },
+              {
+                "title": "Let me dig deeper into each and broaden the scan.",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-korea-export-controls-2026-09-04-source-2"
+              }
+            ]
+          },
+          {
+            "id": "candidate-us-bulk-power-ban-2026-09-04",
+            "date": "2026-09-04",
+            "domain": "energy-infrastructure-policy",
+            "tags": [
+              "bulk-power",
+              "supply-chain",
+              "energy-security",
+              "us-policy",
+              "unverified-signal"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 80,
+            "novelty": 75,
+            "evidenceStrength": 5,
+            "independentSourceCount": 1,
+            "thesisImpact": 75,
+            "relationshipChange": 55,
+            "stageChange": 50,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "US bulk-power equipment ban is named without statutory detail",
+                "coreFact": "The dossier lists a 'US bulk-power equipment ban' as a candidate, but names no equipment, legal authority, supplier, or effective date.",
+                "whyItMatters": "Such a ban would affect supply chains for grid infrastructure. The only basis is one initial-scan line, which is not sufficient evidence.",
+                "processMatchReason": "The dossier does not describe an existing process to match."
+              },
+              "zh": {
+                "title": "美国大宗电力设备禁令：列为候选但缺乏法令细节",
+                "coreFact": "资料将“美国大宗电力设备禁令”列为候选；未说明涉及的具体设备、法律依据、生效时间或供应商。",
+                "whyItMatters": "该禁令若落地将影响电网供应链；目前仅有一个初步扫描条目，无法评估影响。",
+                "processMatchReason": "资料中无现有流程可对应，因此 suggestedProcessId 为 null。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-us-bulk-power-ban-2026-09-04-source-1"
+              },
+              {
+                "title": "Let me dig deeper into each and broaden the scan.",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-us-bulk-power-ban-2026-09-04-source-2"
+              }
+            ]
+          },
+          {
+            "id": "candidate-berkshire-energy-2026-09-04",
+            "date": "2026-09-04",
+            "domain": "corporate-energy",
+            "tags": [
+              "berkshire-hathaway",
+              "energy",
+              "corporate-investment",
+              "unverified-signal"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 65,
+            "novelty": 65,
+            "evidenceStrength": 5,
+            "independentSourceCount": 1,
+            "thesisImpact": 60,
+            "relationshipChange": 50,
+            "stageChange": 45,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Berkshire energy move is an unspecified candidate signal",
+                "coreFact": "The dossier lists a 'Berkshire energy move' as a candidate signal without specifying whether it is an acquisition, disposition, capital project, or regulatory matter.",
+                "whyItMatters": "Berkshire moves in energy are watched as capital-allocation signals, but without transaction detail this remains an unverified item.",
+                "processMatchReason": "No process context is available, so no process is suggested."
+              },
+              "zh": {
+                "title": "伯克希尔能源动向：行动方向不明",
+                "coreFact": "资料仅列出“伯克希尔能源动向”为候选信号，未说明是收购、出售、投资还是监管动作。",
+                "whyItMatters": "伯克希尔在能源领域的动作常被看作行业配置信号；在缺乏交易细节时只能视为待验证信号。",
+                "processMatchReason": "缺乏流程上下文，不为该候选分配流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-berkshire-energy-2026-09-04-source-1"
+              },
+              {
+                "title": "Let me dig deeper into each and broaden the scan.",
+                "url": "",
+                "publisher": "Web Search Dossier",
+                "publishedAt": "2026-09-04",
+                "kind": "context",
+                "id": "candidate-berkshire-energy-2026-09-04-source-2"
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   "lease": {
