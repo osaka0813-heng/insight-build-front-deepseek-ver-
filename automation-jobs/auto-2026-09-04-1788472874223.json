@@ -6,18 +6,18 @@
   "date": "2026-09-04",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-03T22:01:14.223Z",
-  "updatedAt": "2026-09-03T22:46:51.838Z",
+  "updatedAt": "2026-09-03T22:48:03.312Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-03T22:46:51.838Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-03T22:48:03.312Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -730,7 +730,133 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 5,
-      "selectedCandidateId": "candidate-iran-kuwait-bases-2026-09-04"
+      "selectedCandidateId": "candidate-iran-kuwait-bases-2026-09-04",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-iran-kuwait-bases-2026-09-04",
+          "slug": "iran-attack-us-bases-kuwait-initial-scan-unverified",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Unverified Signal",
+              "title": "Iran attack on US bases in Kuwait is only an initial scan item",
+              "summary": "The dossier lists 'Iran attack on US bases in Kuwait' as a strong candidate signal with no timing, location, casualties, consequences, or URL. This cannot substantiate a Global Insight today and is tracked as an unverified flag."
+            },
+            "question": {
+              "lead": "Can a one-line unverified scan item justify an Insight?",
+              "title": "Is there enough evidence to confirm an Iran attack on US bases in Kuwait?",
+              "footnote": "Based on a 2026-09-04 web search dossier with two context sources."
+            },
+            "signals": {
+              "title": "Available evidence",
+              "sourceNote": "Only two context sources from the dossier are available; neither provides primary reporting or URL.",
+              "items": [
+                {
+                  "label": "Signal 1",
+                  "title": "Initial scan surfaces strong candidate signals",
+                  "body": "The initial scan lists 'Iran attack on US bases in Kuwait' among strong candidate signals, alongside Fed pivot signals, Korea export controls, US bulk-power equipment ban, and Berkshire energy move.",
+                  "whyImportant": "It is the only mention of a potential US base attack; no details are given.",
+                  "evidence": {
+                    "title": "Initial scan",
+                    "description": "Context source from Web Search Dossier, 2026-09-04.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-iran-kuwait-bases-2026-09-04-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Signal 2",
+                  "title": "Analyst notes need to dig deeper and broaden scan",
+                  "body": "The follow-up context source indicates further digging into each candidate and broader scanning.",
+                  "whyImportant": "This suggests the initial item is not yet confirmed and requires verification.",
+                  "evidence": {
+                    "title": "Follow-up scan note",
+                    "description": "Context source from Web Search Dossier, 2026-09-04.",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-iran-kuwait-bases-2026-09-04-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Unverified one-line flag",
+              "before": "No Iran attack on US bases in Kuwait was present in the prior scan.",
+              "shift": "A 2026-09-04 initial scan surfaced the phrase as a strong candidate signal without any detail.",
+              "now": "The dossier provides no timing, location, casualties, consequences, URL, trigger, or corroborating sources; no existing process is matched.",
+              "conclusion": "The item remains an unverified flag and does not meet the threshold for a Global Insight; it should be tracked for follow-through only."
+            },
+            "insight": {
+              "title": "Unverified military escalation flag",
+              "formula": "Single-line scan mention + zero corroboration + no primary source = no publishable Global Insight",
+              "explanation": "A major geopolitical event cannot be substantiated from the available evidence; the correct output is a noise follow-through, not a published Insight."
+            },
+            "observe": {
+              "title": "What to watch before reassessing",
+              "items": [
+                {
+                  "label": "Primary confirmation",
+                  "prompt": "Is there a primary report or official statement confirming an attack on US bases in Kuwait?",
+                  "meta": "Look for named source, URL, date, location."
+                },
+                {
+                  "label": "Casualties/consequences",
+                  "prompt": "Are there any reported casualties, damage, or US/Iran official responses?",
+                  "meta": "Track credible newswire or government statements."
+                },
+                {
+                  "label": "Market/energy reaction",
+                  "prompt": "Do oil prices, shipping, or Gulf security alerts react?",
+                  "meta": "Monitor energy and defense channels."
+                },
+                {
+                  "label": "Process relevance",
+                  "prompt": "Does a confirmed attack match any existing World Process or require a new process candidate?",
+                  "meta": "Reassess only if evidence strengthens."
+                }
+              ],
+              "ending": "Until at least two independent primary sources appear, keep this as an unverified flag."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No new Global Insight",
+            "decisionTitle": "Treat as noise follow-through",
+            "decisionSummary": "The dossier contains only an unverified one-line signal with no primary source; no material change can be published.",
+            "thresholdReason": "Publish threshold not met: zero trigger or corroborating sources, no URL, no timing or location.",
+            "observeNext": [
+              "Watch for primary confirmation of any attack",
+              "Look for casualty or consequence reporting",
+              "Monitor energy market and Gulf security alerts",
+              "Check whether the signal repeats in subsequent dossiers"
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "Initial scan signal",
+            "description": "The candidate appears only as a line item in a broad scan of strong candidate signals, with no detail.",
+            "implication": "No process mapping is meaningful at this stage; if confirmed, it may require a new geopolitical escalation process."
+          },
+          "nextQuestionEn": "What primary evidence would confirm or refute an Iran attack on US bases in Kuwait?",
+          "observeNextEn": [
+            "Watch for primary confirmation of any attack",
+            "Look for casualty or consequence reporting",
+            "Monitor energy market and Gulf security alerts",
+            "Check whether the signal repeats in subsequent dossiers"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2108,
+          "outputTokens": 3430,
+          "cachedInputTokens": 2048
+        }
+      }
     }
   },
   "lease": {
