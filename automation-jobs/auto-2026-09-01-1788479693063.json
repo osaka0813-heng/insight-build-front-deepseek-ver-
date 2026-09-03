@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-09-03T23:54:53.063Z",
-  "updatedAt": "2026-09-03T23:54:53.063Z",
+  "updatedAt": "2026-09-03T23:54:55.295Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -17,5 +17,10 @@
       "message": "等待执行",
       "updatedAt": "2026-09-03T23:54:53.063Z"
     }
+  },
+  "lease": {
+    "owner": "cron-1788479692970-okbn23co",
+    "acquiredAt": "2026-09-03T23:54:55.295Z",
+    "expiresAt": "2026-09-03T23:59:45.295Z"
   }
 }
