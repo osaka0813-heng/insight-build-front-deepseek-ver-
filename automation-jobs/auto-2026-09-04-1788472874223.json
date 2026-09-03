@@ -2,22 +2,22 @@
   "id": "auto-2026-09-04-1788472874223",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-04",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-03T22:01:14.223Z",
-  "updatedAt": "2026-09-03T22:48:48.639Z",
+  "updatedAt": "2026-09-03T22:48:52.811Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-09-03T22:48:48.639Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-03T22:48:52.811Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -1291,7 +1291,10 @@
           "outputTokens": 6421,
           "cachedInputTokens": 4224
         }
-      }
+      },
+      "insightId": "candidate-iran-kuwait-bases-2026-09-04",
+      "contentVersion": "publish-candidate-iran-kuwait-bases-2026-09-04-1788475731636",
+      "completedAt": "2026-09-03T22:48:52.811Z"
     }
   },
   "lease": {
@@ -1331,5 +1334,6 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3"
+  "message": "Global Insight 已自动发布。",
+  "completedAt": "2026-09-03T22:48:52.811Z"
 }
