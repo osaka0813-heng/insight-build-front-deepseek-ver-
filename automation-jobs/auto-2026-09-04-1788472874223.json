@@ -6,18 +6,18 @@
   "date": "2026-09-04",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-09-03T22:01:14.223Z",
-  "updatedAt": "2026-09-03T22:48:04.416Z",
+  "updatedAt": "2026-09-03T22:48:45.186Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {
         "research": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-09-03T22:48:04.416Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-09-03T22:48:45.186Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -855,6 +855,128 @@
           "inputTokens": 2108,
           "outputTokens": 3430,
           "cachedInputTokens": 2048
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "未经核实的信号",
+              "title": "伊朗袭击美国在科威特的基地仅为初步扫描项",
+              "summary": "档案将“伊朗袭击美国在科威特的基地”列为强候选信号，但未提供时间、地点、伤亡、后果或 URL。这无法在今日支撑一条全球洞察，仅作为未核实标记跟踪。"
+            },
+            "question": {
+              "lead": "一行未经核实的扫描项能否支撑一条洞察？",
+              "title": "是否有足够的证据确认伊朗袭击了美国在科威特的基地？",
+              "footnote": "基于 2026-09-04 网络搜索档案，含两个背景来源。"
+            },
+            "signals": {
+              "title": "可用证据",
+              "sourceNote": "档案中仅有两个背景来源；两者均未提供一手报道或 URL。",
+              "items": [
+                {
+                  "label": "信号 1",
+                  "title": "初步扫描出现强候选信号",
+                  "body": "初步扫描将“伊朗袭击美国在科威特的基地”列为强候选信号之一，与美联储转向信号、韩国出口管制、美国大容量电力设备禁令以及伯克希尔能源动作并列。",
+                  "whyImportant": "这是唯一一处提到潜在的美国基地袭击；没有提供任何细节。",
+                  "evidence": {
+                    "title": "初步扫描",
+                    "description": "背景来源，来自网络搜索档案，2026-09-04。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-iran-kuwait-bases-2026-09-04-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "信号 2",
+                  "title": "分析师指出需要深入挖掘并扩大扫描范围",
+                  "body": "后续背景来源表明需要进一步挖掘每个候选信号并扩大扫描范围。",
+                  "whyImportant": "这表明该项尚未确认，需要验证。",
+                  "evidence": {
+                    "title": "后续扫描注释",
+                    "description": "背景来源，来自网络搜索档案，2026-09-04。",
+                    "confidence": "hypothesis",
+                    "sourceIds": [
+                      "candidate-iran-kuwait-bases-2026-09-04-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "未经核实的一行标记",
+              "before": "先前扫描中未出现伊朗袭击美国在科威特基地的相关内容。",
+              "shift": "2026-09-04 的初步扫描将该表述列为强候选信号，但未提供任何细节。",
+              "now": "档案未提供时间、地点、伤亡、后果、URL、触发因素或佐证来源；也未匹配任何现有流程。",
+              "conclusion": "该项仍是一个未核实标记，未达到全球洞察阈值；仅应跟踪后续进展。"
+            },
+            "insight": {
+              "title": "未经核实的军事升级标记",
+              "formula": "单行扫描提及 + 零佐证 + 无一手来源 = 无可发布的全球洞察",
+              "explanation": "重大地缘政治事件无法从现有证据中得到证实；正确的输出是噪声跟踪，而不是发布洞察。"
+            },
+            "observe": {
+              "title": "重新评估前需要观察的内容",
+              "items": [
+                {
+                  "label": "一手确认",
+                  "prompt": "是否有关于美国在科威特基地遭袭的一手报道或官方声明？",
+                  "meta": "寻找具名来源、URL、日期、地点。"
+                },
+                {
+                  "label": "伤亡/后果",
+                  "prompt": "是否有任何伤亡、损坏或美伊官方回应的报道？",
+                  "meta": "跟踪可信通讯社或政府声明。"
+                },
+                {
+                  "label": "市场/能源反应",
+                  "prompt": "油价、航运或海湾安全警报是否出现反应？",
+                  "meta": "监测能源与国防渠道。"
+                },
+                {
+                  "label": "流程相关性",
+                  "prompt": "经过确认的攻击是否匹配现有世界流程或需要新的流程候选？",
+                  "meta": "仅在证据增强时重新评估。"
+                }
+              ],
+              "ending": "在至少出现两个独立一手来源之前，继续将其视为未核实标记。"
+            }
+          },
+          "dailyState": {
+            "label": "无新增全球洞察",
+            "decisionTitle": "按噪声跟踪处理",
+            "decisionSummary": "档案仅含一条未经核实的一行信号，无一手来源；无法发布任何实质性变化。",
+            "thresholdReason": "未达到发布阈值：触发或佐证来源为零，无 URL，无时间或地点。",
+            "observeNext": [
+              "关注任何攻击的一手确认",
+              "留意伤亡或后果报道",
+              "监测能源市场与海湾安全警报",
+              "检查该信号是否在后续档案中重复出现"
+            ]
+          },
+          "processContent": {
+            "title": "初步扫描信号",
+            "description": "该候选仅作为宽泛扫描中强候选信号的一个条目出现，没有细节。",
+            "implication": "现阶段进行流程映射没有意义；若获证实，可能需要一个新的地缘政治升级流程。"
+          },
+          "nextQuestion": "什么一手证据可以确认或反驳伊朗袭击美国在科威特的基地？",
+          "observeNext": [
+            "关注任何攻击的一手确认",
+            "留意伤亡或后果报道",
+            "监测能源市场与海湾安全警报",
+            "检查该信号是否在后续档案中重复出现"
+          ]
+        },
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 2236,
+          "outputTokens": 2991,
+          "cachedInputTokens": 2176
         }
       }
     }
