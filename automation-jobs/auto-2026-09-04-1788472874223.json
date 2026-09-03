@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-03T22:01:14.223Z",
-  "updatedAt": "2026-09-03T22:04:01.568Z",
+  "updatedAt": "2026-09-03T22:04:02.583Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "Research returned no candidate signals.",
-      "updatedAt": "2026-09-03T22:04:01.568Z",
+      "message": "research",
+      "updatedAt": "2026-09-03T22:04:02.583Z",
       "failedStage": "research"
     }
   },
