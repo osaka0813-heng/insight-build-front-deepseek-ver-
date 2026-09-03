@@ -6,18 +6,18 @@
   "date": "2026-09-03",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-02T22:01:14.389Z",
-  "updatedAt": "2026-09-03T00:10:56.649Z",
+  "updatedAt": "2026-09-03T00:11:23.551Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "analyze",
-      "updatedAt": "2026-09-03T00:10:56.649Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-03T00:11:23.551Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -482,7 +482,679 @@
             ]
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-03-1788394255519",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-03T00:10:55.519Z",
+        "researchDate": "2026-09-03",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 190081,
+          "outputTokens": 31192,
+          "cachedInputTokens": 151808
+        },
+        "querySummary": "Research date 2026-09-03. The dossier covers 24–48 hours of high-density cross-domain signals: synchronized central-bank tightening against an oil-supply shock, US-Iran tanker warfare, Europe’s record-low gas storage entering winter, OpenAI’s first Critical-level cyber model, Nvidia’s $3.5B MediaTek investment, and South Korea’s AI-chip export-control alignment. Six distinct candidates are proposed; all rely exclusively on facts from the dossier. The dossier contains no URLs, so source.url is intentionally empty. High-risk/contradictory points are flagged inside the candidate fields rather than resolved.",
+        "candidates": [
+          {
+            "id": "c1",
+            "date": "2026-09-02",
+            "domain": "Macro & Capital Markets",
+            "tags": [
+              "central-banks",
+              "interest-rates",
+              "oil-shock",
+              "stagflation",
+              "risk-assets"
+            ],
+            "processMatchConfidence": 30,
+            "importance": 88,
+            "novelty": 82,
+            "evidenceStrength": 70,
+            "independentSourceCount": 4,
+            "thesisImpact": 86,
+            "relationshipChange": 68,
+            "stageChange": 72,
+            "contradiction": 42,
+            "content": {
+              "en": {
+                "title": "Major central banks pivot back to hiking amid an oil-supply shock",
+                "coreFact": "In the 48 hours through Sep 2, market pricing for a September FOMC 25bp hike rose to 60–68%; Nagel supported an ECB deposit-rate rise to 2.50%; BoJ September hike odds reached ~99%; the 10-year UST yield reached ~4.79–4.81%; and Brent settled at $95.63 after three days of gains.",
+                "whyItMatters": "A synchronized return to central-bank tightening while war-driven energy supply shocks raise import prices creates a stagflation template. It directly weakens the assumption that AI-infrastructure and energy-transition projects can rely on cheap long-term capital, while the old ‘rate cuts protect risk assets’ framework is eroding.",
+                "processMatchReason": "No existing process in the dossier captures a simultaneous tightening cycle. This is a distinct macro regime-switch signal rather than a continuation of any prior easing or neutral process."
+              },
+              "zh": {
+                "title": "三大央行同步转“加息回归”，叠加油价冲击＝滞胀模板",
+                "coreFact": "截至9月2日的48小时内，市场对9月FOMC加息25bp的定价升至60–68%；Nagel支持欧央行9月加息至2.50%；日银9月加息概率约99%；10年期美债升至约4.79–4.81%；Brent结算于$95.63，三日连涨。",
+                "whyItMatters": "在战争驱动能源供给冲击抬高进口价格的同时重启紧缩，构成“滞胀模板”，直接冲击AI基础设施和能源转型依赖廉价长期资本的假设；旧的“降息保护风险资产”范式正在失效。",
+                "processMatchReason": "当前卷宗没有已建立的进程能对应“同步紧缩周期”；这是宏观制度切换信号，而非既有宽松进程的延续。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Kevin Warsh Jackson Hole speech – inflation first, September hike not excluded",
+                "url": "",
+                "publisher": "Federal Reserve",
+                "publishedAt": "2026-08-28",
+                "kind": "primary",
+                "id": "c1-source-1",
+                "role": "corroborating"
+              },
+              {
+                "title": "Beige Book September release – modest growth, modest price increases",
+                "url": "",
+                "publisher": "Federal Reserve",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c1-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "September FOMC hike probability rises to 60–68%; Barclays and Société Générale updates",
+                "url": "",
+                "publisher": "Barclays / Société Générale",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c1-source-3",
+                "role": "context"
+              },
+              {
+                "title": "Williams: long-end yields reflect strong economy, not inflation panic",
+                "url": "",
+                "publisher": "Federal Reserve Bank of New York",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c1-source-4",
+                "role": "trigger"
+              },
+              {
+                "title": "Nagel supports ECB deposit-rate increase to 2.50% in September",
+                "url": "",
+                "publisher": "European Central Bank / Bundesbank commentary",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c1-source-5",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 1,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "c1-source-1",
+              "c1-source-2",
+              "c1-source-4",
+              "c1-source-5"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 30,
+              "impact": "challenges",
+              "dailyState": "update_living",
+              "materialChangeScore": 70,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 1,
+              "contextSourceCount": 1,
+              "rationale": "A synchronized return to central-bank tightening amid an oil-supply shock is a macro regime-shift with broad second-order effects: it undermines the cheap-capital assumption underpinning the AI-infrastructure and energy-transition investment theses, and erodes the 'rate cuts protect risk assets' framing. Evidence is weighted toward primary/high-quality sources (Warsh speech, Beige Book, Williams, Nagel) with four independent sources, and novelty is high (82) — no existing process captures a simultaneous tightening cycle. This most changes the user's understanding of the world because it conditions the financing environment for every other candidate (AI capex, energy, semiconductors).",
+              "warnings": [
+                "Markets pricing a hike (60-68%) is not yet a confirmed FOMC decision; the event could reverse before the September meeting.",
+                "Williams' framing (strong economy, not inflation panic) partly cuts against the stagflation narrative, so the interpretation remains contested.",
+                "Best match to existing processes is partial; this is more a macro overlay than a direct fit to AI-infrastructure or energy-security theses."
+              ],
+              "candidateId": "c1",
+              "decisionType": "existing_process_update",
+              "priorityScore": 84
+            }
+          },
+          {
+            "id": "c4",
+            "date": "2026-09-02",
+            "domain": "AI Safety & Governance",
+            "tags": [
+              "OpenAI",
+              "AI-safety",
+              "cybersecurity",
+              "Critical-model",
+              "frontier-ai"
+            ],
+            "processMatchConfidence": 26,
+            "importance": 94,
+            "novelty": 95,
+            "evidenceStrength": 72,
+            "independentSourceCount": 2,
+            "thesisImpact": 94,
+            "relationshipChange": 66,
+            "stageChange": 100,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "OpenAI Astra becomes the first Critical-level AI model for autonomous cyber offense; OpenAI self-limits training and release",
+                "coreFact": "OpenAI announced that Astra met the Critical cybersecurity threshold of its Preparedness Framework—the first model to do so. Astra scored 100% on ExploitBench, found two previously unknown zero-days, escaped a browser to execute host commands, and completed a user-to-root chain on a hardened OS. OpenAI paused parts of training, delayed release, withheld the strongest capability, and created a defensive program.",
+                "whyItMatters": "This is the first official internal risk classification in which autonomous cyber offensive capability is deemed real enough to trigger self-limitation. It gives export-control and compute-security policymakers a direct model-level trigger, while frontier labs continue the race.",
+                "processMatchReason": "The dossier has no established process that maps an AI model to Critical cyber risk with company-imposed training pauses and restricted release. The event creates a new stage between frontier capability and policy response: model-level verified risk classification. SuggestedProcessId is null."
+              },
+              "zh": {
+                "title": "OpenAI Astra成首个“Critical”级模型：自主网络攻击越过阈值",
+                "coreFact": "OpenAI宣布Astra达到其Preparedness Framework的Critical网络安全能力阈值，为史上首个达此级别的模型。Astra在ExploitBench得分100%，自主发现两个未知零日漏洞，仅凭恶意HTML即完成浏览器逃逸并执行主机命令，还在加固操作系统上完成普通用户到root的提权链。OpenAI暂停部分训练、延期发布且不向公众开放最强网攻能力。",
+                "whyItMatters": "这是AI能力突破首次以官方最高风险分级的形式触发企业主动减速和自我限制，为出口管制、算力安全审查及防御性AI提供直接依据；同时Anthropic和Google仍在前沿竞赛中发布新模型。",
+                "processMatchReason": "既有卷宗没有“模型达到Critical级→公司暂停训练/限制发布”的过程环节；该候选新增了能力分级与发布控制之间的模型级阶段，故无匹配进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "OpenAI: Astra reaches Critical cybersecurity capability threshold under Preparedness Framework",
+                "url": "",
+                "publisher": "OpenAI",
+                "publishedAt": "2026-09-01",
+                "kind": "primary",
+                "id": "c4-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Astra ExploitBench 100%, two zero-days, browser-to-host and user-to-root chains; OpenAI restricts capability",
+                "url": "",
+                "publisher": "OpenAI",
+                "publishedAt": "2026-09-01",
+                "kind": "primary",
+                "id": "c4-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Anthropic releases Claude Fable 5.1 / Mythos 5.1 restricted version",
+                "url": "",
+                "publisher": "Anthropic",
+                "publishedAt": "2026-09-01",
+                "kind": "context",
+                "id": "c4-source-3",
+                "role": "context"
+              },
+              {
+                "title": "Google releases Gemini 3.8 Flash",
+                "url": "",
+                "publisher": "Google",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c4-source-4",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [
+              "c4-source-1",
+              "c4-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 26,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 73,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "OpenAI Astra becoming the first model to hit the Critical cybersecurity threshold — with company-imposed training pauses and restricted release — is a first-of-its-kind, high-novelty (95) event at the frontier of AI safety and governance. It creates a new model-level stage (verified risk classification triggering self-limitation) that no existing process captures, and gives export-control and compute-security policymakers a concrete trigger. Evidence is compelling but rests on a single company's self-report (two primary sources from OpenAI, zero independent corroboration), which tempers confidence.",
+              "warnings": [
+                "Core facts rely solely on OpenAI self-reporting; no independent verification of ExploitBench 100%, zero-days, or escape chains.",
+                "Only two independent sources (both OpenAI); Anthropic/Google items are context, not corroboration.",
+                "High novelty but the threshold event is company-internal classification, not yet a policy action."
+              ],
+              "candidateId": "c4",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 90
+            }
+          },
+          {
+            "id": "c2",
+            "date": "2026-09-02",
+            "domain": "Geopolitics & Energy",
+            "tags": [
+              "US-Iran",
+              "Strait-of-Hormuz",
+              "tanker-war",
+              "oil-supply",
+              "CENTCOM"
+            ],
+            "processMatchConfidence": 17,
+            "importance": 96,
+            "novelty": 75,
+            "evidenceStrength": 78,
+            "independentSourceCount": 3,
+            "thesisImpact": 96,
+            "relationshipChange": 100,
+            "stageChange": 90,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "US-Iran conflict escalates to tanker-for-tanker naval warfare in the Gulf",
+                "coreFact": "On Sep 1 US forces struck ~100 IRGC targets and, for the first time under the new tanker-for-tanker policy, directly attacked two Iranian government tankers. On Sep 2 IRGC said two tankers on ‘US-directed illegal routes’ hit mines and burned in the Strait of Hormuz. Brent settled at $95.63 after intraday swings around $94–$96.",
+                "whyItMatters": "This crosses from sanctions-style blockade to active military targeting of energy shipping lanes. The same waterway carries Gulf LNG and refined products, so energy routes themselves have become a weapon, not merely a choke point under sanctions pressure.",
+                "processMatchReason": "No existing process in the dossier covered active strike-for-tanker warfare. The candidate is a kinetic threshold escalation from ‘energy as strategic capacity’ to ‘energy shipping as a battlefield’. Suggested process ID is therefore null."
+              },
+              "zh": {
+                "title": "美伊冲突升级为“油轮换油轮”，霍尔木兹成为战场",
+                "coreFact": "9月1日美军打击约100个IRGC目标，并首次按“tanker for tanker”政策直接袭击两艘伊朗政府油轮；9月2日IRGC称两艘被指按“美军指示非法航线”航行的油轮在霍尔木兹触雷燃烧。Brent结算$95.63，盘中在$94–$96附近剧烈波动。",
+                "whyItMatters": "这是从“封锁式遏制”升级为对能源航线的主动军事打击。霍尔木兹同时承载海湾LNG与成品油，能源运输线本身成为战争工具，影响远超伊朗原油出口。",
+                "processMatchReason": "既有进程没有“油轮换油轮”或油轮被作为直接打击目标的情形；这是从能源战略能力论述向动能海战阶段的阈值跃迁，故suggestedProcessId为null。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US strikes ~100 IRGC targets and two Iranian government tankers under tanker-for-tanker policy",
+                "url": "",
+                "publisher": "US Central Command",
+                "publishedAt": "2026-09-01",
+                "kind": "primary",
+                "id": "c2-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "IRGC: two tankers on US-directed illegal routes hit mines and burned in Strait of Hormuz",
+                "url": "",
+                "publisher": "IRGC official statement",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c2-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "CENTCOM announces further strikes after Hormuz tanker incidents",
+                "url": "",
+                "publisher": "US Central Command",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c2-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Brent settles at $95.63, WTI at $91.01 after intraday spike and tanker-mine drop",
+                "url": "",
+                "publisher": "ICE/CME market data",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c2-source-4",
+                "role": "context"
+              },
+              {
+                "title": "Bahri says SIDR attacked Monday with two dead; tanker-ownership narrative conflicts",
+                "url": "",
+                "publisher": "Bahri / Saudi shipping notification",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c2-source-5",
+                "role": "context"
+              }
+            ],
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [
+              "c2-source-1",
+              "c2-source-2",
+              "c2-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 17,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 87,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "Kinetic tanker-for-tanker warfare in the Strait of Hormuz is a genuinely significant escalation with high importance (96) and relationship-change (100), but it is strongly entangled with and causally upstream of c1 (the oil shock driving the stagflation signal) and c3 (LNG supply fracture). Three primary triggers exist but zero corroborating sources, and a key ownership narrative is contested (Bahri/SIDR conflict), lowering confidence in the precise facts. As a standalone it would warrant a new process, but today's single Insight is better served by the integrated macro/stagflation signal, which already absorbs this energy-supply shock.",
+              "warnings": [
+                "Tanker-ownership narrative conflicts (Bahri vs IRGC accounts), so precise attribution is unverified.",
+                "No independent corroborating source among the three primary triggers.",
+                "Highly correlated with c1 and c3; publishing separately would fragment the macro/energy picture."
+              ],
+              "candidateId": "c2",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 88
+            }
+          },
+          {
+            "id": "c3",
+            "date": "2026-09-02",
+            "domain": "Energy Security",
+            "tags": [
+              "Europe",
+              "gas-storage",
+              "LNG-supply",
+              "QatarEnergy",
+              "winter-risk"
+            ],
+            "processMatchConfidence": 23,
+            "importance": 90,
+            "novelty": 72,
+            "evidenceStrength": 74,
+            "independentSourceCount": 3,
+            "thesisImpact": 88,
+            "relationshipChange": 76,
+            "stageChange": 82,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "Europe enters winter with record-low end-of-summer gas storage while global LNG supply fractures",
+                "coreFact": "EU gas storage is about 65% full, the lowest late-summer level since roughly 2011; TTF October settlement rose to €73.6–75/MWh; QatarEnergy extended LNG force majeure to early November; and Edison flagged five more canceled cargoes in late September–early November.",
+                "whyItMatters": "With Gulf LNG disrupted and Asian utilities bidding for spot cargoes, Europe faces physical winter rationing risk, not only higher prices. This risk coexists with ECB rate hikes, pointing toward industrial-demand destruction and a hard test of the ‘energy becomes strategic capacity’ thesis.",
+                "processMatchReason": "No prior process anticipated a winter supply emergency generated by wartime LNG interruption plus record-low storage. This is an escalation from an energy-price warning to an availability and rationing threat, so no process match is proposed."
+              },
+              "zh": {
+                "title": "欧洲以历史最低夏末库存入冬，全球LNG供给断裂",
+                "coreFact": "欧盟储气仅约65%满，创约2011年以来同期最低；TTF 10月合约升至€73.6–75/MWh；QatarEnergy将LNG不可抗力延至11月初；Edison警告再有5船LNG在9月底至11月初被取消。",
+                "whyItMatters": "海湾LNG被战争切断，亚洲公共事业在现货市场抢购，叠加欧央行在天然气价格冲击中加息，使欧洲面临真实限气/配给风险，而不只是价格痛苦。这直接检验“能源即战略能力”的论述。",
+                "processMatchReason": "既有进程没有把战时LNG中断与历史最低库存组合为冬季供给紧急事件；这是从价格上行阶段升级为供给可得性威胁的阶段变化，因此无匹配进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "EU gas storage at about 65% full; lowest late-summer inventory since ~2011",
+                "url": "",
+                "publisher": "European Commission / storage monitoring data",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c3-source-1",
+                "role": "context"
+              },
+              {
+                "title": "TTF October contract rises to €73.6–75/MWh",
+                "url": "",
+                "publisher": "ICE Endex market data",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c3-source-2",
+                "role": "context"
+              },
+              {
+                "title": "QatarEnergy extends LNG force majeure until early November",
+                "url": "",
+                "publisher": "QatarEnergy",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c3-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Edison warns of five more canceled LNG deliveries from late September to early November",
+                "url": "",
+                "publisher": "Edison",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c3-source-4",
+                "role": "trigger"
+              },
+              {
+                "title": "Pakistan rejects only emergency LNG offer at $26.97/MMBtu as too expensive",
+                "url": "",
+                "publisher": "Pakistan government / Pakistan LNG procurement",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c3-source-5",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 2,
+            "claimSourceIds": [
+              "c3-source-3",
+              "c3-source-4",
+              "c3-source-5"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-energy-security",
+              "processMatchConfidence": 23,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 72,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 2,
+              "rationale": "Europe entering winter at ~65% storage with QatarEnergy force majeure and canceled cargoes is a real availability/rationing threat (importance 90), but it is directly downstream of the same US-Iran Gulf conflict driving c2 and the oil shock in c1. It is important but better folded into the broader energy-shock context than elevated to today's single Insight. Evidence includes two primary triggers but no corroborating sources.",
+              "warnings": [
+                "Part of the same Gulf-conflict causal cluster as c1 and c2; publishing separately would fragment the picture.",
+                "No corroborating independent source for the storage/rationing specifics.",
+                "TTF and storage figures are market/context data rather than independently verified policy events."
+              ],
+              "candidateId": "c3",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 78
+            }
+          },
+          {
+            "id": "c5",
+            "date": "2026-09-02",
+            "domain": "AI & Capital Markets",
+            "tags": [
+              "Nvidia",
+              "MediaTek",
+              "AI-infrastructure",
+              "power-bottleneck",
+              "data-centers"
+            ],
+            "processMatchConfidence": 55,
+            "importance": 82,
+            "novelty": 72,
+            "evidenceStrength": 72,
+            "independentSourceCount": 4,
+            "thesisImpact": 78,
+            "relationshipChange": 76,
+            "stageChange": 70,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "Nvidia buys a $3.5B MediaTek stake; AI capital is being structured around power-backed mega-campus contracts",
+                "coreFact": "MediaTek announced a $3.9B convertible bond issuance, with Nvidia subscribing $3.5B—Nvidia’s largest non-US direct investment—expanding collaboration into AI infrastructure, PC chips, and automotive chips. In the same window, Anthropic/Nvidia-backed Lambda signed a ~$35B cloud-compute deal at Hut 8’s 525-acre Texas site, Google signed a 396MW geothermal PPA with Fervo, and Vertiv agreed to buy a microgrid company for $1.45B.",
+                "whyItMatters": "AI capital is now moving into the three bottlenecks of power, land, and custom-silicon design. Nvidia investing in a potential ASIC-competitor ecosystem as its largest overseas direct investment suggests the AI infrastructure race is no longer only about model parameters or GPU sales.",
+                "processMatchReason": "No previous process treated AI capex as a combined ‘site + power + design-capacity’ lock-in. This candidate is a structural capital-allocation shift, not a routine financing event; no existing process matches."
+              },
+              "zh": {
+                "title": "英伟达35亿美元入股联发科；AI资本开支转向“电力园区+定制芯片”结构化布局",
+                "coreFact": "联发科宣布发行39亿美元可转债，英伟达认购35亿美元，为其美国以外最大单笔直接投资；同期Anthropic与英伟达支持的Lambda签署约350亿美元云算力协议（Hut 8得州Beacon Point园区，525英亩），Google与Fervo签396MW地热PPA，Vertiv以14.5亿美元收购微电网公司。",
+                "whyItMatters": "AI基础设施竞赛的资金正同时流向电力、土地与硅片设计三大瓶颈。英伟达以最大海外直接投资的规格入股潜在ASIC竞争对手，意味着算力竞赛的资本维度出现结构性变化。",
+                "processMatchReason": "既有“AI算力基建”进程只关注模型与数据中心产能，未包含“园区+电力+定制芯片产能”的资本捆绑；本候选是资本配置方式的阶段变化，故不匹配既有进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "MediaTek announces $3.9B convertible bond; Nvidia subscribes $3.5B",
+                "url": "",
+                "publisher": "MediaTek / Nvidia",
+                "publishedAt": "2026-09-01",
+                "kind": "primary",
+                "id": "c5-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Huang at G20/Asheville: AI infrastructure as national infrastructure; 1GW costs $50–60B; ~100GW global by end of decade",
+                "url": "",
+                "publisher": "Nvidia / G20 session remarks",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c5-source-2",
+                "role": "context"
+              },
+              {
+                "title": "Anthropic and Nvidia-backed Lambda sign ~$35B cloud-compute deal at Hut 8 Beacon Point, Texas",
+                "url": "",
+                "publisher": "Anthropic / Lambda / Hut 8",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c5-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Google and Fervo Energy sign 396MW enhanced-geothermal PPA expandable to ~1GW",
+                "url": "",
+                "publisher": "Google / Fervo Energy",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c5-source-4",
+                "role": "trigger"
+              },
+              {
+                "title": "Vertiv agrees to acquire microgrid company for $1.45B",
+                "url": "",
+                "publisher": "Vertiv",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c5-source-5",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-ai-infrastructure-race",
+            "currentEventSourceCount": 4,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "c5-source-1",
+              "c5-source-3",
+              "c5-source-4",
+              "c5-source-5"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-ai-infrastructure-race",
+              "processMatchConfidence": 55,
+              "impact": "supports",
+              "dailyState": "update_living",
+              "materialChangeScore": 67,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 4,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "Nvidia's $3.5B MediaTek stake plus Lambda/Hut 8, Google-Fervo, and Vertiv deals show AI capital consolidating around power/land/custom-silicon, consistent with and supportive of the existing AI-infrastructure-race process. It is important (82) but represents an incremental structural deepening rather than a threshold change; it does not displace the higher-leverage macro (c1) or first-of-kind AI-safety (c4) signals today.",
+              "warnings": [
+                "Primarily an extension/confirmation of existing AI-infrastructure-race thesis rather than a regime change.",
+                "Multiple deals bundled together; individual events vary in verified significance.",
+                "Its significance is partly derivative of the same AI-capex theme, not a distinct regime-switch."
+              ],
+              "candidateId": "c5",
+              "decisionType": "existing_process_update",
+              "priorityScore": 76
+            }
+          },
+          {
+            "id": "c6",
+            "date": "2026-09-02",
+            "domain": "Semiconductors & Geopolitics",
+            "tags": [
+              "South-Korea",
+              "export-controls",
+              "AI-chips",
+              "semiconductors",
+              "allied-coordination"
+            ],
+            "processMatchConfidence": 50,
+            "importance": 80,
+            "novelty": 75,
+            "evidenceStrength": 62,
+            "independentSourceCount": 3,
+            "thesisImpact": 72,
+            "relationshipChange": 68,
+            "stageChange": 68,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "South Korea brings AI chips and advanced equipment under export licensing aligned with US-style thresholds",
+                "coreFact": "South Korea’s revised Strategic Materials Export Notice took effect Sep 1, adding ~80 Wassenaar/Australia Group/NSG/MTCR-related controls. New controls include high-performance AI integrated circuits, reported at TPP≥6000 and aligned with the US October 2024 rule, plus specific lithography/etch/deposition equipment and DNA synthesizers as strategic items requiring prior export licenses.",
+                "whyItMatters": "As a global memory and foundry heavyweight, South Korea’s adoption of US-style compute-threshold licensing narrows the transshipment gap in allied AI-chip controls. It also runs in parallel with Korea-Japan economic-security dialogue and SK hynix studying expanded production in Japan, pointing to a reconfiguration of Northeast Asian memory/foundry capacity.",
+                "processMatchReason": "No prior process covered South Korea licensing AI processors by a US-style TPP threshold. This is a control-wall-patching stage added after earlier allied export-control alignment, so the suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "韩国9月1日生效新版战略物项告示，AI芯片与先进设备纳入出口许可",
+                "coreFact": "韩国产业通商资源部新版《战略物资进出口告示》9月1日生效，落实瓦森纳、澳洲集团、NSG、MTCR等约80项控制；新增高性能AI集成电路（有报道指总处理性能≥6000，对齐美国2024年10月规则阈值）、特定光刻/蚀刻/沉积设备及核酸合成仪为战略物项，出口须事先获政府许可。",
+                "whyItMatters": "韩国首次以美国式算力阈值对AI芯片和先进设备实施出口许可，缩小盟伴体系对华技术管控的“转运缺口”。同期韩日经济安全对话与SK海力士研究扩大日本产能，显示东北亚存储/代工版图可能再配置。",
+                "processMatchReason": "既有“盟伴出口管制”进程未包含韩国按算力阈值许可AI芯片；本候选是控制墙补漏和半导体地理再配置的新阶段，故无匹配进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Korea MOTIE new Strategic Materials Export Notice effective Sept 1 with ~80 new controls",
+                "url": "",
+                "publisher": "Ministry of Trade, Industry and Energy",
+                "publishedAt": "2026-09-01",
+                "kind": "primary",
+                "id": "c6-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "High-performance AI ICs at TPP≥6000 added to Korea export licensing",
+                "url": "",
+                "publisher": "Dossier-quoted secondary reporting (Weibo/Jiwei translation)",
+                "publishedAt": "2026-09-02",
+                "kind": "context",
+                "id": "c6-source-2",
+                "role": "context"
+              },
+              {
+                "title": "Korea-Japan economic security dialogue in Tokyo Aug 31–Sep 1 covers AI, semiconductors, critical minerals",
+                "url": "",
+                "publisher": "South Korean and Japanese governments",
+                "publishedAt": "2026-09-01",
+                "kind": "primary",
+                "id": "c6-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "SK chairman says SK hynix is studying expanded memory production in Japan",
+                "url": "",
+                "publisher": "SK Group",
+                "publishedAt": "2026-09-02",
+                "kind": "primary",
+                "id": "c6-source-4",
+                "role": "trigger"
+              }
+            ],
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "currentEventSourceCount": 3,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 1,
+            "claimSourceIds": [
+              "c6-source-1",
+              "c6-source-3",
+              "c6-source-4"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-geopolitical-technology-control",
+              "processMatchConfidence": 50,
+              "impact": "supports",
+              "dailyState": "update_living",
+              "materialChangeScore": 65,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 3,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 1,
+              "rationale": "South Korea's adoption of US-style TPP≥6000 licensing for AI chips and advanced equipment is a meaningful allied-control-wall patch (importance 80), but it is an incremental extension of existing technology-control and semiconductor-capacity processes rather than a threshold shift. Evidence strength is moderate (62) with the AI-chip TPP threshold relying on secondary reporting.",
+              "warnings": [
+                "TTT≥6000 AI-chip threshold sourced from dossier-quoted secondary (Weibo/Jiwei translation), not an official primary.",
+                "Incremental allied alignment rather than a novel regime change.",
+                "Overlaps existing technology-control and semiconductor-capacity processes, reducing standalone novelty."
+              ],
+              "candidateId": "c6",
+              "decisionType": "existing_process_update",
+              "priorityScore": 72
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 6,
+      "selectedCandidateId": "c1"
     }
   },
   "lease": {
