@@ -62,7 +62,7 @@ export function ReadingPager({ edition, onOpenArchive, onOpenProcess, dailyState
   const currentPageRef = useRef(0);
   const scrollY = useRef(new Animated.Value(0)).current;
 
-  const knowledgeNetwork = useMemo(() => getKnowledgeNetwork(edition.language), [edition.language]);
+  const knowledgeNetwork = useMemo(() => getKnowledgeNetwork(edition), [edition]);
 
   const horizontalNavigationSwipe = useMemo(
     () =>

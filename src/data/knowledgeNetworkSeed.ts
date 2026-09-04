@@ -1,4 +1,4 @@
-import type { LanguageCode } from '../types/insight';
+import type { InsightEdition, LanguageCode } from '../types/insight';
 
 export type TimelineEvent = {
   id: string;
@@ -118,6 +118,57 @@ const networks: Record<LanguageCode, KnowledgeNetwork> = {
   },
 };
 
-export function getKnowledgeNetwork(language: LanguageCode): KnowledgeNetwork {
-  return networks[language] ?? networks.en;
+const dynamicLabels: Record<LanguageCode, {
+  before: string;
+  evidence: string;
+  shift: string;
+  now: string;
+  next: string;
+  baselineConnection: string;
+  evidenceConnection: string;
+  shiftConnection: string;
+  outcomeConnection: string;
+}> = {
+  en: { before: 'BEFORE', evidence: 'EVIDENCE', shift: 'SHIFT', now: 'NOW', next: 'NEXT', baselineConnection: 'The previous baseline meets new evidence', evidenceConnection: 'Independent signals reinforce the change', shiftConnection: 'The evidence reveals a structural shift', outcomeConnection: 'The shift creates a new operating reality' },
+  zh: { before: '之前', evidence: '证据', shift: '转变', now: '现在', next: '下一步', baselineConnection: '原有状态遇到新的证据', evidenceConnection: '独立信号共同加强判断', shiftConnection: '证据揭示结构性转变', outcomeConnection: '结构转变形成新的现实' },
+  ja: { before: '以前', evidence: '根拠', shift: '転換', now: '現在', next: '次', baselineConnection: '従来の状態に新しい根拠が加わる', evidenceConnection: '独立したシグナルが変化を裏づける', shiftConnection: '根拠が構造的な転換を示す', outcomeConnection: '転換が新しい現実を生む' },
+};
+
+/** Build the explorer from the edition being read. The old implementation
+ * returned the same AI-infrastructure demo network for every article. */
+export function getKnowledgeNetwork(edition: InsightEdition): KnowledgeNetwork {
+  const language = edition.language;
+  const labels = dynamicLabels[language] ?? dynamicLabels.en;
+  const signals = edition.signals.items.slice(0, 2);
+  const nodes: KnowledgeNode[] = [
+    { id: 'before', label: labels.before, title: edition.pattern.before, summary: edition.question.lead },
+    ...signals.map((signal, index) => ({ id: `evidence-${index + 1}`, label: `${labels.evidence} ${index + 1}`, title: signal.title, summary: signal.body })),
+    { id: 'shift', label: labels.shift, title: edition.pattern.shift, summary: edition.pattern.conclusion },
+    { id: 'now', label: labels.now, title: edition.pattern.now, summary: edition.insight.explanation },
+  ];
+  const connections: KnowledgeConnection[] = [];
+  const connect = (from: string, to: string, title: string, explanation: string) =>
+    connections.push({ id: `dynamic-${connections.length + 1}`, from, to, title, explanation });
+
+  if (signals[0]) connect('before', 'evidence-1', labels.baselineConnection, signals[0].whyImportant ?? signals[0].body);
+  if (signals[1]) connect('evidence-1', 'evidence-2', labels.evidenceConnection, signals[1].whyImportant ?? signals[1].body);
+  connect(signals[1] ? 'evidence-2' : signals[0] ? 'evidence-1' : 'before', 'shift', labels.shiftConnection, edition.pattern.conclusion);
+  connect('shift', 'now', labels.outcomeConnection, edition.insight.explanation);
+
+  return {
+    nodes,
+    connections,
+    timeline: [
+      { id: 'edition-before', date: labels.before, title: edition.pattern.before, body: edition.question.lead },
+      { id: 'edition-shift', date: edition.dateDisplay, title: edition.pattern.shift, body: edition.pattern.conclusion },
+      { id: 'edition-next', date: labels.next, title: edition.observe.title, body: edition.observe.ending },
+    ],
+    relatedInsights: edition.observe.items.map((item, index) => ({
+      id: `observe-${index + 1}`,
+      label: item.label,
+      title: item.prompt,
+      summary: item.meta,
+      status: 'watch' as const,
+    })),
+  };
 }
