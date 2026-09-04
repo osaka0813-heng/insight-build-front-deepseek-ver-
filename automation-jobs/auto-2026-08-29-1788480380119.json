@@ -2,13 +2,13 @@
   "id": "auto-2026-08-29-1788480380119",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-08-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "preflight",
+  "currentStage": "research",
   "createdAt": "2026-09-04T00:06:20.119Z",
-  "updatedAt": "2026-09-04T00:06:23.841Z",
+  "updatedAt": "2026-09-04T00:06:25.976Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -22,5 +22,38 @@
     "owner": "cron-1788480379906-if0jfusy",
     "acquiredAt": "2026-09-04T00:06:23.841Z",
     "expiresAt": "2026-09-04T00:11:13.841Z"
-  }
+  },
+  "preflight": {
+    "ok": true,
+    "checkedAt": "2026-09-04T00:06:25.965Z",
+    "contentVersion": "publish-candidate-iran-kuwait-bases-2026-09-04-1788475731636",
+    "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
+    "checks": [
+      {
+        "id": "environment",
+        "label": "环境变量",
+        "ok": true,
+        "detail": "DEEPSEEK_API_KEY:OK · RESEARCH_API_TOKEN:OK · PUBLISH_API_TOKEN:OK · GITHUB_TOKEN:OK · GITHUB_OWNER:OK · GITHUB_REPO:OK"
+      },
+      {
+        "id": "github-read",
+        "label": "GitHub 内容读取",
+        "ok": true,
+        "detail": "osaka0813-heng/insight-build-front-deepseek-ver- · remote-content.json"
+      },
+      {
+        "id": "content-schema",
+        "label": "内容结构与引用",
+        "ok": true,
+        "detail": "结构通过；0 条警告。"
+      },
+      {
+        "id": "backup-write",
+        "label": "备份写入权限",
+        "ok": true,
+        "detail": "backups/remote-content/2026-09-04T00-06-25-150Z-preflight-probe-1788480385150.json"
+      }
+    ]
+  },
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
 }
