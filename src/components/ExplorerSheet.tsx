@@ -207,6 +207,7 @@ function KnowledgeNetworkSection({ mode, network, onNode, onConnection, onTimeli
   const { t } = useI18n();
 
   if (mode === 'systemMap') {
+    const nodeLabel = (id: string) => network.nodes.find((node) => node.id === id)?.label ?? id;
     return <>
       <Section title={t('networkMap')}>
         <View style={styles.nodeWrap}>
@@ -221,7 +222,7 @@ function KnowledgeNetworkSection({ mode, network, onNode, onConnection, onTimeli
       </Section>
       <Section title={t('connections')}>
         {network.connections.map((connection) => <Pressable key={connection.id} onPress={() => onConnection(connection)} style={({ pressed }) => [styles.connectionCard, pressed && styles.pressed]}>
-          <Text style={styles.connectionPath}>{connection.from.toUpperCase()} → {connection.to.toUpperCase()}</Text>
+          <Text style={styles.connectionPath}>{nodeLabel(connection.from)} → {nodeLabel(connection.to)}</Text>
           <Text style={styles.cardTitle}>{connection.title}</Text>
           <Text style={styles.openLabel}>{t('open')} →</Text>
         </Pressable>)}
