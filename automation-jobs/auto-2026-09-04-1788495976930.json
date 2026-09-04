@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-09-04T04:26:16.930Z",
-  "updatedAt": "2026-09-04T04:26:16.930Z",
+  "updatedAt": "2026-09-04T04:26:19.350Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -17,5 +17,10 @@
       "message": "等待执行",
       "updatedAt": "2026-09-04T04:26:16.930Z"
     }
+  },
+  "lease": {
+    "owner": "cron-1788495976574-zcm78set",
+    "acquiredAt": "2026-09-04T04:26:19.350Z",
+    "expiresAt": "2026-09-04T04:31:09.350Z"
   }
 }
