@@ -8,14 +8,17 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-04T22:16:42.386Z",
-  "updatedAt": "2026-09-04T22:16:49.007Z",
+  "updatedAt": "2026-09-04T22:18:20.270Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-04T22:16:49.007Z"
+      "attempts": {
+        "research": 1
+      },
+      "message": "DeepSeek request timed out. Please retry.",
+      "updatedAt": "2026-09-04T22:18:20.270Z",
+      "failedStage": "research"
     }
   },
   "lease": {
@@ -55,5 +58,5 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
+  "message": "WORLD research 自动重试 1/3"
 }
