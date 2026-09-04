@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-09-03T23:54:32.560Z",
-  "updatedAt": "2026-09-04T00:06:04.250Z",
+  "updatedAt": "2026-09-04T00:06:19.903Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -20,11 +20,6 @@
       "updatedAt": "2026-09-04T00:06:04.250Z",
       "failedStage": "research"
     }
-  },
-  "lease": {
-    "owner": "cron-1788480180423-lkj17mc6",
-    "acquiredAt": "2026-09-04T00:03:00.674Z",
-    "expiresAt": "2026-09-04T00:07:50.674Z"
   },
   "preflight": {
     "ok": true,
