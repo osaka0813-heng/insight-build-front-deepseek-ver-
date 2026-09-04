@@ -8,14 +8,14 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-04T02:46:11.036Z",
-  "updatedAt": "2026-09-04T02:46:16.594Z",
+  "updatedAt": "2026-09-04T02:46:17.636Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "research",
       "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-09-04T02:46:11.036Z"
+      "message": "research",
+      "updatedAt": "2026-09-04T02:46:17.636Z"
     }
   },
   "lease": {
