@@ -1,0 +1,21 @@
+{
+  "id": "auto-2026-09-05-1788564216040",
+  "pipelineVersion": "014.2-global-en-zh",
+  "mode": "global_en_zh",
+  "status": "queued",
+  "date": "2026-09-05",
+  "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
+  "currentScope": "global",
+  "currentStage": "preflight",
+  "createdAt": "2026-09-04T23:23:36.040Z",
+  "updatedAt": "2026-09-04T23:23:36.040Z",
+  "scopes": {
+    "global": {
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "等待执行",
+      "updatedAt": "2026-09-04T23:23:36.040Z"
+    }
+  }
+}
