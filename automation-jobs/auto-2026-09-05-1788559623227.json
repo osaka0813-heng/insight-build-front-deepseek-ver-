@@ -2,22 +2,22 @@
   "id": "auto-2026-09-05-1788559623227",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed_with_errors",
   "date": "2026-09-05",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "complete",
   "createdAt": "2026-09-04T22:07:03.227Z",
-  "updatedAt": "2026-09-04T22:10:14.478Z",
+  "updatedAt": "2026-09-04T22:11:45.414Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "error",
       "stage": "research",
       "attempts": {
-        "research": 2
+        "research": 3
       },
-      "message": "research",
-      "updatedAt": "2026-09-04T22:10:14.478Z",
+      "message": "DeepSeek request timed out. Please retry.",
+      "updatedAt": "2026-09-04T22:11:45.414Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,6 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD 在 research 连续失败 3 次，已保留断点。",
+  "completedAt": "2026-09-04T22:11:45.414Z"
 }
