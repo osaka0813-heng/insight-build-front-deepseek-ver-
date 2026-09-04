@@ -1,749 +1,1359 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T22:48:50.467Z",
-  "contentVersion": "publish-candidate-iran-kuwait-bases-2026-09-04-1788475731636",
+  "generatedAt": "2026-09-04T00:15:49.054Z",
+  "contentVersion": "weekly-rebuild-2026-09-04-1788480949054",
   "insights": [
     {
-      "id": "candidate-iran-kuwait-bases-2026-09-04",
+      "id": "global-2026-09-04-el-nino-system-risk",
       "scope": "global",
-      "slug": "iran-attack-us-bases-kuwait-initial-scan-unverified",
-      "status": "update_living",
+      "slug": "el-nino-becomes-cross-system-planning-shock",
+      "status": "publish_new",
       "publishedAt": "2026-09-04T00:00:00.000Z",
-      "updatedAt": "2026-09-03T22:48:47.285Z",
-      "confidence": "hypothesis",
+      "updatedAt": "2026-09-04T00:15:49.054Z",
+      "confidence": "verified",
       "content": {
         "en": {
           "cover": {
-            "eyebrow": "Global Insight",
-            "secondaryEyebrow": "Unverified Signal",
-            "title": "Iran attack on US bases in Kuwait is only an initial scan item",
-            "summary": "The dossier lists 'Iran attack on US bases in Kuwait' as a strong candidate signal with no timing, location, casualties, consequences, or URL. This cannot substantiate a Global Insight today and is tracked as an unverified flag."
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Verified by two independent sources",
+            "title": "A strengthening El Niño is turning climate forecasting into cross-system preparation",
+            "summary": "The event is expected to persist into 2027 and could rank among the strongest observed. Its significance is the synchronized exposure of food, water, health and energy systems."
           },
           "question": {
-            "lead": "Can a one-line unverified scan item justify an Insight?",
-            "title": "Is there enough evidence to confirm an Iran attack on US bases in Kuwait?",
-            "footnote": "Based on a 2026-09-04 web search dossier with two context sources."
+            "lead": "Seasonal climate forecasts often sit outside economic and operational planning until impacts arrive.",
+            "title": "What changes when one ocean pattern raises risks across several essential systems at once?",
+            "footnote": "Uses only facts corroborated by the clickable sources below."
           },
           "signals": {
-            "title": "Available evidence",
-            "sourceNote": "Only two context sources from the dossier are available; neither provides primary reporting or URL.",
+            "title": "Two pieces of evidence point to the same change",
+            "sourceNote": "Sources: World Meteorological Organization, Reuters",
             "items": [
               {
-                "id": "candidate-iran-kuwait-bases-2026-09-04-signal-1",
-                "label": "Signal 1",
-                "title": "Initial scan surfaces strong candidate signals",
-                "body": "The initial scan lists 'Iran attack on US bases in Kuwait' among strong candidate signals, alongside Fed pivot signals, Korea export controls, US bulk-power equipment ban, and Berkshire energy move.",
-                "whyImportant": "It is the only mention of a potential US base attack; no details are given.",
+                "id": "global-2026-09-04-el-nino-system-risk-s1",
+                "label": "SIGNAL 1",
+                "title": "Persistence raises the planning horizon",
+                "body": "WMO assessments moved from a high probability of emergence to expectations of a strong event lasting into 2027.",
+                "whyImportant": "Governments and firms must plan beyond a single weather season.",
                 "evidence": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-evidence-1",
-                    "title": "Initial scan",
-                    "description": "Context source from Web Search Dossier, 2026-09-04.",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-04-el-nino-system-risk-e1",
+                    "title": "Persistence raises the planning horizon",
+                    "description": "WMO assessments moved from a high probability of emergence to expectations of a strong event lasting into 2027.",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-iran-kuwait-bases-2026-09-04-source-1"
+                      "elnino-wmo",
+                      "elnino-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-source-1",
-                    "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
-                    "publisher": "Web Search Dossier",
-                    "publishedAt": "2026-09-04",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "elnino-wmo",
+                    "title": "WMO: Prepare for El Niño",
+                    "publisher": "World Meteorological Organization",
+                    "publishedAt": "2026-06-02",
+                    "url": "https://wmo.int/news/media-centre/wmo-prepare-el-nino",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "elnino-reuters",
+                    "title": "El Niño likely to strengthen further and persist into 2027, WMO says",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/environment/el-nio-likely-strengthen-further-persist-into-2027-wmo-says-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               },
               {
-                "id": "candidate-iran-kuwait-bases-2026-09-04-signal-2",
-                "label": "Signal 2",
-                "title": "Analyst notes need to dig deeper and broaden scan",
-                "body": "The follow-up context source indicates further digging into each candidate and broader scanning.",
-                "whyImportant": "This suggests the initial item is not yet confirmed and requires verification.",
+                "id": "global-2026-09-04-el-nino-system-risk-s2",
+                "label": "SIGNAL 2",
+                "title": "Impacts travel through connected systems",
+                "body": "Heavy rain, drought and heat affect crops, water, disease risk, power demand and insurance simultaneously.",
+                "whyImportant": "The danger is not one disaster but correlated stress across systems that normally back one another up.",
                 "evidence": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-evidence-2",
-                    "title": "Follow-up scan note",
-                    "description": "Context source from Web Search Dossier, 2026-09-04.",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-04-el-nino-system-risk-e2",
+                    "title": "Impacts travel through connected systems",
+                    "description": "Heavy rain, drought and heat affect crops, water, disease risk, power demand and insurance simultaneously.",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-iran-kuwait-bases-2026-09-04-source-2"
+                      "elnino-wmo",
+                      "elnino-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-source-2",
-                    "title": "Let me dig deeper into each and broaden the scan.",
-                    "publisher": "Web Search Dossier",
-                    "publishedAt": "2026-09-04",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "elnino-wmo",
+                    "title": "WMO: Prepare for El Niño",
+                    "publisher": "World Meteorological Organization",
+                    "publishedAt": "2026-06-02",
+                    "url": "https://wmo.int/news/media-centre/wmo-prepare-el-nino",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "elnino-reuters",
+                    "title": "El Niño likely to strengthen further and persist into 2027, WMO says",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/environment/el-nio-likely-strengthen-further-persist-into-2027-wmo-says-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               }
             ]
           },
           "pattern": {
-            "title": "Unverified one-line flag",
-            "before": "No Iran attack on US bases in Kuwait was present in the prior scan.",
-            "shift": "A 2026-09-04 initial scan surfaced the phrase as a strong candidate signal without any detail.",
-            "now": "The dossier provides no timing, location, casualties, consequences, URL, trigger, or corroborating sources; no existing process is matched.",
-            "conclusion": "The item remains an unverified flag and does not meet the threshold for a Global Insight; it should be tracked for follow-through only."
+            "title": "From weather forecast to systemic risk",
+            "before": "El Niño was monitored mainly as a seasonal meteorological event.",
+            "shift": "Strength and duration expectations increased as Pacific warming intensified.",
+            "now": "Agriculture, health, water, energy and finance face overlapping preparation windows.",
+            "conclusion": "Resilience depends on coordinating sectors before local shocks become shared shortages."
           },
           "insight": {
-            "title": "Unverified military escalation flag",
-            "formula": "Single-line scan mention + zero corroboration + no primary source = no publishable Global Insight",
-            "explanation": "A major geopolitical event cannot be substantiated from the available evidence; the correct output is a noise follow-through, not a published Insight."
+            "title": "Correlation is the hidden risk",
+            "formula": "Long duration × geographic reach × linked essentials = synchronized resilience test",
+            "explanation": "A system can absorb one isolated shock more easily than several simultaneous stresses that compete for the same fiscal, logistical and humanitarian capacity."
           },
           "observe": {
-            "title": "What to watch before reassessing",
+            "title": "Observe next",
             "items": [
               {
-                "label": "Primary confirmation",
-                "prompt": "Is there a primary report or official statement confirming an attack on US bases in Kuwait?",
-                "meta": "Look for named source, URL, date, location."
+                "label": "WATCH 1",
+                "prompt": "Whether crop forecasts deteriorate across more than one major growing region.",
+                "meta": "FOOD"
               },
               {
-                "label": "Casualties/consequences",
-                "prompt": "Are there any reported casualties, damage, or US/Iran official responses?",
-                "meta": "Track credible newswire or government statements."
+                "label": "WATCH 2",
+                "prompt": "Whether water and power authorities activate joint contingency plans.",
+                "meta": "INFRASTRUCTURE"
               },
               {
-                "label": "Market/energy reaction",
-                "prompt": "Do oil prices, shipping, or Gulf security alerts react?",
-                "meta": "Monitor energy and defense channels."
-              },
-              {
-                "label": "Process relevance",
-                "prompt": "Does a confirmed attack match any existing World Process or require a new process candidate?",
-                "meta": "Reassess only if evidence strengthens."
+                "label": "WATCH 3",
+                "prompt": "Whether food prices and insurance losses begin moving together.",
+                "meta": "FINANCE"
               }
             ],
-            "ending": "Until at least two independent primary sources appear, keep this as an unverified flag."
+            "ending": "The key signal is not temperature alone, but whether institutions prepare for several connected failures at the same time."
           }
         },
         "zh": {
           "cover": {
-            "eyebrow": "全球洞察",
-            "secondaryEyebrow": "未经核实的信号",
-            "title": "伊朗袭击美国在科威特的基地仅为初步扫描项",
-            "summary": "档案将“伊朗袭击美国在科威特的基地”列为强候选信号，但未提供时间、地点、伤亡、后果或 URL。这无法在今日支撑一条全球洞察，仅作为未核实标记跟踪。"
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "经双来源验证",
+            "title": "增强中的厄尔尼诺，正在把气候预测变成跨系统准备问题",
+            "summary": "该事件预计持续到2027年，并可能成为观测史上最强之一。真正重要的是粮食、水、健康与能源系统同时暴露。"
           },
           "question": {
-            "lead": "一行未经核实的扫描项能否支撑一条洞察？",
-            "title": "是否有足够的证据确认伊朗袭击了美国在科威特的基地？",
-            "footnote": "基于 2026-09-04 网络搜索档案，含两个背景来源。"
+            "lead": "季节气候预测往往要等到影响发生，才进入经济与运营决策。",
+            "title": "同一个海洋模式同时抬高多个基本系统的风险，会改变什么？",
+            "footnote": "仅使用下列可点击来源中得到交叉支持的事实。"
           },
           "signals": {
-            "title": "可用证据",
-            "sourceNote": "档案中仅有两个背景来源；两者均未提供一手报道或 URL。",
+            "title": "两个证据指向同一变化",
+            "sourceNote": "来源：World Meteorological Organization、Reuters",
             "items": [
               {
-                "id": "candidate-iran-kuwait-bases-2026-09-04-signal-1",
+                "id": "global-2026-09-04-el-nino-system-risk-s1",
                 "label": "信号 1",
-                "title": "初步扫描出现强候选信号",
-                "body": "初步扫描将“伊朗袭击美国在科威特的基地”列为强候选信号之一，与美联储转向信号、韩国出口管制、美国大容量电力设备禁令以及伯克希尔能源动作并列。",
-                "whyImportant": "这是唯一一处提到潜在的美国基地袭击；没有提供任何细节。",
+                "title": "持续时间拉长了规划窗口",
+                "body": "WMO评估从“较高概率出现”升级为强事件可能持续到2027年。",
+                "whyImportant": "政府与企业必须跨越单一气象季节制定计划。",
                 "evidence": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-evidence-1",
-                    "title": "初步扫描",
-                    "description": "背景来源，来自网络搜索档案，2026-09-04。",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-04-el-nino-system-risk-e1",
+                    "title": "持续时间拉长了规划窗口",
+                    "description": "WMO评估从“较高概率出现”升级为强事件可能持续到2027年。",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-iran-kuwait-bases-2026-09-04-source-1"
+                      "elnino-wmo",
+                      "elnino-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-source-1",
-                    "title": "Initial scan surfaces several strong candidate signals (Iran attack on US bases in Kuwait, Fed pivot signals, Korea export controls, US bulk-power equipment ban, Berkshire energy move)",
-                    "publisher": "Web Search Dossier",
-                    "publishedAt": "2026-09-04",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "elnino-wmo",
+                    "title": "WMO: Prepare for El Niño",
+                    "publisher": "World Meteorological Organization",
+                    "publishedAt": "2026-06-02",
+                    "url": "https://wmo.int/news/media-centre/wmo-prepare-el-nino",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "elnino-reuters",
+                    "title": "El Niño likely to strengthen further and persist into 2027, WMO says",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/environment/el-nio-likely-strengthen-further-persist-into-2027-wmo-says-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               },
               {
-                "id": "candidate-iran-kuwait-bases-2026-09-04-signal-2",
+                "id": "global-2026-09-04-el-nino-system-risk-s2",
                 "label": "信号 2",
-                "title": "分析师指出需要深入挖掘并扩大扫描范围",
-                "body": "后续背景来源表明需要进一步挖掘每个候选信号并扩大扫描范围。",
-                "whyImportant": "这表明该项尚未确认，需要验证。",
+                "title": "影响沿着相互连接的系统传播",
+                "body": "暴雨、干旱与高温会同时影响作物、水资源、疾病、电力需求和保险。",
+                "whyImportant": "危险不是单一灾害，而是原本互相兜底的系统同时承压。",
                 "evidence": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-evidence-2",
-                    "title": "后续扫描注释",
-                    "description": "背景来源，来自网络搜索档案，2026-09-04。",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-04-el-nino-system-risk-e2",
+                    "title": "影响沿着相互连接的系统传播",
+                    "description": "暴雨、干旱与高温会同时影响作物、水资源、疾病、电力需求和保险。",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-iran-kuwait-bases-2026-09-04-source-2"
+                      "elnino-wmo",
+                      "elnino-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-iran-kuwait-bases-2026-09-04-source-2",
-                    "title": "Let me dig deeper into each and broaden the scan.",
-                    "publisher": "Web Search Dossier",
-                    "publishedAt": "2026-09-04",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "elnino-wmo",
+                    "title": "WMO: Prepare for El Niño",
+                    "publisher": "World Meteorological Organization",
+                    "publishedAt": "2026-06-02",
+                    "url": "https://wmo.int/news/media-centre/wmo-prepare-el-nino",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "elnino-reuters",
+                    "title": "El Niño likely to strengthen further and persist into 2027, WMO says",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/environment/el-nio-likely-strengthen-further-persist-into-2027-wmo-says-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               }
             ]
           },
           "pattern": {
-            "title": "未经核实的一行标记",
-            "before": "先前扫描中未出现伊朗袭击美国在科威特基地的相关内容。",
-            "shift": "2026-09-04 的初步扫描将该表述列为强候选信号，但未提供任何细节。",
-            "now": "档案未提供时间、地点、伤亡、后果、URL、触发因素或佐证来源；也未匹配任何现有流程。",
-            "conclusion": "该项仍是一个未核实标记，未达到全球洞察阈值；仅应跟踪后续进展。"
+            "title": "从天气预测到系统风险",
+            "before": "厄尔尼诺主要被当作季节性气象事件监测。",
+            "shift": "随着太平洋增温，强度与持续时间预期上升。",
+            "now": "农业、健康、水、能源与金融面对重叠的准备窗口。",
+            "conclusion": "韧性取决于提前协调部门，避免局部冲击变成共同短缺。"
           },
           "insight": {
-            "title": "未经核实的军事升级标记",
-            "formula": "单行扫描提及 + 零佐证 + 无一手来源 = 无可发布的全球洞察",
-            "explanation": "重大地缘政治事件无法从现有证据中得到证实；正确的输出是噪声跟踪，而不是发布洞察。"
+            "title": "隐藏风险是相关性",
+            "formula": "长持续时间 × 广地域范围 × 相连的基本系统 = 同步韧性测试",
+            "explanation": "系统更容易承受一个孤立冲击；更难承受多个同时争夺财政、物流与人道能力的压力。"
           },
           "observe": {
-            "title": "重新评估前需要观察的内容",
+            "title": "接下来观察",
             "items": [
               {
-                "label": "一手确认",
-                "prompt": "是否有关于美国在科威特基地遭袭的一手报道或官方声明？",
-                "meta": "寻找具名来源、URL、日期、地点。"
+                "label": "观察 1",
+                "prompt": "多个主要农业区的作物预测是否同步恶化。",
+                "meta": "粮食"
               },
               {
-                "label": "伤亡/后果",
-                "prompt": "是否有任何伤亡、损坏或美伊官方回应的报道？",
-                "meta": "跟踪可信通讯社或政府声明。"
+                "label": "观察 2",
+                "prompt": "水务与电力部门是否启动联合应急计划。",
+                "meta": "基础设施"
               },
               {
-                "label": "市场/能源反应",
-                "prompt": "油价、航运或海湾安全警报是否出现反应？",
-                "meta": "监测能源与国防渠道。"
-              },
-              {
-                "label": "流程相关性",
-                "prompt": "经过确认的攻击是否匹配现有世界流程或需要新的流程候选？",
-                "meta": "仅在证据增强时重新评估。"
+                "label": "观察 3",
+                "prompt": "食品价格与保险损失是否开始同向上升。",
+                "meta": "金融"
               }
             ],
-            "ending": "在至少出现两个独立一手来源之前，继续将其视为未核实标记。"
+            "ending": "关键信号不只是温度，而是制度能否为多个相连故障同时做好准备。"
           }
         }
       }
     },
     {
-      "id": "global-2026-09-01-empty-dossier-yields-no-evidence-based-global-insight",
+      "id": "global-2026-09-03-china-oil-demand-transition",
       "scope": "global",
-      "slug": "empty-dossier-no-actionable-signal",
-      "status": "update_living",
+      "slug": "china-emissions-fall-through-oil-demand",
+      "status": "publish_new",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "updatedAt": "2026-09-04T00:15:49.054Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Verified by two independent sources",
+            "title": "China's emissions decline is beginning to move from the power stack into oil demand",
+            "summary": "For the first time, lower oil use—not only coal dynamics—was identified as the main driver of an overall quarterly emissions fall, with transport electrification becoming visible at system scale."
+          },
+          "question": {
+            "lead": "China's energy transition has usually been judged through coal power and renewable capacity.",
+            "title": "What changes when electrification starts reducing oil demand strongly enough to move national emissions?",
+            "footnote": "Uses only facts corroborated by the clickable sources below."
+          },
+          "signals": {
+            "title": "Two pieces of evidence point to the same change",
+            "sourceNote": "Sources: Reuters, Centre for Research on Energy and Clean Air",
+            "items": [
+              {
+                "id": "global-2026-09-03-china-oil-demand-transition-s1",
+                "label": "SIGNAL 1",
+                "title": "Oil use drove the quarterly decline",
+                "body": "Analysis found second-quarter emissions down year on year as oil consumption fell sharply.",
+                "whyImportant": "The transition is reaching transport and industrial fuel demand, not only electricity supply.",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-03-china-oil-demand-transition-e1",
+                    "title": "Oil use drove the quarterly decline",
+                    "description": "Analysis found second-quarter emissions down year on year as oil consumption fell sharply.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "china-oil-reuters",
+                      "china-crea"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "china-oil-reuters",
+                    "title": "China's shrinking appetite for oil behind emissions cut for first time",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/energy/chinas-shrinking-appetite-oil-behind-emissions-cut-first-time-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
+                  },
+                  {
+                    "id": "china-crea",
+                    "title": "China Energy and Emissions Trends – July 2026 snapshot",
+                    "publisher": "Centre for Research on Energy and Clean Air",
+                    "publishedAt": "2026-08-19",
+                    "url": "https://energyandcleanair.org/china-energy-and-emissions-trends-july-2026-snapshot/",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              },
+              {
+                "id": "global-2026-09-03-china-oil-demand-transition-s2",
+                "label": "SIGNAL 2",
+                "title": "Electrification is broadening beyond passenger cars",
+                "body": "Electric trucks and other equipment contributed to displaced fuel use, while July data also showed weaker fossil generation and heavy-industry output.",
+                "whyImportant": "Multiple demand channels are now pushing in the same direction, though the durability remains uncertain.",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-03-china-oil-demand-transition-e2",
+                    "title": "Electrification is broadening beyond passenger cars",
+                    "description": "Electric trucks and other equipment contributed to displaced fuel use, while July data also showed weaker fossil generation and heavy-industry output.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "china-oil-reuters",
+                      "china-crea"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "china-oil-reuters",
+                    "title": "China's shrinking appetite for oil behind emissions cut for first time",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/energy/chinas-shrinking-appetite-oil-behind-emissions-cut-first-time-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
+                  },
+                  {
+                    "id": "china-crea",
+                    "title": "China Energy and Emissions Trends – July 2026 snapshot",
+                    "publisher": "Centre for Research on Energy and Clean Air",
+                    "publishedAt": "2026-08-19",
+                    "url": "https://energyandcleanair.org/china-energy-and-emissions-trends-july-2026-snapshot/",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From cleaner power growth to fossil-demand displacement",
+            "before": "Renewables expanded rapidly, but fossil demand often continued growing alongside them.",
+            "shift": "Electric transport and weaker oil use began to displace a material volume of fuel.",
+            "now": "Oil demand, power generation and heavy industry can now reduce emissions through different mechanisms.",
+            "conclusion": "The transition becomes structurally stronger when it removes fossil demand instead of only adding clean capacity."
+          },
+          "insight": {
+            "title": "The meaningful threshold is displacement",
+            "formula": "Electrified transport × lower fossil generation × industrial adjustment = multi-channel emissions decline",
+            "explanation": "Capacity additions matter, but the durable system change appears when oil and coal consumption actually lose demand."
+          },
+          "observe": {
+            "title": "Observe next",
+            "items": [
+              {
+                "label": "WATCH 1",
+                "prompt": "Whether oil demand remains lower after price shocks ease.",
+                "meta": "OIL"
+              },
+              {
+                "label": "WATCH 2",
+                "prompt": "Whether electric heavy trucks expand beyond short-haul routes.",
+                "meta": "TRANSPORT"
+              },
+              {
+                "label": "WATCH 3",
+                "prompt": "Whether grids absorb renewable output without renewed curtailment.",
+                "meta": "GRID"
+              }
+            ],
+            "ending": "China's transition is becoming measurable in barrels not consumed, not only gigawatts installed."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "经双来源验证",
+            "title": "中国减排的驱动力正从电力结构延伸到石油需求",
+            "summary": "总体季度排放下降首次主要由石油使用减少推动，而不只是煤炭变化；交通电动化开始在系统尺度上显现。"
+          },
+          "question": {
+            "lead": "过去评估中国能源转型，通常主要看煤电与可再生能源装机。",
+            "title": "当电动化足以压低石油需求并推动全国排放下降，意味着什么？",
+            "footnote": "仅使用下列可点击来源中得到交叉支持的事实。"
+          },
+          "signals": {
+            "title": "两个证据指向同一变化",
+            "sourceNote": "来源：Reuters、Centre for Research on Energy and Clean Air",
+            "items": [
+              {
+                "id": "global-2026-09-03-china-oil-demand-transition-s1",
+                "label": "信号 1",
+                "title": "石油使用推动季度排放下降",
+                "body": "分析显示第二季度排放同比下降，同时石油消费明显减少。",
+                "whyImportant": "转型开始进入交通与工业燃料需求，而不只发生在电力供应端。",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-03-china-oil-demand-transition-e1",
+                    "title": "石油使用推动季度排放下降",
+                    "description": "分析显示第二季度排放同比下降，同时石油消费明显减少。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "china-oil-reuters",
+                      "china-crea"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "china-oil-reuters",
+                    "title": "China's shrinking appetite for oil behind emissions cut for first time",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/energy/chinas-shrinking-appetite-oil-behind-emissions-cut-first-time-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
+                  },
+                  {
+                    "id": "china-crea",
+                    "title": "China Energy and Emissions Trends – July 2026 snapshot",
+                    "publisher": "Centre for Research on Energy and Clean Air",
+                    "publishedAt": "2026-08-19",
+                    "url": "https://energyandcleanair.org/china-energy-and-emissions-trends-july-2026-snapshot/",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              },
+              {
+                "id": "global-2026-09-03-china-oil-demand-transition-s2",
+                "label": "信号 2",
+                "title": "电动化正越过乘用车边界",
+                "body": "电动重卡与其他设备帮助替代燃油；7月数据还显示化石发电和重工业产出走弱。",
+                "whyImportant": "多个需求渠道开始同向变化，但持续性仍需验证。",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-03-china-oil-demand-transition-e2",
+                    "title": "电动化正越过乘用车边界",
+                    "description": "电动重卡与其他设备帮助替代燃油；7月数据还显示化石发电和重工业产出走弱。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "china-oil-reuters",
+                      "china-crea"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "china-oil-reuters",
+                    "title": "China's shrinking appetite for oil behind emissions cut for first time",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-03",
+                    "url": "https://www.reuters.com/business/energy/chinas-shrinking-appetite-oil-behind-emissions-cut-first-time-2026-09-03/",
+                    "type": "media",
+                    "reliability": "strong"
+                  },
+                  {
+                    "id": "china-crea",
+                    "title": "China Energy and Emissions Trends – July 2026 snapshot",
+                    "publisher": "Centre for Research on Energy and Clean Air",
+                    "publishedAt": "2026-08-19",
+                    "url": "https://energyandcleanair.org/china-energy-and-emissions-trends-july-2026-snapshot/",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从增加清洁电力到替代化石需求",
+            "before": "可再生能源快速扩张，但化石需求经常同时增长。",
+            "shift": "电动交通与较低石油使用开始替代实质规模的燃料。",
+            "now": "石油需求、发电与重工业能够通过不同机制共同减排。",
+            "conclusion": "当转型真正移除化石需求，而不只是增加清洁产能时，结构才更稳固。"
+          },
+          "insight": {
+            "title": "真正的门槛是替代发生",
+            "formula": "交通电动化 × 化石发电下降 × 工业调整 = 多渠道减排",
+            "explanation": "新增装机很重要，但更持久的系统变化，是石油与煤炭实际失去需求。"
+          },
+          "observe": {
+            "title": "接下来观察",
+            "items": [
+              {
+                "label": "观察 1",
+                "prompt": "价格冲击减弱后，石油需求是否仍保持下降。",
+                "meta": "石油"
+              },
+              {
+                "label": "观察 2",
+                "prompt": "电动重卡能否从短途运输扩展到更长线路。",
+                "meta": "交通"
+              },
+              {
+                "label": "观察 3",
+                "prompt": "电网能否吸收可再生能源而不重新增加弃电。",
+                "meta": "电网"
+              }
+            ],
+            "ending": "中国转型开始体现为少消耗的桶数，而不只是新增的吉瓦数。"
+          }
+        }
+      }
+    },
+    {
+      "id": "global-2026-09-02-climate-overshoot-baseline",
+      "scope": "global",
+      "slug": "climate-overshoot-becomes-policy-baseline",
+      "status": "publish_new",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "updatedAt": "2026-09-04T00:15:49.054Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Verified by two independent sources",
+            "title": "Climate policy has shifted from avoiding every overshoot to managing a dangerous return path",
+            "summary": "UNEP's first dedicated overshoot report says 1.5°C is likely to be crossed within years. Mitigation remains essential, but adaptation and eventual temperature decline must now be planned together."
+          },
+          "question": {
+            "lead": "The Paris framework was usually communicated as staying below a line.",
+            "title": "What changes when crossing 1.5°C becomes the planning baseline rather than a distant risk?",
+            "footnote": "Uses only facts corroborated by the clickable sources below."
+          },
+          "signals": {
+            "title": "Two pieces of evidence point to the same change",
+            "sourceNote": "Sources: UN Environment Programme, World Resources Institute",
+            "items": [
+              {
+                "id": "global-2026-09-02-climate-overshoot-baseline-s1",
+                "label": "SIGNAL 1",
+                "title": "UNEP formalized the overshoot problem",
+                "body": "The report assesses consequences of exceeding 1.5°C and pathways for limiting duration and returning below it.",
+                "whyImportant": "A previously uncomfortable scenario has entered official planning.",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-02-climate-overshoot-baseline-e1",
+                    "title": "UNEP formalized the overshoot problem",
+                    "description": "The report assesses consequences of exceeding 1.5°C and pathways for limiting duration and returning below it.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "unep-overshoot",
+                      "wri-overshoot"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "unep-overshoot",
+                    "title": "Limiting Overshoot: Navigating exceedance of 1.5°C",
+                    "publisher": "UN Environment Programme",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "wri-overshoot",
+                    "title": "Statement: UNEP report warns world is soon to exceed 1.5°C",
+                    "publisher": "World Resources Institute",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.wri.org/news/statement-unep-report-warns-world-soon-exceed-1-5-degrees-c",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              },
+              {
+                "id": "global-2026-09-02-climate-overshoot-baseline-s2",
+                "label": "SIGNAL 2",
+                "title": "Return depends on action before and during overshoot",
+                "body": "Independent assessment stresses rapid emissions cuts alongside adaptation and limited reliance on uncertain removals.",
+                "whyImportant": "Overshoot is not permission to delay; delay makes the return path steeper and riskier.",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-02-climate-overshoot-baseline-e2",
+                    "title": "Return depends on action before and during overshoot",
+                    "description": "Independent assessment stresses rapid emissions cuts alongside adaptation and limited reliance on uncertain removals.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "unep-overshoot",
+                      "wri-overshoot"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "unep-overshoot",
+                    "title": "Limiting Overshoot: Navigating exceedance of 1.5°C",
+                    "publisher": "UN Environment Programme",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "wri-overshoot",
+                    "title": "Statement: UNEP report warns world is soon to exceed 1.5°C",
+                    "publisher": "World Resources Institute",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.wri.org/news/statement-unep-report-warns-world-soon-exceed-1-5-degrees-c",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From boundary protection to overshoot management",
+            "before": "Policy focused on preventing temperature from crossing 1.5°C.",
+            "shift": "Evidence now treats a near-term crossing as likely.",
+            "now": "Mitigation, adaptation and carbon removal must be sequenced as one risk-management system.",
+            "conclusion": "The target remains meaningful, but policy credibility depends on minimizing height and duration above it."
+          },
+          "insight": {
+            "title": "The climate target is becoming a trajectory, not a single line",
+            "formula": "Faster cuts + adaptation now + credible removals later = limited overshoot",
+            "explanation": "The key measure is no longer only whether 1.5°C is crossed, but how far, for how long and with what capacity to return."
+          },
+          "observe": {
+            "title": "Observe next",
+            "items": [
+              {
+                "label": "WATCH 1",
+                "prompt": "Whether national plans explicitly budget for overshoot adaptation.",
+                "meta": "POLICY"
+              },
+              {
+                "label": "WATCH 2",
+                "prompt": "Whether emissions cuts accelerate instead of being replaced by removal promises.",
+                "meta": "EMISSIONS"
+              },
+              {
+                "label": "WATCH 3",
+                "prompt": "Whether finance shifts toward vulnerable regions before impacts compound.",
+                "meta": "FINANCE"
+              }
+            ],
+            "ending": "Crossing the line does not erase it; it changes the task to limiting the excursion and building a path back."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "经双来源验证",
+            "title": "气候政策已从“绝不超调”转向“管理危险的返回路径”",
+            "summary": "UNEP首份专门讨论超调的报告认为，1.5°C可能在数年内被突破。减排仍是核心，但适应与未来降温必须被放进同一计划。"
+          },
+          "question": {
+            "lead": "《巴黎协定》通常被表达为守住一条温度边界。",
+            "title": "当突破1.5°C从远期风险变成规划基线，真正改变了什么？",
+            "footnote": "仅使用下列可点击来源中得到交叉支持的事实。"
+          },
+          "signals": {
+            "title": "两个证据指向同一变化",
+            "sourceNote": "来源：UN Environment Programme、World Resources Institute",
+            "items": [
+              {
+                "id": "global-2026-09-02-climate-overshoot-baseline-s1",
+                "label": "信号 1",
+                "title": "UNEP正式把超调纳入政策问题",
+                "body": "报告评估超过1.5°C的后果，以及缩短超调时间并回到阈值以下的路径。",
+                "whyImportant": "一个过去难以公开承认的情景进入正式规划。",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-02-climate-overshoot-baseline-e1",
+                    "title": "UNEP正式把超调纳入政策问题",
+                    "description": "报告评估超过1.5°C的后果，以及缩短超调时间并回到阈值以下的路径。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "unep-overshoot",
+                      "wri-overshoot"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "unep-overshoot",
+                    "title": "Limiting Overshoot: Navigating exceedance of 1.5°C",
+                    "publisher": "UN Environment Programme",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "wri-overshoot",
+                    "title": "Statement: UNEP report warns world is soon to exceed 1.5°C",
+                    "publisher": "World Resources Institute",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.wri.org/news/statement-unep-report-warns-world-soon-exceed-1-5-degrees-c",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              },
+              {
+                "id": "global-2026-09-02-climate-overshoot-baseline-s2",
+                "label": "信号 2",
+                "title": "返回能力取决于超调前与超调中的行动",
+                "body": "独立评估强调快速减排、同步适应，并警惕过度依赖不确定的碳移除。",
+                "whyImportant": "超调不是拖延许可；拖延只会让返回路径更陡、更危险。",
+                "evidence": [
+                  {
+                    "id": "global-2026-09-02-climate-overshoot-baseline-e2",
+                    "title": "返回能力取决于超调前与超调中的行动",
+                    "description": "独立评估强调快速减排、同步适应，并警惕过度依赖不确定的碳移除。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "unep-overshoot",
+                      "wri-overshoot"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "unep-overshoot",
+                    "title": "Limiting Overshoot: Navigating exceedance of 1.5°C",
+                    "publisher": "UN Environment Programme",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "wri-overshoot",
+                    "title": "Statement: UNEP report warns world is soon to exceed 1.5°C",
+                    "publisher": "World Resources Institute",
+                    "publishedAt": "2026-09-02",
+                    "url": "https://www.wri.org/news/statement-unep-report-warns-world-soon-exceed-1-5-degrees-c",
+                    "type": "media",
+                    "reliability": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从守住边界到管理超调",
+            "before": "政策主要围绕不让温度突破1.5°C。",
+            "shift": "现有证据把短期突破视为很可能发生。",
+            "now": "减排、适应与碳移除必须被排列成一套风险管理系统。",
+            "conclusion": "目标仍然有效，但可信度取决于把超调的高度和持续时间降到最低。"
+          },
+          "insight": {
+            "title": "气候目标正在从一条线变成一条轨迹",
+            "formula": "更快减排 + 立即适应 + 可信的后期移除 = 有限超调",
+            "explanation": "关键不再只是是否越过1.5°C，而是越过多少、持续多久，以及是否保留返回能力。"
+          },
+          "observe": {
+            "title": "接下来观察",
+            "items": [
+              {
+                "label": "观察 1",
+                "prompt": "各国计划是否明确为超调时期的适应投入预算。",
+                "meta": "政策"
+              },
+              {
+                "label": "观察 2",
+                "prompt": "减排是否加速，而不是被未来碳移除承诺替代。",
+                "meta": "减排"
+              },
+              {
+                "label": "观察 3",
+                "prompt": "影响叠加前，资金是否转向最脆弱地区。",
+                "meta": "资金"
+              }
+            ],
+            "ending": "越过边界并不等于边界失效；任务变成缩短偏离并建立返回路径。"
+          }
+        }
+      }
+    },
+    {
+      "id": "global-2026-09-01-manufacturing-mixed-signal",
+      "scope": "global",
+      "slug": "manufacturing-expands-while-orders-cool",
+      "status": "publish_new",
       "publishedAt": "2026-09-01T00:00:00.000Z",
-      "updatedAt": "2026-09-01T00:07:21.948Z",
-      "confidence": "hypothesis",
+      "updatedAt": "2026-09-04T00:15:49.054Z",
+      "confidence": "verified",
       "content": {
         "en": {
           "cover": {
-            "eyebrow": "Global Insight",
-            "secondaryEyebrow": "No actionable signal",
-            "title": "Empty dossier yields no evidence-based global insight",
-            "summary": "The supplied dossier contains no facts, URLs, or events from the research date; it only states an intention to search. No evidence-based signal can be identified, and any candidate generated without dossier content would be speculative. No existing world process can be matched."
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Verified by two independent sources",
+            "title": "Manufacturing is expanding, but the recovery is losing clean momentum",
+            "summary": "August activity remained above contraction while new orders cooled and input prices stayed high. The system is not moving neatly toward either recession or disinflation."
           },
           "question": {
-            "lead": "Can an evidence-based global insight be formed from an empty dossier?",
-            "title": "No actionable signals in empty dossier",
-            "footnote": "Assessment based solely on the supplied dossier placeholder text and no additional data."
+            "lead": "A headline expansion can conceal a less comfortable combination underneath.",
+            "title": "What does it mean when factories grow while demand momentum cools and costs remain elevated?",
+            "footnote": "Uses only facts corroborated by the clickable sources below."
           },
           "signals": {
-            "title": "Signals reviewed",
-            "sourceNote": "Only placeholder context entries were available; no trigger sources inside the research window.",
+            "title": "Two pieces of evidence point to the same change",
+            "sourceNote": "Sources: Institute for Supply Management, Reuters",
             "items": [
               {
-                "id": "null-signal-empty-dossier-signal-1",
-                "label": "Dossier placeholder",
-                "title": "Intention to search, not an event",
-                "body": "The dossier states an intention to search but supplies no facts, URLs, or events from the research date.",
-                "whyImportant": "A statement of intent is not evidence of a material change; it cannot support a signal.",
+                "id": "global-2026-09-01-manufacturing-mixed-signal-s1",
+                "label": "SIGNAL 1",
+                "title": "Expansion continued but orders slowed",
+                "body": "ISM reported an eighth month of expansion, while the new-orders index fell from July.",
+                "whyImportant": "Output has not reversed, but forward momentum is less broad.",
                 "evidence": [
                   {
-                    "id": "null-signal-empty-dossier-evidence-1",
-                    "title": "Dossier placeholder text",
-                    "description": "Placeholder context entry with no published URL or factual claim.",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-01-manufacturing-mixed-signal-e1",
+                    "title": "Expansion continued but orders slowed",
+                    "description": "ISM reported an eighth month of expansion, while the new-orders index fell from July.",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "null-signal-empty-dossier-source-1"
+                      "ism-august",
+                      "manufacturing-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "null-signal-empty-dossier-source-1",
-                    "title": "Dossier placeholder text",
-                    "publisher": "Unknown",
+                    "id": "ism-august",
+                    "title": "August 2026 ISM Manufacturing PMI Report",
+                    "publisher": "Institute for Supply Management",
                     "publishedAt": "2026-09-01",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/august/",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "manufacturing-reuters",
+                    "title": "US factory activity slows in August; input prices remain elevated",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-01",
+                    "url": "https://www.reuters.com/business/us-manufacturing-activity-slows-august-input-prices-still-elevated-2026-09-01/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               },
               {
-                "id": "null-signal-empty-dossier-signal-2",
-                "label": "No additional data",
-                "title": "No corroborating or trigger sources",
-                "body": "Analysis found zero current or corroborating sources; only placeholder/context entries remain.",
-                "whyImportant": "Without trigger or corroborating sources, no evidence-based signal can meet the publication threshold.",
+                "id": "global-2026-09-01-manufacturing-mixed-signal-s2",
+                "label": "SIGNAL 2",
+                "title": "Cost pressure did not ease with demand",
+                "body": "The prices index remained elevated as manufacturers reported persistent input pressure.",
+                "whyImportant": "Slower orders are not yet delivering the clean disinflation policymakers expect.",
                 "evidence": [
                   {
-                    "id": "null-signal-empty-dossier-evidence-2",
-                    "title": "No additional dossier data",
-                    "description": "Context entry confirming no additional dossier data.",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-01-manufacturing-mixed-signal-e2",
+                    "title": "Cost pressure did not ease with demand",
+                    "description": "The prices index remained elevated as manufacturers reported persistent input pressure.",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "null-signal-empty-dossier-source-2"
+                      "ism-august",
+                      "manufacturing-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "null-signal-empty-dossier-source-2",
-                    "title": "No additional dossier data",
-                    "publisher": "Unknown",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "ism-august",
+                    "title": "August 2026 ISM Manufacturing PMI Report",
+                    "publisher": "Institute for Supply Management",
+                    "publishedAt": "2026-09-01",
+                    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/august/",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "manufacturing-reuters",
+                    "title": "US factory activity slows in August; input prices remain elevated",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-01",
+                    "url": "https://www.reuters.com/business/us-manufacturing-activity-slows-august-input-prices-still-elevated-2026-09-01/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               }
             ]
           },
           "pattern": {
-            "title": "From absent evidence to no publication",
-            "before": "The candidate was assessed for a possible global insight despite having no actionable signals.",
-            "shift": "The dossier supplied no facts, URLs, or events from the research date; it only stated an intention to search.",
-            "now": "No evidence-based signal can be identified, and any candidate generated without dossier content would be speculative.",
-            "conclusion": "No world process can be updated, challenged, or supported; no Global Insight should be published."
+            "title": "A mixed industrial cycle",
+            "before": "Earlier recovery signals suggested demand, hiring and output could improve together.",
+            "shift": "August separated those components: activity expanded, but orders cooled and prices stayed high.",
+            "now": "Factories face a slower demand impulse without equivalent cost relief.",
+            "conclusion": "The industrial cycle is becoming a margin-and-pricing problem rather than a simple growth problem."
           },
           "insight": {
-            "title": "Absence of evidence is not evidence of change",
-            "formula": "No facts + no URLs + no events -> no signal -> no global insight",
-            "explanation": "Without dossier content, there is no factual basis to classify a signal, update a process, or form a credible new process hypothesis. Publishing would fabricate a basis for analysis."
+            "title": "Growth and inflation are no longer moving as one cycle",
+            "formula": "Expansion − order momentum + sticky inputs = compressed operating choices",
+            "explanation": "Companies may have to choose between protecting volume and protecting margins, while central banks receive no simple easing signal."
           },
           "observe": {
-            "title": "What to observe before reassessing",
+            "title": "Observe next",
             "items": [
               {
-                "label": "Dossier content",
-                "prompt": "Check for actual trigger events, URLs, or dated facts from the research date.",
-                "meta": "Requires at least one current source inside the research window."
+                "label": "WATCH 1",
+                "prompt": "Whether new orders fall below expansion in the next survey.",
+                "meta": "DEMAND"
               },
               {
-                "label": "Source count",
-                "prompt": "Confirm at least two current or corroborating sources before generating a candidate.",
-                "meta": "Current source count is zero."
+                "label": "WATCH 2",
+                "prompt": "Whether prices paid finally decline as demand cools.",
+                "meta": "PRICES"
               },
               {
-                "label": "Process match",
-                "prompt": "Identify a specific world process that a new fact would update, challenge, or support.",
-                "meta": "No process match can be made from an empty dossier."
+                "label": "WATCH 3",
+                "prompt": "Whether factory employment follows orders or remains resilient.",
+                "meta": "LABOR"
               }
             ],
-            "ending": "Reassess only when substantive dossier content is supplied."
+            "ending": "The next industrial turn will be visible in the gap between order books and input costs."
           }
         },
         "zh": {
           "cover": {
-            "eyebrow": "全球洞察",
-            "secondaryEyebrow": "无有效信号",
-            "title": "空档案无法产生基于证据的全球洞察",
-            "summary": "所提供档案中不包含研究日期内的事实、URL或事件，仅表明搜索意图。无法识别基于证据的信号，任何在没有档案内容情况下生成的候选都将是推测性的。无法匹配任何现有世界进程。"
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "经双来源验证",
+            "title": "制造业仍在扩张，但复苏正在失去干净的动能",
+            "summary": "8月活动仍高于收缩线，新订单却降温，投入价格继续偏高。系统并没有整齐地走向衰退，也没有整齐地走向通胀缓解。"
           },
           "question": {
-            "lead": "能否从空档案中形成基于证据的全球洞察？",
-            "title": "空档案中无有效信号",
-            "footnote": "评估仅基于所提供的档案占位文本，无额外数据。"
+            "lead": "扩张的标题之下，可能隐藏更棘手的组合。",
+            "title": "工厂仍在增长，但需求动能下降、成本不降，意味着什么？",
+            "footnote": "仅使用下列可点击来源中得到交叉支持的事实。"
           },
           "signals": {
-            "title": "已审查的信号",
-            "sourceNote": "仅存在占位上下文条目；研究窗口内无触发源。",
+            "title": "两个证据指向同一变化",
+            "sourceNote": "来源：Institute for Supply Management、Reuters",
             "items": [
               {
-                "id": "null-signal-empty-dossier-signal-1",
-                "label": "档案占位符",
-                "title": "搜索意图，而非事件",
-                "body": "档案表明搜索意图，但未提供研究日期内的事实、URL或事件。",
-                "whyImportant": "意图声明并非重大变化的证据；无法支持信号。",
+                "id": "global-2026-09-01-manufacturing-mixed-signal-s1",
+                "label": "信号 1",
+                "title": "扩张延续，但订单减速",
+                "body": "ISM显示制造业连续第八个月扩张，同时新订单指数较7月下降。",
+                "whyImportant": "产出没有逆转，但前瞻动能正在收窄。",
                 "evidence": [
                   {
-                    "id": "null-signal-empty-dossier-evidence-1",
-                    "title": "档案占位文本",
-                    "description": "没有已发布URL或事实断言的占位上下文条目。",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-01-manufacturing-mixed-signal-e1",
+                    "title": "扩张延续，但订单减速",
+                    "description": "ISM显示制造业连续第八个月扩张，同时新订单指数较7月下降。",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "null-signal-empty-dossier-source-1"
+                      "ism-august",
+                      "manufacturing-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "null-signal-empty-dossier-source-1",
-                    "title": "Dossier placeholder text",
-                    "publisher": "Unknown",
+                    "id": "ism-august",
+                    "title": "August 2026 ISM Manufacturing PMI Report",
+                    "publisher": "Institute for Supply Management",
                     "publishedAt": "2026-09-01",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/august/",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "manufacturing-reuters",
+                    "title": "US factory activity slows in August; input prices remain elevated",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-01",
+                    "url": "https://www.reuters.com/business/us-manufacturing-activity-slows-august-input-prices-still-elevated-2026-09-01/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               },
               {
-                "id": "null-signal-empty-dossier-signal-2",
-                "label": "无额外数据",
-                "title": "无佐证或触发源",
-                "body": "分析发现当前或佐证来源为零；仅剩占位/上下文条目。",
-                "whyImportant": "没有触发或佐证来源，任何基于证据的信号都无法达到发布门槛。",
+                "id": "global-2026-09-01-manufacturing-mixed-signal-s2",
+                "label": "信号 2",
+                "title": "需求变慢并未带来成本缓解",
+                "body": "价格指数仍处高位，制造商继续报告投入压力。",
+                "whyImportant": "订单降温尚未带来政策制定者期待的顺畅降通胀。",
                 "evidence": [
                   {
-                    "id": "null-signal-empty-dossier-evidence-2",
-                    "title": "无额外档案数据",
-                    "description": "确认无额外档案数据的上下文条目。",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-09-01-manufacturing-mixed-signal-e2",
+                    "title": "需求变慢并未带来成本缓解",
+                    "description": "价格指数仍处高位，制造商继续报告投入压力。",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "null-signal-empty-dossier-source-2"
+                      "ism-august",
+                      "manufacturing-reuters"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "null-signal-empty-dossier-source-2",
-                    "title": "No additional dossier data",
-                    "publisher": "Unknown",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "ism-august",
+                    "title": "August 2026 ISM Manufacturing PMI Report",
+                    "publisher": "Institute for Supply Management",
+                    "publishedAt": "2026-09-01",
+                    "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/august/",
+                    "type": "official",
+                    "reliability": "primary"
+                  },
+                  {
+                    "id": "manufacturing-reuters",
+                    "title": "US factory activity slows in August; input prices remain elevated",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-01",
+                    "url": "https://www.reuters.com/business/us-manufacturing-activity-slows-august-input-prices-still-elevated-2026-09-01/",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               }
             ]
           },
           "pattern": {
-            "title": "从证据缺失到不予发布",
-            "before": "在没有有效信号的情况下，对该候选进行了可能的全球洞察评估。",
-            "shift": "档案未提供研究日期内的事实、URL或事件；仅表明搜索意图。",
-            "now": "无法识别任何基于证据的信号，任何在无档案内容情况下生成的候选都将是推测性的。",
-            "conclusion": "无法更新、挑战或支持任何世界进程；不应发布任何全球洞察。"
+            "title": "一个分化的工业周期",
+            "before": "此前复苏信号暗示需求、就业与产出可能同步改善。",
+            "shift": "8月把这些变量拆开：活动扩张，订单转弱，价格仍高。",
+            "now": "工厂面对更弱的需求推动，却没有得到同等的成本缓解。",
+            "conclusion": "工业周期正从简单的增长问题，转为利润率与定价选择问题。"
           },
           "insight": {
-            "title": "证据缺失并非变化之证",
-            "formula": "无事实 + 无URL + 无事件 → 无信号 → 无全球洞察",
-            "explanation": "没有档案内容，就没有事实依据来分类信号、更新进程或形成可信的新进程假设。发布将捏造分析基础。"
+            "title": "增长与通胀不再沿同一周期移动",
+            "formula": "扩张 − 订单动能 + 黏性成本 = 经营选择被压缩",
+            "explanation": "企业可能必须在保销量与保利润之间选择，而央行也得不到清晰的宽松信号。"
           },
           "observe": {
-            "title": "重新评估前需观察的内容",
+            "title": "接下来观察",
             "items": [
               {
-                "label": "档案内容",
-                "prompt": "检查研究日期内是否有实际触发事件、URL或带日期的事实。",
-                "meta": "要求研究窗口内至少有一个当前来源。"
+                "label": "观察 1",
+                "prompt": "下一次调查中新订单是否跌破扩张线。",
+                "meta": "需求"
               },
               {
-                "label": "来源数量",
-                "prompt": "在生成候选前，确认至少两个当前或佐证来源。",
-                "meta": "当前来源数量为零。"
+                "label": "观察 2",
+                "prompt": "需求变慢后，投入价格是否终于回落。",
+                "meta": "价格"
               },
               {
-                "label": "进程匹配",
-                "prompt": "识别新事实将更新、挑战或支持的具体世界进程。",
-                "meta": "从空档案中无法进行进程匹配。"
+                "label": "观察 3",
+                "prompt": "制造业就业会跟随订单，还是继续保持韧性。",
+                "meta": "就业"
               }
             ],
-            "ending": "仅在提供实质性档案内容时重新评估。"
+            "ending": "下一次工业转折，将首先出现在订单与投入成本之间的裂口。"
           }
         }
       }
     },
     {
-      "id": "candidate-2026-08-31-null",
+      "id": "global-2026-08-29-personalized-cancer-vaccine-validation",
       "scope": "global",
-      "slug": "unverified-emerging-signal-set-2026-08-31",
-      "status": "update_living",
-      "publishedAt": "2026-08-31T00:00:00.000Z",
-      "updatedAt": "2026-08-31T00:07:15.125Z",
-      "confidence": "hypothesis",
+      "slug": "personalized-cancer-vaccine-crosses-phase-three-threshold",
+      "status": "publish_new",
+      "publishedAt": "2026-08-29T00:00:00.000Z",
+      "updatedAt": "2026-09-04T00:15:49.051Z",
+      "confidence": "verified",
       "content": {
         "en": {
           "cover": {
-            "eyebrow": "Global Insight",
-            "secondaryEyebrow": "Unverified signal set",
-            "title": "An Emerging Signal Set Remains Unverified",
-            "summary": "A researcher reports a strong signal set but supplies no primary-source evidence; the only defensible action is to withhold process linkage until concrete facts arrive."
+            "eyebrow": "TODAY'S OBSERVE",
+            "secondaryEyebrow": "Verified by two independent sources",
+            "title": "Personalized cancer vaccines have crossed from platform promise into late-stage clinical validation",
+            "summary": "A positive phase-three melanoma result does not prove a universal cancer vaccine, but it changes the bottleneck from whether personalization can work to whether it can be manufactured, approved and extended across tumors."
           },
           "question": {
-            "lead": "Can an unverified meta-statement justify a World Process update?",
-            "title": "What would make this signal actionable?",
-            "footnote": "Use only supplied evidence; no URLs, dates, or specific facts beyond the researcher's statement are available."
+            "lead": "For decades, cancer vaccines repeatedly failed to translate immune theory into durable clinical benefit.",
+            "title": "What changes when a patient-specific vaccine succeeds in a large late-stage trial?",
+            "footnote": "Uses only facts corroborated by the clickable sources below."
           },
           "signals": {
-            "title": "Available signals from the dossier",
-            "sourceNote": "Evidence is limited to two internal context sources; no trigger or corroborating sources exist.",
+            "title": "Two pieces of evidence point to the same change",
+            "sourceNote": "Sources: Reuters, Nature",
             "items": [
               {
-                "id": "candidate-2026-08-31-null-signal-1",
-                "label": "Reported signal",
-                "title": "Researcher states a strong signal set has emerged",
-                "body": "An internal researcher statement dated 2026-08-31 says a strong signal set has emerged and that top candidates will be verified with primary sources.",
-                "whyImportant": "It is the only available signal, but it contains no concrete evidence or URLs.",
+                "id": "global-2026-08-29-personalized-cancer-vaccine-validation-s1",
+                "label": "SIGNAL 1",
+                "title": "A pivotal trial met its goals",
+                "body": "The personalized mRNA therapy combined with Keytruda met recurrence-free and distant-metastasis endpoints in high-risk melanoma.",
+                "whyImportant": "This is a clinical threshold crossing, not another early laboratory signal.",
                 "evidence": [
                   {
-                    "id": "candidate-2026-08-31-null-evidence-1",
-                    "title": "Researcher's internal signal statement",
-                    "description": "The statement announces an intention to verify, but does not specify what the signal set contains.",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-08-29-personalized-cancer-vaccine-validation-e1",
+                    "title": "A pivotal trial met its goals",
+                    "description": "The personalized mRNA therapy combined with Keytruda met recurrence-free and distant-metastasis endpoints in high-risk melanoma.",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-2026-08-31-null-source-1"
+                      "cancer-reuters",
+                      "cancer-nature"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-2026-08-31-null-source-1",
-                    "title": "Researcher's signal statement",
-                    "publisher": "Researcher",
-                    "publishedAt": "2026-08-31",
-                    "url": "internal://researcher-statement",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "cancer-reuters",
+                    "title": "Inside Moderna and Merck's cancer vaccine breakthrough",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.reuters.com/legal/litigation/success-after-century-failures-inside-moderna-mercks-cancer-vaccine-breakthrough-2026-08-28/",
+                    "type": "media",
+                    "reliability": "strong"
+                  },
+                  {
+                    "id": "cancer-nature",
+                    "title": "The Moderna cancer vaccine offers hope — now we must speed up personalized therapies",
+                    "publisher": "Nature",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.nature.com/articles/d41586-026-02680-5",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               },
               {
-                "id": "candidate-2026-08-31-null-signal-2",
-                "label": "Evidence gap",
-                "title": "No primary-source evidence or URLs are included",
-                "body": "The dossier contains no trigger sources, no corroborating sources, and no URLs; only two internal context sources are listed.",
-                "whyImportant": "Without this, the signal cannot be verified or linked to any World Process.",
+                "id": "global-2026-08-29-personalized-cancer-vaccine-validation-s2",
+                "label": "SIGNAL 2",
+                "title": "Scientific attention shifts to delivery",
+                "body": "Independent scientific commentary treats the result as validation while stressing manufacturing, access and broader-tumor evidence.",
+                "whyImportant": "The next constraints are operational and institutional as much as biological.",
                 "evidence": [
                   {
-                    "id": "candidate-2026-08-31-null-evidence-2",
-                    "title": "Research date context",
-                    "description": "The research date is internal context and does not provide substantive evidence.",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-08-29-personalized-cancer-vaccine-validation-e2",
+                    "title": "Scientific attention shifts to delivery",
+                    "description": "Independent scientific commentary treats the result as validation while stressing manufacturing, access and broader-tumor evidence.",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-2026-08-31-null-source-1",
-                      "candidate-2026-08-31-null-source-2"
+                      "cancer-reuters",
+                      "cancer-nature"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-2026-08-31-null-source-1",
-                    "title": "Researcher's signal statement",
-                    "publisher": "Researcher",
-                    "publishedAt": "2026-08-31",
-                    "url": "internal://researcher-statement",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "cancer-reuters",
+                    "title": "Inside Moderna and Merck's cancer vaccine breakthrough",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.reuters.com/legal/litigation/success-after-century-failures-inside-moderna-mercks-cancer-vaccine-breakthrough-2026-08-28/",
+                    "type": "media",
+                    "reliability": "strong"
                   },
                   {
-                    "id": "candidate-2026-08-31-null-source-2",
-                    "title": "Research date",
-                    "publisher": "Researcher",
-                    "publishedAt": "2026-08-31",
-                    "url": "internal://research-date",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "cancer-nature",
+                    "title": "The Moderna cancer vaccine offers hope — now we must speed up personalized therapies",
+                    "publisher": "Nature",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.nature.com/articles/d41586-026-02680-5",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               }
             ]
           },
           "pattern": {
-            "title": "Before, Shift, Now, Conclusion",
-            "before": "A reported signal set was treated as a potential starting point for process matching.",
-            "shift": "The dossier provides no concrete facts, URLs, primary sources, or named process, so the signal cannot be substantiated.",
-            "now": "The signal is an unverified meta-statement; the correct stance is to wait for primary-source verification rather than force a World Process link.",
-            "conclusion": "No material change exists; do not publish a process-linked Insight until at least one trigger source with verifiable details appears."
+            "title": "From platform uncertainty to deployment uncertainty",
+            "before": "Personalized cancer vaccines were scientifically plausible but repeatedly disappointed in trials.",
+            "shift": "A large phase-three study produced positive topline outcomes in a defined melanoma population.",
+            "now": "The platform now has credible clinical proof in one setting, while generalization remains unproven.",
+            "conclusion": "The field moves from asking whether personalization can work to asking where it works and whether health systems can deliver it."
           },
           "insight": {
-            "title": "Absence of evidence is not evidence of process change",
-            "formula": "Unverified meta-statement + zero trigger sources + zero corroborating sources = no actionable Global Insight.",
-            "explanation": "The selected candidate is a researcher's intention to verify, not an observed event. No named process can be updated without specific facts."
+            "title": "The breakthrough is a change in bottleneck",
+            "formula": "Clinical validation × patient-specific manufacturing × regulatory scaling = a new oncology delivery system",
+            "explanation": "The most important consequence is not immediate universality. It is that personalized manufacturing, diagnostics and reimbursement now become central competitive capabilities."
           },
           "observe": {
-            "title": "Observe before acting",
+            "title": "Observe next",
             "items": [
               {
-                "label": "Primary evidence",
-                "prompt": "Has any concrete event, URL, or document been supplied?",
-                "meta": "Trigger source"
+                "label": "WATCH 1",
+                "prompt": "Whether detailed trial data confirms the topline benefit and safety profile.",
+                "meta": "EVIDENCE"
               },
               {
-                "label": "Process match",
-                "prompt": "Does any named process connect to a specific fact?",
-                "meta": "Classification"
+                "label": "WATCH 2",
+                "prompt": "Whether regulators accept a workable pathway for patient-specific products.",
+                "meta": "REGULATION"
               },
               {
-                "label": "Corroboration",
-                "prompt": "Have at least two current or corroborating sources appeared?",
-                "meta": "Evidence threshold"
-              },
-              {
-                "label": "Researcher follow-through",
-                "prompt": "Has the researcher returned with primary sources?",
-                "meta": "Verification"
+                "label": "WATCH 3",
+                "prompt": "Whether success extends beyond melanoma without losing effect size.",
+                "meta": "GENERALIZATION"
               }
             ],
-            "ending": "Return only when a trigger source with concrete, verifiable evidence is available."
+            "ending": "One cancer has supplied the proof point; the system challenge is turning personalization into repeatable care."
           }
         },
         "zh": {
           "cover": {
-            "eyebrow": "全球洞察",
-            "secondaryEyebrow": "未经验证的信号集",
-            "title": "新兴信号集仍未获验证",
-            "summary": "研究人员报告了一个强信号集，但未提供任何原始证据；在具体事实出现前，唯一稳妥的做法是暂缓流程关联。"
+            "eyebrow": "今日观察",
+            "secondaryEyebrow": "经双来源验证",
+            "title": "个性化癌症疫苗已从“平台设想”跨入后期临床验证阶段",
+            "summary": "黑色素瘤三期试验成功并不等于“通用癌症疫苗”诞生，但瓶颈已经从“个性化是否有效”转向“能否制造、获批并扩展到更多肿瘤”。"
           },
           "question": {
-            "lead": "未经证实的元陈述能否构成世界流程更新的依据？",
-            "title": "什么条件能让这一信号具备可操作性？",
-            "footnote": "仅使用所提供的证据；除研究人员陈述外，没有可用的URL、日期或具体事实。"
+            "lead": "几十年来，癌症疫苗经常能解释免疫原理，却难以转化为稳定临床获益。",
+            "title": "当患者专属疫苗在大型后期试验中成功，真正改变了什么？",
+            "footnote": "仅使用下列可点击来源中得到交叉支持的事实。"
           },
           "signals": {
-            "title": "档案中可用的信号",
-            "sourceNote": "证据仅限于两个内部背景来源；不存在触发来源或佐证来源。",
+            "title": "两个证据指向同一变化",
+            "sourceNote": "来源：Reuters、Nature",
             "items": [
               {
-                "id": "candidate-2026-08-31-null-signal-1",
-                "label": "报告的信号",
-                "title": "研究人员称已出现强信号集",
-                "body": "一份日期为2026-08-31的内部研究人员声明称，已出现强信号集，且首要候选将用原始来源进行验证。",
-                "whyImportant": "这是唯一可用的信号，但它不含具体证据或URL。",
+                "id": "global-2026-08-29-personalized-cancer-vaccine-validation-s1",
+                "label": "信号 1",
+                "title": "关键试验达到目标",
+                "body": "个性化 mRNA 疗法联合 Keytruda，在高风险黑色素瘤中达到无复发生存和无远处转移终点。",
+                "whyImportant": "这是临床门槛的跨越，不是又一个早期实验室信号。",
                 "evidence": [
                   {
-                    "id": "candidate-2026-08-31-null-evidence-1",
-                    "title": "研究人员的内部信号声明",
-                    "description": "该声明宣布了验证意图，但未说明信号集的具体内容。",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-08-29-personalized-cancer-vaccine-validation-e1",
+                    "title": "关键试验达到目标",
+                    "description": "个性化 mRNA 疗法联合 Keytruda，在高风险黑色素瘤中达到无复发生存和无远处转移终点。",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-2026-08-31-null-source-1"
+                      "cancer-reuters",
+                      "cancer-nature"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-2026-08-31-null-source-1",
-                    "title": "Researcher's signal statement",
-                    "publisher": "Researcher",
-                    "publishedAt": "2026-08-31",
-                    "url": "internal://researcher-statement",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "cancer-reuters",
+                    "title": "Inside Moderna and Merck's cancer vaccine breakthrough",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.reuters.com/legal/litigation/success-after-century-failures-inside-moderna-mercks-cancer-vaccine-breakthrough-2026-08-28/",
+                    "type": "media",
+                    "reliability": "strong"
+                  },
+                  {
+                    "id": "cancer-nature",
+                    "title": "The Moderna cancer vaccine offers hope — now we must speed up personalized therapies",
+                    "publisher": "Nature",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.nature.com/articles/d41586-026-02680-5",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               },
               {
-                "id": "candidate-2026-08-31-null-signal-2",
-                "label": "证据缺口",
-                "title": "未包含原始证据或URL",
-                "body": "档案中不含触发来源、佐证来源或URL；仅列出两个内部背景来源。",
-                "whyImportant": "缺少这些，信号就无法被验证，也无法与任何世界流程关联。",
+                "id": "global-2026-08-29-personalized-cancer-vaccine-validation-s2",
+                "label": "信号 2",
+                "title": "注意力转向交付能力",
+                "body": "独立科学评论认可其验证意义，同时强调制造、可及性以及跨癌种证据。",
+                "whyImportant": "下一道限制既是生物学问题，也是运营与制度问题。",
                 "evidence": [
                   {
-                    "id": "candidate-2026-08-31-null-evidence-2",
-                    "title": "研究日期背景",
-                    "description": "研究日期属于内部背景，不构成实质性证据。",
-                    "confidence": "hypothesis",
+                    "id": "global-2026-08-29-personalized-cancer-vaccine-validation-e2",
+                    "title": "注意力转向交付能力",
+                    "description": "独立科学评论认可其验证意义，同时强调制造、可及性以及跨癌种证据。",
+                    "confidence": "verified",
                     "sourceIds": [
-                      "candidate-2026-08-31-null-source-1",
-                      "candidate-2026-08-31-null-source-2"
+                      "cancer-reuters",
+                      "cancer-nature"
                     ]
                   }
                 ],
                 "sources": [
                   {
-                    "id": "candidate-2026-08-31-null-source-1",
-                    "title": "Researcher's signal statement",
-                    "publisher": "Researcher",
-                    "publishedAt": "2026-08-31",
-                    "url": "internal://researcher-statement",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "cancer-reuters",
+                    "title": "Inside Moderna and Merck's cancer vaccine breakthrough",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.reuters.com/legal/litigation/success-after-century-failures-inside-moderna-mercks-cancer-vaccine-breakthrough-2026-08-28/",
+                    "type": "media",
+                    "reliability": "strong"
                   },
                   {
-                    "id": "candidate-2026-08-31-null-source-2",
-                    "title": "Research date",
-                    "publisher": "Researcher",
-                    "publishedAt": "2026-08-31",
-                    "url": "internal://research-date",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
+                    "id": "cancer-nature",
+                    "title": "The Moderna cancer vaccine offers hope — now we must speed up personalized therapies",
+                    "publisher": "Nature",
+                    "publishedAt": "2026-08-29",
+                    "url": "https://www.nature.com/articles/d41586-026-02680-5",
+                    "type": "media",
+                    "reliability": "strong"
                   }
                 ]
               }
             ]
           },
           "pattern": {
-            "title": "先前、转变、现在、结论",
-            "before": "一个被报告的信号集曾被视作流程匹配的潜在起点。",
-            "shift": "档案未提供具体事实、URL、原始来源或具名流程，因此该信号无法得到证实。",
-            "now": "该信号属于未经证实的元陈述；正确做法是等待原始来源验证，而不是强行建立世界流程关联。",
-            "conclusion": "不存在实质性变化；在至少一个含可验证细节的触发来源出现前，不要发布与流程关联的洞察。"
+            "title": "从平台不确定性转向交付不确定性",
+            "before": "个性化癌症疫苗在科学上合理，却一次次在临床试验中失败。",
+            "shift": "大型三期研究在明确的黑色素瘤人群中取得积极结果。",
+            "now": "平台在一个场景中获得可信临床证明，但能否普遍适用仍未证明。",
+            "conclusion": "行业的问题从“能否有效”转为“在哪些癌种有效，以及医疗系统能否交付”。"
           },
           "insight": {
-            "title": "证据缺失不等于流程发生改变",
-            "formula": "未经证实的元陈述 + 零触发来源 + 零佐证来源 = 无可执行的全球洞察。",
-            "explanation": "所选候选对象是研究人员的验证意图，而非已观察到的事件。没有具体事实，任何具名流程都无法更新。"
+            "title": "突破的本质是瓶颈转移",
+            "formula": "临床验证 × 患者专属制造 × 监管规模化 = 新的肿瘤治疗交付系统",
+            "explanation": "最重要的后果不是立刻普及，而是个性化制造、诊断与支付能力开始成为核心竞争力。"
           },
           "observe": {
-            "title": "先观察，再行动",
+            "title": "接下来观察",
             "items": [
               {
-                "label": "原始证据",
-                "prompt": "是否已提供任何具体事件、URL或文件？",
-                "meta": "触发来源"
+                "label": "观察 1",
+                "prompt": "完整试验数据能否确认疗效与安全性。",
+                "meta": "证据"
               },
               {
-                "label": "流程匹配",
-                "prompt": "是否有具名流程与某个具体事实相关联？",
-                "meta": "分类"
+                "label": "观察 2",
+                "prompt": "监管机构能否建立患者专属产品的可执行路径。",
+                "meta": "监管"
               },
               {
-                "label": "佐证",
-                "prompt": "是否已出现至少两个当前或佐证来源？",
-                "meta": "证据阈值"
-              },
-              {
-                "label": "研究人员的后续行动",
-                "prompt": "研究人员是否已带着原始来源返回？",
-                "meta": "验证"
+                "label": "观察 3",
+                "prompt": "疗效能否扩展到黑色素瘤之外而不明显衰减。",
+                "meta": "泛化"
               }
             ],
-            "ending": "只有在出现含具体可验证证据的触发来源时，才返回。"
+            "ending": "一个癌种提供了证明点，下一步是把个性化变成可重复交付的治疗。"
           }
         }
       }
@@ -1049,249 +1659,6 @@
               }
             ],
             "ending": "若9月加息得到确认，这将从信号转变为加速收紧进程；若出现鸽派意外或政治干预，重新定价可能逆转。"
-          }
-        }
-      }
-    },
-    {
-      "id": "global-2026-08-29-no-extractable-signal",
-      "scope": "global",
-      "slug": "no-viable-signal-2026-08-29",
-      "status": "update_living",
-      "publishedAt": "2026-08-29T00:00:00.000Z",
-      "updatedAt": "2026-08-28T22:05:26.504Z",
-      "confidence": "hypothesis",
-      "content": {
-        "en": {
-          "cover": {
-            "eyebrow": "Insight",
-            "secondaryEyebrow": "Global",
-            "title": "No Extractable Signal",
-            "summary": "The 2026-08-29 dossier contains no facts or URLs, so no global insight can be formed."
-          },
-          "question": {
-            "lead": "No question can be answered from the empty dossier.",
-            "title": "What evidence would turn this into a signal?",
-            "footnote": "This placeholder is scored zero across all dimensions."
-          },
-          "signals": {
-            "title": "Signals of Absence",
-            "sourceNote": "Only the internal research log and plan note are available.",
-            "items": [
-              {
-                "id": "no-viable-signal-2026-08-29-signal-1",
-                "label": "Data gap",
-                "title": "Dossier contains no facts or URLs",
-                "body": "The 2026-08-29 dossier consists solely of a research intent statement. It contains no search results, data points, quotes, or URLs.",
-                "whyImportant": "Without underlying evidence, any candidate signal would be speculative, so no process can be evaluated.",
-                "evidence": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-evidence-1",
-                    "title": "Research log confirms absence of facts",
-                    "description": "The internal research log for 2026-08-29 contains only a plan to research AI, energy, geopolitics, macroeconomics, and capital for the past 24 hours. No actual findings are present.",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "no-viable-signal-2026-08-29-source-1"
-                    ]
-                  }
-                ],
-                "sources": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-source-1",
-                    "title": "Web Search Dossier (research intent only)",
-                    "publisher": "Internal research log",
-                    "publishedAt": "2026-08-29",
-                    "url": "",
-                    "type": "official",
-                    "reliability": "primary",
-                    "note": "trigger source"
-                  }
-                ]
-              },
-              {
-                "id": "no-viable-signal-2026-08-29-signal-2",
-                "label": "Process mismatch",
-                "title": "No concrete process can be matched",
-                "body": "The zero-evidence signal cannot match an existing world process because there are no data points to compare against process criteria.",
-                "whyImportant": "This prevents false classification as an existing process update or new process candidate.",
-                "evidence": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-evidence-2",
-                    "title": "Internal research plan note",
-                    "description": "The internal note reiterates the research scope but provides no concrete event, metric, or URL for analysis.",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "no-viable-signal-2026-08-29-source-2"
-                    ]
-                  }
-                ],
-                "sources": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-source-2",
-                    "title": "Research plan note for 2026-08-29",
-                    "publisher": "Internal",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
-                  }
-                ]
-              }
-            ]
-          },
-          "pattern": {
-            "title": "No Pattern",
-            "before": "A complete daily dossier would contain search results, data points, quotes, and URLs across AI, energy, geopolitics, macroeconomics, and capital.",
-            "shift": "The 2026-08-29 dossier delivered only a statement of intent to research those areas; it contained no actual findings.",
-            "now": "There is no concrete pattern, event, or metric to evaluate; any process match would be unsupported.",
-            "conclusion": "The dossier must be re-run or completed before any world process classification or publication decision."
-          },
-          "insight": {
-            "title": "Empty Evidence Cannot Form Insight",
-            "formula": "no facts + no URLs = no signal",
-            "explanation": "Insight requires at least one verifiable fact linked to a source. With zero evidence, the only action is to request more data."
-          },
-          "observe": {
-            "title": "What to Observe Next",
-            "items": [
-              {
-                "label": "Re-research",
-                "prompt": "Ask the research agent to rerun the 2026-08-29 query with explicit instruction to return URLs and data points.",
-                "meta": "data gap"
-              },
-              {
-                "label": "Dossier completion",
-                "prompt": "Confirm whether attachments or search exports were omitted from the internal research log.",
-                "meta": "data gap"
-              },
-              {
-                "label": "Source corroboration",
-                "prompt": "Require at least two independent sources with facts before evaluating a candidate signal.",
-                "meta": "threshold"
-              },
-              {
-                "label": "Process re-check",
-                "prompt": "Once evidence exists, re-run process matching against existing world processes.",
-                "meta": "process"
-              }
-            ],
-            "ending": "No publication until evidence arrives."
-          }
-        },
-        "zh": {
-          "cover": {
-            "eyebrow": "Insight",
-            "secondaryEyebrow": "全球",
-            "title": "无可提取信号",
-            "summary": "2026-08-29 档案中不包含事实或 URL，无法形成全球洞察。"
-          },
-          "question": {
-            "lead": "空档案无法回答任何问题。",
-            "title": "什么证据能将其转化为信号？",
-            "footnote": "此占位内容在所有维度上均计为零分。"
-          },
-          "signals": {
-            "title": "缺失的信号",
-            "sourceNote": "仅有内部研究日志和计划说明可供参考。",
-            "items": [
-              {
-                "id": "no-viable-signal-2026-08-29-signal-1",
-                "label": "数据缺口",
-                "title": "档案中不包含事实或 URL",
-                "body": "2026-08-29 档案仅包含一项研究意图说明，没有任何搜索结果、数据点、引文或 URL。",
-                "whyImportant": "若缺乏底层证据，任何候选信号都将是推测性的，因此无法评估任何流程。",
-                "evidence": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-evidence-1",
-                    "title": "研究日志确认事实缺失",
-                    "description": "2026-08-29 的内部研究日志仅包含一项计划，拟对过去 24 小时的 AI、能源、地缘政治、宏观经济和资本进行研究；其中没有实际发现。",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "no-viable-signal-2026-08-29-source-1"
-                    ]
-                  }
-                ],
-                "sources": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-source-1",
-                    "title": "Web Search Dossier (research intent only)",
-                    "publisher": "Internal research log",
-                    "publishedAt": "2026-08-29",
-                    "url": "",
-                    "type": "official",
-                    "reliability": "primary",
-                    "note": "trigger source"
-                  }
-                ]
-              },
-              {
-                "id": "no-viable-signal-2026-08-29-signal-2",
-                "label": "流程不匹配",
-                "title": "无法匹配具体流程",
-                "body": "零证据信号因缺少可与流程标准比较的数据点，无法匹配现有世界流程。",
-                "whyImportant": "这可以避免被错误归类为现有流程更新或新流程候选。",
-                "evidence": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-evidence-2",
-                    "title": "内部研究计划说明",
-                    "description": "内部说明重申了研究范围，但没有提供任何具体事件、指标或 URL 供分析。",
-                    "confidence": "verified",
-                    "sourceIds": [
-                      "no-viable-signal-2026-08-29-source-2"
-                    ]
-                  }
-                ],
-                "sources": [
-                  {
-                    "id": "no-viable-signal-2026-08-29-source-2",
-                    "title": "Research plan note for 2026-08-29",
-                    "publisher": "Internal",
-                    "url": "",
-                    "type": "research",
-                    "reliability": "context",
-                    "note": "context source"
-                  }
-                ]
-              }
-            ]
-          },
-          "pattern": {
-            "title": "无模式",
-            "before": "完整的每日档案本应包含跨 AI、能源、地缘政治、宏观经济和资本领域的搜索结果、数据点、引文和 URL。",
-            "shift": "2026-08-29 档案只交付了一份研究这些领域的意图声明，并未包含实际发现。",
-            "now": "目前没有可评估的具体模式、事件或指标；任何流程匹配都缺乏支撑。",
-            "conclusion": "在进行任何世界流程分类或发布决策之前，必须重新运行或补全档案。"
-          },
-          "insight": {
-            "title": "空证据无法形成洞察",
-            "formula": "无事实 + 无 URL = 无信号",
-            "explanation": "洞察至少需要一个可核实的事实并关联来源。在零证据的情况下，唯一行动是请求更多数据。"
-          },
-          "observe": {
-            "title": "下一步观察",
-            "items": [
-              {
-                "label": "重新研究",
-                "prompt": "请研究代理重新运行 2026-08-29 查询，并明确要求返回 URL 和数据点。",
-                "meta": "数据缺口"
-              },
-              {
-                "label": "档案补全",
-                "prompt": "确认内部研究日志中是否遗漏了附件或搜索导出内容。",
-                "meta": "数据缺口"
-              },
-              {
-                "label": "来源佐证",
-                "prompt": "在评估候选信号前，要求至少两个独立来源提供事实。",
-                "meta": "阈值"
-              },
-              {
-                "label": "流程复核",
-                "prompt": "一旦证据就绪，重新对照现有世界流程进行匹配。",
-                "meta": "流程"
-              }
-            ],
-            "ending": "在证据到位前不发布。"
           }
         }
       }
@@ -6492,124 +6859,264 @@
   ],
   "dailyStates": [
     {
-      "id": "daily-global-2026-09-04",
+      "id": "daily-global-2026-09-04-rebuilt",
       "scope": "global",
       "date": "2026-09-04",
-      "decidedAt": "2026-09-03T22:48:47.286Z",
-      "state": "no_new_global_insight",
-      "insightId": "candidate-iran-kuwait-bases-2026-09-04",
-      "materialChangeScore": 40,
-      "evidenceStrength": 50,
-      "noveltyScore": 80,
-      "importanceScore": 90,
+      "decidedAt": "2026-09-04T00:15:49.054Z",
+      "state": "publish_new",
+      "insightId": "global-2026-09-04-el-nino-system-risk",
+      "materialChangeScore": 78,
+      "evidenceStrength": 86,
+      "noveltyScore": 72,
+      "importanceScore": 80,
       "candidateSignalIds": [
-        "candidate-iran-kuwait-bases-2026-09-04"
+        "global-2026-09-04-el-nino-system-risk"
       ],
       "content": {
         "en": {
-          "label": "No new Global Insight",
-          "decisionTitle": "Treat as noise follow-through",
-          "decisionSummary": "The dossier contains only an unverified one-line signal with no primary source; no material change can be published.",
-          "thresholdReason": "Publish threshold not met: zero trigger or corroborating sources, no URL, no timing or location.",
+          "label": "PUBLISHED",
+          "decisionTitle": "A strengthening El Niño is turning climate forecasting into cross-system preparation",
+          "decisionSummary": "The event is expected to persist into 2027 and could rank among the strongest observed. Its significance is the synchronized exposure of food, water, health and energy systems.",
+          "thresholdReason": "Two independent clickable sources support a material change.",
           "observeNext": [
-            "Watch for primary confirmation of any attack",
-            "Look for casualty or consequence reporting",
-            "Monitor energy market and Gulf security alerts",
-            "Check whether the signal repeats in subsequent dossiers"
+            "Whether crop forecasts deteriorate across more than one major growing region.",
+            "Whether water and power authorities activate joint contingency plans.",
+            "Whether food prices and insurance losses begin moving together."
           ]
         },
         "zh": {
-          "label": "无新增全球洞察",
-          "decisionTitle": "按噪声跟踪处理",
-          "decisionSummary": "档案仅含一条未经核实的一行信号，无一手来源；无法发布任何实质性变化。",
-          "thresholdReason": "未达到发布阈值：触发或佐证来源为零，无 URL，无时间或地点。",
+          "label": "已发布",
+          "decisionTitle": "增强中的厄尔尼诺，正在把气候预测变成跨系统准备问题",
+          "decisionSummary": "该事件预计持续到2027年，并可能成为观测史上最强之一。真正重要的是粮食、水、健康与能源系统同时暴露。",
+          "thresholdReason": "两条独立可点击来源支持一项实质变化。",
           "observeNext": [
-            "关注任何攻击的一手确认",
-            "留意伤亡或后果报道",
-            "监测能源市场与海湾安全警报",
-            "检查该信号是否在后续档案中重复出现"
+            "多个主要农业区的作物预测是否同步恶化。",
+            "水务与电力部门是否启动联合应急计划。",
+            "食品价格与保险损失是否开始同向上升。"
           ]
         }
       }
     },
     {
-      "id": "daily-global-2026-09-01",
+      "id": "daily-global-2026-09-03-rebuilt",
+      "scope": "global",
+      "date": "2026-09-03",
+      "decidedAt": "2026-09-04T00:15:49.054Z",
+      "state": "publish_new",
+      "insightId": "global-2026-09-03-china-oil-demand-transition",
+      "materialChangeScore": 78,
+      "evidenceStrength": 86,
+      "noveltyScore": 72,
+      "importanceScore": 80,
+      "candidateSignalIds": [
+        "global-2026-09-03-china-oil-demand-transition"
+      ],
+      "content": {
+        "en": {
+          "label": "PUBLISHED",
+          "decisionTitle": "China's emissions decline is beginning to move from the power stack into oil demand",
+          "decisionSummary": "For the first time, lower oil use—not only coal dynamics—was identified as the main driver of an overall quarterly emissions fall, with transport electrification becoming visible at system scale.",
+          "thresholdReason": "Two independent clickable sources support a material change.",
+          "observeNext": [
+            "Whether oil demand remains lower after price shocks ease.",
+            "Whether electric heavy trucks expand beyond short-haul routes.",
+            "Whether grids absorb renewable output without renewed curtailment."
+          ]
+        },
+        "zh": {
+          "label": "已发布",
+          "decisionTitle": "中国减排的驱动力正从电力结构延伸到石油需求",
+          "decisionSummary": "总体季度排放下降首次主要由石油使用减少推动，而不只是煤炭变化；交通电动化开始在系统尺度上显现。",
+          "thresholdReason": "两条独立可点击来源支持一项实质变化。",
+          "observeNext": [
+            "价格冲击减弱后，石油需求是否仍保持下降。",
+            "电动重卡能否从短途运输扩展到更长线路。",
+            "电网能否吸收可再生能源而不重新增加弃电。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily-global-2026-09-02-rebuilt",
+      "scope": "global",
+      "date": "2026-09-02",
+      "decidedAt": "2026-09-04T00:15:49.054Z",
+      "state": "publish_new",
+      "insightId": "global-2026-09-02-climate-overshoot-baseline",
+      "materialChangeScore": 78,
+      "evidenceStrength": 86,
+      "noveltyScore": 72,
+      "importanceScore": 80,
+      "candidateSignalIds": [
+        "global-2026-09-02-climate-overshoot-baseline"
+      ],
+      "content": {
+        "en": {
+          "label": "PUBLISHED",
+          "decisionTitle": "Climate policy has shifted from avoiding every overshoot to managing a dangerous return path",
+          "decisionSummary": "UNEP's first dedicated overshoot report says 1.5°C is likely to be crossed within years. Mitigation remains essential, but adaptation and eventual temperature decline must now be planned together.",
+          "thresholdReason": "Two independent clickable sources support a material change.",
+          "observeNext": [
+            "Whether national plans explicitly budget for overshoot adaptation.",
+            "Whether emissions cuts accelerate instead of being replaced by removal promises.",
+            "Whether finance shifts toward vulnerable regions before impacts compound."
+          ]
+        },
+        "zh": {
+          "label": "已发布",
+          "decisionTitle": "气候政策已从“绝不超调”转向“管理危险的返回路径”",
+          "decisionSummary": "UNEP首份专门讨论超调的报告认为，1.5°C可能在数年内被突破。减排仍是核心，但适应与未来降温必须被放进同一计划。",
+          "thresholdReason": "两条独立可点击来源支持一项实质变化。",
+          "observeNext": [
+            "各国计划是否明确为超调时期的适应投入预算。",
+            "减排是否加速，而不是被未来碳移除承诺替代。",
+            "影响叠加前，资金是否转向最脆弱地区。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily-global-2026-09-01-rebuilt",
       "scope": "global",
       "date": "2026-09-01",
-      "decidedAt": "2026-09-01T00:07:21.948Z",
-      "state": "no_new_global_insight",
-      "insightId": "global-2026-09-01-empty-dossier-yields-no-evidence-based-global-insight",
-      "materialChangeScore": 0,
-      "evidenceStrength": 0,
-      "noveltyScore": 0,
-      "importanceScore": 0,
+      "decidedAt": "2026-09-04T00:15:49.054Z",
+      "state": "publish_new",
+      "insightId": "global-2026-09-01-manufacturing-mixed-signal",
+      "materialChangeScore": 78,
+      "evidenceStrength": 86,
+      "noveltyScore": 72,
+      "importanceScore": 80,
       "candidateSignalIds": [
-        "null-signal-empty-dossier"
+        "global-2026-09-01-manufacturing-mixed-signal"
       ],
       "content": {
         "en": {
-          "label": "No new global insight",
-          "decisionTitle": "Do not publish a Global Insight",
-          "decisionSummary": "The candidate has no actionable signals; the dossier contains no facts, URLs, or events. Publishing would be speculative.",
-          "thresholdReason": "All signal metrics are zero by the candidate's own assessment, and there are no trigger sources inside the research window.",
+          "label": "PUBLISHED",
+          "decisionTitle": "Manufacturing is expanding, but the recovery is losing clean momentum",
+          "decisionSummary": "August activity remained above contraction while new orders cooled and input prices stayed high. The system is not moving neatly toward either recession or disinflation.",
+          "thresholdReason": "Two independent clickable sources support a material change.",
           "observeNext": [
-            "Look for dated trigger events from the research date.",
-            "Require at least two current or corroborating sources.",
-            "Match any new fact to an existing world process before drafting.",
-            "Re-run candidate scoring once substantive content is available."
+            "Whether new orders fall below expansion in the next survey.",
+            "Whether prices paid finally decline as demand cools.",
+            "Whether factory employment follows orders or remains resilient."
           ]
         },
         "zh": {
-          "label": "无新的全球洞察",
-          "decisionTitle": "不发布全球洞察",
-          "decisionSummary": "候选无有效信号；档案不包含事实、URL或事件。发布将是推测性的。",
-          "thresholdReason": "根据候选自身评估，所有信号指标均为零，且研究窗口内没有触发源。",
+          "label": "已发布",
+          "decisionTitle": "制造业仍在扩张，但复苏正在失去干净的动能",
+          "decisionSummary": "8月活动仍高于收缩线，新订单却降温，投入价格继续偏高。系统并没有整齐地走向衰退，也没有整齐地走向通胀缓解。",
+          "thresholdReason": "两条独立可点击来源支持一项实质变化。",
           "observeNext": [
-            "寻找研究日期内带日期的触发事件。",
-            "要求至少两个当前或佐证来源。",
-            "在起草前，将任何新事实与现有世界进程匹配。",
-            "一旦有实质性内容，重新运行候选评分。"
+            "下一次调查中新订单是否跌破扩张线。",
+            "需求变慢后，投入价格是否终于回落。",
+            "制造业就业会跟随订单，还是继续保持韧性。"
           ]
         }
       }
     },
     {
-      "id": "daily-global-2026-08-31",
+      "id": "daily-global-2026-08-31-rebuilt",
       "scope": "global",
       "date": "2026-08-31",
-      "decidedAt": "2026-08-31T00:07:15.126Z",
+      "decidedAt": "2026-09-04T00:15:49.054Z",
       "state": "no_new_global_insight",
-      "insightId": "candidate-2026-08-31-null",
-      "materialChangeScore": 5,
-      "evidenceStrength": 50,
-      "noveltyScore": 100,
-      "importanceScore": 50,
-      "candidateSignalIds": [
-        "candidate-2026-08-31-null"
-      ],
+      "materialChangeScore": 32,
+      "evidenceStrength": 72,
+      "noveltyScore": 28,
+      "importanceScore": 60,
+      "candidateSignalIds": [],
       "content": {
         "en": {
-          "label": "No new global insight",
-          "decisionTitle": "Do not publish a Global Insight this cycle",
-          "decisionSummary": "The signal is a meta-statement with no concrete evidence, so it does not meet the material-change threshold.",
-          "thresholdReason": "Zero trigger sources and zero corroborating sources; the candidate is an internal note about future verification.",
+          "label": "NO QUALIFIED CHANGE",
+          "decisionTitle": "No evidence-supported structural change was published.",
+          "decisionSummary": "The day was reviewed, but no candidate met both the structural-change and two-independent-source thresholds.",
+          "thresholdReason": "Not publishing is preferable to expanding weak evidence into six empty pages.",
           "observeNext": [
-            "Has any concrete event, URL, or document been supplied?",
-            "Does any named process connect to a specific fact?",
-            "Have at least two current or corroborating sources appeared?",
-            "Has the researcher returned with primary sources?"
+            "Wait for a verifiable threshold crossing.",
+            "Require two independent clickable sources."
           ]
         },
         "zh": {
-          "label": "无新的全球洞察",
-          "decisionTitle": "本周期不发布全球洞察",
-          "decisionSummary": "该信号是无具体证据的元陈述，未达到实质性变化阈值。",
-          "thresholdReason": "触发来源为零，佐证来源也为零；候选对象只是关于未来验证的内部备注。",
+          "label": "无达标变化",
+          "decisionTitle": "当天未发布有证据支持的结构变化。",
+          "decisionSummary": "已完成审查，但没有候选同时达到结构变化与双独立来源门槛。",
+          "thresholdReason": "宁可不发布，也不把薄弱证据扩写成六页空话。",
           "observeNext": [
-            "是否已提供任何具体事件、URL或文件？",
-            "是否有具名流程与某个具体事实相关联？",
-            "是否已出现至少两个当前或佐证来源？",
-            "研究人员是否已带着原始来源返回？"
+            "等待可验证的门槛跨越。",
+            "必须具备两条独立可点击来源。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily-global-2026-08-30-rebuilt",
+      "scope": "global",
+      "date": "2026-08-30",
+      "decidedAt": "2026-09-04T00:15:49.054Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 32,
+      "evidenceStrength": 72,
+      "noveltyScore": 28,
+      "importanceScore": 60,
+      "candidateSignalIds": [],
+      "content": {
+        "en": {
+          "label": "NO QUALIFIED CHANGE",
+          "decisionTitle": "No evidence-supported structural change was published.",
+          "decisionSummary": "The day was reviewed, but no candidate met both the structural-change and two-independent-source thresholds.",
+          "thresholdReason": "Not publishing is preferable to expanding weak evidence into six empty pages.",
+          "observeNext": [
+            "Wait for a verifiable threshold crossing.",
+            "Require two independent clickable sources."
+          ]
+        },
+        "zh": {
+          "label": "无达标变化",
+          "decisionTitle": "当天未发布有证据支持的结构变化。",
+          "decisionSummary": "已完成审查，但没有候选同时达到结构变化与双独立来源门槛。",
+          "thresholdReason": "宁可不发布，也不把薄弱证据扩写成六页空话。",
+          "observeNext": [
+            "等待可验证的门槛跨越。",
+            "必须具备两条独立可点击来源。"
+          ]
+        }
+      }
+    },
+    {
+      "id": "daily-global-2026-08-29-rebuilt",
+      "scope": "global",
+      "date": "2026-08-29",
+      "decidedAt": "2026-09-04T00:15:49.054Z",
+      "state": "publish_new",
+      "insightId": "global-2026-08-29-personalized-cancer-vaccine-validation",
+      "materialChangeScore": 78,
+      "evidenceStrength": 86,
+      "noveltyScore": 72,
+      "importanceScore": 80,
+      "candidateSignalIds": [
+        "global-2026-08-29-personalized-cancer-vaccine-validation"
+      ],
+      "content": {
+        "en": {
+          "label": "PUBLISHED",
+          "decisionTitle": "Personalized cancer vaccines have crossed from platform promise into late-stage clinical validation",
+          "decisionSummary": "A positive phase-three melanoma result does not prove a universal cancer vaccine, but it changes the bottleneck from whether personalization can work to whether it can be manufactured, approved and extended across tumors.",
+          "thresholdReason": "Two independent clickable sources support a material change.",
+          "observeNext": [
+            "Whether detailed trial data confirms the topline benefit and safety profile.",
+            "Whether regulators accept a workable pathway for patient-specific products.",
+            "Whether success extends beyond melanoma without losing effect size."
+          ]
+        },
+        "zh": {
+          "label": "已发布",
+          "decisionTitle": "个性化癌症疫苗已从“平台设想”跨入后期临床验证阶段",
+          "decisionSummary": "黑色素瘤三期试验成功并不等于“通用癌症疫苗”诞生，但瓶颈已经从“个性化是否有效”转向“能否制造、获批并扩展到更多肿瘤”。",
+          "thresholdReason": "两条独立可点击来源支持一项实质变化。",
+          "observeNext": [
+            "完整试验数据能否确认疗效与安全性。",
+            "监管机构能否建立患者专属产品的可执行路径。",
+            "疗效能否扩展到黑色素瘤之外而不明显衰减。"
           ]
         }
       }
@@ -6651,47 +7158,6 @@
             "追踪特朗普政府回应和关于美联储独立性的言论。",
             "关注AI基础设施私人债务发行定价是否超过9%。",
             "追踪黄金、美债收益率和英伟达是延续还是逆转走势。"
-          ]
-        }
-      }
-    },
-    {
-      "id": "daily-global-2026-08-29",
-      "scope": "global",
-      "date": "2026-08-29",
-      "decidedAt": "2026-08-28T22:05:26.505Z",
-      "state": "no_new_global_insight",
-      "insightId": "global-2026-08-29-no-extractable-signal",
-      "materialChangeScore": 0,
-      "evidenceStrength": 0,
-      "noveltyScore": 0,
-      "importanceScore": 0,
-      "candidateSignalIds": [
-        "no-viable-signal-2026-08-29"
-      ],
-      "content": {
-        "en": {
-          "label": "No global insight",
-          "decisionTitle": "Hold publication: dossier missing evidence",
-          "decisionSummary": "The 2026-08-29 dossier contains no facts, data points, quotes, or URLs, so there is no concrete signal to evaluate. Publishing would be speculation.",
-          "thresholdReason": "Evidence strength is zero and fewer than two current or corroborating sources; material change score is zero.",
-          "observeNext": [
-            "Request a completed dossier with search results or URLs for 2026-08-29.",
-            "Re-run broad research across AI, energy, geopolitics, macroeconomics, and capital for the past 24 hours.",
-            "Check for any omitted attachments or reports from the internal research log.",
-            "Confirm whether a downstream research agent can supply two or more corroborating sources."
-          ]
-        },
-        "zh": {
-          "label": "无全球洞察",
-          "decisionTitle": "暂缓发布：档案缺少证据",
-          "decisionSummary": "2026-08-29 档案中不包含事实、数据点、引文或 URL，因此没有可评估的具体信号。发布将属于臆测。",
-          "thresholdReason": "证据强度为零，且当前或佐证来源少于两个；实质性变化评分为零。",
-          "observeNext": [
-            "要求提供包含 2026-08-29 搜索结果或 URL 的完整档案。",
-            "针对过去 24 小时的 AI、能源、地缘政治、宏观经济和资本领域，重新开展广泛研究。",
-            "检查内部研究日志中是否有任何被遗漏的附件或报告。",
-            "确认下游研究代理能否提供两个或以上佐证来源。"
           ]
         }
       }
