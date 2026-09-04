@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-04T22:16:42.386Z",
-  "updatedAt": "2026-09-04T22:18:21.244Z",
+  "updatedAt": "2026-09-04T22:19:52.209Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
       "attempts": {
-        "research": 1
+        "research": 2
       },
-      "message": "research",
-      "updatedAt": "2026-09-04T22:18:21.244Z",
+      "message": "DeepSeek request timed out. Please retry.",
+      "updatedAt": "2026-09-04T22:19:52.209Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3"
+  "message": "WORLD research 自动重试 2/3"
 }
