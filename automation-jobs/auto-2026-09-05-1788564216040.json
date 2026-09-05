@@ -2,22 +2,22 @@
   "id": "auto-2026-09-05-1788564216040",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-05",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-04T23:23:36.040Z",
-  "updatedAt": "2026-09-05T09:30:06.552Z",
+  "updatedAt": "2026-09-05T09:30:07.539Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 0,
         "write_zh": 2
       },
-      "message": "publish",
+      "message": "当日没有通过双独立来源门槛的洞察，保留最近一篇有效内容。",
       "updatedAt": "2026-09-05T09:30:06.552Z",
       "failedStage": "write_zh",
       "researchDraft": {
@@ -989,7 +989,8 @@
           "outputTokens": 8994,
           "cachedInputTokens": 5632
         }
-      }
+      },
+      "completedAt": "2026-09-05T09:30:07.539Z"
     }
   },
   "preflight": {
@@ -1024,10 +1025,11 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 2/3",
+  "message": "当日没有通过双独立来源门槛的洞察，保留最近一篇有效内容。",
   "lease": {
     "owner": "cron-1788600558545-881fjp86",
     "acquiredAt": "2026-09-05T09:29:18.807Z",
     "expiresAt": "2026-09-05T09:34:08.807Z"
-  }
+  },
+  "completedAt": "2026-09-05T09:30:07.539Z"
 }
