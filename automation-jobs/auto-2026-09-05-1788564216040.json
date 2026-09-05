@@ -6,18 +6,18 @@
   "date": "2026-09-05",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-04T23:23:36.040Z",
-  "updatedAt": "2026-09-05T09:24:09.653Z",
+  "updatedAt": "2026-09-05T09:25:38.333Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 0
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-05T09:24:09.653Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-05T09:25:38.333Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -252,7 +252,161 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 1,
-      "selectedCandidateId": "sig-2026-09-05-us-election-courts"
+      "selectedCandidateId": "sig-2026-09-05-us-election-courts",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "courts-reset-2026-us-midterm-election-mechanics",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "United States / Midterm Election Mechanics",
+              "title": "Courts Are Rewriting the 2026 US Midterm Rules Weeks Before Voting",
+              "summary": "Separate court actions are redrawing districts and reshaping mail voting as early voting begins—making the 2026 congressional map and ballot rules less predictable."
+            },
+            "question": {
+              "lead": "Four rulings in a single news cycle show the judiciary, not just legislatures, is deciding how Americans vote this November.",
+              "title": "How far will courts go in resetting election mechanics before the 2026 midterms?",
+              "footnote": "From mail-ballot limits to a tied-primary special election and a Supreme Court-bound redistricting fight."
+            },
+            "signals": {
+              "title": "Key Signals",
+              "sourceNote": "Aggregated from four trigger sources published on 2026-09-05.",
+              "items": [
+                {
+                  "label": "Mail-ballot injunction",
+                  "title": "Judge again blocks Trump effort to restrict mail-in ballots as early voting begins",
+                  "body": "A federal judge again blocked a Trump administration effort to limit mail-in ballots, repeating an earlier injunction as early voting gets underway.",
+                  "whyImportant": "Repeated judicial intervention signals that courts are actively constraining executive efforts to alter voting methods, increasing uncertainty for election administrators.",
+                  "evidence": {
+                    "title": "RedState report on renewed mail-ballot injunction",
+                    "description": "The source reports a federal judge once again blocked the Trump effort to secure mail-in ballots as early voting begins.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-2026-09-05-us-election-courts-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Tied-primary special election",
+                  "title": "Hawaii Supreme Court orders special election for House District 43 after tied primary",
+                  "body": "The Hawaii Supreme Court ordered a special election in a state House district after a primary contest ended in a tie.",
+                  "whyImportant": "Courts are resolving exceptional election outcomes directly, not leaving them to administrative discretion.",
+                  "evidence": {
+                    "title": "Hawaii News Now report on tied-primary order",
+                    "description": "The source reports the Hawaii Supreme Court ordered a special election for House District 43 following the tied primary.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-2026-09-05-us-election-courts-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Missouri map blocked",
+                  "title": "Missouri Supreme Court blocks Republican-drawn congressional map",
+                  "body": "Missouri's highest court blocked a Republican-drawn congressional map, leaving the state's district boundaries in limbo.",
+                  "whyImportant": "A statewide congressional map is now uncertain only weeks before the midterms, affecting candidate filings and voter expectations.",
+                  "evidence": {
+                    "title": "KY3 report on Missouri Supreme Court redistricting decision",
+                    "description": "The source reports the Missouri Supreme Court decision to block the Republican-drawn map and questions it creates.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-2026-09-05-us-election-courts-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "SCOTUS application",
+                  "title": "Missouri asks US Supreme Court to allow use of new Trump-backed congressional districts in midterms",
+                  "body": "Missouri asked the U.S. Supreme Court to permit use of the new Trump-backed congressional districts for the midterms, setting up a possible emergency ruling.",
+                  "whyImportant": "A Supreme Court decision could reshape Missouri's congressional delegation and set precedent for judicial intervention in midterm redistricting.",
+                  "evidence": {
+                    "title": "Newsday report on Missouri's Supreme Court request",
+                    "description": "The source reports Missouri asked the US Supreme Court to allow use of new Trump-backed congressional districts in midterms.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-2026-09-05-us-election-courts-source-4"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Legislative Certainty to Judicial Uncertainty",
+              "before": "Election mechanics and district maps were largely settled by state legislatures and election administrators, with courts acting as a backstop in exceptional cases.",
+              "shift": "Courts have moved to the foreground, issuing multiple rulings that directly alter mail-voting rules, order special elections, and block or attempt to revive redistricting maps.",
+              "now": "Voters, candidates, and election officials face unresolved map and ballot questions just weeks before the midterms, with the U.S. Supreme Court potentially weighing in on Missouri.",
+              "conclusion": "The 2026 midterms are becoming a court-managed election cycle, where each judicial ruling can change the partisan and procedural landscape."
+            },
+            "insight": {
+              "title": "The Midterm Rules Are Being Litigated Into Existence",
+              "formula": "Judicial interventions + unresolved redistricting + repeat mail-ballot injunctions = an election whose mechanics are still moving weeks before votes are cast",
+              "explanation": "The simultaneous court actions show a shift from pre-election rule stability to ongoing judicial management. This heightens legal and political volatility, but none of the actions yet represents a durable structural change—making this a developing judicial churn rather than a settled new process."
+            },
+            "observe": {
+              "title": "What to Watch",
+              "items": [
+                {
+                  "label": "SCOTUS response",
+                  "prompt": "Does the U.S. Supreme Court grant Missouri's request to use the new districts in the midterms?",
+                  "meta": "Watch for an emergency stay or denial; timing relative to ballot preparation is critical."
+                },
+                {
+                  "label": "Mail-ballot litigation",
+                  "prompt": "Will further court orders expand or narrow the mail-in ballot injunction across states?",
+                  "meta": "Monitor whether the federal injunction holds and whether other states face similar challenges."
+                },
+                {
+                  "label": "Hawaii special election",
+                  "prompt": "When will the House District 43 special election occur, and how will it affect the state House balance?",
+                  "meta": "A special election date and candidate rules would clarify this localized disruption."
+                },
+                {
+                  "label": "Missouri map resolution",
+                  "prompt": "If SCOTUS declines, what replacement map will Missouri use for the midterms?",
+                  "meta": "Track Missouri state court or legislative action to establish a final congressional map."
+                }
+              ],
+              "ending": "The next two weeks will reveal whether courts stabilize election mechanics or continue rewriting them at the last minute."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No decisive shift",
+            "decisionTitle": "Monitor as noise-follow-through; no Global Insight publication trigger met",
+            "decisionSummary": "Four verifiable court actions are consequential for the 2026 midterms, but they are heterogeneous procedural steps, not a single structural change. The unresolved Missouri SCOTUS application limits durability.",
+            "thresholdReason": "Material change threshold not met: no tracked World Process is affected, and no single court action has produced a decisive, durable shift.",
+            "observeNext": [
+              "U.S. Supreme Court responds to Missouri's redistricting application.",
+              "Further mail-ballot rulings expand or narrow the federal injunction.",
+              "Hawaii sets and conducts the House District 43 special election.",
+              "Missouri finalizes a replacement congressional map if SCOTUS declines."
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "U.S. Election Mechanics Under Judicial Review",
+            "description": "A cluster of court actions is altering mail voting, ordering a special election, and contesting Missouri's congressional map, without aligning to any existing World Process.",
+            "implication": "This creates short-term electoral uncertainty in the United States but does not yet alter the tracked technology, energy, semiconductor, or control processes."
+          },
+          "nextQuestionEn": "Will the U.S. Supreme Court intervene in Missouri's redistricting before the midterms, and will courts continue to alter mail-voting rules in other states?",
+          "observeNextEn": [
+            "U.S. Supreme Court responds to Missouri's redistricting application.",
+            "Further mail-ballot rulings expand or narrow the federal injunction.",
+            "Hawaii sets and conducts the House District 43 special election.",
+            "Missouri finalizes a replacement congressional map if SCOTUS declines."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2847,
+          "outputTokens": 4502,
+          "cachedInputTokens": 2816
+        }
+      }
     }
   },
   "lease": {
