@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-05T22:07:03.084Z",
-  "updatedAt": "2026-09-05T22:07:20.473Z",
+  "updatedAt": "2026-09-05T22:07:21.371Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "Independent news index returned only 0 usable records.",
-      "updatedAt": "2026-09-05T22:07:20.473Z",
+      "message": "research",
+      "updatedAt": "2026-09-05T22:07:21.371Z",
       "failedStage": "research"
     }
   },
