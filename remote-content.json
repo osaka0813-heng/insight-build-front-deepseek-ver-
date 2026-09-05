@@ -28,13 +28,15 @@
           "coreFact": "Separate judicial actions are changing how the 2026 U.S. midterms will be run: a federal judge again blocked a Trump effort to restrict mail-in ballots as early voting begins; the Hawaii Supreme Court ordered a special election for House District 43 after a tied primary; the Missouri Supreme Court blocked a Republican-drawn congressional map; and Missouri then asked the U.S. Supreme Court to allow use of the new Trump-backed districts for the midterms.",
           "processMatchReason": "No existing World Process covers U.S. domestic election administration, judicial review of ballot rules, or midterm redistricting litigation; this signal is therefore independent of the AI, energy, semiconductor and technology-control processes.",
           "title": "Courts are resetting 2026 U.S. midterm election mechanics: mail-ballot limits blocked, tied-primary special election ordered, Missouri map fight reaches the Supreme Court",
-          "whyItMatters": "Courts, not only legislatures and election administrators, are now determining the voting rules and district lines only weeks before the election. This makes the 2026 congressional map and the scope of mail voting less predictable and raises the political stakes of each judicial ruling."
+          "whyItMatters": "Courts, not only legislatures and election administrators, are now determining the voting rules and district lines only weeks before the election. This makes the 2026 congressional map and the scope of mail voting less predictable and raises the political stakes of each judicial ruling.",
+          "summary": "Separate judicial actions are changing how the 2026 U.S. midterms will be run: a federal judge again blocked a Trump effort to restrict mail-in ballots as early voting begins; the Hawaii Supreme Court ordered a special election for House District 43 after a tied primary; the Missouri Supreme Court blocked a Republican-drawn congressional map; and Missouri then asked the U.S. Supreme Court to allow use of the new Trump-backed districts for the midterms."
         },
         "zh": {
           "coreFact": "多个独立司法行动正在改变2026年美国中期选举的运作方式：联邦法官在提前投票开始后再次阻止特朗普限制邮寄投票的努力；夏威夷最高法院在初选打平后命令第43选区举行特别选举；密苏里最高法院阻止了共和党绘制的国会选区地图；密苏里州随后请求美国最高法院允许在中期选举中使用新选区。",
           "processMatchReason": "现有World Process均不涉及美国国内选举行政、选票规则司法审查或中期选举重划选区诉讼；该信号与AI、能源、半导体及技术管控进程相互独立。",
           "title": "法院正改变2026年美国中期选举规则：邮寄投票限制受阻、平局初选下令重新选举、密苏里选区之争进入最高法院",
-          "whyItMatters": "在距离选举仅剩数周时，法院正在直接决定邮寄投票的规则和选区边界，使2026年国会格局与邮寄投票范围的可预测性下降，也提高了每项司法裁决的政治影响。"
+          "whyItMatters": "在距离选举仅剩数周时，法院正在直接决定邮寄投票的规则和选区边界，使2026年国会格局与邮寄投票范围的可预测性下降，也提高了每项司法裁决的政治影响。",
+          "summary": "多个独立司法行动正在改变2026年美国中期选举的运作方式：联邦法官在提前投票开始后再次阻止特朗普限制邮寄投票的努力；夏威夷最高法院在初选打平后命令第43选区举行特别选举；密苏里最高法院阻止了共和党绘制的国会选区地图；密苏里州随后请求美国最高法院允许在中期选举中使用新选区。"
         }
       }
     },
@@ -1077,7 +1079,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-05T21:58:57.764Z",
+  "generatedAt": "2026-09-05T22:07:04.087Z",
   "insights": [
     {
       "confidence": "verified",

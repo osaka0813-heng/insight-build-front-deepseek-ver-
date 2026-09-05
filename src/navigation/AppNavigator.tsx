@@ -43,10 +43,11 @@ export function AppNavigator() {
     [language, contentRevision, activeScope],
   );
   const [readerInsightId, setReaderInsightId] = useState(current.id);
-  // Always open the six-page reader first. A no-new-insight day still has a
-  // complete edition explaining the signal, verification gap and next checks.
-  // The compact daily landing remains available from the reader's final page.
-  const [showDailyLanding, setShowDailyLanding] = useState(false);
+  // A no-new day is still a dated editorial decision. Show that decision first,
+  // while keeping the latest six-page Insight one tap away.
+  const [showDailyLanding, setShowDailyLanding] = useState(
+    currentDailyState.state === 'no_new_global_insight',
+  );
   const [overlayStack, setOverlayStack] = useState<OverlayRoute[]>([]);
   const previousCurrentIdRef = useRef(current.id);
 
@@ -55,7 +56,7 @@ export function AppNavigator() {
     const wasFollowingLatest = readerInsightId === previousCurrentIdRef.current;
     if (!stillExists || wasFollowingLatest) {
       setReaderInsightId(current.id);
-      setShowDailyLanding(false);
+      setShowDailyLanding(currentDailyState.state === 'no_new_global_insight');
     }
     setOverlayStack([]);
     previousCurrentIdRef.current = current.id;
