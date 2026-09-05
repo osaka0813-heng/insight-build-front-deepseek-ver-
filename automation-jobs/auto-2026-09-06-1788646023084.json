@@ -2,13 +2,13 @@
   "id": "auto-2026-09-06-1788646023084",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-09-06",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "preflight",
+  "currentStage": "research",
   "createdAt": "2026-09-05T22:07:03.084Z",
-  "updatedAt": "2026-09-05T22:07:05.249Z",
+  "updatedAt": "2026-09-05T22:07:07.695Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -22,5 +22,38 @@
     "owner": "cron-1788646022768-vg3ko68x",
     "acquiredAt": "2026-09-05T22:07:05.249Z",
     "expiresAt": "2026-09-05T22:11:55.249Z"
-  }
+  },
+  "preflight": {
+    "ok": true,
+    "checkedAt": "2026-09-05T22:07:07.688Z",
+    "contentVersion": "review-writer-sig-2026-09-05-us-election-courts-1788600605573-1788645537764",
+    "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
+    "checks": [
+      {
+        "id": "environment",
+        "label": "环境变量",
+        "ok": true,
+        "detail": "DEEPSEEK_API_KEY:OK · RESEARCH_API_TOKEN:OK · PUBLISH_API_TOKEN:OK · GITHUB_TOKEN:OK · GITHUB_OWNER:OK · GITHUB_REPO:OK"
+      },
+      {
+        "id": "github-read",
+        "label": "GitHub 内容读取",
+        "ok": true,
+        "detail": "osaka0813-heng/insight-build-front-deepseek-ver- · remote-content.json"
+      },
+      {
+        "id": "content-schema",
+        "label": "内容结构与引用",
+        "ok": true,
+        "detail": "结构通过；0 条警告。"
+      },
+      {
+        "id": "backup-write",
+        "label": "备份写入权限",
+        "ok": true,
+        "detail": "backups/remote-content/2026-09-05T22-07-06-963Z-preflight-probe-1788646026963.json"
+      }
+    ]
+  },
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
 }
