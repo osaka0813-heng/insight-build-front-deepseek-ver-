@@ -6,18 +6,18 @@
   "date": "2026-09-05",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-04T23:23:36.040Z",
-  "updatedAt": "2026-09-05T09:22:17.344Z",
+  "updatedAt": "2026-09-05T09:22:27.930Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 0
       },
-      "message": "analyze",
-      "updatedAt": "2026-09-05T09:22:17.344Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-05T09:22:27.930Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -116,7 +116,143 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-05-1788600136297",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-05T09:22:16.297Z",
+        "researchDate": "2026-09-05",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Scanned macro-finance, industry-trade, energy-resources, health-science, climate-environment, demographics-society, institutions-culture, technology-AI and geopolitics-security. Only the U.S. institutions/election domain contained citable, non-duplicative evidence; four independent judicial actions formed one structural signal. Macro-finance, energy, health, climate, AI/technology and geopolitics had no supported candidate with at least two independent evidence origins. No existing World Process matches this election-law/federalism signal.",
+        "candidates": [
+          {
+            "id": "sig-2026-09-05-us-election-courts",
+            "date": "2026-09-05",
+            "domain": "institutions-culture",
+            "tags": [
+              "US-elections-2026",
+              "judiciary",
+              "mail-in-voting",
+              "redistricting",
+              "state-courts",
+              "US-Supreme-Court",
+              "election-administration",
+              "federalism"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 76,
+            "novelty": 69,
+            "evidenceStrength": 83,
+            "independentSourceCount": 4,
+            "thesisImpact": 73,
+            "relationshipChange": 70,
+            "stageChange": 72,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Courts are resetting 2026 U.S. midterm election mechanics: mail-ballot limits blocked, tied-primary special election ordered, Missouri map fight reaches the Supreme Court",
+                "coreFact": "Separate judicial actions are changing how the 2026 U.S. midterms will be run: a federal judge again blocked a Trump effort to restrict mail-in ballots as early voting begins; the Hawaii Supreme Court ordered a special election for House District 43 after a tied primary; the Missouri Supreme Court blocked a Republican-drawn congressional map; and Missouri then asked the U.S. Supreme Court to allow use of the new Trump-backed districts for the midterms.",
+                "whyItMatters": "Courts, not only legislatures and election administrators, are now determining the voting rules and district lines only weeks before the election. This makes the 2026 congressional map and the scope of mail voting less predictable and raises the political stakes of each judicial ruling.",
+                "processMatchReason": "No existing World Process covers U.S. domestic election administration, judicial review of ballot rules, or midterm redistricting litigation; this signal is therefore independent of the AI, energy, semiconductor and technology-control processes."
+              },
+              "zh": {
+                "title": "法院正改变2026年美国中期选举规则：邮寄投票限制受阻、平局初选下令重新选举、密苏里选区之争进入最高法院",
+                "coreFact": "多个独立司法行动正在改变2026年美国中期选举的运作方式：联邦法官在提前投票开始后再次阻止特朗普限制邮寄投票的努力；夏威夷最高法院在初选打平后命令第43选区举行特别选举；密苏里最高法院阻止了共和党绘制的国会选区地图；密苏里州随后请求美国最高法院允许在中期选举中使用新选区。",
+                "whyItMatters": "在距离选举仅剩数周时，法院正在直接决定邮寄投票的规则和选区边界，使2026年国会格局与邮寄投票范围的可预测性下降，也提高了每项司法裁决的政治影响。",
+                "processMatchReason": "现有World Process均不涉及美国国内选举行政、选票规则司法审查或中期选举重划选区诉讼；该信号与AI、能源、半导体及技术管控进程相互独立。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Judge Once Again Blocks Trump Effort to Secure Mail - in Ballots As Early Voting Begins",
+                "url": "https://redstate.com/kyle-becker/2026/09/04/judge-once-again-blocks-trumps-effort-to-secure-mail-in-ballots-as-early-voting-begins-n2206529",
+                "publisher": "redstate.com",
+                "publishedAt": "2026-09-05T01:30:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Federal district court order blocking the Trump effort to restrict mail-in ballots",
+                "id": "sig-2026-09-05-us-election-courts-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Hawaii Supreme Court orders special election for House District 43 following tied primary",
+                "url": "https://www.hawaiinewsnow.com/2026/09/05/hawaii-supreme-court-orders-special-election-house-district-43-following-tied-primary/",
+                "publisher": "hawaiinewsnow.com",
+                "publishedAt": "2026-09-05T06:30:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Hawaii Supreme Court order directing a special election for House District 43",
+                "id": "sig-2026-09-05-us-election-courts-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Missouri Supreme Court decision to block Republican - drawn map creates leaves questions",
+                "url": "https://www.ky3.com/2026/09/04/missouri-supreme-court-decision-block-republican-drawn-map-creates-leaves-questions/",
+                "publisher": "ky3.com",
+                "publishedAt": "2026-09-05T01:15:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Missouri Supreme Court decision blocking the Republican-drawn congressional map",
+                "id": "sig-2026-09-05-us-election-courts-source-3",
+                "role": "trigger"
+              },
+              {
+                "title": "Missouri asks US Supreme Court to allow use of new Trump - backed congressional districts in midterms",
+                "url": "https://www.newsday.com/news/nation/missouri-redistricting-trump-supreme-court-f77718",
+                "publisher": "newsday.com",
+                "publishedAt": "2026-09-05T04:15:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Missouri's emergency application to the U.S. Supreme Court seeking to allow the new congressional districts in the midterms",
+                "id": "sig-2026-09-05-us-election-courts-source-4",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 4,
+              "distinctEvidenceOrigins": 4
+            },
+            "currentEventSourceCount": 4,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "sig-2026-09-05-us-election-courts-source-1",
+              "sig-2026-09-05-us-election-courts-source-2",
+              "sig-2026-09-05-us-election-courts-source-3",
+              "sig-2026-09-05-us-election-courts-source-4"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 45,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 4,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "This candidate aggregates several U.S. domestic election-administration developments (mail-ballot injunction, Hawaii tied-primary special election, Missouri redistricting litigation and a SCOTUS application). All four independent sources are verifiable and the topic is consequential for the 2026 midterms. However, it is an aggregation of separate procedural court actions rather than a single structural change, and none of them has yet produced a decisive, durable shift: the mail-ballot order is a repeat injunction of an ongoing effort, the Hawaii special election is a localized administrative fix, and the Missouri map dispute is unresolved pending the U.S. Supreme Court's response. The developments do not match any existing World Process and do not warrant a new process on their own; they are best understood as incremental electoral-process churn with high domestic stakes but limited second-order consequences for the systems this product tracks (AI, energy, semiconductors, technology control). Court action reshaping U.S. midterm mechanics does not materially alter any tracked process, and treating it as a standalone insight would overstate its structural durability. Correct classification is noise_follow_through: worthy of monitoring but not today's single Global Insight.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Candidate's self-reported processMatchConfidence of 11 points to 'process-geopolitical-technology-control', but the content does not actually relate to technology control; that match should be discounted.",
+                "The four court actions are heterogeneous events bundled into one candidate; individually none clears the material-change bar.",
+                "No decisive resolution yet on the highest-stakes item (Missouri SCOTUS application), so durability is currently low.",
+                "No corroborating or context sources beyond the four trigger sources were provided."
+              ],
+              "candidateId": "sig-2026-09-05-us-election-courts",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 48
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 1,
+      "selectedCandidateId": "sig-2026-09-05-us-election-courts"
     }
   },
   "lease": {
