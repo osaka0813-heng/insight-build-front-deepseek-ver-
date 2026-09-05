@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-04T23:23:36.040Z",
-  "updatedAt": "2026-09-05T09:18:39.350Z",
+  "updatedAt": "2026-09-05T09:18:40.145Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 0
       },
-      "message": "从 research 断点继续",
-      "updatedAt": "2026-09-05T03:56:07.774Z",
+      "message": "research",
+      "updatedAt": "2026-09-05T09:18:40.145Z",
       "failedStage": "research"
     }
   },
