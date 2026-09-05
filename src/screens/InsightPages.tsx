@@ -136,7 +136,6 @@ export function QuestionPage({
   edition,
   forceVisible,
   height,
-  onExplore,
 }: Props) {
   const { language, t } = useI18n();
   const typography = languageTypography(language);
@@ -154,12 +153,9 @@ export function QuestionPage({
           forceVisible={forceVisible}
           rise={18}
         >
-          <Pressable onPress={() => onExplore({ kind: 'topic', topic: { id: 'question', knowledgeHome: 'none', label: t('question'), title: edition.question.title, sections: [{ title: t('whyImportant'), body: edition.question.footnote }] } })} style={({ pressed }) => pressed && styles.explorablePressed}>
-            <BreathingTitle active={active} disabled={forceVisible}>
-              <Text style={[styles.questionTitle, { fontSize: typography.heroSize, letterSpacing: typography.heroLetterSpacing, lineHeight: typography.heroSize * typography.lineHeightMultiplier }]}>{edition.question.title}</Text>
-              <Text style={styles.exploreHint}>{t('explore')} →</Text>
-            </BreathingTitle>
-          </Pressable>
+          <BreathingTitle active={active} disabled={forceVisible}>
+            <Text style={[styles.questionTitle, { fontSize: typography.heroSize, letterSpacing: typography.heroLetterSpacing, lineHeight: typography.heroSize * typography.lineHeightMultiplier }]}>{edition.question.title}</Text>
+          </BreathingTitle>
         </AttentionReveal>
         <AttentionReveal
           active={active}
@@ -289,7 +285,6 @@ export function HeroInsightPage({
   edition,
   forceVisible,
   height,
-  onExplore,
 }: Props) {
   const { language, t } = useI18n();
   const typography = languageTypography(language);
@@ -315,12 +310,9 @@ export function HeroInsightPage({
           forceVisible={forceVisible}
           rise={22}
         >
-          <Pressable onPress={() => onExplore({ kind: 'topic', topic: { id: 'hero-insight', knowledgeHome: 'related', label: t('insight'), title: edition.insight.title, summary: edition.insight.explanation, sections: [{ title: t('evidence'), body: edition.insight.formula }, { title: t('signals'), body: edition.signals.items.map((signal) => signal.title).join(' · ') }] } })} style={({ pressed }) => pressed && styles.explorablePressed}>
-            <BreathingTitle active={active} disabled={forceVisible} startDelay={3600}>
-              <Text style={[styles.heroTitle, { fontSize: typography.heroSize, letterSpacing: typography.heroLetterSpacing, lineHeight: typography.heroSize * typography.lineHeightMultiplier }]}>{edition.insight.title}</Text>
-              <Text style={styles.exploreHintInverse}>{t('explore')} →</Text>
-            </BreathingTitle>
-          </Pressable>
+          <BreathingTitle active={active} disabled={forceVisible} startDelay={3600}>
+            <Text style={[styles.heroTitle, { fontSize: typography.heroSize, letterSpacing: typography.heroLetterSpacing, lineHeight: typography.heroSize * typography.lineHeightMultiplier }]}>{edition.insight.title}</Text>
+          </BreathingTitle>
         </AttentionReveal>
 
         <View pointerEvents="none" style={styles.heroFormulaSpacer} />
@@ -339,7 +331,6 @@ export function ObservePage({
   onOpenArchive,
   onOpenProcess,
   onOpenDailyLanding,
-  onExplore,
   dailyState,
   continuity,
 }: ObserveProps) {
@@ -375,14 +366,13 @@ export function ObservePage({
               forceVisible={forceVisible}
               key={item.meta}
             >
-              <Pressable onPress={() => onExplore({ kind: 'topic', topic: { id: `observe-${index}`, knowledgeHome: 'timeline', label: t('observeNext'), title: item.label, summary: item.prompt, sections: [{ title: item.meta, body: edition.observe.ending }] } })} style={({ pressed }) => [styles.observeRow, pressed && styles.explorablePressed]}>
+              <View style={styles.observeRow}>
                 <View style={styles.observeTop}>
                   <Text style={styles.observeLabel}>{item.label}</Text>
                   <Text style={styles.observeMeta}>{item.meta}</Text>
                 </View>
                 <Text style={styles.observePrompt}>{item.prompt}</Text>
-                <Text style={styles.exploreHint}>{t('explore')} →</Text>
-              </Pressable>
+              </View>
             </AttentionReveal>
           ))}
         </View>
