@@ -2,22 +2,22 @@
   "id": "auto-2026-09-07-1788732423029",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "failed",
   "date": "2026-09-07",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-06T22:07:03.029Z",
-  "updatedAt": "2026-09-06T22:07:35.336Z",
+  "updatedAt": "2026-09-06T22:07:47.107Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "error",
       "stage": "research",
       "attempts": {
-        "research": 2
+        "research": 3
       },
-      "message": "research",
-      "updatedAt": "2026-09-06T22:07:35.336Z",
+      "message": "Independent news index returned only 0 usable records.",
+      "updatedAt": "2026-09-06T22:07:47.107Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,7 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD 在 research 连续失败 3 次，已保留断点。",
+  "failedStage": "research",
+  "completedAt": "2026-09-06T22:07:47.107Z"
 }
