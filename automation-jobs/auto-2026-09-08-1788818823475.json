@@ -6,19 +6,175 @@
   "date": "2026-09-08",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-08T12:23:20.333Z",
+  "updatedAt": "2026-09-08T12:26:46.047Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "research": 2
       },
-      "message": "research",
-      "updatedAt": "2026-09-08T12:23:20.333Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-08T12:26:46.047Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-08-1788870406035",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-08T12:26:46.035Z",
+        "researchDate": "2026-09-08",
+        "provider": "deepseek",
+        "model": "deepseek-v4-flash",
+        "usage": {
+          "inputTokens": 3254,
+          "outputTokens": 10664,
+          "cachedInputTokens": 1664
+        },
+        "querySummary": "The 2026-09-08 scan is heavily concentrated in climate-environment; macro-finance, industry-trade, energy-resources, health-science, demographics-society, institutions-culture, technology-AI and geopolitics-security returned no independent multi-source candidate signals from the supplied index. After filtering for at least two independent evidence origins, three climate-related signals survived: (1) a cross-continental El Niño-era food-and-water preparedness cluster spanning European stockpile guidance, South African prevention calls, Sri Lankan disaster warnings and French maize risk; (2) a rhetorical and policy shift framing water security as national security / resource conflict; (3) Hurricane Lowell approaching Hawaii and already triggering local water-storage advice. Other items were single-source, generic commentary, or lacked a second independent evidence origin.",
+        "candidates": [
+          {
+            "id": "candidate-el-nino-food-water-resilience-20260908",
+            "date": "2026-09-08",
+            "domain": "climate-environment",
+            "tags": [
+              "climate",
+              "el-nino",
+              "food-security",
+              "water-security",
+              "agriculture",
+              "drought",
+              "preparedness"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 80,
+            "novelty": 65,
+            "evidenceStrength": 70,
+            "independentSourceCount": 4,
+            "thesisImpact": 55,
+            "relationshipChange": 40,
+            "stageChange": 35,
+            "contradiction": 15,
+            "content": {
+              "en": {
+                "title": "El Niño-era food and water stress becomes a cross-continental preparedness event: stockpiling advice, prevention calls and record crop risk",
+                "coreFact": "A 24-hour reporting cluster shows El Niño moving from weather forecast to concrete public action: European residents are being told to stockpile food; South African commentary argues prevention spending is needed now; Sri Lankan authorities urge disaster preparedness; and reports warn France's maize harvest could again approach its historic 1976 low under extreme heat and drought.",
+                "whyItMatters": "El Niño is no longer only a climate phenomenon but a food-and-water resilience shock reaching Europe, Africa, Asia and France simultaneously. If major breadbasket and mid-latitude regions treat household stockpiling, disaster budgets and harvest risk as urgent, countries may begin reorganizing food storage, water infrastructure and emergency supply systems around climate forecasts rather than seasonal norms.",
+                "processMatchReason": "No existing world process covers climate-induced food-water resilience. The energy-security process is about electricity and grid capacity, not agricultural commodities, water systems or stockpile guidance; therefore no process match is proposed."
+              },
+              "zh": {
+                "title": "厄尔尼诺时代粮食与水安全成为跨洲准备事件：储粮建议、预防呼吁与创纪录减产风险",
+                "coreFact": "过去24小时的跨源报道显示，厄尔尼诺正从天气预报转化为具体公共行动：欧洲居民被建议为厄尔尼诺储备食品；南非舆论呼吁必须现在就为预防付费；斯里兰卡当局敦促为潜在灾害做好准备；报道还警告法国玉米收成在极端高温和干旱下可能再度逼近1976年历史低点。",
+                "whyItMatters": "厄尔尼诺不再仅是气候现象，而是同时冲击欧洲、非洲、亚洲和法国的粮食与水安全事件。当主要产粮区和中等纬度地区都把家庭储粮、灾害预算和收成风险视为紧迫事项时，各国可能围绕气候预测而非季节性常态重组粮食储备、供水设施和应急供应体系。",
+                "processMatchReason": "现有世界流程未覆盖气候引发的粮食-水韧性。能源安全流程聚焦电力与电网能力，而非农产品、水系统或储备指导，因此不建议匹配任何现有流程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Europeans told to stockpile food for El Nino as world enters 'danger zone' of weather",
+                "url": "https://www.aol.com/articles/europeans-told-stockpile-food-el-145100000.html",
+                "publisher": "AOL",
+                "publishedAt": "2026-09-07T15:45:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "European El Niño food-stockpiling advisory reported by AOL",
+                "id": "candidate-el-nino-food-water-resilience-20260908-source-1"
+              },
+              {
+                "title": "El Niño is here : South Africa must pay for prevention now",
+                "url": "https://www.dailymaverick.co.za/opinionista/2026-09-07-el-nino-is-here-south-africa-must-pay-for-prevention-now/",
+                "publisher": "Daily Maverick",
+                "publishedAt": "2026-09-07T19:15:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "South African El Niño prevention-cost analysis by Daily Maverick opinionista",
+                "id": "candidate-el-nino-food-water-resilience-20260908-source-2"
+              },
+              {
+                "title": "Sri Lanka Faces Growing El Niño Threat : Authorities Urge Preparedness for Potential Disaster",
+                "url": "https://www.lankanewspapers.com/2026/09/07/sri-lanka-faces-growing-el-ni-o-threat-authorities-urge-preparedness-for-potential-disaster",
+                "publisher": "Lanka Newspapers",
+                "publishedAt": "2026-09-07T04:00:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Sri Lankan authorities' El Niño disaster-preparedness call",
+                "id": "candidate-el-nino-food-water-resilience-20260908-source-3"
+              },
+              {
+                "title": "In 1976 , France maize harvest hit a historic low ; 50 years later , extreme heat and drought could be pushing it there again",
+                "url": "https://economictimes.indiatimes.com/news/international/global-trends/in-1976-frances-maize-harvest-hit-a-historic-low-50-years-later-extreme-heat-and-drought-could-be-pushing-it-there-again/articleshow/133892449.cms",
+                "publisher": "The Economic Times",
+                "publishedAt": "2026-09-07T18:45:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "France maize-harvest comparison between 1976 low and current extreme heat/drought",
+                "id": "candidate-el-nino-food-water-resilience-20260908-source-4"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 4,
+              "distinctEvidenceOrigins": 4
+            }
+          },
+          {
+            "id": "candidate-water-security-national-security-framing-20260908",
+            "date": "2026-09-08",
+            "domain": "climate-environment",
+            "tags": [
+              "water-security",
+              "national-security",
+              "climate-conflict",
+              "food-security",
+              "policy"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 62,
+            "novelty": 72,
+            "evidenceStrength": 55,
+            "independentSourceCount": 2,
+            "thesisImpact": 45,
+            "relationshipChange": 40,
+            "stageChange": 30,
+            "contradiction": 10,
+            "content": {
+              "en": {
+                "title": "Water security is rapidly being reframed as national security, not development policy",
+                "coreFact": "Nigeria's Minister Utsev says water security should be part of national security. Separately, an Economic Times global-trends report argues climate change is turning food, water and farmland into new sources of conflict around the world. The same 24-hour frame recasts water as a strategic asset rather than a humanitarian necessity.",
+                "whyItMatters": "When water is classified as a national-security issue, decision-making shifts from environment ministries toward security councils, defense budgets and cross-border strategic competition. That can change how water infrastructure is funded, how transboundary rivers are governed, and how climate adaptation is prioritized. The Nigerian ministerial statement is a concrete official articulation; the broader media framing may accelerate similar positions elsewhere.",
+                "processMatchReason": "No existing process tracks water as strategic security capacity. The energy-security process is limited to energy and electricity, while the geopolitics-technology process is about technology control, not water/food resource conflict."
+              },
+              "zh": {
+                "title": "水安全正迅速从发展议题被重构为国家安全议题",
+                "coreFact": "尼日利亚水务部长乌采夫表示，水安全应成为国家安全的一部分。与此同时，《经济时报》的全球趋势报道认为，气候变化正使粮食、水和农田在世界各地成为新的冲突来源。相同24小时内，水被重新定义为战略资产而非单纯的人道需求。",
+                "whyItMatters": "当水被归类为国家安全问题时，决策权会从环境部门转向安全委员会、国防预算和跨境战略竞争。这会改变供水设施的融资方式、跨境河流的治理逻辑，以及气候适应的优先级。尼日利亚部长的表态是一个具体的官方信号，而全球媒体框架可能促使更多国家采用类似立场。",
+                "processMatchReason": "现有流程未跟踪水作为战略安全能力的趋势。能源安全流程仅限于能源与电力，地缘科技管控流程则聚焦技术控制而非水/粮食资源冲突。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Water Security is National Security , Says Minister Utsev",
+                "url": "https://punchng.com/water-should-be-part-of-national-security-minister/",
+                "publisher": "The Punch",
+                "publishedAt": "2026-09-07T23:30:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Statement by Nigerian Minister Utsev on water security and national security",
+                "id": "candidate-water-security-national-security-framing-20260908-source-1"
+              },
+              {
+                "title": "climate change conflict : The next wars may not be about oil or borders : Climate change is turning food , water and farmland into new sources of conflict across the world",
+                "url": "https://economictimes.indiatimes.com/news/international/global-trends/the-next-wars-may-not-be-about-oil-or-borders-climate-change-is-turning-food-water-and-farmland-into-new-sources-of-conflict-across-the-world/articleshow/133894060.cms",
+                "publisher": "The Economic Times",
+                "publishedAt": "2026-09-07T19:45:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Economic Times global-trends reporting on climate-driven food-water-land conflict",
+                "id": "candidate-water-security-national-security-framing-20260908-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "lease": {
