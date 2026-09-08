@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-08T04:32:51.883Z",
+  "updatedAt": "2026-09-08T04:32:52.750Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 2
       },
-      "message": "Independent news index returned only 0 usable records. Failures: macro-finance: fetch failed | industry-trade: fetch failed | energy-resources: fetch failed | health-science: fetch failed | climate-environment: fetch failed | demographics-society: fetch failed | institutions-culture: GDELT institutions-culture failed (429). | technology-ai: fetch failed",
-      "updatedAt": "2026-09-08T04:32:51.883Z",
+      "message": "research",
+      "updatedAt": "2026-09-08T04:32:52.750Z",
       "failedStage": "research"
     }
   },
