@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-08T04:29:05.870Z",
+  "updatedAt": "2026-09-08T04:30:57.153Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
       "attempts": {
-        "research": 0
+        "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-09-08T04:29:05.870Z",
+      "message": "Independent news index returned only 0 usable records. Failures: macro-finance: GDELT macro-finance failed (429). | industry-trade: GDELT industry-trade failed (429). | energy-resources: GDELT energy-resources failed (429). | health-science: GDELT health-science failed (429). | climate-environment: fetch failed | demographics-society: fetch failed | institutions-culture: fetch failed | technology-ai: fetch failed",
+      "updatedAt": "2026-09-08T04:30:57.153Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,5 @@
       }
     ]
   },
-  "message": "WORLD 从 research 断点继续"
+  "message": "WORLD research 自动重试 1/3"
 }
