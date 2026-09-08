@@ -2,21 +2,21 @@
   "id": "auto-2026-09-08-1788818823475",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "failed",
+  "status": "running",
   "date": "2026-09-08",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-08T03:25:51.698Z",
+  "updatedAt": "2026-09-08T04:29:04.248Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "queued",
       "stage": "research",
       "attempts": {
-        "research": 3
+        "research": 0
       },
-      "message": "research",
+      "message": "从 research 断点继续",
       "updatedAt": "2026-09-08T03:25:51.698Z",
       "failedStage": "research"
     }
@@ -58,7 +58,5 @@
       }
     ]
   },
-  "message": "WORLD 在 research 连续失败 3 次，已保留断点。",
-  "failedStage": "research",
-  "completedAt": "2026-09-08T03:25:50.697Z"
+  "message": "WORLD 从 research 断点继续"
 }
