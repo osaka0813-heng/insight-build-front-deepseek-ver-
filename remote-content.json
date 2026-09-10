@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-research-unavailable-2026-09-06-1789021197928",
+  "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789021376416",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -244,95 +244,39 @@
   ],
   "dailyStates": [
     {
-      "id": "daily-global-2026-09-06",
+      "id": "daily-global-2026-09-10",
       "scope": "global",
-      "date": "2026-09-06",
+      "date": "2026-09-10",
+      "decidedAt": "2026-09-10T06:02:07.854Z",
       "state": "no_new_global_insight",
-      "materialChangeScore": 0,
-      "evidenceStrength": 0,
-      "noveltyScore": 0,
-      "importanceScore": 0,
-      "candidateSignalIds": [],
-      "content": {
-        "en": {
-          "label": "No new global insight",
-          "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
-          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
-          "observeNext": [
-            "Retry the independent-source scan on the next scheduled recovery run."
-          ]
-        },
-        "zh": {
-          "label": "无新增全球洞察",
-          "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-          "observeNext": [
-            "在下一次定时恢复中重新执行独立来源扫描。"
-          ]
-        }
-      },
-      "decidedAt": "2026-09-10T06:19:56.186Z",
-      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
-    },
-    {
-      "id": "daily-global-2026-09-07",
-      "scope": "global",
-      "date": "2026-09-07",
-      "state": "no_new_global_insight",
-      "materialChangeScore": 0,
-      "evidenceStrength": 0,
-      "noveltyScore": 0,
-      "importanceScore": 0,
-      "candidateSignalIds": [],
-      "content": {
-        "en": {
-          "label": "No new global insight",
-          "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
-          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
-          "observeNext": [
-            "Retry the independent-source scan on the next scheduled recovery run."
-          ]
-        },
-        "zh": {
-          "label": "无新增全球洞察",
-          "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-          "observeNext": [
-            "在下一次定时恢复中重新执行独立来源扫描。"
-          ]
-        }
-      },
-      "decidedAt": "2026-09-10T06:19:40.496Z",
-      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
-    },
-    {
-      "id": "daily-global-2026-09-08",
-      "scope": "global",
-      "date": "2026-09-08",
-      "decidedAt": "2026-09-10T06:19:12.743Z",
-      "state": "no_new_global_insight",
-      "materialChangeScore": 72,
-      "evidenceStrength": 70,
-      "noveltyScore": 65,
-      "importanceScore": 80,
+      "materialChangeScore": 51,
+      "evidenceStrength": 55,
+      "noveltyScore": 52,
+      "importanceScore": 64,
       "candidateSignalIds": [
-        "candidate-el-nino-food-water-resilience-20260908"
+        "sig-20260910-supreme-court-mail-voting"
       ],
       "content": {
         "en": {
           "label": "No new global insight",
           "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
-          "thresholdReason": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+          "decisionSummary": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
+          "thresholdReason": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
           "observeNext": [
-            "Watch whether European institutions formalize household stockpiling guidance.",
-            "Track South African prevention funding announcements and water-security measures.",
-            "Monitor French and EU maize harvest estimates for potential 1976-level risk confirmation.",
-            "Observe Sri Lankan disaster preparedness activation or international assistance requests."
+            "Whether the Supreme Court issues an interim order allowing the mail-in voting rules to take effect.",
+            "Whether the Court reaches the constitutional question of executive authority over mail-in voting.",
+            "Whether Congress or states react with legislation or administrative actions to clarify authority."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "证据尚未达到发布标准",
+          "decisionSummary": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
+          "thresholdReason": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
+          "observeNext": [
+            "最高法院是否发布临时命令，允许邮寄投票规则生效。",
+            "法院是否触及邮寄投票行政权的宪法问题。",
+            "国会或各州是否以立法或行政行动回应，以明确权力。"
           ]
         }
       },
@@ -372,42 +316,105 @@
       "previousInsightId": "global-2026-09-04-el-nino-system-risk"
     },
     {
-      "id": "daily-global-2026-09-10",
+      "id": "daily-global-2026-09-08",
       "scope": "global",
-      "date": "2026-09-10",
-      "decidedAt": "2026-09-10T06:02:07.854Z",
+      "date": "2026-09-08",
+      "decidedAt": "2026-09-10T06:22:55.225Z",
       "state": "no_new_global_insight",
-      "materialChangeScore": 51,
-      "evidenceStrength": 55,
-      "noveltyScore": 52,
-      "importanceScore": 64,
+      "materialChangeScore": 72,
+      "evidenceStrength": 70,
+      "noveltyScore": 65,
+      "importanceScore": 80,
       "candidateSignalIds": [
-        "sig-20260910-supreme-court-mail-voting"
+        "candidate-el-nino-food-water-resilience-20260908"
       ],
       "content": {
         "en": {
           "label": "No new global insight",
           "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
-          "thresholdReason": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
+          "decisionSummary": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+          "thresholdReason": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
           "observeNext": [
-            "Whether the Supreme Court issues an interim order allowing the mail-in voting rules to take effect.",
-            "Whether the Court reaches the constitutional question of executive authority over mail-in voting.",
-            "Whether Congress or states react with legislation or administrative actions to clarify authority."
+            "Watch whether European institutions formalize household stockpiling guidance.",
+            "Track South African prevention funding announcements and water-security measures.",
+            "Monitor French and EU maize harvest estimates for potential 1976-level risk confirmation.",
+            "Observe Sri Lankan disaster preparedness activation or international assistance requests."
           ]
         },
         "zh": {
           "label": "无新增全球洞察",
           "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
-          "thresholdReason": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
+          "decisionSummary": "当日证据不足以支持新的结构性判断，继续保留最近一篇已验证洞察。",
+          "thresholdReason": "证据未达到发布标准。",
+          "observeNext": []
+        }
+      },
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
+    {
+      "id": "daily-global-2026-09-07",
+      "scope": "global",
+      "date": "2026-09-07",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 0,
+      "evidenceStrength": 0,
+      "noveltyScore": 0,
+      "importanceScore": 0,
+      "candidateSignalIds": [],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
+          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
           "observeNext": [
-            "最高法院是否发布临时命令，允许邮寄投票规则生效。",
-            "法院是否触及邮寄投票行政权的宪法问题。",
-            "国会或各州是否以立法或行政行动回应，以明确权力。"
+            "Retry the independent-source scan on the next scheduled recovery run."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "证据尚未达到发布标准",
+          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "observeNext": [
+            "在下一次定时恢复中重新执行独立来源扫描。"
           ]
         }
       },
+      "decidedAt": "2026-09-10T06:19:40.496Z",
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
+    {
+      "id": "daily-global-2026-09-06",
+      "scope": "global",
+      "date": "2026-09-06",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 0,
+      "evidenceStrength": 0,
+      "noveltyScore": 0,
+      "importanceScore": 0,
+      "candidateSignalIds": [],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
+          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+          "observeNext": [
+            "Retry the independent-source scan on the next scheduled recovery run."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "证据尚未达到发布标准",
+          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "observeNext": [
+            "在下一次定时恢复中重新执行独立来源扫描。"
+          ]
+        }
+      },
+      "decidedAt": "2026-09-10T06:19:56.186Z",
       "previousInsightId": "global-2026-09-04-el-nino-system-risk"
     },
     {
@@ -925,48 +932,6 @@
     },
     {
       "candidateSignalIds": [
-        "sig-2026-08-24-ai-debt-meets-sovereign-bond"
-      ],
-      "content": {
-        "en": {
-          "decisionSummary": "Four corroborating sources—two reliable media and two primary regulators—show AI infrastructure financing colliding with sovereign debt markets. Treasury intervention failed to hold long-end yields, and the Fed is flagging AI credit risk.",
-          "decisionTitle": "AI financing has reached sovereign debt scale",
-          "label": "Publish as new process candidate",
-          "observeNext": [
-            "Anthropic October IPO valuation and pricing",
-            "Broadcom final debt size and spread",
-            "Next Treasury buyback operation and 30-year yield response",
-            "Fed signals on AI credit risk and reserve-management purchases"
-          ],
-          "thresholdReason": "Material change score 88 and publish threshold met; AI financing now appears capable of raising economy-wide funding costs, shifting the binding constraint from cheap capital to long-end rates and credit spreads."
-        },
-        "zh": {
-          "decisionSummary": "四个相互印证来源——两个可靠媒体和两个主要监管机构——显示AI基础设施融资正与主权债务市场相撞。财政部干预未能守住长端收益率，美联储正在警示AI信用风险。",
-          "decisionTitle": "AI融资已达到主权债务规模",
-          "label": "作为新流程候选发布",
-          "observeNext": [
-            "Anthropic 10月IPO估值及定价",
-            "博通最终债务规模和利差",
-            "下一次财政部回购操作及30年期收益率反应",
-            "美联储关于AI信用风险和储备管理购买的信号"
-          ],
-          "thresholdReason": "重大变化评分88，已达到发布阈值；AI融资如今似乎能够推高整体经济融资成本，约束正从廉价资本转向长端利率和信用利差。"
-        }
-      },
-      "date": "2026-08-20",
-      "decidedAt": "2026-08-24T00:15:36.503Z",
-      "evidenceStrength": 85,
-      "id": "daily-global-2026-08-20",
-      "importanceScore": 95,
-      "insightId": "global-2026-08-20-ai-financing-collides-with-sovereign-debt-markets",
-      "materialChangeScore": 88,
-      "noveltyScore": 80,
-      "processId": "process-ai-infrastructure-race",
-      "scope": "global",
-      "state": "publish_new"
-    },
-    {
-      "candidateSignalIds": [
         "candidate-001"
       ],
       "content": {
@@ -1084,6 +1049,48 @@
       "noveltyScore": 70,
       "scope": "global",
       "state": "no_new_global_insight"
+    },
+    {
+      "candidateSignalIds": [
+        "sig-2026-08-24-ai-debt-meets-sovereign-bond"
+      ],
+      "content": {
+        "en": {
+          "decisionSummary": "Four corroborating sources—two reliable media and two primary regulators—show AI infrastructure financing colliding with sovereign debt markets. Treasury intervention failed to hold long-end yields, and the Fed is flagging AI credit risk.",
+          "decisionTitle": "AI financing has reached sovereign debt scale",
+          "label": "Publish as new process candidate",
+          "observeNext": [
+            "Anthropic October IPO valuation and pricing",
+            "Broadcom final debt size and spread",
+            "Next Treasury buyback operation and 30-year yield response",
+            "Fed signals on AI credit risk and reserve-management purchases"
+          ],
+          "thresholdReason": "Material change score 88 and publish threshold met; AI financing now appears capable of raising economy-wide funding costs, shifting the binding constraint from cheap capital to long-end rates and credit spreads."
+        },
+        "zh": {
+          "decisionSummary": "四个相互印证来源——两个可靠媒体和两个主要监管机构——显示AI基础设施融资正与主权债务市场相撞。财政部干预未能守住长端收益率，美联储正在警示AI信用风险。",
+          "decisionTitle": "AI融资已达到主权债务规模",
+          "label": "作为新流程候选发布",
+          "observeNext": [
+            "Anthropic 10月IPO估值及定价",
+            "博通最终债务规模和利差",
+            "下一次财政部回购操作及30年期收益率反应",
+            "美联储关于AI信用风险和储备管理购买的信号"
+          ],
+          "thresholdReason": "重大变化评分88，已达到发布阈值；AI融资如今似乎能够推高整体经济融资成本，约束正从廉价资本转向长端利率和信用利差。"
+        }
+      },
+      "date": "2026-08-20",
+      "decidedAt": "2026-08-24T00:15:36.503Z",
+      "evidenceStrength": 85,
+      "id": "daily-global-2026-08-20",
+      "importanceScore": 95,
+      "insightId": "global-2026-08-20-ai-financing-collides-with-sovereign-debt-markets",
+      "materialChangeScore": 88,
+      "noveltyScore": 80,
+      "processId": "process-ai-infrastructure-race",
+      "scope": "global",
+      "state": "publish_new"
     },
     {
       "candidateSignalIds": [
@@ -1246,7 +1253,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-10T06:19:56.186Z",
+  "generatedAt": "2026-09-10T06:22:55.225Z",
   "insights": [
     {
       "confidence": "verified",
@@ -7111,7 +7118,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-10T06:19:57.928Z"
+    "repairedAt": "2026-09-10T06:22:56.427Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8187,110 +8194,6 @@
   ],
   "writerDrafts": [
     {
-      "id": "writer-research-unavailable-2026-09-06",
-      "scope": "global",
-      "status": "rejected",
-      "writtenAt": "2026-09-10T06:19:52.264Z",
-      "dailyState": "no_new_global_insight",
-      "qualityChecks": {
-        "publishThresholdMet": false,
-        "languagesComplete": true,
-        "warnings": [
-          "Research did not complete: Independent news index returned only 0 usable records."
-        ]
-      },
-      "dailyStateDraft": {
-        "id": "daily-global-2026-09-06",
-        "scope": "global",
-        "date": "2026-09-06",
-        "state": "no_new_global_insight",
-        "materialChangeScore": 0,
-        "evidenceStrength": 0,
-        "noveltyScore": 0,
-        "importanceScore": 0,
-        "candidateSignalIds": [],
-        "content": {
-          "en": {
-            "label": "No verified daily insight",
-            "decisionTitle": "Research could not be completed",
-            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
-            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
-            "observeNext": [
-              "Retry the independent-source scan on the next scheduled recovery run."
-            ]
-          },
-          "zh": {
-            "label": "当日无已验证洞察",
-            "decisionTitle": "研究阶段未能可靠完成",
-            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
-            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-            "observeNext": [
-              "在下一次定时恢复中重新执行独立来源扫描。"
-            ]
-          }
-        }
-      },
-      "review": {
-        "decision": "rejected",
-        "reviewedAt": "2026-09-10T06:19:56.186Z",
-        "originalPublishThresholdMet": false,
-        "originalDailyState": "no_new_global_insight"
-      },
-      "rejectedAt": "2026-09-10T06:19:56.186Z"
-    },
-    {
-      "id": "writer-research-unavailable-2026-09-07",
-      "scope": "global",
-      "status": "rejected",
-      "writtenAt": "2026-09-10T06:19:36.679Z",
-      "dailyState": "no_new_global_insight",
-      "qualityChecks": {
-        "publishThresholdMet": false,
-        "languagesComplete": true,
-        "warnings": [
-          "Research did not complete: Independent news index returned only 0 usable records."
-        ]
-      },
-      "dailyStateDraft": {
-        "id": "daily-global-2026-09-07",
-        "scope": "global",
-        "date": "2026-09-07",
-        "state": "no_new_global_insight",
-        "materialChangeScore": 0,
-        "evidenceStrength": 0,
-        "noveltyScore": 0,
-        "importanceScore": 0,
-        "candidateSignalIds": [],
-        "content": {
-          "en": {
-            "label": "No verified daily insight",
-            "decisionTitle": "Research could not be completed",
-            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
-            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
-            "observeNext": [
-              "Retry the independent-source scan on the next scheduled recovery run."
-            ]
-          },
-          "zh": {
-            "label": "当日无已验证洞察",
-            "decisionTitle": "研究阶段未能可靠完成",
-            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
-            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-            "observeNext": [
-              "在下一次定时恢复中重新执行独立来源扫描。"
-            ]
-          }
-        }
-      },
-      "review": {
-        "decision": "rejected",
-        "reviewedAt": "2026-09-10T06:19:40.496Z",
-        "originalPublishThresholdMet": false,
-        "originalDailyState": "no_new_global_insight"
-      },
-      "rejectedAt": "2026-09-10T06:19:40.496Z"
-    },
-    {
       "id": "writer-candidate-el-nino-food-water-resilience-20260908-1789009532562",
       "scope": "global",
       "status": "rejected",
@@ -8711,11 +8614,115 @@
       },
       "review": {
         "decision": "rejected",
-        "reviewedAt": "2026-09-10T06:19:12.743Z",
+        "reviewedAt": "2026-09-10T06:22:55.225Z",
         "originalPublishThresholdMet": false,
         "originalDailyState": "publish_new"
       },
-      "rejectedAt": "2026-09-10T06:19:12.743Z"
+      "rejectedAt": "2026-09-10T06:22:55.225Z"
+    },
+    {
+      "id": "writer-research-unavailable-2026-09-06",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-10T06:19:52.264Z",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "languagesComplete": true,
+        "warnings": [
+          "Research did not complete: Independent news index returned only 0 usable records."
+        ]
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-06",
+        "scope": "global",
+        "date": "2026-09-06",
+        "state": "no_new_global_insight",
+        "materialChangeScore": 0,
+        "evidenceStrength": 0,
+        "noveltyScore": 0,
+        "importanceScore": 0,
+        "candidateSignalIds": [],
+        "content": {
+          "en": {
+            "label": "No verified daily insight",
+            "decisionTitle": "Research could not be completed",
+            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
+            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+            "observeNext": [
+              "Retry the independent-source scan on the next scheduled recovery run."
+            ]
+          },
+          "zh": {
+            "label": "当日无已验证洞察",
+            "decisionTitle": "研究阶段未能可靠完成",
+            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
+            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+            "observeNext": [
+              "在下一次定时恢复中重新执行独立来源扫描。"
+            ]
+          }
+        }
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-10T06:19:56.186Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "rejectedAt": "2026-09-10T06:19:56.186Z"
+    },
+    {
+      "id": "writer-research-unavailable-2026-09-07",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-10T06:19:36.679Z",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "languagesComplete": true,
+        "warnings": [
+          "Research did not complete: Independent news index returned only 0 usable records."
+        ]
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-07",
+        "scope": "global",
+        "date": "2026-09-07",
+        "state": "no_new_global_insight",
+        "materialChangeScore": 0,
+        "evidenceStrength": 0,
+        "noveltyScore": 0,
+        "importanceScore": 0,
+        "candidateSignalIds": [],
+        "content": {
+          "en": {
+            "label": "No verified daily insight",
+            "decisionTitle": "Research could not be completed",
+            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
+            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+            "observeNext": [
+              "Retry the independent-source scan on the next scheduled recovery run."
+            ]
+          },
+          "zh": {
+            "label": "当日无已验证洞察",
+            "decisionTitle": "研究阶段未能可靠完成",
+            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
+            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+            "observeNext": [
+              "在下一次定时恢复中重新执行独立来源扫描。"
+            ]
+          }
+        }
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-10T06:19:40.496Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "rejectedAt": "2026-09-10T06:19:40.496Z"
     },
     {
       "id": "writer-research-unavailable-2026-09-09",
