@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-05T22:07:03.084Z",
-  "updatedAt": "2026-09-10T06:19:54.076Z",
+  "updatedAt": "2026-09-10T06:19:54.938Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "研究重试已用尽，准备发布透明的当日缺失记录",
-      "updatedAt": "2026-09-05T22:07:46.110Z",
+      "message": "publish",
+      "updatedAt": "2026-09-10T06:19:54.938Z",
       "failedStage": "research",
       "writerDraft": {
         "id": "writer-research-unavailable-2026-09-06",
