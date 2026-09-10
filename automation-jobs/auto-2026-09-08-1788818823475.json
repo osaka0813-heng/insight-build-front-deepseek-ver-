@@ -2,21 +2,21 @@
   "id": "auto-2026-09-08-1788818823475",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-08",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-10T06:19:11.396Z",
+  "updatedAt": "2026-09-10T06:19:16.197Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 2
       },
-      "message": "publish",
+      "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
       "updatedAt": "2026-09-10T06:19:11.396Z",
       "failedStage": "research",
       "researchDraft": {
@@ -1128,8 +1128,8 @@
           "cachedInputTokens": 4096
         }
       },
-      "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789009537036",
-      "completedAt": "2026-09-10T03:05:39.626Z"
+      "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789021153889",
+      "completedAt": "2026-09-10T06:19:16.197Z"
     }
   },
   "lease": {
@@ -1169,5 +1169,6 @@
       }
     ]
   },
-  "message": "重新发布缺失的每日观察"
+  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
+  "completedAt": "2026-09-10T06:19:16.197Z"
 }
