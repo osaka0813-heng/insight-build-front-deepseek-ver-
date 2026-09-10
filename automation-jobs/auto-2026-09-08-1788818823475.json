@@ -6,18 +6,18 @@
   "date": "2026-09-08",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-10T03:01:34.506Z",
+  "updatedAt": "2026-09-10T03:05:20.582Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 2
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-10T03:01:34.506Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-10T03:05:20.582Z",
       "failedStage": "research",
       "researchDraft": {
         "ok": true,
@@ -396,7 +396,161 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 2,
-      "selectedCandidateId": "candidate-el-nino-food-water-resilience-20260908"
+      "selectedCandidateId": "candidate-el-nino-food-water-resilience-20260908",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "candidate-el-nino-food-water-resilience-20260908",
+          "slug": "el-nino-food-water-resilience-20260908",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Food & Water Resilience",
+              "title": "El Niño Becomes a Cross-Continental Preparedness Event",
+              "summary": "European stockpiling advice, South African prevention calls, Sri Lankan disaster readiness and French harvest risk show climate forecasts now shaping food and water action across four continents."
+            },
+            "question": {
+              "lead": "Is climate-induced food and water stress moving from seasonal risk to an active preparedness regime?",
+              "title": "El Niño-era food and water stress becomes a cross-continental preparedness event",
+              "footnote": "A 24-hour reporting cluster links Europe, Africa, Asia and France through concrete public action and harvest warnings."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "All signals in this insight are drawn from four reliable media reports published on 2026-09-07.",
+              "items": [
+                {
+                  "label": "Europe",
+                  "title": "Europeans told to stockpile food for El Niño",
+                  "body": "European residents are being advised to hold food stocks as the world enters what one report calls a weather 'danger zone'.",
+                  "whyImportant": "This turns household preparedness into public guidance and may normalize stockpiling as a routine response to climate forecasts.",
+                  "evidence": {
+                    "title": "AOL report on European stockpiling advice",
+                    "description": "A reliable media report says Europeans are being told to stockpile food for El Niño.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-el-nino-food-water-resilience-20260908-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "South Africa",
+                  "title": "El Niño is here: South Africa must pay for prevention now",
+                  "body": "Commentary argues that South Africa needs to fund preventive measures immediately rather than pay later for disaster response.",
+                  "whyImportant": "It signals a shift in budgeting logic toward front-loaded prevention in climate-exposed food and water systems.",
+                  "evidence": {
+                    "title": "Daily Maverick opinion on prevention funding",
+                    "description": "South African commentary calls for prevention spending now as El Niño arrives.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-el-nino-food-water-resilience-20260908-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Sri Lanka",
+                  "title": "Authorities urge preparedness for El Niño disaster",
+                  "body": "Sri Lankan authorities are calling for public and institutional readiness against a growing El Niño threat.",
+                  "whyImportant": "Official preparedness messaging in South Asia shows government action moving beyond monitoring toward practical disaster readiness.",
+                  "evidence": {
+                    "title": "Lanka Newspapers report on preparedness",
+                    "description": "Sri Lankan authorities urge preparedness for a potential El Niño disaster.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "candidate-el-nino-food-water-resilience-20260908-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "France",
+                  "title": "France's maize harvest risks repeating 1976 historic low",
+                  "body": "Extreme heat and drought could push the French maize harvest toward its historic 1976 low, according to a report comparing the two years.",
+                  "whyImportant": "A major breadbasket warning implies pressure on EU grain supply and food prices if harvest risk materializes.",
+                  "evidence": {
+                    "title": "Economic Times report on French maize harvest risk",
+                    "description": "Fifty years after the 1976 historic low, extreme heat and drought could push France's maize harvest there again.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "candidate-el-nino-food-water-resilience-20260908-source-4"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From weather forecast to food-water resilience action",
+              "before": "El Niño was primarily tracked as a climate and weather phenomenon, with seasonal forecasts used for agriculture and disaster monitoring but not yet treated as an immediate trigger for household stockpiling, prevention budgets and official preparedness across multiple continents.",
+              "shift": "Within a 24-hour reporting cluster, Europe, South Africa, Sri Lanka and France simultaneously moved from passive monitoring to concrete public action and risk escalation: stockpiling advice, prevention spending calls, official disaster preparedness and major harvest warnings.",
+              "now": "Food and water resilience is being organized around El Niño forecasts as an active operational premise, not a seasonal afterthought. Distinct regions are translating the same climate signal into localized supply, budget and readiness decisions.",
+              "conclusion": "This is an important inflection point: if these early actions become routine, countries may reorganize food storage, water infrastructure and emergency supply systems around climate forecasts rather than seasonal norms."
+            },
+            "insight": {
+              "title": "El Niño as a cross-continental food-water resilience trigger",
+              "formula": "Climate forecast + public action across Europe, Africa, Asia and a major breadbasket = a shared preparedness event with food storage, water readiness and harvest risk implications.",
+              "explanation": "Four independent reports within 24 hours show El Niño moving from forecast to action: European residents are told to stockpile food, South Africa is urged to fund prevention, Sri Lanka's authorities call for preparedness, and France's maize harvest is flagged for approaching its 1976 low. The common thread is that climate predictions are now directly shaping food and water resilience decisions across continents."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Policy",
+                  "prompt": "Do European governments or EU institutions formally endorse stockpiling guidance or expand civil protection advice?",
+                  "meta": "Watch official channels and civil protection statements."
+                },
+                {
+                  "label": "Budget",
+                  "prompt": "Does South Africa announce new prevention funding, water restrictions or food-security allocations?",
+                  "meta": "Track finance ministry, agriculture and disaster management responses."
+                },
+                {
+                  "label": "Harvest",
+                  "prompt": "Do France or the EU issue updated maize yield forecasts or emergency agricultural measures?",
+                  "meta": "Follow agricultural ministry and grain market reports."
+                },
+                {
+                  "label": "Preparedness",
+                  "prompt": "Do Sri Lankan authorities activate disaster protocols or request international assistance?",
+                  "meta": "Monitor disaster management center and weather agency bulletins."
+                }
+              ],
+              "ending": "If multiple countries adopt similar measures within the next reporting cycles, the signal may harden into a new climate-food-water process."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Standalone Important Insight",
+            "decisionTitle": "Publish as standalone important insight: El Niño food-water resilience event",
+            "decisionSummary": "A 24-hour, four-source cluster shows El Niño producing concrete public action across Europe, Africa, Asia and France. No existing world process covers climate-induced food-water resilience.",
+            "thresholdReason": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+            "observeNext": [
+              "Watch whether European institutions formalize household stockpiling guidance.",
+              "Track South African prevention funding announcements and water-security measures.",
+              "Monitor French and EU maize harvest estimates for potential 1976-level risk confirmation.",
+              "Observe Sri Lankan disaster preparedness activation or international assistance requests."
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Standalone important insight: climate-driven food-water resilience",
+            "description": "This insight captures a cross-continental shift from weather monitoring to operational preparedness. It is not mapped to an existing world process because energy security, technology control and other candidates do not cover agricultural commodities, water systems or household stockpiling guidance.",
+            "implication": "If the observed actions intensify, a new world process may be needed around climate-induced food and water resilience, linking food storage, water infrastructure, disaster budgets and emergency supply systems to climate forecasts."
+          },
+          "nextQuestionEn": "Will European governments, South African finance authorities, Sri Lankan disaster agencies and French agricultural institutions convert early signals into durable policies within the next 30 days?",
+          "observeNextEn": [
+            "Watch for EU or national guidance on household food stockpiling linked to El Niño.",
+            "Track South African prevention funding, water restrictions or food-security allocations.",
+            "Monitor France's maize yield updates and EU emergency agricultural responses.",
+            "Observe Sri Lanka's disaster preparedness activation and any international aid requests."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2806,
+          "outputTokens": 4623,
+          "cachedInputTokens": 2688
+        }
+      }
     }
   },
   "lease": {
