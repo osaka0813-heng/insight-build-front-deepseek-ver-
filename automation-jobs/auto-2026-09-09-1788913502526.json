@@ -2,22 +2,22 @@
   "id": "auto-2026-09-09-1788913502526",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "failed",
   "date": "2026-09-09",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-09T00:25:02.526Z",
-  "updatedAt": "2026-09-10T04:29:05.554Z",
+  "updatedAt": "2026-09-10T04:30:58.344Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "error",
       "stage": "research",
       "attempts": {
-        "research": 2
+        "research": 3
       },
-      "message": "research",
-      "updatedAt": "2026-09-10T04:29:05.554Z",
+      "message": "Independent news index returned only 0 usable records. Failures: macro-finance: GDELT macro-finance failed (429). | industry-trade: GDELT industry-trade failed (429). | energy-resources: GDELT energy-resources failed (429). | health-science: fetch failed | climate-environment: fetch failed | demographics-society: fetch failed | institutions-culture: fetch failed | technology-ai: fetch failed",
+      "updatedAt": "2026-09-10T04:30:58.343Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,7 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "WORLD 在 research 连续失败 3 次，已保留断点。",
+  "failedStage": "research",
+  "completedAt": "2026-09-10T04:30:58.344Z"
 }
