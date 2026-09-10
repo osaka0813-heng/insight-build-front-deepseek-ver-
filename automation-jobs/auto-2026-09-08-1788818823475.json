@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-09-07T22:07:03.475Z",
-  "updatedAt": "2026-09-10T06:19:16.197Z",
+  "updatedAt": "2026-09-10T06:19:36.452Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1131,11 +1131,6 @@
       "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789021153889",
       "completedAt": "2026-09-10T06:19:16.197Z"
     }
-  },
-  "lease": {
-    "owner": "cron-1789021148599-isddfokl",
-    "acquiredAt": "2026-09-10T06:19:10.451Z",
-    "expiresAt": "2026-09-10T06:24:00.451Z"
   },
   "preflight": {
     "ok": true,
