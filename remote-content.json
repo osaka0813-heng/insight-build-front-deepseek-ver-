@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-sig-20260910-supreme-court-mail-voting-1789008925717-1789008929888",
+  "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789009537036",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -1079,7 +1079,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-10T02:55:28.673Z",
+  "generatedAt": "2026-09-10T03:05:35.576Z",
   "insights": [
     {
       "confidence": "verified",
@@ -6944,7 +6944,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-10T02:55:29.888Z"
+    "repairedAt": "2026-09-10T03:05:37.036Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8019,6 +8019,433 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-candidate-el-nino-food-water-resilience-20260908-1789009532562",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-10T03:05:32.562Z",
+      "researchDraftId": "research-global-2026-09-08-1788870406035",
+      "candidateId": "candidate-el-nino-food-water-resilience-20260908",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ]
+      },
+      "insight": {
+        "id": "candidate-el-nino-food-water-resilience-20260908",
+        "scope": "global",
+        "slug": "el-nino-food-water-resilience-20260908",
+        "status": "publish_new",
+        "publishedAt": "2026-09-08T00:00:00.000Z",
+        "updatedAt": "2026-09-10T03:05:32.562Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Food & Water Resilience",
+              "title": "El Niño Becomes a Cross-Continental Preparedness Event",
+              "summary": "European stockpiling advice, South African prevention calls, Sri Lankan disaster readiness and French harvest risk show climate forecasts now shaping food and water action across four continents."
+            },
+            "question": {
+              "lead": "Is climate-induced food and water stress moving from seasonal risk to an active preparedness regime?",
+              "title": "El Niño-era food and water stress becomes a cross-continental preparedness event",
+              "footnote": "A 24-hour reporting cluster links Europe, Africa, Asia and France through concrete public action and harvest warnings."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "All signals in this insight are drawn from four reliable media reports published on 2026-09-07.",
+              "items": [
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-1",
+                  "label": "Europe",
+                  "title": "Europeans told to stockpile food for El Niño",
+                  "body": "European residents are being advised to hold food stocks as the world enters what one report calls a weather 'danger zone'.",
+                  "whyImportant": "This turns household preparedness into public guidance and may normalize stockpiling as a routine response to climate forecasts.",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-1",
+                      "title": "AOL report on European stockpiling advice",
+                      "description": "A reliable media report says Europeans are being told to stockpile food for El Niño.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-1",
+                      "title": "Europeans told to stockpile food for El Nino as world enters 'danger zone' of weather",
+                      "publisher": "AOL",
+                      "publishedAt": "2026-09-07T15:45:00.000Z",
+                      "url": "https://www.aol.com/articles/europeans-told-stockpile-food-el-145100000.html",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-2",
+                  "label": "South Africa",
+                  "title": "El Niño is here: South Africa must pay for prevention now",
+                  "body": "Commentary argues that South Africa needs to fund preventive measures immediately rather than pay later for disaster response.",
+                  "whyImportant": "It signals a shift in budgeting logic toward front-loaded prevention in climate-exposed food and water systems.",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-2",
+                      "title": "Daily Maverick opinion on prevention funding",
+                      "description": "South African commentary calls for prevention spending now as El Niño arrives.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-2",
+                      "title": "El Niño is here : South Africa must pay for prevention now",
+                      "publisher": "Daily Maverick",
+                      "publishedAt": "2026-09-07T19:15:00.000Z",
+                      "url": "https://www.dailymaverick.co.za/opinionista/2026-09-07-el-nino-is-here-south-africa-must-pay-for-prevention-now/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-3",
+                  "label": "Sri Lanka",
+                  "title": "Authorities urge preparedness for El Niño disaster",
+                  "body": "Sri Lankan authorities are calling for public and institutional readiness against a growing El Niño threat.",
+                  "whyImportant": "Official preparedness messaging in South Asia shows government action moving beyond monitoring toward practical disaster readiness.",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-3",
+                      "title": "Lanka Newspapers report on preparedness",
+                      "description": "Sri Lankan authorities urge preparedness for a potential El Niño disaster.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-3",
+                      "title": "Sri Lanka Faces Growing El Niño Threat : Authorities Urge Preparedness for Potential Disaster",
+                      "publisher": "Lanka Newspapers",
+                      "publishedAt": "2026-09-07T04:00:00.000Z",
+                      "url": "https://www.lankanewspapers.com/2026/09/07/sri-lanka-faces-growing-el-ni-o-threat-authorities-urge-preparedness-for-potential-disaster",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-4",
+                  "label": "France",
+                  "title": "France's maize harvest risks repeating 1976 historic low",
+                  "body": "Extreme heat and drought could push the French maize harvest toward its historic 1976 low, according to a report comparing the two years.",
+                  "whyImportant": "A major breadbasket warning implies pressure on EU grain supply and food prices if harvest risk materializes.",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-4",
+                      "title": "Economic Times report on French maize harvest risk",
+                      "description": "Fifty years after the 1976 historic low, extreme heat and drought could push France's maize harvest there again.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-4",
+                      "title": "In 1976 , France maize harvest hit a historic low ; 50 years later , extreme heat and drought could be pushing it there again",
+                      "publisher": "The Economic Times",
+                      "publishedAt": "2026-09-07T18:45:00.000Z",
+                      "url": "https://economictimes.indiatimes.com/news/international/global-trends/in-1976-frances-maize-harvest-hit-a-historic-low-50-years-later-extreme-heat-and-drought-could-be-pushing-it-there-again/articleshow/133892449.cms",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From weather forecast to food-water resilience action",
+              "before": "El Niño was primarily tracked as a climate and weather phenomenon, with seasonal forecasts used for agriculture and disaster monitoring but not yet treated as an immediate trigger for household stockpiling, prevention budgets and official preparedness across multiple continents.",
+              "shift": "Within a 24-hour reporting cluster, Europe, South Africa, Sri Lanka and France simultaneously moved from passive monitoring to concrete public action and risk escalation: stockpiling advice, prevention spending calls, official disaster preparedness and major harvest warnings.",
+              "now": "Food and water resilience is being organized around El Niño forecasts as an active operational premise, not a seasonal afterthought. Distinct regions are translating the same climate signal into localized supply, budget and readiness decisions.",
+              "conclusion": "This is an important inflection point: if these early actions become routine, countries may reorganize food storage, water infrastructure and emergency supply systems around climate forecasts rather than seasonal norms."
+            },
+            "insight": {
+              "title": "El Niño as a cross-continental food-water resilience trigger",
+              "formula": "Climate forecast + public action across Europe, Africa, Asia and a major breadbasket = a shared preparedness event with food storage, water readiness and harvest risk implications.",
+              "explanation": "Four independent reports within 24 hours show El Niño moving from forecast to action: European residents are told to stockpile food, South Africa is urged to fund prevention, Sri Lanka's authorities call for preparedness, and France's maize harvest is flagged for approaching its 1976 low. The common thread is that climate predictions are now directly shaping food and water resilience decisions across continents."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Policy",
+                  "prompt": "Do European governments or EU institutions formally endorse stockpiling guidance or expand civil protection advice?",
+                  "meta": "Watch official channels and civil protection statements."
+                },
+                {
+                  "label": "Budget",
+                  "prompt": "Does South Africa announce new prevention funding, water restrictions or food-security allocations?",
+                  "meta": "Track finance ministry, agriculture and disaster management responses."
+                },
+                {
+                  "label": "Harvest",
+                  "prompt": "Do France or the EU issue updated maize yield forecasts or emergency agricultural measures?",
+                  "meta": "Follow agricultural ministry and grain market reports."
+                },
+                {
+                  "label": "Preparedness",
+                  "prompt": "Do Sri Lankan authorities activate disaster protocols or request international assistance?",
+                  "meta": "Monitor disaster management center and weather agency bulletins."
+                }
+              ],
+              "ending": "If multiple countries adopt similar measures within the next reporting cycles, the signal may harden into a new climate-food-water process."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "粮食与水韧性",
+              "title": "厄尔尼诺成为跨大陆的备灾事件",
+              "summary": "欧洲的囤粮建议、南非的预防呼吁、斯里兰卡的灾害备战与法国收成风险显示，气候预测正在四大洲影响粮食与水的行动。"
+            },
+            "question": {
+              "lead": "气候引发的粮食与水压力，是否正从季节性风险转向主动备灾机制？",
+              "title": "厄尔尼诺时代的粮食与水压力成为跨大陆备灾事件",
+              "footnote": "24小时内的报道集群通过具体的公共行动和收成警告，把欧洲、非洲、亚洲和法国联系在一起。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "本洞察中的所有信号均来自2026-09-07发布的四篇可靠媒体报道。",
+              "items": [
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-1",
+                  "label": "欧洲",
+                  "title": "欧洲人被建议为厄尔尼诺囤粮",
+                  "body": "随着世界进入一篇报道所称的天气“危险区”，欧洲居民被建议储备粮食。",
+                  "whyImportant": "这使家庭备灾上升为公共指引，并可能把囤粮正常化为对气候预测的常规应对。",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-1",
+                      "title": "AOL关于欧洲囤粮建议的报道",
+                      "description": "一篇可靠媒体报道称，欧洲人被告知要为厄尔尼诺囤积粮食。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-1",
+                      "title": "Europeans told to stockpile food for El Nino as world enters 'danger zone' of weather",
+                      "publisher": "AOL",
+                      "publishedAt": "2026-09-07T15:45:00.000Z",
+                      "url": "https://www.aol.com/articles/europeans-told-stockpile-food-el-145100000.html",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-2",
+                  "label": "南非",
+                  "title": "厄尔尼诺已至：南非现在就得为预防付费",
+                  "body": "评论认为，南非需要立即为预防措施提供资金，而不是日后为灾害应对买单。",
+                  "whyImportant": "这表明在气候暴露的粮食与水系统中，预算逻辑正转向前置投入的预防。",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-2",
+                      "title": "Daily Maverick关于预防资金的评论",
+                      "description": "南非评论呼吁在厄尔尼诺到来之际立即投入预防支出。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-2",
+                      "title": "El Niño is here : South Africa must pay for prevention now",
+                      "publisher": "Daily Maverick",
+                      "publishedAt": "2026-09-07T19:15:00.000Z",
+                      "url": "https://www.dailymaverick.co.za/opinionista/2026-09-07-el-nino-is-here-south-africa-must-pay-for-prevention-now/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-3",
+                  "label": "斯里兰卡",
+                  "title": "当局呼吁为厄尔尼诺灾害做好准备",
+                  "body": "斯里兰卡当局正呼吁公众和机构为日益加剧的厄尔尼诺威胁做好准备。",
+                  "whyImportant": "南亚的官方备战信息显示，政府行动正从监测转向实际的灾害准备。",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-3",
+                      "title": "Lanka Newspapers关于备战的报道",
+                      "description": "斯里兰卡当局呼吁为可能的厄尔尼诺灾害做好准备。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-3"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-3",
+                      "title": "Sri Lanka Faces Growing El Niño Threat : Authorities Urge Preparedness for Potential Disaster",
+                      "publisher": "Lanka Newspapers",
+                      "publishedAt": "2026-09-07T04:00:00.000Z",
+                      "url": "https://www.lankanewspapers.com/2026/09/07/sri-lanka-faces-growing-el-ni-o-threat-authorities-urge-preparedness-for-potential-disaster",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "candidate-el-nino-food-water-resilience-20260908-signal-4",
+                  "label": "法国",
+                  "title": "法国玉米收成面临重演1976年历史低点的风险",
+                  "body": "据一篇对比这两年的报道，极端高温和干旱可能把法国玉米收成推向1976年的历史低点。",
+                  "whyImportant": "重要粮仓的警告意味着，若收成风险成真，欧盟粮食供应和食品价格将承压。",
+                  "evidence": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-evidence-4",
+                      "title": "Economic Times关于法国玉米收成风险的报道",
+                      "description": "在1976年历史低点50年后，极端高温和干旱可能再次把法国玉米收成推向该水平。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "candidate-el-nino-food-water-resilience-20260908-source-4"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "candidate-el-nino-food-water-resilience-20260908-source-4",
+                      "title": "In 1976 , France maize harvest hit a historic low ; 50 years later , extreme heat and drought could be pushing it there again",
+                      "publisher": "The Economic Times",
+                      "publishedAt": "2026-09-07T18:45:00.000Z",
+                      "url": "https://economictimes.indiatimes.com/news/international/global-trends/in-1976-frances-maize-harvest-hit-a-historic-low-50-years-later-extreme-heat-and-drought-could-be-pushing-it-there-again/articleshow/133892449.cms",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从天气预报到粮食与水韧性行动",
+              "before": "厄尔尼诺主要被视为气候和天气现象，季节预测用于农业和灾害监测，但尚未被视为家庭囤粮、预防预算和多洲官方备战的直接触发因素。",
+              "shift": "在24小时的报道集群内，欧洲、南非、斯里兰卡和法国同时从被动监测转向具体的公共行动与风险升级：囤粮建议、预防支出呼吁、官方灾害备战和重大收成警告。",
+              "now": "粮食与水韧性正围绕厄尔尼诺预测组织起来，成为一种主动的运营前提，而非季节性的补充事项。不同地区正把同一气候信号转化为本地化的供应、预算和备战决策。",
+              "conclusion": "这是一个重要的转折点：如果这些早期行动成为常规，各国可能会围绕气候预测而非季节常态，重组粮食储备、水利基础设施和应急供应体系。"
+            },
+            "insight": {
+              "title": "厄尔尼诺作为跨大陆的粮食与水韧性触发因素",
+              "formula": "气候预测 + 欧洲、非洲、亚洲和一个重要粮仓的公共行动 = 一个共同的备灾事件，涉及粮食储备、水资源备战和收成风险。",
+              "explanation": "24小时内的四篇独立报道显示，厄尔尼诺正从预测走向行动：欧洲居民被告知囤粮，南非被呼吁为预防出资，斯里兰卡当局呼吁备战，法国玉米收成被提示接近1976年低点。共同点在于，气候预测如今正直接塑造各洲的粮食与水韧性决策。"
+            },
+            "observe": {
+              "title": "接下来该观察什么",
+              "items": [
+                {
+                  "label": "政策",
+                  "prompt": "欧洲各国政府或欧盟机构是否会正式认可囤粮指引，或扩大民防建议？",
+                  "meta": "关注官方渠道和民防声明。"
+                },
+                {
+                  "label": "预算",
+                  "prompt": "南非是否会宣布新的预防资金、限水措施或粮食安全拨款？",
+                  "meta": "跟踪财政部、农业和灾害管理部门的回应。"
+                },
+                {
+                  "label": "收成",
+                  "prompt": "法国或欧盟是否会发布更新的玉米产量预测或紧急农业措施？",
+                  "meta": "跟进农业部和粮食市场报告。"
+                },
+                {
+                  "label": "备战",
+                  "prompt": "斯里兰卡当局是否会启动灾害预案或请求国际援助？",
+                  "meta": "监测灾害管理中心和气象机构公告。"
+                }
+              ],
+              "ending": "如果多个国家在接下来的报道周期内采取类似措施，该信号可能固化为一个新的气候—粮食—水进程。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-08",
+        "scope": "global",
+        "date": "2026-09-08",
+        "decidedAt": "2026-09-10T03:05:32.562Z",
+        "state": "publish_new",
+        "insightId": "candidate-el-nino-food-water-resilience-20260908",
+        "materialChangeScore": 72,
+        "evidenceStrength": 70,
+        "noveltyScore": 65,
+        "importanceScore": 80,
+        "candidateSignalIds": [
+          "candidate-el-nino-food-water-resilience-20260908"
+        ],
+        "content": {
+          "en": {
+            "label": "Standalone Important Insight",
+            "decisionTitle": "Publish as standalone important insight: El Niño food-water resilience event",
+            "decisionSummary": "A 24-hour, four-source cluster shows El Niño producing concrete public action across Europe, Africa, Asia and France. No existing world process covers climate-induced food-water resilience.",
+            "thresholdReason": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+            "observeNext": [
+              "Watch whether European institutions formalize household stockpiling guidance.",
+              "Track South African prevention funding announcements and water-security measures.",
+              "Monitor French and EU maize harvest estimates for potential 1976-level risk confirmation.",
+              "Observe Sri Lankan disaster preparedness activation or international assistance requests."
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 6049,
+        "outputTokens": 6515,
+        "cachedInputTokens": 4096
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-10T03:05:35.576Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "publish_new"
+      },
+      "rejectedAt": "2026-09-10T03:05:35.576Z"
+    },
     {
       "id": "writer-sig-20260910-supreme-court-mail-voting-1789008925717",
       "scope": "global",
