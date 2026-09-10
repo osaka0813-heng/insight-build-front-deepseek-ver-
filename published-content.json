@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T03:05:35.576Z",
-  "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789009537036",
+  "generatedAt": "2026-09-10T06:02:07.854Z",
+  "contentVersion": "review-writer-sig-20260910-supreme-court-mail-voting-1789008925717-1789020128965",
   "insights": [
     {
       "confidence": "verified",
@@ -6229,6 +6229,45 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-10",
+      "scope": "global",
+      "date": "2026-09-10",
+      "decidedAt": "2026-09-10T06:02:07.854Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 51,
+      "evidenceStrength": 55,
+      "noveltyScore": 52,
+      "importanceScore": 64,
+      "candidateSignalIds": [
+        "sig-20260910-supreme-court-mail-voting"
+      ],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
+          "thresholdReason": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
+          "observeNext": [
+            "Whether the Supreme Court issues an interim order allowing the mail-in voting rules to take effect.",
+            "Whether the Court reaches the constitutional question of executive authority over mail-in voting.",
+            "Whether Congress or states react with legislation or administrative actions to clarify authority."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "证据尚未达到发布标准",
+          "decisionSummary": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
+          "thresholdReason": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
+          "observeNext": [
+            "最高法院是否发布临时命令，允许邮寄投票规则生效。",
+            "法院是否触及邮寄投票行政权的宪法问题。",
+            "国会或各州是否以立法或行政行动回应，以明确权力。"
+          ]
+        }
+      },
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
+    {
       "candidateSignalIds": [
         "sig-2026-09-05-us-election-courts"
       ],
@@ -7224,6 +7263,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-10T03:05:37.036Z"
+    "repairedAt": "2026-09-10T06:02:08.966Z"
   }
 }
