@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-research-unavailable-2026-09-09-1789021114391",
+  "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789021153889",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -243,6 +243,35 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-global-2026-09-08",
+      "scope": "global",
+      "date": "2026-09-08",
+      "decidedAt": "2026-09-10T06:19:12.743Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 72,
+      "evidenceStrength": 70,
+      "noveltyScore": 65,
+      "importanceScore": 80,
+      "candidateSignalIds": [
+        "candidate-el-nino-food-water-resilience-20260908"
+      ],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+          "thresholdReason": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+          "observeNext": [
+            "Watch whether European institutions formalize household stockpiling guidance.",
+            "Track South African prevention funding announcements and water-security measures.",
+            "Monitor French and EU maize harvest estimates for potential 1976-level risk confirmation.",
+            "Observe Sri Lankan disaster preparedness activation or international assistance requests."
+          ]
+        }
+      },
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
     {
       "id": "daily-global-2026-09-09",
       "scope": "global",
@@ -1151,7 +1180,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-10T06:18:33.256Z",
+  "generatedAt": "2026-09-10T06:19:12.743Z",
   "insights": [
     {
       "confidence": "verified",
@@ -7016,7 +7045,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-10T06:18:34.392Z"
+    "repairedAt": "2026-09-10T06:19:13.889Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8092,375 +8121,6 @@
   ],
   "writerDrafts": [
     {
-      "id": "writer-research-unavailable-2026-09-09",
-      "scope": "global",
-      "status": "rejected",
-      "writtenAt": "2026-09-10T06:18:30.296Z",
-      "dailyState": "no_new_global_insight",
-      "qualityChecks": {
-        "publishThresholdMet": false,
-        "languagesComplete": true,
-        "warnings": [
-          "Research did not complete: Insufficient Balance"
-        ]
-      },
-      "dailyStateDraft": {
-        "id": "daily-global-2026-09-09",
-        "scope": "global",
-        "date": "2026-09-09",
-        "state": "no_new_global_insight",
-        "materialChangeScore": 0,
-        "evidenceStrength": 0,
-        "noveltyScore": 0,
-        "importanceScore": 0,
-        "candidateSignalIds": [],
-        "content": {
-          "en": {
-            "label": "No verified daily insight",
-            "decisionTitle": "Research could not be completed",
-            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
-            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
-            "observeNext": [
-              "Retry the independent-source scan on the next scheduled recovery run."
-            ]
-          },
-          "zh": {
-            "label": "当日无已验证洞察",
-            "decisionTitle": "研究阶段未能可靠完成",
-            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
-            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-            "observeNext": [
-              "在下一次定时恢复中重新执行独立来源扫描。"
-            ]
-          }
-        }
-      },
-      "review": {
-        "decision": "rejected",
-        "reviewedAt": "2026-09-10T06:18:33.256Z",
-        "originalPublishThresholdMet": false,
-        "originalDailyState": "no_new_global_insight"
-      },
-      "rejectedAt": "2026-09-10T06:18:33.256Z"
-    },
-    {
-      "id": "writer-sig-20260910-supreme-court-mail-voting-1789008925717",
-      "scope": "global",
-      "status": "rejected",
-      "writtenAt": "2026-09-10T02:55:25.717Z",
-      "researchDraftId": "research-global-2026-09-10-1789005451340",
-      "candidateId": "sig-20260910-supreme-court-mail-voting",
-      "model": "deepseek-v4-pro + deepseek-flash",
-      "dailyState": "publish_new",
-      "qualityChecks": {
-        "publishThresholdMet": false,
-        "sourceUrlsPreserved": true,
-        "noMarkdownLinksInCopy": true,
-        "languagesComplete": true,
-        "warnings": [
-          "Candidate does not meet publication threshold."
-        ]
-      },
-      "insight": {
-        "id": "sig-20260910-supreme-court-mail-voting",
-        "scope": "global",
-        "slug": "supreme-court-weighs-trump-mail-voting-rules",
-        "status": "publish_new",
-        "publishedAt": "2026-09-10T00:00:00.000Z",
-        "updatedAt": "2026-09-10T02:55:25.717Z",
-        "confidence": "hypothesis",
-        "content": {
-          "en": {
-            "cover": {
-              "eyebrow": "U.S. Supreme Court / Election administration",
-              "secondaryEyebrow": "Constitutional process watch",
-              "title": "The court as gatekeeper before the merits",
-              "summary": "The U.S. Supreme Court may allow contested Trump administration voting-by-mail rules to take effect while deferring the constitutional question, testing whether pre-merits relief shifts practical ballot access even without a ruling."
-            },
-            "question": {
-              "lead": "The case asks whether the president can set federal voting-by-mail rules—and whether courts should let them operate before deciding if they are lawful.",
-              "title": "Who controls the rules of voting before courts rule?",
-              "footnote": "As of September 10, 2026, the Court has not issued a decision; it is weighing whether the rules can take effect."
-            },
-            "signals": {
-              "title": "Two signals from the Supreme Court docket",
-              "sourceNote": "Based on two reliable media reports dated September 9, 2026: The Conversation and Idaho State Journal. Both cover the Supreme Court's pending decision and lawmakers' filing.",
-              "items": [
-                {
-                  "id": "sig-20260910-supreme-court-mail-voting-signal-1",
-                  "label": "Signal 1",
-                  "title": "Supreme Court may allow rules before constitutional ruling",
-                  "body": "The U.S. Supreme Court is set to decide whether the Trump administration's voting-by-mail rules can go into effect, while possibly deferring the constitutional question.",
-                  "whyImportant": "If the rules take effect before a merits ruling, they can change practical voting access even if later held invalid.",
-                  "evidence": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-evidence-1",
-                      "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
-                      "description": "The Conversation reported on September 9, 2026 that the Court may rule separately on interim effect and constitutional validity.",
-                      "confidence": "developing",
-                      "sourceIds": [
-                        "sig-20260910-supreme-court-mail-voting-source-1"
-                      ]
-                    }
-                  ],
-                  "sources": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-source-1",
-                      "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
-                      "publisher": "theconversation.com",
-                      "publishedAt": "2026-09-09T00:00:00.000Z",
-                      "url": "https://theconversation.com/supreme-court-to-decide-on-whether-trumps-voting-by-mail-rules-can-go-into-effect-but-might-not-rule-yet-on-whether-theyre-constitutional-291512",
-                      "type": "media",
-                      "reliability": "strong",
-                      "note": "trigger source"
-                    }
-                  ]
-                },
-                {
-                  "id": "sig-20260910-supreme-court-mail-voting-signal-2",
-                  "label": "Signal 2",
-                  "title": "Lawmakers argue president lacks mail-in voting authority",
-                  "body": "Lawmakers have told the Supreme Court that the president does not have the power to limit mail-in voting, directly contesting the administration's authority.",
-                  "whyImportant": "This frames the case as a separation-of-powers dispute over whether the president, Congress, or states control federal election administration.",
-                  "evidence": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-evidence-2",
-                      "title": "Trump doesn't have the power to limit mail-in voting, lawmakers tell US Supreme Court",
-                      "description": "Idaho State Journal reported on September 9, 2026 that lawmakers submitted arguments against executive authority over mail-in voting.",
-                      "confidence": "developing",
-                      "sourceIds": [
-                        "sig-20260910-supreme-court-mail-voting-source-2"
-                      ]
-                    }
-                  ],
-                  "sources": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-source-2",
-                      "title": "Trump doesnt have the power to limit mail - in voting , lawmakers tell US Supreme Court | Local",
-                      "publisher": "idahostatejournal.com",
-                      "publishedAt": "2026-09-09T18:45:00.000Z",
-                      "url": "http://www.idahostatejournal.com/news/local/trump-doesn-t-have-the-power-to-limit-mail-in-voting-lawmakers-tell-us-supreme/article_1633995a-4cfe-4d6b-8b90-909fddfbdb9e.html",
-                      "type": "media",
-                      "reliability": "strong",
-                      "note": "trigger source"
-                    }
-                  ]
-                }
-              ]
-            },
-            "pattern": {
-              "title": "Pre-merits operation as de facto election law",
-              "before": "The constitutional question of executive authority over mail-in voting remained unaddressed by the Supreme Court; contested federal election rules did not have an operational interim pathway at the center of review.",
-              "shift": "The Supreme Court is now considering whether to let the Trump administration's voting-by-mail rules take effect immediately, while possibly deferring the constitutional question, separating interim operation from validity.",
-              "now": "No ruling has issued, so the operational status of the rules is unchanged; however, the case has placed pre-merits relief at the center of how contested election administration rules can become effective before review.",
-              "conclusion": "If the Court allows the rules to take effect, it will establish a pathway in which contested executive election rules can shape ballot access before constitutional review is complete."
-            },
-            "insight": {
-              "title": "Interim permission can shift access before the law is settled",
-              "formula": "Executive voting rules + pre-merits judicial permission = practical ballot access shift without constitutional resolution",
-              "explanation": "Because mail-in balloting volumes are large, a decision to let contested rules operate—even without a merits ruling—changes who can practically vote. This makes the timing and form of interim relief as consequential as the eventual constitutional answer."
-            },
-            "observe": {
-              "title": "What to watch",
-              "items": [
-                {
-                  "label": "Court action",
-                  "prompt": "Does the Supreme Court issue an order allowing the rules to take effect, deny interim relief, or defer?",
-                  "meta": "Monitor Supreme Court docket and official orders"
-                },
-                {
-                  "label": "Merits question",
-                  "prompt": "Does the Court address executive authority over mail-in voting, or does it decide only on interim effect?",
-                  "meta": "Watch opinions and separate statements"
-                },
-                {
-                  "label": "Legislative response",
-                  "prompt": "Do lawmakers propose legislation to clarify authority over federal election administration?",
-                  "meta": "Track congressional statements and bills"
-                },
-                {
-                  "label": "State implementation",
-                  "prompt": "Do states preempt or comply with the federal mail-in voting rules if they take effect?",
-                  "meta": "Follow state election officials' actions"
-                }
-              ],
-              "ending": "The signal matters only if one of these decisional steps occurs; until then, treat as a live pre-decision watch item."
-            }
-          },
-          "zh": {
-            "cover": {
-              "eyebrow": "美国最高法院 / 选举管理",
-              "secondaryEyebrow": "宪法程序观察",
-              "title": "法院作为实体审理前的守门人",
-              "summary": "美国最高法院可能允许受争议的特朗普政府邮寄投票规则生效，同时推迟宪法问题，检验实体审理前的救济是否即使没有裁决也会改变实际投票渠道。"
-            },
-            "question": {
-              "lead": "本案提出的问题是，总统能否制定联邦邮寄投票规则——以及法院是否应在裁定其是否合法之前允许其运行。",
-              "title": "在法院裁决前，谁控制投票规则？",
-              "footnote": "截至2026年9月10日，法院尚未作出裁决；正在权衡这些规则能否生效。"
-            },
-            "signals": {
-              "title": "最高法院案件中的两个信号",
-              "sourceNote": "基于2026年9月9日两篇可靠媒体报道：The Conversation 与 Idaho State Journal。两篇均报道最高法院待决裁决与议员提交意见。",
-              "items": [
-                {
-                  "id": "sig-20260910-supreme-court-mail-voting-signal-1",
-                  "label": "信号1",
-                  "title": "最高法院可能先允许规则生效，再裁定合宪性",
-                  "body": "美国最高法院即将决定特朗普政府的邮寄投票规则能否生效，同时可能推迟宪法问题。",
-                  "whyImportant": "如果规则在实体裁决前生效，即使之后被认定无效，也可能改变实际投票渠道。",
-                  "evidence": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-evidence-1",
-                      "title": "最高法院将决定特朗普邮寄投票规则能否生效——但可能暂不裁定其是否合宪",
-                      "description": "The Conversation 于2026年9月9日报道，法院可能分别就临时效力和合宪性作出裁决。",
-                      "confidence": "developing",
-                      "sourceIds": [
-                        "sig-20260910-supreme-court-mail-voting-source-1"
-                      ]
-                    }
-                  ],
-                  "sources": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-source-1",
-                      "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
-                      "publisher": "theconversation.com",
-                      "publishedAt": "2026-09-09T00:00:00.000Z",
-                      "url": "https://theconversation.com/supreme-court-to-decide-on-whether-trumps-voting-by-mail-rules-can-go-into-effect-but-might-not-rule-yet-on-whether-theyre-constitutional-291512",
-                      "type": "media",
-                      "reliability": "strong",
-                      "note": "trigger source"
-                    }
-                  ]
-                },
-                {
-                  "id": "sig-20260910-supreme-court-mail-voting-signal-2",
-                  "label": "信号2",
-                  "title": "议员主张总统无权限制邮寄投票",
-                  "body": "议员已告知最高法院，总统无权限制邮寄投票，直接质疑政府的权力。",
-                  "whyImportant": "这将案件框定为分权争议，即总统、国会或各州谁控制联邦选举管理。",
-                  "evidence": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-evidence-2",
-                      "title": "议员告诉美国最高法院：特朗普无权限制邮寄投票",
-                      "description": "Idaho State Journal 于2026年9月9日报道，议员提交了反对行政权管辖邮寄投票的论点。",
-                      "confidence": "developing",
-                      "sourceIds": [
-                        "sig-20260910-supreme-court-mail-voting-source-2"
-                      ]
-                    }
-                  ],
-                  "sources": [
-                    {
-                      "id": "sig-20260910-supreme-court-mail-voting-source-2",
-                      "title": "Trump doesnt have the power to limit mail - in voting , lawmakers tell US Supreme Court | Local",
-                      "publisher": "idahostatejournal.com",
-                      "publishedAt": "2026-09-09T18:45:00.000Z",
-                      "url": "http://www.idahostatejournal.com/news/local/trump-doesn-t-have-the-power-to-limit-mail-in-voting-lawmakers-tell-us-supreme/article_1633995a-4cfe-4d6b-8b90-909fddfbdb9e.html",
-                      "type": "media",
-                      "reliability": "strong",
-                      "note": "trigger source"
-                    }
-                  ]
-                }
-              ]
-            },
-            "pattern": {
-              "title": "实体审理前的运行作为事实上的选举法",
-              "before": "最高法院尚未处理关于邮寄投票行政权的宪法问题；受争议的联邦选举规则在审查中心没有临时运行路径。",
-              "shift": "最高法院现正考虑是否让特朗普政府的邮寄投票规则立即生效，同时可能推迟宪法问题，将临时运行与合法性分开。",
-              "now": "尚未作出裁决，因此规则的实际运行状态未变；但案件已将实体审理前救济置于受争议选举管理规则如何在审查前生效的核心。",
-              "conclusion": "如果法院允许规则生效，将确立一条路径：受争议的行政选举规则可在宪法审查完成前塑造投票渠道。"
-            },
-            "insight": {
-              "title": "临时许可可在法律确定前改变投票渠道",
-              "formula": "行政投票规则 + 实体审理前司法许可 = 未经宪法解决的实际投票渠道变化",
-              "explanation": "由于邮寄投票规模庞大，允许受争议规则运行——即使没有实体裁决——也会改变谁实际能够投票。这使得临时救济的时机和形式与最终宪法答案同样重要。"
-            },
-            "observe": {
-              "title": "需关注什么",
-              "items": [
-                {
-                  "label": "法院行动",
-                  "prompt": "最高法院是否发布命令允许规则生效、拒绝临时救济或推迟？",
-                  "meta": "监测最高法院案件和正式命令"
-                },
-                {
-                  "label": "实体问题",
-                  "prompt": "法院是否处理邮寄投票的行政权，还是仅就临时效力作出裁决？",
-                  "meta": "关注意见和单独声明"
-                },
-                {
-                  "label": "立法回应",
-                  "prompt": "议员是否提出立法以明确联邦选举管理的权力？",
-                  "meta": "跟踪国会声明和法案"
-                },
-                {
-                  "label": "州级实施",
-                  "prompt": "如果联邦邮寄投票规则生效，各州是抢先行动还是遵守？",
-                  "meta": "关注州选举官员的行动"
-                }
-              ],
-              "ending": "只有当上述决策步骤之一发生时，信号才重要；在此之前，将其视为活跃的裁决前观察项。"
-            }
-          }
-        }
-      },
-      "dailyStateDraft": {
-        "id": "daily-global-2026-09-10",
-        "scope": "global",
-        "date": "2026-09-10",
-        "decidedAt": "2026-09-10T02:55:25.717Z",
-        "state": "publish_new",
-        "insightId": "sig-20260910-supreme-court-mail-voting",
-        "materialChangeScore": 51,
-        "evidenceStrength": 55,
-        "noveltyScore": 52,
-        "importanceScore": 64,
-        "candidateSignalIds": [
-          "sig-20260910-supreme-court-mail-voting"
-        ],
-        "content": {
-          "en": {
-            "label": "Standalone important insight",
-            "decisionTitle": "Do not promote to global process; publish as standalone important insight",
-            "decisionSummary": "The case signals a potential structural contest over who controls federal election administration, but no ruling has issued and evidence is limited to two initial reports on the same preliminary action. Treat as an important stand-alone insight to watch, not a new process.",
-            "thresholdReason": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
-            "observeNext": [
-              "Whether the Supreme Court issues an interim order allowing the mail-in voting rules to take effect.",
-              "Whether the Court reaches the constitutional question of executive authority over mail-in voting.",
-              "Whether Congress or states react with legislation or administrative actions to clarify authority."
-            ]
-          },
-          "zh": {
-            "label": "独立重要洞察",
-            "decisionTitle": "不要提升为全球流程；作为独立重要洞察发布",
-            "decisionSummary": "案件显示可能出现关于谁控制联邦选举管理的结构性争议，但尚未裁决，证据仅限于两篇关于同一初步行动的初始报道。将其视为值得关注的独立重要洞察，而非新流程。",
-            "thresholdReason": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
-            "observeNext": [
-              "最高法院是否发布临时命令，允许邮寄投票规则生效。",
-              "法院是否触及邮寄投票行政权的宪法问题。",
-              "国会或各州是否以立法或行政行动回应，以明确权力。"
-            ]
-          }
-        }
-      },
-      "provider": "deepseek",
-      "pipeline": "build014-one-world-v1",
-      "usage": {
-        "inputTokens": 4982,
-        "outputTokens": 7027,
-        "cachedInputTokens": 2432
-      },
-      "review": {
-        "decision": "rejected",
-        "reviewedAt": "2026-09-10T06:02:07.854Z",
-        "originalPublishThresholdMet": false,
-        "originalDailyState": "publish_new"
-      },
-      "rejectedAt": "2026-09-10T06:02:07.854Z"
-    },
-    {
       "id": "writer-candidate-el-nino-food-water-resilience-20260908-1789009532562",
       "scope": "global",
       "status": "rejected",
@@ -8881,11 +8541,380 @@
       },
       "review": {
         "decision": "rejected",
-        "reviewedAt": "2026-09-10T03:05:35.576Z",
+        "reviewedAt": "2026-09-10T06:19:12.743Z",
         "originalPublishThresholdMet": false,
         "originalDailyState": "publish_new"
       },
-      "rejectedAt": "2026-09-10T03:05:35.576Z"
+      "rejectedAt": "2026-09-10T06:19:12.743Z"
+    },
+    {
+      "id": "writer-research-unavailable-2026-09-09",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-10T06:18:30.296Z",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "languagesComplete": true,
+        "warnings": [
+          "Research did not complete: Insufficient Balance"
+        ]
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-09",
+        "scope": "global",
+        "date": "2026-09-09",
+        "state": "no_new_global_insight",
+        "materialChangeScore": 0,
+        "evidenceStrength": 0,
+        "noveltyScore": 0,
+        "importanceScore": 0,
+        "candidateSignalIds": [],
+        "content": {
+          "en": {
+            "label": "No verified daily insight",
+            "decisionTitle": "Research could not be completed",
+            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
+            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+            "observeNext": [
+              "Retry the independent-source scan on the next scheduled recovery run."
+            ]
+          },
+          "zh": {
+            "label": "当日无已验证洞察",
+            "decisionTitle": "研究阶段未能可靠完成",
+            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
+            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+            "observeNext": [
+              "在下一次定时恢复中重新执行独立来源扫描。"
+            ]
+          }
+        }
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-10T06:18:33.256Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "rejectedAt": "2026-09-10T06:18:33.256Z"
+    },
+    {
+      "id": "writer-sig-20260910-supreme-court-mail-voting-1789008925717",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-10T02:55:25.717Z",
+      "researchDraftId": "research-global-2026-09-10-1789005451340",
+      "candidateId": "sig-20260910-supreme-court-mail-voting",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ]
+      },
+      "insight": {
+        "id": "sig-20260910-supreme-court-mail-voting",
+        "scope": "global",
+        "slug": "supreme-court-weighs-trump-mail-voting-rules",
+        "status": "publish_new",
+        "publishedAt": "2026-09-10T00:00:00.000Z",
+        "updatedAt": "2026-09-10T02:55:25.717Z",
+        "confidence": "hypothesis",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "U.S. Supreme Court / Election administration",
+              "secondaryEyebrow": "Constitutional process watch",
+              "title": "The court as gatekeeper before the merits",
+              "summary": "The U.S. Supreme Court may allow contested Trump administration voting-by-mail rules to take effect while deferring the constitutional question, testing whether pre-merits relief shifts practical ballot access even without a ruling."
+            },
+            "question": {
+              "lead": "The case asks whether the president can set federal voting-by-mail rules—and whether courts should let them operate before deciding if they are lawful.",
+              "title": "Who controls the rules of voting before courts rule?",
+              "footnote": "As of September 10, 2026, the Court has not issued a decision; it is weighing whether the rules can take effect."
+            },
+            "signals": {
+              "title": "Two signals from the Supreme Court docket",
+              "sourceNote": "Based on two reliable media reports dated September 9, 2026: The Conversation and Idaho State Journal. Both cover the Supreme Court's pending decision and lawmakers' filing.",
+              "items": [
+                {
+                  "id": "sig-20260910-supreme-court-mail-voting-signal-1",
+                  "label": "Signal 1",
+                  "title": "Supreme Court may allow rules before constitutional ruling",
+                  "body": "The U.S. Supreme Court is set to decide whether the Trump administration's voting-by-mail rules can go into effect, while possibly deferring the constitutional question.",
+                  "whyImportant": "If the rules take effect before a merits ruling, they can change practical voting access even if later held invalid.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-evidence-1",
+                      "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
+                      "description": "The Conversation reported on September 9, 2026 that the Court may rule separately on interim effect and constitutional validity.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "sig-20260910-supreme-court-mail-voting-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-source-1",
+                      "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
+                      "publisher": "theconversation.com",
+                      "publishedAt": "2026-09-09T00:00:00.000Z",
+                      "url": "https://theconversation.com/supreme-court-to-decide-on-whether-trumps-voting-by-mail-rules-can-go-into-effect-but-might-not-rule-yet-on-whether-theyre-constitutional-291512",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260910-supreme-court-mail-voting-signal-2",
+                  "label": "Signal 2",
+                  "title": "Lawmakers argue president lacks mail-in voting authority",
+                  "body": "Lawmakers have told the Supreme Court that the president does not have the power to limit mail-in voting, directly contesting the administration's authority.",
+                  "whyImportant": "This frames the case as a separation-of-powers dispute over whether the president, Congress, or states control federal election administration.",
+                  "evidence": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-evidence-2",
+                      "title": "Trump doesn't have the power to limit mail-in voting, lawmakers tell US Supreme Court",
+                      "description": "Idaho State Journal reported on September 9, 2026 that lawmakers submitted arguments against executive authority over mail-in voting.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "sig-20260910-supreme-court-mail-voting-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-source-2",
+                      "title": "Trump doesnt have the power to limit mail - in voting , lawmakers tell US Supreme Court | Local",
+                      "publisher": "idahostatejournal.com",
+                      "publishedAt": "2026-09-09T18:45:00.000Z",
+                      "url": "http://www.idahostatejournal.com/news/local/trump-doesn-t-have-the-power-to-limit-mail-in-voting-lawmakers-tell-us-supreme/article_1633995a-4cfe-4d6b-8b90-909fddfbdb9e.html",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Pre-merits operation as de facto election law",
+              "before": "The constitutional question of executive authority over mail-in voting remained unaddressed by the Supreme Court; contested federal election rules did not have an operational interim pathway at the center of review.",
+              "shift": "The Supreme Court is now considering whether to let the Trump administration's voting-by-mail rules take effect immediately, while possibly deferring the constitutional question, separating interim operation from validity.",
+              "now": "No ruling has issued, so the operational status of the rules is unchanged; however, the case has placed pre-merits relief at the center of how contested election administration rules can become effective before review.",
+              "conclusion": "If the Court allows the rules to take effect, it will establish a pathway in which contested executive election rules can shape ballot access before constitutional review is complete."
+            },
+            "insight": {
+              "title": "Interim permission can shift access before the law is settled",
+              "formula": "Executive voting rules + pre-merits judicial permission = practical ballot access shift without constitutional resolution",
+              "explanation": "Because mail-in balloting volumes are large, a decision to let contested rules operate—even without a merits ruling—changes who can practically vote. This makes the timing and form of interim relief as consequential as the eventual constitutional answer."
+            },
+            "observe": {
+              "title": "What to watch",
+              "items": [
+                {
+                  "label": "Court action",
+                  "prompt": "Does the Supreme Court issue an order allowing the rules to take effect, deny interim relief, or defer?",
+                  "meta": "Monitor Supreme Court docket and official orders"
+                },
+                {
+                  "label": "Merits question",
+                  "prompt": "Does the Court address executive authority over mail-in voting, or does it decide only on interim effect?",
+                  "meta": "Watch opinions and separate statements"
+                },
+                {
+                  "label": "Legislative response",
+                  "prompt": "Do lawmakers propose legislation to clarify authority over federal election administration?",
+                  "meta": "Track congressional statements and bills"
+                },
+                {
+                  "label": "State implementation",
+                  "prompt": "Do states preempt or comply with the federal mail-in voting rules if they take effect?",
+                  "meta": "Follow state election officials' actions"
+                }
+              ],
+              "ending": "The signal matters only if one of these decisional steps occurs; until then, treat as a live pre-decision watch item."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "美国最高法院 / 选举管理",
+              "secondaryEyebrow": "宪法程序观察",
+              "title": "法院作为实体审理前的守门人",
+              "summary": "美国最高法院可能允许受争议的特朗普政府邮寄投票规则生效，同时推迟宪法问题，检验实体审理前的救济是否即使没有裁决也会改变实际投票渠道。"
+            },
+            "question": {
+              "lead": "本案提出的问题是，总统能否制定联邦邮寄投票规则——以及法院是否应在裁定其是否合法之前允许其运行。",
+              "title": "在法院裁决前，谁控制投票规则？",
+              "footnote": "截至2026年9月10日，法院尚未作出裁决；正在权衡这些规则能否生效。"
+            },
+            "signals": {
+              "title": "最高法院案件中的两个信号",
+              "sourceNote": "基于2026年9月9日两篇可靠媒体报道：The Conversation 与 Idaho State Journal。两篇均报道最高法院待决裁决与议员提交意见。",
+              "items": [
+                {
+                  "id": "sig-20260910-supreme-court-mail-voting-signal-1",
+                  "label": "信号1",
+                  "title": "最高法院可能先允许规则生效，再裁定合宪性",
+                  "body": "美国最高法院即将决定特朗普政府的邮寄投票规则能否生效，同时可能推迟宪法问题。",
+                  "whyImportant": "如果规则在实体裁决前生效，即使之后被认定无效，也可能改变实际投票渠道。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-evidence-1",
+                      "title": "最高法院将决定特朗普邮寄投票规则能否生效——但可能暂不裁定其是否合宪",
+                      "description": "The Conversation 于2026年9月9日报道，法院可能分别就临时效力和合宪性作出裁决。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "sig-20260910-supreme-court-mail-voting-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-source-1",
+                      "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
+                      "publisher": "theconversation.com",
+                      "publishedAt": "2026-09-09T00:00:00.000Z",
+                      "url": "https://theconversation.com/supreme-court-to-decide-on-whether-trumps-voting-by-mail-rules-can-go-into-effect-but-might-not-rule-yet-on-whether-theyre-constitutional-291512",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "sig-20260910-supreme-court-mail-voting-signal-2",
+                  "label": "信号2",
+                  "title": "议员主张总统无权限制邮寄投票",
+                  "body": "议员已告知最高法院，总统无权限制邮寄投票，直接质疑政府的权力。",
+                  "whyImportant": "这将案件框定为分权争议，即总统、国会或各州谁控制联邦选举管理。",
+                  "evidence": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-evidence-2",
+                      "title": "议员告诉美国最高法院：特朗普无权限制邮寄投票",
+                      "description": "Idaho State Journal 于2026年9月9日报道，议员提交了反对行政权管辖邮寄投票的论点。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "sig-20260910-supreme-court-mail-voting-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "sig-20260910-supreme-court-mail-voting-source-2",
+                      "title": "Trump doesnt have the power to limit mail - in voting , lawmakers tell US Supreme Court | Local",
+                      "publisher": "idahostatejournal.com",
+                      "publishedAt": "2026-09-09T18:45:00.000Z",
+                      "url": "http://www.idahostatejournal.com/news/local/trump-doesn-t-have-the-power-to-limit-mail-in-voting-lawmakers-tell-us-supreme/article_1633995a-4cfe-4d6b-8b90-909fddfbdb9e.html",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "实体审理前的运行作为事实上的选举法",
+              "before": "最高法院尚未处理关于邮寄投票行政权的宪法问题；受争议的联邦选举规则在审查中心没有临时运行路径。",
+              "shift": "最高法院现正考虑是否让特朗普政府的邮寄投票规则立即生效，同时可能推迟宪法问题，将临时运行与合法性分开。",
+              "now": "尚未作出裁决，因此规则的实际运行状态未变；但案件已将实体审理前救济置于受争议选举管理规则如何在审查前生效的核心。",
+              "conclusion": "如果法院允许规则生效，将确立一条路径：受争议的行政选举规则可在宪法审查完成前塑造投票渠道。"
+            },
+            "insight": {
+              "title": "临时许可可在法律确定前改变投票渠道",
+              "formula": "行政投票规则 + 实体审理前司法许可 = 未经宪法解决的实际投票渠道变化",
+              "explanation": "由于邮寄投票规模庞大，允许受争议规则运行——即使没有实体裁决——也会改变谁实际能够投票。这使得临时救济的时机和形式与最终宪法答案同样重要。"
+            },
+            "observe": {
+              "title": "需关注什么",
+              "items": [
+                {
+                  "label": "法院行动",
+                  "prompt": "最高法院是否发布命令允许规则生效、拒绝临时救济或推迟？",
+                  "meta": "监测最高法院案件和正式命令"
+                },
+                {
+                  "label": "实体问题",
+                  "prompt": "法院是否处理邮寄投票的行政权，还是仅就临时效力作出裁决？",
+                  "meta": "关注意见和单独声明"
+                },
+                {
+                  "label": "立法回应",
+                  "prompt": "议员是否提出立法以明确联邦选举管理的权力？",
+                  "meta": "跟踪国会声明和法案"
+                },
+                {
+                  "label": "州级实施",
+                  "prompt": "如果联邦邮寄投票规则生效，各州是抢先行动还是遵守？",
+                  "meta": "关注州选举官员的行动"
+                }
+              ],
+              "ending": "只有当上述决策步骤之一发生时，信号才重要；在此之前，将其视为活跃的裁决前观察项。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-10",
+        "scope": "global",
+        "date": "2026-09-10",
+        "decidedAt": "2026-09-10T02:55:25.717Z",
+        "state": "publish_new",
+        "insightId": "sig-20260910-supreme-court-mail-voting",
+        "materialChangeScore": 51,
+        "evidenceStrength": 55,
+        "noveltyScore": 52,
+        "importanceScore": 64,
+        "candidateSignalIds": [
+          "sig-20260910-supreme-court-mail-voting"
+        ],
+        "content": {
+          "en": {
+            "label": "Standalone important insight",
+            "decisionTitle": "Do not promote to global process; publish as standalone important insight",
+            "decisionSummary": "The case signals a potential structural contest over who controls federal election administration, but no ruling has issued and evidence is limited to two initial reports on the same preliminary action. Treat as an important stand-alone insight to watch, not a new process.",
+            "thresholdReason": "No court decision has issued; 'set to decide' is preliminary and could resolve narrowly. Sources cover the same case action and existing processes do not map, so the structural claim is premature.",
+            "observeNext": [
+              "Whether the Supreme Court issues an interim order allowing the mail-in voting rules to take effect.",
+              "Whether the Court reaches the constitutional question of executive authority over mail-in voting.",
+              "Whether Congress or states react with legislation or administrative actions to clarify authority."
+            ]
+          },
+          "zh": {
+            "label": "独立重要洞察",
+            "decisionTitle": "不要提升为全球流程；作为独立重要洞察发布",
+            "decisionSummary": "案件显示可能出现关于谁控制联邦选举管理的结构性争议，但尚未裁决，证据仅限于两篇关于同一初步行动的初始报道。将其视为值得关注的独立重要洞察，而非新流程。",
+            "thresholdReason": "尚无法院裁决；‘即将决定’属初步状态，可能狭窄解决。来源覆盖同一案件行动，现有流程无法对应，因此结构性主张为时过早。",
+            "observeNext": [
+              "最高法院是否发布临时命令，允许邮寄投票规则生效。",
+              "法院是否触及邮寄投票行政权的宪法问题。",
+              "国会或各州是否以立法或行政行动回应，以明确权力。"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4982,
+        "outputTokens": 7027,
+        "cachedInputTokens": 2432
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-10T06:02:07.854Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "publish_new"
+      },
+      "rejectedAt": "2026-09-10T06:02:07.854Z"
     },
     {
       "candidateId": "sig-2026-09-05-us-election-courts",

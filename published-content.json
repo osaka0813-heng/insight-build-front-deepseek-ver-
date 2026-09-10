@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T06:18:33.256Z",
-  "contentVersion": "review-writer-research-unavailable-2026-09-09-1789021114391",
+  "generatedAt": "2026-09-10T06:19:12.743Z",
+  "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789021153889",
   "insights": [
     {
       "confidence": "verified",
@@ -6229,6 +6229,35 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-08",
+      "scope": "global",
+      "date": "2026-09-08",
+      "decidedAt": "2026-09-10T06:19:12.743Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 72,
+      "evidenceStrength": 70,
+      "noveltyScore": 65,
+      "importanceScore": 80,
+      "candidateSignalIds": [
+        "candidate-el-nino-food-water-resilience-20260908"
+      ],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+          "thresholdReason": "Material change score is significant and the signal spans multiple independent regions and systems, but a single-cycle publication is appropriate because the event is an inflection point rather than a confirmed long-running process.",
+          "observeNext": [
+            "Watch whether European institutions formalize household stockpiling guidance.",
+            "Track South African prevention funding announcements and water-security measures.",
+            "Monitor French and EU maize harvest estimates for potential 1976-level risk confirmation.",
+            "Observe Sri Lankan disaster preparedness activation or international assistance requests."
+          ]
+        }
+      },
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
+    {
       "id": "daily-global-2026-09-09",
       "scope": "global",
       "date": "2026-09-09",
@@ -7296,6 +7325,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-10T06:18:34.392Z"
+    "repairedAt": "2026-09-10T06:19:13.889Z"
   }
 }
