@@ -6,19 +6,159 @@
   "date": "2026-09-10",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-10T00:25:02.353Z",
-  "updatedAt": "2026-09-10T01:54:57.096Z",
+  "updatedAt": "2026-09-10T01:57:31.351Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-09-10T01:54:57.095Z",
-      "failedStage": "research"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-10T01:57:31.351Z",
+      "failedStage": "research",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-10-1789005451340",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-10T01:57:31.340Z",
+        "researchDate": "2026-09-10",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 3211,
+          "outputTokens": 4675,
+          "cachedInputTokens": 1408
+        },
+        "querySummary": "The 2026-09-10 dossier contained 15 indexed items, all inside the institutions-culture bucket, and almost all were syndicated copies of a single wire story. After collapsing duplicate wire copies into their underlying origins, only two distinct, independently evidenced structural stories were verifiable: (1) the retirement of Smithsonian Secretary Lonnie Bunch amid administration pressure on the institution, corroborated by the Smithsonian announcement and a separate public statement by Chief Justice John Roberts; and (2) U.S. Supreme Court action on the Trump administration's mail-in voting rules, corroborated by the Court's own case action and by a separate lawmakers' filing opposing the rules. The remaining item (an Indian court listing) could not be verified from its title and was omitted. Because the dossier supplies no macro-finance, industry-trade, energy, health, climate, demographic, or technology items on this date, no further candidates could be constructed without inventing evidence; the requested 5-8 candidate range was not reachable, so only supported candidates are returned. None of the four reference World Processes fits these institution-law signals, so suggestedProcessId is null rather than forced.",
+        "candidates": [
+          {
+            "id": "sig-20260910-smithsonian-leadership",
+            "date": "2026-09-10",
+            "domain": "institutions-culture",
+            "tags": [
+              "institutions",
+              "culture",
+              "museums",
+              "leadership-transition",
+              "executive-branch",
+              "civil-society",
+              "governance"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 42,
+            "novelty": 45,
+            "evidenceStrength": 60,
+            "independentSourceCount": 2,
+            "thesisImpact": 35,
+            "relationshipChange": 45,
+            "stageChange": 30,
+            "contradiction": 25,
+            "content": {
+              "en": {
+                "title": "Smithsonian Secretary Lonnie Bunch to retire amid administration effort to reshape the institution",
+                "coreFact": "Lonnie Bunch is retiring from the leadership of the Smithsonian following a clash with the Trump administration, which has been pushing to reshape the institution; Chief Justice John Roberts publicly praised Bunch as he stepped down.",
+                "whyItMatters": "The Smithsonian sits at the intersection of federal funding, national memory and institutional independence. A leadership exit forced by political friction is a leading indicator of how far executive pressure can reach into nominally independent cultural and scientific bodies, and it reshapes who controls the curation of national history ahead of the 250th-anniversary cycle.",
+                "processMatchReason": "No existing world process covers federally chartered cultural institutions or executive pressure on them; the four reference processes concern AI infrastructure, energy as strategic capacity, semiconductor ecosystems and technology control. suggestedProcessId is left null rather than forcing a mismatch."
+              },
+              "zh": {
+                "title": "史密森学会会长朗尼·邦奇在政府重塑机构压力下宣布退休",
+                "coreFact": "在与特朗普政府发生冲突、后者推动重塑史密森学会的背景下，朗尼·邦奇将卸任该机构领导职务；首席大法官约翰·罗伯茨在其离任之际公开予以赞扬。",
+                "whyItMatters": "史密森学会处于联邦拨款、国家记忆与机构独立性的交汇点。因政治摩擦而导致领导层更替，是行政压力能触及多远“独立”文化与科学机构的先行指标，也改变了谁将掌控国家历史叙事的关键节点——尤其是在美国建国250周年周期之前。",
+                "processMatchReason": "现有世界进程并未覆盖联邦特许文化机构或行政权力对其施加压力的问题；四个参考进程分别涉及AI基础设施、能源战略能力、半导体生态系统与技术管制。因此 suggestedProcessId 留空，而非强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Smithsonian head Lonnie Bunch to retire amid Trump administration effort to reshape institution",
+                "url": "https://www.yahoo.com/news/politics/articles/smithsonian-head-lonnie-bunch-retire-164740345.html",
+                "publisher": "yahoo.com",
+                "publishedAt": "2026-09-10T00:30:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Smithsonian Institution leadership retirement announcement (as reported by the wire service carried by Yahoo News)",
+                "id": "sig-20260910-smithsonian-leadership-source-1"
+              },
+              {
+                "title": "John Roberts praises Lonnie Bunch as Smithsonian chief steps down",
+                "url": "https://www.foxnews.com/politics/supreme-court-chief-justice-praises-outgoing-smithsonian-leader-pressure-trump-admin",
+                "publisher": "foxnews.com",
+                "publishedAt": "2026-09-09T12:15:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Public statement by Chief Justice John Roberts praising outgoing Smithsonian Secretary Lonnie Bunch",
+                "id": "sig-20260910-smithsonian-leadership-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "sig-20260910-supreme-court-mail-voting",
+            "date": "2026-09-10",
+            "domain": "institutions-law",
+            "tags": [
+              "supreme-court",
+              "elections",
+              "mail-in-voting",
+              "executive-power",
+              "judiciary",
+              "electoral-administration",
+              "constitutional-review"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 64,
+            "novelty": 52,
+            "evidenceStrength": 55,
+            "independentSourceCount": 2,
+            "thesisImpact": 55,
+            "relationshipChange": 60,
+            "stageChange": 42,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "Supreme Court weighs letting Trump mail-in voting rules take effect while lawmakers contest the authority",
+                "coreFact": "The U.S. Supreme Court is set to decide whether the Trump administration's voting-by-mail rules can go into effect, while possibly deferring the constitutional question; separately, lawmakers have told the Court that the president does not have the power to limit mail-in voting.",
+                "whyItMatters": "The case tests who actually controls the rules of federal election administration — the president, Congress or the states — and whether courts let contested rules operate before constitutional review. Because mail-in balloting volumes are large, a decision to let the rules take effect changes practical access to voting even without a merits ruling.",
+                "processMatchReason": "No existing world process addresses judicial control over electoral administration or executive authority over voting rules; the reference processes are limited to AI infrastructure, energy, semiconductors and technology control. suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "最高法院权衡允许特朗普邮寄投票新规生效，同时议员质疑其权限",
+                "coreFact": "美国最高法院即将决定特朗普政府的邮寄投票规则是否可以生效，同时可能暂不就其合宪性作出裁决；另一方面，议员已向最高法院陈述，总统无权限制邮寄投票。",
+                "whyItMatters": "此案检验联邦选举管理规则究竟由谁掌控——总统、国会还是各州——以及法院是否允许存在争议的规则在合宪性审查之前先行实施。由于邮寄投票规模庞大，即便不作出实体裁决，允许规则生效本身就会改变实际的投票可及性。",
+                "processMatchReason": "现有世界进程未涉及司法机构对选举管理的控制权或行政首脑对投票规则的权限；参考进程仅限于AI基础设施、能源、半导体与技术管制。因此 suggestedProcessId 留空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Supreme Court to decide on whether Trump voting-by-mail rules can go into effect – but might not rule yet on whether they're constitutional",
+                "url": "https://theconversation.com/supreme-court-to-decide-on-whether-trumps-voting-by-mail-rules-can-go-into-effect-but-might-not-rule-yet-on-whether-theyre-constitutional-291512",
+                "publisher": "theconversation.com",
+                "publishedAt": "2026-09-09T00:00:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "U.S. Supreme Court case action on the voting-by-mail rules (Court's decision to consider whether the rules may go into effect)",
+                "id": "sig-20260910-supreme-court-mail-voting-source-1"
+              },
+              {
+                "title": "Trump doesnt have the power to limit mail - in voting , lawmakers tell US Supreme Court | Local",
+                "url": "http://www.idahostatejournal.com/news/local/trump-doesn-t-have-the-power-to-limit-mail-in-voting-lawmakers-tell-us-supreme/article_1633995a-4cfe-4d6b-8b90-909fddfbdb9e.html",
+                "publisher": "idahostatejournal.com",
+                "publishedAt": "2026-09-09T18:45:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Filing by a group of lawmakers with the U.S. Supreme Court arguing the president lacks authority to limit mail-in voting",
+                "id": "sig-20260910-supreme-court-mail-voting-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "lease": {
