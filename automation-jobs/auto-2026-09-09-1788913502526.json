@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-09T00:25:02.526Z",
-  "updatedAt": "2026-09-10T06:03:21.893Z",
+  "updatedAt": "2026-09-10T06:07:26.693Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
       "attempts": {
-        "research": 0
+        "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-09-10T06:03:21.893Z",
+      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
+      "updatedAt": "2026-09-10T06:07:26.693Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,5 @@
       }
     ]
   },
-  "message": "WORLD 从 research 断点继续"
+  "message": "WORLD research 自动重试 1/3"
 }
