@@ -2,23 +2,68 @@
   "id": "auto-2026-09-07-1788732423029",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "failed",
+  "status": "running",
   "date": "2026-09-07",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "publish",
   "createdAt": "2026-09-06T22:07:03.029Z",
-  "updatedAt": "2026-09-06T22:07:47.107Z",
+  "updatedAt": "2026-09-10T06:19:36.679Z",
   "scopes": {
     "global": {
-      "status": "error",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "Independent news index returned only 0 usable records.",
+      "message": "研究重试已用尽，准备发布透明的当日缺失记录",
       "updatedAt": "2026-09-06T22:07:47.107Z",
-      "failedStage": "research"
+      "failedStage": "research",
+      "writerDraft": {
+        "id": "writer-research-unavailable-2026-09-07",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-09-10T06:19:36.679Z",
+        "dailyState": "no_new_global_insight",
+        "qualityChecks": {
+          "publishThresholdMet": false,
+          "languagesComplete": true,
+          "warnings": [
+            "Research did not complete: Independent news index returned only 0 usable records."
+          ]
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-09-07",
+          "scope": "global",
+          "date": "2026-09-07",
+          "state": "no_new_global_insight",
+          "materialChangeScore": 0,
+          "evidenceStrength": 0,
+          "noveltyScore": 0,
+          "importanceScore": 0,
+          "candidateSignalIds": [],
+          "content": {
+            "en": {
+              "label": "No verified daily insight",
+              "decisionTitle": "Research could not be completed",
+              "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
+              "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+              "observeNext": [
+                "Retry the independent-source scan on the next scheduled recovery run."
+              ]
+            },
+            "zh": {
+              "label": "当日无已验证洞察",
+              "decisionTitle": "研究阶段未能可靠完成",
+              "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
+              "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+              "observeNext": [
+                "在下一次定时恢复中重新执行独立来源扫描。"
+              ]
+            }
+          }
+        }
+      }
     }
   },
   "lease": {
@@ -58,7 +103,5 @@
       }
     ]
   },
-  "message": "WORLD 在 research 连续失败 3 次，已保留断点。",
-  "failedStage": "research",
-  "completedAt": "2026-09-06T22:07:47.107Z"
+  "message": "研究重试已用尽，转入公开记录"
 }
