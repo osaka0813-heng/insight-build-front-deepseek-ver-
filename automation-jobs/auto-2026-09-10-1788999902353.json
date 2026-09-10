@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-10T00:25:02.353Z",
-  "updatedAt": "2026-09-10T01:54:56.302Z",
+  "updatedAt": "2026-09-10T01:54:57.096Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 returned empty content.",
-      "updatedAt": "2026-09-10T00:29:23.399Z",
+      "message": "research",
+      "updatedAt": "2026-09-10T01:54:57.095Z",
       "failedStage": "research"
     }
   },
