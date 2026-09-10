@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-09T00:25:02.526Z",
-  "updatedAt": "2026-09-10T04:30:59.483Z",
+  "updatedAt": "2026-09-10T04:32:53.085Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "error",
       "stage": "research",
       "attempts": {
-        "research": 3
+        "research": 4
       },
-      "message": "research",
-      "updatedAt": "2026-09-10T04:30:59.483Z",
+      "message": "Independent news index returned only 0 usable records. Failures: macro-finance: fetch failed | industry-trade: fetch failed | energy-resources: fetch failed | health-science: fetch failed | climate-environment: fetch failed | demographics-society: fetch failed | institutions-culture: fetch failed | technology-ai: GDELT technology-ai failed (429).",
+      "updatedAt": "2026-09-10T04:32:53.085Z",
       "failedStage": "research"
     }
   },
@@ -60,5 +60,5 @@
   },
   "message": "WORLD 在 research 连续失败 3 次，已保留断点。",
   "failedStage": "research",
-  "completedAt": "2026-09-10T04:30:58.344Z"
+  "completedAt": "2026-09-10T04:32:53.085Z"
 }
