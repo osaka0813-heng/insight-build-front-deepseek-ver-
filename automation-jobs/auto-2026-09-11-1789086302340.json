@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-11T00:25:02.340Z",
-  "updatedAt": "2026-09-11T00:27:06.252Z",
+  "updatedAt": "2026-09-11T00:27:07.781Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 2
       },
-      "message": "Insufficient Balance",
-      "updatedAt": "2026-09-11T00:27:06.252Z",
+      "message": "research",
+      "updatedAt": "2026-09-11T00:27:07.781Z",
       "failedStage": "research"
     }
   },
