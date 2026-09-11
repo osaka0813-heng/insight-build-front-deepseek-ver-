@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-11T00:25:02.340Z",
-  "updatedAt": "2026-09-11T00:25:08.090Z",
+  "updatedAt": "2026-09-11T00:25:10.174Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -25,7 +25,7 @@
   },
   "preflight": {
     "ok": true,
-    "checkedAt": "2026-09-11T00:25:08.082Z",
+    "checkedAt": "2026-09-11T00:25:10.165Z",
     "contentVersion": "review-writer-candidate-el-nino-food-water-resilience-20260908-1789009532562-1789021376416",
     "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
     "checks": [
@@ -51,7 +51,7 @@
         "id": "backup-write",
         "label": "备份写入权限",
         "ok": true,
-        "detail": "backups/remote-content/2026-09-11T00-25-07-154Z-preflight-probe-1789086307154.json"
+        "detail": "backups/remote-content/2026-09-11T00-25-09-199Z-preflight-probe-1789086309199.json"
       }
     ]
   },
