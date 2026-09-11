@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-11T00:25:02.340Z",
-  "updatedAt": "2026-09-11T00:26:09.419Z",
+  "updatedAt": "2026-09-11T00:27:06.252Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
       "attempts": {
-        "research": 1
+        "research": 2
       },
-      "message": "research",
-      "updatedAt": "2026-09-11T00:26:09.419Z",
+      "message": "Insufficient Balance",
+      "updatedAt": "2026-09-11T00:27:06.252Z",
       "failedStage": "research"
     }
   },
@@ -58,5 +58,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3"
+  "message": "WORLD research 自动重试 2/3"
 }
