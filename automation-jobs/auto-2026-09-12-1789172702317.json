@@ -6,19 +6,66 @@
   "date": "2026-09-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "publish",
   "createdAt": "2026-09-12T00:25:02.317Z",
-  "updatedAt": "2026-09-12T00:28:01.787Z",
+  "updatedAt": "2026-09-12T00:28:58.222Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {
-        "research": 2
+        "research": 3
       },
-      "message": "research",
-      "updatedAt": "2026-09-12T00:28:01.787Z",
-      "failedStage": "research"
+      "message": "Insufficient Balance",
+      "updatedAt": "2026-09-12T00:28:58.222Z",
+      "failedStage": "research",
+      "writerDraft": {
+        "id": "writer-research-unavailable-2026-09-12",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-09-12T00:28:58.222Z",
+        "dailyState": "no_new_global_insight",
+        "qualityChecks": {
+          "publishThresholdMet": false,
+          "languagesComplete": true,
+          "warnings": [
+            "Research did not complete: Insufficient Balance"
+          ]
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-09-12",
+          "scope": "global",
+          "date": "2026-09-12",
+          "state": "no_new_global_insight",
+          "materialChangeScore": 0,
+          "evidenceStrength": 0,
+          "noveltyScore": 0,
+          "importanceScore": 0,
+          "candidateSignalIds": [],
+          "content": {
+            "en": {
+              "label": "No verified daily insight",
+              "decisionTitle": "Research could not be completed",
+              "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
+              "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+              "observeNext": [
+                "Retry the independent-source scan on the next scheduled recovery run."
+              ]
+            },
+            "zh": {
+              "label": "当日无已验证洞察",
+              "decisionTitle": "研究阶段未能可靠完成",
+              "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
+              "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+              "observeNext": [
+                "在下一次定时恢复中重新执行独立来源扫描。"
+              ]
+            }
+          }
+        }
+      },
+      "recoveredStage": "research",
+      "recoveryReason": "Insufficient Balance"
     }
   },
   "lease": {
@@ -58,5 +105,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 2/3"
+  "message": "Research 连续失败，已生成透明的当日缺失记录。"
 }
