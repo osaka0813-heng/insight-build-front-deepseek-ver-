@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T00:28:07.043Z",
-  "contentVersion": "review-writer-research-unavailable-2026-09-11-1789086488420",
+  "generatedAt": "2026-09-12T00:29:00.909Z",
+  "contentVersion": "review-writer-research-unavailable-2026-09-12-1789172942130",
   "insights": [
     {
       "confidence": "verified",
@@ -6229,6 +6229,39 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-12",
+      "scope": "global",
+      "date": "2026-09-12",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 0,
+      "evidenceStrength": 0,
+      "noveltyScore": 0,
+      "importanceScore": 0,
+      "candidateSignalIds": [],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
+          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+          "observeNext": [
+            "Retry the independent-source scan on the next scheduled recovery run."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "证据尚未达到发布标准",
+          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "observeNext": [
+            "在下一次定时恢复中重新执行独立来源扫描。"
+          ]
+        }
+      },
+      "decidedAt": "2026-09-12T00:29:00.909Z",
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
+    {
       "id": "daily-global-2026-09-11",
       "scope": "global",
       "date": "2026-09-11",
@@ -7431,6 +7464,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-11T00:28:08.436Z"
+    "repairedAt": "2026-09-12T00:29:02.146Z"
   }
 }
