@@ -2,21 +2,21 @@
   "id": "auto-2026-09-12-1789172702317",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-12",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-12T00:25:02.317Z",
-  "updatedAt": "2026-09-12T00:28:59.255Z",
+  "updatedAt": "2026-09-12T00:29:04.456Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "publish",
+      "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
       "updatedAt": "2026-09-12T00:28:59.255Z",
       "failedStage": "research",
       "writerDraft": {
@@ -65,7 +65,9 @@
         }
       },
       "recoveredStage": "research",
-      "recoveryReason": "Insufficient Balance"
+      "recoveryReason": "Insufficient Balance",
+      "contentVersion": "review-writer-research-unavailable-2026-09-12-1789172942130",
+      "completedAt": "2026-09-12T00:29:04.456Z"
     }
   },
   "lease": {
@@ -105,5 +107,6 @@
       }
     ]
   },
-  "message": "Research 连续失败，已生成透明的当日缺失记录。"
+  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
+  "completedAt": "2026-09-12T00:29:04.456Z"
 }
