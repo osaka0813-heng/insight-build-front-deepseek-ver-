@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-research-unavailable-2026-09-13-1789259282944",
+  "contentVersion": "review-writer-research-unavailable-2026-09-14-1789345684339",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -243,6 +243,39 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-global-2026-09-14",
+      "scope": "global",
+      "date": "2026-09-14",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 0,
+      "evidenceStrength": 0,
+      "noveltyScore": 0,
+      "importanceScore": 0,
+      "candidateSignalIds": [],
+      "content": {
+        "en": {
+          "label": "No new global insight",
+          "decisionTitle": "Evidence has not crossed the publication threshold",
+          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
+          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+          "observeNext": [
+            "Retry the independent-source scan on the next scheduled recovery run."
+          ]
+        },
+        "zh": {
+          "label": "无新增全球洞察",
+          "decisionTitle": "证据尚未达到发布标准",
+          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "observeNext": [
+            "在下一次定时恢复中重新执行独立来源扫描。"
+          ]
+        }
+      },
+      "decidedAt": "2026-09-14T00:28:03.254Z",
+      "previousInsightId": "global-2026-09-04-el-nino-system-risk"
+    },
     {
       "id": "daily-global-2026-09-13",
       "scope": "global",
@@ -1352,7 +1385,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-13T00:28:01.876Z",
+  "generatedAt": "2026-09-14T00:28:03.254Z",
   "insights": [
     {
       "confidence": "verified",
@@ -7217,7 +7250,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-13T00:28:02.959Z"
+    "repairedAt": "2026-09-14T00:28:04.350Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8292,6 +8325,58 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-research-unavailable-2026-09-14",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-14T00:28:00.455Z",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "languagesComplete": true,
+        "warnings": [
+          "Research did not complete: Insufficient Balance"
+        ]
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-14",
+        "scope": "global",
+        "date": "2026-09-14",
+        "state": "no_new_global_insight",
+        "materialChangeScore": 0,
+        "evidenceStrength": 0,
+        "noveltyScore": 0,
+        "importanceScore": 0,
+        "candidateSignalIds": [],
+        "content": {
+          "en": {
+            "label": "No verified daily insight",
+            "decisionTitle": "Research could not be completed",
+            "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
+            "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+            "observeNext": [
+              "Retry the independent-source scan on the next scheduled recovery run."
+            ]
+          },
+          "zh": {
+            "label": "当日无已验证洞察",
+            "decisionTitle": "研究阶段未能可靠完成",
+            "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
+            "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+            "observeNext": [
+              "在下一次定时恢复中重新执行独立来源扫描。"
+            ]
+          }
+        }
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-14T00:28:03.254Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "rejectedAt": "2026-09-14T00:28:03.254Z"
+    },
     {
       "id": "writer-research-unavailable-2026-09-13",
       "scope": "global",
