@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-16T00:25:02.177Z",
-  "updatedAt": "2026-09-16T00:25:07.366Z",
+  "updatedAt": "2026-09-16T00:25:09.499Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -25,7 +25,7 @@
   },
   "preflight": {
     "ok": true,
-    "checkedAt": "2026-09-16T00:25:07.359Z",
+    "checkedAt": "2026-09-16T00:25:09.494Z",
     "contentVersion": "review-writer-research-unavailable-2026-09-15-1789432142764",
     "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
     "checks": [
@@ -51,7 +51,7 @@
         "id": "backup-write",
         "label": "备份写入权限",
         "ok": true,
-        "detail": "backups/remote-content/2026-09-16T00-25-06-635Z-preflight-probe-1789518306635.json"
+        "detail": "backups/remote-content/2026-09-16T00-25-08-599Z-preflight-probe-1789518308599.json"
       }
     ]
   },
