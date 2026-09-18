@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-18T00:25:02.400Z",
-  "updatedAt": "2026-09-18T00:28:00.557Z",
+  "updatedAt": "2026-09-18T00:28:01.497Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "Insufficient Balance",
-      "updatedAt": "2026-09-18T00:28:00.557Z",
+      "message": "publish",
+      "updatedAt": "2026-09-18T00:28:01.497Z",
       "failedStage": "research",
       "writerDraft": {
         "id": "writer-research-unavailable-2026-09-18",
