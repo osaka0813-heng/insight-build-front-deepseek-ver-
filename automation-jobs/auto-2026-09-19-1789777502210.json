@@ -2,20 +2,23 @@
   "id": "auto-2026-09-19-1789777502210",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-09-19",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-19T00:25:02.210Z",
-  "updatedAt": "2026-09-19T07:10:24.583Z",
+  "updatedAt": "2026-09-19T07:14:19.812Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-19T07:10:24.583Z"
+      "attempts": {
+        "research": 1
+      },
+      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"querySummary\":\"Scanned macro-finance, industry-trade, energy-resources, health-science, climate-environment, demographics-society, institutions-culture, technology-AI and geopolitics-security. The strongest verifiable signals use cross-publisher pairs from BBC and The Guardian on commodity uncertainty, UK rescue scrutiny, NHS surgical failures, biodiversity policy, UK cost-of-living stress, and ",
+      "updatedAt": "2026-09-19T07:14:19.812Z",
+      "failedStage": "research"
     }
   },
   "preflight": {
@@ -50,7 +53,7 @@
       }
     ]
   },
-  "message": "用户充值后重新执行研究",
+  "message": "WORLD research 自动重试 1/3",
   "lease": {
     "owner": "cron-1789801823333-9m4x8nfi",
     "acquiredAt": "2026-09-19T07:10:23.537Z",
