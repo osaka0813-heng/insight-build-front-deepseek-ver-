@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-19T00:25:02.210Z",
-  "updatedAt": "2026-09-19T08:07:09.883Z",
+  "updatedAt": "2026-09-19T08:07:10.921Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 2
       },
-      "message": "DeepSeek request timed out. Please retry.",
-      "updatedAt": "2026-09-19T08:07:09.883Z",
+      "message": "research",
+      "updatedAt": "2026-09-19T08:07:10.921Z",
       "failedStage": "research"
     }
   },
