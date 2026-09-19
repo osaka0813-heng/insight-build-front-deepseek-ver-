@@ -2,78 +2,20 @@
   "id": "auto-2026-09-19-1789777502210",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "queued",
   "date": "2026-09-19",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "research",
   "createdAt": "2026-09-19T00:25:02.210Z",
-  "updatedAt": "2026-09-19T00:28:07.329Z",
+  "updatedAt": "2026-09-19T07:09:59.479Z",
   "scopes": {
     "global": {
-      "status": "done",
-      "stage": "publish",
-      "attempts": {
-        "research": 3
-      },
-      "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
-      "updatedAt": "2026-09-19T00:28:01.658Z",
-      "failedStage": "research",
-      "writerDraft": {
-        "id": "writer-research-unavailable-2026-09-19",
-        "scope": "global",
-        "status": "draft",
-        "writtenAt": "2026-09-19T00:28:00.727Z",
-        "dailyState": "no_new_global_insight",
-        "qualityChecks": {
-          "publishThresholdMet": false,
-          "languagesComplete": true,
-          "warnings": [
-            "Research did not complete: Insufficient Balance"
-          ]
-        },
-        "dailyStateDraft": {
-          "id": "daily-global-2026-09-19",
-          "scope": "global",
-          "date": "2026-09-19",
-          "state": "no_new_global_insight",
-          "materialChangeScore": 0,
-          "evidenceStrength": 0,
-          "noveltyScore": 0,
-          "importanceScore": 0,
-          "candidateSignalIds": [],
-          "content": {
-            "en": {
-              "label": "No verified daily insight",
-              "decisionTitle": "Research could not be completed",
-              "decisionSummary": "The independent-source scan did not complete reliably, so no claim is published for this date.",
-              "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
-              "observeNext": [
-                "Retry the independent-source scan on the next scheduled recovery run."
-              ]
-            },
-            "zh": {
-              "label": "当日无已验证洞察",
-              "decisionTitle": "研究阶段未能可靠完成",
-              "decisionSummary": "独立来源扫描未能可靠完成，因此不为该日期发布未经验证的判断。",
-              "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-              "observeNext": [
-                "在下一次定时恢复中重新执行独立来源扫描。"
-              ]
-            }
-          }
-        }
-      },
-      "recoveredStage": "research",
-      "recoveryReason": "Insufficient Balance",
-      "contentVersion": "review-writer-research-unavailable-2026-09-19-1789777684739",
-      "completedAt": "2026-09-19T00:28:07.329Z"
+      "status": "queued",
+      "stage": "research",
+      "attempts": {},
+      "message": "用户充值后重新执行研究"
     }
-  },
-  "lease": {
-    "owner": "cron-1789777501927-1898w0vi",
-    "acquiredAt": "2026-09-19T00:25:05.064Z",
-    "expiresAt": "2026-09-19T00:29:55.064Z"
   },
   "preflight": {
     "ok": true,
@@ -107,6 +49,5 @@
       }
     ]
   },
-  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
-  "completedAt": "2026-09-19T00:28:07.329Z"
+  "message": "用户充值后重新执行研究"
 }
