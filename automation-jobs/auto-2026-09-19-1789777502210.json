@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-19T00:25:02.210Z",
-  "updatedAt": "2026-09-19T07:14:19.812Z",
+  "updatedAt": "2026-09-19T07:14:20.740Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "DeepSeek JSON fallback attempt 2 was not valid JSON: {\"querySummary\":\"Scanned macro-finance, industry-trade, energy-resources, health-science, climate-environment, demographics-society, institutions-culture, technology-AI and geopolitics-security. The strongest verifiable signals use cross-publisher pairs from BBC and The Guardian on commodity uncertainty, UK rescue scrutiny, NHS surgical failures, biodiversity policy, UK cost-of-living stress, and ",
-      "updatedAt": "2026-09-19T07:14:19.812Z",
+      "message": "research",
+      "updatedAt": "2026-09-19T07:14:20.740Z",
       "failedStage": "research"
     }
   },
