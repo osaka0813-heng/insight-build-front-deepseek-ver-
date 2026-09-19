@@ -2,21 +2,21 @@
   "id": "auto-2026-09-19-1789777502210",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-19",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-19T00:25:02.210Z",
-  "updatedAt": "2026-09-19T10:13:06.541Z",
+  "updatedAt": "2026-09-19T10:13:08.311Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "publish",
+      "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
       "updatedAt": "2026-09-19T10:13:06.541Z",
       "failedStage": "research",
       "writerDraft": {
@@ -65,7 +65,9 @@
         }
       },
       "recoveredStage": "research",
-      "recoveryReason": "DeepSeek JSON fallback attempt 2 returned empty content."
+      "recoveryReason": "DeepSeek JSON fallback attempt 2 returned empty content.",
+      "contentVersion": "review-writer-research-unavailable-2026-09-19-1789777684739",
+      "completedAt": "2026-09-19T10:13:08.311Z"
     }
   },
   "preflight": {
@@ -100,10 +102,11 @@
       }
     ]
   },
-  "message": "Research 连续失败，已生成透明的当日缺失记录。",
+  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
   "lease": {
     "owner": "cron-1789812549044-921pifhi",
     "acquiredAt": "2026-09-19T10:09:09.368Z",
     "expiresAt": "2026-09-19T10:13:59.368Z"
-  }
+  },
+  "completedAt": "2026-09-19T10:13:08.311Z"
 }
