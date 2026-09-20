@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T02:57:21.061Z",
+  "updatedAt": "2026-09-20T03:01:32.129Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -69,11 +69,6 @@
       "contentVersion": "review-writer-research-unavailable-2026-09-20-1789873038999",
       "completedAt": "2026-09-20T02:57:21.061Z"
     }
-  },
-  "lease": {
-    "owner": "cron-1789872794061-arxba8i4",
-    "acquiredAt": "2026-09-20T02:53:14.251Z",
-    "expiresAt": "2026-09-20T02:58:04.251Z"
   },
   "preflight": {
     "ok": true,
