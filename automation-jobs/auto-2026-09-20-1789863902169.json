@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T07:31:50.737Z",
+  "updatedAt": "2026-09-20T07:31:51.566Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "应用修正后的独立来源门槛重新分析",
-      "updatedAt": "2026-09-20T06:27:44.938Z",
+      "message": "analyze",
+      "updatedAt": "2026-09-20T07:31:51.566Z",
       "failedStage": "write_zh",
       "researchDraft": {
         "ok": true,
