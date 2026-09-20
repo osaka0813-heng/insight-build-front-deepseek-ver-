@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_finalize",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:58:09.300Z",
+  "updatedAt": "2026-09-20T04:58:27.925Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -632,5 +632,10 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 1/3"
+  "message": "WORLD write_zh 自动重试 1/3",
+  "lease": {
+    "owner": "cron-1789880307694-x4s49mmx",
+    "acquiredAt": "2026-09-20T04:58:27.925Z",
+    "expiresAt": "2026-09-20T05:03:17.925Z"
+  }
 }
