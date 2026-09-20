@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T06:27:51.948Z",
+  "updatedAt": "2026-09-20T07:31:50.737Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -191,5 +191,10 @@
       }
     ]
   },
-  "message": "应用修正后的独立来源门槛重新分析"
+  "message": "应用修正后的独立来源门槛重新分析",
+  "lease": {
+    "owner": "cron-1789889510535-p6ejjsij",
+    "acquiredAt": "2026-09-20T07:31:50.737Z",
+    "expiresAt": "2026-09-20T07:36:40.737Z"
+  }
 }
