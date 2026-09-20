@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:08:44.983Z",
+  "updatedAt": "2026-09-20T04:55:25.979Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -509,5 +509,10 @@
       }
     ]
   },
-  "message": "使用分块翻译重新生成中文"
+  "message": "使用分块翻译重新生成中文",
+  "lease": {
+    "owner": "cron-1789880125753-t6t2d0bx",
+    "acquiredAt": "2026-09-20T04:55:25.979Z",
+    "expiresAt": "2026-09-20T05:00:15.979Z"
+  }
 }
