@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T03:59:24.740Z",
+  "updatedAt": "2026-09-20T03:59:25.467Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -48,5 +48,10 @@
       }
     ]
   },
-  "message": "重新执行此前失败的研究"
+  "message": "重新执行此前失败的研究",
+  "lease": {
+    "owner": "cron-1789876764565-wtffp1s3",
+    "acquiredAt": "2026-09-20T03:59:25.467Z",
+    "expiresAt": "2026-09-20T04:04:15.467Z"
+  }
 }
