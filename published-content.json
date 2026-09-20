@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T06:27:46.854Z",
-  "contentVersion": "review-writer-white-house-press-access-restrictions-1789880309561-1789885668077",
+  "generatedAt": "2026-09-20T07:36:02.056Z",
+  "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889725405-1789889763473",
   "insights": [
     {
       "confidence": "verified",
@@ -6232,36 +6232,36 @@
       "id": "daily-global-2026-09-20",
       "scope": "global",
       "date": "2026-09-20",
-      "decidedAt": "2026-09-20T06:27:46.854Z",
+      "decidedAt": "2026-09-20T07:36:02.056Z",
       "state": "no_new_global_insight",
-      "materialChangeScore": 62,
-      "evidenceStrength": 60,
-      "noveltyScore": 55,
-      "importanceScore": 62,
+      "materialChangeScore": 50,
+      "evidenceStrength": 65,
+      "noveltyScore": 50,
+      "importanceScore": 68,
       "candidateSignalIds": [
-        "white-house-press-access-restrictions"
+        "atlantic-hurricane-erga-intensification"
       ],
       "content": {
         "en": {
-          "label": "No new global insight",
-          "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
-          "thresholdReason": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
+          "label": "No new structural insight today",
+          "decisionTitle": "Current evidence does not support a new structural conclusion",
+          "decisionSummary": "The event lacks multi-event, multi-year evidence of a systemic trend. Forecast-based intensity is predictive rather than observed impact, and no existing World Process tracks storm risk.",
+          "thresholdReason": "The event lacks multi-event, multi-year evidence of a systemic trend. Forecast-based intensity is predictive rather than observed impact, and no existing World Process tracks storm risk.",
           "observeNext": [
-            "Watch for coverage changes from banned outlets.",
-            "Watch for legal challenges to access denial.",
-            "Watch for any expansion of the ban list."
+            "Track whether Erga reaches Category 3 or higher and makes landfall.",
+            "Monitor damage reports and infrastructure failures in affected areas.",
+            "Observe insurance and utility sector responses to rapid intensification."
           ]
         },
         "zh": {
-          "label": "无新增全球洞察",
-          "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
-          "thresholdReason": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
+          "label": "今日未形成新结构性洞察",
+          "decisionTitle": "现有证据不足以支持新的结构性判断",
+          "decisionSummary": "该事件缺乏多事件、多年的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
+          "thresholdReason": "该事件缺乏多事件、多年的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
           "observeNext": [
-            "Watch for coverage changes from banned outlets.",
-            "Watch for legal challenges to access denial.",
-            "Watch for any expansion of the ban list."
+            "Track whether Erga reaches Category 3 or higher and makes landfall.",
+            "Monitor damage reports and infrastructure failures in affected areas.",
+            "Observe insurance and utility sector responses to rapid intensification."
           ]
         }
       },
@@ -7740,6 +7740,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T06:27:48.093Z"
+    "repairedAt": "2026-09-20T07:36:03.489Z"
   }
 }
