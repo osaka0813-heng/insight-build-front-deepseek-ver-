@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T02:57:15.100Z",
+  "updatedAt": "2026-09-20T02:57:16.253Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "DeepSeek request timed out. Please retry.",
-      "updatedAt": "2026-09-20T02:57:15.100Z",
+      "message": "publish",
+      "updatedAt": "2026-09-20T02:57:16.253Z",
       "failedStage": "research",
       "writerDraft": {
         "id": "writer-research-unavailable-2026-09-20",
