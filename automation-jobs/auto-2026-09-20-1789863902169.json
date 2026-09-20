@@ -2,21 +2,21 @@
   "id": "auto-2026-09-20-1789863902169",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-20",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T07:39:14.581Z",
+  "updatedAt": "2026-09-20T07:39:19.093Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 1
       },
-      "message": "publish",
+      "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
       "updatedAt": "2026-09-20T07:39:14.581Z",
       "failedStage": "write_zh",
       "researchDraft": {
@@ -862,9 +862,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-19",
+          "id": "daily-global-2026-09-20",
           "scope": "global",
-          "date": "2026-09-19",
+          "date": "2026-09-20",
           "decidedAt": "2026-09-20T07:38:03.610Z",
           "state": "no_new_global_insight",
           "insightId": "global-2026-09-19-hurricane-erga-s-faster-than-forecast-strengthening-tests-caribbean-and-",
@@ -907,7 +907,9 @@
           "outputTokens": 2790,
           "cachedInputTokens": 1664
         }
-      }
+      },
+      "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889883610-1789889957002",
+      "completedAt": "2026-09-20T07:39:19.093Z"
     }
   },
   "preflight": {
@@ -942,10 +944,11 @@
       }
     ]
   },
-  "message": "补全中文数组字段",
+  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
   "lease": {
     "owner": "cron-1789889953589-qozy5tm1",
     "acquiredAt": "2026-09-20T07:39:13.788Z",
     "expiresAt": "2026-09-20T07:44:03.788Z"
-  }
+  },
+  "completedAt": "2026-09-20T07:39:19.093Z"
 }
