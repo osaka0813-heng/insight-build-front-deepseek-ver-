@@ -8,17 +8,17 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:07:14.200Z",
+  "updatedAt": "2026-09-20T04:07:14.945Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "research": 1,
         "write_zh": 3
       },
-      "message": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入转变\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止CNN、MS Now和Politico参与记者准入\",\"summary\":\"据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者凭证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫新闻发布厅运作。\",\"title\":\"有限的记者准入将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体来源报道了2",
-      "updatedAt": "2026-09-20T04:06:54.470Z",
+      "message": "publish",
+      "updatedAt": "2026-09-20T04:07:14.945Z",
       "failedStage": "write_zh",
       "lastError": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入转变\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止CNN、MS Now和Politico参与记者准入\",\"summary\":\"据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者凭证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫新闻发布厅运作。\",\"title\":\"有限的记者准入将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体来源报道了2",
       "researchDraft": {
