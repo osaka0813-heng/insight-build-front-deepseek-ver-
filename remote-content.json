@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889725405-1789889763473",
+  "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889883610-1789889957002",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -247,7 +247,7 @@
       "id": "daily-global-2026-09-20",
       "scope": "global",
       "date": "2026-09-20",
-      "decidedAt": "2026-09-20T07:36:02.056Z",
+      "decidedAt": "2026-09-20T07:39:15.884Z",
       "state": "no_new_global_insight",
       "materialChangeScore": 50,
       "evidenceStrength": 65,
@@ -271,12 +271,12 @@
         "zh": {
           "label": "今日未形成新结构性洞察",
           "decisionTitle": "现有证据不足以支持新的结构性判断",
-          "decisionSummary": "该事件缺乏多事件、多年的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
-          "thresholdReason": "该事件缺乏多事件、多年的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
+          "decisionSummary": "该事件缺乏多事件、多年份的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
+          "thresholdReason": "该事件缺乏多事件、多年份的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
           "observeNext": [
-            "Track whether Erga reaches Category 3 or higher and makes landfall.",
-            "Monitor damage reports and infrastructure failures in affected areas.",
-            "Observe insurance and utility sector responses to rapid intensification."
+            "追踪埃尔加是否达到三级或以上并登陆。",
+            "监测受灾地区的损失报告和基础设施故障。",
+            "观察保险和公用事业部门对快速增强的应对。"
           ]
         }
       },
@@ -1595,7 +1595,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-20T07:36:02.056Z",
+  "generatedAt": "2026-09-20T07:39:15.884Z",
   "insights": [
     {
       "confidence": "verified",
@@ -7460,7 +7460,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T07:36:03.489Z"
+    "repairedAt": "2026-09-20T07:39:17.018Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8535,6 +8535,323 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-atlantic-hurricane-erga-intensification-1789889883610",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-20T07:38:03.610Z",
+      "researchDraftId": "research-global-2026-09-20-1789877022927",
+      "candidateId": "atlantic-hurricane-erga-intensification",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ]
+      },
+      "insight": {
+        "id": "global-2026-09-19-hurricane-erga-s-faster-than-forecast-strengthening-tests-caribbean-and-",
+        "scope": "global",
+        "slug": "atlantic-hurricane-erga-intensification",
+        "status": "update_living",
+        "publishedAt": "2026-09-19T00:00:00.000Z",
+        "updatedAt": "2026-09-20T07:38:03.610Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Climate Hazard Watch",
+              "secondaryEyebrow": "Rapid Intensification Alert",
+              "title": "Hurricane Erga's Faster-Than-Forecast Strengthening Tests Caribbean and Gulf Readiness",
+              "summary": "A tropical storm upgraded to Hurricane Erga earlier than expected by the National Hurricane Center, with potential to reach Category 3 or higher by Tuesday. The event raises immediate risks to Caribbean islands, Puerto Rico, and the US Gulf Coast, challenging evacuation logistics, insurance pricing, and grid resilience."
+            },
+            "question": {
+              "lead": "A single weather event can stress infrastructure and preparedness systems, but does one hurricane's rapid intensification signal a structural shift in climate hazard patterns?",
+              "title": "What does Hurricane Erga's unexpected intensification reveal about our readiness for accelerating climate hazards?",
+              "footnote": "This assessment draws on two independent reliable media sources reporting NHC forecast data as of September 19, 2026."
+            },
+            "signals": {
+              "title": "Evidence of Rapid Intensification",
+              "sourceNote": "Two trigger sources from BBC and The Guardian, both citing National Hurricane Center updates.",
+              "items": [
+                {
+                  "id": "atlantic-hurricane-erga-intensification-signal-1",
+                  "label": "NHC Upgrade",
+                  "title": "Tropical Storm Erga upgraded to hurricane earlier than forecast",
+                  "body": "The National Hurricane Center upgraded Erga from tropical storm to hurricane status ahead of earlier projections, indicating a faster-than-expected intensification rate.",
+                  "whyImportant": "Early upgrade signals that the storm's strength is outpacing models, reducing lead time for preparations.",
+                  "evidence": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-evidence-1",
+                      "title": "BBC report on NHC upgrade",
+                      "description": "BBC News reported the NHC's earlier-than-expected upgrade of Storm Erga as it approached the Caribbean.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "atlantic-hurricane-erga-intensification-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-source-1",
+                      "title": "Storm Erga strengthens as it bears down on the Caribbean",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-19T15:10:00.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/c1e8d5v7g9zo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "atlantic-hurricane-erga-intensification-signal-2",
+                  "label": "Major Hurricane Potential",
+                  "title": "Erga could reach Category 3 or higher by Tuesday",
+                  "body": "Forecasts from the National Hurricane Center suggest Erga may intensify into a major hurricane (Category 3+) within days, posing a severe threat to land areas.",
+                  "whyImportant": "A Category 3+ hurricane would bring devastating winds, storm surge, and rainfall, overwhelming local response capabilities.",
+                  "evidence": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-evidence-2",
+                      "title": "Guardian report on rapid intensification",
+                      "description": "The Guardian cited NHC forecasts indicating Erga could become a Category 3 or higher by Tuesday, highlighting rapid intensification.",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "atlantic-hurricane-erga-intensification-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-source-2",
+                      "title": "Hurricane Erga intensifies rapidly as Caribbean braces for impact",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-19T18:30:00.000Z",
+                      "url": "https://www.theguardian.com/world/2026/sep/19/hurricane-erga-caribbean-rapid-intensification",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Forecast Lag to Hazard Acceleration",
+              "before": "Hurricane forecasts typically provided adequate lead time, with storms intensifying at a predictable rate and communities able to rely on standard preparation timelines.",
+              "shift": "Erga's rapid intensification outpaced early models, leading to an earlier upgrade and heightened uncertainty about its peak strength and trajectory.",
+              "now": "Coastal and island communities face compressed decision windows for evacuation and hardening, while insurers and utilities must reassess risk exposure in real time.",
+              "conclusion": "This event exemplifies the challenge of rapid intensification, which can outpace forecasting and preparedness, but a single hurricane does not yet establish a durable trend in climate hazard behavior."
+            },
+            "insight": {
+              "title": "Rapid Intensification as a Stress Test",
+              "formula": "Faster-than-forecast strengthening + vulnerable geography + compressed preparation window = acute systemic stress on evacuation, insurance, and grid resilience",
+              "explanation": "Hurricane Erga's sudden escalation forces a real-world test of emergency logistics and infrastructure resilience across multiple jurisdictions. While not a structural process, it reveals fragilities in current preparedness frameworks when forecasts fail to capture acceleration."
+            },
+            "observe": {
+              "title": "What to Track Following Erga",
+              "items": [
+                {
+                  "label": "Landfall and Impact",
+                  "prompt": "Monitor whether Erga makes landfall and the extent of damage to infrastructure and communities.",
+                  "meta": "Immediate"
+                },
+                {
+                  "label": "Forecast Accuracy",
+                  "prompt": "Assess how well NHC models predicted Erga's intensity and track over time.",
+                  "meta": "Post-event"
+                },
+                {
+                  "label": "Insurance and Grid Responses",
+                  "prompt": "Observe how insurers adjust pricing or coverage and how utilities manage grid failures.",
+                  "meta": "Weeks"
+                },
+                {
+                  "label": "Recurring Rapid Intensification",
+                  "prompt": "Watch for additional hurricanes exhibiting similar rapid intensification to identify a possible trend.",
+                  "meta": "Seasonal"
+                }
+              ],
+              "ending": "Erga's path will clarify whether this was an isolated anomaly or part of a broader pattern warranting a dedicated climate-hazard process."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "气候灾害监测",
+              "secondaryEyebrow": "快速增强警报",
+              "title": "飓风“埃尔加”增强快于预报，考验加勒比与墨西哥湾的应对准备",
+              "summary": "一场热带风暴比国家飓风中心预期更早升级为飓风“埃尔加”，并可能在周二前达到三级或更高。这一事件对加勒比岛屿、波多黎各和美国墨西哥湾沿岸构成直接风险，给疏散物流、保险定价和电网韧性带来挑战。"
+            },
+            "question": {
+              "lead": "单一天气事件可能使基础设施和防范系统承压，但一场飓风的快速增强是否意味着气候灾害模式出现结构性转变？",
+              "title": "飓风“埃尔加”的意外增强，揭示了我们在应对加速恶化的气候灾害方面存在哪些不足？",
+              "footnote": "本评估依据两家独立可靠媒体来源，其报道了截至2026年9月19日的国家飓风中心预报数据。"
+            },
+            "signals": {
+              "title": "快速增强的证据",
+              "sourceNote": "来自BBC和《卫报》的两个触发来源，均引用国家飓风中心的更新。",
+              "items": [
+                {
+                  "id": "atlantic-hurricane-erga-intensification-signal-1",
+                  "label": "国家飓风中心升级",
+                  "title": "热带风暴“埃尔加”比预报更早升级为飓风",
+                  "body": "国家飓风中心将“埃尔加”从热带风暴升级为飓风，早于此前预测，表明其增强速度快于预期。",
+                  "whyImportant": "提前升级表明风暴强度超出模型预测，缩短了准备时间。",
+                  "evidence": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-evidence-1",
+                      "title": "BBC关于国家飓风中心升级的报道",
+                      "description": "BBC新闻报道，国家飓风中心在风暴“埃尔加”逼近加勒比海时提前升级了其级别。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "atlantic-hurricane-erga-intensification-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-source-1",
+                      "title": "Storm Erga strengthens as it bears down on the Caribbean",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-19T15:10:00.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/c1e8d5v7g9zo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "atlantic-hurricane-erga-intensification-signal-2",
+                  "label": "可能成为强飓风",
+                  "title": "“埃尔加”或于周二达到三级或更高",
+                  "body": "国家飓风中心的预测显示，“埃尔加”可能在数日内增强为强飓风（三级以上），对陆地构成严重威胁。",
+                  "whyImportant": "三级以上飓风会带来破坏性大风、风暴潮和降雨，令当地应对能力不堪重负。",
+                  "evidence": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-evidence-2",
+                      "title": "《卫报》关于快速增强的报道",
+                      "description": "《卫报》援引国家飓风中心的预测称，“埃尔加”可能在周二前达到三级或更高，凸显其快速增强。",
+                      "confidence": "developing",
+                      "sourceIds": [
+                        "atlantic-hurricane-erga-intensification-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "atlantic-hurricane-erga-intensification-source-2",
+                      "title": "Hurricane Erga intensifies rapidly as Caribbean braces for impact",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-19T18:30:00.000Z",
+                      "url": "https://www.theguardian.com/world/2026/sep/19/hurricane-erga-caribbean-rapid-intensification",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从预报滞后到灾害加速",
+              "before": "以往飓风预报通常能提供充足准备时间，风暴增强速度可预测，社区可依赖常规准备时间表。",
+              "shift": "“埃尔加”的快速增强超出了早期模型预测，导致提前升级，并使其峰值强度和路径的不确定性加大。",
+              "now": "沿海和岛屿社区在疏散和加固方面的决策窗口被压缩，而保险公司和公用事业必须实时重新评估风险敞口。",
+              "conclusion": "此事件凸显了快速增强带来的挑战，它可能超出预报和防备能力，但单次飓风尚不足以确立气候灾害行为的持久趋势。"
+            },
+            "insight": {
+              "title": "快速增强作为压力测试",
+              "formula": "增强快于预报 + 地理脆弱 + 准备窗口压缩 = 疏散、保险和电网韧性承受严重的系统性压力",
+              "explanation": "飓风Erga的突然升级迫使多个辖区对应急物流和基础设施韧性进行现实检验。尽管这不是结构性过程，但它揭示了当预报未能捕捉加速时当前防备框架中的脆弱性。"
+            },
+            "observe": {
+              "title": "Erga之后应追踪什么",
+              "items": [
+                {
+                  "label": "登陆与影响",
+                  "prompt": "监测Erga是否登陆，以及对基础设施和社区造成的破坏程度。",
+                  "meta": "即时"
+                },
+                {
+                  "label": "预报准确性",
+                  "prompt": "评估NHC模型随时间对Erga强度和路径的预测效果。",
+                  "meta": "事后"
+                },
+                {
+                  "label": "保险与电网应对",
+                  "prompt": "观察保险公司如何调整定价或承保范围，以及公用事业如何应对电网故障。",
+                  "meta": "周"
+                },
+                {
+                  "label": "反复出现的快速增强",
+                  "prompt": "留意其他呈现类似快速增强的飓风，以判断是否存在某种趋势。",
+                  "meta": "季节性"
+                }
+              ],
+              "ending": "埃尔加的路径将说明这究竟是一次孤立异常，还是某种更广泛模式的一部分，从而值得设立专门的气候灾害流程。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-20",
+        "scope": "global",
+        "date": "2026-09-20",
+        "decidedAt": "2026-09-20T07:38:03.610Z",
+        "state": "no_new_global_insight",
+        "insightId": "global-2026-09-19-hurricane-erga-s-faster-than-forecast-strengthening-tests-caribbean-and-",
+        "materialChangeScore": 50,
+        "evidenceStrength": 65,
+        "noveltyScore": 50,
+        "importanceScore": 68,
+        "candidateSignalIds": [
+          "atlantic-hurricane-erga-intensification"
+        ],
+        "content": {
+          "en": {
+            "label": "No New Global Insight",
+            "decisionTitle": "Single Weather Event Does Not Meet Threshold for Global Insight",
+            "decisionSummary": "While Hurricane Erga's rapid intensification is verifiable and carries immediate regional risks, it is a single event without a structural process match. It does not yet justify a new World Process or a standalone Global Insight at this time.",
+            "thresholdReason": "The event lacks multi-event, multi-year evidence of a systemic trend. Forecast-based intensity is predictive rather than observed impact, and no existing World Process tracks storm risk.",
+            "observeNext": [
+              "Track whether Erga reaches Category 3 or higher and makes landfall.",
+              "Monitor damage reports and infrastructure failures in affected areas.",
+              "Observe insurance and utility sector responses to rapid intensification."
+            ]
+          },
+          "zh": {
+            "label": "无新的全球洞察",
+            "decisionTitle": "单一天气事件未达到全球洞察的门槛",
+            "decisionSummary": "尽管飓风埃尔加的快速增强可被证实，并带来直接的区域性风险，但它是一次孤立事件，没有对应的结构性流程。目前尚不足以证明需要设立新的世界流程或单独的全球洞察。",
+            "thresholdReason": "该事件缺乏多事件、多年份的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
+            "observeNext": [
+              "追踪埃尔加是否达到三级或以上并登陆。",
+              "监测受灾地区的损失报告和基础设施故障。",
+              "观察保险和公用事业部门对快速增强的应对。"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4925,
+        "outputTokens": 2790,
+        "cachedInputTokens": 1664
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-20T07:39:15.884Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "rejectedAt": "2026-09-20T07:39:15.884Z"
+    },
     {
       "id": "writer-atlantic-hurricane-erga-intensification-1789889725405",
       "scope": "global",

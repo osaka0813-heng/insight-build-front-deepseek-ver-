@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T07:36:02.056Z",
-  "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889725405-1789889763473",
+  "generatedAt": "2026-09-20T07:39:15.884Z",
+  "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889883610-1789889957002",
   "insights": [
     {
       "confidence": "verified",
@@ -6232,7 +6232,7 @@
       "id": "daily-global-2026-09-20",
       "scope": "global",
       "date": "2026-09-20",
-      "decidedAt": "2026-09-20T07:36:02.056Z",
+      "decidedAt": "2026-09-20T07:39:15.884Z",
       "state": "no_new_global_insight",
       "materialChangeScore": 50,
       "evidenceStrength": 65,
@@ -6256,12 +6256,12 @@
         "zh": {
           "label": "今日未形成新结构性洞察",
           "decisionTitle": "现有证据不足以支持新的结构性判断",
-          "decisionSummary": "该事件缺乏多事件、多年的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
-          "thresholdReason": "该事件缺乏多事件、多年的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
+          "decisionSummary": "该事件缺乏多事件、多年份的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
+          "thresholdReason": "该事件缺乏多事件、多年份的系统性趋势证据。基于预报的强度属于预测，而非实际观测影响，且现有世界流程均未追踪风暴风险。",
           "observeNext": [
-            "Track whether Erga reaches Category 3 or higher and makes landfall.",
-            "Monitor damage reports and infrastructure failures in affected areas.",
-            "Observe insurance and utility sector responses to rapid intensification."
+            "追踪埃尔加是否达到三级或以上并登陆。",
+            "监测受灾地区的损失报告和基础设施故障。",
+            "观察保险和公用事业部门对快速增强的应对。"
           ]
         }
       },
@@ -7740,6 +7740,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T07:36:03.489Z"
+    "repairedAt": "2026-09-20T07:39:17.018Z"
   }
 }
