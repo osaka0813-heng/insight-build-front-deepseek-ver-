@@ -6,21 +6,21 @@
   "date": "2026-09-20",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "publish",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:06:41.772Z",
+  "updatedAt": "2026-09-20T04:06:54.473Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {
         "research": 1,
-        "write_zh": 2
+        "write_zh": 3
       },
-      "message": "write_zh",
-      "updatedAt": "2026-09-20T04:06:41.772Z",
+      "message": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入转变\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止CNN、MS Now和Politico参与记者准入\",\"summary\":\"据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者凭证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫新闻发布厅运作。\",\"title\":\"有限的记者准入将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体来源报道了2",
+      "updatedAt": "2026-09-20T04:06:54.470Z",
       "failedStage": "write_zh",
-      "lastError": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入变化\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止 CNN、MS Now 和 Politico 参与记者采访\",\"summary\":\"据 BBC 和《卫报》报道，特朗普政府已拒绝向 CNN、MS Now 和 Politico 发放白宫记者证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫记者室办公。\",\"title\":\"记者准入受限将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体",
+      "lastError": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入转变\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止CNN、MS Now和Politico参与记者准入\",\"summary\":\"据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者凭证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫新闻发布厅运作。\",\"title\":\"有限的记者准入将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体来源报道了2",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-20-1789877022927",
@@ -475,7 +475,348 @@
           "outputTokens": 1557,
           "cachedInputTokens": 0
         }
-      }
+      },
+      "writerDraft": {
+        "id": "writer-white-house-press-access-restrictions-1789877214473",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-09-20T04:06:54.473Z",
+        "researchDraftId": "research-global-2026-09-20-1789877022927",
+        "candidateId": "white-house-press-access-restrictions",
+        "model": "deterministic-fallback-v1",
+        "dailyState": "publish_new",
+        "qualityChecks": {
+          "publishThresholdMet": false,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": [
+            "Candidate does not meet publication threshold."
+          ]
+        },
+        "insight": {
+          "id": "global-2026-09-18-white-house-denies-access-to-cnn-ms-now-politico-and-other-outlets",
+          "scope": "global",
+          "slug": "white-house-denies-access-to-cnn-ms-now-politico-and-other-outlets",
+          "status": "publish_new",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "updatedAt": "2026-09-20T04:06:54.472Z",
+          "confidence": "developing",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "GLOBAL INSIGHT",
+                "secondaryEyebrow": "RULE-BASED RECOVERY EDITION",
+                "title": "White House denies access to CNN, MS Now, Politico and other outlets",
+                "summary": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced."
+              },
+              "question": {
+                "lead": "The Trump administration restricted White House access for CNN, MS Now and Politico, with journalists denied access after some media outlets were banned, according to BBC and Guardian reports.",
+                "title": "Does this change the structure, or only the headlines?",
+                "footnote": "No existing World Process fits cleanly; this is an institutional-access change rather than a technology, energy or security-capacity process."
+              },
+              "signals": {
+                "title": "Signals and evidence",
+                "sourceNote": "Built only from the verified research dossier after the AI writer failed.",
+                "items": [
+                  {
+                    "id": "white-house-press-access-restrictions-signal-1",
+                    "label": "SIGNAL 01",
+                    "title": "White House denies access to CNN, MS Now, Politico and other outlets",
+                    "body": "The Trump administration restricted White House access for CNN, MS Now and Politico, with journalists denied access after some media outlets were banned, according to BBC and Guardian reports.",
+                    "whyImportant": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced.",
+                    "evidence": [
+                      {
+                        "id": "white-house-press-access-restrictions-evidence-1",
+                        "title": "Current evidence",
+                        "description": "The Trump administration restricted White House access for CNN, MS Now and Politico, with journalists denied access after some media outlets were banned, according to BBC and Guardian reports.",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "white-house-press-access-restrictions-source-1",
+                          "white-house-press-access-restrictions-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "white-house-press-access-restrictions-source-1",
+                        "title": "Journalists denied White House access after Trump banned some media outlets",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-19T19:13:49.000Z",
+                        "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      },
+                      {
+                        "id": "white-house-press-access-restrictions-source-2",
+                        "title": "Trump bans CNN, MS Now and Politico from White House",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-18T23:04:30.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white-house-press-access-restrictions-signal-2",
+                    "label": "SIGNAL 02",
+                    "title": "Structural relevance",
+                    "body": "No existing World Process fits cleanly; this is an institutional-access change rather than a technology, energy or security-capacity process.",
+                    "whyImportant": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced.",
+                    "evidence": [
+                      {
+                        "id": "white-house-press-access-restrictions-evidence-2",
+                        "title": "Cross-check",
+                        "description": "No existing World Process fits cleanly; this is an institutional-access change rather than a technology, energy or security-capacity process.",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "white-house-press-access-restrictions-source-1",
+                          "white-house-press-access-restrictions-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "white-house-press-access-restrictions-source-1",
+                        "title": "Journalists denied White House access after Trump banned some media outlets",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-19T19:13:49.000Z",
+                        "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      },
+                      {
+                        "id": "white-house-press-access-restrictions-source-2",
+                        "title": "Trump bans CNN, MS Now and Politico from White House",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-18T23:04:30.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "What may be changing",
+                "before": "The prior baseline remained intact.",
+                "shift": "The Trump administration restricted White House access for CNN, MS Now and Politico, with journalists denied access after some media outlets were banned, according to BBC and Guardian reports.",
+                "now": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced.",
+                "conclusion": "No existing World Process fits cleanly; this is an institutional-access change rather than a technology, energy or security-capacity process."
+              },
+              "insight": {
+                "title": "The working insight",
+                "formula": "New evidence × structural relevance = possible change",
+                "explanation": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced."
+              },
+              "observe": {
+                "title": "Observe next",
+                "items": [
+                  {
+                    "label": "EVIDENCE",
+                    "prompt": "Look for independent confirmation.",
+                    "meta": "Next 24–72 hours"
+                  },
+                  {
+                    "label": "SCALE",
+                    "prompt": "Check whether the change expands beyond one event.",
+                    "meta": "Follow-through"
+                  },
+                  {
+                    "label": "STRUCTURE",
+                    "prompt": "Watch for a changed relationship or process stage.",
+                    "meta": "Decision trigger"
+                  }
+                ],
+                "ending": "The next independent evidence decides whether this becomes structural."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "全球洞察",
+                "secondaryEyebrow": "规则恢复版本",
+                "title": "白宫拒绝CNN、MS Now、Politico等媒体进入",
+                "summary": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。"
+              },
+              "question": {
+                "lead": "据BBC与《卫报》报道，特朗普政府限制CNN、MS Now与Politico进入白宫，部分媒体机构被禁后记者遭拒之门外。",
+                "title": "它改变了结构，还是只改变了新闻标题？",
+                "footnote": "现有世界进程均不直接匹配；这属于制度准入变化，而非技术、能源或安全产能进程。"
+              },
+              "signals": {
+                "title": "信号与证据",
+                "sourceNote": "AI 写作失败后，仅依据已验证的研究材料生成。",
+                "items": [
+                  {
+                    "id": "white-house-press-access-restrictions-signal-1",
+                    "label": "信号 01",
+                    "title": "白宫拒绝CNN、MS Now、Politico等媒体进入",
+                    "body": "据BBC与《卫报》报道，特朗普政府限制CNN、MS Now与Politico进入白宫，部分媒体机构被禁后记者遭拒之门外。",
+                    "whyImportant": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。",
+                    "evidence": [
+                      {
+                        "id": "white-house-press-access-restrictions-evidence-1",
+                        "title": "当前证据",
+                        "description": "据BBC与《卫报》报道，特朗普政府限制CNN、MS Now与Politico进入白宫，部分媒体机构被禁后记者遭拒之门外。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "white-house-press-access-restrictions-source-1",
+                          "white-house-press-access-restrictions-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "white-house-press-access-restrictions-source-1",
+                        "title": "Journalists denied White House access after Trump banned some media outlets",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-19T19:13:49.000Z",
+                        "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      },
+                      {
+                        "id": "white-house-press-access-restrictions-source-2",
+                        "title": "Trump bans CNN, MS Now and Politico from White House",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-18T23:04:30.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "white-house-press-access-restrictions-signal-2",
+                    "label": "信号 02",
+                    "title": "结构关联",
+                    "body": "现有世界进程均不直接匹配；这属于制度准入变化，而非技术、能源或安全产能进程。",
+                    "whyImportant": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。",
+                    "evidence": [
+                      {
+                        "id": "white-house-press-access-restrictions-evidence-2",
+                        "title": "交叉确认",
+                        "description": "现有世界进程均不直接匹配；这属于制度准入变化，而非技术、能源或安全产能进程。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "white-house-press-access-restrictions-source-1",
+                          "white-house-press-access-restrictions-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "white-house-press-access-restrictions-source-1",
+                        "title": "Journalists denied White House access after Trump banned some media outlets",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-19T19:13:49.000Z",
+                        "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      },
+                      {
+                        "id": "white-house-press-access-restrictions-source-2",
+                        "title": "Trump bans CNN, MS Now and Politico from White House",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-18T23:04:30.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "可能正在发生的变化",
+                "before": "此前的基准判断仍然成立。",
+                "shift": "据BBC与《卫报》报道，特朗普政府限制CNN、MS Now与Politico进入白宫，部分媒体机构被禁后记者遭拒之门外。",
+                "now": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。",
+                "conclusion": "现有世界进程均不直接匹配；这属于制度准入变化，而非技术、能源或安全产能进程。"
+              },
+              "insight": {
+                "title": "当前判断",
+                "formula": "新证据 × 结构关联 = 潜在变化",
+                "explanation": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。"
+              },
+              "observe": {
+                "title": "下一步观察",
+                "items": [
+                  {
+                    "label": "证据",
+                    "prompt": "等待彼此独立的来源确认。",
+                    "meta": "未来24–72小时"
+                  },
+                  {
+                    "label": "规模",
+                    "prompt": "确认变化是否超出单一事件。",
+                    "meta": "后续发展"
+                  },
+                  {
+                    "label": "结构",
+                    "prompt": "观察系统关系或进程阶段是否改变。",
+                    "meta": "判断触发点"
+                  }
+                ],
+                "ending": "下一份独立证据，将决定它是否构成结构性变化。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-09-18",
+          "scope": "global",
+          "date": "2026-09-18",
+          "decidedAt": "2026-09-20T04:06:54.472Z",
+          "state": "publish_new",
+          "insightId": "global-2026-09-18-white-house-denies-access-to-cnn-ms-now-politico-and-other-outlets",
+          "materialChangeScore": 62,
+          "evidenceStrength": 60,
+          "noveltyScore": 55,
+          "importanceScore": 62,
+          "candidateSignalIds": [
+            "white-house-press-access-restrictions"
+          ],
+          "content": {
+            "en": {
+              "label": "GLOBAL INSIGHT",
+              "decisionTitle": "Today’s strongest structural signal",
+              "decisionSummary": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced.",
+              "thresholdReason": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+              "observeNext": [
+                "Independent confirmation",
+                "Expansion beyond one event",
+                "A changed system relationship"
+              ]
+            },
+            "zh": {
+              "label": "今日全球洞察",
+              "decisionTitle": "今天的最佳结构性信号",
+              "decisionSummary": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。",
+              "thresholdReason": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+              "observeNext": [
+                "等待独立来源确认",
+                "观察影响范围是否扩大",
+                "检查系统关系是否改变"
+              ]
+            }
+          }
+        },
+        "provider": "deterministic-fallback",
+        "pipeline": "build014.2-recovery"
+      },
+      "recoveredStage": "write_zh",
+      "recoveryReason": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入转变\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止CNN、MS Now和Politico参与记者准入\",\"summary\":\"据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者凭证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫新闻发布厅运作。\",\"title\":\"有限的记者准入将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体来源报道了2"
     }
   },
   "preflight": {
@@ -510,7 +851,7 @@
       }
     ]
   },
-  "message": "WORLD write_zh 自动重试 2/3",
+  "message": "DeepSeek Writer 失败，已用双语证据模板接管。",
   "lease": {
     "owner": "cron-1789877200736-znr52qm9",
     "acquiredAt": "2026-09-20T04:06:40.992Z",
