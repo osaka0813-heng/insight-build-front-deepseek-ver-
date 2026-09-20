@@ -6,18 +6,18 @@
   "date": "2026-09-20",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:04:04.088Z",
+  "updatedAt": "2026-09-20T04:04:13.677Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "analyze",
-      "updatedAt": "2026-09-20T04:04:04.088Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-20T04:04:13.677Z",
       "failedStage": "research",
       "lastError": "Candidate 1 has fewer than two sources.",
       "researchDraft": {
@@ -155,7 +155,202 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-20-1789877022927",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-20T04:03:42.927Z",
+        "researchDate": "2026-09-20",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Balanced scan of the 2026-09-20 dossier across macro-finance, industry-trade, energy-resources, health-science, climate-environment, demographics-society, institutions-culture, technology-AI and geopolitics-security. Macro, industry and energy collection timed out; only climate, demographics, institutions, AI and limited macro/health records were indexed. Most records are single-publisher BBC or Guardian items, so only a small number of candidates reach two independent, differently-originated sources. The strongest structural signals are: Greenland security control (NATO plus Trump statements), sweeping Russia sanctions law (Trump signature plus oil-market forecaster uncertainty), White House press-access restrictions (two independent publishers), and Atlantic hurricane intensification (two independent publishers). A mass marine mortality event and a house-price/housing stress signal are retained as single-publisher leads but do not meet the two-independent-source bar and are therefore excluded from candidates. AI and conflict are each represented at most once, without priority weight.",
+        "candidates": [
+          {
+            "id": "white-house-press-access-restrictions",
+            "date": "2026-09-18",
+            "domain": "institutions-culture",
+            "tags": [
+              "press-freedom",
+              "white-house",
+              "media",
+              "institutions",
+              "access"
+            ],
+            "processMatchConfidence": 10,
+            "importance": 62,
+            "novelty": 55,
+            "evidenceStrength": 60,
+            "independentSourceCount": 2,
+            "thesisImpact": 50,
+            "relationshipChange": 60,
+            "stageChange": 45,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "White House denies access to CNN, MS Now, Politico and other outlets",
+                "coreFact": "The Trump administration restricted White House access for CNN, MS Now and Politico, with journalists denied access after some media outlets were banned, according to BBC and Guardian reports.",
+                "whyItMatters": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced.",
+                "processMatchReason": "No existing World Process fits cleanly; this is an institutional-access change rather than a technology, energy or security-capacity process."
+              },
+              "zh": {
+                "title": "白宫拒绝CNN、MS Now、Politico等媒体进入",
+                "coreFact": "据BBC与《卫报》报道，特朗普政府限制CNN、MS Now与Politico进入白宫，部分媒体机构被禁后记者遭拒之门外。",
+                "whyItMatters": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。",
+                "processMatchReason": "现有世界进程均不直接匹配；这属于制度准入变化，而非技术、能源或安全产能进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Journalists denied White House access after Trump banned some media outlets",
+                "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-19T19:13:49.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "White House access decisions as reported by BBC",
+                "id": "white-house-press-access-restrictions-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Trump bans CNN, MS Now and Politico from White House",
+                "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-18T23:04:30.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "White House press-access ban as reported by The Guardian",
+                "id": "white-house-press-access-restrictions-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "white-house-press-access-restrictions-source-1",
+              "white-house-press-access-restrictions-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 10,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 62,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+              "warnings": [
+                "Evidence relies on media reporting of White House access decisions rather than primary White House documentation.",
+                "Process match was originally forced onto process-energy-security with 9% confidence — this is not a genuine match."
+              ],
+              "candidateId": "white-house-press-access-restrictions",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 58
+            }
+          },
+          {
+            "id": "atlantic-hurricane-erga-intensification",
+            "date": "2026-09-19",
+            "domain": "climate-environment",
+            "tags": [
+              "hurricane",
+              "noaa",
+              "atlantic",
+              "storm-surge",
+              "forecast-intensification"
+            ],
+            "processMatchConfidence": 8,
+            "importance": 68,
+            "novelty": 50,
+            "evidenceStrength": 65,
+            "independentSourceCount": 2,
+            "thesisImpact": 45,
+            "relationshipChange": 30,
+            "stageChange": 40,
+            "contradiction": 55,
+            "content": {
+              "en": {
+                "title": "Atlantic storm intensifies faster than forecast as it approaches the Caribbean",
+                "coreFact": "A tropical storm, later Hurricane Erga, was upgraded earlier than expected by the National Hurricane Center and could become a Category 3 or higher by Tuesday, according to BBC and Guardian reports.",
+                "whyItMatters": "Faster-than-forecast intensification raises the risk to Caribbean islands, Puerto Rico and US Gulf Coast areas, testing evacuation logistics, insurance pricing and grid resilience in a single event.",
+                "processMatchReason": "No existing World Process directly tracks storm risk; this is a climate-hazard signal rather than an energy, technology or security-capacity process."
+              },
+              "zh": {
+                "title": "大西洋风暴增强速度快于预期，逼近加勒比地区",
+                "coreFact": "据BBC与《卫报》报道，热带风暴随后升级为飓风Erga，美国国家飓风中心提前发布升级，预计周二可能达到三级或更强。",
+                "whyItMatters": "增强速度快于预期加大加勒比岛屿、波多黎各及美国墨西哥湾沿岸的风险，在单一事件中检验疏散物流、保险定价与电网韧性。",
+                "processMatchReason": "现有世界进程均不直接跟踪风暴风险；这属于气候灾害信号，而非能源、技术或安全产能进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Storm Erga strengthens as it bears down on the Caribbean",
+                "url": "https://www.bbc.co.uk/news/articles/c1e8d5v7g9zo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-19T15:10:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "National Hurricane Center upgrade of Tropical Storm Erga as reported by BBC",
+                "id": "atlantic-hurricane-erga-intensification-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Hurricane Erga intensifies rapidly as Caribbean braces for impact",
+                "url": "https://www.theguardian.com/world/2026/sep/19/hurricane-erga-caribbean-rapid-intensification",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-19T18:30:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "National Hurricane Center forecast and intensity data as reported by The Guardian",
+                "id": "atlantic-hurricane-erga-intensification-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "atlantic-hurricane-erga-intensification-source-1",
+              "atlantic-hurricane-erga-intensification-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 8,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 40,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A single fast-intensifying Atlantic hurricane is a climate-hazard event with real local risk, but it does not meet the durability or breadth-of-systems bar for a Global Insight. 'Faster-than-forecast intensification' is common in recent Atlantic seasons and is not a structural change; it tests logistics and insurance within a single event rather than changing a second-order system. No existing World Process tracks storm risk, and it would be premature to create one from a single storm. Evidence is credible (two reliable-media origins) but the signal is a follow-through event, not a world-understanding change. This is the clear noise_follow_through candidate.",
+              "warnings": [
+                "Single-event signal; generalizing from one storm risks overfitting a process hypothesis.",
+                "No existing process matches; suggested match to process-geopolitical-technology-control is spurious."
+              ],
+              "candidateId": "atlantic-hurricane-erga-intensification",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 44
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 2,
+      "selectedCandidateId": "white-house-press-access-restrictions"
     }
   },
   "preflight": {
