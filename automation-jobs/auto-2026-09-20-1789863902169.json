@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:00:29.215Z",
+  "updatedAt": "2026-09-20T04:01:00.970Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -54,10 +54,5 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3",
-  "lease": {
-    "owner": "cron-1789876764565-wtffp1s3",
-    "acquiredAt": "2026-09-20T03:59:25.467Z",
-    "expiresAt": "2026-09-20T04:04:15.467Z"
-  }
+  "message": "WORLD research 自动重试 1/3"
 }
