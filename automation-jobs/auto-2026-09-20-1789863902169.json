@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T07:36:07.268Z",
+  "updatedAt": "2026-09-20T07:37:31.425Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -510,5 +510,10 @@
       }
     ]
   },
-  "message": "补全中文数组字段"
+  "message": "补全中文数组字段",
+  "lease": {
+    "owner": "cron-1789889851215-3zem2o0s",
+    "acquiredAt": "2026-09-20T07:37:31.425Z",
+    "expiresAt": "2026-09-20T07:42:21.425Z"
+  }
 }
