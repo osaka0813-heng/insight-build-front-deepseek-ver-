@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:04:03.348Z",
+  "updatedAt": "2026-09-20T04:04:04.088Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-09-20T04:03:42.939Z",
+      "message": "analyze",
+      "updatedAt": "2026-09-20T04:04:04.088Z",
       "failedStage": "research",
       "lastError": "Candidate 1 has fewer than two sources.",
       "researchDraft": {
