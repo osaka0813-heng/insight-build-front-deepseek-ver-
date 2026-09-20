@@ -6,18 +6,18 @@
   "date": "2026-09-20",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T07:32:47.317Z",
+  "updatedAt": "2026-09-20T07:33:47.506Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-20T07:32:47.317Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-20T07:33:47.506Z",
       "failedStage": "write_zh",
       "researchDraft": {
         "ok": true,
@@ -351,6 +351,130 @@
           }
         ],
         "analysisProvider": "deepseek"
+      },
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "atlantic-hurricane-erga-intensification",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Climate Hazard Watch",
+              "secondaryEyebrow": "Rapid Intensification Alert",
+              "title": "Hurricane Erga's Faster-Than-Forecast Strengthening Tests Caribbean and Gulf Readiness",
+              "summary": "A tropical storm upgraded to Hurricane Erga earlier than expected by the National Hurricane Center, with potential to reach Category 3 or higher by Tuesday. The event raises immediate risks to Caribbean islands, Puerto Rico, and the US Gulf Coast, challenging evacuation logistics, insurance pricing, and grid resilience."
+            },
+            "question": {
+              "lead": "A single weather event can stress infrastructure and preparedness systems, but does one hurricane's rapid intensification signal a structural shift in climate hazard patterns?",
+              "title": "What does Hurricane Erga's unexpected intensification reveal about our readiness for accelerating climate hazards?",
+              "footnote": "This assessment draws on two independent reliable media sources reporting NHC forecast data as of September 19, 2026."
+            },
+            "signals": {
+              "title": "Evidence of Rapid Intensification",
+              "sourceNote": "Two trigger sources from BBC and The Guardian, both citing National Hurricane Center updates.",
+              "items": [
+                {
+                  "label": "NHC Upgrade",
+                  "title": "Tropical Storm Erga upgraded to hurricane earlier than forecast",
+                  "body": "The National Hurricane Center upgraded Erga from tropical storm to hurricane status ahead of earlier projections, indicating a faster-than-expected intensification rate.",
+                  "whyImportant": "Early upgrade signals that the storm's strength is outpacing models, reducing lead time for preparations.",
+                  "evidence": {
+                    "title": "BBC report on NHC upgrade",
+                    "description": "BBC News reported the NHC's earlier-than-expected upgrade of Storm Erga as it approached the Caribbean.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "atlantic-hurricane-erga-intensification-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Major Hurricane Potential",
+                  "title": "Erga could reach Category 3 or higher by Tuesday",
+                  "body": "Forecasts from the National Hurricane Center suggest Erga may intensify into a major hurricane (Category 3+) within days, posing a severe threat to land areas.",
+                  "whyImportant": "A Category 3+ hurricane would bring devastating winds, storm surge, and rainfall, overwhelming local response capabilities.",
+                  "evidence": {
+                    "title": "Guardian report on rapid intensification",
+                    "description": "The Guardian cited NHC forecasts indicating Erga could become a Category 3 or higher by Tuesday, highlighting rapid intensification.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "atlantic-hurricane-erga-intensification-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Forecast Lag to Hazard Acceleration",
+              "before": "Hurricane forecasts typically provided adequate lead time, with storms intensifying at a predictable rate and communities able to rely on standard preparation timelines.",
+              "shift": "Erga's rapid intensification outpaced early models, leading to an earlier upgrade and heightened uncertainty about its peak strength and trajectory.",
+              "now": "Coastal and island communities face compressed decision windows for evacuation and hardening, while insurers and utilities must reassess risk exposure in real time.",
+              "conclusion": "This event exemplifies the challenge of rapid intensification, which can outpace forecasting and preparedness, but a single hurricane does not yet establish a durable trend in climate hazard behavior."
+            },
+            "insight": {
+              "title": "Rapid Intensification as a Stress Test",
+              "formula": "Faster-than-forecast strengthening + vulnerable geography + compressed preparation window = acute systemic stress on evacuation, insurance, and grid resilience",
+              "explanation": "Hurricane Erga's sudden escalation forces a real-world test of emergency logistics and infrastructure resilience across multiple jurisdictions. While not a structural process, it reveals fragilities in current preparedness frameworks when forecasts fail to capture acceleration."
+            },
+            "observe": {
+              "title": "What to Track Following Erga",
+              "items": [
+                {
+                  "label": "Landfall and Impact",
+                  "prompt": "Monitor whether Erga makes landfall and the extent of damage to infrastructure and communities.",
+                  "meta": "Immediate"
+                },
+                {
+                  "label": "Forecast Accuracy",
+                  "prompt": "Assess how well NHC models predicted Erga's intensity and track over time.",
+                  "meta": "Post-event"
+                },
+                {
+                  "label": "Insurance and Grid Responses",
+                  "prompt": "Observe how insurers adjust pricing or coverage and how utilities manage grid failures.",
+                  "meta": "Weeks"
+                },
+                {
+                  "label": "Recurring Rapid Intensification",
+                  "prompt": "Watch for additional hurricanes exhibiting similar rapid intensification to identify a possible trend.",
+                  "meta": "Seasonal"
+                }
+              ],
+              "ending": "Erga's path will clarify whether this was an isolated anomaly or part of a broader pattern warranting a dedicated climate-hazard process."
+            }
+          },
+          "dailyStateEn": {
+            "label": "No New Global Insight",
+            "decisionTitle": "Single Weather Event Does Not Meet Threshold for Global Insight",
+            "decisionSummary": "While Hurricane Erga's rapid intensification is verifiable and carries immediate regional risks, it is a single event without a structural process match. It does not yet justify a new World Process or a standalone Global Insight at this time.",
+            "thresholdReason": "The event lacks multi-event, multi-year evidence of a systemic trend. Forecast-based intensity is predictive rather than observed impact, and no existing World Process tracks storm risk.",
+            "observeNext": [
+              "Track whether Erga reaches Category 3 or higher and makes landfall.",
+              "Monitor damage reports and infrastructure failures in affected areas.",
+              "Observe insurance and utility sector responses to rapid intensification."
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "Emerging Climate Hazard Signal",
+            "description": "Hurricane Erga's rapid intensification is a standalone climate-hazard event with regional consequences. It does not yet fit an existing World Process, but it could contribute to a future process on climate hazards and infrastructure resilience if similar events recur.",
+            "implication": "Rapid intensification may become a more frequent challenge under climate change, but current evidence is insufficient to establish a durable trend. Watching for repeated occurrences is essential before elevating this to a process."
+          },
+          "nextQuestionEn": "What additional evidence would indicate that rapid hurricane intensification is a structural trend rather than an isolated event?",
+          "observeNextEn": [
+            "Track whether Erga reaches Category 3 or higher and makes landfall.",
+            "Monitor damage reports and infrastructure failures in affected areas.",
+            "Observe insurance and utility sector responses to rapid intensification."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2141,
+          "outputTokens": 1531,
+          "cachedInputTokens": 0
+        }
       }
     }
   },
