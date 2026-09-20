@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T02:57:17.944Z",
-  "contentVersion": "review-writer-research-unavailable-2026-09-20-1789873038999",
+  "generatedAt": "2026-09-20T04:07:16.257Z",
+  "contentVersion": "review-writer-white-house-press-access-restrictions-1789877214473-1789877237318",
   "insights": [
     {
       "confidence": "verified",
@@ -6298,33 +6298,39 @@
       "id": "daily-global-2026-09-18",
       "scope": "global",
       "date": "2026-09-18",
+      "decidedAt": "2026-09-20T04:07:16.257Z",
       "state": "no_new_global_insight",
-      "materialChangeScore": 0,
-      "evidenceStrength": 0,
-      "noveltyScore": 0,
-      "importanceScore": 0,
-      "candidateSignalIds": [],
+      "materialChangeScore": 62,
+      "evidenceStrength": 60,
+      "noveltyScore": 55,
+      "importanceScore": 62,
+      "candidateSignalIds": [
+        "white-house-press-access-restrictions"
+      ],
       "content": {
         "en": {
           "label": "No new global insight",
           "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Publishing is withheld because the evidence collection stage did not complete.",
-          "thresholdReason": "Publishing is withheld because the evidence collection stage did not complete.",
+          "decisionSummary": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+          "thresholdReason": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
           "observeNext": [
-            "Retry the independent-source scan on the next scheduled recovery run."
+            "Independent confirmation",
+            "Expansion beyond one event",
+            "A changed system relationship"
           ]
         },
         "zh": {
           "label": "无新增全球洞察",
           "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
-          "thresholdReason": "证据收集阶段没有完成，系统保留旧洞察并等待恢复。",
+          "decisionSummary": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+          "thresholdReason": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
           "observeNext": [
-            "在下一次定时恢复中重新执行独立来源扫描。"
+            "等待独立来源确认",
+            "观察影响范围是否扩大",
+            "检查系统关系是否改变"
           ]
         }
       },
-      "decidedAt": "2026-09-18T00:28:03.110Z",
       "previousInsightId": "global-2026-09-04-el-nino-system-risk"
     },
     {
@@ -7728,6 +7734,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T02:57:19.022Z"
+    "repairedAt": "2026-09-20T04:07:17.334Z"
   }
 }
