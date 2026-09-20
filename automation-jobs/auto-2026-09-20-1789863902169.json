@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:06:55.553Z",
+  "updatedAt": "2026-09-20T04:07:14.200Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -851,5 +851,10 @@
       }
     ]
   },
-  "message": "DeepSeek Writer 失败，已用双语证据模板接管。"
+  "message": "DeepSeek Writer 失败，已用双语证据模板接管。",
+  "lease": {
+    "owner": "cron-1789877233985-7kd5njie",
+    "acquiredAt": "2026-09-20T04:07:14.200Z",
+    "expiresAt": "2026-09-20T04:12:04.200Z"
+  }
 }
