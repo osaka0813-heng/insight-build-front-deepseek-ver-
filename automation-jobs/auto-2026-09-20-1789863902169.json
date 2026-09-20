@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T07:37:31.425Z",
+  "updatedAt": "2026-09-20T07:37:32.292Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "补全中文数组字段",
-      "updatedAt": "2026-09-20T07:36:00.611Z",
+      "message": "write_zh",
+      "updatedAt": "2026-09-20T07:37:32.292Z",
       "failedStage": "write_zh",
       "researchDraft": {
         "ok": true,
