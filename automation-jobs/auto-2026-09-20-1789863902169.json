@@ -8,17 +8,17 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T04:55:25.979Z",
+  "updatedAt": "2026-09-20T04:55:26.726Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "write_zh",
       "attempts": {
         "research": 1,
         "write_zh": 0
       },
-      "message": "使用分块翻译重新生成中文",
-      "updatedAt": "2026-09-20T04:08:38.774Z",
+      "message": "write_zh",
+      "updatedAt": "2026-09-20T04:55:26.726Z",
       "failedStage": "write_zh",
       "researchDraft": {
         "ok": true,
