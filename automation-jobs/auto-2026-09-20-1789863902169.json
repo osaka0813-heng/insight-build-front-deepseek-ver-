@@ -2,16 +2,16 @@
   "id": "auto-2026-09-20-1789863902169",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "running",
   "date": "2026-09-20",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "publish",
   "createdAt": "2026-09-20T00:25:02.169Z",
   "updatedAt": "2026-09-20T04:07:20.403Z",
   "scopes": {
     "global": {
-      "status": "done",
+      "status": "checkpointed",
       "stage": "publish",
       "attempts": {
         "research": 1,
@@ -477,7 +477,7 @@
         }
       },
       "writerDraft": {
-        "id": "writer-white-house-press-access-restrictions-1789877214473",
+        "id": "writer-white-house-press-access-restrictions-1789877214473-date-correction",
         "scope": "global",
         "status": "draft",
         "writtenAt": "2026-09-20T04:06:54.473Z",
@@ -774,11 +774,11 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-18",
+          "id": "daily-global-2026-09-20",
           "scope": "global",
-          "date": "2026-09-18",
+          "date": "2026-09-20",
           "decidedAt": "2026-09-20T04:06:54.472Z",
-          "state": "publish_new",
+          "state": "no_new_global_insight",
           "insightId": "global-2026-09-18-white-house-denies-access-to-cnn-ms-now-politico-and-other-outlets",
           "materialChangeScore": 62,
           "evidenceStrength": 60,
@@ -792,7 +792,7 @@
               "label": "GLOBAL INSIGHT",
               "decisionTitle": "Today’s strongest structural signal",
               "decisionSummary": "Restricting credentialed access to the executive branch changes the information environment for markets, courts and the public, and can alter how institutional signals are verified and priced.",
-              "thresholdReason": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+              "thresholdReason": "Research completed, but only two qualified candidates were retained and neither met the structural-insight threshold. Chinese writing failed; research summaries were used. This does not mean no important events occurred.",
               "observeNext": [
                 "Independent confirmation",
                 "Expansion beyond one event",
@@ -803,7 +803,7 @@
               "label": "今日全球洞察",
               "decisionTitle": "今天的最佳结构性信号",
               "decisionSummary": "限制行政部门的采访准入改变市场、法院与公众的信息环境，并可能改变机构信号的核实与定价方式。",
-              "thresholdReason": "This is an institutional-access change with no clean fit to the existing technology/energy/security-capacity processes. Restricting credentialed access to the executive branch (CNN, MS Now, Politico) materially changes the information environment in which institutional signals are verified and priced — affecting markets' ability to assess federal policy, courts' evidentiary record, and the public's verification of executive action. It is independently corroborated by two distinct reliable-media origins (BBC and Guardian) with verifiable URLs, satisfying the source gate. It is durable rather than ephemeral: press-access regimes tend to persist and compound. It does not merit a long-running process hypothesis yet (no recurring mechanism identified beyond this administration's access decisions), but it is important enough as a standalone insight. Domain is underrepresented (institutions-culture vs. the tech/energy-heavy recent pool).",
+              "thresholdReason": "本轮研究完成，但仅筛出两个合格候选，尚不足以支持新的全球结构性判断。中文生成失败后采用研究摘要；这不代表今天没有重要事件。",
               "observeNext": [
                 "等待独立来源确认",
                 "观察影响范围是否扩大",
@@ -817,8 +817,7 @@
       },
       "recoveredStage": "write_zh",
       "recoveryReason": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"page\":{\"cover\":{\"eyebrow\":\"机构准入转变\",\"secondaryEyebrow\":\"媒体环境承压\",\"title\":\"白宫禁止CNN、MS Now和Politico参与记者准入\",\"summary\":\"据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者凭证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号被核实和定价的方式。\"},\"question\":{\"lead\":\"行政部门正在限制哪些新闻机构可以在白宫新闻发布厅运作。\",\"title\":\"有限的记者准入将如何改变机构决策被核实和定价的方式？\",\"footnote\":\"准入限制可能改变哪些叙事到达市场和公众，以及它们被质疑的速度。\"},\"signals\":{\"title\":\"高知名度媒体的记者证限制\",\"sourceNote\":\"两家独立可靠媒体来源报道了2",
-      "contentVersion": "review-writer-white-house-press-access-restrictions-1789877214473-1789877237318",
-      "completedAt": "2026-09-20T04:07:19.378Z"
+      "contentVersion": "review-writer-white-house-press-access-restrictions-1789877214473-1789877237318"
     }
   },
   "preflight": {
@@ -853,6 +852,5 @@
       }
     ]
   },
-  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。",
-  "completedAt": "2026-09-20T04:07:19.378Z"
+  "message": "今日无新增洞察判断已发布，保留最近一篇有效 Insight。"
 }
