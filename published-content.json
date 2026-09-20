@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-20T04:08:40.190Z",
-  "contentVersion": "review-writer-white-house-press-access-restrictions-1789877214473-date-correction-1789877321299",
+  "generatedAt": "2026-09-20T06:27:46.854Z",
+  "contentVersion": "review-writer-white-house-press-access-restrictions-1789880309561-1789885668077",
   "insights": [
     {
       "confidence": "verified",
@@ -6232,7 +6232,7 @@
       "id": "daily-global-2026-09-20",
       "scope": "global",
       "date": "2026-09-20",
-      "decidedAt": "2026-09-20T04:08:40.190Z",
+      "decidedAt": "2026-09-20T06:27:46.854Z",
       "state": "no_new_global_insight",
       "materialChangeScore": 62,
       "evidenceStrength": 60,
@@ -6245,23 +6245,23 @@
         "en": {
           "label": "No new global insight",
           "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Research completed, but only two qualified candidates were retained and neither met the structural-insight threshold. Chinese writing failed; research summaries were used. This does not mean no important events occurred.",
-          "thresholdReason": "Research completed, but only two qualified candidates were retained and neither met the structural-insight threshold. Chinese writing failed; research summaries were used. This does not mean no important events occurred.",
+          "decisionSummary": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
+          "thresholdReason": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
           "observeNext": [
-            "Independent confirmation",
-            "Expansion beyond one event",
-            "A changed system relationship"
+            "Watch for coverage changes from banned outlets.",
+            "Watch for legal challenges to access denial.",
+            "Watch for any expansion of the ban list."
           ]
         },
         "zh": {
           "label": "无新增全球洞察",
           "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "本轮研究完成，但仅筛出两个合格候选，尚不足以支持新的全球结构性判断。中文生成失败后采用研究摘要；这不代表今天没有重要事件。",
-          "thresholdReason": "本轮研究完成，但仅筛出两个合格候选，尚不足以支持新的全球结构性判断。中文生成失败后采用研究摘要；这不代表今天没有重要事件。",
+          "decisionSummary": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
+          "thresholdReason": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
           "observeNext": [
-            "等待独立来源确认",
-            "观察影响范围是否扩大",
-            "检查系统关系是否改变"
+            "Watch for coverage changes from banned outlets.",
+            "Watch for legal challenges to access denial.",
+            "Watch for any expansion of the ban list."
           ]
         }
       },
@@ -7740,6 +7740,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T04:08:41.317Z"
+    "repairedAt": "2026-09-20T06:27:48.093Z"
   }
 }

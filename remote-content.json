@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-white-house-press-access-restrictions-1789877214473-date-correction-1789877321299",
+  "contentVersion": "review-writer-white-house-press-access-restrictions-1789880309561-1789885668077",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -247,7 +247,7 @@
       "id": "daily-global-2026-09-20",
       "scope": "global",
       "date": "2026-09-20",
-      "decidedAt": "2026-09-20T04:08:40.190Z",
+      "decidedAt": "2026-09-20T06:27:46.854Z",
       "state": "no_new_global_insight",
       "materialChangeScore": 62,
       "evidenceStrength": 60,
@@ -260,23 +260,23 @@
         "en": {
           "label": "No new global insight",
           "decisionTitle": "Evidence has not crossed the publication threshold",
-          "decisionSummary": "Research completed, but only two qualified candidates were retained and neither met the structural-insight threshold. Chinese writing failed; research summaries were used. This does not mean no important events occurred.",
-          "thresholdReason": "Research completed, but only two qualified candidates were retained and neither met the structural-insight threshold. Chinese writing failed; research summaries were used. This does not mean no important events occurred.",
+          "decisionSummary": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
+          "thresholdReason": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
           "observeNext": [
-            "Independent confirmation",
-            "Expansion beyond one event",
-            "A changed system relationship"
+            "Watch for coverage changes from banned outlets.",
+            "Watch for legal challenges to access denial.",
+            "Watch for any expansion of the ban list."
           ]
         },
         "zh": {
           "label": "无新增全球洞察",
           "decisionTitle": "证据尚未达到发布标准",
-          "decisionSummary": "本轮研究完成，但仅筛出两个合格候选，尚不足以支持新的全球结构性判断。中文生成失败后采用研究摘要；这不代表今天没有重要事件。",
-          "thresholdReason": "本轮研究完成，但仅筛出两个合格候选，尚不足以支持新的全球结构性判断。中文生成失败后采用研究摘要；这不代表今天没有重要事件。",
+          "decisionSummary": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
+          "thresholdReason": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
           "observeNext": [
-            "等待独立来源确认",
-            "观察影响范围是否扩大",
-            "检查系统关系是否改变"
+            "Watch for coverage changes from banned outlets.",
+            "Watch for legal challenges to access denial.",
+            "Watch for any expansion of the ban list."
           ]
         }
       },
@@ -1595,7 +1595,7 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-20T04:08:40.190Z",
+  "generatedAt": "2026-09-20T06:27:46.854Z",
   "insights": [
     {
       "confidence": "verified",
@@ -7460,7 +7460,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T04:08:41.317Z"
+    "repairedAt": "2026-09-20T06:27:48.093Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8535,6 +8535,323 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-white-house-press-access-restrictions-1789880309561",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-20T04:58:29.561Z",
+      "researchDraftId": "research-global-2026-09-20-1789877022927",
+      "candidateId": "white-house-press-access-restrictions",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ]
+      },
+      "insight": {
+        "id": "global-2026-09-18-white-house-bars-cnn-ms-now-and-politico-from-press-access",
+        "scope": "global",
+        "slug": "white-house-press-access-restrictions",
+        "status": "publish_new",
+        "publishedAt": "2026-09-18T00:00:00.000Z",
+        "updatedAt": "2026-09-20T04:58:29.561Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Institutional access shift",
+              "secondaryEyebrow": "Media environment under pressure",
+              "title": "White House bars CNN, MS Now and Politico from press access",
+              "summary": "The Trump administration has denied credentialed White House access to CNN, MS Now and Politico, according to BBC and Guardian reports. The move alters the information environment for markets, courts and the public and could change how institutional signals are verified and priced."
+            },
+            "question": {
+              "lead": "The executive branch is restricting which news organizations can operate from the White House press room.",
+              "title": "How will limited press access change how institutional decisions are verified and priced?",
+              "footnote": "Access restrictions can shift which narratives reach markets and the public, and how quickly they are challenged."
+            },
+            "signals": {
+              "title": "Credential restrictions for high-profile outlets",
+              "sourceNote": "Two independent reliable-media sources reported the access change in late September 2026.",
+              "items": [
+                {
+                  "id": "white-house-press-access-restrictions-signal-1",
+                  "label": "Signal 1",
+                  "title": "BBC reports journalists denied access after some outlets banned",
+                  "body": "The BBC reported on September 19, 2026, that some journalists were denied White House access after the administration banned certain media outlets.",
+                  "whyImportant": "Denial of credentialed access to the executive branch changes the information environment in which federal policy signals are verified and priced.",
+                  "evidence": [
+                    {
+                      "id": "white-house-press-access-restrictions-evidence-1",
+                      "title": "BBC coverage of White House press access restrictions",
+                      "description": "BBC news article from September 19, 2026, documenting denial of access after media bans.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "white-house-press-access-restrictions-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "white-house-press-access-restrictions-source-1",
+                      "title": "Journalists denied White House access after Trump banned some media outlets",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-19T19:13:49.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "white-house-press-access-restrictions-signal-2",
+                  "label": "Signal 2",
+                  "title": "Guardian names CNN, MS Now and Politico as banned outlets",
+                  "body": "The Guardian reported on September 18, 2026, that the Trump administration banned CNN, MS Now and Politico from White House premises.",
+                  "whyImportant": "Naming specific major outlets highlights the breadth of the restriction and its potential impact on mainstream political coverage.",
+                  "evidence": [
+                    {
+                      "id": "white-house-press-access-restrictions-evidence-2",
+                      "title": "Guardian report on White House bans",
+                      "description": "Guardian article from September 18, 2026, listing banned outlets.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "white-house-press-access-restrictions-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "white-house-press-access-restrictions-source-2",
+                      "title": "Trump bans CNN, MS Now and Politico from White House",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-18T23:04:30.000Z",
+                      "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From open briefing room to selected press pool",
+              "before": "The White House press corps, including CNN, MS Now and Politico, had routine credentialed access to briefings, events and workspaces. A broad set of mainstream outlets could directly question officials and report from inside the building.",
+              "shift": "The administration categorized specific outlets as banned and denied access to their journalists. This creates a two-tier press environment: outlets still granted access and those forced to rely on secondary reporting or off-site coverage.",
+              "now": "Access to the executive branch is explicitly selective, with three high-profile outlets excluded. The press room operates as a narrower, more controlled space, and the public record of executive statements relies on a reduced set of on-site reporters.",
+              "conclusion": "A major access shift has occurred for three influential outlets, with immediate consequences for coverage of the administration and, potentially, for how policy signals reach markets and the public."
+            },
+            "insight": {
+              "title": "Selective press access becomes a structural fact",
+              "formula": "Executive branch bans specific outlets → reduced on-site coverage by those outlets → institutional verification shifts to secondhand channels",
+              "explanation": "When the White House denies access to CNN, MS Now and Politico, the information environment changes. Markets, courts and the public may receive less direct, on-site reporting from these sources, and challenges to official narratives could become slower or less visible. This access shift is not a one-day event but a new operating condition that will affect how executive actions are covered and verified."
+            },
+            "observe": {
+              "title": "What to watch after the access bans",
+              "items": [
+                {
+                  "label": "Coverage changes",
+                  "prompt": "Are CNN, MS Now and Politico shifting to off-site or pooled reporting, and does their White House coverage volume or tone change?",
+                  "meta": "Signal of adaptation"
+                },
+                {
+                  "label": "Legal challenges",
+                  "prompt": "Do banned outlets or press-freedom groups file lawsuits over access denial, and do courts weigh in?",
+                  "meta": "Institutional reaction"
+                },
+                {
+                  "label": "Market information flow",
+                  "prompt": "Do market-moving policy announcements become less timely or more subject to interpretation?",
+                  "meta": "Pricing impact"
+                },
+                {
+                  "label": "Expansion of bans",
+                  "prompt": "Does the administration extend access restrictions to additional outlets or platforms?",
+                  "meta": "Scope escalation"
+                }
+              ],
+              "ending": "The key question is whether this becomes a durable feature of the administration's media relations or a contested temporary measure."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "机构准入格局变化",
+              "secondaryEyebrow": "承压的媒体环境",
+              "title": "白宫禁止CNN、MS Now和Politico参与记者采访",
+              "summary": "据BBC和《卫报》报道，特朗普政府已拒绝向CNN、MS Now和Politico发放白宫记者证。此举改变了市场、法院和公众的信息环境，并可能改变机构信号的核实与定价方式。"
+            },
+            "question": {
+              "lead": "行政部门正在限制哪些新闻机构可以在白宫新闻发布厅办公。",
+              "title": "有限的记者准入将如何改变机构决策的核实与定价方式？",
+              "footnote": "准入限制可能改变哪些叙事传到市场和公众，以及它们被质疑的速度。"
+            },
+            "signals": {
+              "title": "对高知名度媒体的记者证限制",
+              "sourceNote": "两家独立可靠媒体来源于2026年9月下旬报道了这一准入变化。",
+              "items": [
+                {
+                  "id": "white-house-press-access-restrictions-signal-1",
+                  "label": "信号1",
+                  "title": "BBC报道称部分媒体被禁后记者遭拒入",
+                  "body": "BBC于2026年9月19日报道称，在政府禁止某些媒体机构后，一些记者被拒绝进入白宫。",
+                  "whyImportant": "取消对行政部门的持证采访准入，改变了联邦政策信号被核实和定价的信息环境。",
+                  "evidence": [
+                    {
+                      "id": "white-house-press-access-restrictions-evidence-1",
+                      "title": "BBC对白宫新闻准入限制的报道",
+                      "description": "BBC新闻文章，2026年9月19日，记录媒体禁令后采访准入被取消。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "white-house-press-access-restrictions-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "white-house-press-access-restrictions-source-1",
+                      "title": "Journalists denied White House access after Trump banned some media outlets",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-19T19:13:49.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "white-house-press-access-restrictions-signal-2",
+                  "label": "信号2",
+                  "title": "《卫报》点名CNN、MS Now和Politico为被禁媒体",
+                  "body": "《卫报》2026年9月18日报道，特朗普政府禁止CNN、MS Now和Politico进入白宫场所。",
+                  "whyImportant": "点名具体主流媒体，凸显限制范围之广及其对主流政治报道的潜在影响。",
+                  "evidence": [
+                    {
+                      "id": "white-house-press-access-restrictions-evidence-2",
+                      "title": "《卫报》关于白宫禁令的报道",
+                      "description": "《卫报》2026年9月18日文章，列出被禁媒体。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "white-house-press-access-restrictions-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "white-house-press-access-restrictions-source-2",
+                      "title": "Trump bans CNN, MS Now and Politico from White House",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-18T23:04:30.000Z",
+                      "url": "https://www.theguardian.com/us-news/2026/sep/18/trump-bans-cnn-msnow-politico-white-house",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从开放的简报室到挑选的记者团",
+              "before": "包括CNN、MS Now和Politico在内的白宫记者团，原本可持证例行进入简报会、活动和办公区。众多主流媒体可直接向官员提问并在楼内报道。",
+              "shift": "政府将特定媒体列为被禁对象，拒绝其记者进入。这形成两级新闻环境：仍获准入的媒体，以及被迫依赖二手报道或场外报道的媒体。",
+              "now": "进入行政部门的机会明显具有选择性，三家知名媒体被排除在外。新闻发布厅变成一个更狭窄、更受控制的空间，行政部门声明的公开记录依赖于数量缩减的驻场记者。",
+              "conclusion": "三家有影响力的媒体在准入方面发生重大变化，这立即影响对政府的报道，并可能影响政策信号如何传到市场和公众。"
+            },
+            "insight": {
+              "title": "选择性媒体准入成为结构性事实",
+              "formula": "行政部门禁止特定媒体进入 → 这些媒体的驻场报道减少 → 机构核实转向二手渠道",
+              "explanation": "当白宫拒绝CNN、MS Now和Politico进入时，信息环境就变了。市场、法院和公众可能从这些来源获得更少直接的驻场报道，对官方叙事的质疑可能变得更慢或更不明显。这一准入变化不是一天的事件，而是新的运作条件，将影响行政部门行动如何被报道和核实。"
+            },
+            "observe": {
+              "title": "准入禁令后应关注什么",
+              "items": [
+                {
+                  "label": "报道变化",
+                  "prompt": "CNN、MS Now和Politico是否转向场外或联合报道，其白宫报道量或基调是否变化？",
+                  "meta": "适应信号"
+                },
+                {
+                  "label": "法律挑战",
+                  "prompt": "被禁媒体或新闻自由团体是否就拒绝准入提起诉讼，法院是否介入？",
+                  "meta": "机构反应"
+                },
+                {
+                  "label": "市场信息流",
+                  "prompt": "影响市场的政策公告是否会变得不那么及时，或更容易被解读？",
+                  "meta": "定价影响"
+                },
+                {
+                  "label": "禁令范围扩大",
+                  "prompt": "政府是否将访问限制扩大到更多媒体或平台？",
+                  "meta": "范围升级"
+                }
+              ],
+              "ending": "关键问题是，这将成为政府媒体关系中一项持久特征，还是一项有争议的临时措施。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-20",
+        "scope": "global",
+        "date": "2026-09-20",
+        "decidedAt": "2026-09-20T04:58:29.561Z",
+        "state": "publish_new",
+        "insightId": "global-2026-09-18-white-house-bars-cnn-ms-now-and-politico-from-press-access",
+        "materialChangeScore": 62,
+        "evidenceStrength": 60,
+        "noveltyScore": 55,
+        "importanceScore": 62,
+        "candidateSignalIds": [
+          "white-house-press-access-restrictions"
+        ],
+        "content": {
+          "en": {
+            "label": "Publish as standalone insight",
+            "decisionTitle": "Institutional access change warrants a standalone insight",
+            "decisionSummary": "The White House has restricted access for CNN, MS Now and Politico, a significant change to the executive information environment. This is not a technology, energy or security-capacity process, so a standalone insight is appropriate.",
+            "thresholdReason": "Importance and corroboration are high; the access change is verified by two independent reliable-media sources. The candidate's material change score of 62 meets the standalone-insight standard even without a long-running process fit.",
+            "observeNext": [
+              "Watch for coverage changes from banned outlets.",
+              "Watch for legal challenges to access denial.",
+              "Watch for any expansion of the ban list."
+            ]
+          },
+          "zh": {
+            "label": "作为独立洞察发布",
+            "decisionTitle": "机构访问权限变化值得单独发布洞察",
+            "decisionSummary": "白宫限制了CNN、MS Now和Politico的访问权限，这是行政信息环境的重大变化。这不属于技术、能源或安全能力流程，因此适合单独发布洞察。",
+            "thresholdReason": "重要性和佐证程度都很高；该访问限制变化已得到两家独立可靠媒体来源证实。即使不符合长期流程，候选事项62的重大变化评分仍达到独立洞察标准。",
+            "observeNext": [
+              "Watch for coverage changes from banned outlets.",
+              "Watch for legal challenges to access denial.",
+              "Watch for any expansion of the ban list."
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4824,
+        "outputTokens": 2701,
+        "cachedInputTokens": 512
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-20T06:27:46.854Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "publish_new"
+      },
+      "rejectedAt": "2026-09-20T06:27:46.854Z"
+    },
     {
       "id": "writer-white-house-press-access-restrictions-1789877214473-date-correction",
       "scope": "global",
