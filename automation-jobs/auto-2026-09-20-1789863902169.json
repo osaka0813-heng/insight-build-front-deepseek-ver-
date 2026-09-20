@@ -8,14 +8,18 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-20T00:25:02.169Z",
-  "updatedAt": "2026-09-20T03:59:26.185Z",
+  "updatedAt": "2026-09-20T04:00:29.215Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-20T03:59:26.185Z"
+      "attempts": {
+        "research": 1
+      },
+      "message": "Candidate 1 has fewer than two sources.",
+      "updatedAt": "2026-09-20T04:00:29.215Z",
+      "failedStage": "research",
+      "lastError": "Candidate 1 has fewer than two sources."
     }
   },
   "preflight": {
@@ -50,7 +54,7 @@
       }
     ]
   },
-  "message": "重新执行此前失败的研究",
+  "message": "WORLD research 自动重试 1/3",
   "lease": {
     "owner": "cron-1789876764565-wtffp1s3",
     "acquiredAt": "2026-09-20T03:59:25.467Z",
