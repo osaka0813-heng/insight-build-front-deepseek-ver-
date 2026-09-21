@@ -6,18 +6,18 @@
   "date": "2026-09-21",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T00:29:11.055Z",
+  "updatedAt": "2026-09-21T00:29:21.347Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 3
       },
-      "message": "analyze",
-      "updatedAt": "2026-09-21T00:29:11.055Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-21T00:29:21.347Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-21-manual-recovery",
@@ -165,7 +165,214 @@
           }
         ]
       },
-      "candidateCount": 2
+      "candidateCount": 2,
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-21-manual-recovery",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-21T00:28:39.701Z",
+        "researchDate": "2026-09-21",
+        "provider": "verified-recovery",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Recovery research after the automated index could not assemble cross-publisher pairs. The editorial recovery checked current reporting across monetary policy and institutional realignment. It retained two non-AI, non-war candidates supported by distinct publishers or a primary document plus independent reporting.",
+        "candidates": [
+          {
+            "id": "canada-eu-associate-alignment",
+            "date": "2026-09-20",
+            "domain": "institutions-culture",
+            "tags": [
+              "canada",
+              "european-union",
+              "strategic-autonomy",
+              "middle-powers",
+              "economic-security"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 78,
+            "novelty": 84,
+            "evidenceStrength": 82,
+            "independentSourceCount": 2,
+            "thesisImpact": 78,
+            "relationshipChange": 86,
+            "stageChange": 72,
+            "contradiction": 42,
+            "content": {
+              "en": {
+                "title": "Canada and Europe are testing a new form of middle-power alignment",
+                "coreFact": "France backed Canada becoming the EU's first associate member while Canada and France expanded cooperation in defense, energy, space and advanced technology.",
+                "whyItMatters": "A formal association outside conventional EU membership could create a reusable institutional model for middle powers seeking economic security and strategic autonomy without full political integration.",
+                "processMatchReason": "No existing World Process fits; this is an emerging institutional architecture linking trade, defense, energy and technology."
+              },
+              "zh": {
+                "title": "加拿大与欧洲正在试验一种新的中等强国结盟方式",
+                "coreFact": "法国支持加拿大成为欧盟首个“联系成员”，同时加拿大与法国扩大国防、能源、航天和先进技术合作。",
+                "whyItMatters": "如果传统欧盟成员资格之外的正式联系机制成形，它可能成为中等强国在不完全政治整合的情况下追求经济安全与战略自主的可复制制度模型。",
+                "processMatchReason": "现有世界进程没有直接匹配；这是连接贸易、国防、能源和技术的新兴制度架构。"
+              }
+            },
+            "sources": [
+              {
+                "id": "ap-canada-eu-20260920",
+                "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+                "url": "https://apnews.com/article/73454c45d9a9428fabbfd00a5daeb23f",
+                "publisher": "Associated Press",
+                "publishedAt": "2026-09-20T12:00:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Macron-Carney meeting reported by Associated Press",
+                "role": "trigger"
+              },
+              {
+                "id": "reuters-canada-france-20260920",
+                "title": "Macron, Carney pledge closer ties in Atlantic island meeting amid strains with Trump",
+                "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+                "publisher": "Reuters",
+                "publishedAt": "2026-09-20T12:00:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Joint Macron-Carney statements reported by Reuters",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "ap-canada-eu-20260920",
+              "reuters-canada-france-20260920"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 78,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "France's explicit backing of Canada as the EU's first associate member, combined with broadened defense, energy, space and advanced-tech cooperation, is a genuinely novel institutional development. It has no match among existing World Processes (the suggested 'technology control' match at 13 confidence is spurious). The significance is that it could form a reusable institutional template for middle powers pursuing economic security and strategic autonomy short of full EU membership — a new architectural pattern linking trade, defense, energy and technology, with clear second-order implications for alliance structure, supply chains and the US relationship. Both source URLs are independent and verifiable (AP and Reuters, two distinct evidence origins). Novelty (84) and relationship-change (86) scores are strong, and the domain (institutions-culture/international architecture) is underrepresented in the recent pool relative to heavy AI/tech-infrastructure coverage.",
+              "warnings": [
+                "Only two independent sources (meets minimum threshold, but thin)",
+                "Still early-stage: associate membership not yet formalized",
+                "No established process to attach to; needs fresh hypothesis"
+              ],
+              "candidateId": "canada-eu-associate-alignment",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 84
+            }
+          },
+          {
+            "id": "us-higher-rate-regime-2026-09",
+            "date": "2026-09-20",
+            "domain": "macro-finance",
+            "tags": [
+              "federal-reserve",
+              "inflation",
+              "interest-rates",
+              "capital-cost",
+              "economic-regime"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 82,
+            "novelty": 70,
+            "evidenceStrength": 88,
+            "independentSourceCount": 3,
+            "thesisImpact": 78,
+            "relationshipChange": 76,
+            "stageChange": 74,
+            "contradiction": 52,
+            "content": {
+              "en": {
+                "title": "The Federal Reserve's rate increase points to a higher-rate economic regime",
+                "coreFact": "The Federal Reserve raised the federal funds target range by 25 basis points to 3.75%-4.00%. Independent reporting linked the move to inflation remaining broad while growth and investment stayed stronger than expected.",
+                "whyItMatters": "If inflation and growth coexist at higher levels, households, governments and companies must adapt to structurally more expensive capital rather than wait for a quick return to the post-2008 low-rate environment.",
+                "processMatchReason": "No existing World Process directly tracks the repricing of capital across monetary policy, housing and investment."
+              },
+              "zh": {
+                "title": "美联储加息正在指向一个更高利率的经济制度",
+                "coreFact": "美联储将联邦基金目标区间上调25个基点至3.75%—4.00%。独立报道显示，通胀仍然广泛存在，同时增长和投资强于预期。",
+                "whyItMatters": "如果较高通胀与较快增长并存，家庭、政府和企业就必须适应结构性更昂贵的资本，而不能继续等待迅速回到2008年后的低利率环境。",
+                "processMatchReason": "现有世界进程没有直接追踪货币政策、住房和投资之间的资本重新定价。"
+              }
+            },
+            "sources": [
+              {
+                "id": "fed-fomc-20260916",
+                "title": "Federal Reserve issues FOMC statement",
+                "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm?ref=n3_sticker",
+                "publisher": "Federal Reserve",
+                "publishedAt": "2026-09-16T18:00:00.000Z",
+                "kind": "primary",
+                "evidenceOrigin": "Federal Open Market Committee rate decision",
+                "role": "corroborating"
+              },
+              {
+                "id": "reuters-kashkari-20260920",
+                "title": "Fed's Kashkari says inflation is still too high in all aspects of US economy",
+                "url": "https://www.reuters.com/business/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-fox-news-interview-2026-09-20/",
+                "publisher": "Reuters",
+                "publishedAt": "2026-09-20T12:00:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Neel Kashkari interview and Reuters reporting",
+                "role": "trigger"
+              },
+              {
+                "id": "ap-rate-regime-20260920",
+                "title": "Federal Reserve rate hike reflects new world of sticky inflation and faster growth",
+                "url": "https://apnews.com/article/a633de46f84a3487f3bdc03f788188fa",
+                "publisher": "Associated Press",
+                "publishedAt": "2026-09-20T12:00:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Associated Press economic analysis and cited market data",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 3,
+              "distinctEvidenceOrigins": 3
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 1,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "fed-fomc-20260916",
+              "reuters-kashkari-20260920",
+              "ap-rate-regime-20260920"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 45,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 1,
+              "contextSourceCount": 0,
+              "rationale": "A 25bp hike to 3.75-4.00% is a conventional, incrementally reported policy action with three strong corroborating sources, but it does not on its own establish a durable regime shift. The 'higher-rate regime' framing is analytical inference from Kashkari commentary and AP analysis rather than a verified structural break; inflation remaining 'broad' and growth 'strong' are continuations of already-priced trends. No existing World Process tracks this, but a single incremental hike plus Fed commentary is insufficient evidence to launch a new structural process. Breadth of affected systems (housing, capital cost) is real but the specific event is not a step-change. Keep on watch list; would be a better candidate if a sequence of hikes or a material repricing of asset markets confirms the regime.",
+              "warnings": [
+                "Event is incremental, not a structural break",
+                "Regime-change framing rests on commentary, not verified structural data",
+                "Lower currency/domain novelty than institutional candidate"
+              ],
+              "candidateId": "us-higher-rate-regime-2026-09",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 62
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "selectedCandidateId": "canada-eu-associate-alignment"
     }
   },
   "preflight": {
