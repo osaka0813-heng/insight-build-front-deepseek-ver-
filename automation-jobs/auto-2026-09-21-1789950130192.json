@@ -6,18 +6,18 @@
   "date": "2026-09-21",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T00:29:47.960Z",
+  "updatedAt": "2026-09-21T00:30:20.930Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 3
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-21T00:29:47.960Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-21T00:30:20.930Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-21-manual-recovery",
@@ -372,7 +372,132 @@
         ],
         "analysisProvider": "deepseek"
       },
-      "selectedCandidateId": "canada-eu-associate-alignment"
+      "selectedCandidateId": "canada-eu-associate-alignment",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "ig-canada-eu-associate-alignment",
+          "slug": "canada-eu-associate-alignment",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "New Process Candidate",
+              "title": "Canada and Europe Are Testing a New Form of Middle-Power Alignment",
+              "summary": "France backs Canada as the EU's first associate member, while the two nations deepen defense, energy, space, and tech ties—a potential institutional template for middle powers seeking strategic autonomy."
+            },
+            "question": {
+              "lead": "What happens when middle powers seek deeper alignment without full political integration?",
+              "title": "Is the Canada–EU associate relationship a blueprint for a new global architecture?",
+              "footnote": "This question frames the strategic significance of the emerging Canada–EU associate arrangement beyond bilateral cooperation."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Evidence is drawn from two independent, reliable media reports on September 20, 2026.",
+              "items": [
+                {
+                  "label": "Trigger",
+                  "title": "France Backs Canada as EU's First Associate Member",
+                  "body": "French President Macron publicly supported Canada becoming the European Union's first associate member, a status that would grant closer economic and strategic ties without full EU membership.",
+                  "whyImportant": "This is a concrete step toward institutionalizing a new category of relationship between the EU and a non-European middle power.",
+                  "evidence": {
+                    "title": "AP Report",
+                    "description": "Associated Press reported Macron's backing for Canada as EU associate member during a meeting with Canadian PM Carney.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "ap-canada-eu-20260920"
+                    ]
+                  }
+                },
+                {
+                  "label": "Trigger",
+                  "title": "Canada–France Expand Cooperation Across Multiple Sectors",
+                  "body": "Canada and France pledged to deepen collaboration in defense, energy, space, and advanced technology, signaling a broad strategic alignment beyond trade.",
+                  "whyImportant": "The breadth of cooperation suggests an integrated framework that could serve as a model for other middle powers seeking economic security and strategic autonomy.",
+                  "evidence": {
+                    "title": "Reuters Report",
+                    "description": "Reuters reported the pledges made during the Macron–Carney meeting on a French Atlantic island, highlighting the sectors of cooperation.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "reuters-canada-france-20260920"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Ad Hoc Partnerships to Institutionalized Middle-Power Alignment",
+              "before": "Middle powers like Canada operated through ad hoc bilateral agreements and limited trade deals, with the EU offering only full membership or loose partnerships.",
+              "shift": "The EU is creating a formal associate member status that grants extensive economic and strategic cooperation without full political integration, driven by shared concerns over US unpredictability.",
+              "now": "Canada and France are piloting this new institutional form, with explicit backing from a key EU leader and concrete sectoral agreements.",
+              "conclusion": "This marks a potential shift toward a new tier of international alignment, where middle powers can secure deeper ties with the EU while maintaining sovereignty."
+            },
+            "insight": {
+              "title": "Associate Membership as a Reusable Template",
+              "formula": "Strategic autonomy need + Middle-power capabilities + Institutional innovation = New alignment tier",
+              "explanation": "The Canada–EU associate membership proposal combines a middle power's desire for economic security and strategic autonomy with the EU's need for reliable partners, producing an institutional innovation that could be replicated by other nations."
+            },
+            "observe": {
+              "title": "What to Watch",
+              "items": [
+                {
+                  "label": "Formalization",
+                  "prompt": "Watch for official EU Council approval or negotiation framework for Canada's associate membership.",
+                  "meta": "Institutional"
+                },
+                {
+                  "label": "Second Adopters",
+                  "prompt": "Monitor whether other middle powers (e.g., Australia, Japan, South Korea) seek similar associate status with the EU.",
+                  "meta": "Diffusion"
+                },
+                {
+                  "label": "US Response",
+                  "prompt": "Observe how the United States reacts to closer Canada–EU strategic alignment, especially in defense and tech.",
+                  "meta": "Geopolitical"
+                },
+                {
+                  "label": "Sectoral Depth",
+                  "prompt": "Track concrete agreements in defense, energy, space, and advanced technology to assess the depth of the alignment.",
+                  "meta": "Implementation"
+                }
+              ],
+              "ending": "The success or failure of this arrangement will reveal whether associate membership becomes a stable feature of the international order or remains a one-off experiment."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish New Insight",
+            "decisionTitle": "Create New Process Candidate: Middle-Power Associate Alignment",
+            "decisionSummary": "The signal represents a novel and potentially structural development in international institutions, with no existing process match. It warrants tracking as a new process candidate.",
+            "thresholdReason": "High novelty (84) and importance (78), corroborated by two independent reliable sources, with clear second-order implications for global alliance structures.",
+            "observeNext": [
+              "EU formal steps toward associate membership for Canada",
+              "Reactions from other middle powers and the US",
+              "Concrete sectoral agreements beyond pledges"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Emerging Institutional Architecture for Middle-Power Alignment",
+            "description": "A potential new tier of EU partnership—associate membership—is being tested by Canada and France. It integrates trade, defense, energy, and technology cooperation under a formal but non-membership framework.",
+            "implication": "If established, this model could redefine how middle powers engage with major blocs, offering an alternative to full integration or ad hoc deals, and may shift global alliance dynamics."
+          },
+          "nextQuestionEn": "Will the Canada–EU associate membership progress from proposal to formal negotiation, and which middle power might follow next?",
+          "observeNextEn": [
+            "Official EU Council discussion or decision on Canada's associate status",
+            "Statements from Australia, Japan, or South Korea about similar arrangements",
+            "US policy responses to Canada–EU defense and tech alignment",
+            "First concrete Canada–France joint projects in defense, energy, or space"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2057,
+          "outputTokens": 1432,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
