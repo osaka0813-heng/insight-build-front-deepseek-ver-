@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T00:31:13.295Z",
+  "updatedAt": "2026-09-21T00:31:35.634Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -963,5 +963,10 @@
       }
     ]
   },
-  "message": "已补充双来源研究断点，继续分析。"
+  "message": "已补充双来源研究断点，继续分析。",
+  "lease": {
+    "owner": "cron-1789950695441-l1shl8xb",
+    "acquiredAt": "2026-09-21T00:31:35.634Z",
+    "expiresAt": "2026-09-21T00:36:25.634Z"
+  }
 }
