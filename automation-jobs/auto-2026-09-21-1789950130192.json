@@ -8,16 +8,17 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T16:09:25.389Z",
+  "updatedAt": "2026-09-21T16:09:26.669Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "publish",
       "attempts": {
-        "research": 3
+        "research": 3,
+        "publish": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-09-21T16:09:25.389Z",
+      "message": "GitHub response did not contain content and sha.",
+      "updatedAt": "2026-09-21T16:09:26.669Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-21-manual-recovery",
@@ -929,7 +930,9 @@
           "cachedInputTokens": 1792
         }
       },
-      "insightId": "ig-canada-eu-associate-alignment"
+      "insightId": "ig-canada-eu-associate-alignment",
+      "failedStage": "publish",
+      "lastError": "GitHub response did not contain content and sha."
     }
   },
   "preflight": {
@@ -964,7 +967,7 @@
       }
     ]
   },
-  "message": "重新应用出版日期修复",
+  "message": "WORLD publish 自动重试 1/3",
   "lease": {
     "owner": "cron-1790006964222-uwqrkyef",
     "acquiredAt": "2026-09-21T16:09:24.583Z",
