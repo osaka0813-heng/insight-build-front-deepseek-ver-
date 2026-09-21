@@ -6,9 +6,9 @@
   "date": "2026-09-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "preflight",
+  "currentStage": "research",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-21T18:31:12.480Z",
+  "updatedAt": "2026-09-21T18:31:15.007Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -22,10 +22,42 @@
       "lastError": "Request failed (200)."
     }
   },
-  "message": "WORLD preflight 自动重试 1/3",
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
   "lease": {
     "owner": "cron-1790015472229-vi1qytux",
     "acquiredAt": "2026-09-21T18:31:12.480Z",
     "expiresAt": "2026-09-21T18:36:02.480Z"
+  },
+  "preflight": {
+    "ok": true,
+    "checkedAt": "2026-09-21T18:31:14.998Z",
+    "contentVersion": "publish-ig-canada-eu-associate-alignment-1790007067045",
+    "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
+    "checks": [
+      {
+        "id": "environment",
+        "label": "环境变量",
+        "ok": true,
+        "detail": "DEEPSEEK_API_KEY:OK · RESEARCH_API_TOKEN:OK · PUBLISH_API_TOKEN:OK · GITHUB_TOKEN:OK · GITHUB_OWNER:OK · GITHUB_REPO:OK"
+      },
+      {
+        "id": "github-read",
+        "label": "GitHub 内容读取",
+        "ok": true,
+        "detail": "osaka0813-heng/insight-build-front-deepseek-ver- · remote-content.json"
+      },
+      {
+        "id": "content-schema",
+        "label": "内容结构与引用",
+        "ok": true,
+        "detail": "结构通过；0 条警告。"
+      },
+      {
+        "id": "backup-write",
+        "label": "备份写入权限",
+        "ok": true,
+        "detail": "backups/remote-content/2026-09-21T18-31-14-270Z-preflight-probe-1790015474270.json"
+      }
+    ]
   }
 }
