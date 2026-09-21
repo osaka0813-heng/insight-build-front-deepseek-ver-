@@ -15,3 +15,5 @@ jobs:
           response="$(curl --fail-with-body --silent --show-error --max-time 300 'https://insight-build-back-deepseek-ver.vercel.app/api/daily?date=2026-09-21&trigger=github-one-time-date-repair')"
           echo "$response"
           echo "$response" | grep -q '"status":"completed"'
+
+# attempt 3 after canonical compaction
