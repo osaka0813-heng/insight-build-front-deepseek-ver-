@@ -6,20 +6,154 @@
   "date": "2026-09-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-21T18:32:09.824Z",
+  "updatedAt": "2026-09-21T18:33:12.877Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "preflight": 1
       },
-      "message": "research",
-      "updatedAt": "2026-09-21T18:32:09.824Z",
-      "failedStage": "preflight",
-      "lastError": "Request failed (200)."
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-21T18:33:12.877Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-22-1790015592868",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-21T18:33:12.868Z",
+        "researchDate": "2026-09-22",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Dossier coverage on 2026-09-22 is thin and lopsided: GDELT macro-finance, industry-trade, energy-resources, health-science and climate-environment collection timed out; only BBC and Guardian RSS feeds returned, and corroboratedPairs is empty. Energy-resources and technology-ai buckets have zero records. Usable multi-publisher overlap exists for the White House press-ban lawsuit (BBC + Guardian) and the Paramount–Warner Bros Discovery state litigation settlement (BBC + Guardian); other items carry solid single-publisher reporting but fail the two-independent-publisher requirement. Selected two candidate signals, both institutional/market-structure changes rather than conflict or AI-driven topics. No existing World Process fits either candidate, so suggestedProcessId is null.",
+        "candidates": [
+          {
+            "id": "white-house-press-access-lawsuit",
+            "date": "2026-09-21",
+            "domain": "Institutions & Media",
+            "tags": [
+              "media",
+              "press-freedom",
+              "litigation",
+              "white-house",
+              "institutions"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 62,
+            "novelty": 58,
+            "evidenceStrength": 66,
+            "independentSourceCount": 2,
+            "thesisImpact": 45,
+            "relationshipChange": 40,
+            "stageChange": 35,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "CNN, MS Now and Politico sue White House over press-access ban",
+                "coreFact": "CNN, MS Now and Politico filed a lawsuit against the Trump White House after their organizations were blocked from White House access, according to BBC and Guardian reports on the same action.",
+                "whyItMatters": "A coordinated lawsuit by major outlets converts a disputed access restriction into a test of executive-press boundaries, signaling institutional rather than merely editorial conflict.",
+                "processMatchReason": "No existing World Process covers media access or press-freedom litigation; forcing a match would misrepresent the change."
+              },
+              "zh": {
+                "title": "CNN、MS Now与Politico就白宫采访禁令提起诉讼",
+                "coreFact": "据BBC与《卫报》报道，CNN、MS Now与Politico在遭白宫禁止进入后对特朗普政府提起诉讼。",
+                "whyItMatters": "多家主流媒体联合诉讼，将采访限制争议转化为对行政权与媒体边界的制度性检验，冲突已从编辑部层面升级为制度层面。",
+                "processMatchReason": "现有World Process均不涉及媒体准入或新闻自由诉讼，强行匹配会扭曲信号本质。"
+              }
+            },
+            "sources": [
+              {
+                "title": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+                "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News reporting on the filed lawsuit and the White House access ban",
+                "publishedAt": "2026-09-21T15:58:53.000Z",
+                "kind": "reliable_media",
+                "id": "white-house-press-access-lawsuit-source-1"
+              },
+              {
+                "title": "CNN, MS Now and Politico sue Trump after being blocked from White House",
+                "url": "https://www.theguardian.com/us-news/2026/sep/21/white-house-news-organization-ban-lawsuit",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian US reporting on the same lawsuit and access ban",
+                "publishedAt": "2026-09-21T14:42:12.000Z",
+                "kind": "reliable_media",
+                "id": "white-house-press-access-lawsuit-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "paramount-warner-state-settlement",
+            "date": "2026-09-21",
+            "domain": "Macro & Finance",
+            "tags": [
+              "m&a",
+              "media",
+              "antitrust",
+              "state-attorneys-general",
+              "merger"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 58,
+            "novelty": 52,
+            "evidenceStrength": 64,
+            "independentSourceCount": 2,
+            "thesisImpact": 42,
+            "relationshipChange": 38,
+            "stageChange": 40,
+            "contradiction": 25,
+            "content": {
+              "en": {
+                "title": "Paramount settles with US states, clearing path for $110bn Warner Bros merger",
+                "coreFact": "Paramount settled a lawsuit with US states, a step BBC and the Guardian both report as helping clear the way for its $110bn merger with Warner Bros.",
+                "whyItMatters": "State-level litigation was a live gate on a very large media consolidation; its resolution shifts the deal from legal uncertainty toward completion and reshapes media-ownership concentration.",
+                "processMatchReason": "No existing World Process addresses media consolidation or state antitrust settlements, so no match is forced."
+              },
+              "zh": {
+                "title": "派拉蒙与多州达成和解，为1100亿美元华纳兄弟并购清障",
+                "coreFact": "据BBC与《卫报》报道，派拉蒙与多州就诉讼达成和解，为其与华纳兄弟1100亿美元合并扫清障碍。",
+                "whyItMatters": "州级诉讼曾是这笔大规模媒体整合的关键闸口，和解使交易从法律不确定状态转向推进，将改变媒体所有权集中度。",
+                "processMatchReason": "现有World Process均不涉及媒体整合或州级反垄断和解，因此不做强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+                "url": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News reporting on the settlement between Paramount and US states",
+                "publishedAt": "2026-09-21T18:24:08.000Z",
+                "kind": "reliable_media",
+                "id": "paramount-warner-state-settlement-source-1"
+              },
+              {
+                "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+                "url": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian business reporting on the settlement with 12 US states",
+                "publishedAt": "2026-09-21T16:52:49.000Z",
+                "kind": "reliable_media",
+                "id": "paramount-warner-state-settlement-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
