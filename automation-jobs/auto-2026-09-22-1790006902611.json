@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-21T18:32:08.957Z",
+  "updatedAt": "2026-09-21T18:32:09.824Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "preflight": 1
       },
-      "message": "Request failed (200).",
-      "updatedAt": "2026-09-21T16:08:26.433Z",
+      "message": "research",
+      "updatedAt": "2026-09-21T18:32:09.824Z",
       "failedStage": "preflight",
       "lastError": "Request failed (200)."
     }
