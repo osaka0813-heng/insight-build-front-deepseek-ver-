@@ -1,5 +1,5 @@
 {
-  "contentVersion": "review-writer-atlantic-hurricane-erga-intensification-1789889883610-1789889957002",
+  "contentVersion": "publish-ig-canada-eu-associate-alignment-1789950699361",
   "dailyCandidates": [
     {
       "id": "sig-2026-09-05-us-election-courts",
@@ -243,6 +243,45 @@
     }
   ],
   "dailyStates": [
+    {
+      "id": "daily-global-2026-09-21",
+      "scope": "global",
+      "date": "2026-09-21",
+      "decidedAt": "2026-09-21T00:31:12.258Z",
+      "state": "publish_new",
+      "insightId": "ig-canada-eu-associate-alignment",
+      "materialChangeScore": 78,
+      "evidenceStrength": 82,
+      "noveltyScore": 84,
+      "importanceScore": 78,
+      "candidateSignalIds": [
+        "canada-eu-associate-alignment"
+      ],
+      "content": {
+        "en": {
+          "label": "Publish New Insight",
+          "decisionTitle": "Create New Process Candidate: Middle-Power Associate Alignment",
+          "decisionSummary": "The signal represents a novel and potentially structural development in international institutions, with no existing process match. It warrants tracking as a new process candidate.",
+          "thresholdReason": "High novelty (84) and importance (78), corroborated by two independent reliable sources, with clear second-order implications for global alliance structures.",
+          "observeNext": [
+            "EU formal steps toward associate membership for Canada",
+            "Reactions from other middle powers and the US",
+            "Concrete sectoral agreements beyond pledges"
+          ]
+        },
+        "zh": {
+          "label": "发布新洞察",
+          "decisionTitle": "创建新进程候选：中等强国准联盟",
+          "decisionSummary": "该信号代表国际机构中一项新颖且可能具有结构性的发展，现有进程均不匹配。值得作为新进程候选加以追踪。",
+          "thresholdReason": "新颖度（84）和重要性（78）均较高，得到两个独立可靠来源的印证，对全球联盟结构具有明显的二阶影响。",
+          "observeNext": [
+            "欧盟就加拿大准成员身份采取正式步骤",
+            "其他中等强国的反应及美国的态度",
+            "承诺之外的具体行业协议"
+          ]
+        }
+      }
+    },
     {
       "id": "daily-global-2026-09-20",
       "scope": "global",
@@ -1595,8 +1634,253 @@
       "state": "publish_new"
     }
   ],
-  "generatedAt": "2026-09-20T07:39:15.884Z",
+  "generatedAt": "2026-09-21T00:31:38.279Z",
   "insights": [
+    {
+      "id": "ig-canada-eu-associate-alignment",
+      "scope": "global",
+      "slug": "canada-eu-associate-alignment",
+      "status": "publish_new",
+      "publishedAt": "2026-09-20T00:00:00.000Z",
+      "updatedAt": "2026-09-21T00:31:12.258Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Global Insight",
+            "secondaryEyebrow": "New Process Candidate",
+            "title": "Canada and Europe Are Testing a New Form of Middle-Power Alignment",
+            "summary": "France backs Canada as the EU's first associate member, while the two nations deepen defense, energy, space, and tech ties—a potential institutional template for middle powers seeking strategic autonomy."
+          },
+          "question": {
+            "lead": "What happens when middle powers seek deeper alignment without full political integration?",
+            "title": "Is the Canada–EU associate relationship a blueprint for a new global architecture?",
+            "footnote": "This question frames the strategic significance of the emerging Canada–EU associate arrangement beyond bilateral cooperation."
+          },
+          "signals": {
+            "title": "Signals",
+            "sourceNote": "Evidence is drawn from two independent, reliable media reports on September 20, 2026.",
+            "items": [
+              {
+                "id": "canada-eu-associate-alignment-signal-1",
+                "label": "Trigger",
+                "title": "France Backs Canada as EU's First Associate Member",
+                "body": "French President Macron publicly supported Canada becoming the European Union's first associate member, a status that would grant closer economic and strategic ties without full EU membership.",
+                "whyImportant": "This is a concrete step toward institutionalizing a new category of relationship between the EU and a non-European middle power.",
+                "evidence": [
+                  {
+                    "id": "canada-eu-associate-alignment-evidence-1",
+                    "title": "AP Report",
+                    "description": "Associated Press reported Macron's backing for Canada as EU associate member during a meeting with Canadian PM Carney.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "ap-canada-eu-20260920"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "ap-canada-eu-20260920",
+                    "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+                    "publisher": "Associated Press",
+                    "publishedAt": "2026-09-20T12:00:00.000Z",
+                    "url": "https://apnews.com/article/73454c45d9a9428fabbfd00a5daeb23f",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "canada-eu-associate-alignment-signal-2",
+                "label": "Trigger",
+                "title": "Canada–France Expand Cooperation Across Multiple Sectors",
+                "body": "Canada and France pledged to deepen collaboration in defense, energy, space, and advanced technology, signaling a broad strategic alignment beyond trade.",
+                "whyImportant": "The breadth of cooperation suggests an integrated framework that could serve as a model for other middle powers seeking economic security and strategic autonomy.",
+                "evidence": [
+                  {
+                    "id": "canada-eu-associate-alignment-evidence-2",
+                    "title": "Reuters Report",
+                    "description": "Reuters reported the pledges made during the Macron–Carney meeting on a French Atlantic island, highlighting the sectors of cooperation.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "reuters-canada-france-20260920"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "reuters-canada-france-20260920",
+                    "title": "Macron, Carney pledge closer ties in Atlantic island meeting amid strains with Trump",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-20T12:00:00.000Z",
+                    "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Ad Hoc Partnerships to Institutionalized Middle-Power Alignment",
+            "before": "Middle powers like Canada operated through ad hoc bilateral agreements and limited trade deals, with the EU offering only full membership or loose partnerships.",
+            "shift": "The EU is creating a formal associate member status that grants extensive economic and strategic cooperation without full political integration, driven by shared concerns over US unpredictability.",
+            "now": "Canada and France are piloting this new institutional form, with explicit backing from a key EU leader and concrete sectoral agreements.",
+            "conclusion": "This marks a potential shift toward a new tier of international alignment, where middle powers can secure deeper ties with the EU while maintaining sovereignty."
+          },
+          "insight": {
+            "title": "Associate Membership as a Reusable Template",
+            "formula": "Strategic autonomy need + Middle-power capabilities + Institutional innovation = New alignment tier",
+            "explanation": "The Canada–EU associate membership proposal combines a middle power's desire for economic security and strategic autonomy with the EU's need for reliable partners, producing an institutional innovation that could be replicated by other nations."
+          },
+          "observe": {
+            "title": "What to Watch",
+            "items": [
+              {
+                "label": "Formalization",
+                "prompt": "Watch for official EU Council approval or negotiation framework for Canada's associate membership.",
+                "meta": "Institutional"
+              },
+              {
+                "label": "Second Adopters",
+                "prompt": "Monitor whether other middle powers (e.g., Australia, Japan, South Korea) seek similar associate status with the EU.",
+                "meta": "Diffusion"
+              },
+              {
+                "label": "US Response",
+                "prompt": "Observe how the United States reacts to closer Canada–EU strategic alignment, especially in defense and tech.",
+                "meta": "Geopolitical"
+              },
+              {
+                "label": "Sectoral Depth",
+                "prompt": "Track concrete agreements in defense, energy, space, and advanced technology to assess the depth of the alignment.",
+                "meta": "Implementation"
+              }
+            ],
+            "ending": "The success or failure of this arrangement will reveal whether associate membership becomes a stable feature of the international order or remains a one-off experiment."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "全球洞察",
+            "secondaryEyebrow": "新进程候选",
+            "title": "加拿大与欧洲正在试验一种新的中等强国结盟形式",
+            "summary": "法国支持加拿大成为欧盟首个准成员国，两国同时深化防务、能源、航天和技术合作——这可能成为中等强国寻求战略自主的机构模板。"
+          },
+          "question": {
+            "lead": "当中等强国寻求更深入结盟却不追求完全政治一体化时，会发生什么？",
+            "title": "加拿大与欧盟的准成员关系会成为新全球架构的蓝图吗？",
+            "footnote": "这一问题界定了新兴的加拿大与欧盟准成员安排超越双边合作的战略意义。"
+          },
+          "signals": {
+            "title": "信号",
+            "sourceNote": "证据来自2026年9月20日两篇独立、可靠的媒体报道。",
+            "items": [
+              {
+                "id": "canada-eu-associate-alignment-signal-1",
+                "label": "触发",
+                "title": "法国支持加拿大成为欧盟首个准成员国",
+                "body": "法国总统马克龙公开支持加拿大成为欧盟首个准成员国，这一地位将带来更紧密的经济与战略联系，而无需完全加入欧盟。",
+                "whyImportant": "这是朝着将欧盟与非欧洲中等强国之间新型关系制度化迈出的具体一步。",
+                "evidence": [
+                  {
+                    "id": "canada-eu-associate-alignment-evidence-1",
+                    "title": "美联社报道",
+                    "description": "美联社报道称，马克龙在会见加拿大总理卡尼时支持加拿大成为欧盟准成员。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "ap-canada-eu-20260920"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "ap-canada-eu-20260920",
+                    "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+                    "publisher": "Associated Press",
+                    "publishedAt": "2026-09-20T12:00:00.000Z",
+                    "url": "https://apnews.com/article/73454c45d9a9428fabbfd00a5daeb23f",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "canada-eu-associate-alignment-signal-2",
+                "label": "触发因素",
+                "title": "加拿大与法国扩大多领域合作",
+                "body": "加拿大和法国承诺深化在国防、能源、航天和先进技术领域的合作，显示出超越贸易的广泛战略协同。",
+                "whyImportant": "合作的广度表明一种一体化框架，或可为其他寻求经济安全和战略自主的中等强国提供范本。",
+                "evidence": [
+                  {
+                    "id": "canada-eu-associate-alignment-evidence-2",
+                    "title": "路透社报道",
+                    "description": "路透社报道了马克龙与卡尼在法国一座大西洋岛屿会晤期间作出的承诺，并重点提到合作领域。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "reuters-canada-france-20260920"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "reuters-canada-france-20260920",
+                    "title": "Macron, Carney pledge closer ties in Atlantic island meeting amid strains with Trump",
+                    "publisher": "Reuters",
+                    "publishedAt": "2026-09-20T12:00:00.000Z",
+                    "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从临时伙伴关系走向制度化的中等强国协同",
+            "before": "像加拿大这样的中等强国此前通过临时双边协议和有限的贸易协定开展合作，而欧盟只提供正式成员资格或松散伙伴关系。",
+            "shift": "欧盟正在设立正式的准成员地位，在不要求全面政治一体化的情况下给予广泛的经济与战略合作，其推动力是对美国不可预测性的共同担忧。",
+            "now": "加拿大和法国正在试点这一新的制度形式，并得到一位欧盟关键领导人的明确支持以及具体的行业协议。",
+            "conclusion": "这标志着可能转向一种新的国际结盟层级，中等强国可在保持主权的同时与欧盟建立更紧密的关系。"
+          },
+          "insight": {
+            "title": "准成员身份作为可复用的模板",
+            "formula": "战略自主需求＋中等强国能力＋制度创新＝新结盟层级",
+            "explanation": "加拿大－欧盟准成员身份提案将中等强国对经济安全和战略自主的追求与欧盟对可靠伙伴的需求相结合，产生了一种可能被其他国家效仿的制度创新。"
+          },
+          "observe": {
+            "title": "值得关注",
+            "items": [
+              {
+                "label": "正式化",
+                "prompt": "关注欧盟理事会是否正式批准加拿大的准成员身份或相关谈判框架。",
+                "meta": "制度化"
+              },
+              {
+                "label": "第二批采纳者",
+                "prompt": "观察其他中等强国（如澳大利亚、日本、韩国）是否寻求与欧盟建立类似的准成员地位。",
+                "meta": "扩散"
+              },
+              {
+                "label": "美国反应",
+                "prompt": "观察美国对加拿大与欧盟战略趋同（尤其在防务和科技领域）的反应。",
+                "meta": "地缘政治"
+              },
+              {
+                "label": "领域深度",
+                "prompt": "追踪防务、能源、航天和先进技术领域的具体协议，以评估趋同的深度。",
+                "meta": "落实情况"
+              }
+            ],
+            "ending": "这一安排的成败将揭示准成员身份会成为国际秩序的稳定特征，还是仅停留在一次性试验。"
+          }
+        }
+      }
+    },
     {
       "confidence": "verified",
       "content": {
@@ -7460,7 +7744,7 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-20T07:39:17.018Z"
+    "repairedAt": "2026-09-21T00:31:39.378Z"
   },
   "processFoundation": {
     "lastMatchedProcessId": "process-geopolitical-technology-control",
@@ -8535,6 +8819,323 @@
     }
   ],
   "writerDrafts": [
+    {
+      "id": "writer-canada-eu-associate-alignment-1789950672258",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-09-21T00:31:12.258Z",
+      "researchDraftId": "research-global-2026-09-21-manual-recovery",
+      "candidateId": "canada-eu-associate-alignment",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": false,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "ig-canada-eu-associate-alignment",
+        "scope": "global",
+        "slug": "canada-eu-associate-alignment",
+        "status": "publish_new",
+        "publishedAt": "2026-09-20T00:00:00.000Z",
+        "updatedAt": "2026-09-21T00:31:12.258Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "New Process Candidate",
+              "title": "Canada and Europe Are Testing a New Form of Middle-Power Alignment",
+              "summary": "France backs Canada as the EU's first associate member, while the two nations deepen defense, energy, space, and tech ties—a potential institutional template for middle powers seeking strategic autonomy."
+            },
+            "question": {
+              "lead": "What happens when middle powers seek deeper alignment without full political integration?",
+              "title": "Is the Canada–EU associate relationship a blueprint for a new global architecture?",
+              "footnote": "This question frames the strategic significance of the emerging Canada–EU associate arrangement beyond bilateral cooperation."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Evidence is drawn from two independent, reliable media reports on September 20, 2026.",
+              "items": [
+                {
+                  "id": "canada-eu-associate-alignment-signal-1",
+                  "label": "Trigger",
+                  "title": "France Backs Canada as EU's First Associate Member",
+                  "body": "French President Macron publicly supported Canada becoming the European Union's first associate member, a status that would grant closer economic and strategic ties without full EU membership.",
+                  "whyImportant": "This is a concrete step toward institutionalizing a new category of relationship between the EU and a non-European middle power.",
+                  "evidence": [
+                    {
+                      "id": "canada-eu-associate-alignment-evidence-1",
+                      "title": "AP Report",
+                      "description": "Associated Press reported Macron's backing for Canada as EU associate member during a meeting with Canadian PM Carney.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "ap-canada-eu-20260920"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "ap-canada-eu-20260920",
+                      "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+                      "publisher": "Associated Press",
+                      "publishedAt": "2026-09-20T12:00:00.000Z",
+                      "url": "https://apnews.com/article/73454c45d9a9428fabbfd00a5daeb23f",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "canada-eu-associate-alignment-signal-2",
+                  "label": "Trigger",
+                  "title": "Canada–France Expand Cooperation Across Multiple Sectors",
+                  "body": "Canada and France pledged to deepen collaboration in defense, energy, space, and advanced technology, signaling a broad strategic alignment beyond trade.",
+                  "whyImportant": "The breadth of cooperation suggests an integrated framework that could serve as a model for other middle powers seeking economic security and strategic autonomy.",
+                  "evidence": [
+                    {
+                      "id": "canada-eu-associate-alignment-evidence-2",
+                      "title": "Reuters Report",
+                      "description": "Reuters reported the pledges made during the Macron–Carney meeting on a French Atlantic island, highlighting the sectors of cooperation.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "reuters-canada-france-20260920"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "reuters-canada-france-20260920",
+                      "title": "Macron, Carney pledge closer ties in Atlantic island meeting amid strains with Trump",
+                      "publisher": "Reuters",
+                      "publishedAt": "2026-09-20T12:00:00.000Z",
+                      "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Ad Hoc Partnerships to Institutionalized Middle-Power Alignment",
+              "before": "Middle powers like Canada operated through ad hoc bilateral agreements and limited trade deals, with the EU offering only full membership or loose partnerships.",
+              "shift": "The EU is creating a formal associate member status that grants extensive economic and strategic cooperation without full political integration, driven by shared concerns over US unpredictability.",
+              "now": "Canada and France are piloting this new institutional form, with explicit backing from a key EU leader and concrete sectoral agreements.",
+              "conclusion": "This marks a potential shift toward a new tier of international alignment, where middle powers can secure deeper ties with the EU while maintaining sovereignty."
+            },
+            "insight": {
+              "title": "Associate Membership as a Reusable Template",
+              "formula": "Strategic autonomy need + Middle-power capabilities + Institutional innovation = New alignment tier",
+              "explanation": "The Canada–EU associate membership proposal combines a middle power's desire for economic security and strategic autonomy with the EU's need for reliable partners, producing an institutional innovation that could be replicated by other nations."
+            },
+            "observe": {
+              "title": "What to Watch",
+              "items": [
+                {
+                  "label": "Formalization",
+                  "prompt": "Watch for official EU Council approval or negotiation framework for Canada's associate membership.",
+                  "meta": "Institutional"
+                },
+                {
+                  "label": "Second Adopters",
+                  "prompt": "Monitor whether other middle powers (e.g., Australia, Japan, South Korea) seek similar associate status with the EU.",
+                  "meta": "Diffusion"
+                },
+                {
+                  "label": "US Response",
+                  "prompt": "Observe how the United States reacts to closer Canada–EU strategic alignment, especially in defense and tech.",
+                  "meta": "Geopolitical"
+                },
+                {
+                  "label": "Sectoral Depth",
+                  "prompt": "Track concrete agreements in defense, energy, space, and advanced technology to assess the depth of the alignment.",
+                  "meta": "Implementation"
+                }
+              ],
+              "ending": "The success or failure of this arrangement will reveal whether associate membership becomes a stable feature of the international order or remains a one-off experiment."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "新进程候选",
+              "title": "加拿大与欧洲正在试验一种新的中等强国结盟形式",
+              "summary": "法国支持加拿大成为欧盟首个准成员国，两国同时深化防务、能源、航天和技术合作——这可能成为中等强国寻求战略自主的机构模板。"
+            },
+            "question": {
+              "lead": "当中等强国寻求更深入结盟却不追求完全政治一体化时，会发生什么？",
+              "title": "加拿大与欧盟的准成员关系会成为新全球架构的蓝图吗？",
+              "footnote": "这一问题界定了新兴的加拿大与欧盟准成员安排超越双边合作的战略意义。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "证据来自2026年9月20日两篇独立、可靠的媒体报道。",
+              "items": [
+                {
+                  "id": "canada-eu-associate-alignment-signal-1",
+                  "label": "触发",
+                  "title": "法国支持加拿大成为欧盟首个准成员国",
+                  "body": "法国总统马克龙公开支持加拿大成为欧盟首个准成员国，这一地位将带来更紧密的经济与战略联系，而无需完全加入欧盟。",
+                  "whyImportant": "这是朝着将欧盟与非欧洲中等强国之间新型关系制度化迈出的具体一步。",
+                  "evidence": [
+                    {
+                      "id": "canada-eu-associate-alignment-evidence-1",
+                      "title": "美联社报道",
+                      "description": "美联社报道称，马克龙在会见加拿大总理卡尼时支持加拿大成为欧盟准成员。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "ap-canada-eu-20260920"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "ap-canada-eu-20260920",
+                      "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+                      "publisher": "Associated Press",
+                      "publishedAt": "2026-09-20T12:00:00.000Z",
+                      "url": "https://apnews.com/article/73454c45d9a9428fabbfd00a5daeb23f",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "canada-eu-associate-alignment-signal-2",
+                  "label": "触发因素",
+                  "title": "加拿大与法国扩大多领域合作",
+                  "body": "加拿大和法国承诺深化在国防、能源、航天和先进技术领域的合作，显示出超越贸易的广泛战略协同。",
+                  "whyImportant": "合作的广度表明一种一体化框架，或可为其他寻求经济安全和战略自主的中等强国提供范本。",
+                  "evidence": [
+                    {
+                      "id": "canada-eu-associate-alignment-evidence-2",
+                      "title": "路透社报道",
+                      "description": "路透社报道了马克龙与卡尼在法国一座大西洋岛屿会晤期间作出的承诺，并重点提到合作领域。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "reuters-canada-france-20260920"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "reuters-canada-france-20260920",
+                      "title": "Macron, Carney pledge closer ties in Atlantic island meeting amid strains with Trump",
+                      "publisher": "Reuters",
+                      "publishedAt": "2026-09-20T12:00:00.000Z",
+                      "url": "https://www.reuters.com/world/americas/macron-carney-meet-french-atlantic-archipelago-signal-trump-2026-09-20/",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从临时伙伴关系走向制度化的中等强国协同",
+              "before": "像加拿大这样的中等强国此前通过临时双边协议和有限的贸易协定开展合作，而欧盟只提供正式成员资格或松散伙伴关系。",
+              "shift": "欧盟正在设立正式的准成员地位，在不要求全面政治一体化的情况下给予广泛的经济与战略合作，其推动力是对美国不可预测性的共同担忧。",
+              "now": "加拿大和法国正在试点这一新的制度形式，并得到一位欧盟关键领导人的明确支持以及具体的行业协议。",
+              "conclusion": "这标志着可能转向一种新的国际结盟层级，中等强国可在保持主权的同时与欧盟建立更紧密的关系。"
+            },
+            "insight": {
+              "title": "准成员身份作为可复用的模板",
+              "formula": "战略自主需求＋中等强国能力＋制度创新＝新结盟层级",
+              "explanation": "加拿大－欧盟准成员身份提案将中等强国对经济安全和战略自主的追求与欧盟对可靠伙伴的需求相结合，产生了一种可能被其他国家效仿的制度创新。"
+            },
+            "observe": {
+              "title": "值得关注",
+              "items": [
+                {
+                  "label": "正式化",
+                  "prompt": "关注欧盟理事会是否正式批准加拿大的准成员身份或相关谈判框架。",
+                  "meta": "制度化"
+                },
+                {
+                  "label": "第二批采纳者",
+                  "prompt": "观察其他中等强国（如澳大利亚、日本、韩国）是否寻求与欧盟建立类似的准成员地位。",
+                  "meta": "扩散"
+                },
+                {
+                  "label": "美国反应",
+                  "prompt": "观察美国对加拿大与欧盟战略趋同（尤其在防务和科技领域）的反应。",
+                  "meta": "地缘政治"
+                },
+                {
+                  "label": "领域深度",
+                  "prompt": "追踪防务、能源、航天和先进技术领域的具体协议，以评估趋同的深度。",
+                  "meta": "落实情况"
+                }
+              ],
+              "ending": "这一安排的成败将揭示准成员身份会成为国际秩序的稳定特征，还是仅停留在一次性试验。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-21",
+        "scope": "global",
+        "date": "2026-09-21",
+        "decidedAt": "2026-09-21T00:31:12.258Z",
+        "state": "publish_new",
+        "insightId": "ig-canada-eu-associate-alignment",
+        "materialChangeScore": 78,
+        "evidenceStrength": 82,
+        "noveltyScore": 84,
+        "importanceScore": 78,
+        "candidateSignalIds": [
+          "canada-eu-associate-alignment"
+        ],
+        "content": {
+          "en": {
+            "label": "Publish New Insight",
+            "decisionTitle": "Create New Process Candidate: Middle-Power Associate Alignment",
+            "decisionSummary": "The signal represents a novel and potentially structural development in international institutions, with no existing process match. It warrants tracking as a new process candidate.",
+            "thresholdReason": "High novelty (84) and importance (78), corroborated by two independent reliable sources, with clear second-order implications for global alliance structures.",
+            "observeNext": [
+              "EU formal steps toward associate membership for Canada",
+              "Reactions from other middle powers and the US",
+              "Concrete sectoral agreements beyond pledges"
+            ]
+          },
+          "zh": {
+            "label": "发布新洞察",
+            "decisionTitle": "创建新进程候选：中等强国准联盟",
+            "decisionSummary": "该信号代表国际机构中一项新颖且可能具有结构性的发展，现有进程均不匹配。值得作为新进程候选加以追踪。",
+            "thresholdReason": "新颖度（84）和重要性（78）均较高，得到两个独立可靠来源的印证，对全球联盟结构具有明显的二阶影响。",
+            "observeNext": [
+              "欧盟就加拿大准成员身份采取正式步骤",
+              "其他中等强国的反应及美国的态度",
+              "承诺之外的具体行业协议"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4736,
+        "outputTokens": 2546,
+        "cachedInputTokens": 1792
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-09-21T00:31:38.279Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "publish_new"
+      },
+      "approvedAt": "2026-09-21T00:31:38.279Z"
+    },
     {
       "id": "writer-atlantic-hurricane-erga-intensification-1789889883610",
       "scope": "global",
