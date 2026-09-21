@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T16:09:24.583Z",
+  "updatedAt": "2026-09-21T16:09:25.389Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "等待重新发布日期修复",
-      "updatedAt": "2026-09-21T16:07:31.347Z",
+      "message": "publish",
+      "updatedAt": "2026-09-21T16:09:25.389Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-21-manual-recovery",
