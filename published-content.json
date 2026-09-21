@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-09-21T00:31:38.279Z",
-  "contentVersion": "publish-ig-canada-eu-associate-alignment-1789950699361",
+  "contentVersion": "repair-publication-date-2026-09-21",
   "insights": [
     {
       "id": "ig-canada-eu-associate-alignment",
       "scope": "global",
       "slug": "canada-eu-associate-alignment",
       "status": "publish_new",
-      "publishedAt": "2026-09-20T00:00:00.000Z",
-      "updatedAt": "2026-09-21T00:31:12.258Z",
+      "publishedAt": "2026-09-21T00:31:38.279Z",
+      "updatedAt": "2026-09-21T00:31:38.279Z",
       "confidence": "verified",
       "content": {
         "en": {
