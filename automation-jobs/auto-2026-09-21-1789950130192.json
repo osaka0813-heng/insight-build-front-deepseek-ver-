@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T16:09:26.669Z",
+  "updatedAt": "2026-09-21T16:09:27.764Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -967,10 +967,5 @@
       }
     ]
   },
-  "message": "WORLD publish 自动重试 1/3",
-  "lease": {
-    "owner": "cron-1790006964222-uwqrkyef",
-    "acquiredAt": "2026-09-21T16:09:24.583Z",
-    "expiresAt": "2026-09-21T16:14:14.583Z"
-  }
+  "message": "WORLD publish 自动重试 1/3"
 }
