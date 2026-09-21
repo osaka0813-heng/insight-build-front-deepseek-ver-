@@ -2,22 +2,22 @@
   "id": "auto-2026-09-21-1789950130192",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "running",
   "date": "2026-09-21",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "publish",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T00:31:42.861Z",
+  "updatedAt": "2026-09-21T16:07:31.347Z",
   "scopes": {
     "global": {
-      "status": "done",
+      "status": "checkpointed",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "已发布",
-      "updatedAt": "2026-09-21T00:31:41.751Z",
+      "message": "等待重新发布日期修复",
+      "updatedAt": "2026-09-21T16:07:31.347Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-21-manual-recovery",
@@ -622,7 +622,7 @@
         }
       },
       "writerDraft": {
-        "id": "writer-canada-eu-associate-alignment-1789950672258",
+        "id": "writer-canada-eu-associate-alignment-1789950672258-date-repair-20260921",
         "scope": "global",
         "status": "draft",
         "writtenAt": "2026-09-21T00:31:12.258Z",
@@ -929,9 +929,7 @@
           "cachedInputTokens": 1792
         }
       },
-      "insightId": "ig-canada-eu-associate-alignment",
-      "contentVersion": "publish-ig-canada-eu-associate-alignment-1789950699361",
-      "completedAt": "2026-09-21T00:31:41.751Z"
+      "insightId": "ig-canada-eu-associate-alignment"
     }
   },
   "preflight": {
@@ -966,6 +964,5 @@
       }
     ]
   },
-  "message": "Global Insight 已自动发布。",
-  "completedAt": "2026-09-21T00:31:41.751Z"
+  "message": "重新应用出版日期修复"
 }
