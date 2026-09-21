@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T00:25:32.913Z",
+  "updatedAt": "2026-09-21T00:25:33.634Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 2
       },
-      "message": "Research returned no candidate with two independent, current, clickable sources.",
-      "updatedAt": "2026-09-21T00:25:13.627Z",
+      "message": "research",
+      "updatedAt": "2026-09-21T00:25:33.634Z",
       "failedStage": "research",
       "lastError": "Research returned no candidate with two independent, current, clickable sources."
     }
