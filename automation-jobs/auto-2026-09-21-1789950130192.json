@@ -2,22 +2,22 @@
   "id": "auto-2026-09-21-1789950130192",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-21",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-21T00:22:10.192Z",
-  "updatedAt": "2026-09-21T00:31:36.577Z",
+  "updatedAt": "2026-09-21T00:31:41.751Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 3
       },
-      "message": "publish",
-      "updatedAt": "2026-09-21T00:31:36.577Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-21T00:31:41.751Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-21-manual-recovery",
@@ -883,9 +883,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-20",
+          "id": "daily-global-2026-09-21",
           "scope": "global",
-          "date": "2026-09-20",
+          "date": "2026-09-21",
           "decidedAt": "2026-09-21T00:31:12.258Z",
           "state": "publish_new",
           "insightId": "ig-canada-eu-associate-alignment",
@@ -928,7 +928,10 @@
           "outputTokens": 2546,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "insightId": "ig-canada-eu-associate-alignment",
+      "contentVersion": "publish-ig-canada-eu-associate-alignment-1789950699361",
+      "completedAt": "2026-09-21T00:31:41.751Z"
     }
   },
   "preflight": {
@@ -963,10 +966,11 @@
       }
     ]
   },
-  "message": "已补充双来源研究断点，继续分析。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1789950695441-l1shl8xb",
     "acquiredAt": "2026-09-21T00:31:35.634Z",
     "expiresAt": "2026-09-21T00:36:25.634Z"
-  }
+  },
+  "completedAt": "2026-09-21T00:31:41.751Z"
 }
