@@ -1,0 +1,17 @@
+name: One-time Sep 21 publication date repair
+
+on:
+  push:
+    paths:
+      - ".github/workflows/one-time-sep21-date-repair.yml"
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resume the queued publish checkpoint
+        run: |
+          set -euo pipefail
+          response="$(curl --fail-with-body --silent --show-error --max-time 300 'https://insight-build-back-deepseek-ver.vercel.app/api/daily?trigger=github-one-time-date-repair')"
+          echo "$response"
+          echo "$response" | grep -q '"status":"completed"'
