@@ -2,21 +2,21 @@
   "id": "auto-2026-09-22-1790006902611",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-22T04:29:06.893Z",
+  "updatedAt": "2026-09-22T04:29:08.855Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "preflight": 1
       },
-      "message": "publish",
+      "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
       "updatedAt": "2026-09-22T04:29:06.893Z",
       "researchDraft": {
         "ok": true,
@@ -964,10 +964,10 @@
         }
       },
       "contentVersion": "review-writer-paramount-warner-state-settlement-1790046095759-1790047062882",
-      "completedAt": "2026-09-22T03:24:01.834Z"
+      "completedAt": "2026-09-22T04:29:08.855Z"
     }
   },
-  "message": "重新发布缺失的每日观察",
+  "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
   "preflight": {
     "ok": true,
     "checkedAt": "2026-09-21T18:31:14.998Z",
@@ -1004,5 +1004,6 @@
     "owner": "cron-1790051344471-cyo4ew79",
     "acquiredAt": "2026-09-22T04:29:05.900Z",
     "expiresAt": "2026-09-22T04:33:55.900Z"
-  }
+  },
+  "completedAt": "2026-09-22T04:29:08.855Z"
 }
