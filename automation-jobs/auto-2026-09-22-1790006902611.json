@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_zh",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-22T01:55:41.833Z",
+  "updatedAt": "2026-09-22T02:53:14.259Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -515,5 +515,10 @@
         "detail": "backups/remote-content/2026-09-21T18-31-14-270Z-preflight-probe-1790015474270.json"
       }
     ]
+  },
+  "lease": {
+    "owner": "cron-1790045594039-b7xobqvl",
+    "acquiredAt": "2026-09-22T02:53:14.259Z",
+    "expiresAt": "2026-09-22T02:58:04.259Z"
   }
 }
