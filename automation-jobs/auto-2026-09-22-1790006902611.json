@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-22T06:27:48.725Z",
+  "updatedAt": "2026-09-22T06:27:49.761Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -999,11 +999,6 @@
         "detail": "backups/remote-content/2026-09-21T18-31-14-270Z-preflight-probe-1790015474270.json"
       }
     ]
-  },
-  "lease": {
-    "owner": "cron-1790058464596-bx0kgfuu",
-    "acquiredAt": "2026-09-22T06:27:45.989Z",
-    "expiresAt": "2026-09-22T06:32:35.989Z"
   },
   "completedAt": "2026-09-22T06:27:48.725Z"
 }
