@@ -2,21 +2,21 @@
   "id": "auto-2026-09-22-1790006902611",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "running",
   "date": "2026-09-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "publish",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-22T06:27:49.761Z",
+  "updatedAt": "2026-09-22T08:03:16.133Z",
   "scopes": {
     "global": {
-      "status": "done",
+      "status": "checkpointed",
       "stage": "publish",
       "attempts": {
         "preflight": 1
       },
-      "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
+      "message": "修复缺失的每日公开记录",
       "updatedAt": "2026-09-22T06:27:46.742Z",
       "researchDraft": {
         "ok": true,
@@ -967,7 +967,7 @@
       "completedAt": "2026-09-22T06:27:48.725Z"
     }
   },
-  "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
+  "message": "重新发布缺失的每日观察",
   "preflight": {
     "ok": true,
     "checkedAt": "2026-09-21T18:31:14.998Z",
@@ -999,6 +999,5 @@
         "detail": "backups/remote-content/2026-09-21T18-31-14-270Z-preflight-probe-1790015474270.json"
       }
     ]
-  },
-  "completedAt": "2026-09-22T06:27:48.725Z"
+  }
 }
