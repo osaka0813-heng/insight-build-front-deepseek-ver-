@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T16:11:05.994Z",
-  "contentVersion": "publish-ig-canada-eu-associate-alignment-1790007067045",
+  "generatedAt": "2026-09-22T03:17:41.925Z",
+  "contentVersion": "review-writer-paramount-warner-state-settlement-1790046095759-1790047062882",
   "insights": [
     {
       "id": "ig-canada-eu-associate-alignment",
@@ -6477,40 +6477,42 @@
       "id": "daily-global-2026-09-21",
       "scope": "global",
       "date": "2026-09-21",
-      "decidedAt": "2026-09-21T00:31:12.258Z",
-      "state": "publish_new",
-      "insightId": "ig-canada-eu-associate-alignment",
-      "materialChangeScore": 78,
-      "evidenceStrength": 82,
-      "noveltyScore": 84,
-      "importanceScore": 78,
+      "decidedAt": "2026-09-22T03:17:41.925Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 40,
+      "evidenceStrength": 64,
+      "noveltyScore": 52,
+      "importanceScore": 58,
       "candidateSignalIds": [
-        "canada-eu-associate-alignment"
+        "paramount-warner-state-settlement"
       ],
       "content": {
         "en": {
-          "label": "Publish New Insight",
-          "decisionTitle": "Create New Process Candidate: Middle-Power Associate Alignment",
-          "decisionSummary": "The signal represents a novel and potentially structural development in international institutions, with no existing process match. It warrants tracking as a new process candidate.",
-          "thresholdReason": "High novelty (84) and importance (78), corroborated by two independent reliable sources, with clear second-order implications for global alliance structures.",
+          "label": "No new structural insight today",
+          "decisionTitle": "Current evidence does not support a new structural conclusion",
+          "decisionSummary": "The event is verified by two independent reliable media sources, satisfying the source gate. It represents a material legal development in a high-value merger, but it does not yet constitute a durable, cross-system change warranting a World Process. However, given its potential impact on media concentration and the clarity of the news, it merits publication as a standalone Global Insight.",
+          "thresholdReason": "The event is verified by two independent reliable media sources, satisfying the source gate. It represents a material legal development in a high-value merger, but it does not yet constitute a durable, cross-system change warranting a World Process. However, given its potential impact on media concentration and the clarity of the news, it merits publication as a standalone Global Insight.",
           "observeNext": [
-            "EU formal steps toward associate membership for Canada",
-            "Reactions from other middle powers and the US",
-            "Concrete sectoral agreements beyond pledges"
+            "Federal regulatory decisions on the merger",
+            "Any remaining state or international challenges",
+            "Market reaction to the settlement",
+            "Announcements on post-merger integration plans"
           ]
         },
         "zh": {
-          "label": "发布新洞察",
-          "decisionTitle": "创建新进程候选：中等强国准联盟",
-          "decisionSummary": "该信号代表国际机构中一项新颖且可能具有结构性的发展，现有进程均不匹配。值得作为新进程候选加以追踪。",
-          "thresholdReason": "新颖度（84）和重要性（78）均较高，得到两个独立可靠来源的印证，对全球联盟结构具有明显的二阶影响。",
+          "label": "今日未形成新结构性洞察",
+          "decisionTitle": "现有证据不足以支持新的结构性判断",
+          "decisionSummary": "该事件经两个独立可靠媒体来源核实，满足来源门槛。它代表高价值合并中的重大法律进展，但尚未构成足以称为世界进程的持久跨系统变化。然而，鉴于其对媒体集中度的潜在影响及新闻的清晰度，值得作为独立全球洞察发布。",
+          "thresholdReason": "该事件经两个独立可靠媒体来源核实，满足来源门槛。它代表高价值合并中的重大法律进展，但尚未构成足以称为世界进程的持久跨系统变化。然而，鉴于其对媒体集中度的潜在影响及新闻的清晰度，值得作为独立全球洞察发布。",
           "observeNext": [
-            "欧盟就加拿大准成员身份采取正式步骤",
-            "其他中等强国的反应及美国的态度",
-            "承诺之外的具体行业协议"
+            "联邦监管机构对合并的决定",
+            "其余州或国际层面的挑战",
+            "市场对和解的反应",
+            "关于合并后整合计划的公告"
           ]
         }
-      }
+      },
+      "previousInsightId": "ig-canada-eu-associate-alignment"
     },
     {
       "id": "daily-global-2026-09-20",
@@ -8024,6 +8026,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-21T16:11:07.061Z"
+    "repairedAt": "2026-09-22T03:17:42.897Z"
   }
 }
