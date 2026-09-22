@@ -6,18 +6,18 @@
   "date": "2026-09-22",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-22T01:54:57.244Z",
+  "updatedAt": "2026-09-22T01:55:40.722Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "preflight": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-22T01:54:57.244Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-22T01:55:40.722Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-22-1790015592868",
@@ -352,7 +352,135 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 2,
-      "selectedCandidateId": "paramount-warner-state-settlement"
+      "selectedCandidateId": "paramount-warner-state-settlement",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "paramount-warner-state-settlement",
+          "slug": "paramount-warner-state-settlement",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Media Consolidation",
+              "secondaryEyebrow": "Antitrust Settlement",
+              "title": "Paramount Settles with US States, Clearing Path for $110bn Warner Bros Merger",
+              "summary": "Paramount's settlement of lawsuits with 12 US states removes a significant legal obstacle, advancing the $110 billion merger with Warner Bros and signaling a major shift in media ownership concentration."
+            },
+            "question": {
+              "lead": "What does Paramount's state settlement mean for the biggest media merger in years?",
+              "title": "Can a $110bn media consolidation reshape the entertainment landscape?",
+              "footnote": "Two independent reliable sources report the settlement, but the deal still requires federal and other approvals."
+            },
+            "signals": {
+              "title": "Signals of a Clearing Path",
+              "sourceNote": "Evidence from BBC and The Guardian, both reliable media outlets, published on September 21, 2026.",
+              "items": [
+                {
+                  "label": "State Settlement",
+                  "title": "Paramount settles lawsuits with 12 US states",
+                  "body": "Paramount Global has reached a settlement with 12 US states that had challenged the merger, according to both BBC and The Guardian. This resolution removes a key legal barrier that could have delayed or blocked the deal.",
+                  "whyImportant": "State-level antitrust challenges are often unpredictable and can derail mergers; settling them clears a significant hurdle, making the merger more likely to proceed.",
+                  "evidence": {
+                    "title": "Settlement Reported",
+                    "description": "Both BBC and The Guardian report that Paramount settled lawsuits with US states, specifically 12 states per The Guardian, helping clear the way for the Warner Bros merger.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "paramount-warner-state-settlement-source-1",
+                      "paramount-warner-state-settlement-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Merger Value",
+                  "title": "$110 billion media consolidation",
+                  "body": "The merger between Paramount and Warner Bros is valued at $110 billion, making it one of the largest media mergers in history. This consolidation would combine major film studios, television networks, and streaming services.",
+                  "whyImportant": "The sheer size of the deal underscores its potential to reshape the competitive landscape, concentrating significant content and distribution power.",
+                  "evidence": {
+                    "title": "Deal Valuation",
+                    "description": "Both sources reference the $110 billion valuation for the Warner Bros merger.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "paramount-warner-state-settlement-source-1",
+                      "paramount-warner-state-settlement-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Legal Uncertainty to Consolidation Momentum",
+              "before": "The Paramount-Warner Bros merger faced lawsuits from multiple US states, creating uncertainty over whether the deal could proceed. State-level antitrust challenges posed a direct risk of delay or injunction.",
+              "shift": "Paramount settled these lawsuits with 12 US states, removing a major legal obstacle. This shifts the merger from a contested state-level landscape to a clearer path, though federal approval and other regulatory clearances remain.",
+              "now": "With state settlements in place, the $110 billion merger moves forward more confidently. The remaining hurdles are at the federal level and possibly other jurisdictions, but the most immediate state-level threats are resolved.",
+              "conclusion": "The settlement indicates a significant step toward finalizing the merger, which would create a media behemoth with enormous content and distribution power. This could alter competitive dynamics in streaming, film, and television."
+            },
+            "insight": {
+              "title": "State Settlements as a Precursor to Mega-Media Consolidation",
+              "formula": "Resolution of state-level antitrust litigation reduces legal friction, enabling a $110bn merger that concentrates media ownership and could redefine industry competition.",
+              "explanation": "The settlement with 12 US states demonstrates that Paramount and Warner Bros are successfully navigating antitrust challenges, signaling that the merger is likely to close. This consolidation will merge two major content libraries and distribution networks, potentially leading to reduced competition and increased market power, which could impact consumers and competitors alike."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "Federal Approval",
+                  "prompt": "Monitor statements and actions from the US Federal Trade Commission or Department of Justice regarding the merger.",
+                  "meta": "Regulatory clearance is essential for deal completion."
+                },
+                {
+                  "label": "Other State or International Challenges",
+                  "prompt": "Watch for any remaining lawsuits or regulatory objections from other jurisdictions.",
+                  "meta": "Even after settling with 12 states, other entities may still oppose."
+                },
+                {
+                  "label": "Market Reaction",
+                  "prompt": "Observe stock price movements for Paramount and Warner Bros following the settlement news.",
+                  "meta": "Investor sentiment can indicate confidence in the deal's completion."
+                },
+                {
+                  "label": "Content and Strategy Changes",
+                  "prompt": "Watch for announcements about combined streaming services, layoffs, or content consolidation.",
+                  "meta": "Post-merger integration plans will reveal the true impact on the media landscape."
+                }
+              ],
+              "ending": "The settlement is a major milestone, but the merger's ultimate success and impact will depend on overcoming remaining regulatory hurdles and executing integration effectively."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish as Standalone Insight",
+            "decisionTitle": "Paramount's State Settlement Advances Major Media Merger",
+            "decisionSummary": "The settlement between Paramount and 12 US states removes a key legal obstacle to the $110 billion Warner Bros merger. This is reported by two reliable sources and marks a significant step toward a major media consolidation. While not a structural, cross-system process, it is a noteworthy standalone event with second-order implications for media ownership.",
+            "thresholdReason": "The event is verified by two independent reliable media sources, satisfying the source gate. It represents a material legal development in a high-value merger, but it does not yet constitute a durable, cross-system change warranting a World Process. However, given its potential impact on media concentration and the clarity of the news, it merits publication as a standalone Global Insight.",
+            "observeNext": [
+              "Federal regulatory decisions on the merger",
+              "Any remaining state or international challenges",
+              "Market reaction to the settlement",
+              "Announcements on post-merger integration plans"
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "No Existing World Process Matched",
+            "description": "This event does not fit into any existing World Process (AI infrastructure, energy, semiconductors, tech control). It is a media consolidation development that is best treated as a standalone insight.",
+            "implication": "As no process is assigned, this insight will be published independently. Future related events may be evaluated for potential process creation if they demonstrate broader systemic change."
+          },
+          "nextQuestionEn": "Will the Paramount-Warner Bros merger receive federal approval and what will be the competitive impact on the media industry?",
+          "observeNextEn": [
+            "Statements from US federal antitrust regulators",
+            "Legal filings or challenges from other states or countries",
+            "Stock price movements for Paramount and Warner Bros",
+            "Details of merger integration plans"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2082,
+          "outputTokens": 1655,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
