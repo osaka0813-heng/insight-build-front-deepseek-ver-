@@ -6,16 +6,16 @@
   "date": "2026-09-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-23T00:25:02.240Z",
-  "updatedAt": "2026-09-23T03:01:34.349Z",
+  "updatedAt": "2026-09-23T03:02:37.711Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-09-23T03:01:34.349Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-23T03:02:37.711Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-23-1790128570484",
@@ -359,7 +359,132 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 2,
-      "selectedCandidateId": "cand-record-el-nino"
+      "selectedCandidateId": "cand-record-el-nino",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "record-el-nino-before-peak",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "CLIMATE & DISASTER RISK",
+              "secondaryEyebrow": "STANDALONE GLOBAL INSIGHT",
+              "title": "The Strongest El Niño on Record is Forming Weeks Before Its Peak",
+              "summary": "A developing El Niño has become the strongest on record weeks before its expected peak, forcing California into a state of emergency and raising the probability of extreme rainfall, flooding, and infrastructure stress across multiple continents."
+            },
+            "question": {
+              "lead": "How does a record-strength El Niño, forming off-season and weeks before its expected peak, reset near-term disaster and agricultural risk assessments globally?",
+              "title": "What happens when a record El Niño arrives early?",
+              "footnote": "This insight is based on two independent reliable media sources: BBC Weather and The Guardian."
+            },
+            "signals": {
+              "title": "Signals of an Early Record El Niño",
+              "sourceNote": "Sources: BBC Weather (September 22, 2026); The Guardian (September 21, 2026).",
+              "items": [
+                {
+                  "label": "Signal 1",
+                  "title": "Record-strength El Niño confirmed weeks before expected peak",
+                  "body": "BBC Weather reports that the developing El Niño has become the strongest on record weeks before its expected peak. This measurement indicates an unusually rapid intensification and an off-season timing that deviates from typical cycles.",
+                  "whyImportant": "An off-season record-strength El Niño suggests that weather patterns will be disrupted earlier and potentially more severely than forecast, compressing preparation time for vulnerable regions.",
+                  "evidence": {
+                    "title": "BBC Weather: Developing El Niño becomes strongest on record weeks before expected peak",
+                    "description": "The report directly states that the developing El Niño is now the strongest on record weeks before its expected peak, based on current measurements.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-record-el-nino-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Signal 2",
+                  "title": "California declares state of emergency as it braces for record El Niño storms",
+                  "body": "The Guardian reports that California's governor has declared a state of emergency in anticipation of record El Niño storms. The state is preparing for extreme precipitation, flooding, and potential infrastructure damage.",
+                  "whyImportant": "A state of emergency declaration is a concrete government action that signals high confidence in imminent, severe impacts. It mobilizes resources and indicates that the risk is being treated as a present threat, not a future possibility.",
+                  "evidence": {
+                    "title": "The Guardian: California braces for record El Niño storms as governor declares emergency",
+                    "description": "The article reports that the governor declared a state of emergency due to the expected record El Niño storms, with details on preparations.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-record-el-nino-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Before, Shift, Now: Early Record El Niño Changes the Risk Equation",
+              "before": "Climate and disaster risk models assumed that El Niño events intensify gradually and peak during their typical seasonal window, allowing governments and humanitarian agencies to prepare over months. Record-strength events were considered rare and generally expected to follow a predictable timeline.",
+              "shift": "This El Niño has reached record strength weeks before its expected peak, indicating a phase shift toward more rapid intensification and earlier onset. Governments are already taking emergency measures, such as California's state of emergency, based on forecasts of extreme storms.",
+              "now": "The probability of extreme rainfall, flooding, and infrastructure stress across multiple continents has increased significantly. Disaster response must accelerate, and agricultural and economic risk assessments are being revised. The event is unfolding as a present crisis, not a future scenario.",
+              "conclusion": "The early record-strength El Niño is a physically verifiable signal that undermines conventional preparedness timelines. It demands immediate attention and may serve as a case study for how climate extremes can outpace institutional planning."
+            },
+            "insight": {
+              "title": "An Early Record El Niño Compresses the Window for Global Preparedness",
+              "formula": "Early record-strength El Niño + State-level emergency responses = Shortened adaptation timeline and elevated near-term disaster risk",
+              "explanation": "The core insight is that when an El Niño reaches record strength before its expected peak, it accelerates the timeline for impacts. Governments and communities that relied on the traditional lag between event onset and peak intensity now face compressed preparation time. This is visible in California's emergency declaration, which treats the threat as imminent. The formula captures how an unusual physical event interacts with institutional response to create a new risk landscape."
+            },
+            "observe": {
+              "title": "What to Observe Next",
+              "items": [
+                {
+                  "label": "Storm Impacts",
+                  "prompt": "Track whether California and other west-coast regions experience record rainfall and flooding in the coming weeks.",
+                  "meta": "Indicators: precipitation anomalies, flood reports, emergency declarations in additional jurisdictions."
+                },
+                {
+                  "label": "Global Teleconnections",
+                  "prompt": "Monitor for extreme weather events in other El Niño-sensitive regions, such as Australia, Southeast Asia, and East Africa.",
+                  "meta": "Indicators: drought declarations, heatwave alerts, crop failure reports."
+                },
+                {
+                  "label": "Infrastructure Stress",
+                  "prompt": "Look for disruptions to transportation, energy, and water systems caused by extreme weather linked to this El Niño.",
+                  "meta": "Indicators: road closures, power outages, dam management changes."
+                },
+                {
+                  "label": "Policy Responses",
+                  "prompt": "Watch for additional government or international declarations of emergency or disaster funding tied to El Niño impacts.",
+                  "meta": "Indicators: FEMA activations, UN humanitarian appeals, reallocations of climate finance."
+                }
+              ],
+              "ending": "The decisive test will be whether the realized impacts match the early warnings. If the strongest El Niño on record delivers extreme weather across multiple continents before its nominal peak, it will validate the need for faster, more flexible disaster response systems."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Record El Niño Forms Early",
+            "decisionTitle": "Publish as Standalone Important Insight",
+            "decisionSummary": "The signal is a durable, physically verifiable climate event with broad and compounding second-order consequences. It does not map to an existing World Process, so it will be published as a standalone insight.",
+            "thresholdReason": "The candidate met the publish threshold with a priority score of 74. It has two independent reliable media sources (BBC Weather and The Guardian) that confirm the core facts. The material change score of 66 indicates substantial world-understanding impact.",
+            "observeNext": [
+              "Storm impacts in California and other west-coast regions",
+              "Extreme weather in other El Niño-sensitive regions",
+              "Infrastructure stress and policy responses globally"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Global Climate-Physical Risk from Record El Niño",
+            "description": "A record-strength El Niño event, forming weeks before its expected peak, is driving elevated risk of extreme rainfall, flooding, and infrastructure stress across multiple continents. California has already declared a state of emergency in anticipation of record storms.",
+            "implication": "This event is likely to trigger cascading effects on agriculture, humanitarian needs, and economic stability. It may also serve as a pressure test for existing disaster preparedness and climate adaptation frameworks."
+          },
+          "nextQuestionEn": "Will the record-strength El Niño produce extreme weather impacts that match or exceed current forecasts, and how will affected governments and institutions adapt in real time?",
+          "observeNextEn": [
+            "Track whether California experiences record rainfall and flooding in the coming weeks.",
+            "Monitor for extreme weather events in other El Niño-sensitive regions such as Australia, Southeast Asia, and East Africa.",
+            "Look for disruptions to transportation, energy, and water systems caused by extreme weather linked to this El Niño.",
+            "Watch for additional government or international declarations of emergency or disaster funding tied to El Niño impacts."
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2148,
+          "outputTokens": 1817,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
