@@ -6,16 +6,157 @@
   "date": "2026-09-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-23T00:25:02.240Z",
-  "updatedAt": "2026-09-23T01:54:57.118Z",
+  "updatedAt": "2026-09-23T01:56:10.496Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-23T01:54:57.118Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-23T01:56:10.496Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-23-1790128570484",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-23T01:56:10.484Z",
+        "researchDate": "2026-09-23",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Scan of the 2026-09-23 dossier finds no corroboratedPairs; the collection is almost entirely single-publisher (BBC and Guardian), with GDELT collection timeouts in macro-finance, industry-trade, energy-resources, health-science and climate-environment. Only three cross-publisher headline overlaps exist: Trump's diesel-export ban (BBC, Guardian), the Kent meningitis outbreak (BBC x2, same publisher), and the EU-China trade deficit (Guardian only). Strictly applied, the two-source, different-publisher rule yields a very small candidate set, so candidates below are limited to the genuinely cross-publisher items and are flagged where corroboration rests on the same underlying event.",
+        "candidates": [
+          {
+            "id": "cand-diesel-export-ban",
+            "date": "2026-09-22",
+            "domain": "energy-resources",
+            "tags": [
+              "diesel",
+              "export-ban",
+              "fuel-prices",
+              "energy-costs",
+              "us-policy",
+              "refining",
+              "trade"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 55,
+            "importance": 74,
+            "novelty": 70,
+            "evidenceStrength": 62,
+            "independentSourceCount": 2,
+            "thesisImpact": 70,
+            "relationshipChange": 55,
+            "stageChange": 60,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "Trump backs a ban on diesel exports to curb soaring energy costs",
+                "coreFact": "BBC and The Guardian both report that President Trump said he would back a ban on diesel exports in order to curb soaring energy costs.",
+                "whyItMatters": "A diesel export ban would redirect US refined-product flows into the domestic market, tightening Atlantic-basin supply, shifting refining margins and reinforcing the view that energy access is becoming a policy-controlled strategic capacity rather than a purely traded commodity.",
+                "processMatchReason": "Directly touches the energy-security process: policy intervention on fuel exports changes where strategic industrial and transport capacity can be reliably supplied."
+              },
+              "zh": {
+                "title": "特朗普支持禁止柴油出口以遏制能源成本飙升",
+                "coreFact": "BBC与《卫报》均报道，特朗普总统表示支持禁止柴油出口，以遏制飙升的能源成本。",
+                "whyItMatters": "柴油出口禁令将把美国成品油流向重新导向国内市场，收紧大西洋盆地供应、改变炼油利润结构，并强化“能源获取正成为政策控制的战略能力、而非单纯交易商品”的判断。",
+                "processMatchReason": "直接触及能源安全进程：对燃料出口的政策干预改变了战略工业与运输能力可被可靠供给的位置。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Trump says he would back ban on diesel exports",
+                "url": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC reporting on President Trump's stated position on a diesel export ban",
+                "publishedAt": "2026-09-22T20:41:13.000Z",
+                "kind": "reliable_media",
+                "id": "cand-diesel-export-ban-source-1"
+              },
+              {
+                "title": "Trump says he backs diesel export ban to curb soaring energy costs",
+                "url": "https://www.theguardian.com/us-news/2026/sep/22/trump-diesel-export-ban",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on the same presidential statement backing a diesel export ban",
+                "publishedAt": "2026-09-22T19:48:39.000Z",
+                "kind": "reliable_media",
+                "id": "cand-diesel-export-ban-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "cand-record-el-nino",
+            "date": "2026-09-22",
+            "domain": "climate-environment",
+            "tags": [
+              "el-nino",
+              "record",
+              "storms",
+              "california",
+              "emergency",
+              "un",
+              "climate-risk"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 76,
+            "novelty": 72,
+            "evidenceStrength": 58,
+            "independentSourceCount": 2,
+            "thesisImpact": 65,
+            "relationshipChange": 40,
+            "stageChange": 66,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "Developing El Niño becomes strongest on record weeks before expected peak",
+                "coreFact": "BBC Weather reports the developing El Niño has become the strongest on record weeks before its expected peak; The Guardian separately reports California declaring a state of emergency as it braces for record El Niño storms and that world leaders addressed the climate crisis before a UN meeting amid the record-breaking El Niño.",
+                "whyItMatters": "An off-season record-strength El Niño raises the probability of extreme rainfall, flooding and infrastructure stress across multiple continents before the pattern has even peaked, forcing governments into emergency posture and shifting near-term disaster and agricultural risk assessments.",
+                "processMatchReason": "No existing World Process covers ENSO-driven climate risk; this is a distinct climate-physical signal rather than an energy, technology or security process."
+              },
+              "zh": {
+                "title": "发展中的厄尔尼诺在预期峰值数周前已成为有记录以来最强",
+                "coreFact": "BBC Weather报道，发展中的厄尔尼诺在预期峰值尚有数周之际已成为有记录以来最强；《卫报》另报道加州因预期创纪录厄尔尼诺风暴宣布进入紧急状态，并称世界领导人在联合国会议前于创纪录厄尔尼诺背景下讨论气候危机。",
+                "whyItMatters": "在季节外出现的创纪录强度厄尔尼诺，在该模态尚未见顶前就提高了多洲极端降雨、洪水与基础设施压力的概率，迫使各国政府进入应急状态，并改变近期灾害与农业风险评估。",
+                "processMatchReason": "现有世界进程未覆盖ENSO驱动的气候风险；这是独立的气候物理信号，而非能源、技术或安全进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Developing El Niño becomes strongest on record weeks before expected peak",
+                "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC Weather reporting and measurement of the developing El Niño",
+                "publishedAt": "2026-09-22T12:54:14.000Z",
+                "kind": "reliable_media",
+                "id": "cand-record-el-nino-source-1"
+              },
+              {
+                "title": "California braces for record El Niño storms as governor declares emergency",
+                "url": "https://www.theguardian.com/us-news/2026/sep/21/california-el-nino-storm-state-of-emergency",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on the California governor's state-of-emergency declaration tied to El Niño storms",
+                "publishedAt": "2026-09-21T19:31:49.000Z",
+                "kind": "reliable_media",
+                "id": "cand-record-el-nino-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "preflight": {
