@@ -2,20 +2,20 @@
   "id": "auto-2026-09-23-1790123102240",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-23T00:25:02.240Z",
-  "updatedAt": "2026-09-23T08:03:18.241Z",
+  "updatedAt": "2026-09-23T08:03:20.292Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-23T08:03:18.241Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-23T08:03:20.292Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-23-1790128570484",
@@ -918,7 +918,7 @@
       },
       "insightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
       "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790137748403",
-      "completedAt": "2026-09-23T06:27:49.158Z"
+      "completedAt": "2026-09-23T08:03:20.292Z"
     }
   },
   "preflight": {
@@ -953,10 +953,11 @@
       }
     ]
   },
-  "message": "重新发布缺失的每日观察",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790150595612-wscz53gt",
     "acquiredAt": "2026-09-23T08:03:17.114Z",
     "expiresAt": "2026-09-23T08:08:07.114Z"
-  }
+  },
+  "completedAt": "2026-09-23T08:03:20.292Z"
 }
