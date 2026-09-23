@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-23T00:25:02.240Z",
-  "updatedAt": "2026-09-23T00:25:08.653Z",
+  "updatedAt": "2026-09-23T01:54:56.353Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -50,5 +50,10 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "lease": {
+    "owner": "cron-1790128496116-clpf51h2",
+    "acquiredAt": "2026-09-23T01:54:56.353Z",
+    "expiresAt": "2026-09-23T01:59:46.353Z"
+  }
 }
