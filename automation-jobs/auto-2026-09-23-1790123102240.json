@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-23T00:25:02.240Z",
-  "updatedAt": "2026-09-23T06:27:45.002Z",
+  "updatedAt": "2026-09-23T06:27:46.136Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -953,5 +953,10 @@
       }
     ]
   },
-  "message": "重新发布缺失的每日观察"
+  "message": "重新发布缺失的每日观察",
+  "lease": {
+    "owner": "cron-1790144864568-uyrk6xsf",
+    "acquiredAt": "2026-09-23T06:27:46.136Z",
+    "expiresAt": "2026-09-23T06:32:36.136Z"
+  }
 }
