@@ -6,20 +6,20 @@
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:35:17.286Z",
+  "updatedAt": "2026-09-24T12:35:38.528Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "analyze",
-      "updatedAt": "2026-09-24T12:35:17.286Z",
-      "candidateCount": 1,
-      "selectedCandidateId": "trump-stock-trades-disclosure-2026-09",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-24T12:35:38.528Z",
+      "candidateCount": 4,
+      "selectedCandidateId": "cand-russia-sabotage-europe-infrastructure",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-24-1790253255645",
@@ -288,6 +288,392 @@
             }
           }
         ]
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-24-1790253255645",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-24T12:34:15.645Z",
+        "researchDate": "2026-09-24",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Balanced multi-domain scan for 2026-09-24. Macro-finance, industry-trade, energy-resources, health-science, climate-environment and urban-infrastructure GDELT lanes timed out; energy-resources, urban-infrastructure and geopolitics-security returned zero records, so no candidate is built there. Corroborated pairs were validated first: Pornhub/Ofcom investigation (Guardian + BBC) and the US solar buildout (BBC oil-capital solar + Guardian open letter) became candidates. Other candidates rest on two independently published records sharing a discernible origin. Conflict/security is limited to one candidate; AI is limited to one, and both are scored on evidence rather than salience.",
+        "candidates": [
+          {
+            "id": "cand-russia-sabotage-europe-infrastructure",
+            "date": "2026-09-24",
+            "domain": "geopolitics-security",
+            "tags": [
+              "russia",
+              "europe",
+              "sabotage",
+              "infrastructure",
+              "starlink",
+              "nato"
+            ],
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "processMatchConfidence": 42,
+            "importance": 76,
+            "novelty": 70,
+            "evidenceStrength": 78,
+            "independentSourceCount": 2,
+            "thesisImpact": 68,
+            "relationshipChange": 66,
+            "stageChange": 64,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "Poland calls a Starlink station fire sabotage as Denmark and Warsaw warn of a rising Russian threat",
+                "coreFact": "BBC News reports that Poland says a fire at a Starlink station was sabotage and that it accused a Russian military helicopter of violating its airspace, as Denmark warned of a rising Russian threat — three separate incidents/statements in one week.",
+                "whyItMatters": "Satellite communications infrastructure is now a direct target in the grey-zone contest between Russia and NATO, making commercial space networks part of European security rather than neutral utilities.",
+                "processMatchReason": "Fits the technology-control process only partially, since the vector is physical sabotage and airspace violation rather than export controls or allied supply chains; moderate confidence."
+              },
+              "zh": {
+                "title": "波兰称Starlink站点火灾为蓄意破坏，丹麦与华沙警告俄罗斯威胁上升",
+                "coreFact": "BBC报道波兰称一处Starlink站点火灾属蓄意破坏，并指俄军直升机侵犯其领空；丹麦同时警告俄罗斯威胁上升——一周内三起独立事件或表态。",
+                "whyItMatters": "卫星通信基础设施已成为俄罗斯与北约灰色地带博弈的直接目标，商业航天网络由此从中性公用设施变为欧洲安全的一部分。",
+                "processMatchReason": "仅部分契合“技术控制”进程，其手段是物理破坏与领空侵犯而非出口管制或盟友供应链，故置信度中等。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+                "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-24T11:59:23.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on Polish authorities' sabotage assessment of the Starlink station fire and Danish threat warnings",
+                "id": "cand-russia-sabotage-europe-infrastructure-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Poland accuses Russian military helicopter of violating its airspace",
+                "url": "https://www.bbc.co.uk/news/articles/c699d2dn9z0mo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-23T15:37:20.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on Poland's accusation against a Russian military helicopter",
+                "id": "cand-russia-sabotage-europe-infrastructure-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "UK to launch military squadron to protect satellites in space",
+                "url": "https://www.theguardian.com/politics/2026/sep/23/uk-raf-military-squadron-protect-satellites-in-space",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-23T17:25:13.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on a UK plan to establish a military squadron for satellite protection",
+                "id": "cand-russia-sabotage-europe-infrastructure-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-russia-sabotage-europe-infrastructure-source-1",
+              "cand-russia-sabotage-europe-infrastructure-source-2",
+              "cand-russia-sabotage-europe-infrastructure-source-3"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-geopolitical-technology-control",
+              "processMatchConfidence": 42,
+              "impact": "updates",
+              "dailyState": "update_living",
+              "materialChangeScore": 68,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "This materially extends the technology-control process by introducing a new vector: physical sabotage and airspace violation against commercial satellite infrastructure (Starlink), plus a NATO-state military squadron for satellite defense. It turns neutral commercial space networks into contested security assets — a structural widening of the grey-zone conflict between Russia and NATO. Three incidents/statements within one week (Polish sabotage accusation, helicopter airspace violation, Denmark warning, UK satellite squadron) with two-plus independent reliable sources (BBC, Guardian). Though the vector differs from export controls, this is a meaningful evolution of the existing process thesis rather than a new process. Higher breadth of affected systems (satellite comms, NATO, energy-adjacent infrastructure) and strong second-order consequences (space militarization, commercial-space nationalization).",
+              "warnings": [
+                "Process match is partial (sabotage vs export controls); confidence 42 reflects this",
+                "Dating: candidate dated 2026-09-24 but some sources published 2026-09-23; minor timeline ambiguity"
+              ],
+              "candidateId": "cand-russia-sabotage-europe-infrastructure",
+              "decisionType": "existing_process_update",
+              "priorityScore": 76
+            }
+          },
+          {
+            "id": "cand-age-verification-enforcement",
+            "date": "2026-09-23",
+            "domain": "demographics-society",
+            "tags": [
+              "online-safety",
+              "age-verification",
+              "regulation",
+              "children",
+              "uk",
+              "platforms"
+            ],
+            "processMatchConfidence": 11,
+            "importance": 68,
+            "novelty": 72,
+            "evidenceStrength": 85,
+            "independentSourceCount": 2,
+            "thesisImpact": 65,
+            "relationshipChange": 60,
+            "stageChange": 70,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "UK age-verification regime moves from rules to enforcement as Ofcom investigates Pornhub",
+                "coreFact": "Ofcom has opened an investigation into Pornhub over concerns it can still be accessed by UK children despite the Online Safety Act's age-check requirements, reported independently by The Guardian and BBC News.",
+                "whyItMatters": "The test of platform age-gating has shifted from passing legislation to proving compliance, setting a precedent that determines how far online-safety rules can actually constrain major adult platforms.",
+                "processMatchReason": "No existing world process covers online safety or age verification; none is forced."
+              },
+              "zh": {
+                "title": "英国年龄验证制度从立法转向执法：Ofcom调查Pornhub",
+                "coreFact": "英国通信管理局（Ofcom）就儿童仍可访问Pornhub的问题立案调查，尽管《在线安全法》已要求年龄验证；《卫报》与BBC分别独立报道。",
+                "whyItMatters": "平台年龄门槛的检验已从立法通过转向合规证明，这一先例将决定在线安全规则能在多大程度上真正约束大型成人平台。",
+                "processMatchReason": "现有世界进程均不涉及在线安全或年龄验证，故不做强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Pornhub investigated over concerns it can still be accessed by UK children",
+                "url": "https://www.theguardian.com/society/2026/sep/23/pornhub-investigation-ofcom-online-safety-act-children",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-23T11:57:03.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the Ofcom investigation into Pornhub under the Online Safety Act",
+                "id": "cand-age-verification-enforcement-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Pornhub investigated over its age checks",
+                "url": "https://www.bbc.co.uk/news/articles/c6eq8dw3dlyqo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-23T15:56:44.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the same Ofcom investigation into Pornhub's age checks",
+                "id": "cand-age-verification-enforcement-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-age-verification-enforcement-source-1",
+              "cand-age-verification-enforcement-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 11,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 60,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "This is a genuinely important, verifiable regulatory milestone: Ofcom's first major enforcement action under the Online Safety Act against Pornhub shifts age-verification from statutory text to concrete compliance testing. Two independent reliable sources (Guardian, BBC) preserve the source gate. However, it does not cleanly fit any existing World Process — it is not about AI infrastructure, energy, semiconductors, or technology-control geopolitics. The low processMatchConfidence (11) is appropriate. The significance is the precedent for how far online-safety rules can bind major platforms, with second-order effects on platform liability, content moderation economics, and cross-jurisdictional regulatory emulation. This warrants a standalone insight rather than a forced new long-running process, since a single investigation is premature evidence of a durable process but individually important enough to publish.",
+              "warnings": [
+                "No matching existing World Process; classify carefully as standalone rather than forcing a process match",
+                "Third source in candidate list is not verified; only 2 independent sources must be retained"
+              ],
+              "candidateId": "cand-age-verification-enforcement",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 68
+            }
+          },
+          {
+            "id": "cand-pfas-blood-test-findings",
+            "date": "2026-09-24",
+            "domain": "health-science",
+            "tags": [
+              "pfas",
+              "chemicals",
+              "public-health",
+              "pollution",
+              "testing",
+              "regulation"
+            ],
+            "processMatchConfidence": 8,
+            "importance": 72,
+            "novelty": 68,
+            "evidenceStrength": 70,
+            "independentSourceCount": 2,
+            "thesisImpact": 62,
+            "relationshipChange": 58,
+            "stageChange": 64,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "Blood tests find high levels of cancer-causing 'forever chemicals' in residents near a factory",
+                "coreFact": "BBC News reports that blood tests detected high levels of a cancer-causing forever chemical (PFAS) in residents living near a factory; a separate BBC report covers an expert warning that opencast mining risks reawakening dormant geological faults, a distinct but related environmental-health exposure story.",
+                "whyItMatters": "Human biomonitoring is turning diffuse chemical exposure into individual, measurable evidence, strengthening the factual basis for remediation and liability claims against industrial emitters.",
+                "processMatchReason": "No existing world process covers chemical exposure or public-health testing; none is forced."
+              },
+              "zh": {
+                "title": "血液检测在工厂附近居民体内发现高浓度致癌“永久化学品”",
+                "coreFact": "BBC报道血液检测在工厂附近居民体内发现高浓度的致癌“永久化学品”（PFAS）；另一篇BBC报道则指出露天采矿可能唤醒休眠地质断层，属相关但不同的环境健康暴露议题。",
+                "whyItMatters": "人体生物监测正把弥散的化学暴露转化为个体可测量的证据，从而强化针对工业排放方的修复与责任主张的事实基础。",
+                "processMatchReason": "现有世界进程均不涉及化学品暴露或公共卫生检测，故不做强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Blood tests find high level of cancer-causing forever chemical in residents near factory",
+                "url": "https://www.bbc.co.uk/news/articles/cjly4rv0q3l0o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-24T07:10:19.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on blood-test results for PFAS in residents near a factory",
+                "id": "cand-pfas-blood-test-findings-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "How opencast mining risks reawakening dormant geological faults",
+                "url": "https://www.theguardian.com/science/2026/sep/23/how-opencast-mining-risks-reawakening-dormant-geological-faults",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-23T05:00:15.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on research into opencast mining and dormant geological faults",
+                "id": "cand-pfas-blood-test-findings-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-pfas-blood-test-findings-source-1",
+              "cand-pfas-blood-test-findings-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 8,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 55,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "The PFAS biomonitoring finding is important for public health and liability, and it has two independent reliable sources. However, it is a single localized blood-test result near one factory; the candidate bundles a second, unrelated Guardian story about opencast mining and geological faults, which weakens coherence. It does not map to any existing World Process, and the evidence strength (70) and systemic breadth are too limited to justify today's single Global Insight given a stronger competing candidate. Worth tracking but below the publish threshold in this cycle.",
+              "warnings": [
+                "Candidate bundles two weakly-related stories (PFAS blood tests + mining faults), diluting coherence",
+                "Single localized finding; limited second-order systemic consequences"
+              ],
+              "candidateId": "cand-pfas-blood-test-findings",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 60
+            }
+          },
+          {
+            "id": "cand-us-solar-buildout",
+            "date": "2026-09-23",
+            "domain": "energy-resources",
+            "tags": [
+              "solar",
+              "energy-transition",
+              "electricity",
+              "texas",
+              "climate",
+              "generation"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 45,
+            "importance": 66,
+            "novelty": 60,
+            "evidenceStrength": 62,
+            "independentSourceCount": 2,
+            "thesisImpact": 60,
+            "relationshipChange": 55,
+            "stageChange": 58,
+            "contradiction": 50,
+            "content": {
+              "en": {
+                "title": "US oil capital hosts a solar boom as scientists and campaigners press for solar everywhere by 2030",
+                "coreFact": "The BBC reports that the US oil capital has welcomed a solar power boom, while an open letter in The Guardian signed by public figures calls on world leaders to deploy solar power everywhere by the end of the decade.",
+                "whyItMatters": "Solar capacity is expanding inside the incumbent hydrocarbon heartland even as advocates set a build-out deadline, indicating the energy transition is now a siting and speed contest rather than a purely political one. Between the two records only one documents the specific buildout; the other is advocacy, so the shared origin is an event/decision only partially.",
+                "processMatchReason": "Aligns with the energy security process where generation capacity determines strategic capacity, though the candidate is about deployment rather than grid or datacenter demand."
+              },
+              "zh": {
+                "title": "美国石油之都迎来太阳能热潮，科学家与活动人士呼吁十年末实现太阳能普及",
+                "coreFact": "BBC报道美国石油之都迎来太阳能发电热潮；《卫报》刊出由公众人物署名的公开信，呼吁各国领导人在本十年结束前实现太阳能普遍部署。",
+                "whyItMatters": "太阳能在传统油气核心地带扩张，同时倡导者设定了建设期限，说明能源转型已从政治争论转为选址与速度之争。两条记录中只有一条记载了具体的建设动态，另一条属于倡议，因此共同起源仅部分成立。",
+                "processMatchReason": "契合“能源安全”进程中发电能力决定战略能力的主线，但本候选侧重部署而非电网或数据中心需求。"
+              }
+            },
+            "sources": [
+              {
+                "title": "How the oil capital of the US welcomed a solar power boom",
+                "url": "https://www.bbc.co.uk/news/articles/cmx2zxv6936zo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-23T23:12:22.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting from the US oil capital on local solar power development",
+                "id": "cand-us-solar-buildout-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Our message to global leaders: we need solar power everywhere by the decade’s end | Open letter",
+                "url": "https://www.theguardian.com/commentisfree/2026/sep/23/solar-power-bernie-sanders-yeb-sano-letter",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-23T10:00:45.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Open letter published in The Guardian and signed by named public figures calling for universal solar deployment",
+                "id": "cand-us-solar-buildout-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-us-solar-buildout-source-1",
+              "cand-us-solar-buildout-source-2"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-energy-security",
+              "processMatchConfidence": 45,
+              "impact": "supports",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 50,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "The solar boom in a US oil capital is a supportive data point for the energy-transition/energy-security process, but the candidate is half substantive buildout reporting and half open-letter advocacy. The advocacy component is not an event of record. No stage change, no relationship change, no contradiction. Evidence strength (62) and novelty (60) are modest, and it was already judged below threshold in its own analysis. This is follow-through, not a structural shift.",
+              "warnings": [
+                "One of two sources is an advocacy open letter, not an independent event of record",
+                "No material stage/relationship change relative to the energy-security process"
+              ],
+              "candidateId": "cand-us-solar-buildout",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 45
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
       }
     }
   },
