@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:32:54.109Z",
+  "updatedAt": "2026-09-24T12:32:55.210Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "DeepSeek JSON fallback attempt 1 was not valid JSON: {\"querySummary\":\"Balanced scan across all ten domains for 2026-09-23/24. Collection failures hit macro-finance, industry-trade, energy-resources, health-science, climate-environment and geopolitics-security via GDELT timeouts; RSS recovered macro-finance, health-science, climate-environment, demographics-society, institutions-culture and technology-ai. Energy-resources, urban-infrastructure and ge",
-      "updatedAt": "2026-09-24T12:32:02.740Z",
+      "message": "research",
+      "updatedAt": "2026-09-24T12:32:55.210Z",
       "candidateCount": 1,
       "selectedCandidateId": "trump-stock-trades-disclosure-2026-09",
       "failedStage": "research",
