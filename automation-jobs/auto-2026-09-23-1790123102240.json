@@ -2,19 +2,19 @@
   "id": "auto-2026-09-23-1790123102240",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "running",
   "date": "2026-09-23",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "publish",
   "createdAt": "2026-09-23T00:25:02.240Z",
   "updatedAt": "2026-09-23T12:23:25.858Z",
   "scopes": {
     "global": {
-      "status": "done",
+      "status": "checkpointed",
       "stage": "publish",
       "attempts": {},
-      "message": "已发布",
+      "message": "Queued for date repair",
       "updatedAt": "2026-09-23T12:23:24.552Z",
       "researchDraft": {
         "ok": true,
@@ -609,7 +609,7 @@
         }
       },
       "writerDraft": {
-        "id": "writer-cand-record-el-nino-1790133839388",
+        "id": "writer-cand-record-el-nino-1790133839388-date-repair-20260923",
         "scope": "global",
         "status": "draft",
         "writtenAt": "2026-09-23T03:23:59.388Z",
@@ -629,7 +629,7 @@
           "scope": "global",
           "slug": "record-el-nino-before-peak",
           "status": "publish_new",
-          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "publishedAt": "2026-09-23T03:00:00.000Z",
           "updatedAt": "2026-09-23T03:23:59.387Z",
           "confidence": "hypothesis",
           "content": {
@@ -870,9 +870,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-22",
+          "id": "daily-global-2026-09-23",
           "scope": "global",
-          "date": "2026-09-22",
+          "date": "2026-09-23",
           "decidedAt": "2026-09-23T03:23:59.388Z",
           "state": "publish_new",
           "insightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
@@ -915,10 +915,7 @@
           "outputTokens": 3336,
           "cachedInputTokens": 1664
         }
-      },
-      "insightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
-      "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790137748403",
-      "completedAt": "2026-09-23T12:23:24.552Z"
+      }
     }
   },
   "preflight": {
@@ -953,6 +950,5 @@
       }
     ]
   },
-  "message": "Global Insight 已自动发布。",
-  "completedAt": "2026-09-23T12:23:24.552Z"
+  "message": "Repairing scheduled edition date"
 }
