@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:14:50.688Z",
-  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248491940",
+  "generatedAt": "2026-09-24T11:15:45.660Z",
+  "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924-1790248546896",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
@@ -6719,6 +6719,45 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-24",
+      "scope": "global",
+      "date": "2026-09-24",
+      "decidedAt": "2026-09-24T11:15:45.660Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 46,
+      "evidenceStrength": 62,
+      "noveltyScore": 55,
+      "importanceScore": 61,
+      "candidateSignalIds": [
+        "trump-stock-trades-disclosure-2026-09"
+      ],
+      "content": {
+        "en": {
+          "label": "No new structural insight today",
+          "decisionTitle": "Current evidence does not support a new structural conclusion",
+          "decisionSummary": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
+          "thresholdReason": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
+          "observeNext": [
+            "Any additional filings showing continued AI/tech trading",
+            "Any ethics inquiry or formal political response",
+            "Any policy move later tied to these holdings"
+          ]
+        },
+        "zh": {
+          "label": "今日未形成新结构性洞察",
+          "decisionTitle": "现有证据不足以支持新的结构性判断",
+          "decisionSummary": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
+          "thresholdReason": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
+          "observeNext": [
+            "任何显示持续进行AI/科技交易的额外申报",
+            "任何道德调查或正式政治回应",
+            "任何后来与这些持股相关联的政策举措"
+          ]
+        }
+      },
+      "previousInsightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak"
+    },
+    {
       "id": "daily-global-2026-09-23",
       "scope": "global",
       "date": "2026-09-23",
@@ -8351,10 +8390,317 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T11:14:51.941Z"
+    "repairedAt": "2026-09-24T11:15:46.896Z"
   },
   "researchDrafts": [],
   "writerDrafts": [
+    {
+      "id": "writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-24T03:23:59.887Z",
+      "researchDraftId": "research-global-2026-09-24-1790214959435",
+      "candidateId": "trump-stock-trades-disclosure-2026-09",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "no_new_global_insight",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ]
+      },
+      "insight": {
+        "id": "global-2026-09-23-when-leadership-trades-in-the-markets-it-governs",
+        "scope": "global",
+        "slug": "trump-stock-trades-disclosure-2026-09",
+        "status": "update_living",
+        "publishedAt": "2026-09-24T03:00:00.000Z",
+        "updatedAt": "2026-09-24T03:23:59.886Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Global Insight",
+              "secondaryEyebrow": "Conflict of Interest Watch",
+              "title": "When Leadership Trades in the Markets It Governs",
+              "summary": "A sitting president's July trades in big tech and AI stocks—over 1,000 deals worth up to $270 million—raise unresolved conflict-of-interest questions about how personal holdings may intersect with public policy."
+            },
+            "question": {
+              "lead": "The disclosures surface a governance gap, not a policy shift.",
+              "title": "How does a leader's personal exposure to AI and tech equities alter the public's trust in tech and AI regulation?",
+              "footnote": "This is a political-financial question with no established causal link to strategic-industry policy."
+            },
+            "signals": {
+              "title": "Signal: Trump's July Stock Trades Draw Scrutiny",
+              "sourceNote": "Two reliable media reports trace to the same disclosure filing, not independent investigations.",
+              "items": [
+                {
+                  "id": "trump-stock-trades-disclosure-2026-09-signal-1",
+                  "label": "Trigger",
+                  "title": "Trump reveals millions in big tech and AI trades",
+                  "body": "BBC reports that Trump revealed millions of dollars' worth of share deals in big tech and AI. The disclosure came via a routine filing.",
+                  "whyImportant": "It makes public the scale and sector concentration of the president's personal trading, raising questions about private financial exposure to industries he influences.",
+                  "evidence": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-evidence-1",
+                      "title": "BBC Article",
+                      "description": "Reliable media reporting on the disclosure.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "trump-stock-trades-disclosure-2026-09-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-source-1",
+                      "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-23T16:42:47.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "trump-stock-trades-disclosure-2026-09-signal-2",
+                  "label": "Corroborating",
+                  "title": "Filings show over 1,000 July stock trades worth up to $270m",
+                  "body": "The Guardian reports that filings reveal Trump made more than 1,000 stock trades in July, with a total value of up to $270 million. The trades span multiple sectors, including technology and AI.",
+                  "whyImportant": "The volume and dollar amount amplify conflict-of-interest concern, even though the trades themselves are legal and disclosed.",
+                  "evidence": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-evidence-2",
+                      "title": "Guardian Article",
+                      "description": "Reports the same underlying filing with additional numeric detail.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "trump-stock-trades-disclosure-2026-09-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-source-2",
+                      "title": "Trump made over 1,000 July stock trades worth up to $270m, filings reveal",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-22T20:13:35.000Z",
+                      "url": "https://www.theguardian.com/us-news/2026/sep/22/trump-stock-trades-july-filing",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Private Portfolio to Public Scrutiny",
+              "before": "Presidential financial disclosures were treated mostly as routine transparency exercises, with limited public attention to individual stock trades in strategic sectors.",
+              "shift": "The AI boom and high-stakes regulation of big tech turn those trades into conflict-of-interest news, with media and ethics groups amplifying the story even in the absence of proven wrongdoing.",
+              "now": "There is a gap between what is legally required and what the public expects to know about a leader's financial stake in industries under policy debate. The disclosure creates a reputational risk, not yet a policy consequence.",
+              "conclusion": "The story may persist as a governance talking point, but without new evidence of improper conduct or direct policy linkage, it is unlikely by itself to alter the structural trajectory of AI or tech regulation."
+            },
+            "insight": {
+              "title": "Trust is the missing variable",
+              "formula": "Legal disclosure + high-stakes AI/tech policy context = elevated conflict-of-interest perception, not a policy change.",
+              "explanation": "Because the underlying behavior is disclosed and within the law, the effect is perceptual. The signal's importance lies in how it may color future debate about tech policy leadership, but no tracked process is directly moved."
+            },
+            "observe": {
+              "title": "What to watch for in the coming months",
+              "items": [
+                {
+                  "label": "Substantial additional trades",
+                  "prompt": "Watch for new filing data showing continued heavy trading in AI or tech equities.",
+                  "meta": "Pattern of behavior"
+                },
+                {
+                  "label": "Ethics committee response",
+                  "prompt": "Any formal ethics inquiry or bipartisan statement raising conflict concerns.",
+                  "meta": "Political pressure"
+                },
+                {
+                  "label": "Policy linkage",
+                  "prompt": "Any specific policy move that can be tied to the president's holdings in those sectors.",
+                  "meta": "Causal connection"
+                }
+              ],
+              "ending": "The signal will mature from a disclosure story to a policy story only if a direct link is established."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "全球洞察",
+              "secondaryEyebrow": "利益冲突观察",
+              "title": "当领导人在其监管的市场上进行交易",
+              "summary": "一位在任总统7月在大科技和人工智能股票上的交易——超过1000笔、价值高达2.7亿美元——引发了尚未解决的利益冲突疑问：个人持股可能与公共政策产生怎样的交集。"
+            },
+            "question": {
+              "lead": "这些披露暴露的是治理缺口，而非政策转向。",
+              "title": "领导人在人工智能和科技股上的个人风险敞口，会如何改变公众对科技与人工智能监管的信任？",
+              "footnote": "这是一个政治—金融问题，与战略产业政策并无已确立的因果联系。"
+            },
+            "signals": {
+              "title": "信号：特朗普7月的股票交易引发审视",
+              "sourceNote": "两篇可靠媒体报道均源自同一份披露文件，而非独立调查。",
+              "items": [
+                {
+                  "id": "trump-stock-trades-disclosure-2026-09-signal-1",
+                  "label": "触发因素",
+                  "title": "特朗普披露数百万美元的大科技和人工智能交易",
+                  "body": "BBC报道称，特朗普披露了价值数百万美元的大科技和人工智能股票交易。披露通过一份例行文件完成。",
+                  "whyImportant": "这公开了总统个人交易的规模和行业集中度，引发对其私人财务暴露于他所影响行业的质疑。",
+                  "evidence": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-evidence-1",
+                      "title": "BBC 文章",
+                      "description": "可靠媒体对披露内容的报道。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "trump-stock-trades-disclosure-2026-09-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-source-1",
+                      "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-23T16:42:47.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "trump-stock-trades-disclosure-2026-09-signal-2",
+                  "label": "佐证",
+                  "title": "文件显示 7 月有逾 1,000 笔股票交易，价值最高达 2.7 亿美元",
+                  "body": "《卫报》报道称，文件显示特朗普在 7 月进行了 1,000 多笔股票交易，总价值最高达 2.7 亿美元。这些交易横跨多个行业，包括科技和人工智能。",
+                  "whyImportant": "交易的数量和金额放大了利益冲突担忧，尽管这些交易本身合法且已披露。",
+                  "evidence": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-evidence-2",
+                      "title": "《卫报》文章",
+                      "description": "报道同一份原始文件，并提供更多数字细节。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "trump-stock-trades-disclosure-2026-09-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "trump-stock-trades-disclosure-2026-09-source-2",
+                      "title": "Trump made over 1,000 July stock trades worth up to $270m, filings reveal",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-22T20:13:35.000Z",
+                      "url": "https://www.theguardian.com/us-news/2026/sep/22/trump-stock-trades-july-filing",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从私人投资组合到公众审视",
+              "before": "总统财务披露过去多被视为例行的透明度工作，公众对战略行业中的个股交易关注有限。",
+              "shift": "人工智能热潮和对大型科技公司的高风险监管，使这些交易成为利益冲突新闻，媒体和伦理组织即使在没有证实不当行为的情况下也推波助澜。",
+              "now": "法律要求与公众期望了解领导人政策辩论相关行业财务利益之间存在差距。披露带来的是声誉风险，尚非政策后果。",
+              "conclusion": "此事可能作为治理议题持续存在，但若无不当行为或直接政策关联的新证据，其本身不太可能改变AI或科技监管的结构性轨迹。"
+            },
+            "insight": {
+              "title": "信任是缺失的变量",
+              "formula": "合法披露加上高风险AI与科技政策背景，等于利益冲突观感上升，而非政策变化。",
+              "explanation": "由于相关行为已披露且合法，影响是观感层面的。该信号的重要性在于可能影响未来关于科技政策领导层的辩论，但未直接推动任何已追踪进程。"
+            },
+            "observe": {
+              "title": "未来数月值得关注的事项",
+              "items": [
+                {
+                  "label": "大量额外交易",
+                  "prompt": "关注新申报数据是否显示AI或科技股持续大额交易。",
+                  "meta": "行为模式"
+                },
+                {
+                  "label": "道德委员会回应",
+                  "prompt": "任何正式道德调查或引发利益冲突关切的两党声明。",
+                  "meta": "政治压力"
+                },
+                {
+                  "label": "政策关联",
+                  "prompt": "任何可被关联到总统在这些行业持股的具体政策举措。",
+                  "meta": "因果联系"
+                }
+              ],
+              "ending": "只有当建立直接关联时，这一信号才会从披露事件发展为政策事件。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-24",
+        "scope": "global",
+        "date": "2026-09-24",
+        "decidedAt": "2026-09-24T03:23:59.887Z",
+        "state": "no_new_global_insight",
+        "insightId": "global-2026-09-23-when-leadership-trades-in-the-markets-it-governs",
+        "materialChangeScore": 46,
+        "evidenceStrength": 62,
+        "noveltyScore": 55,
+        "importanceScore": 61,
+        "candidateSignalIds": [
+          "trump-stock-trades-disclosure-2026-09"
+        ],
+        "content": {
+          "en": {
+            "label": "no_new_global_insight",
+            "decisionTitle": "Governance signal, no structural process change",
+            "decisionSummary": "Trump's July stock trades in big tech and AI raise conflict-of-interest questions but do not match or advance any existing World Process.",
+            "thresholdReason": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
+            "observeNext": [
+              "Any additional filings showing continued AI/tech trading",
+              "Any ethics inquiry or formal political response",
+              "Any policy move later tied to these holdings"
+            ]
+          },
+          "zh": {
+            "label": "无新的全局性洞察",
+            "decisionTitle": "治理信号，无结构性流程变化",
+            "decisionSummary": "特朗普7月在大科技和AI领域的股票交易引发利益冲突质疑，但不符合也不推进任何现有世界进程。",
+            "thresholdReason": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
+            "observeNext": [
+              "任何显示持续进行AI/科技交易的额外申报",
+              "任何道德调查或正式政治回应",
+              "任何后来与这些持股相关联的政策举措"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 5030,
+        "outputTokens": 2482,
+        "cachedInputTokens": 1792
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-24T11:15:45.660Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "no_new_global_insight"
+      },
+      "rejectedAt": "2026-09-24T11:15:45.660Z"
+    },
     {
       "id": "writer-cand-record-el-nino-1790133839388-date-repair-20260923",
       "scope": "global",

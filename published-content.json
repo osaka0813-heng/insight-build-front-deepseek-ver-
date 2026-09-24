@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:14:50.688Z",
-  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248491940",
+  "generatedAt": "2026-09-24T11:15:45.660Z",
+  "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924-1790248546896",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
@@ -6719,6 +6719,45 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-24",
+      "scope": "global",
+      "date": "2026-09-24",
+      "decidedAt": "2026-09-24T11:15:45.660Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 46,
+      "evidenceStrength": 62,
+      "noveltyScore": 55,
+      "importanceScore": 61,
+      "candidateSignalIds": [
+        "trump-stock-trades-disclosure-2026-09"
+      ],
+      "content": {
+        "en": {
+          "label": "No new structural insight today",
+          "decisionTitle": "Current evidence does not support a new structural conclusion",
+          "decisionSummary": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
+          "thresholdReason": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
+          "observeNext": [
+            "Any additional filings showing continued AI/tech trading",
+            "Any ethics inquiry or formal political response",
+            "Any policy move later tied to these holdings"
+          ]
+        },
+        "zh": {
+          "label": "今日未形成新结构性洞察",
+          "decisionTitle": "现有证据不足以支持新的结构性判断",
+          "decisionSummary": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
+          "thresholdReason": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
+          "observeNext": [
+            "任何显示持续进行AI/科技交易的额外申报",
+            "任何道德调查或正式政治回应",
+            "任何后来与这些持股相关联的政策举措"
+          ]
+        }
+      },
+      "previousInsightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak"
+    },
+    {
       "id": "daily-global-2026-09-23",
       "scope": "global",
       "date": "2026-09-23",
@@ -8351,6 +8390,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T11:14:51.941Z"
+    "repairedAt": "2026-09-24T11:15:46.896Z"
   }
 }
