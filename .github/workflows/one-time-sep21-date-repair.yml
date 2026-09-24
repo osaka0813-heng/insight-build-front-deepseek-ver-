@@ -12,8 +12,8 @@ jobs:
       - name: Resume the queued publish checkpoint
         run: |
           set -euo pipefail
-          response="$(curl --fail-with-body --silent --show-error --max-time 300 'https://insight-build-back-deepseek-ver.vercel.app/api/daily?date=2026-09-24&trigger=github-one-time-date-repair')"
+          response="$(curl --fail-with-body --silent --show-error --max-time 300 'https://insight-build-back-deepseek-ver.vercel.app/api/daily?date=2026-09-23&trigger=github-one-time-date-repair')"
           echo "$response"
           echo "$response" | grep -q '"status":"completed"'
 
-# repair Sep 24 after enforcing scheduled edition dates
+# final Sep 23 date stamp on consolidated backend
