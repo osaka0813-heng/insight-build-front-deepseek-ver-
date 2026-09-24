@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T06:27:48.895Z",
+  "updatedAt": "2026-09-24T06:27:50.077Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -781,10 +781,5 @@
     ]
   },
   "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
-  "lease": {
-    "owner": "cron-1790231264525-9vr4xnvf",
-    "acquiredAt": "2026-09-24T06:27:45.790Z",
-    "expiresAt": "2026-09-24T06:32:35.790Z"
-  },
   "completedAt": "2026-09-24T06:27:48.895Z"
 }
