@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-21T16:08:22.611Z",
-  "updatedAt": "2026-09-24T11:13:46.369Z",
+  "updatedAt": "2026-09-24T11:13:47.267Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "preflight": 1
       },
-      "message": "Queued for date repair",
-      "updatedAt": "2026-09-22T12:23:23.066Z",
+      "message": "publish",
+      "updatedAt": "2026-09-24T11:13:47.267Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-22-1790015592868",
