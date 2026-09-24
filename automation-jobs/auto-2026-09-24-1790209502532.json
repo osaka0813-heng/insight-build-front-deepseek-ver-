@@ -6,18 +6,18 @@
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:37:33.727Z",
+  "updatedAt": "2026-09-24T12:37:45.616Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {
         "research": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-09-24T12:37:33.727Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-09-24T12:37:45.616Z",
       "candidateCount": 4,
       "selectedCandidateId": "cand-russia-sabotage-europe-infrastructure",
       "researchDraft": {
@@ -813,6 +813,144 @@
           "inputTokens": 2392,
           "outputTokens": 1859,
           "cachedInputTokens": 1152
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "技术管制成为地缘政治基础设施",
+              "secondaryEyebrow": "俄罗斯与北约的灰色地带升级",
+              "title": "卫星基础设施成为俄罗斯与北约灰色地带博弈的直接目标",
+              "summary": "波兰一处星链站点起火被称为破坏活动，一架俄罗斯直升机侵犯波兰领空，丹麦警告俄罗斯威胁上升，英国则组建军事卫星防御中队。商业太空网络如今是受争夺的安全资产，而非中立的公用设施。"
+            },
+            "question": {
+              "lead": "为何此刻重要",
+              "title": "我们是否正目睹商业卫星基础设施的军事化？",
+              "footnote": "一周内的三起独立事件表明，俄罗斯与北约之间的技术管制冲突进入新阶段。"
+            },
+            "signals": {
+              "title": "信号",
+              "sourceNote": "依据BBC与《卫报》2026年9月23日至24日的报道。",
+              "items": [
+                {
+                  "label": "触发点1",
+                  "title": "波兰指责俄罗斯破坏一处星链站点",
+                  "body": "波兰称一处星链地面站起火是蓄意破坏。作出这一指控时，波兰还报告一架俄罗斯军用直升机侵犯其领空。",
+                  "whyImportant": "首次有北约成员国公开将针对商业卫星基础设施的实体攻击与俄罗斯挂钩，使灰色地带冲突升级。",
+                  "evidence": {
+                    "title": "波兰称星链站点起火系蓄意破坏",
+                    "description": "BBC新闻报道了波兰政府的指控以及领空侵犯事件。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-russia-sabotage-europe-infrastructure-source-1",
+                      "cand-russia-sabotage-europe-infrastructure-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "触发点二",
+                  "title": "丹麦警告俄罗斯威胁加剧",
+                  "body": "丹麦官员公开警告俄罗斯日益咄咄逼人，与波兰对灰色地带活动的担忧一致。",
+                  "whyImportant": "多个北约国家同时释放威胁感知升高的信号，表明这是协调一致的警觉，而非孤立事件。",
+                  "evidence": {
+                    "title": "丹麦的警告",
+                    "description": "BBC在报道波兰的破坏指控时也报道了丹麦的警告，显示存在地区性模式。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-russia-sabotage-europe-infrastructure-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "触发点三",
+                  "title": "英国组建军事中队保护卫星",
+                  "body": "英国宣布成立一个新的皇家空军中队，专门负责防御太空中的卫星，这是对太空资产所受威胁日益加剧的直接回应。",
+                  "whyImportant": "这标志着从将商业卫星视为民用基础设施，转向主动将其保护军事化。",
+                  "evidence": {
+                    "title": "英国卫星防御中队",
+                    "description": "《卫报》报道了英国计划成立一支专注于卫星保护的军事部队。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-russia-sabotage-europe-infrastructure-source-3"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从中立公用设施到有争议的安全资产",
+              "before": "像星链这样的商业卫星网络曾被视为中立的全球公用设施，由私营公司运营，用于民用和商业用途。安全关切主要集中在网络攻击，而非物理破坏或军事干预。",
+              "shift": "俄罗斯涉嫌破坏一处星链站点、侵犯领空，以及丹麦的警告，标志着一个危险的新阶段：对太空基础设施的物理攻击被用作灰色地带战术。与此同时，北约成员国通过将卫星保护军事化来回应（英国中队）。",
+              "now": "卫星通信如今已 firmly 处于地缘政治技术控制领域之内。商业太空资产被视为关键国家安全基础设施，其保护需要军事资源。民用与军用太空之间的界限已经模糊。",
+              "conclusion": "围绕技术控制的冲突已从出口限制和供应链管控升级为直接的物理攻击和对太空资产的军事防御。这代表着俄罗斯与北约之间灰色地带冲突的重大结构性扩大。"
+            },
+            "insight": {
+              "title": "商业太空成为安全前沿",
+              "formula": "对商业卫星基础设施的物理攻击＋侵犯领空＋军事卫星防御中队→商业太空如今是有争议的安全领域",
+              "explanation": "俄罗斯涉嫌破坏一处星链站点并侵犯领空，加上英国成立军事卫星防御中队，表明商业卫星网络不再是中立基础设施。它们如今被视为关键安全资产，会遭受物理攻击并需要军事保护。这使技术控制冲突从经济和监管领域转入直接的军事和灰色地带行动。"
+            },
+            "observe": {
+              "title": "接下来应观察什么",
+              "items": [
+                {
+                  "label": "北约的回应",
+                  "prompt": "北约会就保护商业卫星基础设施发布集体回应或新政策吗？",
+                  "meta": "留意北约总部或涉及卫星防御的联合演习的声明。"
+                },
+                {
+                  "label": "俄罗斯的行动",
+                  "prompt": "俄罗斯会继续或升级对卫星地面站或其他关键基础设施的实体攻击吗？",
+                  "meta": "关注东欧进一步破坏企图或侵犯领空的报道。"
+                },
+                {
+                  "label": "商业太空监管",
+                  "prompt": "各国会对商业卫星运营商施加新的安全要求吗？",
+                  "meta": "留意要求地面站与军方协调或需安全许可的立法。"
+                },
+                {
+                  "label": "军用卫星能力",
+                  "prompt": "其他北约国家会效仿英国组建卫星防御部队吗？",
+                  "meta": "跟踪其他军方关于太空防御举措的公告。"
+                }
+              ],
+              "ending": "商业太空基础设施的军事化似乎正在加速，对全球通信、安全政策和技术管制进程都有影响。"
+            }
+          },
+          "dailyState": {
+            "label": "加速",
+            "decisionTitle": "对卫星基础设施的物理攻击标志着技术管制冲突的重大升级",
+            "decisionSummary": "波兰一处星链站点起火被指为俄罗斯破坏活动，一架俄罗斯直升机侵犯了波兰领空，丹麦警告俄罗斯威胁上升，英国宣布成立军事卫星防御中队。这些事件表明，商业卫星基础设施现已成为俄罗斯与北约灰色地带较量中的直接目标。",
+            "thresholdReason": "对商业卫星基础设施的物理攻击、领空侵犯以及军事回应（卫星防御中队）相结合，代表技术管制进程发生了实质性变化。这已超出出口管制范畴，包括直接物理攻击和对太空资产的军事化防御，达到了需要更新的门槛。",
+            "observeNext": [
+              "北约是否对卫星基础设施遭袭作出协调回应",
+              "俄罗斯是否升级对其他关键基础设施的物理攻击",
+              "是否有更多国家组建保护卫星的军事单位"
+            ]
+          },
+          "processContent": {
+            "title": "技术管制成为地缘政治基础设施",
+            "description": "技术增长的地理格局日益受到安全政策、联盟以及对关键能力受控准入的影响。这一进程已从对半导体和人工智能的出口管制扩展到对商业卫星基础设施的物理攻击和对太空资产的军事保护。",
+            "implication": "商业太空网络正被纳入国家安全框架。这可能导致新监管、军方介入民用太空运营，并进一步模糊太空商业用途与军事用途的界限。"
+          },
+          "nextQuestion": "北约对卫星基础设施遭袭的回应会促成针对商业太空资产的正式集体防御政策，还是各国回应仍各自为政？",
+          "observeNext": [
+            "北约对星链站破坏指控的官方回应",
+            "俄罗斯未来对北约国家商业卫星基础设施的行动",
+            "其他北约军队采用卫星防御部队",
+            "对商业卫星运营商实施的新安全法规"
+          ]
+        },
+        "model": "deepseek-flash",
+        "usage": {
+          "input_tokens": 3342,
+          "output_tokens": 1395,
+          "input_tokens_details": {
+            "cached_tokens": 768
+          }
         }
       }
     }
