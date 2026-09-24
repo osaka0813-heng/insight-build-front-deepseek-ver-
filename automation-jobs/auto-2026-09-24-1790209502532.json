@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:40:18.354Z",
+  "updatedAt": "2026-09-24T12:40:19.436Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "Queued for balanced analysis",
-      "updatedAt": "2026-09-24T12:38:05.719Z",
+      "message": "analyze",
+      "updatedAt": "2026-09-24T12:40:19.436Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-24-1790253255645",
