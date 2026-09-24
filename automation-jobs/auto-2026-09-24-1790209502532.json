@@ -6,18 +6,18 @@
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:42:33.941Z",
+  "updatedAt": "2026-09-24T12:42:42.732Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {
         "research": 1
       },
-      "message": "write_zh",
-      "updatedAt": "2026-09-24T12:42:33.941Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-09-24T12:42:42.732Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-24-1790253255645",
@@ -788,6 +788,126 @@
           "inputTokens": 1966,
           "outputTokens": 1396,
           "cachedInputTokens": 1152
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "英国在线安全",
+              "secondaryEyebrow": "年龄验证执法",
+              "title": "英国年龄验证制度从规则转向执法，Ofcom 对 Pornhub 展开调查",
+              "summary": "Ofcom 已对 Pornhub 展开调查，担心尽管《在线安全法》要求进行年龄核验，英国儿童仍能访问该网站。这标志着从通过立法到证明合规的决定性转变，为在线安全规则能在多大程度上约束大型成人平台立下先例。"
+            },
+            "question": {
+              "lead": "平台年龄门槛的考验已从通过立法转向证明合规。",
+              "title": "决定在线年龄验证成效的，是执法而非立法吗？",
+              "footnote": "《在线安全法》的年龄验证条款自 2023 年起即为法律，但这是其执法制度下首次对全球性成人平台展开重大调查。"
+            },
+            "signals": {
+              "title": "执法启动的信号",
+              "sourceNote": "来源：《卫报》和 BBC 新闻于 2026-09-23 各自报道。",
+              "items": [
+                {
+                  "label": "监管",
+                  "title": "Ofcom 对 Pornhub 展开调查",
+                  "body": "Ofcom 已对 Pornhub 展开调查，担心尽管《在线安全法》要求进行年龄核验，英国儿童仍能访问该网站。",
+                  "whyImportant": "这是英国年龄验证制度下的首个重大执法行动，标志着从制定规则转向合规测试。",
+                  "evidence": {
+                    "title": "Ofcom 宣布调查",
+                    "description": "《卫报》和 BBC 新闻均报道，Ofcom 已对 Pornhub 的年龄验证措施展开调查。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-age-verification-enforcement-source-1",
+                      "cand-age-verification-enforcement-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "平台",
+                  "title": "Pornhub 因年龄审核受到审查",
+                  "body": "全球最大成人平台之一的 Pornhub 是此次调查对象，人们担心英国儿童仍能访问其内容。",
+                  "whyImportant": "此次调查针对一家全球主要平台，其结果可能影响全球的年龄验证做法。",
+                  "evidence": {
+                    "title": "调查针对 Pornhub",
+                    "description": "两家来源均确认，受调查的平台是 Pornhub。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-age-verification-enforcement-source-1",
+                      "cand-age-verification-enforcement-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从立法到执法",
+              "before": "英国通过了包含年龄验证要求的《在线安全法》，但执法机制尚未经过检验。",
+              "shift": "Ofcom 现已就年龄验证合规问题对一家平台展开首个重大调查，从制定规则转向积极执法。",
+              "now": "平台面临切实的监管审查，年龄验证法律的实效将在实践中受到检验。",
+              "conclusion": "转向执法意味着年龄验证不再只是法律义务，而是具有实际后果的运营合规挑战。"
+            },
+            "insight": {
+              "title": "执法定义规则",
+              "formula": "立法 + 首次重大执法行动 → 年龄验证合规成为运营现实",
+              "explanation": "Ofcom对Pornhub的调查表明，年龄验证法律现已被积极执行，这将迫使平台优先考虑合规，并塑造全球在线年龄门控标准。"
+            },
+            "observe": {
+              "title": "接下来应观察什么",
+              "items": [
+                {
+                  "label": "Ofcom的调查结果",
+                  "prompt": "关注Pornhub调查的结果以及任何处罚或所需改动。",
+                  "meta": "监管"
+                },
+                {
+                  "label": "平台回应",
+                  "prompt": "观察其他成人平台如何调整其在英国及其他地区的年龄验证系统。",
+                  "meta": "行业"
+                },
+                {
+                  "label": "全球连锁反应",
+                  "prompt": "查找其他有在线安全法律辖区的类似执法行动。",
+                  "meta": "国际"
+                }
+              ],
+              "ending": "未来六个月将揭晓执法能否实现单靠立法无法实现的目标。"
+            }
+          },
+          "dailyState": {
+            "label": "发布新洞察",
+            "decisionTitle": "关于英国年龄验证执法的独立重要洞察",
+            "decisionSummary": "Ofcom对Pornhub的调查是英国《在线安全法》下首个重大执法行动，标志着从规则制定转向合规测试。这为各平台如何执行年龄验证树立了先例，对全球在线安全监管具有影响。",
+            "thresholdReason": "两个独立可靠来源证实了该事件。现有World Process未涵盖此领域，因此最好将其视为一项独立的重要洞察。",
+            "observeNext": [
+              "Ofcom对Pornhub调查的结果",
+              "Pornhub年龄验证做法的变化",
+              "对其他平台的执法行动"
+            ]
+          },
+          "processContent": {
+            "title": "独立洞察：年龄验证执法开始",
+            "description": "这一洞察独立成篇，因为它不属于任何现有的世界进程。它捕捉了英国从年龄验证立法转向主动执法的转变。",
+            "implication": "此次执法行动可能为在线安全监管树立全球先例，影响世界各地的平台。"
+          },
+          "nextQuestion": "其他司法管辖区会效仿英国执行年龄验证法律吗？",
+          "observeNext": [
+            "Ofcom的调查进展与发现",
+            "Pornhub的合规回应与系统调整",
+            "对其他成人平台的监管行动",
+            "类似执法措施在国际上的采用"
+          ]
+        },
+        "model": "deepseek-flash",
+        "usage": {
+          "input_tokens": 2632,
+          "output_tokens": 1025,
+          "input_tokens_details": {
+            "cached_tokens": 640
+          }
         }
       }
     }
