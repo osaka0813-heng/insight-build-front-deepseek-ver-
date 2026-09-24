@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:17:46.629Z",
-  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248667719",
+  "generatedAt": "2026-09-24T11:19:52.890Z",
+  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248794090",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
       "scope": "global",
       "slug": "record-el-nino-before-peak",
       "status": "publish_new",
-      "publishedAt": "2026-09-24T11:17:46.629Z",
-      "updatedAt": "2026-09-24T11:17:46.629Z",
+      "publishedAt": "2026-09-23T03:00:00.000Z",
+      "updatedAt": "2026-09-24T11:19:52.890Z",
       "confidence": "hypothesis",
       "content": {
         "en": {
@@ -8390,6 +8390,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T11:17:47.735Z"
+    "repairedAt": "2026-09-24T11:19:54.110Z"
   }
 }
