@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T04:29:07.095Z",
-  "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-1790224148123",
+  "generatedAt": "2026-09-24T11:13:48.891Z",
+  "contentVersion": "review-writer-paramount-warner-state-settlement-1790046095759-date-repair-20260922-1790248429879",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
@@ -6761,40 +6761,42 @@
       "id": "daily-global-2026-09-22",
       "scope": "global",
       "date": "2026-09-22",
-      "decidedAt": "2026-09-23T03:23:59.388Z",
-      "state": "publish_new",
-      "insightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
-      "materialChangeScore": 66,
-      "evidenceStrength": 58,
-      "noveltyScore": 72,
-      "importanceScore": 76,
+      "decidedAt": "2026-09-24T11:13:48.891Z",
+      "state": "no_new_global_insight",
+      "materialChangeScore": 40,
+      "evidenceStrength": 64,
+      "noveltyScore": 52,
+      "importanceScore": 58,
       "candidateSignalIds": [
-        "cand-record-el-nino"
+        "paramount-warner-state-settlement"
       ],
       "content": {
         "en": {
-          "label": "Record El Niño Forms Early",
-          "decisionTitle": "Publish as Standalone Important Insight",
-          "decisionSummary": "The signal is a durable, physically verifiable climate event with broad and compounding second-order consequences. It does not map to an existing World Process, so it will be published as a standalone insight.",
-          "thresholdReason": "The candidate met the publish threshold with a priority score of 74. It has two independent reliable media sources (BBC Weather and The Guardian) that confirm the core facts. The material change score of 66 indicates substantial world-understanding impact.",
+          "label": "No new structural insight today",
+          "decisionTitle": "Current evidence does not support a new structural conclusion",
+          "decisionSummary": "The event is verified by two independent reliable media sources, satisfying the source gate. It represents a material legal development in a high-value merger, but it does not yet constitute a durable, cross-system change warranting a World Process. However, given its potential impact on media concentration and the clarity of the news, it merits publication as a standalone Global Insight.",
+          "thresholdReason": "The event is verified by two independent reliable media sources, satisfying the source gate. It represents a material legal development in a high-value merger, but it does not yet constitute a durable, cross-system change warranting a World Process. However, given its potential impact on media concentration and the clarity of the news, it merits publication as a standalone Global Insight.",
           "observeNext": [
-            "Storm impacts in California and other west-coast regions",
-            "Extreme weather in other El Niño-sensitive regions",
-            "Infrastructure stress and policy responses globally"
+            "Federal regulatory decisions on the merger",
+            "Any remaining state or international challenges",
+            "Market reaction to the settlement",
+            "Announcements on post-merger integration plans"
           ]
         },
         "zh": {
-          "label": "创纪录厄尔尼诺提前形成",
-          "decisionTitle": "作为独立重要洞察发布",
-          "decisionSummary": "该信号是一个持久、可物理验证的气候事件，具有广泛且复合的二次后果。它不映射到现有的世界进程，因此将作为独立洞察发布。",
-          "thresholdReason": "该候选以74的优先级分数达到发布阈值。它有两个独立可靠的媒体来源（BBC天气和《卫报》）确认核心事实。66的实质性变化分数表明对世界理解有重大影响。",
+          "label": "今日未形成新结构性洞察",
+          "decisionTitle": "现有证据不足以支持新的结构性判断",
+          "decisionSummary": "该事件经两个独立可靠媒体来源核实，满足来源门槛。它代表高价值合并中的重大法律进展，但尚未构成足以称为世界进程的持久跨系统变化。然而，鉴于其对媒体集中度的潜在影响及新闻的清晰度，值得作为独立全球洞察发布。",
+          "thresholdReason": "该事件经两个独立可靠媒体来源核实，满足来源门槛。它代表高价值合并中的重大法律进展，但尚未构成足以称为世界进程的持久跨系统变化。然而，鉴于其对媒体集中度的潜在影响及新闻的清晰度，值得作为独立全球洞察发布。",
           "observeNext": [
-            "风暴对加利福尼亚和其他西海岸地区的影响",
-            "其他厄尔尼诺敏感地区的极端天气",
-            "全球基础设施压力与政策应对"
+            "联邦监管机构对合并的决定",
+            "其余州或国际层面的挑战",
+            "市场对和解的反应",
+            "关于合并后整合计划的公告"
           ]
         }
-      }
+      },
+      "previousInsightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak"
     },
     {
       "id": "daily-global-2026-09-21",
@@ -8349,10 +8351,373 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T04:29:08.139Z"
+    "repairedAt": "2026-09-24T11:13:49.895Z"
   },
   "researchDrafts": [],
   "writerDrafts": [
+    {
+      "id": "writer-paramount-warner-state-settlement-1790046095759-date-repair-20260922",
+      "scope": "global",
+      "status": "rejected",
+      "writtenAt": "2026-09-22T03:01:35.759Z",
+      "researchDraftId": "research-global-2026-09-22-1790015592868",
+      "candidateId": "paramount-warner-state-settlement",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": false,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [
+          "Candidate does not meet publication threshold."
+        ]
+      },
+      "insight": {
+        "id": "paramount-warner-state-settlement",
+        "scope": "global",
+        "slug": "paramount-warner-state-settlement",
+        "status": "publish_new",
+        "publishedAt": "2026-09-22T03:00:00.000Z",
+        "updatedAt": "2026-09-22T03:01:35.759Z",
+        "confidence": "developing",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Media Consolidation",
+              "secondaryEyebrow": "Antitrust Settlement",
+              "title": "Paramount Settles with US States, Clearing Path for $110bn Warner Bros Merger",
+              "summary": "Paramount's settlement of lawsuits with 12 US states removes a significant legal obstacle, advancing the $110 billion merger with Warner Bros and signaling a major shift in media ownership concentration."
+            },
+            "question": {
+              "lead": "What does Paramount's state settlement mean for the biggest media merger in years?",
+              "title": "Can a $110bn media consolidation reshape the entertainment landscape?",
+              "footnote": "Two independent reliable sources report the settlement, but the deal still requires federal and other approvals."
+            },
+            "signals": {
+              "title": "Signals of a Clearing Path",
+              "sourceNote": "Evidence from BBC and The Guardian, both reliable media outlets, published on September 21, 2026.",
+              "items": [
+                {
+                  "id": "paramount-warner-state-settlement-signal-1",
+                  "label": "State Settlement",
+                  "title": "Paramount settles lawsuits with 12 US states",
+                  "body": "Paramount Global has reached a settlement with 12 US states that had challenged the merger, according to both BBC and The Guardian. This resolution removes a key legal barrier that could have delayed or blocked the deal.",
+                  "whyImportant": "State-level antitrust challenges are often unpredictable and can derail mergers; settling them clears a significant hurdle, making the merger more likely to proceed.",
+                  "evidence": [
+                    {
+                      "id": "paramount-warner-state-settlement-evidence-1",
+                      "title": "Settlement Reported",
+                      "description": "Both BBC and The Guardian report that Paramount settled lawsuits with US states, specifically 12 states per The Guardian, helping clear the way for the Warner Bros merger.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "paramount-warner-state-settlement-source-1",
+                        "paramount-warner-state-settlement-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "paramount-warner-state-settlement-source-1",
+                      "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-21T18:24:08.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "paramount-warner-state-settlement-source-2",
+                      "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-21T16:52:49.000Z",
+                      "url": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "paramount-warner-state-settlement-signal-2",
+                  "label": "Merger Value",
+                  "title": "$110 billion media consolidation",
+                  "body": "The merger between Paramount and Warner Bros is valued at $110 billion, making it one of the largest media mergers in history. This consolidation would combine major film studios, television networks, and streaming services.",
+                  "whyImportant": "The sheer size of the deal underscores its potential to reshape the competitive landscape, concentrating significant content and distribution power.",
+                  "evidence": [
+                    {
+                      "id": "paramount-warner-state-settlement-evidence-2",
+                      "title": "Deal Valuation",
+                      "description": "Both sources reference the $110 billion valuation for the Warner Bros merger.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "paramount-warner-state-settlement-source-1",
+                        "paramount-warner-state-settlement-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "paramount-warner-state-settlement-source-1",
+                      "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-21T18:24:08.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "paramount-warner-state-settlement-source-2",
+                      "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-21T16:52:49.000Z",
+                      "url": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Legal Uncertainty to Consolidation Momentum",
+              "before": "The Paramount-Warner Bros merger faced lawsuits from multiple US states, creating uncertainty over whether the deal could proceed. State-level antitrust challenges posed a direct risk of delay or injunction.",
+              "shift": "Paramount settled these lawsuits with 12 US states, removing a major legal obstacle. This shifts the merger from a contested state-level landscape to a clearer path, though federal approval and other regulatory clearances remain.",
+              "now": "With state settlements in place, the $110 billion merger moves forward more confidently. The remaining hurdles are at the federal level and possibly other jurisdictions, but the most immediate state-level threats are resolved.",
+              "conclusion": "The settlement indicates a significant step toward finalizing the merger, which would create a media behemoth with enormous content and distribution power. This could alter competitive dynamics in streaming, film, and television."
+            },
+            "insight": {
+              "title": "State Settlements as a Precursor to Mega-Media Consolidation",
+              "formula": "Resolution of state-level antitrust litigation reduces legal friction, enabling a $110bn merger that concentrates media ownership and could redefine industry competition.",
+              "explanation": "The settlement with 12 US states demonstrates that Paramount and Warner Bros are successfully navigating antitrust challenges, signaling that the merger is likely to close. This consolidation will merge two major content libraries and distribution networks, potentially leading to reduced competition and increased market power, which could impact consumers and competitors alike."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "Federal Approval",
+                  "prompt": "Monitor statements and actions from the US Federal Trade Commission or Department of Justice regarding the merger.",
+                  "meta": "Regulatory clearance is essential for deal completion."
+                },
+                {
+                  "label": "Other State or International Challenges",
+                  "prompt": "Watch for any remaining lawsuits or regulatory objections from other jurisdictions.",
+                  "meta": "Even after settling with 12 states, other entities may still oppose."
+                },
+                {
+                  "label": "Market Reaction",
+                  "prompt": "Observe stock price movements for Paramount and Warner Bros following the settlement news.",
+                  "meta": "Investor sentiment can indicate confidence in the deal's completion."
+                },
+                {
+                  "label": "Content and Strategy Changes",
+                  "prompt": "Watch for announcements about combined streaming services, layoffs, or content consolidation.",
+                  "meta": "Post-merger integration plans will reveal the true impact on the media landscape."
+                }
+              ],
+              "ending": "The settlement is a major milestone, but the merger's ultimate success and impact will depend on overcoming remaining regulatory hurdles and executing integration effectively."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "媒体整合",
+              "secondaryEyebrow": "反垄断和解",
+              "title": "派拉蒙与美国多州达成和解，为1100亿美元华纳兄弟合并扫清道路",
+              "summary": "派拉蒙与12个美国州的法律诉讼达成和解，消除了重大法律障碍，推进与华纳兄弟的1100亿美元合并，标志着媒体所有权集中度的重大转变。"
+            },
+            "question": {
+              "lead": "派拉蒙与各州的和解对多年来最大的媒体合并意味着什么？",
+              "title": "1100亿美元的媒体整合能否重塑娱乐业格局？",
+              "footnote": "两家独立可靠来源报道了和解，但该交易仍需联邦及其他批准。"
+            },
+            "signals": {
+              "title": "扫清道路的信号",
+              "sourceNote": "来自BBC和《卫报》的证据，两者均为可靠媒体，发布于2026年9月21日。",
+              "items": [
+                {
+                  "id": "paramount-warner-state-settlement-signal-1",
+                  "label": "州级和解",
+                  "title": "派拉蒙与12个美国州就诉讼达成和解",
+                  "body": "据BBC和《卫报》报道，派拉蒙全球已与曾质疑该合并的12个美国州达成和解。这一解决消除了可能推迟或阻止交易的关键法律障碍。",
+                  "whyImportant": "州级反垄断挑战往往难以预料，可能使合并脱轨；达成和解则清除了一个重大障碍，使合并更有可能推进。",
+                  "evidence": [
+                    {
+                      "id": "paramount-warner-state-settlement-evidence-1",
+                      "title": "据报已达成和解",
+                      "description": "BBC和《卫报》均报道，派拉蒙已与多个美国州达成诉讼和解，其中《卫报》称涉及12个州，这有助于为华纳兄弟合并扫清道路。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "paramount-warner-state-settlement-source-1",
+                        "paramount-warner-state-settlement-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "paramount-warner-state-settlement-source-1",
+                      "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-21T18:24:08.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "paramount-warner-state-settlement-source-2",
+                      "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-21T16:52:49.000Z",
+                      "url": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "paramount-warner-state-settlement-signal-2",
+                  "label": "合并价值",
+                  "title": "1100亿美元媒体整合",
+                  "body": "派拉蒙与华纳兄弟的合并估值达1100亿美元，是史上规模最大的媒体合并之一。此次整合将把主要电影制片厂、电视网络和流媒体服务合为一体。",
+                  "whyImportant": "这笔交易的庞大规模凸显出其重塑竞争格局的潜力，将集中大量内容与分发权力。",
+                  "evidence": [
+                    {
+                      "id": "paramount-warner-state-settlement-evidence-2",
+                      "title": "交易估值",
+                      "description": "两家来源均提到华纳兄弟合并的估值为1100亿美元。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "paramount-warner-state-settlement-source-1",
+                        "paramount-warner-state-settlement-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "paramount-warner-state-settlement-source-1",
+                      "title": "Paramount settles lawsuit with US states, helping clear way for $110bn merger with Warner Bros",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-21T18:24:08.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cm4gjr1qepr8o?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "paramount-warner-state-settlement-source-2",
+                      "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-21T16:52:49.000Z",
+                      "url": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从法律不确定性到整合势头",
+              "before": "派拉蒙与华纳兄弟的合并曾面临多个美国州的诉讼，令交易能否推进充满不确定性。州级反垄断挑战带来直接的风险，可能导致延迟或禁令。",
+              "shift": "派拉蒙已与12个美国州就这些诉讼达成和解，消除了一个重大法律障碍。这使合并从争议不断的州级局面转向更清晰的路径，不过联邦批准及其他监管许可仍未落定。",
+              "now": "随着各州和解到位，这笔1100亿美元的合并更有信心地推进。剩余障碍在联邦层面，也可能在其他司法管辖区，但最紧迫的州一级威胁已解除。",
+              "conclusion": "和解表明合并向最终完成迈出重要一步，这将打造一家拥有庞大内容和分销实力的媒体巨头。这可能改变流媒体、电影和电视领域的竞争格局。"
+            },
+            "insight": {
+              "title": "州级和解成为大型媒体整合的前奏",
+              "formula": "州级反垄断诉讼的解决减少了法律摩擦，使这笔1100亿美元的合并得以推进，集中媒体所有权并可能重新定义行业竞争。",
+              "explanation": "与12个美国州达成和解表明派拉蒙和华纳兄弟正成功应对反垄断挑战，显示合并可能完成。这一整合将合并两大内容库和分销网络，可能导致竞争减少和市场权力增强，从而影响消费者和竞争对手。"
+            },
+            "observe": {
+              "title": "接下来关注什么",
+              "items": [
+                {
+                  "label": "联邦批准",
+                  "prompt": "关注美国联邦贸易委员会或司法部就该合并的声明和行动。",
+                  "meta": "监管许可是交易完成的关键。"
+                },
+                {
+                  "label": "其他州或国际挑战",
+                  "prompt": "留意其他司法管辖区仍存在的诉讼或监管反对。",
+                  "meta": "即便与12个州达成和解，其他实体仍可能反对。"
+                },
+                {
+                  "label": "市场反应",
+                  "prompt": "关注和解消息公布后派拉蒙与华纳兄弟的股价走势。",
+                  "meta": "投资者情绪可反映市场对交易完成的信心。"
+                },
+                {
+                  "label": "内容与战略变化",
+                  "prompt": "留意有关合并后的流媒体服务、裁员或内容整合的公告。",
+                  "meta": "合并后的整合计划将揭示其对媒体格局的真实影响。"
+                }
+              ],
+              "ending": "和解是重要里程碑，但合并最终能否成功及其影响，取决于能否克服剩余监管障碍并有效执行整合。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-22",
+        "scope": "global",
+        "date": "2026-09-22",
+        "decidedAt": "2026-09-22T03:01:35.759Z",
+        "state": "publish_new",
+        "insightId": "paramount-warner-state-settlement",
+        "materialChangeScore": 40,
+        "evidenceStrength": 64,
+        "noveltyScore": 52,
+        "importanceScore": 58,
+        "candidateSignalIds": [
+          "paramount-warner-state-settlement"
+        ],
+        "content": {
+          "en": {
+            "label": "Publish as Standalone Insight",
+            "decisionTitle": "Paramount's State Settlement Advances Major Media Merger",
+            "decisionSummary": "The settlement between Paramount and 12 US states removes a key legal obstacle to the $110 billion Warner Bros merger. This is reported by two reliable sources and marks a significant step toward a major media consolidation. While not a structural, cross-system process, it is a noteworthy standalone event with second-order implications for media ownership.",
+            "thresholdReason": "The event is verified by two independent reliable media sources, satisfying the source gate. It represents a material legal development in a high-value merger, but it does not yet constitute a durable, cross-system change warranting a World Process. However, given its potential impact on media concentration and the clarity of the news, it merits publication as a standalone Global Insight.",
+            "observeNext": [
+              "Federal regulatory decisions on the merger",
+              "Any remaining state or international challenges",
+              "Market reaction to the settlement",
+              "Announcements on post-merger integration plans"
+            ]
+          },
+          "zh": {
+            "label": "作为独立洞察发布",
+            "decisionTitle": "派拉蒙州级和解推进大型媒体合并",
+            "decisionSummary": "派拉蒙与12个美国州达成和解，为1100亿美元的华纳兄弟合并扫除关键法律障碍。此事由两个可靠消息源报道，标志着迈向重大媒体整合的重要一步。尽管并非结构性、跨系统进程，但它是值得关注的独立事件，对媒体所有权具有次生影响。",
+            "thresholdReason": "该事件经两个独立可靠媒体来源核实，满足来源门槛。它代表高价值合并中的重大法律进展，但尚未构成足以称为世界进程的持久跨系统变化。然而，鉴于其对媒体集中度的潜在影响及新闻的清晰度，值得作为独立全球洞察发布。",
+            "observeNext": [
+              "联邦监管机构对合并的决定",
+              "其余州或国际层面的挑战",
+              "市场对和解的反应",
+              "关于合并后整合计划的公告"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4956,
+        "outputTokens": 2968,
+        "cachedInputTokens": 1792
+      },
+      "review": {
+        "decision": "rejected",
+        "reviewedAt": "2026-09-24T11:13:48.891Z",
+        "originalPublishThresholdMet": false,
+        "originalDailyState": "publish_new"
+      },
+      "rejectedAt": "2026-09-24T11:13:48.891Z"
+    },
     {
       "id": "writer-trump-stock-trades-disclosure-2026-09-1790220239887",
       "scope": "global",
