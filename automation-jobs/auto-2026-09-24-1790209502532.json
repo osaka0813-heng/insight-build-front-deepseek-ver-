@@ -6,18 +6,18 @@
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:35:59.339Z",
+  "updatedAt": "2026-09-24T12:37:06.071Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-24T12:35:59.339Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-24T12:37:06.071Z",
       "candidateCount": 4,
       "selectedCandidateId": "cand-russia-sabotage-europe-infrastructure",
       "researchDraft": {
@@ -674,6 +674,146 @@
           }
         ],
         "analysisProvider": "deepseek"
+      },
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "satellite-infrastructure-becomes-russia-nato-grey-zone-target",
+          "parentInsightId": "process-geopolitical-technology-control",
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Technology control becomes geopolitical infrastructure",
+              "secondaryEyebrow": "Russia-NATO grey-zone escalation",
+              "title": "Satellite infrastructure becomes a direct target in the Russia-NATO grey-zone contest",
+              "summary": "A fire at a Polish Starlink station is called sabotage, a Russian helicopter violates Polish airspace, Denmark warns of rising Russian threats, and the UK launches a military satellite defense squadron. Commercial space networks are now contested security assets, not neutral utilities."
+            },
+            "question": {
+              "lead": "Why it matters now",
+              "title": "Are we witnessing the militarization of commercial satellite infrastructure?",
+              "footnote": "Three independent events in one week point to a new phase in the technology-control conflict between Russia and NATO."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Based on reports from BBC and The Guardian, September 23-24, 2026.",
+              "items": [
+                {
+                  "label": "Trigger 1",
+                  "title": "Poland accuses Russia of sabotaging a Starlink station",
+                  "body": "Poland says a fire at a Starlink ground station was deliberate sabotage. The accusation came as Poland also reported a Russian military helicopter violating its airspace.",
+                  "whyImportant": "For the first time, a NATO member publicly links a physical attack on commercial satellite infrastructure to Russia, escalating the grey-zone conflict.",
+                  "evidence": {
+                    "title": "Poland says fire at Starlink station is sabotage",
+                    "description": "BBC News reports the Polish government's accusation and the airspace violation incident.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-russia-sabotage-europe-infrastructure-source-1",
+                      "cand-russia-sabotage-europe-infrastructure-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Trigger 2",
+                  "title": "Denmark warns of a rising Russian threat",
+                  "body": "Danish officials issue a public warning about growing Russian aggressiveness, aligning with Poland's concerns about grey-zone activities.",
+                  "whyImportant": "Multiple NATO countries are simultaneously signaling a heightened threat perception, suggesting coordinated awareness rather than isolated incidents.",
+                  "evidence": {
+                    "title": "Denmark's warning",
+                    "description": "BBC reports Denmark's warning alongside Poland's sabotage accusation, indicating a regional pattern.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-russia-sabotage-europe-infrastructure-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Trigger 3",
+                  "title": "UK launches military squadron to protect satellites",
+                  "body": "The UK announces a new Royal Air Force squadron dedicated to defending satellites in space, a direct response to growing threats to space assets.",
+                  "whyImportant": "This marks a shift from treating commercial satellites as civilian infrastructure to actively militarizing their protection.",
+                  "evidence": {
+                    "title": "UK satellite defense squadron",
+                    "description": "The Guardian reports the UK's plan to launch a military unit focused on satellite protection.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-russia-sabotage-europe-infrastructure-source-3"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From neutral utility to contested security asset",
+              "before": "Commercial satellite networks like Starlink were treated as neutral global utilities, operated by private companies for civilian and commercial use. Security concerns focused on cyberattacks rather than physical sabotage or military intervention.",
+              "shift": "Russia's alleged sabotage of a Starlink station, airspace violations, and Denmark's warnings mark a dangerous new phase where physical attacks on space infrastructure are used as grey-zone tactics. Simultaneously, NATO members respond by militarizing satellite protection (UK squadron).",
+              "now": "Satellite communications are now firmly within the geopolitical technology-control domain. Commercial space assets are seen as critical national security infrastructure, and their protection requires military resources. The line between civilian and military space has blurred.",
+              "conclusion": "The conflict over technology control has escalated from export restrictions and supply chain controls to direct physical attacks and military defense of space assets. This represents a significant structural widening of the grey-zone conflict between Russia and NATO."
+            },
+            "insight": {
+              "title": "Commercial space becomes a security frontier",
+              "formula": "Physical attack on commercial satellite infrastructure + airspace violation + military satellite defense squadron → commercial space is now a contested security domain",
+              "explanation": "Russia's alleged sabotage of a Starlink station and airspace violation, combined with the UK's launch of a military satellite defense squadron, show that commercial satellite networks are no longer neutral infrastructure. They are now treated as critical security assets, subject to physical attack and military protection. This shifts the technology-control conflict from the economic and regulatory sphere into direct military and grey-zone operations."
+            },
+            "observe": {
+              "title": "What to observe next",
+              "items": [
+                {
+                  "label": "NATO response",
+                  "prompt": "Will NATO issue a collective response or new policy on protecting commercial satellite infrastructure?",
+                  "meta": "Look for statements from NATO headquarters or joint exercises involving satellite defense."
+                },
+                {
+                  "label": "Russia's actions",
+                  "prompt": "Will Russia continue or escalate physical attacks on satellite ground stations or other critical infrastructure?",
+                  "meta": "Monitor reports of further sabotage attempts or airspace violations in Eastern Europe."
+                },
+                {
+                  "label": "Commercial space regulation",
+                  "prompt": "Will countries impose new security requirements on commercial satellite operators?",
+                  "meta": "Watch for legislation requiring military coordination or security clearances for ground stations."
+                },
+                {
+                  "label": "Military satellite capabilities",
+                  "prompt": "Will other NATO countries follow the UK in creating satellite defense units?",
+                  "meta": "Track announcements from other militaries about space defense initiatives."
+                }
+              ],
+              "ending": "The militarization of commercial space infrastructure appears to be accelerating, with implications for global communications, security policy, and the technology-control process."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Accelerating",
+            "decisionTitle": "Physical attacks on satellite infrastructure mark a significant escalation in the technology-control conflict",
+            "decisionSummary": "A fire at a Starlink station in Poland is alleged to be Russian sabotage, a Russian helicopter violated Polish airspace, Denmark warned of rising Russian threats, and the UK announced a military satellite defense squadron. These events indicate that commercial satellite infrastructure is now a direct target in the Russia-NATO grey-zone contest.",
+            "thresholdReason": "The combination of a physical attack on commercial satellite infrastructure, an airspace violation, and a military response (satellite defense squadron) represents a material change in the technology-control process. This goes beyond export controls to include direct physical attacks and militarized defense of space assets, meeting the threshold for an update.",
+            "observeNext": [
+              "Whether NATO issues a coordinated response to the attacks on satellite infrastructure",
+              "Whether Russia escalates physical attacks on other critical infrastructure",
+              "Whether additional countries create military units to protect satellites"
+            ]
+          },
+          "processStage": "accelerating",
+          "processContentEn": {
+            "title": "Technology control becomes geopolitical infrastructure",
+            "description": "The geography of technological growth is increasingly shaped by security policy, alliances, and controlled access to critical capacity. This process has expanded from export controls on semiconductors and AI to include physical attacks on commercial satellite infrastructure and military protection of space assets.",
+            "implication": "Commercial space networks are being integrated into national security frameworks. This could lead to new regulations, military involvement in civilian space operations, and a further blurring of the line between commercial and military use of space."
+          },
+          "nextQuestionEn": "Will NATO's response to the attacks on satellite infrastructure lead to a formal collective defense policy for commercial space assets, or will responses remain fragmented among member states?",
+          "observeNextEn": [
+            "NATO's official response to the Starlink station sabotage allegations",
+            "Russia's future actions towards commercial satellite infrastructure in NATO countries",
+            "Adoption of satellite defense units by other NATO militaries",
+            "New security regulations imposed on commercial satellite operators"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2392,
+          "outputTokens": 1859,
+          "cachedInputTokens": 1152
+        }
       }
     }
   },
