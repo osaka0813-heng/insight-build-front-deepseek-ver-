@@ -2,19 +2,19 @@
   "id": "auto-2026-09-24-1790209502532",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T11:15:44.059Z",
+  "updatedAt": "2026-09-24T11:15:49.871Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
+      "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
       "updatedAt": "2026-09-24T11:15:44.059Z",
       "researchDraft": {
         "ok": true,
@@ -743,7 +743,9 @@
           "outputTokens": 2482,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924-1790248546896",
+      "completedAt": "2026-09-24T11:15:49.871Z"
     }
   },
   "preflight": {
@@ -778,10 +780,11 @@
       }
     ]
   },
-  "message": "Repairing scheduled edition date",
+  "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
   "lease": {
     "owner": "cron-1790248542663-gofky8yg",
     "acquiredAt": "2026-09-24T11:15:42.944Z",
     "expiresAt": "2026-09-24T11:20:32.944Z"
-  }
+  },
+  "completedAt": "2026-09-24T11:15:49.871Z"
 }
