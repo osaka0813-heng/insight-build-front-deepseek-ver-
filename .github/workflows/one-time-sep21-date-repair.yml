@@ -16,4 +16,4 @@ jobs:
           echo "$response"
           echo "$response" | grep -q '"status":"completed"'
 
-# rerun Sep 24 with parallel cross-domain research
+# retry 2 Sep 24 parallel cross-domain research
