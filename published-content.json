@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:15:45.660Z",
-  "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924-1790248546896",
+  "generatedAt": "2026-09-24T11:17:46.629Z",
+  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248667719",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
       "scope": "global",
       "slug": "record-el-nino-before-peak",
       "status": "publish_new",
-      "publishedAt": "2026-09-24T11:14:50.688Z",
-      "updatedAt": "2026-09-24T11:14:50.688Z",
+      "publishedAt": "2026-09-24T11:17:46.629Z",
+      "updatedAt": "2026-09-24T11:17:46.629Z",
       "confidence": "hypothesis",
       "content": {
         "en": {
@@ -8390,6 +8390,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T11:15:46.896Z"
+    "repairedAt": "2026-09-24T11:17:47.735Z"
   }
 }

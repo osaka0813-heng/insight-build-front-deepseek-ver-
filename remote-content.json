@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:15:45.660Z",
-  "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924-1790248546896",
+  "generatedAt": "2026-09-24T11:17:46.629Z",
+  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248667719",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
       "scope": "global",
       "slug": "record-el-nino-before-peak",
       "status": "publish_new",
-      "publishedAt": "2026-09-24T11:14:50.688Z",
-      "updatedAt": "2026-09-24T11:14:50.688Z",
+      "publishedAt": "2026-09-24T11:17:46.629Z",
+      "updatedAt": "2026-09-24T11:17:46.629Z",
       "confidence": "hypothesis",
       "content": {
         "en": {
@@ -8390,10 +8390,327 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T11:15:46.896Z"
+    "repairedAt": "2026-09-24T11:17:47.735Z"
   },
   "researchDrafts": [],
   "writerDrafts": [
+    {
+      "id": "writer-cand-record-el-nino-1790133839388-date-repair-20260923-final-date-stamp",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-09-23T03:23:59.388Z",
+      "researchDraftId": "research-global-2026-09-23-1790128570484",
+      "candidateId": "cand-record-el-nino",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": false,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
+        "scope": "global",
+        "slug": "record-el-nino-before-peak",
+        "status": "publish_new",
+        "publishedAt": "2026-09-24T11:17:46.629Z",
+        "updatedAt": "2026-09-24T11:17:46.629Z",
+        "confidence": "hypothesis",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "CLIMATE & DISASTER RISK",
+              "secondaryEyebrow": "STANDALONE GLOBAL INSIGHT",
+              "title": "The Strongest El Niño on Record is Forming Weeks Before Its Peak",
+              "summary": "A developing El Niño has become the strongest on record weeks before its expected peak, forcing California into a state of emergency and raising the probability of extreme rainfall, flooding, and infrastructure stress across multiple continents."
+            },
+            "question": {
+              "lead": "How does a record-strength El Niño, forming off-season and weeks before its expected peak, reset near-term disaster and agricultural risk assessments globally?",
+              "title": "What happens when a record El Niño arrives early?",
+              "footnote": "This insight is based on two independent reliable media sources: BBC Weather and The Guardian."
+            },
+            "signals": {
+              "title": "Signals of an Early Record El Niño",
+              "sourceNote": "Sources: BBC Weather (September 22, 2026); The Guardian (September 21, 2026).",
+              "items": [
+                {
+                  "id": "cand-record-el-nino-signal-1",
+                  "label": "Signal 1",
+                  "title": "Record-strength El Niño confirmed weeks before expected peak",
+                  "body": "BBC Weather reports that the developing El Niño has become the strongest on record weeks before its expected peak. This measurement indicates an unusually rapid intensification and an off-season timing that deviates from typical cycles.",
+                  "whyImportant": "An off-season record-strength El Niño suggests that weather patterns will be disrupted earlier and potentially more severely than forecast, compressing preparation time for vulnerable regions.",
+                  "evidence": [
+                    {
+                      "id": "cand-record-el-nino-evidence-1",
+                      "title": "BBC Weather: Developing El Niño becomes strongest on record weeks before expected peak",
+                      "description": "The report directly states that the developing El Niño is now the strongest on record weeks before its expected peak, based on current measurements.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-record-el-nino-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-record-el-nino-source-1",
+                      "title": "Developing El Niño becomes strongest on record weeks before expected peak",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-22T12:54:14.000Z",
+                      "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-record-el-nino-signal-2",
+                  "label": "Signal 2",
+                  "title": "California declares state of emergency as it braces for record El Niño storms",
+                  "body": "The Guardian reports that California's governor has declared a state of emergency in anticipation of record El Niño storms. The state is preparing for extreme precipitation, flooding, and potential infrastructure damage.",
+                  "whyImportant": "A state of emergency declaration is a concrete government action that signals high confidence in imminent, severe impacts. It mobilizes resources and indicates that the risk is being treated as a present threat, not a future possibility.",
+                  "evidence": [
+                    {
+                      "id": "cand-record-el-nino-evidence-2",
+                      "title": "The Guardian: California braces for record El Niño storms as governor declares emergency",
+                      "description": "The article reports that the governor declared a state of emergency due to the expected record El Niño storms, with details on preparations.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-record-el-nino-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-record-el-nino-source-2",
+                      "title": "California braces for record El Niño storms as governor declares emergency",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-21T19:31:49.000Z",
+                      "url": "https://www.theguardian.com/us-news/2026/sep/21/california-el-nino-storm-state-of-emergency",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Before, Shift, Now: Early Record El Niño Changes the Risk Equation",
+              "before": "Climate and disaster risk models assumed that El Niño events intensify gradually and peak during their typical seasonal window, allowing governments and humanitarian agencies to prepare over months. Record-strength events were considered rare and generally expected to follow a predictable timeline.",
+              "shift": "This El Niño has reached record strength weeks before its expected peak, indicating a phase shift toward more rapid intensification and earlier onset. Governments are already taking emergency measures, such as California's state of emergency, based on forecasts of extreme storms.",
+              "now": "The probability of extreme rainfall, flooding, and infrastructure stress across multiple continents has increased significantly. Disaster response must accelerate, and agricultural and economic risk assessments are being revised. The event is unfolding as a present crisis, not a future scenario.",
+              "conclusion": "The early record-strength El Niño is a physically verifiable signal that undermines conventional preparedness timelines. It demands immediate attention and may serve as a case study for how climate extremes can outpace institutional planning."
+            },
+            "insight": {
+              "title": "An Early Record El Niño Compresses the Window for Global Preparedness",
+              "formula": "Early record-strength El Niño + State-level emergency responses = Shortened adaptation timeline and elevated near-term disaster risk",
+              "explanation": "The core insight is that when an El Niño reaches record strength before its expected peak, it accelerates the timeline for impacts. Governments and communities that relied on the traditional lag between event onset and peak intensity now face compressed preparation time. This is visible in California's emergency declaration, which treats the threat as imminent. The formula captures how an unusual physical event interacts with institutional response to create a new risk landscape."
+            },
+            "observe": {
+              "title": "What to Observe Next",
+              "items": [
+                {
+                  "label": "Storm Impacts",
+                  "prompt": "Track whether California and other west-coast regions experience record rainfall and flooding in the coming weeks.",
+                  "meta": "Indicators: precipitation anomalies, flood reports, emergency declarations in additional jurisdictions."
+                },
+                {
+                  "label": "Global Teleconnections",
+                  "prompt": "Monitor for extreme weather events in other El Niño-sensitive regions, such as Australia, Southeast Asia, and East Africa.",
+                  "meta": "Indicators: drought declarations, heatwave alerts, crop failure reports."
+                },
+                {
+                  "label": "Infrastructure Stress",
+                  "prompt": "Look for disruptions to transportation, energy, and water systems caused by extreme weather linked to this El Niño.",
+                  "meta": "Indicators: road closures, power outages, dam management changes."
+                },
+                {
+                  "label": "Policy Responses",
+                  "prompt": "Watch for additional government or international declarations of emergency or disaster funding tied to El Niño impacts.",
+                  "meta": "Indicators: FEMA activations, UN humanitarian appeals, reallocations of climate finance."
+                }
+              ],
+              "ending": "The decisive test will be whether the realized impacts match the early warnings. If the strongest El Niño on record delivers extreme weather across multiple continents before its nominal peak, it will validate the need for faster, more flexible disaster response systems."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "气候与灾害风险",
+              "secondaryEyebrow": "独立全球洞察",
+              "title": "史上最强厄尔尼诺在峰值前数周形成",
+              "summary": "一场正在发展的厄尔尼诺在预期峰值前数周已成为有记录以来最强，迫使加利福尼亚进入紧急状态，并提高了多个大洲出现极端降雨、洪水和基础设施压力的概率。"
+            },
+            "question": {
+              "lead": "一场在非季节时段、于预期峰值前数周形成的创纪录强度厄尔尼诺，将如何重塑全球近期的灾害与农业风险评估？",
+              "title": "当创纪录的厄尔尼诺提前到来会发生什么？",
+              "footnote": "本洞察基于两个独立可靠媒体来源：BBC天气和《卫报》。"
+            },
+            "signals": {
+              "title": "早期创纪录厄尔尼诺的信号",
+              "sourceNote": "来源：BBC天气（2026年9月22日）；《卫报》（2026年9月21日）。",
+              "items": [
+                {
+                  "id": "cand-record-el-nino-signal-1",
+                  "label": "信号1",
+                  "title": "创纪录强度的厄尔尼诺在预期峰值前数周得到确认",
+                  "body": "BBC天气报道称，正在发展的厄尔尼诺在预期峰值前数周已成为有记录以来最强。这一测量结果表明其增强异常迅速，且时机偏离典型周期，处于非季节时段。",
+                  "whyImportant": "一次反季节、创纪录强度的厄尔尼诺现象表明，天气模式被打乱的时间将早于预期，程度也可能比预报更严重，从而压缩了脆弱地区的准备时间。",
+                  "evidence": [
+                    {
+                      "id": "cand-record-el-nino-evidence-1",
+                      "title": "BBC天气：发展中的厄尔尼诺在预期峰值前数周成为有记录以来最强",
+                      "description": "报告明确指出，根据当前测量结果，发展中的厄尔尼诺在预期峰值前数周已成为有记录以来最强。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-record-el-nino-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-record-el-nino-source-1",
+                      "title": "Developing El Niño becomes strongest on record weeks before expected peak",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-22T12:54:14.000Z",
+                      "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-record-el-nino-signal-2",
+                  "label": "信号2",
+                  "title": "加利福尼亚州宣布进入紧急状态，准备迎接创纪录的厄尔尼诺风暴",
+                  "body": "《卫报》报道，加利福尼亚州州长因预期出现创纪录的厄尔尼诺风暴而宣布进入紧急状态。该州正准备应对极端降水、洪水以及潜在的基础设施损坏。",
+                  "whyImportant": "宣布进入紧急状态是一项具体的政府行动，表明对即将来临的严重影响抱有高度确信。它调动资源，并显示这一风险被视为当前威胁，而非未来可能。",
+                  "evidence": [
+                    {
+                      "id": "cand-record-el-nino-evidence-2",
+                      "title": "《卫报》：加州准备迎接创纪录厄尔尼诺风暴，州长宣布紧急状态",
+                      "description": "文章报道，州长因预计出现创纪录的厄尔尼诺风暴而宣布进入紧急状态，并介绍了相关准备细节。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-record-el-nino-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-record-el-nino-source-2",
+                      "title": "California braces for record El Niño storms as governor declares emergency",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-21T19:31:49.000Z",
+                      "url": "https://www.theguardian.com/us-news/2026/sep/21/california-el-nino-storm-state-of-emergency",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "此前、转变、现在：早期创纪录厄尔尼诺改变风险等式",
+              "before": "气候与灾害风险模型假定厄尔尼诺事件会逐渐增强，并在其典型季节窗口达到峰值，使各国政府和人道机构有数月时间准备。创纪录强度的事件被认为罕见，且普遍预期会遵循可预测的时间线。",
+              "shift": "这次厄尔尼诺在预期峰值前数周就达到创纪录强度，表明形势转向更快速的增强和更早的到来。各国政府已根据极端风暴预报采取紧急措施，例如加利福尼亚州宣布进入紧急状态。",
+              "now": "多个大洲出现极端降雨、洪水和基础设施承压的概率已显著上升。灾害响应必须加快，农业和经济风险评估正在修订。该事件正作为当前危机展开，而非未来情景。",
+              "conclusion": "这次早期出现的创纪录强度厄尔尼诺是一种可物理验证的信号，动摇了常规备灾时间表。它需要立即关注，并可能成为一个案例，说明气候极端事件如何快于制度规划。"
+            },
+            "insight": {
+              "title": "早期创纪录厄尔尼诺压缩全球备灾窗口",
+              "formula": "早期创纪录强度厄尔尼诺 + 州级应急响应 = 适应时间线缩短、近期灾害风险升高",
+              "explanation": "核心洞见是，当厄尔尼诺在预期峰值前就达到创纪录强度时，它会加快影响到来的时间线。依赖事件发生与峰值强度之间传统滞后的政府和社区，如今面临被压缩的准备时间。这体现在加利福尼亚州的紧急状态声明中，该声明将威胁视为迫在眉睫。该公式概括了一个异常物理事件如何与制度响应相互作用，形成新的风险格局。"
+            },
+            "observe": {
+              "title": "接下来应观察什么",
+              "items": [
+                {
+                  "label": "风暴影响",
+                  "prompt": "跟踪加利福尼亚及其他西海岸地区未来几周是否出现创纪录降雨和洪水。",
+                  "meta": "指标：降水异常、洪水报告、更多辖区发布紧急状态声明。"
+                },
+                {
+                  "label": "全球遥相关",
+                  "prompt": "监测其他对厄尔尼诺敏感地区的极端天气事件，如澳大利亚、东南亚和东非。",
+                  "meta": "指标：干旱声明、热浪警报、作物歉收报告。"
+                },
+                {
+                  "label": "基础设施压力",
+                  "prompt": "关注与此次厄尔尼诺现象相关的极端天气对交通、能源和水系统造成的干扰。",
+                  "meta": "指标：道路封闭、停电、大坝管理变化。"
+                },
+                {
+                  "label": "政策响应",
+                  "prompt": "关注与厄尔尼诺影响相关的政府或国际额外紧急状态或灾害资金声明。",
+                  "meta": "指标：联邦应急管理局启动、联合国人道主义呼吁、气候资金重新分配。"
+                }
+              ],
+              "ending": "决定性考验在于实际影响是否与早期预警相符。如果史上最强厄尔尼诺在名义峰值前就给多个大陆带来极端天气，将证明需要更快、更灵活的灾害响应系统。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-23",
+        "scope": "global",
+        "date": "2026-09-23",
+        "decidedAt": "2026-09-23T03:23:59.388Z",
+        "state": "publish_new",
+        "insightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
+        "materialChangeScore": 66,
+        "evidenceStrength": 58,
+        "noveltyScore": 72,
+        "importanceScore": 76,
+        "candidateSignalIds": [
+          "cand-record-el-nino"
+        ],
+        "content": {
+          "en": {
+            "label": "Record El Niño Forms Early",
+            "decisionTitle": "Publish as Standalone Important Insight",
+            "decisionSummary": "The signal is a durable, physically verifiable climate event with broad and compounding second-order consequences. It does not map to an existing World Process, so it will be published as a standalone insight.",
+            "thresholdReason": "The candidate met the publish threshold with a priority score of 74. It has two independent reliable media sources (BBC Weather and The Guardian) that confirm the core facts. The material change score of 66 indicates substantial world-understanding impact.",
+            "observeNext": [
+              "Storm impacts in California and other west-coast regions",
+              "Extreme weather in other El Niño-sensitive regions",
+              "Infrastructure stress and policy responses globally"
+            ]
+          },
+          "zh": {
+            "label": "创纪录厄尔尼诺提前形成",
+            "decisionTitle": "作为独立重要洞察发布",
+            "decisionSummary": "该信号是一个持久、可物理验证的气候事件，具有广泛且复合的二次后果。它不映射到现有的世界进程，因此将作为独立洞察发布。",
+            "thresholdReason": "该候选以74的优先级分数达到发布阈值。它有两个独立可靠的媒体来源（BBC天气和《卫报》）确认核心事实。66的实质性变化分数表明对世界理解有重大影响。",
+            "observeNext": [
+              "风暴对加利福尼亚和其他西海岸地区的影响",
+              "其他厄尔尼诺敏感地区的极端天气",
+              "全球基础设施压力与政策应对"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 5020,
+        "outputTokens": 3336,
+        "cachedInputTokens": 1664
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-09-24T11:17:46.629Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "publish_new"
+      },
+      "approvedAt": "2026-09-24T11:17:46.629Z"
+    },
     {
       "id": "writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924",
       "scope": "global",
