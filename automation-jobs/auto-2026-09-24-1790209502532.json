@@ -2,22 +2,22 @@
   "id": "auto-2026-09-24-1790209502532",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:43:26.198Z",
+  "updatedAt": "2026-09-24T12:43:31.985Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-09-24T12:43:26.198Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-24T12:43:31.984Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-24-1790253255645",
@@ -931,7 +931,7 @@
           "scope": "global",
           "slug": "uk-age-verification-moves-to-enforcement",
           "status": "publish_new",
-          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "publishedAt": "2026-09-24T03:00:00.000Z",
           "updatedAt": "2026-09-24T12:43:01.921Z",
           "confidence": "verified",
           "content": {
@@ -1206,9 +1206,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-23",
+          "id": "daily-global-2026-09-24",
           "scope": "global",
-          "date": "2026-09-23",
+          "date": "2026-09-24",
           "decidedAt": "2026-09-24T12:43:01.921Z",
           "state": "publish_new",
           "insightId": "global-2026-09-23-the-uk-s-age-verification-regime-moves-from-rules-to-enforcement-as-ofco",
@@ -1251,7 +1251,10 @@
           "outputTokens": 2421,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "insightId": "global-2026-09-23-the-uk-s-age-verification-regime-moves-from-rules-to-enforcement-as-ofco",
+      "contentVersion": "publish-global-2026-09-23-the-uk-s-age-verification-regime-moves-from-rules-to-enforcement-as-ofco-1790253809075",
+      "completedAt": "2026-09-24T12:43:31.984Z"
     }
   },
   "preflight": {
@@ -1286,10 +1289,11 @@
       }
     ]
   },
-  "message": "Re-analyzing with salience correction",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790253805137-vmrt8haw",
     "acquiredAt": "2026-09-24T12:43:25.390Z",
     "expiresAt": "2026-09-24T12:48:15.390Z"
-  }
+  },
+  "completedAt": "2026-09-24T12:43:31.985Z"
 }
