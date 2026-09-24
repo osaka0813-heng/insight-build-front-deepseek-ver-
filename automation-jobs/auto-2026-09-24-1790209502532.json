@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T10:09:15.861Z",
+  "updatedAt": "2026-09-24T11:15:42.944Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -778,5 +778,10 @@
       }
     ]
   },
-  "message": "Repairing scheduled edition date"
+  "message": "Repairing scheduled edition date",
+  "lease": {
+    "owner": "cron-1790248542663-gofky8yg",
+    "acquiredAt": "2026-09-24T11:15:42.944Z",
+    "expiresAt": "2026-09-24T11:20:32.944Z"
+  }
 }
