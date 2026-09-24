@@ -6,18 +6,18 @@
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:41:24.851Z",
+  "updatedAt": "2026-09-24T12:42:14.358Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-24T12:41:24.851Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-24T12:42:14.358Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-24-1790253255645",
@@ -667,7 +667,129 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 4,
-      "selectedCandidateId": "cand-age-verification-enforcement"
+      "selectedCandidateId": "cand-age-verification-enforcement",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "uk-age-verification-moves-to-enforcement",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "UK Online Safety",
+              "secondaryEyebrow": "Age Verification Enforcement",
+              "title": "The UK's age-verification regime moves from rules to enforcement as Ofcom investigates Pornhub",
+              "summary": "Ofcom has opened an investigation into Pornhub over concerns that UK children can still access it despite the Online Safety Act's age-check requirements. This marks a decisive shift from passing legislation to proving compliance, setting a precedent for how far online-safety rules can constrain major adult platforms."
+            },
+            "question": {
+              "lead": "The test of platform age-gating has shifted from passing legislation to proving compliance.",
+              "title": "Will enforcement, not legislation, determine the effectiveness of online age verification?",
+              "footnote": "The Online Safety Act's age-verification provisions have been law since 2023, but this is the first major investigation of a global adult platform under its enforcement regime."
+            },
+            "signals": {
+              "title": "Signals of enforcement beginning",
+              "sourceNote": "Sources: The Guardian and BBC News reported independently on 2026-09-23.",
+              "items": [
+                {
+                  "label": "Regulatory",
+                  "title": "Ofcom opens investigation into Pornhub",
+                  "body": "Ofcom has launched an investigation into Pornhub over concerns that it can still be accessed by UK children despite the Online Safety Act's age-check requirements.",
+                  "whyImportant": "This is the first major enforcement action under the UK's age-verification regime, signaling a shift from rule-making to compliance testing.",
+                  "evidence": {
+                    "title": "Ofcom announces investigation",
+                    "description": "The Guardian and BBC News both reported that Ofcom has opened an investigation into Pornhub's age-verification measures.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-age-verification-enforcement-source-1",
+                      "cand-age-verification-enforcement-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Platform",
+                  "title": "Pornhub under scrutiny for age checks",
+                  "body": "Pornhub, one of the world's largest adult platforms, is the subject of the investigation, with concerns that UK children can still access its content.",
+                  "whyImportant": "The investigation targets a major global platform, meaning the outcome could influence age-verification practices worldwide.",
+                  "evidence": {
+                    "title": "Investigation targets Pornhub",
+                    "description": "Both sources confirm that Pornhub is the platform under investigation.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-age-verification-enforcement-source-1",
+                      "cand-age-verification-enforcement-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From legislation to enforcement",
+              "before": "The UK passed the Online Safety Act with age-verification requirements, but enforcement mechanisms were untested.",
+              "shift": "Ofcom has now opened its first major investigation into a platform over age-verification compliance, moving from rule-making to active enforcement.",
+              "now": "Platforms face tangible regulatory scrutiny, and the effectiveness of age-verification laws will be tested in practice.",
+              "conclusion": "The shift to enforcement signals that age-verification is no longer just a legal obligation but an operational compliance challenge with real consequences."
+            },
+            "insight": {
+              "title": "Enforcement defines the rule",
+              "formula": "Legislation + First major enforcement action → Age-verification compliance becomes operational reality",
+              "explanation": "The Ofcom investigation into Pornhub demonstrates that age-verification laws are now being actively enforced, which will force platforms to prioritize compliance and shape the global standard for online age-gating."
+            },
+            "observe": {
+              "title": "What to observe next",
+              "items": [
+                {
+                  "label": "Ofcom's findings",
+                  "prompt": "Monitor the outcome of the Pornhub investigation and any penalties or required changes.",
+                  "meta": "Regulatory"
+                },
+                {
+                  "label": "Platform responses",
+                  "prompt": "Watch how other adult platforms adjust their age-verification systems in the UK and beyond.",
+                  "meta": "Industry"
+                },
+                {
+                  "label": "Global ripple effects",
+                  "prompt": "Look for similar enforcement actions in other jurisdictions with online safety laws.",
+                  "meta": "International"
+                }
+              ],
+              "ending": "The next six months will reveal whether enforcement can achieve what legislation alone could not."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish new insight",
+            "decisionTitle": "Standalone important insight on UK age-verification enforcement",
+            "decisionSummary": "Ofcom's investigation of Pornhub marks the first major enforcement action under the UK Online Safety Act, shifting from rule-making to compliance testing. This sets a precedent for how age-verification will be enforced across platforms, with implications for online safety regulation globally.",
+            "thresholdReason": "Two independent reliable sources confirm the event. No existing World Process covers this domain, so it is best treated as a standalone important insight.",
+            "observeNext": [
+              "Outcome of Ofcom's investigation into Pornhub",
+              "Changes in Pornhub's age-verification practices",
+              "Enforcement actions against other platforms"
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "Standalone insight: Age-verification enforcement begins",
+            "description": "This insight stands alone as it does not fit into any existing World Process. It captures the shift from age-verification legislation to active enforcement in the UK.",
+            "implication": "The enforcement action could set a global precedent for online safety regulation, affecting platforms worldwide."
+          },
+          "nextQuestionEn": "Will other jurisdictions follow the UK's lead in enforcing age-verification laws?",
+          "observeNextEn": [
+            "Ofcom's investigation progress and findings",
+            "Pornhub's compliance response and system changes",
+            "Regulatory actions against other adult platforms",
+            "International adoption of similar enforcement measures"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 1966,
+          "outputTokens": 1396,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
