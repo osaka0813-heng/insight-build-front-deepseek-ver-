@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T11:13:48.891Z",
-  "contentVersion": "review-writer-paramount-warner-state-settlement-1790046095759-date-repair-20260922-1790248429879",
+  "generatedAt": "2026-09-24T11:14:50.688Z",
+  "contentVersion": "publish-global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak-1790248491940",
   "insights": [
     {
       "id": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
       "scope": "global",
       "slug": "record-el-nino-before-peak",
       "status": "publish_new",
-      "publishedAt": "2026-09-23T04:29:07.406Z",
-      "updatedAt": "2026-09-23T04:29:07.406Z",
+      "publishedAt": "2026-09-24T11:14:50.688Z",
+      "updatedAt": "2026-09-24T11:14:50.688Z",
       "confidence": "hypothesis",
       "content": {
         "en": {
@@ -6722,40 +6722,40 @@
       "id": "daily-global-2026-09-23",
       "scope": "global",
       "date": "2026-09-23",
-      "decidedAt": "2026-09-24T04:29:07.095Z",
-      "state": "no_new_global_insight",
-      "materialChangeScore": 46,
-      "evidenceStrength": 62,
-      "noveltyScore": 55,
-      "importanceScore": 61,
+      "decidedAt": "2026-09-23T03:23:59.388Z",
+      "state": "publish_new",
+      "insightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak",
+      "materialChangeScore": 66,
+      "evidenceStrength": 58,
+      "noveltyScore": 72,
+      "importanceScore": 76,
       "candidateSignalIds": [
-        "trump-stock-trades-disclosure-2026-09"
+        "cand-record-el-nino"
       ],
       "content": {
         "en": {
-          "label": "No new structural insight today",
-          "decisionTitle": "Current evidence does not support a new structural conclusion",
-          "decisionSummary": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
-          "thresholdReason": "The candidate's evidence is reliable but not independent, its impact is media-driven, and no causal mechanism connects the disclosure to a tracked structure like AI infrastructure or semiconductor capacity.",
+          "label": "Record El Niño Forms Early",
+          "decisionTitle": "Publish as Standalone Important Insight",
+          "decisionSummary": "The signal is a durable, physically verifiable climate event with broad and compounding second-order consequences. It does not map to an existing World Process, so it will be published as a standalone insight.",
+          "thresholdReason": "The candidate met the publish threshold with a priority score of 74. It has two independent reliable media sources (BBC Weather and The Guardian) that confirm the core facts. The material change score of 66 indicates substantial world-understanding impact.",
           "observeNext": [
-            "Any additional filings showing continued AI/tech trading",
-            "Any ethics inquiry or formal political response",
-            "Any policy move later tied to these holdings"
+            "Storm impacts in California and other west-coast regions",
+            "Extreme weather in other El Niño-sensitive regions",
+            "Infrastructure stress and policy responses globally"
           ]
         },
         "zh": {
-          "label": "今日未形成新结构性洞察",
-          "decisionTitle": "现有证据不足以支持新的结构性判断",
-          "decisionSummary": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
-          "thresholdReason": "候选人的证据可靠但不独立，其影响由媒体驱动，且没有因果机制将这一披露与AI基础设施或半导体产能等受追踪结构联系起来。",
+          "label": "创纪录厄尔尼诺提前形成",
+          "decisionTitle": "作为独立重要洞察发布",
+          "decisionSummary": "该信号是一个持久、可物理验证的气候事件，具有广泛且复合的二次后果。它不映射到现有的世界进程，因此将作为独立洞察发布。",
+          "thresholdReason": "该候选以74的优先级分数达到发布阈值。它有两个独立可靠的媒体来源（BBC天气和《卫报》）确认核心事实。66的实质性变化分数表明对世界理解有重大影响。",
           "observeNext": [
-            "任何显示持续进行AI/科技交易的额外申报",
-            "任何道德调查或正式政治回应",
-            "任何后来与这些持股相关联的政策举措"
+            "风暴对加利福尼亚和其他西海岸地区的影响",
+            "其他厄尔尼诺敏感地区的极端天气",
+            "全球基础设施压力与政策应对"
           ]
         }
-      },
-      "previousInsightId": "global-2026-09-22-the-strongest-el-nin-o-on-record-is-forming-weeks-before-its-peak"
+      }
     },
     {
       "id": "daily-global-2026-09-22",
@@ -8351,6 +8351,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-24T11:13:49.895Z"
+    "repairedAt": "2026-09-24T11:14:51.941Z"
   }
 }
