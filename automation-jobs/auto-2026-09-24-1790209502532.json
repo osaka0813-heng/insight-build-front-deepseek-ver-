@@ -2,19 +2,19 @@
   "id": "auto-2026-09-24-1790209502532",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "running",
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "publish",
   "createdAt": "2026-09-24T00:25:02.532Z",
   "updatedAt": "2026-09-24T10:09:15.861Z",
   "scopes": {
     "global": {
-      "status": "done",
+      "status": "checkpointed",
       "stage": "publish",
       "attempts": {},
-      "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
+      "message": "Queued for date repair",
       "updatedAt": "2026-09-24T10:09:12.500Z",
       "researchDraft": {
         "ok": true,
@@ -445,7 +445,7 @@
         }
       },
       "writerDraft": {
-        "id": "writer-trump-stock-trades-disclosure-2026-09-1790220239887",
+        "id": "writer-trump-stock-trades-disclosure-2026-09-1790220239887-date-repair-20260924",
         "scope": "global",
         "status": "draft",
         "writtenAt": "2026-09-24T03:23:59.887Z",
@@ -467,7 +467,7 @@
           "scope": "global",
           "slug": "trump-stock-trades-disclosure-2026-09",
           "status": "update_living",
-          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "publishedAt": "2026-09-24T03:00:00.000Z",
           "updatedAt": "2026-09-24T03:23:59.886Z",
           "confidence": "developing",
           "content": {
@@ -698,9 +698,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-23",
+          "id": "daily-global-2026-09-24",
           "scope": "global",
-          "date": "2026-09-23",
+          "date": "2026-09-24",
           "decidedAt": "2026-09-24T03:23:59.887Z",
           "state": "no_new_global_insight",
           "insightId": "global-2026-09-23-when-leadership-trades-in-the-markets-it-governs",
@@ -743,9 +743,7 @@
           "outputTokens": 2482,
           "cachedInputTokens": 1792
         }
-      },
-      "contentVersion": "review-writer-trump-stock-trades-disclosure-2026-09-1790220239887-1790224148123",
-      "completedAt": "2026-09-24T10:09:14.484Z"
+      }
     }
   },
   "preflight": {
@@ -780,6 +778,5 @@
       }
     ]
   },
-  "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
-  "completedAt": "2026-09-24T10:09:14.484Z"
+  "message": "Repairing scheduled edition date"
 }
