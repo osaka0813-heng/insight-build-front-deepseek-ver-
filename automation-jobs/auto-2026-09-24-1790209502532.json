@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:38:06.841Z",
+  "updatedAt": "2026-09-24T12:40:18.354Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -321,5 +321,10 @@
       }
     ]
   },
-  "message": "Re-analyzing with salience correction"
+  "message": "Re-analyzing with salience correction",
+  "lease": {
+    "owner": "cron-1790253617891-ct2ksbp2",
+    "acquiredAt": "2026-09-24T12:40:18.354Z",
+    "expiresAt": "2026-09-24T12:45:08.354Z"
+  }
 }
