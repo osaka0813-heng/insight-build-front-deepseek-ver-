@@ -8,14 +8,14 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T08:03:17.214Z",
+  "updatedAt": "2026-09-24T08:03:18.304Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {},
-      "message": "修复缺失的每日公开记录",
-      "updatedAt": "2026-09-24T06:27:46.800Z",
+      "message": "publish",
+      "updatedAt": "2026-09-24T08:03:18.304Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-24-1790214959435",
