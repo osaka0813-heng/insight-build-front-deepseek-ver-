@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:43:03.125Z",
+  "updatedAt": "2026-09-24T12:43:25.390Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -1286,5 +1286,10 @@
       }
     ]
   },
-  "message": "Re-analyzing with salience correction"
+  "message": "Re-analyzing with salience correction",
+  "lease": {
+    "owner": "cron-1790253805137-vmrt8haw",
+    "acquiredAt": "2026-09-24T12:43:25.390Z",
+    "expiresAt": "2026-09-24T12:48:15.390Z"
+  }
 }
