@@ -6,16 +6,96 @@
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T01:54:57.155Z",
+  "updatedAt": "2026-09-24T01:55:59.448Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-24T01:54:57.155Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-24T01:55:59.448Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-24-1790214959435",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-24T01:55:59.435Z",
+        "researchDate": "2026-09-24",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "《GDELT + 出版商RSS》汇总显示，2026年9月23-24日的独立索引中没有任何corroboratedPairs，且宏观金融、产业贸易、能源资源、健康科学等多个采集队列出现超时，因此在本轮可用标题中，几乎找不到两条来自不同出版商、可独立点击并共同支撑同一事实变化的证据。依据规则，不应把单篇报道或搜索线索包装成信号。经均衡扫描后，仅识别出一条仍然满足“至少两个不同出版商、两个真实HTTP(S) URL”的候选：特朗普持股披露同时被BBC和《卫报》覆盖，但两家实质上都转述同一批申报文件，属于同一事件、同一证据来源的转发式报道，证据独立性和结构变化强度有限。其余领域（中国AI数据中心、德国化石燃料退出、英国气候安全报告、OpenAI网络安全工具等）虽有看点多，但在本轮dossier中均无第二条独立可点击来源，故不输出为候选。",
+        "candidates": [
+          {
+            "id": "trump-stock-trades-disclosure-2026-09",
+            "date": "2026-09-23",
+            "domain": "Macro/Finance · Institutions",
+            "tags": [
+              "trump",
+              "stock-trades",
+              "disclosure",
+              "conflict-of-interest",
+              "big-tech",
+              "financial-regulation",
+              "institutions",
+              "united-states"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 61,
+            "novelty": 55,
+            "evidenceStrength": 62,
+            "independentSourceCount": 2,
+            "thesisImpact": 48,
+            "relationshipChange": 42,
+            "stageChange": 35,
+            "contradiction": 60,
+            "content": {
+              "en": {
+                "title": "Trump's July stock trades deepen conflict-of-interest questions around big tech and AI",
+                "coreFact": "BBC reports that Trump revealed millions of dollars' worth of share deals in big tech and AI, while The Guardian reports that filings show he made more than 1,000 July stock trades worth up to $270m. Both accounts trace back to the same disclosure filing rather than to independent investigations.",
+                "whyItMatters": "Trading activity by a sitting president that spans the technology and AI sectors complicates the boundary between public policy toward strategic industries and private financial exposure. It increases scrutiny of how AI and tech policy may intersect with personal assets, even when no improper conduct is established.",
+                "processMatchReason": "No existing World Process fits cleanly. This is a political-financial disclosure and conflict-of-interest signal, not an AI infrastructure, energy security, semiconductor capacity, or technology-control process. Forcing a match into a technology or semiconductor process would misstate the causal mechanism."
+              },
+              "zh": {
+                "title": "特朗普7月股票交易加深围绕大型科技与AI的利益冲突质疑",
+                "coreFact": "BBC报道称，特朗普披露了涉及大型科技公司和AI的数十万美元级别股票交易；《卫报》报道称，申报文件显示他在7月进行了1000多笔股票交易，价值最高达2.7亿美元。两家媒体的核心事实都源自同一批披露文件，而非各自独立调查。",
+                "whyItMatters": "在任总统的交易横跨科技和AI板块，使面向战略产业的公共政策与私人财务敞口之间的边界更加复杂。即使尚未认定任何不当行为，这也会增加外界对AI与科技政策是否与个人资产发生交叉的审视。",
+                "processMatchReason": "现有世界流程均不完全匹配。这是政治-金融披露与利益冲突信号，不是AI基础设施、能源安全、半导体产能或技术管制流程。强行归入技术或半导体流程会误置因果机制。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
+                "url": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-23T16:42:47.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on a disclosure filing showing Trump's share deals in big tech and AI",
+                "id": "trump-stock-trades-disclosure-2026-09-source-1"
+              },
+              {
+                "title": "Trump made over 1,000 July stock trades worth up to $270m, filings reveal",
+                "url": "https://www.theguardian.com/us-news/2026/sep/22/trump-stock-trades-july-filing",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-22T20:13:35.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Guardian reporting on the same July stock-trade filings",
+                "id": "trump-stock-trades-disclosure-2026-09-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "preflight": {
