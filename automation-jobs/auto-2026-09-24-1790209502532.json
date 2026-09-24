@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "write_finalize",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:38:03.935Z",
+  "updatedAt": "2026-09-24T12:38:04.756Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "write_finalize",
       "attempts": {
         "research": 1
       },
-      "message": "已保存 write_zh 断点",
-      "updatedAt": "2026-09-24T12:37:45.616Z",
+      "message": "write_finalize",
+      "updatedAt": "2026-09-24T12:38:04.756Z",
       "candidateCount": 4,
       "selectedCandidateId": "cand-russia-sabotage-europe-infrastructure",
       "researchDraft": {
