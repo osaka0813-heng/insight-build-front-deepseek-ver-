@@ -8,14 +8,14 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T12:31:01.419Z",
+  "updatedAt": "2026-09-24T12:31:02.279Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "research",
       "attempts": {},
-      "message": "Queued for parallel cross-domain research",
-      "updatedAt": "2026-09-24T11:15:44.059Z",
+      "message": "research",
+      "updatedAt": "2026-09-24T12:31:02.279Z",
       "candidateCount": 1,
       "selectedCandidateId": "trump-stock-trades-disclosure-2026-09"
     }
