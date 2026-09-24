@@ -2,19 +2,19 @@
   "id": "auto-2026-09-24-1790209502532",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "completed",
+  "status": "running",
   "date": "2026-09-24",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "complete",
+  "currentStage": "publish",
   "createdAt": "2026-09-24T00:25:02.532Z",
-  "updatedAt": "2026-09-24T06:27:50.077Z",
+  "updatedAt": "2026-09-24T08:03:16.061Z",
   "scopes": {
     "global": {
-      "status": "done",
+      "status": "checkpointed",
       "stage": "publish",
       "attempts": {},
-      "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
+      "message": "修复缺失的每日公开记录",
       "updatedAt": "2026-09-24T06:27:46.800Z",
       "researchDraft": {
         "ok": true,
@@ -780,6 +780,5 @@
       }
     ]
   },
-  "message": "今日未形成新结构性洞察的编辑结论已发布，保留最近一篇有效 Insight。",
-  "completedAt": "2026-09-24T06:27:48.895Z"
+  "message": "重新发布缺失的每日观察"
 }
