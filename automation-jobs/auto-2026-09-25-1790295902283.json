@@ -2,20 +2,20 @@
   "id": "auto-2026-09-25-1790295902283",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-25",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-25T00:25:02.283Z",
-  "updatedAt": "2026-09-25T04:29:05.758Z",
+  "updatedAt": "2026-09-25T04:29:10.980Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-25T04:29:05.758Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-25T04:29:10.980Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-25-1790301386100",
@@ -613,7 +613,7 @@
           "scope": "global",
           "slug": "media-access-judicial-defiance",
           "status": "publish_new",
-          "publishedAt": "2026-09-25T00:00:00.000Z",
+          "publishedAt": "2026-09-25T03:00:00.000Z",
           "updatedAt": "2026-09-25T03:23:59.540Z",
           "confidence": "verified",
           "content": {
@@ -911,7 +911,10 @@
           "outputTokens": 2271,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "insightId": "global-2026-09-25-court-orders-vs-access-denied",
+      "contentVersion": "publish-global-2026-09-25-court-orders-vs-access-denied-1790310548692",
+      "completedAt": "2026-09-25T04:29:10.980Z"
     }
   },
   "preflight": {
@@ -946,10 +949,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790310544302-xk8xaef5",
     "acquiredAt": "2026-09-25T04:29:04.737Z",
     "expiresAt": "2026-09-25T04:33:54.737Z"
-  }
+  },
+  "completedAt": "2026-09-25T04:29:10.980Z"
 }
