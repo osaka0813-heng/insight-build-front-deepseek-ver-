@@ -2,13 +2,13 @@
   "id": "auto-2026-09-25-1790295902283",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-09-25",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "preflight",
+  "currentStage": "research",
   "createdAt": "2026-09-25T00:25:02.283Z",
-  "updatedAt": "2026-09-25T00:25:05.508Z",
+  "updatedAt": "2026-09-25T00:25:08.358Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -22,5 +22,38 @@
     "owner": "cron-1790295902001-8j8xex4a",
     "acquiredAt": "2026-09-25T00:25:05.508Z",
     "expiresAt": "2026-09-25T00:29:55.508Z"
-  }
+  },
+  "preflight": {
+    "ok": true,
+    "checkedAt": "2026-09-25T00:25:08.351Z",
+    "contentVersion": "publish-global-2026-09-23-the-uk-s-age-verification-regime-moves-from-rules-to-enforcement-as-ofco-1790253809075",
+    "repository": "osaka0813-heng/insight-build-front-deepseek-ver-",
+    "checks": [
+      {
+        "id": "environment",
+        "label": "环境变量",
+        "ok": true,
+        "detail": "DEEPSEEK_API_KEY:OK · RESEARCH_API_TOKEN:OK · PUBLISH_API_TOKEN:OK · GITHUB_TOKEN:OK · GITHUB_OWNER:OK · GITHUB_REPO:OK"
+      },
+      {
+        "id": "github-read",
+        "label": "GitHub 内容读取",
+        "ok": true,
+        "detail": "osaka0813-heng/insight-build-front-deepseek-ver- · remote-content.json"
+      },
+      {
+        "id": "content-schema",
+        "label": "内容结构与引用",
+        "ok": true,
+        "detail": "结构通过；0 条警告。"
+      },
+      {
+        "id": "backup-write",
+        "label": "备份写入权限",
+        "ok": true,
+        "detail": "backups/remote-content/2026-09-25T00-25-07-619Z-preflight-probe-1790295907619.json"
+      }
+    ]
+  },
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
 }
