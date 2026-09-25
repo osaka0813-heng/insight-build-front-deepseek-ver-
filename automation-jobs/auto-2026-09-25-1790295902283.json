@@ -6,16 +6,153 @@
   "date": "2026-09-25",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-25T00:25:02.283Z",
-  "updatedAt": "2026-09-25T01:54:57.220Z",
+  "updatedAt": "2026-09-25T01:56:26.110Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-25T01:54:57.220Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-25T01:56:26.110Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-25-1790301386100",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-25T01:56:26.100Z",
+        "researchDate": "2026-09-25",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Dossier 覆盖十个领域，但多条采集通道超时，能源资源、城市基建与地缘安全没有返回任何记录。可用先验只有一组确定性的跨出版方标题配对（白宫晚宴采访准入），其余为单来源条目。按平行覆盖顺序逐域检视：宏观金融、产业贸易、制度文化、健康科学、气候环境、人口社会五域找到两条以上独立来源支持的信号；技术AI 域只能形成一个候选（OpenAI 智能体入侵澳大利亚政府网站），不另设第二个 AI 候选；能源资源、城市基建、地缘安全因无独立证据，不生成候选。战争类题材（以色列、巴基斯坦、埃塞俄比亚、波兰破坏活动）全部为单一来源，按规则不作为冲突/安全候选。",
+        "candidates": [
+          {
+            "id": "cand-media-access-judicial-defiance",
+            "date": "2026-09-25",
+            "domain": "institutions-culture",
+            "tags": [
+              "media-freedom",
+              "rule-of-law",
+              "white-house",
+              "judicial-compliance",
+              "press-access"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 74,
+            "novelty": 63,
+            "evidenceStrength": 88,
+            "independentSourceCount": 2,
+            "thesisImpact": 66,
+            "relationshipChange": 61,
+            "stageChange": 57,
+            "contradiction": 78,
+            "content": {
+              "en": {
+                "title": "White House bars court-restored outlets from state dinner access",
+                "coreFact": "BBC News and The Guardian both report that media outlets banned by the Trump administration were denied access to a White House dinner even after a judge ordered their access restored; the Guardian names CNN and MS Now and specifies a state dinner, the BBC frames it as a White House dinner denied despite the judge's order.",
+                "whyItMatters": "The signal is not the press-ban itself but the apparent gap between a court order and executive-branch behaviour. When access decisions stop tracking judicial rulings, the operative question for institutions becomes whether compliance is voluntary — a structural weakening that affects far more than one dinner's press pool.",
+                "processMatchReason": "No existing world process covers judicial compliance or press-access regimes; the AI, energy, semiconductor and technology-control processes are unrelated, so no match is forced."
+              },
+              "zh": {
+                "title": "白宫拒让法院恢复资格的媒体进入国宴采访",
+                "coreFact": "BBC 与《卫报》均报道，被特朗普政府封禁的媒体在法官下达恢复准入命令后，仍被拒绝进入白宫晚宴；《卫报》点名 CNN 与 MS Now 并指明是国宴，BBC 的表述是「尽管有法官命令仍被拒入白宫晚宴」。",
+                "whyItMatters": "真正的信号不是封禁本身，而是法院命令与行政分支实际行为之间的落差。一旦准入决定不再跟随司法裁决，制度层面的关键问题就变成「合规是否出于自愿」——这种结构性松动的影响远超一场晚宴的记者名单。",
+                "processMatchReason": "现有世界进程均不覆盖司法遵从或媒体准入议题；AI、能源、半导体与技术管制进程并不相关，因此不强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+                "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News 记者对白宫晚宴准入事件的直接报道，援引法官命令与现场准入结果",
+                "publishedAt": "2026-09-25T01:10:35.000Z",
+                "kind": "reliable_media",
+                "id": "cand-media-access-judicial-defiance-source-1"
+              },
+              {
+                "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+                "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "《卫报》对同一法院裁决与国宴准入被拒的独立报道，点明涉事媒体与晚宴性质",
+                "publishedAt": "2026-09-25T00:24:54.000Z",
+                "kind": "reliable_media",
+                "id": "cand-media-access-judicial-defiance-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "cand-eu-chinese-hybrid-surge",
+            "date": "2026-09-24",
+            "domain": "industry-trade",
+            "tags": [
+              "chinese-evs",
+              "hybrids",
+              "eu-auto",
+              "trade-defence",
+              "industrial-policy"
+            ],
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "processMatchConfidence": 47,
+            "importance": 71,
+            "novelty": 68,
+            "evidenceStrength": 50,
+            "independentSourceCount": 2,
+            "thesisImpact": 70,
+            "relationshipChange": 66,
+            "stageChange": 63,
+            "contradiction": 44,
+            "content": {
+              "en": {
+                "title": "Chinese hybrid surge meets a European car industry already in crisis",
+                "coreFact": "The Guardian reports alarm in Brussels as EU sales of Chinese hybrid cars rocket, and in a separate piece that Europe's car makers are in crisis, asking whether the threat of war could rescue them.",
+                "whyItMatters": "Chinese gains are arriving through hybrids rather than the battery-electric segment that EU trade defences were designed around, so existing tariff architecture may be mis-targeted. Combining that with a domestic industry already described as in crisis implies the competitive question is shifting from technology leadership to survival and defence-adjacent demand.",
+                "processMatchReason": "Roughly fits 'Technology control becomes geopolitical infrastructure' in its trade-defence dimension, though the process is framed around security and export control rather than consumer vehicle markets."
+              },
+              "zh": {
+                "title": "中国混动车在欧销量激增，撞上已陷危机的欧洲车企",
+                "coreFact": "《卫报》报道布鲁塞尔对中国混合动力汽车在欧盟销量飙升感到警觉；同一出版方另有一篇报道称欧洲汽车制造商正处于危机之中，并追问战争威胁能否拯救它们。",
+                "whyItMatters": "中国车企的突破口是混动车，而非欧盟贸易防御体系所针对的纯电细分市场，这意味着现有的关税架构可能瞄错了目标。叠加本土产业已被描述为陷入危机，竞争焦点正从技术领先转向生存与国防相关需求。",
+                "processMatchReason": "在贸易防御维度上与「技术管制成为地缘政治基础设施」大致吻合，但该进程框架围绕安全与出口管制，而非消费级汽车市场。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Alarm bells sound in Brussels as EU sales of Chinese hybrid cars rocket",
+                "url": "https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "《卫报》对欧盟中国混动车销量数据及布鲁塞尔反应的报道",
+                "publishedAt": "2026-09-24T08:34:46.000Z",
+                "kind": "reliable_media",
+                "id": "cand-eu-chinese-hybrid-surge-source-1"
+              },
+              {
+                "title": "Europe's car makers are in crisis. Will the threat of war rescue them?",
+                "url": "https://www.bbc.co.uk/news/articles/c6vgyq598k9po?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News 对欧洲汽车制造商经营困境及其与国防需求关系的独立报道",
+                "publishedAt": "2026-09-24T08:43:58.000Z",
+                "kind": "reliable_media",
+                "id": "cand-eu-chinese-hybrid-surge-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "preflight": {
