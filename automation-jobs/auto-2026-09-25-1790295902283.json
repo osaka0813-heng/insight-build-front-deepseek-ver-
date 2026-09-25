@@ -6,16 +6,16 @@
   "date": "2026-09-25",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_finalize",
+  "currentStage": "publish",
   "createdAt": "2026-09-25T00:25:02.283Z",
-  "updatedAt": "2026-09-25T03:23:58.101Z",
+  "updatedAt": "2026-09-25T03:23:59.551Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_finalize",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {},
-      "message": "write_finalize",
-      "updatedAt": "2026-09-25T03:23:58.101Z",
+      "message": "已保存 write_finalize 断点",
+      "updatedAt": "2026-09-25T03:23:59.551Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-25-1790301386100",
@@ -590,6 +590,326 @@
           "input_tokens_details": {
             "cached_tokens": 640
           }
+        }
+      },
+      "writerDraft": {
+        "id": "writer-cand-media-access-judicial-defiance-1790306639541",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-09-25T03:23:59.541Z",
+        "researchDraftId": "research-global-2026-09-25-1790301386100",
+        "candidateId": "cand-media-access-judicial-defiance",
+        "model": "deepseek-v4-pro + deepseek-flash",
+        "dailyState": "publish_new",
+        "qualityChecks": {
+          "publishThresholdMet": true,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": []
+        },
+        "insight": {
+          "id": "global-2026-09-25-court-orders-vs-access-denied",
+          "scope": "global",
+          "slug": "media-access-judicial-defiance",
+          "status": "publish_new",
+          "publishedAt": "2026-09-25T00:00:00.000Z",
+          "updatedAt": "2026-09-25T03:23:59.540Z",
+          "confidence": "verified",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "New Process Candidate",
+                "secondaryEyebrow": "Institutional Compliance",
+                "title": "Court Orders vs. Access Denied",
+                "summary": "When judicial rulings no longer align with executive branch behavior, institutions must confront a structural gap in compliance."
+              },
+              "question": {
+                "lead": "The White House denied access to a state dinner for media outlets, despite a federal judge ordering their access restored. The significance lies not in the ban itself, but in the apparent disconnect between a court order and real-world behavior.",
+                "title": "Is Executive Compliance with Court Orders Becoming Voluntary?",
+                "footnote": "This question examines whether access decisions are decoupling from judicial rulings, with implications for all institutional actors."
+              },
+              "signals": {
+                "title": "Signals of Judicial Defiance",
+                "sourceNote": "Two independent reliable sources reported on the same incident on September 25, 2026.",
+                "items": [
+                  {
+                    "id": "cand-media-access-judicial-defiance-signal-1",
+                    "label": "Signal 1",
+                    "title": "White House Dinner Denial Despite Judge's Order",
+                    "body": "Media outlets banned by the Trump administration were denied access to a White House dinner even after a judge ordered their access restored. CNN and MS Now were named by The Guardian; the BBC reported the denial despite the judge's order without naming outlets.",
+                    "whyImportant": "This indicates a potential gap between judicial rulings and executive branch action, raising questions about voluntary compliance and institutional stability.",
+                    "evidence": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-evidence-1",
+                        "title": "BBC and Guardian Reporting",
+                        "description": "Both sources independently confirmed that access was denied despite a judicial order to restore it.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-media-access-judicial-defiance-source-1",
+                          "cand-media-access-judicial-defiance-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-source-1",
+                        "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-25T01:10:35.000Z",
+                        "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      },
+                      {
+                        "id": "cand-media-access-judicial-defiance-source-2",
+                        "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-25T00:24:54.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-media-access-judicial-defiance-signal-2",
+                    "label": "Signal 2",
+                    "title": "Specific Outlet Details",
+                    "body": "The Guardian specified CNN and MS Now as the outlets denied access to the state dinner, while the BBC framed the event as a White House dinner without naming outlets.",
+                    "whyImportant": "Named outlets strengthen the evidence and highlight the targeted nature of the denial.",
+                    "evidence": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-evidence-2",
+                        "title": "Guardian Specifics",
+                        "description": "The Guardian article identified the outlets and the type of event, providing specific details.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-media-access-judicial-defiance-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-source-2",
+                        "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-25T00:24:54.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "From Judicial Ruling to Operational Reality",
+                "before": "Judicial rulings were presumptively binding, with executive agencies expected to comply as a matter of routine.",
+                "shift": "The White House denied access despite a judge's order, signaling a potential shift where compliance may be treated as discretionary.",
+                "now": "Institutions face uncertainty about whether court orders will be honored, creating a structural weakness in the rule of law.",
+                "conclusion": "This pattern suggests a breakdown in the normative expectation of compliance, with far-reaching consequences for institutional trust."
+              },
+              "insight": {
+                "title": "Compliance as a Structural Variable",
+                "formula": "Court order + access denial = potential voluntary compliance regime",
+                "explanation": "When access decisions stop tracking judicial rulings, the underlying assumption of institutional compliance is undermined, affecting all actors who rely on predictable enforcement."
+              },
+              "observe": {
+                "title": "What to Observe Next",
+                "items": [
+                  {
+                    "label": "Future Access Incidents",
+                    "prompt": "Monitor whether similar denials occur for other federal events or venues.",
+                    "meta": "Frequency and scope of non-compliance"
+                  },
+                  {
+                    "label": "Legal Enforcement Responses",
+                    "prompt": "Track whether courts issue contempt or other enforcement orders, and how the executive branch responds.",
+                    "meta": "Escalation or resolution"
+                  },
+                  {
+                    "label": "Press Independence Impact",
+                    "prompt": "Assess how media outlets adapt to restricted access and whether it affects their reporting.",
+                    "meta": "Chilling effect or resilience"
+                  }
+                ],
+                "ending": "If this pattern continues, it may signal a broader shift where executive actions operate outside the expected boundaries of judicial oversight."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "新进程候选",
+                "secondaryEyebrow": "制度合规",
+                "title": "法院命令与拒绝准入",
+                "summary": "当司法裁决不再与行政部门行为一致时，各机构必须面对合规方面的结构性缺口。"
+              },
+              "question": {
+                "lead": "尽管联邦法官下令恢复媒体机构的准入，白宫仍拒绝其参加国宴。其意义不在于禁令本身，而在于法院命令与现实行为之间明显的脱节。",
+                "title": "行政部门对法院命令的遵守是否正变得出于自愿？",
+                "footnote": "这一问题审视准入决定是否正与司法裁决脱钩，并对所有制度参与者产生影响。"
+              },
+              "signals": {
+                "title": "司法抗命的信号",
+                "sourceNote": "两家独立可靠来源于2026年9月25日报道了同一事件。",
+                "items": [
+                  {
+                    "id": "cand-media-access-judicial-defiance-signal-1",
+                    "label": "信号一",
+                    "title": "法官下令后白宫仍拒绝国宴准入",
+                    "body": "被特朗普政府禁止的媒体机构即便在法官下令恢复准入后，仍被拒绝参加白宫国宴。《卫报》点名了CNN和MS Now；BBC报道称尽管有法官命令仍遭拒绝，但未点名相关媒体。",
+                    "whyImportant": "这表明司法裁决与行政部门行动之间可能存在落差，令人质疑自愿遵守与制度稳定性。",
+                    "evidence": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-evidence-1",
+                        "title": "BBC与《卫报》的报道",
+                        "description": "两家来源均独立证实，尽管有司法命令要求恢复采访权限，采访仍被拒绝。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-media-access-judicial-defiance-source-1",
+                          "cand-media-access-judicial-defiance-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-source-1",
+                        "title": "Media outlets banned by Trump denied access to White House dinner despite judge's order",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-25T01:10:35.000Z",
+                        "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      },
+                      {
+                        "id": "cand-media-access-judicial-defiance-source-2",
+                        "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-25T00:24:54.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-media-access-judicial-defiance-signal-2",
+                    "label": "信号二",
+                    "title": "具体媒体细节",
+                    "body": "《卫报》明确指出CNN和MS Now是被拒绝进入国宴的媒体，而BBC则将活动描述为白宫晚宴，未点明媒体名称。",
+                    "whyImportant": "点名媒体强化了证据，并凸显拒绝行为的针对性。",
+                    "evidence": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-evidence-2",
+                        "title": "《卫报》的具体内容",
+                        "description": "《卫报》文章指出了相关媒体和活动类型，提供了具体细节。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-media-access-judicial-defiance-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-media-access-judicial-defiance-source-2",
+                        "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-25T00:24:54.000Z",
+                        "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "从司法裁决到实际执行",
+                "before": "司法裁决本应具有约束力，行政部门机构理应照章遵守。",
+                "shift": "白宫无视法官命令拒绝采访，显示可能出现转变，即是否遵守可能被视为可自行裁量。",
+                "now": "机构面临法院命令是否会被遵守的不确定性，形成法治的结构性弱点。",
+                "conclusion": "这一模式表明合规的规范性预期出现崩塌，对制度信任产生深远影响。"
+              },
+              "insight": {
+                "title": "合规作为结构性变量",
+                "formula": "法院命令＋拒绝准入＝潜在的自愿合规体制",
+                "explanation": "当准入决定不再跟随司法裁决时，机构合规的基本假定受到削弱，影响所有依赖可预测执行的行为者。"
+              },
+              "observe": {
+                "title": "接下来应观察什么",
+                "items": [
+                  {
+                    "label": "未来的准入事件",
+                    "prompt": "监测其他联邦活动或场所是否出现类似拒绝。",
+                    "meta": "不遵守的频率与范围"
+                  },
+                  {
+                    "label": "法律执行回应",
+                    "prompt": "追踪法院是否发出藐视法庭或其他执行命令，以及行政部门如何回应。",
+                    "meta": "升级还是化解"
+                  },
+                  {
+                    "label": "新闻独立影响",
+                    "prompt": "评估媒体机构如何应对受限的采访渠道，以及这是否影响其报道。",
+                    "meta": "寒蝉效应还是韧性"
+                  }
+                ],
+                "ending": "如果这一模式持续下去，可能预示着更广泛的转变：行政行动游走于司法监督的预期边界之外。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-09-25",
+          "scope": "global",
+          "date": "2026-09-25",
+          "decidedAt": "2026-09-25T03:23:59.541Z",
+          "state": "publish_new",
+          "insightId": "global-2026-09-25-court-orders-vs-access-denied",
+          "materialChangeScore": 72,
+          "evidenceStrength": 88,
+          "noveltyScore": 63,
+          "importanceScore": 74,
+          "candidateSignalIds": [
+            "cand-media-access-judicial-defiance"
+          ],
+          "content": {
+            "en": {
+              "label": "Publish New Insight",
+              "decisionTitle": "New Process Candidate: Institutional Compliance",
+              "decisionSummary": "The evidence is strong and the pattern novel, warranting the creation of a new process hypothesis to track judicial compliance and press-access dynamics.",
+              "thresholdReason": "Two independent reliable sources confirm the event, and the structural implications are broad and durable.",
+              "observeNext": [
+                "Any further denials of access despite court orders",
+                "Federal court enforcement actions or rulings on compliance",
+                "Public statements from the administration regarding adherence to judicial mandates"
+              ]
+            },
+            "zh": {
+              "label": "发布新洞察",
+              "decisionTitle": "新流程候选：机构合规",
+              "decisionSummary": "证据充分且模式新颖，值得创建新的流程假设，以追踪司法合规与新闻采访渠道的动态。",
+              "thresholdReason": "两个独立可靠来源证实了该事件，其结构性影响广泛而持久。",
+              "observeNext": [
+                "任何无视法院命令而进一步拒绝采访的行为",
+                "联邦法院的执法行动或关于合规的裁决",
+                "政府就遵守司法指令所作的公开表态"
+              ]
+            }
+          }
+        },
+        "provider": "deepseek",
+        "pipeline": "build014-one-world-v1",
+        "usage": {
+          "inputTokens": 4798,
+          "outputTokens": 2271,
+          "cachedInputTokens": 1792
         }
       }
     }
