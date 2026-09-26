@@ -2,20 +2,20 @@
   "id": "auto-2026-09-26-1790382302471",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-26",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-26T00:25:02.471Z",
-  "updatedAt": "2026-09-26T04:29:05.120Z",
+  "updatedAt": "2026-09-26T04:29:10.980Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-26T04:29:05.120Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-26T04:29:10.980Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-26-1790387780166",
@@ -947,7 +947,7 @@
           "scope": "global",
           "slug": "rapid-brain-tumour-test-diagnosis-weeks-to-hours",
           "status": "publish_new",
-          "publishedAt": "2026-09-25T00:00:00.000Z",
+          "publishedAt": "2026-09-26T03:00:00.000Z",
           "updatedAt": "2026-09-26T03:23:59.579Z",
           "confidence": "verified",
           "content": {
@@ -1222,9 +1222,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-25",
+          "id": "daily-global-2026-09-26",
           "scope": "global",
-          "date": "2026-09-25",
+          "date": "2026-09-26",
           "decidedAt": "2026-09-26T03:23:59.579Z",
           "state": "publish_new",
           "insightId": "cand-brain-tumour-rapid-test",
@@ -1267,7 +1267,10 @@
           "outputTokens": 3033,
           "cachedInputTokens": 2304
         }
-      }
+      },
+      "insightId": "cand-brain-tumour-rapid-test",
+      "contentVersion": "publish-cand-brain-tumour-rapid-test-1790396948634",
+      "completedAt": "2026-09-26T04:29:10.980Z"
     }
   },
   "preflight": {
@@ -1302,10 +1305,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790396944046-91o3m1ut",
     "acquiredAt": "2026-09-26T04:29:04.271Z",
     "expiresAt": "2026-09-26T04:33:54.271Z"
-  }
+  },
+  "completedAt": "2026-09-26T04:29:10.980Z"
 }
