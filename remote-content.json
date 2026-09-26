@@ -1,8 +1,287 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T04:29:07.559Z",
-  "contentVersion": "publish-global-2026-09-25-court-orders-vs-access-denied-1790310548692",
+  "generatedAt": "2026-09-26T04:29:07.172Z",
+  "contentVersion": "publish-cand-brain-tumour-rapid-test-1790396948634",
   "insights": [
+    {
+      "id": "cand-brain-tumour-rapid-test",
+      "scope": "global",
+      "slug": "rapid-brain-tumour-test-diagnosis-weeks-to-hours",
+      "status": "publish_new",
+      "publishedAt": "2026-09-26T03:00:00.000Z",
+      "updatedAt": "2026-09-26T04:29:07.172Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Diagnostic capacity",
+            "secondaryEyebrow": "Health systems · UK",
+            "title": "A brain tumour test that turns eight weeks of waiting into two hours",
+            "summary": "A new rapid diagnostic test is compressing brain tumour diagnosis from roughly eight weeks to about two hours in UK hospitals, a step-function change that could reshape treatment pathways, referral economics and patient outcomes."
+          },
+          "question": {
+            "lead": "Diagnostic latency is one of the most hidden structural bottlenecks in cancer care: patients wait weeks for a definitive answer while tumours grow and anxiety compounds. What changes when that wait collapses from weeks to a single clinical encounter?",
+            "title": "What happens when the wait for a diagnosis shrinks from weeks to hours?",
+            "footnote": "Evidence drawn from two independent UK media reports published within a day of each other."
+          },
+          "signals": {
+            "title": "Early signals of a diagnostic time-collapse",
+            "sourceNote": "Both trigger sources describe the same UK-based rapid test development, reported independently by the BBC and the Guardian.",
+            "items": [
+              {
+                "id": "cand-brain-tumour-rapid-test-signal-1",
+                "label": "Signal 1",
+                "title": "Diagnosis time falls from eight weeks to two hours",
+                "body": "A new test for brain tumours is reducing the time to reach a diagnosis from approximately eight weeks to around two hours, according to reporting from UK hospitals.",
+                "whyImportant": "A reduction of this magnitude is not incremental optimisation; it is a step-function change that removes the diagnostic-wait bottleneck almost entirely from the patient's experience.",
+                "evidence": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-evidence-1",
+                    "title": "Rapid brain tumour test compresses diagnostic timeline",
+                    "description": "BBC and Guardian both report the same eight-weeks-to-two-hours reduction in UK hospital settings, with near-identical framing of the magnitude of the change.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-brain-tumour-rapid-test-source-1",
+                      "cand-brain-tumour-rapid-test-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-1",
+                    "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-09-24T23:44:00.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-2",
+                    "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-25T11:53:43.000Z",
+                    "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-brain-tumour-rapid-test-signal-2",
+                "label": "Signal 2",
+                "title": "Two independent outlets frame the test as transformative",
+                "body": "The Guardian describes the test as 'gamechanging', while the BBC frames it as a transformation of brain tumour diagnosis, indicating widespread editorial recognition of the shift.",
+                "whyImportant": "Dual-outlet coverage from reliable media suggests the finding is solid enough to shape public and clinical expectation, not a single-source anomaly.",
+                "evidence": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-evidence-2",
+                    "title": "Consistent high-impact framing across outlets",
+                    "description": "Both reliable-media sources independently use transformational language, reinforcing the significance of the reported change.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-brain-tumour-rapid-test-source-1",
+                      "cand-brain-tumour-rapid-test-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-1",
+                    "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-09-24T23:44:00.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-2",
+                    "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-25T11:53:43.000Z",
+                    "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From diagnostic waiting to diagnostic immediacy",
+            "before": "Before this development, a patient with a suspected brain tumour faced a diagnostic pathway of roughly eight weeks — weeks of uncertainty during which the tumour could progress and care planning was necessarily delayed.",
+            "shift": "A new rapid test compresses that pathway to about two hours, moving diagnosis from a multi-week referral-and-scan sequence into what can happen within a single clinical encounter.",
+            "now": "UK hospitals are reporting the rapid test in active use, with treatment decisions able to begin almost immediately after diagnosis rather than after an extended waiting period.",
+            "conclusion": "The diagnostic bottleneck — one of the most durable structural frictions in cancer care — is beginning to dissolve for brain tumours, with direct implications for treatment urgency, referral-system economics and patient experience."
+          },
+          "insight": {
+            "title": "The diagnostic time-collapse insight",
+            "formula": "Compressed diagnostic latency (8 weeks → 2 hours) → earlier treatment-path entry + reduced referral-system load + lower patient anxiety",
+            "explanation": "When the time to reach a definitive diagnosis collapses from weeks to hours, the entire downstream care pathway shifts: patients enter treatment planning sooner, specialist referral systems are relieved of extended uncertainty, and the clinical encounter becomes decisive rather than provisional. The magnitude here — roughly 99.9% reduction in waiting time — marks it as a genuine inflection rather than a marginal improvement."
+          },
+          "observe": {
+            "title": "What to watch next",
+            "items": [
+              {
+                "label": "Adoption",
+                "prompt": "Track whether the rapid test spreads beyond its initial UK hospital sites into routine national and international diagnostic guidelines.",
+                "meta": "Diffusion signals structural rather than pilot-stage change."
+              },
+              {
+                "label": "Outcomes",
+                "prompt": "Look for evidence of measurable improvement in treatment initiation time and survival or quality-of-life outcomes linked to earlier diagnosis.",
+                "meta": "Confirms the test's clinical benefit beyond the headline speed-up."
+              },
+              {
+                "label": "Economics",
+                "prompt": "Watch for cost-effectiveness analyses and changes in specialist referral volumes as faster diagnosis alters the load on neurology and oncology pathways.",
+                "meta": "Reveals whether time-collapse also reshapes system costs."
+              }
+            ],
+            "ending": "The most consequential changes in complex systems are often the quiet removal of a bottleneck. A two-hour diagnosis may mean as much for cancer care as any single drug."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "诊断能力",
+            "secondaryEyebrow": "卫生体系 · 英国",
+            "title": "一项脑肿瘤检测将八周等待缩短为两小时",
+            "summary": "一种新的快速诊断检测正在英国医院将脑肿瘤诊断时间从约八周压缩到约两小时，这一跨越式变化可能重塑治疗路径、转诊经济性和患者结局。"
+          },
+          "question": {
+            "lead": "诊断延迟是癌症诊疗中最隐蔽的结构性瓶颈之一：患者在肿瘤生长、焦虑加剧中等待数周才得到明确答案。当这一等待从数周缩短至一次就诊，会发生什么？",
+            "title": "当诊断等待从数周缩短到数小时，会发生什么？",
+            "footnote": "证据来自相隔一天发布的两篇英国独立媒体报道。"
+          },
+          "signals": {
+            "title": "诊断时间骤缩的早期信号",
+            "sourceNote": "两个触发来源都描述了同一项英国快速检测研发，分别由BBC和《卫报》独立报道。",
+            "items": [
+              {
+                "id": "cand-brain-tumour-rapid-test-signal-1",
+                "label": "信号一",
+                "title": "诊断时间从八周降至两小时",
+                "body": "据英国医院的报道，一种新的脑肿瘤检测将获得诊断的时间从大约八周缩短到约两小时。",
+                "whyImportant": "如此大幅度的缩减并非渐进式优化，而是一种阶跃式变化，几乎将诊断等待这一瓶颈从患者体验中彻底消除。",
+                "evidence": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-evidence-1",
+                    "title": "快速脑肿瘤检测大幅缩短诊断周期",
+                    "description": "BBC与《卫报》均报道了英国医院环境中从八周到两小时的同样缩短，对变化幅度的表述几乎一致。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-brain-tumour-rapid-test-source-1",
+                      "cand-brain-tumour-rapid-test-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-1",
+                    "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-09-24T23:44:00.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-2",
+                    "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-25T11:53:43.000Z",
+                    "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-brain-tumour-rapid-test-signal-2",
+                "label": "信号二",
+                "title": "两家独立媒体将该检测描述为变革性突破",
+                "body": "《卫报》称该检测“具有变革意义”，而BBC则将其描述为脑肿瘤诊断的转变，表明这一变化获得广泛的编辑层面认可。",
+                "whyImportant": "两家可靠媒体的报道表明，该发现足够扎实，足以影响公众与临床预期，并非单一来源的孤例。",
+                "evidence": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-evidence-2",
+                    "title": "各媒体一致采用高影响力表述",
+                    "description": "两家可靠媒体来源均独立使用变革性措辞，进一步强化了所报道变化的重要性。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-brain-tumour-rapid-test-source-1",
+                      "cand-brain-tumour-rapid-test-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-1",
+                    "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-09-24T23:44:00.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "cand-brain-tumour-rapid-test-source-2",
+                    "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-25T11:53:43.000Z",
+                    "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从诊断等待到诊断即时",
+            "before": "在这一进展之前，疑似脑肿瘤患者面临的诊断路径约为八周——数周的不确定期内，肿瘤可能进展，护理规划也不得不推迟。",
+            "shift": "一种新的快速检测将该路径压缩至约两小时，使诊断从长达数周的转诊与扫描流程，转变为可在单次临床就诊内完成。",
+            "now": "英国多家医院报告，该快速检测已投入实际使用，确诊后几乎可立即开始治疗决策，而无需经过漫长的等待期。",
+            "conclusion": "诊断瓶颈——癌症治疗中最顽固的结构性障碍之一——正开始对脑肿瘤消解，这直接影响治疗紧迫性、转诊系统经济性和患者体验。"
+          },
+          "insight": {
+            "title": "诊断时间坍缩的洞见",
+            "formula": "诊断延迟大幅压缩（8周→2小时）→更早进入治疗路径+减轻转诊系统负担+降低患者焦虑",
+            "explanation": "当获得明确诊断的时间从数周坍缩到数小时，整个下游诊疗路径都会改变：患者更早进入治疗规划，专科转诊系统摆脱长期的不确定性，临床就诊也变得具有决定性而非暂时性。这里的幅度——等待时间约减少99.9%——标志着真正的拐点，而非边际改善。"
+          },
+          "observe": {
+            "title": "下一步值得关注",
+            "items": [
+              {
+                "label": "采用",
+                "prompt": "追踪该快速检测是否从最初的英国医院扩展到常规的国家和国际诊断指南。",
+                "meta": "扩散意味着结构性变化，而非试点阶段的变化。"
+              },
+              {
+                "label": "结果",
+                "prompt": "寻找治疗启动时间可测量改善的证据，以及与更早诊断相关的生存或生活质量结果。",
+                "meta": "证实该检测的临床获益超越引人注目的提速。"
+              },
+              {
+                "label": "经济学",
+                "prompt": "关注成本效益分析以及专科转诊量的变化，因为更快的诊断会改变神经科和肿瘤科诊疗路径的负担。",
+                "meta": "揭示时间压缩是否也会重塑系统成本。"
+              }
+            ],
+            "ending": "复杂系统中最重大的变化往往是瓶颈被悄然消除。两小时诊断对癌症诊疗的意义，可能不亚于任何单一药物。"
+          }
+        }
+      }
+    },
     {
       "id": "global-2026-09-25-court-orders-vs-access-denied",
       "scope": "global",
@@ -7255,6 +7534,45 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-26",
+      "scope": "global",
+      "date": "2026-09-26",
+      "decidedAt": "2026-09-26T03:23:59.579Z",
+      "state": "publish_new",
+      "insightId": "cand-brain-tumour-rapid-test",
+      "materialChangeScore": 48,
+      "evidenceStrength": 86,
+      "noveltyScore": 72,
+      "importanceScore": 78,
+      "candidateSignalIds": [
+        "cand-brain-tumour-rapid-test"
+      ],
+      "content": {
+        "en": {
+          "label": "Standalone important insight",
+          "decisionTitle": "Publish as a standalone insight on diagnostic time-collapse",
+          "decisionSummary": "Dual-outlet (BBC + Guardian) reporting of an eight-weeks-to-two-hours reduction in brain tumour diagnosis is a verifiable, high-impact development. It has no natural fit with existing World Processes and is not yet itself a durable structural process, so it is treated as a standalone important insight rather than forced into a process.",
+          "thresholdReason": "Publish threshold met (score 76) on the strength of two independent reliable-media sources describing a step-function diagnostic change. No existing World Process matches diagnostics, so no process link is forced.",
+          "observeNext": [
+            "Watch for diffusion of the rapid test beyond initial UK sites into routine guidelines.",
+            "Watch for outcome data linking earlier diagnosis to survival or quality-of-life improvements.",
+            "Watch for cost-effectiveness and referral-volume shifts as the diagnostic bottleneck eases."
+          ]
+        },
+        "zh": {
+          "label": "独立重要洞见",
+          "decisionTitle": "作为关于诊断时间压缩的独立洞见发布",
+          "decisionSummary": "两家媒体（BBC 和《卫报》）报道脑肿瘤诊断从八周缩短至两小时，这是可核实、影响重大的进展。它与现有世界进程没有自然契合之处，本身也尚不是持久的结构性进程，因此被作为独立重要洞见处理，而非强行归入某一进程。",
+          "thresholdReason": "达到发布门槛（得分 76），依据是两家独立可靠媒体来源描述了阶跃式的诊断变化。现有世界进程均不匹配诊断领域，因此不强行建立进程关联。",
+          "observeNext": [
+            "关注快速检测从英国最初站点扩散到常规指南。",
+            "关注将更早诊断与生存率或生活质量改善相联系的结果数据。",
+            "关注诊断瓶颈缓解带来的成本效益和转诊量变化。"
+          ]
+        }
+      }
+    },
+    {
       "id": "daily-global-2026-09-25",
       "scope": "global",
       "date": "2026-09-25",
@@ -8965,10 +9283,361 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-25T04:29:08.708Z"
+    "repairedAt": "2026-09-26T04:29:08.651Z"
   },
   "researchDrafts": [],
   "writerDrafts": [
+    {
+      "id": "writer-cand-brain-tumour-rapid-test-1790393039579",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-09-26T03:23:59.579Z",
+      "researchDraftId": "research-global-2026-09-26-1790387780166",
+      "candidateId": "cand-brain-tumour-rapid-test",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": false,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "cand-brain-tumour-rapid-test",
+        "scope": "global",
+        "slug": "rapid-brain-tumour-test-diagnosis-weeks-to-hours",
+        "status": "publish_new",
+        "publishedAt": "2026-09-26T03:00:00.000Z",
+        "updatedAt": "2026-09-26T04:29:07.172Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Diagnostic capacity",
+              "secondaryEyebrow": "Health systems · UK",
+              "title": "A brain tumour test that turns eight weeks of waiting into two hours",
+              "summary": "A new rapid diagnostic test is compressing brain tumour diagnosis from roughly eight weeks to about two hours in UK hospitals, a step-function change that could reshape treatment pathways, referral economics and patient outcomes."
+            },
+            "question": {
+              "lead": "Diagnostic latency is one of the most hidden structural bottlenecks in cancer care: patients wait weeks for a definitive answer while tumours grow and anxiety compounds. What changes when that wait collapses from weeks to a single clinical encounter?",
+              "title": "What happens when the wait for a diagnosis shrinks from weeks to hours?",
+              "footnote": "Evidence drawn from two independent UK media reports published within a day of each other."
+            },
+            "signals": {
+              "title": "Early signals of a diagnostic time-collapse",
+              "sourceNote": "Both trigger sources describe the same UK-based rapid test development, reported independently by the BBC and the Guardian.",
+              "items": [
+                {
+                  "id": "cand-brain-tumour-rapid-test-signal-1",
+                  "label": "Signal 1",
+                  "title": "Diagnosis time falls from eight weeks to two hours",
+                  "body": "A new test for brain tumours is reducing the time to reach a diagnosis from approximately eight weeks to around two hours, according to reporting from UK hospitals.",
+                  "whyImportant": "A reduction of this magnitude is not incremental optimisation; it is a step-function change that removes the diagnostic-wait bottleneck almost entirely from the patient's experience.",
+                  "evidence": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-evidence-1",
+                      "title": "Rapid brain tumour test compresses diagnostic timeline",
+                      "description": "BBC and Guardian both report the same eight-weeks-to-two-hours reduction in UK hospital settings, with near-identical framing of the magnitude of the change.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-brain-tumour-rapid-test-source-1",
+                        "cand-brain-tumour-rapid-test-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-1",
+                      "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-24T23:44:00.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-2",
+                      "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-25T11:53:43.000Z",
+                      "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-brain-tumour-rapid-test-signal-2",
+                  "label": "Signal 2",
+                  "title": "Two independent outlets frame the test as transformative",
+                  "body": "The Guardian describes the test as 'gamechanging', while the BBC frames it as a transformation of brain tumour diagnosis, indicating widespread editorial recognition of the shift.",
+                  "whyImportant": "Dual-outlet coverage from reliable media suggests the finding is solid enough to shape public and clinical expectation, not a single-source anomaly.",
+                  "evidence": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-evidence-2",
+                      "title": "Consistent high-impact framing across outlets",
+                      "description": "Both reliable-media sources independently use transformational language, reinforcing the significance of the reported change.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-brain-tumour-rapid-test-source-1",
+                        "cand-brain-tumour-rapid-test-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-1",
+                      "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-24T23:44:00.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-2",
+                      "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-25T11:53:43.000Z",
+                      "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From diagnostic waiting to diagnostic immediacy",
+              "before": "Before this development, a patient with a suspected brain tumour faced a diagnostic pathway of roughly eight weeks — weeks of uncertainty during which the tumour could progress and care planning was necessarily delayed.",
+              "shift": "A new rapid test compresses that pathway to about two hours, moving diagnosis from a multi-week referral-and-scan sequence into what can happen within a single clinical encounter.",
+              "now": "UK hospitals are reporting the rapid test in active use, with treatment decisions able to begin almost immediately after diagnosis rather than after an extended waiting period.",
+              "conclusion": "The diagnostic bottleneck — one of the most durable structural frictions in cancer care — is beginning to dissolve for brain tumours, with direct implications for treatment urgency, referral-system economics and patient experience."
+            },
+            "insight": {
+              "title": "The diagnostic time-collapse insight",
+              "formula": "Compressed diagnostic latency (8 weeks → 2 hours) → earlier treatment-path entry + reduced referral-system load + lower patient anxiety",
+              "explanation": "When the time to reach a definitive diagnosis collapses from weeks to hours, the entire downstream care pathway shifts: patients enter treatment planning sooner, specialist referral systems are relieved of extended uncertainty, and the clinical encounter becomes decisive rather than provisional. The magnitude here — roughly 99.9% reduction in waiting time — marks it as a genuine inflection rather than a marginal improvement."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Adoption",
+                  "prompt": "Track whether the rapid test spreads beyond its initial UK hospital sites into routine national and international diagnostic guidelines.",
+                  "meta": "Diffusion signals structural rather than pilot-stage change."
+                },
+                {
+                  "label": "Outcomes",
+                  "prompt": "Look for evidence of measurable improvement in treatment initiation time and survival or quality-of-life outcomes linked to earlier diagnosis.",
+                  "meta": "Confirms the test's clinical benefit beyond the headline speed-up."
+                },
+                {
+                  "label": "Economics",
+                  "prompt": "Watch for cost-effectiveness analyses and changes in specialist referral volumes as faster diagnosis alters the load on neurology and oncology pathways.",
+                  "meta": "Reveals whether time-collapse also reshapes system costs."
+                }
+              ],
+              "ending": "The most consequential changes in complex systems are often the quiet removal of a bottleneck. A two-hour diagnosis may mean as much for cancer care as any single drug."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "诊断能力",
+              "secondaryEyebrow": "卫生体系 · 英国",
+              "title": "一项脑肿瘤检测将八周等待缩短为两小时",
+              "summary": "一种新的快速诊断检测正在英国医院将脑肿瘤诊断时间从约八周压缩到约两小时，这一跨越式变化可能重塑治疗路径、转诊经济性和患者结局。"
+            },
+            "question": {
+              "lead": "诊断延迟是癌症诊疗中最隐蔽的结构性瓶颈之一：患者在肿瘤生长、焦虑加剧中等待数周才得到明确答案。当这一等待从数周缩短至一次就诊，会发生什么？",
+              "title": "当诊断等待从数周缩短到数小时，会发生什么？",
+              "footnote": "证据来自相隔一天发布的两篇英国独立媒体报道。"
+            },
+            "signals": {
+              "title": "诊断时间骤缩的早期信号",
+              "sourceNote": "两个触发来源都描述了同一项英国快速检测研发，分别由BBC和《卫报》独立报道。",
+              "items": [
+                {
+                  "id": "cand-brain-tumour-rapid-test-signal-1",
+                  "label": "信号一",
+                  "title": "诊断时间从八周降至两小时",
+                  "body": "据英国医院的报道，一种新的脑肿瘤检测将获得诊断的时间从大约八周缩短到约两小时。",
+                  "whyImportant": "如此大幅度的缩减并非渐进式优化，而是一种阶跃式变化，几乎将诊断等待这一瓶颈从患者体验中彻底消除。",
+                  "evidence": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-evidence-1",
+                      "title": "快速脑肿瘤检测大幅缩短诊断周期",
+                      "description": "BBC与《卫报》均报道了英国医院环境中从八周到两小时的同样缩短，对变化幅度的表述几乎一致。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-brain-tumour-rapid-test-source-1",
+                        "cand-brain-tumour-rapid-test-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-1",
+                      "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-24T23:44:00.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-2",
+                      "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-25T11:53:43.000Z",
+                      "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-brain-tumour-rapid-test-signal-2",
+                  "label": "信号二",
+                  "title": "两家独立媒体将该检测描述为变革性突破",
+                  "body": "《卫报》称该检测“具有变革意义”，而BBC则将其描述为脑肿瘤诊断的转变，表明这一变化获得广泛的编辑层面认可。",
+                  "whyImportant": "两家可靠媒体的报道表明，该发现足够扎实，足以影响公众与临床预期，并非单一来源的孤例。",
+                  "evidence": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-evidence-2",
+                      "title": "各媒体一致采用高影响力表述",
+                      "description": "两家可靠媒体来源均独立使用变革性措辞，进一步强化了所报道变化的重要性。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-brain-tumour-rapid-test-source-1",
+                        "cand-brain-tumour-rapid-test-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-1",
+                      "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-09-24T23:44:00.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    },
+                    {
+                      "id": "cand-brain-tumour-rapid-test-source-2",
+                      "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-09-25T11:53:43.000Z",
+                      "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从诊断等待到诊断即时",
+              "before": "在这一进展之前，疑似脑肿瘤患者面临的诊断路径约为八周——数周的不确定期内，肿瘤可能进展，护理规划也不得不推迟。",
+              "shift": "一种新的快速检测将该路径压缩至约两小时，使诊断从长达数周的转诊与扫描流程，转变为可在单次临床就诊内完成。",
+              "now": "英国多家医院报告，该快速检测已投入实际使用，确诊后几乎可立即开始治疗决策，而无需经过漫长的等待期。",
+              "conclusion": "诊断瓶颈——癌症治疗中最顽固的结构性障碍之一——正开始对脑肿瘤消解，这直接影响治疗紧迫性、转诊系统经济性和患者体验。"
+            },
+            "insight": {
+              "title": "诊断时间坍缩的洞见",
+              "formula": "诊断延迟大幅压缩（8周→2小时）→更早进入治疗路径+减轻转诊系统负担+降低患者焦虑",
+              "explanation": "当获得明确诊断的时间从数周坍缩到数小时，整个下游诊疗路径都会改变：患者更早进入治疗规划，专科转诊系统摆脱长期的不确定性，临床就诊也变得具有决定性而非暂时性。这里的幅度——等待时间约减少99.9%——标志着真正的拐点，而非边际改善。"
+            },
+            "observe": {
+              "title": "下一步值得关注",
+              "items": [
+                {
+                  "label": "采用",
+                  "prompt": "追踪该快速检测是否从最初的英国医院扩展到常规的国家和国际诊断指南。",
+                  "meta": "扩散意味着结构性变化，而非试点阶段的变化。"
+                },
+                {
+                  "label": "结果",
+                  "prompt": "寻找治疗启动时间可测量改善的证据，以及与更早诊断相关的生存或生活质量结果。",
+                  "meta": "证实该检测的临床获益超越引人注目的提速。"
+                },
+                {
+                  "label": "经济学",
+                  "prompt": "关注成本效益分析以及专科转诊量的变化，因为更快的诊断会改变神经科和肿瘤科诊疗路径的负担。",
+                  "meta": "揭示时间压缩是否也会重塑系统成本。"
+                }
+              ],
+              "ending": "复杂系统中最重大的变化往往是瓶颈被悄然消除。两小时诊断对癌症诊疗的意义，可能不亚于任何单一药物。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-09-26",
+        "scope": "global",
+        "date": "2026-09-26",
+        "decidedAt": "2026-09-26T03:23:59.579Z",
+        "state": "publish_new",
+        "insightId": "cand-brain-tumour-rapid-test",
+        "materialChangeScore": 48,
+        "evidenceStrength": 86,
+        "noveltyScore": 72,
+        "importanceScore": 78,
+        "candidateSignalIds": [
+          "cand-brain-tumour-rapid-test"
+        ],
+        "content": {
+          "en": {
+            "label": "Standalone important insight",
+            "decisionTitle": "Publish as a standalone insight on diagnostic time-collapse",
+            "decisionSummary": "Dual-outlet (BBC + Guardian) reporting of an eight-weeks-to-two-hours reduction in brain tumour diagnosis is a verifiable, high-impact development. It has no natural fit with existing World Processes and is not yet itself a durable structural process, so it is treated as a standalone important insight rather than forced into a process.",
+            "thresholdReason": "Publish threshold met (score 76) on the strength of two independent reliable-media sources describing a step-function diagnostic change. No existing World Process matches diagnostics, so no process link is forced.",
+            "observeNext": [
+              "Watch for diffusion of the rapid test beyond initial UK sites into routine guidelines.",
+              "Watch for outcome data linking earlier diagnosis to survival or quality-of-life improvements.",
+              "Watch for cost-effectiveness and referral-volume shifts as the diagnostic bottleneck eases."
+            ]
+          },
+          "zh": {
+            "label": "独立重要洞见",
+            "decisionTitle": "作为关于诊断时间压缩的独立洞见发布",
+            "decisionSummary": "两家媒体（BBC 和《卫报》）报道脑肿瘤诊断从八周缩短至两小时，这是可核实、影响重大的进展。它与现有世界进程没有自然契合之处，本身也尚不是持久的结构性进程，因此被作为独立重要洞见处理，而非强行归入某一进程。",
+            "thresholdReason": "达到发布门槛（得分 76），依据是两家独立可靠媒体来源描述了阶跃式的诊断变化。现有世界进程均不匹配诊断领域，因此不强行建立进程关联。",
+            "observeNext": [
+              "关注快速检测从英国最初站点扩散到常规指南。",
+              "关注将更早诊断与生存率或生活质量改善相联系的结果数据。",
+              "关注诊断瓶颈缓解带来的成本效益和转诊量变化。"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 5503,
+        "outputTokens": 3033,
+        "cachedInputTokens": 2304
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-09-26T04:29:07.172Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "publish_new"
+      },
+      "approvedAt": "2026-09-26T04:29:07.172Z"
+    },
     {
       "id": "writer-cand-media-access-judicial-defiance-1790306639541",
       "scope": "global",
