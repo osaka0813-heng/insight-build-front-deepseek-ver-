@@ -6,16 +6,16 @@
   "date": "2026-09-26",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-26T00:25:02.471Z",
-  "updatedAt": "2026-09-26T03:01:34.687Z",
+  "updatedAt": "2026-09-26T03:01:54.630Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-09-26T03:01:34.687Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-26T03:01:54.630Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-26-1790387780166",
@@ -683,7 +683,129 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 4,
-      "selectedCandidateId": "cand-brain-tumour-rapid-test"
+      "selectedCandidateId": "cand-brain-tumour-rapid-test",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "cand-brain-tumour-rapid-test",
+          "slug": "rapid-brain-tumour-test-diagnosis-weeks-to-hours",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Diagnostic capacity",
+              "secondaryEyebrow": "Health systems · UK",
+              "title": "A brain tumour test that turns eight weeks of waiting into two hours",
+              "summary": "A new rapid diagnostic test is compressing brain tumour diagnosis from roughly eight weeks to about two hours in UK hospitals, a step-function change that could reshape treatment pathways, referral economics and patient outcomes."
+            },
+            "question": {
+              "lead": "Diagnostic latency is one of the most hidden structural bottlenecks in cancer care: patients wait weeks for a definitive answer while tumours grow and anxiety compounds. What changes when that wait collapses from weeks to a single clinical encounter?",
+              "title": "What happens when the wait for a diagnosis shrinks from weeks to hours?",
+              "footnote": "Evidence drawn from two independent UK media reports published within a day of each other."
+            },
+            "signals": {
+              "title": "Early signals of a diagnostic time-collapse",
+              "sourceNote": "Both trigger sources describe the same UK-based rapid test development, reported independently by the BBC and the Guardian.",
+              "items": [
+                {
+                  "label": "Signal 1",
+                  "title": "Diagnosis time falls from eight weeks to two hours",
+                  "body": "A new test for brain tumours is reducing the time to reach a diagnosis from approximately eight weeks to around two hours, according to reporting from UK hospitals.",
+                  "whyImportant": "A reduction of this magnitude is not incremental optimisation; it is a step-function change that removes the diagnostic-wait bottleneck almost entirely from the patient's experience.",
+                  "evidence": {
+                    "title": "Rapid brain tumour test compresses diagnostic timeline",
+                    "description": "BBC and Guardian both report the same eight-weeks-to-two-hours reduction in UK hospital settings, with near-identical framing of the magnitude of the change.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-brain-tumour-rapid-test-source-1",
+                      "cand-brain-tumour-rapid-test-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Signal 2",
+                  "title": "Two independent outlets frame the test as transformative",
+                  "body": "The Guardian describes the test as 'gamechanging', while the BBC frames it as a transformation of brain tumour diagnosis, indicating widespread editorial recognition of the shift.",
+                  "whyImportant": "Dual-outlet coverage from reliable media suggests the finding is solid enough to shape public and clinical expectation, not a single-source anomaly.",
+                  "evidence": {
+                    "title": "Consistent high-impact framing across outlets",
+                    "description": "Both reliable-media sources independently use transformational language, reinforcing the significance of the reported change.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-brain-tumour-rapid-test-source-1",
+                      "cand-brain-tumour-rapid-test-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From diagnostic waiting to diagnostic immediacy",
+              "before": "Before this development, a patient with a suspected brain tumour faced a diagnostic pathway of roughly eight weeks — weeks of uncertainty during which the tumour could progress and care planning was necessarily delayed.",
+              "shift": "A new rapid test compresses that pathway to about two hours, moving diagnosis from a multi-week referral-and-scan sequence into what can happen within a single clinical encounter.",
+              "now": "UK hospitals are reporting the rapid test in active use, with treatment decisions able to begin almost immediately after diagnosis rather than after an extended waiting period.",
+              "conclusion": "The diagnostic bottleneck — one of the most durable structural frictions in cancer care — is beginning to dissolve for brain tumours, with direct implications for treatment urgency, referral-system economics and patient experience."
+            },
+            "insight": {
+              "title": "The diagnostic time-collapse insight",
+              "formula": "Compressed diagnostic latency (8 weeks → 2 hours) → earlier treatment-path entry + reduced referral-system load + lower patient anxiety",
+              "explanation": "When the time to reach a definitive diagnosis collapses from weeks to hours, the entire downstream care pathway shifts: patients enter treatment planning sooner, specialist referral systems are relieved of extended uncertainty, and the clinical encounter becomes decisive rather than provisional. The magnitude here — roughly 99.9% reduction in waiting time — marks it as a genuine inflection rather than a marginal improvement."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Adoption",
+                  "prompt": "Track whether the rapid test spreads beyond its initial UK hospital sites into routine national and international diagnostic guidelines.",
+                  "meta": "Diffusion signals structural rather than pilot-stage change."
+                },
+                {
+                  "label": "Outcomes",
+                  "prompt": "Look for evidence of measurable improvement in treatment initiation time and survival or quality-of-life outcomes linked to earlier diagnosis.",
+                  "meta": "Confirms the test's clinical benefit beyond the headline speed-up."
+                },
+                {
+                  "label": "Economics",
+                  "prompt": "Watch for cost-effectiveness analyses and changes in specialist referral volumes as faster diagnosis alters the load on neurology and oncology pathways.",
+                  "meta": "Reveals whether time-collapse also reshapes system costs."
+                }
+              ],
+              "ending": "The most consequential changes in complex systems are often the quiet removal of a bottleneck. A two-hour diagnosis may mean as much for cancer care as any single drug."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Standalone important insight",
+            "decisionTitle": "Publish as a standalone insight on diagnostic time-collapse",
+            "decisionSummary": "Dual-outlet (BBC + Guardian) reporting of an eight-weeks-to-two-hours reduction in brain tumour diagnosis is a verifiable, high-impact development. It has no natural fit with existing World Processes and is not yet itself a durable structural process, so it is treated as a standalone important insight rather than forced into a process.",
+            "thresholdReason": "Publish threshold met (score 76) on the strength of two independent reliable-media sources describing a step-function diagnostic change. No existing World Process matches diagnostics, so no process link is forced.",
+            "observeNext": [
+              "Watch for diffusion of the rapid test beyond initial UK sites into routine guidelines.",
+              "Watch for outcome data linking earlier diagnosis to survival or quality-of-life improvements.",
+              "Watch for cost-effectiveness and referral-volume shifts as the diagnostic bottleneck eases."
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Diagnostic time-collapse in cancer care",
+            "description": "A rapid brain tumour test is reducing diagnosis time from about eight weeks to roughly two hours in UK hospitals, as reported independently by the BBC and the Guardian. This is a standalone development in diagnostic capacity with no direct mapping to existing World Processes.",
+            "implication": "If this speed-up proves durable and replicable, it begins to remove diagnostic latency as a structural bottleneck in cancer care — shifting treatment timing, referral-system economics and patient outcomes across health systems."
+          },
+          "nextQuestionEn": "Will this two-hour diagnostic approach extend beyond brain tumours to other cancers, and can the speed-up translate into measurably earlier treatment and better outcomes?",
+          "observeNextEn": [
+            "Whether the rapid test diffuses from initial UK sites into routine national and international diagnostic guidelines",
+            "Whether earlier diagnosis produces measurable gains in treatment initiation time, survival or quality of life",
+            "Whether cost-effectiveness analyses and referral-volume shifts confirm the system-level economic impact",
+            "Whether the same time-collapse approach generalises to other tumour types"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2574,
+          "outputTokens": 1703,
+          "cachedInputTokens": 1664
+        }
+      }
     }
   },
   "preflight": {
