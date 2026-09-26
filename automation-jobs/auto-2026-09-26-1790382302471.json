@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "write_base",
   "createdAt": "2026-09-26T00:25:02.471Z",
-  "updatedAt": "2026-09-26T02:53:24.930Z",
+  "updatedAt": "2026-09-26T02:53:26.052Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -718,10 +718,5 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
-  "lease": {
-    "owner": "cron-1790391194054-burb2fm3",
-    "acquiredAt": "2026-09-26T02:53:14.255Z",
-    "expiresAt": "2026-09-26T02:58:04.255Z"
-  }
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
 }
