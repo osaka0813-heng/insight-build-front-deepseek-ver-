@@ -6,16 +6,16 @@
   "date": "2026-09-26",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-26T00:25:02.471Z",
-  "updatedAt": "2026-09-26T02:53:15.206Z",
+  "updatedAt": "2026-09-26T02:53:24.930Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-09-26T02:53:15.206Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-26T02:53:24.930Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-26-1790387780166",
@@ -287,7 +287,403 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-26-1790387780166",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-26T01:56:20.166Z",
+        "researchDate": "2026-09-26",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "本次扫描覆盖宏观金融、产业贸易、健康科学、气候环境、人口社会、制度文化、技术AI等有证据支撑的领域；能源资源、城市基础设施、地缘安全因采集超时而缺乏可验证证据。依据可核实的两源配对，形成10个候选信号：脑肿瘤快速检测、NHS员工停职、ADHD/自闭症两年等待、OpenAI代理入侵澳政府网站、新泽西数据中心违规发电机罚款、柴油价格飙升与欧盟反制、美中首脑会晤无实质突破、El Niño与全球气候风险、英国法院积压导致性犯罪者释放、俄袭乌克兰数据中心。所有候选均保持至少两个独立发布源。",
+        "candidates": [
+          {
+            "id": "cand-brain-tumour-rapid-test",
+            "date": "2026-09-25",
+            "domain": "health-science",
+            "tags": [
+              "brain-tumour",
+              "diagnostics",
+              "nhs",
+              "rapid-test",
+              "healthcare"
+            ],
+            "processMatchConfidence": 5,
+            "importance": 78,
+            "novelty": 72,
+            "evidenceStrength": 86,
+            "independentSourceCount": 2,
+            "thesisImpact": 68,
+            "relationshipChange": 40,
+            "stageChange": 62,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Rapid brain tumour test cuts diagnosis from eight weeks to two hours",
+                "coreFact": "A new rapid test is transforming brain tumour diagnosis, reducing waiting time from about eight weeks to roughly two hours, according to BBC and Guardian reporting from UK hospitals.",
+                "whyItMatters": "Diagnostic latency is a structural bottleneck in cancer care. A test that compresses weeks of uncertainty into a single clinical encounter can alter treatment pathways, patient outcomes and the economics of specialist referral systems.",
+                "processMatchReason": "No existing world process directly covers diagnostic capacity; not forced."
+              },
+              "zh": {
+                "title": "脑肿瘤快速检测将诊断时间从八周缩短至两小时",
+                "coreFact": "据BBC与《卫报》从英国医院报道，一种新型快速检测正在改变脑肿瘤诊断，将等待时间从约八周压缩到大约两小时。",
+                "whyItMatters": "诊断延迟是癌症治疗中的结构性瓶颈。将数周的不确定性压缩为一次临床接触，可改变治疗路径、患者预后以及专科转诊体系的经济性。",
+                "processMatchReason": "现有世界过程未直接涵盖诊断能力，不做强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+                "url": "https://www.bbc.co.uk/news/articles/cr3wj04d88ywo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC reporting from UK hospitals on the rapid brain tumour diagnostic test",
+                "publishedAt": "2026-09-24T23:44:00.000Z",
+                "kind": "reliable_media",
+                "id": "cand-brain-tumour-rapid-test-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours",
+                "url": "https://www.theguardian.com/society/2026/sep/25/gamechanging-brain-tumour-test-reduces-diagnosis-eight-weeks-two-hours",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on the same UK rapid brain tumour test",
+                "publishedAt": "2026-09-25T11:53:43.000Z",
+                "kind": "reliable_media",
+                "id": "cand-brain-tumour-rapid-test-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-brain-tumour-rapid-test-source-1",
+              "cand-brain-tumour-rapid-test-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 5,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 48,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Strong, dual-outlet (BBC + Guardian) evidence of a genuine diagnostic-capacity transformation: two-hour vs. eight-week latency is a step-function change with real second-order effects on treatment pathways, referral economics and patient outcomes. However this is a health/diagnostics development with no natural fit to existing World Processes (energy, AI, semiconductors, tech-control), and not yet a durable structural process of its own. Best treated as a standalone important insight rather than forced into a process. Preserves 2 independent source URLs.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "No existing World Process match; do not force into process-geopolitical-technology-control",
+                "Single-cycle clinical trial reporting; long-term durability unproven"
+              ],
+              "candidateId": "cand-brain-tumour-rapid-test",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 76
+            }
+          },
+          {
+            "id": "cand-uk-diesel-price-eu-response",
+            "date": "2026-09-25",
+            "domain": "macro-finance",
+            "tags": [
+              "diesel",
+              "fuel-prices",
+              "eu",
+              "trade",
+              "trump"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 72,
+            "importance": 80,
+            "novelty": 62,
+            "evidenceStrength": 78,
+            "independentSourceCount": 2,
+            "thesisImpact": 74,
+            "relationshipChange": 52,
+            "stageChange": 58,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "UK diesel near all-time high; EU warns Trump export ban would hurt both sides",
+                "coreFact": "UK diesel prices are close to an all-time high, with hundreds of Scottish forecourts above £2 a litre, while the EU says Trump’s plan to ban US diesel exports would negatively impact both sides, per BBC and Guardian reporting.",
+                "whyItMatters": "Diesel is a strategic industrial fuel. Simultaneous price stress and export-ban threats show how energy policy is becoming a direct instrument of trade and geopolitical leverage, with immediate cost pass-through to consumers and industry.",
+                "processMatchReason": "Fits energy security as strategic capacity, particularly the intersection of fuel supply, trade policy and geopolitical leverage."
+              },
+              "zh": {
+                "title": "英国柴油价格接近历史高位；欧盟警告特朗普出口禁令将损害双方",
+                "coreFact": "据BBC与《卫报》报道，英国柴油价格接近历史高位，苏格兰数百个加油站价格超过每升2英镑；欧盟表示特朗普禁止美国柴油出口的计划将负面影响双方。",
+                "whyItMatters": "柴油是战略性工业燃料。价格压力与出口禁令威胁同时出现，表明能源政策正成为贸易与地缘博弈的直接工具，成本将迅速转嫁给消费者与工业。",
+                "processMatchReason": "契合能源安全作为战略能力的主题，尤其是燃料供应、贸易政策与地缘杠杆的交汇点。"
+              }
+            },
+            "sources": [
+              {
+                "title": "UK diesel price close to all-time high",
+                "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC reporting on UK diesel price levels",
+                "publishedAt": "2026-09-25T10:50:49.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-diesel-price-eu-response-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Diesel prices exceed £2 a litre at hundreds of forecourts across Scotland",
+                "url": "https://www.bbc.co.uk/news/articles/cr86xn04gxj9o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC reporting on Scottish forecourt diesel prices",
+                "publishedAt": "2026-09-25T21:47:48.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-diesel-price-eu-response-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "EU says Trump’s plan to ban US diesel exports would ‘negatively impact both sides’",
+                "url": "https://www.theguardian.com/business/2026/sep/24/eu-trump-diesel-export-ban-fuel-prices-europe",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on EU response to Trump diesel export ban plan",
+                "publishedAt": "2026-09-24T14:46:44.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-diesel-price-eu-response-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-uk-diesel-price-eu-response-source-1",
+              "cand-uk-diesel-price-eu-response-source-2",
+              "cand-uk-diesel-price-eu-response-source-3"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-energy-security",
+              "processMatchConfidence": 72,
+              "impact": "updates",
+              "dailyState": "update_living",
+              "materialChangeScore": 52,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Directly advances the process-energy-security thesis that reliable energy access is becoming strategic capacity. UK diesel at near-record highs combined with Trump's proposed US diesel export ban and EU warning that it would hurt both sides demonstrates energy policy being wielded as trade/geopolitical leverage with immediate consumer and industrial cost pass-through. This updates the living thesis on the intersection of fuel supply, trade policy and geopolitical leverage.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Evidence origins partly overlap (BBC on price levels, BBC on forecourts) though 2 distinct outlets remain",
+                "Second-order effects on industrial capacity not yet quantified"
+              ],
+              "candidateId": "cand-uk-diesel-price-eu-response",
+              "decisionType": "existing_process_update",
+              "priorityScore": 70
+            }
+          },
+          {
+            "id": "cand-el-nino-supersized-risk",
+            "date": "2026-09-24",
+            "domain": "climate-environment",
+            "tags": [
+              "el-nino",
+              "extreme-weather",
+              "food-security",
+              "climate-risk"
+            ],
+            "processMatchConfidence": 5,
+            "importance": 79,
+            "novelty": 60,
+            "evidenceStrength": 72,
+            "independentSourceCount": 2,
+            "thesisImpact": 70,
+            "relationshipChange": 35,
+            "stageChange": 55,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "Supersized El Niño flagged as lethal combination with human folly",
+                "coreFact": "The Guardian editorial warns that a supersized El Niño, combined with human folly, is a lethal combination; separately, Brazil farmers lost 240 million litres of milk after heat, and extreme heat is affecting workers as a federal rule is frozen.",
+                "whyItMatters": "A strong El Niño amplifies food, energy and health risks across supply chains. The combination of extreme heat, policy paralysis and agricultural losses points to compounding climate vulnerability.",
+                "processMatchReason": "No existing world process directly covers climate oscillation risk; not forced."
+              },
+              "zh": {
+                "title": "超强厄尔尼诺被指与人类愚行形成致命组合",
+                "coreFact": "《卫报》社论警告，超强厄尔尼诺与人类愚行相结合将形成致命组合；另有报道称巴西农民因高温损失2.4亿升牛奶，且联邦高温规则冻结之际工人仍在极端高温下劳作。",
+                "whyItMatters": "强厄尔尼诺会放大供应链中的粮食、能源与健康风险。极端高温、政策停滞与农业损失叠加，指向复合型气候脆弱性。",
+                "processMatchReason": "现有世界过程未直接涵盖气候振荡风险，不做强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "The Guardian view on a supersized El Niño: a natural phenomenon and human folly are a lethal combination | Editorial",
+                "url": "https://www.theguardian.com/commentisfree/2026/sep/24/the-guardian-view-on-a-supersized-el-nino-a-natural-phenomenon-and-human-folly-are-a-lethal-combination",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian editorial board on supersized El Niño and human response",
+                "publishedAt": "2026-09-24T17:37:39.000Z",
+                "kind": "reliable_media",
+                "id": "cand-el-nino-supersized-risk-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Farmers down 240 million litres of milk after heat",
+                "url": "https://www.bbc.co.uk/news/articles/cjvgy7qd20wgo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC reporting on milk losses after heat",
+                "publishedAt": "2026-09-25T05:30:13.000Z",
+                "kind": "reliable_media",
+                "id": "cand-el-nino-supersized-risk-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "‘Your body fights to stay cool’: workers toil in record heat as federal rule frozen",
+                "url": "https://www.theguardian.com/environment/2026/sep/25/extreme-heat-regulations-trump",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on workers in record heat and frozen federal heat rule",
+                "publishedAt": "2026-09-25T11:00:49.000Z",
+                "kind": "reliable_media",
+                "id": "cand-el-nino-supersized-risk-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-el-nino-supersized-risk-source-1",
+              "cand-el-nino-supersized-risk-source-2",
+              "cand-el-nino-supersized-risk-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 5,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 40,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Editorialized framing ('lethal combination with human folly') plus aggregated peripheral items (Brazil milk losses, frozen US heat rule) lack a single coherent structural claim. Climate oscillation risk is important but this is an editorial plus scattered secondary reporting rather than a durable verifiable process pivot. Does not meet the bar for today's single Insight, and no process match.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Primary source is an editorial/opinion piece, weakening verifiable evidence quality",
+                "Multiple loosely-related threads (El Nino, milk loss, heat rule) bundled without a unifying structural fact"
+              ],
+              "candidateId": "cand-el-nino-supersized-risk",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 58
+            }
+          },
+          {
+            "id": "cand-nhs-snooping-suspension",
+            "date": "2026-09-25",
+            "domain": "demographics-society",
+            "tags": [
+              "nhs",
+              "privacy",
+              "patient-records",
+              "suspension",
+              "governance"
+            ],
+            "processMatchConfidence": 5,
+            "importance": 70,
+            "novelty": 64,
+            "evidenceStrength": 82,
+            "independentSourceCount": 2,
+            "thesisImpact": 58,
+            "relationshipChange": 45,
+            "stageChange": 55,
+            "contradiction": 0,
+            "content": {
+              "en": {
+                "title": "NHS England to suspend staff suspected of snooping on patient records",
+                "coreFact": "NHS England will immediately suspend staff suspected of improperly accessing patient records, with its boss saying suspected snooping should lead to immediate suspension, per BBC and Guardian reports.",
+                "whyItMatters": "Patient-record privacy is a foundational trust condition for digital health systems. A shift toward immediate suspension signals tighter internal enforcement and could reshape how NHS bodies balance employee rights, security and public confidence.",
+                "processMatchReason": "No existing world process covers health-data governance; not forced."
+              },
+              "zh": {
+                "title": "英格兰NHS将立即停职涉嫌窥探患者记录的员工",
+                "coreFact": "据BBC与《卫报》报道，英格兰NHS将立即停职涉嫌不当访问患者记录的员工，其负责人称疑似窥探行为应导致立即停职。",
+                "whyItMatters": "患者记录隐私是数字健康系统的基础信任条件。转向立即停职意味着内部执法趋严，可能重塑NHS机构在员工权利、安全与公众信心之间的平衡。",
+                "processMatchReason": "现有世界过程未涵盖健康数据治理，不做强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "NHS to suspend staff suspected of snooping on patient records",
+                "url": "https://www.bbc.co.uk/news/articles/cjr4v9g14vygo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC reporting on NHS England suspension policy for patient-record access",
+                "publishedAt": "2026-09-25T12:47:03.000Z",
+                "kind": "reliable_media",
+                "id": "cand-nhs-snooping-suspension-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "NHS boss says staff suspected of snooping on patients’ records should be suspended immediately",
+                "url": "https://www.theguardian.com/society/2026/sep/25/nhs-england-staff-patient-records-suspended",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on NHS England boss statement on immediate suspension",
+                "publishedAt": "2026-09-25T16:45:48.000Z",
+                "kind": "reliable_media",
+                "id": "cand-nhs-snooping-suspension-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-nhs-snooping-suspension-source-1",
+              "cand-nhs-snooping-suspension-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 5,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 35,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A governance/policy enforcement change within one national health system. Real and dual-sourced, but bounded in scope, lacking breadth of affected systems or durable second-order consequences at a global-process level. Valuable follow-through but not this cycle's single Global Insight.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Narrow institutional scope (NHS England internal policy)",
+                "No clear link to any existing World Process"
+              ],
+              "candidateId": "cand-nhs-snooping-suspension",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 55
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 4,
+      "selectedCandidateId": "cand-brain-tumour-rapid-test"
     }
   },
   "preflight": {
