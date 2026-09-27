@@ -1,8 +1,275 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T04:29:07.172Z",
-  "contentVersion": "publish-cand-brain-tumour-rapid-test-1790396948634",
+  "generatedAt": "2026-09-27T06:27:46.974Z",
+  "contentVersion": "publish-global-2026-09-26-lula-bans-fixed-odds-sports-betting-one-week-before-brazil-s-election-1790490468276",
   "insights": [
+    {
+      "id": "global-2026-09-26-lula-bans-fixed-odds-sports-betting-one-week-before-brazil-s-election",
+      "scope": "global",
+      "slug": "lula-bans-fixed-odds-sports-betting-before-election",
+      "status": "publish_new",
+      "publishedAt": "2026-09-27T03:00:00.000Z",
+      "updatedAt": "2026-09-27T06:27:46.974Z",
+      "confidence": "developing",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Elections & Regulation",
+            "secondaryEyebrow": "Brazil · Digital Gambling",
+            "title": "Lula bans fixed-odds sports betting one week before Brazil's election",
+            "summary": "A sitting president of a major democracy has prohibited a fixed-odds sports betting market immediately before a national vote, redrawing the boundary between election-period regulation, online platform oversight and the gambling economy — with spillover for offshore operators and advertising markets."
+          },
+          "question": {
+            "lead": "What changes when a president bans a large digital-consumption market in the final week of a national election?",
+            "title": "Is the election-week ban on fixed-odds betting an isolated measure, or a structural shift in how democracies regulate digital gambling?",
+            "footnote": "Two reliable-media sources report the same underlying event; treat as a single origin event. Timing one week before the vote raises the possibility of electoral-strategic motivation as well as regulatory intent."
+          },
+          "signals": {
+            "title": "Signals",
+            "sourceNote": "Sources are reliable-media reporting on a shared origin event, plus one context report on offshore operators.",
+            "items": [
+              {
+                "id": "sig-002-signal-1",
+                "label": "Signal 1",
+                "title": "A president bans fixed-odds betting days before the vote",
+                "body": "Brazil's President Lula banned fixed-odds sports betting one week before the country's presidential election, as reported on 26 September 2026.",
+                "whyImportant": "It repositions a large digital-consumption market as a liability to be suppressed in the critical pre-vote window, rather than a tolerated or taxed activity.",
+                "evidence": [
+                  {
+                    "id": "sig-002-evidence-1",
+                    "title": "Presidential ban reported one week before election",
+                    "description": "BBC and Guardian both report Lula's ban on fixed-odds sports betting ahead of the presidential election.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-002-source-1",
+                      "sig-002-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "sig-002-source-1",
+                    "title": "Brazil's Lula bans online gambling ahead of presidential election",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-09-26T15:46:40.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "sig-002-source-2",
+                    "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-26T07:58:05.000Z",
+                    "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-002-signal-2",
+                "label": "Signal 2",
+                "title": "Offshore gambling infrastructure is under simultaneous scrutiny",
+                "body": "A Guardian context report describes a leak exposing the inner workings of offshore gambling firms and the Curacao regulator.",
+                "whyImportant": "It frames the ban within a broader pressure on offshore operators, suggesting the policy shock extends beyond Brazil's borders to the firms that supply betting markets.",
+                "evidence": [
+                  {
+                    "id": "sig-002-evidence-2",
+                    "title": "Casino Secrets leak on offshore firms",
+                    "description": "Guardian reporting on a leak exposing offshore gambling firms and the Curacao-based regulator.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "sig-002-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "sig-002-source-3",
+                    "title": "Vast Casino Secrets leak exposes inner workings of offshore gambling firms",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-26T05:00:28.000Z",
+                    "url": "https://www.theguardian.com/society/2026/sep/26/casino-secrets-leak-offshore-gambling-firms-curacao-regulator",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From tolerated market to election-week liability",
+            "before": "Fixed-odds sports betting operated as a growing, increasingly normalized digital market in Brazil, subject to taxation and advertising expansion rather than prohibition.",
+            "shift": "A president, in the final week before a national election, banned fixed-odds sports betting outright, converting the market into an electoral and regulatory liability rather than a managed revenue stream.",
+            "now": "The ban resets the boundary between election regulation, online platform oversight and the gambling economy in a ~200M-person market, while pressure mounts on offshore operators that supply such betting.",
+            "conclusion": "The election-week ban signals that digital gambling is now a tool of political positioning, not just a consumer market — and its legality can reverse abruptly around votes."
+          },
+          "insight": {
+            "title": "Digital gambling becomes an election instrument",
+            "formula": "Election proximity + large digital gambling market = sudden prohibition as political signal",
+            "explanation": "When a fixed-odds betting market is large enough to carry social and economic weight, its abrupt prohibition in the final week of a national election shows that digital gambling has moved from a regulatory question into the sphere of electoral strategy. The ban converts a managed market into a liability, with second-order consequences for offshore operators, advertising, and consumer behavior."
+          },
+          "observe": {
+            "title": "What to observe next",
+            "items": [
+              {
+                "label": "Follow-through",
+                "prompt": "Does the ban persist after the election, or is it reversed once the vote passes?",
+                "meta": "Distinguishes durable policy from electoral tactics."
+              },
+              {
+                "label": "Offshore response",
+                "prompt": "How do Curacao-registered and other offshore operators restructure supply into, or around, the Brazilian market?",
+                "meta": "Reveals the second-order economic spillover."
+              },
+              {
+                "label": "Advertising shift",
+                "prompt": "Do betting advertising flows and platform policies in Brazil contract permanently?",
+                "meta": "Signals the downstream effect on the ad economy."
+              },
+              {
+                "label": "Cross-border spread",
+                "prompt": "Do other democracies copy election-period gambling bans before their own votes?",
+                "meta": "Tests whether this becomes a template rather than a one-off."
+              }
+            ],
+            "ending": "A single-nation action is significant but premature to elevate into a tracked world process; watch whether the ban persists and whether it is emulated."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "选举与监管",
+            "secondaryEyebrow": "巴西 · 数字赌博",
+            "title": "卢拉在巴西大选前一周禁止固定赔率体育博彩",
+            "summary": "一个大国民主国家的在任总统在全国投票前夕禁止了固定赔率体育博彩市场，重新划定了选举期监管、网络平台监督与博彩经济之间的界限，并对离岸运营商和广告市场产生外溢影响。"
+          },
+          "question": {
+            "lead": "当总统在全国大选最后一周禁止一个庞大的数字消费市场时，会发生什么变化？",
+            "title": "选举周对固定赔率博彩的禁令是一项孤立措施，还是民主国家监管数字赌博的结构性转变？",
+            "footnote": "两家可靠媒体消息源报道了同一底层事件，应视为单一来源事件。在投票前一周实施禁令，既可能出于监管意图，也可能带有选举策略动机。"
+          },
+          "signals": {
+            "title": "信号",
+            "sourceNote": "消息源为可靠媒体对同一来源事件的报道，另有一篇关于离岸运营商的背景报道。",
+            "items": [
+              {
+                "id": "sig-002-signal-1",
+                "label": "信号一",
+                "title": "总统在投票前几天禁止固定赔率博彩",
+                "body": "据2026年9月26日报道，巴西总统卢拉在该国总统选举前一周禁止了固定赔率体育博彩。",
+                "whyImportant": "它把一个庞大的数字消费市场重新定性为在投票前关键窗口期内应被压制的负担，而非一种被容忍或征税的活动。",
+                "evidence": [
+                  {
+                    "id": "sig-002-evidence-1",
+                    "title": "大选前一周报道的总统禁令",
+                    "description": "BBC和《卫报》均报道了卢拉在总统选举前禁止固定赔率体育博彩。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-002-source-1",
+                      "sig-002-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "sig-002-source-1",
+                    "title": "Brazil's Lula bans online gambling ahead of presidential election",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-09-26T15:46:40.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  },
+                  {
+                    "id": "sig-002-source-2",
+                    "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-26T07:58:05.000Z",
+                    "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "sig-002-signal-2",
+                "label": "信号二",
+                "title": "离岸博彩基础设施正同时受到审查",
+                "body": "《卫报》的一篇背景报道描述了揭露离岸博彩公司及库拉索监管机构内部运作的泄密事件。",
+                "whyImportant": "它将禁令置于对离岸运营商更广泛的压力之中，暗示这一政策冲击超出巴西国界，波及为博彩市场提供服务的公司。",
+                "evidence": [
+                  {
+                    "id": "sig-002-evidence-2",
+                    "title": "“赌场机密”泄露离岸公司内幕",
+                    "description": "《卫报》关于泄露离岸博彩公司和库拉索监管机构内幕的报道。",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "sig-002-source-3"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "sig-002-source-3",
+                    "title": "Vast Casino Secrets leak exposes inner workings of offshore gambling firms",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-09-26T05:00:28.000Z",
+                    "url": "https://www.theguardian.com/society/2026/sep/26/casino-secrets-leak-offshore-gambling-firms-curacao-regulator",
+                    "type": "research",
+                    "reliability": "context",
+                    "note": "context source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从被容忍的市场到选举周的负担",
+            "before": "固定赔率体育博彩在巴西曾是一个不断增长、日益常态化的数字市场，受到的是征税和广告扩张，而非禁止。",
+            "shift": "一名总统在全国大选前最后一周彻底禁止了固定赔率体育博彩，使该市场从受管理的收入来源变成选举和监管上的负担。",
+            "now": "该禁令在一个约两亿人的市场中重新划定了选举监管、网络平台监督与博彩经济之间的边界，同时向提供此类投注的离岸运营商施加越来越大的压力。",
+            "conclusion": "选举周禁令表明，数字博彩如今已成为政治定位的工具，而不仅是消费市场——其合法性可能随投票而骤然逆转。"
+          },
+          "insight": {
+            "title": "数字博彩成为选举工具",
+            "formula": "临近选举加剧庞大的数字博彩市场，等于以突然禁令作为政治信号",
+            "explanation": "当固定赔率博彩市场大到足以承载社会与经济分量时，在全国选举最后一周突然禁止它，表明数字博彩已从监管问题进入选举策略范畴。禁令把受管理的市场变为负担，对离岸运营商、广告和消费者行为产生次生影响。"
+          },
+          "observe": {
+            "title": "接下来应观察什么",
+            "items": [
+              {
+                "label": "后续执行",
+                "prompt": "禁令在选举后是否持续，还是投票一过就被撤销？",
+                "meta": "用以区分持久政策与选举策略。"
+              },
+              {
+                "label": "离岸反应",
+                "prompt": "库拉索注册及其他离岸运营商如何重组对巴西市场的供应，或绕开该市场？",
+                "meta": "揭示次生经济外溢。"
+              },
+              {
+                "label": "广告转变",
+                "prompt": "巴西的博彩广告流量和平台政策会永久收缩吗？",
+                "meta": "预示对广告经济的下游影响。"
+              },
+              {
+                "label": "跨境扩散",
+                "prompt": "其他民主国家会在本国选举前效仿选举期赌博禁令吗？",
+                "meta": "检验这是否会成为模板而非一次性事件。"
+              }
+            ],
+            "ending": "单一国家的行动意义重大，但将其提升为受跟踪的全球进程为时过早；观察该禁令是否持续以及是否被效仿。"
+          }
+        }
+      }
+    },
     {
       "id": "cand-brain-tumour-rapid-test",
       "scope": "global",
@@ -7534,6 +7801,47 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-09-27",
+      "scope": "global",
+      "date": "2026-09-27",
+      "decidedAt": "2026-09-27T04:29:06.611Z",
+      "state": "publish_new",
+      "insightId": "global-2026-09-26-lula-bans-fixed-odds-sports-betting-one-week-before-brazil-s-election",
+      "materialChangeScore": 55,
+      "evidenceStrength": 62,
+      "noveltyScore": 76,
+      "importanceScore": 70,
+      "candidateSignalIds": [
+        "sig-002"
+      ],
+      "content": {
+        "en": {
+          "label": "Publish as standalone insight",
+          "decisionTitle": "Standalone important insight",
+          "decisionSummary": "A major democracy's leader banning a large fixed-odds betting market one week before a national election is a durable, structural boundary shift — but a single-nation policy action is premature to elevate into a long-running world process without observing follow-through.",
+          "thresholdReason": "Two verified reliable-media source URLs justify publication; the event is significant but rests on a single origin event, so it is published as an important standalone insight rather than a new process.",
+          "observeNext": [
+            "Whether the ban persists after the election",
+            "How offshore operators restructure around the Brazilian market",
+            "Whether betting advertising and platform policy contract permanently",
+            "Whether other democracies adopt election-period gambling bans"
+          ]
+        },
+        "zh": {
+          "label": "作为独立洞察发布",
+          "decisionTitle": "独立重要洞察",
+          "decisionSummary": "一个主要民主国家的领导人在全国选举前一周禁止大型固定赔率博彩市场，是一次持久的结构性边界转变——但单一国家的政策行动，在未观察后续落实前，将其提升为长期全球进程为时过早。",
+          "thresholdReason": "两个经核实的可靠媒体来源网址支持发布；该事件意义重大，但仅基于单一原始事件，因此作为重要独立洞察发布，而非新进程。",
+          "observeNext": [
+            "禁令在选举后是否持续",
+            "离岸运营商如何围绕巴西市场进行重组",
+            "博彩广告和平台政策是否会永久收缩",
+            "其他民主国家是否会采用选举期赌博禁令"
+          ]
+        }
+      }
+    },
+    {
       "id": "daily-global-2026-09-26",
       "scope": "global",
       "date": "2026-09-26",
@@ -9283,6 +9591,6 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-09-26T04:29:08.651Z"
+    "repairedAt": "2026-09-27T06:27:48.290Z"
   }
 }
