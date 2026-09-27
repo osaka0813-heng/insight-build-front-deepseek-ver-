@@ -6,18 +6,18 @@
   "date": "2026-09-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-27T00:25:02.479Z",
-  "updatedAt": "2026-09-27T03:17:40.002Z",
+  "updatedAt": "2026-09-27T03:18:03.384Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {
         "research": 1
       },
-      "message": "write_base",
-      "updatedAt": "2026-09-27T03:17:40.002Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-27T03:18:03.384Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-27-1790477679355",
@@ -389,7 +389,134 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 2,
-      "selectedCandidateId": "sig-002"
+      "selectedCandidateId": "sig-002",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "lula-bans-fixed-odds-sports-betting-before-election",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Elections & Regulation",
+              "secondaryEyebrow": "Brazil · Digital Gambling",
+              "title": "Lula bans fixed-odds sports betting one week before Brazil's election",
+              "summary": "A sitting president of a major democracy has prohibited a fixed-odds sports betting market immediately before a national vote, redrawing the boundary between election-period regulation, online platform oversight and the gambling economy — with spillover for offshore operators and advertising markets."
+            },
+            "question": {
+              "lead": "What changes when a president bans a large digital-consumption market in the final week of a national election?",
+              "title": "Is the election-week ban on fixed-odds betting an isolated measure, or a structural shift in how democracies regulate digital gambling?",
+              "footnote": "Two reliable-media sources report the same underlying event; treat as a single origin event. Timing one week before the vote raises the possibility of electoral-strategic motivation as well as regulatory intent."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Sources are reliable-media reporting on a shared origin event, plus one context report on offshore operators.",
+              "items": [
+                {
+                  "label": "Signal 1",
+                  "title": "A president bans fixed-odds betting days before the vote",
+                  "body": "Brazil's President Lula banned fixed-odds sports betting one week before the country's presidential election, as reported on 26 September 2026.",
+                  "whyImportant": "It repositions a large digital-consumption market as a liability to be suppressed in the critical pre-vote window, rather than a tolerated or taxed activity.",
+                  "evidence": {
+                    "title": "Presidential ban reported one week before election",
+                    "description": "BBC and Guardian both report Lula's ban on fixed-odds sports betting ahead of the presidential election.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-002-source-1",
+                      "sig-002-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Signal 2",
+                  "title": "Offshore gambling infrastructure is under simultaneous scrutiny",
+                  "body": "A Guardian context report describes a leak exposing the inner workings of offshore gambling firms and the Curacao regulator.",
+                  "whyImportant": "It frames the ban within a broader pressure on offshore operators, suggesting the policy shock extends beyond Brazil's borders to the firms that supply betting markets.",
+                  "evidence": {
+                    "title": "Casino Secrets leak on offshore firms",
+                    "description": "Guardian reporting on a leak exposing offshore gambling firms and the Curacao-based regulator.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "sig-002-source-3"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From tolerated market to election-week liability",
+              "before": "Fixed-odds sports betting operated as a growing, increasingly normalized digital market in Brazil, subject to taxation and advertising expansion rather than prohibition.",
+              "shift": "A president, in the final week before a national election, banned fixed-odds sports betting outright, converting the market into an electoral and regulatory liability rather than a managed revenue stream.",
+              "now": "The ban resets the boundary between election regulation, online platform oversight and the gambling economy in a ~200M-person market, while pressure mounts on offshore operators that supply such betting.",
+              "conclusion": "The election-week ban signals that digital gambling is now a tool of political positioning, not just a consumer market — and its legality can reverse abruptly around votes."
+            },
+            "insight": {
+              "title": "Digital gambling becomes an election instrument",
+              "formula": "Election proximity + large digital gambling market = sudden prohibition as political signal",
+              "explanation": "When a fixed-odds betting market is large enough to carry social and economic weight, its abrupt prohibition in the final week of a national election shows that digital gambling has moved from a regulatory question into the sphere of electoral strategy. The ban converts a managed market into a liability, with second-order consequences for offshore operators, advertising, and consumer behavior."
+            },
+            "observe": {
+              "title": "What to observe next",
+              "items": [
+                {
+                  "label": "Follow-through",
+                  "prompt": "Does the ban persist after the election, or is it reversed once the vote passes?",
+                  "meta": "Distinguishes durable policy from electoral tactics."
+                },
+                {
+                  "label": "Offshore response",
+                  "prompt": "How do Curacao-registered and other offshore operators restructure supply into, or around, the Brazilian market?",
+                  "meta": "Reveals the second-order economic spillover."
+                },
+                {
+                  "label": "Advertising shift",
+                  "prompt": "Do betting advertising flows and platform policies in Brazil contract permanently?",
+                  "meta": "Signals the downstream effect on the ad economy."
+                },
+                {
+                  "label": "Cross-border spread",
+                  "prompt": "Do other democracies copy election-period gambling bans before their own votes?",
+                  "meta": "Tests whether this becomes a template rather than a one-off."
+                }
+              ],
+              "ending": "A single-nation action is significant but premature to elevate into a tracked world process; watch whether the ban persists and whether it is emulated."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish as standalone insight",
+            "decisionTitle": "Standalone important insight",
+            "decisionSummary": "A major democracy's leader banning a large fixed-odds betting market one week before a national election is a durable, structural boundary shift — but a single-nation policy action is premature to elevate into a long-running world process without observing follow-through.",
+            "thresholdReason": "Two verified reliable-media source URLs justify publication; the event is significant but rests on a single origin event, so it is published as an important standalone insight rather than a new process.",
+            "observeNext": [
+              "Whether the ban persists after the election",
+              "How offshore operators restructure around the Brazilian market",
+              "Whether betting advertising and platform policy contract permanently",
+              "Whether other democracies adopt election-period gambling bans"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Election-period digital gambling restriction",
+            "description": "A national leader prohibits fixed-odds sports betting immediately before a presidential election, converting a large digital-consumption market into an electoral and regulatory liability.",
+            "implication": "Digital gambling legality can reverse abruptly around national votes, with spillover for offshore operators, advertising markets, and betting consumer behavior."
+          },
+          "nextQuestionEn": "Does the ban outlast the election, and will other democracies emulate election-period gambling restrictions?",
+          "observeNextEn": [
+            "Does the ban persist after the election, or is it reversed once the vote passes?",
+            "How do Curacao-registered and other offshore operators restructure supply around the Brazilian market?",
+            "Do betting advertising flows and platform policies in Brazil contract permanently?",
+            "Do other democracies copy election-period gambling bans before their own votes?"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2835,
+          "outputTokens": 1572,
+          "cachedInputTokens": 1664
+        }
+      }
     }
   },
   "preflight": {
