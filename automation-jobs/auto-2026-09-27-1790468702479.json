@@ -6,20 +6,172 @@
   "date": "2026-09-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-27T00:25:02.479Z",
-  "updatedAt": "2026-09-27T02:53:15.056Z",
+  "updatedAt": "2026-09-27T02:54:39.365Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {
         "research": 1
       },
-      "message": "research",
-      "updatedAt": "2026-09-27T02:53:15.056Z",
-      "failedStage": "research",
-      "lastError": "Research returned no candidate signals."
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-27T02:54:39.365Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-27-1790477679355",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-27T02:54:39.355Z",
+        "researchDate": "2026-09-27",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Dossier coverage is heavily imbalanced: macro-finance, industry-trade, energy-resources, health-science, technology-ai, urban-infrastructure, geopolitics-security lanes returned few or zero usable records, and no deterministic corroboratedPairs were produced. Independent verification across different publishers is only possible for a small number of stories, and in most of those cases the two records share the same underlying event or announcement, which is flagged honestly in evidenceOrigin. Where an event is documented by three separately-published records on distinct URLs it is surfaced; single-publisher records from the same outlet were not promoted to signals. No fabricated, search-lead or unsupported headline was converted into a candidate.",
+        "candidates": [
+          {
+            "id": "sig-002",
+            "date": "2026-09-26",
+            "domain": "demographics-society",
+            "tags": [
+              "brazil",
+              "gambling",
+              "elections",
+              "regulation",
+              "lula"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 70,
+            "novelty": 76,
+            "evidenceStrength": 62,
+            "independentSourceCount": 2,
+            "thesisImpact": 64,
+            "relationshipChange": 62,
+            "stageChange": 66,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "Lula bans fixed-odds sports betting a week before Brazil's elections",
+                "coreFact": "Brazil's President Lula banned fixed-odds sports betting one week before the country's presidential election, according to BBC and Guardian reporting on 2026-09-26.",
+                "whyItMatters": "A democracy restricting a large digital-consumption market immediately before a national vote changes the boundary between election regulation, online platform oversight and the gambling economy, with spillovers for offshore operators and advertising markets.",
+                "processMatchReason": "No existing world process covers digital gambling regulation or election-period market restrictions; the technology-control process is about export and security policy, so no match is forced."
+              },
+              "zh": {
+                "title": "卢拉在巴西大选前一周禁止固定赔率体育博彩",
+                "coreFact": "据BBC与《卫报》2026年9月26日报道，巴西总统卢拉在总统选举前一周禁止了固定赔率体育博彩。",
+                "whyItMatters": "民主国家在全国投票前限制庞大的数字消费市场，改变了选举监管、在线平台治理与博彩经济之间的边界，并对离岸运营商和广告市场产生外溢影响。",
+                "processMatchReason": "现有世界进程均未覆盖数字博彩监管或选举期市场限制；技术管制进程涉及出口与安全政策，因此不强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Brazil's Lula bans online gambling ahead of presidential election",
+                "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-26T15:46:40.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the Brazilian government's ban decision",
+                "id": "sig-002-source-1"
+              },
+              {
+                "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+                "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-26T07:58:05.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Guardian reporting on the same Brazilian government ban decision (shared origin event, independent publisher)",
+                "id": "sig-002-source-2"
+              },
+              {
+                "title": "Vast Casino Secrets leak exposes inner workings of offshore gambling firms",
+                "url": "https://www.theguardian.com/society/2026/sep/26/casino-secrets-leak-offshore-gambling-firms-curacao-regulator",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-26T05:00:28.000Z",
+                "kind": "context",
+                "evidenceOrigin": "Guardian reporting on the Casino Secrets leak concerning offshore gambling firms and the Curacao regulator",
+                "id": "sig-002-source-3"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "sig-003",
+            "date": "2026-09-26",
+            "domain": "institutions-culture",
+            "tags": [
+              "white-house",
+              "press-access",
+              "media-pool",
+              "cnn",
+              "transparency"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 66,
+            "novelty": 72,
+            "evidenceStrength": 58,
+            "independentSourceCount": 2,
+            "thesisImpact": 60,
+            "relationshipChange": 65,
+            "stageChange": 60,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "White House bars CNN from Air Force One, then restores wider press pool",
+                "coreFact": "The White House barred CNN from travelling with Trump on Air Force One, while the White House television pool resumed after banned news outlets regained access, per BBC and Guardian reporting on 2026-09-25 and 2026-09-26.",
+                "whyItMatters": "Selective exclusion and partial restoration of pooled press access reshapes the institutional norms governing executive-branch transparency and independent reporting, a durable shift in state-media relations rather than a one-off snub.",
+                "processMatchReason": "No existing world process addresses press freedom or executive-media access rules; geopolitical technology control and semiconductor processes are unrelated, so no match is forced."
+              },
+              "zh": {
+                "title": "白宫一度禁止CNN随行空军一号，随后恢复更广泛媒体池",
+                "coreFact": "据BBC与《卫报》2026年9月25日至26日报道，白宫禁止CNN随特朗普乘坐空军一号，此后白宫电视媒体池在被禁媒体重获准入后恢复运作。",
+                "whyItMatters": "对联合采访准入的选择性排斥与部分恢复，改变了行政机构透明度与独立报道的制度规范，是政府与媒体关系的持久性转变，而非一次性冷遇。",
+                "processMatchReason": "现有世界进程未涉及新闻自由或行政与媒体准入规则；地缘技术管制与半导体进程与此无关，故不强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "White House bars CNN from travelling with Trump on Air Force One",
+                "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-26T19:16:14.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the White House decision to exclude CNN from the press pool",
+                "id": "sig-003-source-1"
+              },
+              {
+                "title": "White House television pool resumes after banned news outlets regain access",
+                "url": "https://www.theguardian.com/media/2026/sep/25/trump-media-ban-white-house-pool",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-25T16:03:18.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "Guardian reporting on the resumption of the White House television pool after banned outlets regained access",
+                "id": "sig-003-source-2"
+              },
+              {
+                "title": "White House bars CNN from travelling with Trump on Air Force One",
+                "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-26T19:16:14.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the same press-pool decision (shared origin event with the Guardian record)",
+                "id": "sig-003-source-3"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "preflight": {
