@@ -8,14 +8,18 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-27T00:25:02.479Z",
-  "updatedAt": "2026-09-27T01:54:57.039Z",
+  "updatedAt": "2026-09-27T01:55:55.146Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-27T01:54:57.039Z"
+      "attempts": {
+        "research": 1
+      },
+      "message": "Research returned no candidate signals.",
+      "updatedAt": "2026-09-27T01:55:55.146Z",
+      "failedStage": "research",
+      "lastError": "Research returned no candidate signals."
     }
   },
   "preflight": {
@@ -50,7 +54,7 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "WORLD research 自动重试 1/3",
   "lease": {
     "owner": "cron-1790474096036-pdjqv2da",
     "acquiredAt": "2026-09-27T01:54:56.239Z",
