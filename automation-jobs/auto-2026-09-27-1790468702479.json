@@ -2,22 +2,22 @@
   "id": "auto-2026-09-27-1790468702479",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-27",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-27T00:25:02.479Z",
-  "updatedAt": "2026-09-27T06:27:45.132Z",
+  "updatedAt": "2026-09-27T06:27:50.404Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {
         "research": 1
       },
-      "message": "publish",
-      "updatedAt": "2026-09-27T06:27:45.132Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-27T06:27:50.404Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-27-1790477679355",
@@ -663,7 +663,7 @@
           "scope": "global",
           "slug": "lula-bans-fixed-odds-sports-betting-before-election",
           "status": "publish_new",
-          "publishedAt": "2026-09-26T00:00:00.000Z",
+          "publishedAt": "2026-09-27T03:00:00.000Z",
           "updatedAt": "2026-09-27T04:29:06.611Z",
           "confidence": "developing",
           "content": {
@@ -926,9 +926,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-26",
+          "id": "daily-global-2026-09-27",
           "scope": "global",
-          "date": "2026-09-26",
+          "date": "2026-09-27",
           "decidedAt": "2026-09-27T04:29:06.611Z",
           "state": "publish_new",
           "insightId": "global-2026-09-26-lula-bans-fixed-odds-sports-betting-one-week-before-brazil-s-election",
@@ -973,7 +973,10 @@
           "outputTokens": 2815,
           "cachedInputTokens": 2176
         }
-      }
+      },
+      "insightId": "global-2026-09-26-lula-bans-fixed-odds-sports-betting-one-week-before-brazil-s-election",
+      "contentVersion": "publish-global-2026-09-26-lula-bans-fixed-odds-sports-betting-one-week-before-brazil-s-election-1790490468276",
+      "completedAt": "2026-09-27T06:27:50.404Z"
     }
   },
   "preflight": {
@@ -1008,10 +1011,11 @@
       }
     ]
   },
-  "message": "WORLD research 自动重试 1/3",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790490464038-39ap89w4",
     "acquiredAt": "2026-09-27T06:27:44.238Z",
     "expiresAt": "2026-09-27T06:32:34.238Z"
-  }
+  },
+  "completedAt": "2026-09-27T06:27:50.404Z"
 }
