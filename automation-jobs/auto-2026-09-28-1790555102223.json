@@ -2,20 +2,20 @@
   "id": "auto-2026-09-28-1790555102223",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-28T00:25:02.223Z",
-  "updatedAt": "2026-09-28T04:29:05.328Z",
+  "updatedAt": "2026-09-28T04:29:10.523Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-28T04:29:05.328Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-28T04:29:10.523Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-28-1790560580713",
@@ -947,7 +947,7 @@
           "scope": "global",
           "slug": "bangkok-flood-disaster-2026",
           "status": "publish_new",
-          "publishedAt": "2026-09-27T00:00:00.000Z",
+          "publishedAt": "2026-09-28T03:00:00.000Z",
           "updatedAt": "2026-09-28T03:23:59.763Z",
           "confidence": "verified",
           "content": {
@@ -1178,9 +1178,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-27",
+          "id": "daily-global-2026-09-28",
           "scope": "global",
-          "date": "2026-09-27",
+          "date": "2026-09-28",
           "decidedAt": "2026-09-28T03:23:59.764Z",
           "state": "publish_new",
           "insightId": "ins-bangkok-flood-disaster-2026",
@@ -1223,7 +1223,10 @@
           "outputTokens": 2376,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "insightId": "ins-bangkok-flood-disaster-2026",
+      "contentVersion": "publish-ins-bangkok-flood-disaster-2026-1790569748133",
+      "completedAt": "2026-09-28T04:29:10.523Z"
     }
   },
   "preflight": {
@@ -1258,10 +1261,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790569744060-28upec6w",
     "acquiredAt": "2026-09-28T04:29:04.285Z",
     "expiresAt": "2026-09-28T04:33:54.285Z"
-  }
+  },
+  "completedAt": "2026-09-28T04:29:10.523Z"
 }
