@@ -6,16 +6,16 @@
   "date": "2026-09-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_zh",
+  "currentStage": "write_finalize",
   "createdAt": "2026-09-28T00:25:02.223Z",
-  "updatedAt": "2026-09-28T03:17:40.238Z",
+  "updatedAt": "2026-09-28T03:17:50.267Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_zh",
+      "status": "checkpointed",
+      "stage": "write_finalize",
       "attempts": {},
-      "message": "write_zh",
-      "updatedAt": "2026-09-28T03:17:40.238Z",
+      "message": "已保存 write_zh 断点",
+      "updatedAt": "2026-09-28T03:17:50.267Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-28-1790560580713",
@@ -807,6 +807,123 @@
           "inputTokens": 1994,
           "outputTokens": 1360,
           "cachedInputTokens": 1152
+        }
+      },
+      "writeZh": {
+        "ok": true,
+        "stage": "zh",
+        "language": "zh",
+        "localizedDraft": {
+          "page": {
+            "cover": {
+              "eyebrow": "城市洪水暴露风险",
+              "secondaryEyebrow": "东南亚特大城市紧急状态",
+              "title": "曼谷宣布洪水灾害",
+              "summary": "曼谷宣布洪水灾害，道路被淹，表明这一东南亚特大城市已进入应急状态，并可能对基础设施、保险和供应链产生连锁影响。"
+            },
+            "question": {
+              "lead": "这一突发事件的背后，是关于城市韧性的长期问题。",
+              "title": "曼谷宣布洪水灾害会如何改变东南亚特大城市的风险评估，哪些指标能显示这是否会成为城市气候适应中的结构性转变？",
+              "footnote": "根据2026年9月27日两份独立报道确认。"
+            },
+            "signals": {
+              "title": "洪水灾害信号",
+              "sourceNote": "2026年9月27日发布的两份独立可靠媒体报道。",
+              "items": [
+                {
+                  "label": "触发因素1",
+                  "title": "曼谷道路被淹，宣布洪水灾害",
+                  "body": "BBC新闻报称，曼谷道路被淹，并已宣布洪水灾害。",
+                  "whyImportant": "灾害宣布证实洪水已超出常规管理能力，影响日常生活和经济活动。",
+                  "evidence": {
+                    "title": "BBC新闻报道",
+                    "description": "关于道路被淹和官方灾害宣布的报道。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-bangkok-flood-disaster-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "触发因素2",
+                  "title": "曼谷洪灾——图片报道",
+                  "body": "《卫报》发布图片集，记录洪水的范围和影响。",
+                  "whyImportant": "视觉证据证实了全市洪水的严重程度和波及范围。",
+                  "evidence": {
+                    "title": "《卫报》图片集",
+                    "description": "展示曼谷洪灾的图片集。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-bangkok-flood-disaster-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从预测风险到实际紧急状态",
+              "before": "曼谷的城市洪水风险此前主要通过气候预测和周期性季节性洪水来理解，并在现有基础设施和应急方案内加以管理。",
+              "shift": "道路被淹的灾害宣布表明洪水严重程度已突破阈值，使潜在风险转变为影响整座特大城市的实际紧急状态。",
+              "now": "当前重点是应急响应和损失控制，而基础设施投资、保险覆盖和供应链韧性的长期影响也开始显现。",
+              "conclusion": "该事件使曼谷成为城市严重洪水暴露的典型案例，但其能否成为结构性转变，取决于洪水是否反复发生、政策应对和经济影响。"
+            },
+            "insight": {
+              "title": "急性事件，结构性问题",
+              "formula": "已宣布的灾害 + 特大城市暴露 → 应急行动，可能产生二阶系统性影响",
+              "explanation": "曼谷宣布洪水灾害是一起高影响的急性事件。虽然它尚未构成持久的结构性进程，但引发了对东南亚特大城市抵御日益加剧的气候相关灾害能力的关键疑问。"
+            },
+            "observe": {
+              "title": "后续关注重点",
+              "items": [
+                {
+                  "label": "经济影响",
+                  "prompt": "关注官方对经济损失的估算，以及对关键行业、物流和本地企业造成干扰的情况。",
+                  "meta": "两周内政府机构、行业协会或主要新闻媒体的报道。"
+                },
+                {
+                  "label": "保险应对",
+                  "prompt": "留意主要保险公司或再保险公司就预期索赔、保费调整或该地区洪水风险建模变化发表的声明。",
+                  "meta": "一个月内的行业媒体或财经新闻。"
+                },
+                {
+                  "label": "基础设施调整",
+                  "prompt": "关注曼谷新防洪项目、资金拨付或城市规划法规变化的公告。",
+                  "meta": "三个月内的政府官方发布或主流媒体报道。"
+                }
+              ],
+              "ending": "若这些指标出现，曼谷洪灾可能成为该地区城市气候韧性的转折点。"
+            }
+          },
+          "dailyState": {
+            "label": "发布新的独立洞察",
+            "decisionTitle": "独立重要事件：曼谷洪灾",
+            "decisionSummary": "该候选对象达到发布门槛，因为有两个独立来源的佐证且潜在影响重大。它被归类为独立重要洞察，而非新进程，因为单一事件缺乏足够证据表明存在持久的结构性转变。",
+            "thresholdReason": "证据强度高（两篇可靠媒体报道）。重要性中等（区域影响，尚未构成全球系统性影响）。该信号不符合任何现有进程，但其紧迫性值得独立记录。",
+            "observeNext": [
+              "曼谷和泰国的经济损失估算",
+              "主要保险公司或再保险公司关于洪水风险敞口的声明",
+              "与城市洪水管理相关的新基础设施或政策公告"
+            ]
+          },
+          "processContent": {
+            "title": "无进程关联",
+            "description": "该信号未关联任何现有世界进程，代表一个可能影响城市气候适应的独立事件。",
+            "implication": "缺乏进程关联表明这是一个早期、孤立的信号。未来相关信号或需建立专注于特大城市洪水韧性的新进程。"
+          },
+          "nextQuestion": "这场洪灾是否表明东南亚特大城市存在系统性脆弱性，经济与政策应对又将如何塑造未来的城市韧性？",
+          "observeNext": [
+            "曼谷的经济影响评估与中断指标",
+            "保险与再保险行业对洪水风险上升的应对",
+            "政府和市政基础设施投资公告"
+          ]
+        },
+        "model": "deepseek-flash",
+        "usage": {
+          "input_tokens": 2617,
+          "output_tokens": 1016,
+          "input_tokens_details": {
+            "cached_tokens": 640
+          }
         }
       }
     }
