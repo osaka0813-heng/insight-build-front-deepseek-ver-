@@ -6,16 +6,16 @@
   "date": "2026-09-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-28T00:25:02.223Z",
-  "updatedAt": "2026-09-28T03:01:34.187Z",
+  "updatedAt": "2026-09-28T03:02:39.765Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-09-28T03:01:34.187Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-28T03:02:39.765Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-28-1790560580713",
@@ -689,7 +689,126 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 4,
-      "selectedCandidateId": "sig-bangkok-flood-disaster"
+      "selectedCandidateId": "sig-bangkok-flood-disaster",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "ins-bangkok-flood-disaster-2026",
+          "slug": "bangkok-flood-disaster-2026",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Urban Flood Exposure",
+              "secondaryEyebrow": "Southeast Asia Megacity Emergency",
+              "title": "Bangkok Declares Flood Disaster",
+              "summary": "A declared flood disaster in Bangkok, with roads submerged, signals an operational emergency in a major Southeast Asian megacity, with potential cascading effects on infrastructure, insurance, and supply chains."
+            },
+            "question": {
+              "lead": "The acute event raises a durable question about urban resilience.",
+              "title": "How does a declared flood disaster in Bangkok alter risk calculations for Southeast Asian megacities, and what indicators will reveal whether this becomes a structural shift in urban climate adaptation?",
+              "footnote": "Identified from two independent reports on September 27, 2026."
+            },
+            "signals": {
+              "title": "Flood Disaster Signals",
+              "sourceNote": "Two independent reliable media reports published on 2026-09-27.",
+              "items": [
+                {
+                  "label": "Trigger 1",
+                  "title": "Bangkok roads submerged as flood disaster declared",
+                  "body": "BBC News reports that Bangkok roads were submerged and a flood disaster was declared.",
+                  "whyImportant": "A disaster declaration confirms that flooding has exceeded routine management capacity, impacting daily life and economic activity.",
+                  "evidence": {
+                    "title": "BBC News Report",
+                    "description": "Report of submerged roads and official disaster declaration.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-bangkok-flood-disaster-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Trigger 2",
+                  "title": "Bangkok’s flood disaster – in pictures",
+                  "body": "The Guardian publishes a photo gallery documenting the flood's extent and impacts.",
+                  "whyImportant": "Visual evidence corroborates the severity and reach of the flooding across the city.",
+                  "evidence": {
+                    "title": "The Guardian Photo Gallery",
+                    "description": "Photo gallery depicting the flood disaster in Bangkok.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "sig-bangkok-flood-disaster-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Forecast Risk to Operational Emergency",
+              "before": "Urban flood risks in Bangkok were understood primarily through climate projections and periodic seasonal flooding, managed within existing infrastructure and emergency protocols.",
+              "shift": "A declared disaster with submerged roads indicates that flood severity has breached thresholds, transforming a latent risk into an active operational emergency affecting the entire megacity.",
+              "now": "The immediate focus is on emergency response and damage control, while longer-term implications for infrastructure investment, insurance coverage, and supply chain resilience begin to emerge.",
+              "conclusion": "The event establishes Bangkok as a case study in acute urban flood exposure, but its durability as a structural shift depends on recurrence, policy responses, and economic impacts."
+            },
+            "insight": {
+              "title": "Acute Event, Structural Question",
+              "formula": "Declared disaster + Megacity exposure → Operational emergency with potential for second-order systemic effects",
+              "explanation": "A flood disaster declaration in Bangkok is a high-impact acute event. While it does not yet constitute a durable structural process, it raises critical questions about the resilience of Southeast Asian megacities to intensifying climate-related hazards."
+            },
+            "observe": {
+              "title": "What to Watch Next",
+              "items": [
+                {
+                  "label": "Economic Impact",
+                  "prompt": "Watch for official estimates of economic losses and disruptions to key industries, logistics, and local businesses.",
+                  "meta": "Reports from government agencies, industry associations, or major news outlets within two weeks."
+                },
+                {
+                  "label": "Insurance Response",
+                  "prompt": "Look for statements from major insurers or reinsurers about expected claims, premium adjustments, or changes in flood risk modeling for the region.",
+                  "meta": "Trade press or financial news within one month."
+                },
+                {
+                  "label": "Infrastructure Adjustments",
+                  "prompt": "Monitor announcements of new flood mitigation projects, funding allocations, or changes to urban planning regulations in Bangkok.",
+                  "meta": "Official government releases or major media coverage within three months."
+                }
+              ],
+              "ending": "If these indicators emerge, the Bangkok flood could mark a turning point in urban climate resilience for the region."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Publish New Standalone Insight",
+            "decisionTitle": "Standalone Important Event: Bangkok Flood Disaster",
+            "decisionSummary": "The candidate meets the publish threshold due to corroboration from two independent sources and significant potential impact. It is classified as a standalone important insight, not a new process, because a single event lacks sufficient evidence of a durable structural shift.",
+            "thresholdReason": "Evidence strength is high (two reliable media reports). Importance is moderate (regional impact, not global systemic yet). The signal does not fit any existing process, but its acute nature warrants standalone documentation.",
+            "observeNext": [
+              "Economic loss estimates for Bangkok and Thailand",
+              "Major insurer or reinsurer statements on flood exposure",
+              "New infrastructure or policy announcements related to urban flood management"
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "No Process Link",
+            "description": "This signal is not linked to an existing World Process. It represents a standalone event with potential implications for urban climate adaptation.",
+            "implication": "The absence of a process link emphasizes that this is an early, isolated signal. Future related signals may warrant a new process focused on megacity flood resilience."
+          },
+          "nextQuestionEn": "Does this flood disaster indicate a systemic vulnerability across Southeast Asian megacities, and how will economic and policy responses shape future urban resilience?",
+          "observeNextEn": [
+            "Economic impact assessments and disruption metrics for Bangkok",
+            "Insurance and reinsurance industry responses to increased flood risk",
+            "Government and municipal infrastructure investment announcements"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 1994,
+          "outputTokens": 1360,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
