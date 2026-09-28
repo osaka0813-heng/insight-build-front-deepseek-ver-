@@ -6,16 +6,16 @@
   "date": "2026-09-28",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-28T00:25:02.223Z",
-  "updatedAt": "2026-09-28T02:53:15.224Z",
+  "updatedAt": "2026-09-28T02:53:32.851Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-09-28T02:53:15.224Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-28T02:53:32.851Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-28-1790560580713",
@@ -291,7 +291,405 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-28-1790560580713",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-28T01:56:20.713Z",
+        "researchDate": "2026-09-28",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Balanced scan across macro-finance, industry-trade, health-science, climate-environment, demographics-society, and institutions-culture lanes. Energy-resources, urban-infrastructure, technology-AI, and geopolitics-security lanes returned zero records (collection timeouts), so no candidates are built there. Corroborated cross-publisher pairs on Bangkok floods, Heathrow third runway delay, Burnham social care, and nor'easter storm anchor the strongest signals; remaining candidates are drawn from single-lane records only where a second independent source exists on the same underlying event.",
+        "candidates": [
+          {
+            "id": "sig-bangkok-flood-disaster",
+            "date": "2026-09-27",
+            "domain": "climate-environment",
+            "tags": [
+              "flood",
+              "bangkok",
+              "disaster",
+              "urban",
+              "thailand",
+              "extremeweather"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 74,
+            "novelty": 55,
+            "evidenceStrength": 82,
+            "independentSourceCount": 2,
+            "thesisImpact": 60,
+            "relationshipChange": 40,
+            "stageChange": 65,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "Bangkok declares flood disaster as roads submerge",
+                "coreFact": "Bangkok roads were submerged and a flood disaster was declared, reported independently by BBC News and The Guardian (photo gallery) on 2026-09-27.",
+                "whyItMatters": "A declared disaster in a major Southeast Asian megacity signals that urban flood exposure is now an operational emergency, not a forecasted risk, with implications for regional infrastructure, insurance and supply chains.",
+                "processMatchReason": "No existing World Process covers urban flood disaster response; not forced into an energy or AI frame."
+              },
+              "zh": {
+                "title": "曼谷宣布洪灾，道路被淹",
+                "coreFact": "2026年9月27日，BBC新闻与《卫报》（图片报道）分别报道曼谷道路被淹没并宣布洪灾。",
+                "whyItMatters": "东南亚特大城市宣布灾害状态，意味着城市洪水风险已从预测风险转为实际应急事件，对区域基建、保险与供应链产生连锁影响。",
+                "processMatchReason": "现有世界进程未涵盖城市洪灾应急，未强行归入能源或AI框架。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Bangkok roads submerged as flood disaster declared",
+                "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News firsthand reporting from Bangkok",
+                "publishedAt": "2026-09-27T04:45:08.000Z",
+                "kind": "reliable_media",
+                "id": "sig-bangkok-flood-disaster-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Bangkok’s flood disaster – in pictures",
+                "url": "https://www.theguardian.com/weather/gallery/2026/sep/27/bangkoks-flood-disaster-in-pictures",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "The Guardian photo desk documenting the same flood event",
+                "publishedAt": "2026-09-27T03:27:47.000Z",
+                "kind": "reliable_media",
+                "id": "sig-bangkok-flood-disaster-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "sig-bangkok-flood-disaster-source-1",
+              "sig-bangkok-flood-disaster-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 50,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A declared flood disaster in Bangkok is a concrete, verifiable event reported by two independent outlets. It is significant as an acute climate-adaptation and urban-resilience signal for a major Southeast Asian megacity, with plausible second-order effects on insurance, supply chains and regional infrastructure. It does not fit any existing process and is best treated as a standalone important event rather than a new long-running process, since one flood event does not yet constitute a durable structural thesis. Strong candidate but competes below the selected one on breadth of affected systems and structural durability.",
+              "warnings": [
+                "Single event; durability of the signal uncertain",
+                "No existing process covers it; premature to mint a process from one event"
+              ],
+              "candidateId": "sig-bangkok-flood-disaster",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 62
+            }
+          },
+          {
+            "id": "sig-burnham-universal-social-care",
+            "date": "2026-09-27",
+            "domain": "health-science",
+            "tags": [
+              "socialcare",
+              "nhs",
+              "uk",
+              "policy",
+              "burnham",
+              "labour"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 72,
+            "novelty": 65,
+            "evidenceStrength": 85,
+            "independentSourceCount": 2,
+            "thesisImpact": 62,
+            "relationshipChange": 50,
+            "stageChange": 68,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "Burnham proposes universal free social care tied to NHS model",
+                "coreFact": "Andy Burnham said 'broken social care will in the end break the NHS' and set out a vision for universal free social care, to be fought for at the next election, per BBC News and The Guardian.",
+                "whyItMatters": "Framing social care as inseparable from NHS sustainability moves it from a budget line to a system-level reform proposal, potentially resetting UK health and welfare policy debate.",
+                "processMatchReason": "No existing World Process covers social care system reform; left unmatched."
+              },
+              "zh": {
+                "title": "伯纳姆提出全民免费社会照护，以NHS模式为蓝本",
+                "coreFact": "伯纳姆称“破碎的社会照护终将拖垮NHS”，并提出全民免费社会照护愿景，将在下届大选中作为主张，BBC新闻与《卫报》报道。",
+                "whyItMatters": "将社会照护定义为NHS可持续性的前提，使其从预算项目上升为系统性改革方案，可能重塑英国健康与福利政策辩论。",
+                "processMatchReason": "现有进程未涵盖社会照护制度改革，不作匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "'Broken social care will in the end break the NHS,' says Burnham",
+                "url": "https://www.bbc.co.uk/news/videos/c6ge4lyy9x0no?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "Andy Burnham speech at Labour conference, video via BBC News",
+                "publishedAt": "2026-09-27T09:52:49.000Z",
+                "kind": "reliable_media",
+                "id": "sig-burnham-universal-social-care-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "‘Rip the plaster off’: Andy Burnham sets out vision for universal free social care",
+                "url": "https://www.theguardian.com/politics/2026/sep/27/andy-burnham-sets-out-vision-for-universal-free-social-care",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "The Guardian reporting of Burnham's conference speech",
+                "publishedAt": "2026-09-27T10:00:45.000Z",
+                "kind": "reliable_media",
+                "id": "sig-burnham-universal-social-care-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Andy Burnham to fight next election with plan for NHS-style care service",
+                "url": "https://www.theguardian.com/politics/2026/sep/27/andy-burnham-election-nhs-style-care-service-labour-conference",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "The Guardian political reporting on Burnham's election platform",
+                "publishedAt": "2026-09-27T18:56:22.000Z",
+                "kind": "reliable_media",
+                "id": "sig-burnham-universal-social-care-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "sig-burnham-universal-social-care-source-1",
+              "sig-burnham-universal-social-care-source-2",
+              "sig-burnham-universal-social-care-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 45,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Burnham's proposal to tie universal free social care to NHS sustainability is a domestic policy-platform announcement made at a party conference, aimed at the next election. It has strong evidence (two independent UK outlets) but it is a proposal, not an adopted policy, and its durability is unproven. The underlying framing—that demographic/elder-care fiscal pressure threatens pay-as-you-go health systems—is a long-running structural issue across wealthy economies, but this specific candidate is too narrow (one mayor, one election cycle) to justify a new World Process on its own. It does not match any existing process and should not be force-matched. It cannot be today's single Insight.",
+              "warnings": [
+                "Domestic single-country policy proposal, not yet adopted",
+                "Low durability: contingent on election outcome and party dynamics",
+                "Does not map to any existing World Process; premature to mint a new one from one speech"
+              ],
+              "candidateId": "sig-burnham-universal-social-care",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 58
+            }
+          },
+          {
+            "id": "sig-heathrow-third-runway-delay",
+            "date": "2026-09-27",
+            "domain": "macro-finance",
+            "tags": [
+              "heathrow",
+              "infrastructure",
+              "aviation",
+              "uk",
+              "delay",
+              "planning"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 70,
+            "novelty": 60,
+            "evidenceStrength": 84,
+            "independentSourceCount": 2,
+            "thesisImpact": 58,
+            "relationshipChange": 45,
+            "stageChange": 62,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "Heathrow third runway faces four-year delay as Burnham withholds support",
+                "coreFact": "Heathrow Airport warned the third runway could be delayed by four years, while Greater Manchester Mayor Andy Burnham refused to back the project and dodged questions on it, reported by BBC News and The Guardian.",
+                "whyItMatters": "A flagship UK infrastructure project slipping four years while senior political figures decline to endorse it signals weakening political consensus for large aviation expansion, with knock-on effects for trade capacity and investment planning.",
+                "processMatchReason": "No existing World Process covers aviation infrastructure politics; not matched by force."
+              },
+              "zh": {
+                "title": "希斯罗第三跑道或延期四年，伯纳姆拒绝背书",
+                "coreFact": "希斯罗机场警告第三跑道可能延期四年；大曼彻斯特市长伯纳姆拒绝支持该项目并回避相关问题，BBC新闻与《卫报》均有报道。",
+                "whyItMatters": "英国旗舰基建项目延期四年且高层政治人物拒绝表态，显示大型航空扩建的政治共识正在削弱，进而影响贸易运力与投资规划。",
+                "processMatchReason": "现有进程未涵盖航空基建政治，不作强制匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Heathrow Airport warns third runway could be delayed by four years",
+                "url": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "Heathrow Airport statement reported by BBC News",
+                "publishedAt": "2026-09-26T16:32:42.000Z",
+                "kind": "reliable_media",
+                "id": "sig-heathrow-third-runway-delay-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Andy Burnham refuses to back third runway at Heathrow",
+                "url": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "Andy Burnham public remarks at Labour conference",
+                "publishedAt": "2026-09-27T11:22:32.000Z",
+                "kind": "reliable_media",
+                "id": "sig-heathrow-third-runway-delay-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Burnham dodges questions on Heathrow third runway as project faces four-year delay",
+                "url": "https://www.theguardian.com/environment/2026/sep/27/burham-dodges-questions-heathrow-third-runway-delay",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "The Guardian reporting from Labour conference",
+                "publishedAt": "2026-09-27T15:47:04.000Z",
+                "kind": "reliable_media",
+                "id": "sig-heathrow-third-runway-delay-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "sig-heathrow-third-runway-delay-source-1",
+              "sig-heathrow-third-runway-delay-source-2",
+              "sig-heathrow-third-runway-delay-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 22,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A single national infrastructure project's four-year slippage and one mayor's non-endorsement is a UK planning/permitting story, not a structural global change. It relates to the well-known phenomenon of major infrastructure delays and, at best, brushes against the AI infrastructure and energy processes only insofar as grid/construction capacity is scarce. But there is no demonstrated second-order systemic consequence beyond one project. Failure to meet the threshold for a single global Insight.",
+              "warnings": [
+                "Single-project, single-country scope",
+                "No demonstrated systemic second-order consequence",
+                "Weak topical fit despite suggestedProcessId tags"
+              ],
+              "candidateId": "sig-heathrow-third-runway-delay",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 35
+            }
+          },
+          {
+            "id": "sig-noreaster-east-coast",
+            "date": "2026-09-27",
+            "domain": "climate-environment",
+            "tags": [
+              "storm",
+              "noreaster",
+              "poweroutage",
+              "us-east-coast",
+              "extremeweather",
+              "infrastructure"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 66,
+            "novelty": 45,
+            "evidenceStrength": 80,
+            "independentSourceCount": 2,
+            "thesisImpact": 50,
+            "relationshipChange": 35,
+            "stageChange": 55,
+            "contradiction": 15,
+            "content": {
+              "en": {
+                "title": "Nor'easter batters US east coast, killing one and cutting power",
+                "coreFact": "A nor'easter storm pummelled New York and New Jersey, leaving one dead and causing heavy winds and power outages, reported by BBC News and The Guardian on 2026-09-27.",
+                "whyItMatters": "Simultaneous coastal storm impacts on the densest US corridor reinforce that grid and coastal resilience are becoming recurring operating costs rather than tail risks.",
+                "processMatchReason": "No existing process covers storm-driven grid resilience; left unmatched rather than forced."
+              },
+              "zh": {
+                "title": "东北风暴袭击美国东海岸，致一人死亡并大面积断电",
+                "coreFact": "2026年9月27日，BBC新闻与《卫报》报道：一场东北风暴重创纽约与新泽西，造成一人死亡、强风及大面积停电。",
+                "whyItMatters": "美国人口最密集走廊同时遭受沿海风暴冲击，说明电网与沿海韧性正从尾部风险变为常态化运营成本。",
+                "processMatchReason": "现有进程未涵盖风暴驱动的电网韧性，不作强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "One dead as nor'easter storm pummels New York and New Jersey",
+                "url": "https://www.bbc.co.uk/news/articles/ck1wxxzn5jndo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News reporting of storm casualties and impacts",
+                "publishedAt": "2026-09-27T23:37:26.000Z",
+                "kind": "reliable_media",
+                "id": "sig-noreaster-east-coast-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Nor’easter storm batters US east coast with heavy winds and power outages",
+                "url": "https://www.theguardian.com/us-news/2026/sep/27/noreaster-storm-east-coast-death-power-outages",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "The Guardian US reporting of the same storm event",
+                "publishedAt": "2026-09-27T21:52:59.000Z",
+                "kind": "reliable_media",
+                "id": "sig-noreaster-east-coast-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "sig-noreaster-east-coast-source-1",
+              "sig-noreaster-east-coast-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 18,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A seasonal nor'easter causing localized deaths and power outages is a recurring regional weather event. It adds evidence to the broad theme of grid and coastal resilience costs but introduces no new structural information, no novel relationship change, and duplicative framing with the Bangkok flood candidate. Below the threshold for a single global Insight.",
+              "warnings": [
+                "Recurring seasonal event, low novelty",
+                "Localized US regional impact",
+                "Redundant with broader climate-resilience theme already present in pool"
+              ],
+              "candidateId": "sig-noreaster-east-coast",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 32
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 4,
+      "selectedCandidateId": "sig-bangkok-flood-disaster"
     }
   },
   "preflight": {
