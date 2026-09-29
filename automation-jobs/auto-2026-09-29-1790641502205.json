@@ -2,20 +2,20 @@
   "id": "auto-2026-09-29-1790641502205",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-29T00:25:02.205Z",
-  "updatedAt": "2026-09-29T04:29:05.324Z",
+  "updatedAt": "2026-09-29T04:29:10.549Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-29T04:29:05.324Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-29T04:29:10.549Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-29-1790646993199",
@@ -1053,7 +1053,7 @@
           "scope": "global",
           "slug": "starship-first-orbit",
           "status": "publish_new",
-          "publishedAt": "2026-09-28T00:00:00.000Z",
+          "publishedAt": "2026-09-29T03:00:00.000Z",
           "updatedAt": "2026-09-29T03:23:59.955Z",
           "confidence": "verified",
           "content": {
@@ -1414,9 +1414,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-28",
+          "id": "daily-global-2026-09-29",
           "scope": "global",
-          "date": "2026-09-28",
+          "date": "2026-09-29",
           "decidedAt": "2026-09-29T03:23:59.955Z",
           "state": "publish_new",
           "insightId": "global-2026-09-28-starship-reaches-orbit-for-the-first-time-ending-in-a-fiery-splashdown",
@@ -1461,7 +1461,10 @@
           "outputTokens": 2849,
           "cachedInputTokens": 1920
         }
-      }
+      },
+      "insightId": "global-2026-09-28-starship-reaches-orbit-for-the-first-time-ending-in-a-fiery-splashdown",
+      "contentVersion": "publish-global-2026-09-28-starship-reaches-orbit-for-the-first-time-ending-in-a-fiery-splashdown-1790656148286",
+      "completedAt": "2026-09-29T04:29:10.549Z"
     }
   },
   "preflight": {
@@ -1496,10 +1499,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790656144161-ix88wbsb",
     "acquiredAt": "2026-09-29T04:29:04.414Z",
     "expiresAt": "2026-09-29T04:33:54.414Z"
-  }
+  },
+  "completedAt": "2026-09-29T04:29:10.549Z"
 }
