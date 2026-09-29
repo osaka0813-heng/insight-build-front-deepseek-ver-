@@ -6,16 +6,309 @@
   "date": "2026-09-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-09-29T00:25:02.205Z",
-  "updatedAt": "2026-09-29T01:54:57.205Z",
+  "updatedAt": "2026-09-29T01:56:33.209Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-09-29T01:54:57.205Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-09-29T01:56:33.209Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-29-1790646993199",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-29T01:56:33.199Z",
+        "researchDate": "2026-09-29",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Independent scan of nine evidence-bearing domain lanes from the 2026-09-29 dossier: macro/finance (UK grid investment vehicle, diesel price and export-ban shock, AI labour policy, Apple patent ruling, insurance retreat), industry/trade (US affordability politics, Nvidia security platform plus buyback), energy/resources (via diesel and offshore wind records), health/science (Starship orbital milestone, gene-edited bananas, Florida dengue emergency, pandemic treaty weakening, NHS data breach), climate/environment (Trump clean-car rollback, Alito recusal, atrazine contamination, heat-pump surge, Kelvin wave), demographics/society (Burnham social-care plan, Rayner homelessness powers, GP capacity, abortion salience), institutions/culture (Sydney data centre scrapped, French school protests, South Africa femicide), and geopolitics/security (Yemen front line, Seoul–Kyiv POW row, Iranian and Turkish speech prosecutions). Only the SpaceX Starship pair is deterministically corroborated at headline level; most candidates below rest on multiple unpaired records within a domain that independently describe the same underlying event or decision, and are marked accordingly. No candidate was built where a second independent clickable source could not be verified.",
+        "candidates": [
+          {
+            "id": "cand-starship-first-orbit",
+            "date": "2026-09-28",
+            "domain": "health-science",
+            "tags": [
+              "spacex",
+              "starship",
+              "orbital-launch",
+              "reusability",
+              "spaceflight",
+              "test-flight"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 72,
+            "novelty": 78,
+            "evidenceStrength": 80,
+            "independentSourceCount": 2,
+            "thesisImpact": 55,
+            "relationshipChange": 50,
+            "stageChange": 70,
+            "contradiction": 35,
+            "content": {
+              "en": {
+                "title": "SpaceX's Starship reaches orbit for the first time, ending in a fiery splashdown",
+                "coreFact": "SpaceX's Starship circled Earth for the first time, a milestone cheered at the Texas site, though the flight also involved an engine failure and ended in a fireball during splashdown.",
+                "whyItMatters": "Reaching orbit with a fully reusable super-heavy vehicle is the step that determines whether very large payloads per launch become routine; the engine failure and destructive splashdown show the milestone is progress in an unfinished test campaign rather than a settled capability.",
+                "processMatchReason": "No existing world process matches this; the candidate list covers AI infrastructure, energy security, semiconductor capacity and technology control, none of which describes launch-vehicle reusability. suggestedProcessId is therefore null."
+              },
+              "zh": {
+                "title": "SpaceX星舰首次进入轨道，最终以火球式溅落收场",
+                "coreFact": "SpaceX的星舰首次绕地球飞行，在得州发射场引发欢呼，但本次飞行还出现发动机故障，并以溅落火球结束。",
+                "whyItMatters": "一型完全可重复使用的超重型运载器进入轨道，决定了单次超大规模载荷发射能否成为常态；发动机故障和破坏性溅落表明这是未完成测试进程中的进展，而非已确立的能力。",
+                "processMatchReason": "现有世界进程均不匹配；候选清单涵盖AI基础设施、能源安全、半导体产能与技术管制，没有描述运载器可重复使用的进程，因此suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "‘Starship is in orbit’: cheers go up as huge SpaceX rocket circles Earth for first time",
+                "url": "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian science reporting from the Texas launch site on the Starship orbital test flight",
+                "publishedAt": "2026-09-28T16:23:49.000Z",
+                "kind": "reliable_media",
+                "id": "cand-starship-first-orbit-source-1"
+              },
+              {
+                "title": "The ups and downs of SpaceX's Starship test flights",
+                "url": "https://www.bbc.co.uk/news/videos/c5zjzx49p049o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC video review of the sequence of SpaceX Starship test flights",
+                "publishedAt": "2026-09-27T21:03:42.000Z",
+                "kind": "reliable_media",
+                "id": "cand-starship-first-orbit-source-2"
+              },
+              {
+                "title": "Watch: Starship splashdown ends in fireball",
+                "url": "https://www.bbc.co.uk/news/videos/c6j9xkdvrd94o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC video record of the Starship splashdown",
+                "publishedAt": "2026-09-28T16:28:10.000Z",
+                "kind": "reliable_media",
+                "id": "cand-starship-first-orbit-source-3"
+              },
+              {
+                "title": "Watch: From launch to fiery splashdown, SpaceX's Starship completes orbit test",
+                "url": "https://www.bbc.co.uk/news/videos/c6ge4lp442npo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC video record of launch through splashdown of the Starship orbit test",
+                "publishedAt": "2026-09-28T13:59:06.000Z",
+                "kind": "reliable_media",
+                "id": "cand-starship-first-orbit-source-4"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "cand-uk-flood-uninsurable-homes",
+            "date": "2026-09-28",
+            "domain": "climate-environment",
+            "tags": [
+              "flood-risk",
+              "insurance",
+              "housing",
+              "climate-adaptation",
+              "uk"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 73,
+            "novelty": 66,
+            "evidenceStrength": 74,
+            "independentSourceCount": 2,
+            "thesisImpact": 68,
+            "relationshipChange": 62,
+            "stageChange": 58,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "Warning that more UK homes will become uninsurable because of flood risk",
+                "coreFact": "A warning has been issued that more homes will become uninsurable due to flood risk, published the same day as separate reporting on a community confronting PFAS chemical pollution.",
+                "whyItMatters": "When flood exposure moves properties out of the insurable pool, the loss lands on mortgage lenders, local government and household balance sheets rather than on insurers alone, converting a physical hazard into a durable asset-value and public-finance problem.",
+                "processMatchReason": "No existing world process covers climate adaptation or insurance retreat; the processes listed concern energy, AI, semiconductors and technology control, so suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "警告称更多英国住宅将因洪水风险而无法投保",
+                "coreFact": "有警告指出，更多住宅将因洪水风险而无法投保；同日另有报道讲述一个社区直面PFAS化学污染的经历。",
+                "whyItMatters": "当洪水风险把房产挤出可投保范围时，损失将落在抵押贷款机构、地方政府和家庭资产负债表上，而不仅是保险公司，从而把物理风险转化为持久的资产价值与公共财政问题。",
+                "processMatchReason": "现有世界进程均不涵盖气候适应或保险退出；所列进程涉及能源、AI、半导体与技术管制，因此suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Warning more homes will be uninsurable due to flood risk",
+                "url": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News reporting on warnings about flood-risk uninsurability",
+                "publishedAt": "2026-09-28T23:10:13.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-flood-uninsurable-homes-source-1"
+              },
+              {
+                "title": "‘Are these chemicals in my blood?’ How one community learned the truth about Pfas pollution",
+                "url": "https://www.theguardian.com/environment/2026/sep/28/blackpool-community-pfas-pollution-forever-chemicals",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting from the Blackpool community on PFAS contamination findings",
+                "publishedAt": "2026-09-28T14:54:50.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-flood-uninsurable-homes-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "cand-burnham-nhs-style-social-care",
+            "date": "2026-09-28",
+            "domain": "demographics-society",
+            "tags": [
+              "social-care",
+              "ageing",
+              "uk-politics",
+              "public-services",
+              "labour"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 71,
+            "novelty": 68,
+            "evidenceStrength": 76,
+            "independentSourceCount": 2,
+            "thesisImpact": 64,
+            "relationshipChange": 58,
+            "stageChange": 60,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "Burnham to fight the next election with an NHS-style social care service",
+                "coreFact": "Andy Burnham is to fight the next election with a plan for an NHS-style care service, while the architect of a previous reform, Dilnot, said an NHS-style social care system could take decades, and Rayner is granting councils new homelessness duties to drive social housing.",
+                "whyItMatters": "Elevating social care to an NHS-style entitlement reframes ageing-related care as core national infrastructure rather than a means-tested residual, but the decades-long timeline and the parallel housing push show the binding constraints are workforce and capital, not political commitment alone.",
+                "processMatchReason": "No existing world process covers care, ageing or housing provision; the listed processes are energy, AI, semiconductor and technology-control related, so suggestedProcessId is null."
+              },
+              "zh": {
+                "title": "伯纳姆将以NHS式社会照护服务方案投入下届大选",
+                "coreFact": "安迪·伯纳姆将以建立NHS式照护服务的方案投入下届大选；此前改革的设计者迪尔诺特表示，NHS式社会照护体系可能需要数十年才能建成；同时雷纳正赋予地方议会新的无家可归者职责，以推动社会住房建设。",
+                "whyItMatters": "把社会照护提升为NHS式的普遍权利，将老龄化相关照护重新定义为国家核心基础设施，而非需经济状况审查的残余服务；但数十年的时间表以及并行的住房推进表明，真正的约束是人力和资本，而不仅是政治承诺。",
+                "processMatchReason": "现有世界进程均不涵盖照护、老龄化或住房供给；所列进程与能源、AI、半导体及技术管制相关，因此suggestedProcessId为空。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Andy Burnham to fight next election with plan for NHS-style care service",
+                "url": "https://www.theguardian.com/politics/2026/sep/27/andy-burnham-election-nhs-style-care-service-labour-conference",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian political reporting on Burnham's announced care service plan",
+                "publishedAt": "2026-09-27T18:56:22.000Z",
+                "kind": "reliable_media",
+                "id": "cand-burnham-nhs-style-social-care-source-1"
+              },
+              {
+                "title": "New NHS-style social care system could take decades, Dilnot says",
+                "url": "https://www.bbc.co.uk/news/articles/c83v4qe70r0ko?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "Comments by Andrew Dilnot, author of the earlier social care reform review, reported by BBC News",
+                "publishedAt": "2026-09-28T12:10:54.000Z",
+                "kind": "reliable_media",
+                "id": "cand-burnham-nhs-style-social-care-source-2"
+              },
+              {
+                "title": "Councils to get new homelessness powers in Rayner drive on social housing",
+                "url": "https://www.theguardian.com/society/2026/sep/28/angela-rayner-labour-conference-greater-public-control-housing-england",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian reporting on Rayner's announced homelessness powers for councils",
+                "publishedAt": "2026-09-28T16:00:38.000Z",
+                "kind": "reliable_media",
+                "id": "cand-burnham-nhs-style-social-care-source-3"
+              },
+              {
+                "title": "Burnham has a battle plan, with social care the flagship. Risks lie ahead, but Labour now travels in hope | Polly Toynbee",
+                "url": "https://www.theguardian.com/commentisfree/2026/sep/28/andy-burnham-labour-plan-social-care-hope",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian opinion column assessing the Burnham plan announced at Labour conference",
+                "publishedAt": "2026-09-28T16:21:28.000Z",
+                "kind": "context",
+                "id": "cand-burnham-nhs-style-social-care-source-4"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "cand-uk-grid-investment-body",
+            "date": "2026-09-29",
+            "domain": "macro-finance",
+            "tags": [
+              "electricity-grid",
+              "public-investment",
+              "uk",
+              "infrastructure",
+              "burnham",
+              "energy-bills"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 62,
+            "importance": 68,
+            "novelty": 66,
+            "evidenceStrength": 72,
+            "independentSourceCount": 2,
+            "thesisImpact": 60,
+            "relationshipChange": 55,
+            "stageChange": 52,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "Burnham to unveil a public body to invest in the electricity grid",
+                "coreFact": "Andy Burnham is set to unveil a public body dedicated to investing in the electricity grid, a shift toward greater public control of energy infrastructure.",
+                "whyItMatters": "Directing public capital into network capacity changes who bears grid-build risk and how quickly connections for industry, electrified heating and data loads arrive, but it also adds fiscal and political exposure to a sector whose weakness has already fed household energy-price anger.",
+                "processMatchReason": "The candidate is a direct instance of energy access being built as strategic capacity, matching the energy-security process, though the instrument is public finance rather than generation technology."
+              },
+              "zh": {
+                "title": "伯纳姆将公布投资电网的公共机构",
+                "coreFact": "安迪·伯纳姆将公布一个专门投资电网的公共机构，这标志着能源基础设施向更大程度的公共控制转变。",
+                "whyItMatters": "将公共资本直接投入网络容量，改变了谁承担电网建设风险，也改变了工业、电气化供暖和数据负载接入的速度；但这同时使该行业增加财政与政治敞口，而该行业的薄弱已经引发家庭能源价格的不满。",
+                "processMatchReason": "该候选是能源获取被建设为战略能力的直接实例，与能源安全进程匹配，尽管工具是公共财政而非发电技术。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Burnham to unveil public body to invest in electricity grid",
+                "url": "https://www.bbc.co.uk/news/articles/cqn4k9nypxjro?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News political reporting on the announced public grid investment body",
+                "publishedAt": "2026-09-29T00:40:29.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-grid-investment-body-source-1"
+              },
+              {
+                "title": "Can Labour bring down our energy bills? | Politics Weekly",
+                "url": "https://www.theguardian.com/politics/video/2026/sep/28/can-labour-bring-down-our-energy-bills-politics-weekly",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian Politics Weekly discussion of Labour energy-price policy",
+                "publishedAt": "2026-09-28T21:02:56.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-grid-investment-body-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "preflight": {
