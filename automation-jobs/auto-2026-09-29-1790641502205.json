@@ -6,16 +6,16 @@
   "date": "2026-09-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-29T00:25:02.205Z",
-  "updatedAt": "2026-09-29T03:01:34.206Z",
+  "updatedAt": "2026-09-29T03:02:24.030Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-09-29T03:01:34.206Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-29T03:02:24.030Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-29-1790646993199",
@@ -725,7 +725,161 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 4,
-      "selectedCandidateId": "cand-starship-first-orbit"
+      "selectedCandidateId": "cand-starship-first-orbit",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "starship-first-orbit",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Space",
+              "secondaryEyebrow": "Milestone test flight",
+              "title": "Starship reaches orbit for the first time, ending in a fiery splashdown",
+              "summary": "SpaceX's Starship circled Earth for the first time, a milestone cheered at the Texas site, though the flight also involved an engine failure and ended in a fireball during splashdown."
+            },
+            "question": {
+              "lead": "What does the first orbital flight of a fully reusable super-heavy vehicle mean for the future of space access?",
+              "title": "Is reusability finally crossing the threshold to routine very-large-payload launches?",
+              "footnote": "The milestone is progress in an unfinished test campaign rather than a settled capability."
+            },
+            "signals": {
+              "title": "Signals from the Starship first orbital test",
+              "sourceNote": "Sources include The Guardian and multiple BBC video reports, all dated September 27–28, 2026.",
+              "items": [
+                {
+                  "label": "Trigger",
+                  "title": "Starship achieves first orbit",
+                  "body": "SpaceX's Starship circled Earth for the first time, with cheers at the Texas launch site, according to The Guardian.",
+                  "whyImportant": "This is the first time a fully reusable super-heavy launch vehicle has achieved orbit, a key threshold for reducing cost per kilogram to orbit.",
+                  "evidence": {
+                    "title": "Guardian report confirms orbital milestone",
+                    "description": "The Guardian states that Starship is in orbit for the first time, citing the event at the Texas site.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-starship-first-orbit-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Trigger",
+                  "title": "Engine failure during flight",
+                  "body": "The same flight involved an engine failure, as noted in the coverage.",
+                  "whyImportant": "Engine failures in a test campaign can indicate reliability challenges that must be solved before operational reusability.",
+                  "evidence": {
+                    "title": "Engine failure mentioned in test coverage",
+                    "description": "SpaceX's Starship flight included an engine failure, according to the article.",
+                    "confidence": "developing",
+                    "sourceIds": [
+                      "cand-starship-first-orbit-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Trigger",
+                  "title": "Fiery splashdown",
+                  "body": "The flight ended in a fireball during splashdown, as captured in BBC video.",
+                  "whyImportant": "A destructive splashdown shows that the vehicle did not perform a controlled recovery, underscoring that reusability is not yet achieved.",
+                  "evidence": {
+                    "title": "BBC video shows fireball splashdown",
+                    "description": "BBC video footage shows the splashdown ending in a fireball, indicating a non-reusable test outcome.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-starship-first-orbit-source-3"
+                    ]
+                  }
+                },
+                {
+                  "label": "Context",
+                  "title": "A history of development ups and downs",
+                  "body": "BBC has chronicled the development history of SpaceX's Starship test flights, providing context for this latest test.",
+                  "whyImportant": "The timeline of past tests shows incremental progress toward orbit, making the first orbit a significant step despite the failure.",
+                  "evidence": {
+                    "title": "BBC overview of Starship test flights",
+                    "description": "A BBC video provides background on the ups and downs of SpaceX's Starship test flights.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-starship-first-orbit-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From prototype to orbital capability — with unfinished reusability",
+              "before": "Starship had only performed suborbital test flights with mixed results; the vehicle had not demonstrated orbital capability.",
+              "shift": "On September 28, 2026, Starship achieved orbit for the first time, proving its ability to reach Earth orbit with a super-heavy fully reusable design.",
+              "now": "The capability is demonstrated, but the flight also had an engine failure and ended in a destructive splashdown, indicating that operational reusability is not yet achieved.",
+              "conclusion": "Starship has crossed the orbital threshold but remains an unproven reusable system; the test campaign continues toward fully controlled recovery and reuse."
+            },
+            "insight": {
+              "title": "First orbit is a milestone, not a settled capability",
+              "formula": "Orbit achieved + destructive splashdown + engine failure = progress within an unfinished test campaign",
+              "explanation": "Reaching orbit demonstrates that very large payloads can be launched on a super-heavy reusable vehicle, but the lack of controlled recovery means the core promise of reusability is still unproven."
+            },
+            "observe": {
+              "title": "What to watch next",
+              "items": [
+                {
+                  "label": "Next test",
+                  "prompt": "Watch for the next Starship flight test announcement.",
+                  "meta": "Expected within months"
+                },
+                {
+                  "label": "Recovery success",
+                  "prompt": "Look for a controlled landing of the Super Heavy booster or Starship upper stage.",
+                  "meta": "Key reusability indicator"
+                },
+                {
+                  "label": "Engine fix",
+                  "prompt": "Track SpaceX's response to the engine failure.",
+                  "meta": "Reliability upgrade"
+                },
+                {
+                  "label": "Commercial payload",
+                  "prompt": "Monitor whether Starship moves toward carrying customer payloads.",
+                  "meta": "Operational shift"
+                }
+              ],
+              "ending": "The next few tests will determine whether Starship can achieve full reusability and transform the economics of space launch."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Standalone important insight",
+            "decisionTitle": "Starship first orbit is a milestone insight for today",
+            "decisionSummary": "Publish as a standalone important insight because it is a genuine breakthrough in launch capability, but it is not yet a new process candidate.",
+            "thresholdReason": "Importance 72, novelty 78, and verified sources meet the publish threshold, but the capability is not settled enough to warrant a new world process.",
+            "observeNext": [
+              "Next Starship test flight",
+              "Controlled landing attempt",
+              "Engine failure resolution",
+              "Payload manifest for Starship"
+            ]
+          },
+          "processStage": "signal",
+          "processContentEn": {
+            "title": "No matched World Process",
+            "description": "Starship's first orbital flight does not fit within the existing processes of AI infrastructure, energy security, semiconductor capacity, or technology control.",
+            "implication": "This event is treated as an important standalone insight within the space domain, which may later evolve into a new process if reusability becomes routine."
+          },
+          "nextQuestionEn": "Will SpaceX achieve full reusability of Starship in the next test flights?",
+          "observeNextEn": [
+            "Next Starship test flight date",
+            "Successful controlled landing of any Starship component",
+            "SpaceX statements on engine failure cause and fix",
+            "First commercial payload assignment for Starship"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2404,
+          "outputTokens": 1632,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
