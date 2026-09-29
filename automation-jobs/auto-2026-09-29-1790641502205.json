@@ -6,16 +6,16 @@
   "date": "2026-09-29",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_finalize",
+  "currentStage": "publish",
   "createdAt": "2026-09-29T00:25:02.205Z",
-  "updatedAt": "2026-09-29T03:23:58.574Z",
+  "updatedAt": "2026-09-29T03:23:59.973Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_finalize",
+      "status": "checkpointed",
+      "stage": "publish",
       "attempts": {},
-      "message": "write_finalize",
-      "updatedAt": "2026-09-29T03:23:58.574Z",
+      "message": "已保存 write_finalize 断点",
+      "updatedAt": "2026-09-29T03:23:59.973Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-29-1790646993199",
@@ -1030,6 +1030,436 @@
           "input_tokens_details": {
             "cached_tokens": 768
           }
+        }
+      },
+      "writerDraft": {
+        "id": "writer-cand-starship-first-orbit-1790652239955",
+        "scope": "global",
+        "status": "draft",
+        "writtenAt": "2026-09-29T03:23:59.955Z",
+        "researchDraftId": "research-global-2026-09-29-1790646993199",
+        "candidateId": "cand-starship-first-orbit",
+        "model": "deepseek-v4-pro + deepseek-flash",
+        "dailyState": "publish_new",
+        "qualityChecks": {
+          "publishThresholdMet": true,
+          "sourceUrlsPreserved": true,
+          "noMarkdownLinksInCopy": true,
+          "languagesComplete": true,
+          "warnings": []
+        },
+        "insight": {
+          "id": "global-2026-09-28-starship-reaches-orbit-for-the-first-time-ending-in-a-fiery-splashdown",
+          "scope": "global",
+          "slug": "starship-first-orbit",
+          "status": "publish_new",
+          "publishedAt": "2026-09-28T00:00:00.000Z",
+          "updatedAt": "2026-09-29T03:23:59.955Z",
+          "confidence": "verified",
+          "content": {
+            "en": {
+              "cover": {
+                "eyebrow": "Space",
+                "secondaryEyebrow": "Milestone test flight",
+                "title": "Starship reaches orbit for the first time, ending in a fiery splashdown",
+                "summary": "SpaceX's Starship circled Earth for the first time, a milestone cheered at the Texas site, though the flight also involved an engine failure and ended in a fireball during splashdown."
+              },
+              "question": {
+                "lead": "What does the first orbital flight of a fully reusable super-heavy vehicle mean for the future of space access?",
+                "title": "Is reusability finally crossing the threshold to routine very-large-payload launches?",
+                "footnote": "The milestone is progress in an unfinished test campaign rather than a settled capability."
+              },
+              "signals": {
+                "title": "Signals from the Starship first orbital test",
+                "sourceNote": "Sources include The Guardian and multiple BBC video reports, all dated September 27–28, 2026.",
+                "items": [
+                  {
+                    "id": "cand-starship-first-orbit-signal-1",
+                    "label": "Trigger",
+                    "title": "Starship achieves first orbit",
+                    "body": "SpaceX's Starship circled Earth for the first time, with cheers at the Texas launch site, according to The Guardian.",
+                    "whyImportant": "This is the first time a fully reusable super-heavy launch vehicle has achieved orbit, a key threshold for reducing cost per kilogram to orbit.",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-1",
+                        "title": "Guardian report confirms orbital milestone",
+                        "description": "The Guardian states that Starship is in orbit for the first time, citing the event at the Texas site.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-1",
+                        "title": "‘Starship is in orbit’: cheers go up as huge SpaceX rocket circles Earth for first time",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-28T16:23:49.000Z",
+                        "url": "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-starship-first-orbit-signal-2",
+                    "label": "Trigger",
+                    "title": "Engine failure during flight",
+                    "body": "The same flight involved an engine failure, as noted in the coverage.",
+                    "whyImportant": "Engine failures in a test campaign can indicate reliability challenges that must be solved before operational reusability.",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-2",
+                        "title": "Engine failure mentioned in test coverage",
+                        "description": "SpaceX's Starship flight included an engine failure, according to the article.",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-1",
+                        "title": "‘Starship is in orbit’: cheers go up as huge SpaceX rocket circles Earth for first time",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-28T16:23:49.000Z",
+                        "url": "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-starship-first-orbit-signal-3",
+                    "label": "Trigger",
+                    "title": "Fiery splashdown",
+                    "body": "The flight ended in a fireball during splashdown, as captured in BBC video.",
+                    "whyImportant": "A destructive splashdown shows that the vehicle did not perform a controlled recovery, underscoring that reusability is not yet achieved.",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-3",
+                        "title": "BBC video shows fireball splashdown",
+                        "description": "BBC video footage shows the splashdown ending in a fireball, indicating a non-reusable test outcome.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-3"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-3",
+                        "title": "Watch: Starship splashdown ends in fireball",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-28T16:28:10.000Z",
+                        "url": "https://www.bbc.co.uk/news/videos/c6j9xkdvrd94o?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-starship-first-orbit-signal-4",
+                    "label": "Context",
+                    "title": "A history of development ups and downs",
+                    "body": "BBC has chronicled the development history of SpaceX's Starship test flights, providing context for this latest test.",
+                    "whyImportant": "The timeline of past tests shows incremental progress toward orbit, making the first orbit a significant step despite the failure.",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-4",
+                        "title": "BBC overview of Starship test flights",
+                        "description": "A BBC video provides background on the ups and downs of SpaceX's Starship test flights.",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-2",
+                        "title": "The ups and downs of SpaceX's Starship test flights",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-27T21:03:42.000Z",
+                        "url": "https://www.bbc.co.uk/news/videos/c5zjzx49p049o?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "From prototype to orbital capability — with unfinished reusability",
+                "before": "Starship had only performed suborbital test flights with mixed results; the vehicle had not demonstrated orbital capability.",
+                "shift": "On September 28, 2026, Starship achieved orbit for the first time, proving its ability to reach Earth orbit with a super-heavy fully reusable design.",
+                "now": "The capability is demonstrated, but the flight also had an engine failure and ended in a destructive splashdown, indicating that operational reusability is not yet achieved.",
+                "conclusion": "Starship has crossed the orbital threshold but remains an unproven reusable system; the test campaign continues toward fully controlled recovery and reuse."
+              },
+              "insight": {
+                "title": "First orbit is a milestone, not a settled capability",
+                "formula": "Orbit achieved + destructive splashdown + engine failure = progress within an unfinished test campaign",
+                "explanation": "Reaching orbit demonstrates that very large payloads can be launched on a super-heavy reusable vehicle, but the lack of controlled recovery means the core promise of reusability is still unproven."
+              },
+              "observe": {
+                "title": "What to watch next",
+                "items": [
+                  {
+                    "label": "Next test",
+                    "prompt": "Watch for the next Starship flight test announcement.",
+                    "meta": "Expected within months"
+                  },
+                  {
+                    "label": "Recovery success",
+                    "prompt": "Look for a controlled landing of the Super Heavy booster or Starship upper stage.",
+                    "meta": "Key reusability indicator"
+                  },
+                  {
+                    "label": "Engine fix",
+                    "prompt": "Track SpaceX's response to the engine failure.",
+                    "meta": "Reliability upgrade"
+                  },
+                  {
+                    "label": "Commercial payload",
+                    "prompt": "Monitor whether Starship moves toward carrying customer payloads.",
+                    "meta": "Operational shift"
+                  }
+                ],
+                "ending": "The next few tests will determine whether Starship can achieve full reusability and transform the economics of space launch."
+              }
+            },
+            "zh": {
+              "cover": {
+                "eyebrow": "太空",
+                "secondaryEyebrow": "里程碑试飞",
+                "title": "星舰首次进入轨道，最终以火球溅落收场",
+                "summary": "SpaceX的星舰首次环绕地球，得州现场一片欢呼，但此次飞行还出现发动机故障，并在溅落时以火球告终。"
+              },
+              "question": {
+                "lead": "完全可重复使用的超重型运载器首次轨道飞行，对未来进入太空意味着什么？",
+                "title": "可重复使用是否终于跨过门槛，走向常规的超大载荷发射？",
+                "footnote": "这一里程碑是尚未完成的试验进程中的进展，而非已成定局的能力。"
+              },
+              "signals": {
+                "title": "星舰首次轨道试飞释放的信号",
+                "sourceNote": "来源包括《卫报》及多篇BBC视频报道，均标注日期为2026年9月27日至28日。",
+                "items": [
+                  {
+                    "id": "cand-starship-first-orbit-signal-1",
+                    "label": "触发",
+                    "title": "星舰实现首次入轨",
+                    "body": "据《卫报》报道，SpaceX的星舰首次环绕地球，得州发射现场一片欢呼。",
+                    "whyImportant": "这是首次有完全可重复使用的超重型运载火箭实现入轨，这是降低每公斤入轨成本的关键门槛。",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-1",
+                        "title": "《卫报》报道证实入轨里程碑",
+                        "description": "《卫报》称，援引得克萨斯州场址的这一事件，星舰首次进入轨道。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-1",
+                        "title": "‘Starship is in orbit’: cheers go up as huge SpaceX rocket circles Earth for first time",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-28T16:23:49.000Z",
+                        "url": "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-starship-first-orbit-signal-2",
+                    "label": "触发",
+                    "title": "飞行中发动机故障",
+                    "body": "报道指出，同一次飞行中出现发动机故障。",
+                    "whyImportant": "测试活动中的发动机故障可能表明可靠性挑战，必须在实现可重复使用之前解决。",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-2",
+                        "title": "测试报道中提到发动机故障",
+                        "description": "文章称，SpaceX的星舰飞行中出现发动机故障。",
+                        "confidence": "developing",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-1"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-1",
+                        "title": "‘Starship is in orbit’: cheers go up as huge SpaceX rocket circles Earth for first time",
+                        "publisher": "theguardian.com",
+                        "publishedAt": "2026-09-28T16:23:49.000Z",
+                        "url": "https://www.theguardian.com/science/2026/sep/28/spacex-starship-rocket-orbits-earth-texas",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-starship-first-orbit-signal-3",
+                    "label": "触发",
+                    "title": "火球溅落",
+                    "body": "正如BBC视频所记录，飞行以溅落时的火球告终。",
+                    "whyImportant": "破坏性溅落表明飞行器未进行受控回收，凸显可重复使用尚未实现。",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-3",
+                        "title": "BBC视频显示溅落时出现火球",
+                        "description": "BBC视频画面显示溅落以火球告终，表明此次测试结果不可重复使用。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-3"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-3",
+                        "title": "Watch: Starship splashdown ends in fireball",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-28T16:28:10.000Z",
+                        "url": "https://www.bbc.co.uk/news/videos/c6j9xkdvrd94o?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cand-starship-first-orbit-signal-4",
+                    "label": "背景",
+                    "title": "发展历程跌宕起伏",
+                    "body": "BBC记录了SpaceX星舰试飞的发展历程，为本次测试提供了背景。",
+                    "whyImportant": "过往测试的时间线显示出朝轨道迈进的逐步进展，使首次入轨尽管失败仍成为重要一步。",
+                    "evidence": [
+                      {
+                        "id": "cand-starship-first-orbit-evidence-4",
+                        "title": "BBC对星舰试飞的概述",
+                        "description": "BBC视频介绍了SpaceX星舰试飞的跌宕起伏。",
+                        "confidence": "verified",
+                        "sourceIds": [
+                          "cand-starship-first-orbit-source-2"
+                        ]
+                      }
+                    ],
+                    "sources": [
+                      {
+                        "id": "cand-starship-first-orbit-source-2",
+                        "title": "The ups and downs of SpaceX's Starship test flights",
+                        "publisher": "bbc.co.uk",
+                        "publishedAt": "2026-09-27T21:03:42.000Z",
+                        "url": "https://www.bbc.co.uk/news/videos/c5zjzx49p049o?at_medium=RSS&at_campaign=rss",
+                        "type": "media",
+                        "reliability": "strong",
+                        "note": "trigger source"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "pattern": {
+                "title": "从原型到入轨能力——可重复使用尚未完成",
+                "before": "星舰此前仅进行过结果不一的亚轨道试飞，尚未展示入轨能力。",
+                "shift": "2026年9月28日，星舰首次实现入轨，证明其超重型完全可重复使用设计能够抵达地球轨道。",
+                "now": "能力已得到验证，但此次飞行还出现发动机故障，并以破坏性溅落告终，表明可重复使用尚未实现。",
+                "conclusion": "星舰已跨过入轨门槛，但仍是一套未经证实的可重复使用系统；测试活动仍在推进，目标是实现完全受控回收与复用。"
+              },
+              "insight": {
+                "title": "首次入轨是里程碑，而非已稳固的能力",
+                "formula": "入轨 + 破坏性溅落 + 发动机故障 = 尚未完成的测试活动中的进展",
+                "explanation": "入轨表明可用超重型可重复使用运载器发射超大载荷，但缺乏受控回收意味着可重复使用的核心承诺仍未得到证实。"
+              },
+              "observe": {
+                "title": "接下来值得关注的内容",
+                "items": [
+                  {
+                    "label": "下一次测试",
+                    "prompt": "关注下一次星舰飞行测试公告。",
+                    "meta": "预计数月内"
+                  },
+                  {
+                    "label": "回收成功",
+                    "prompt": "关注超重型助推器或星舰上面级的受控着陆。",
+                    "meta": "可重复使用性的关键指标"
+                  },
+                  {
+                    "label": "发动机修复",
+                    "prompt": "跟踪SpaceX对发动机故障的应对。",
+                    "meta": "可靠性升级"
+                  },
+                  {
+                    "label": "商业载荷",
+                    "prompt": "观察星舰是否朝着搭载客户载荷的方向发展。",
+                    "meta": "运营转变"
+                  }
+                ],
+                "ending": "接下来几次测试将决定星舰能否实现完全可重复使用，并改变太空发射的经济性。"
+              }
+            }
+          }
+        },
+        "dailyStateDraft": {
+          "id": "daily-global-2026-09-28",
+          "scope": "global",
+          "date": "2026-09-28",
+          "decidedAt": "2026-09-29T03:23:59.955Z",
+          "state": "publish_new",
+          "insightId": "global-2026-09-28-starship-reaches-orbit-for-the-first-time-ending-in-a-fiery-splashdown",
+          "materialChangeScore": 62,
+          "evidenceStrength": 80,
+          "noveltyScore": 78,
+          "importanceScore": 72,
+          "candidateSignalIds": [
+            "cand-starship-first-orbit"
+          ],
+          "content": {
+            "en": {
+              "label": "Standalone important insight",
+              "decisionTitle": "Starship first orbit is a milestone insight for today",
+              "decisionSummary": "Publish as a standalone important insight because it is a genuine breakthrough in launch capability, but it is not yet a new process candidate.",
+              "thresholdReason": "Importance 72, novelty 78, and verified sources meet the publish threshold, but the capability is not settled enough to warrant a new world process.",
+              "observeNext": [
+                "Next Starship test flight",
+                "Controlled landing attempt",
+                "Engine failure resolution",
+                "Payload manifest for Starship"
+              ]
+            },
+            "zh": {
+              "label": "独立重要见解",
+              "decisionTitle": "星舰首次入轨是今天的重要里程碑见解",
+              "decisionSummary": "作为独立重要见解发布，因为这是发射能力的真正突破，但尚不是新的流程候选。",
+              "thresholdReason": "重要性72，新颖性78，且来源可靠，达到发布门槛，但该能力尚未稳定到足以成为新的世界流程。",
+              "observeNext": [
+                "下一次星舰试飞",
+                "受控着陆尝试",
+                "发动机故障解决方案",
+                "星舰的有效载荷清单"
+              ]
+            }
+          }
+        },
+        "provider": "deepseek",
+        "pipeline": "build014-one-world-v1",
+        "usage": {
+          "inputTokens": 5514,
+          "outputTokens": 2849,
+          "cachedInputTokens": 1920
         }
       }
     }
