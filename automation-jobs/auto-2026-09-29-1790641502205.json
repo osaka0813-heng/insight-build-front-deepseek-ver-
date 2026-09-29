@@ -8,14 +8,14 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-09-29T00:25:02.205Z",
-  "updatedAt": "2026-09-29T01:54:56.329Z",
+  "updatedAt": "2026-09-29T01:54:57.205Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "running",
       "stage": "research",
       "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-09-29T00:25:02.205Z"
+      "message": "research",
+      "updatedAt": "2026-09-29T01:54:57.205Z"
     }
   },
   "preflight": {
