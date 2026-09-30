@@ -2,20 +2,20 @@
   "id": "auto-2026-09-30-1790727902251",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-09-30",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-09-30T00:25:02.251Z",
-  "updatedAt": "2026-09-30T04:29:05.272Z",
+  "updatedAt": "2026-09-30T04:29:11.233Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-09-30T04:29:05.272Z",
+      "message": "已发布",
+      "updatedAt": "2026-09-30T04:29:11.233Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-30-1790733385371",
@@ -1129,7 +1129,7 @@
           "scope": "global",
           "slug": "openai-safety-pause-delays-model-despite-assistant-launch",
           "status": "publish_new",
-          "publishedAt": "2026-09-29T00:00:00.000Z",
+          "publishedAt": "2026-09-30T03:00:00.000Z",
           "updatedAt": "2026-09-30T03:24:00.642Z",
           "confidence": "developing",
           "content": {
@@ -1430,9 +1430,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-29",
+          "id": "daily-global-2026-09-30",
           "scope": "global",
-          "date": "2026-09-29",
+          "date": "2026-09-30",
           "decidedAt": "2026-09-30T03:24:00.643Z",
           "state": "publish_new",
           "insightId": "global-2026-09-29-openai-holds-back-a-model-over-safety-while-launching-a-new-assistant",
@@ -1477,7 +1477,10 @@
           "outputTokens": 3316,
           "cachedInputTokens": 1920
         }
-      }
+      },
+      "insightId": "global-2026-09-29-openai-holds-back-a-model-over-safety-while-launching-a-new-assistant",
+      "contentVersion": "publish-global-2026-09-29-openai-holds-back-a-model-over-safety-while-launching-a-new-assistant-1790742548674",
+      "completedAt": "2026-09-30T04:29:11.233Z"
     }
   },
   "preflight": {
@@ -1512,10 +1515,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790742544067-2nqcc1ux",
     "acquiredAt": "2026-09-30T04:29:04.307Z",
     "expiresAt": "2026-09-30T04:33:54.307Z"
-  }
+  },
+  "completedAt": "2026-09-30T04:29:11.233Z"
 }
