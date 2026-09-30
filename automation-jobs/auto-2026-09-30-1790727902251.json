@@ -6,16 +6,16 @@
   "date": "2026-09-30",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-09-30T00:25:02.251Z",
-  "updatedAt": "2026-09-30T02:53:15.218Z",
+  "updatedAt": "2026-09-30T02:53:31.508Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-09-30T02:53:15.218Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-09-30T02:53:31.508Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-30-1790733385371",
@@ -348,7 +348,488 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-09-30-1790733385371",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-09-30T01:56:25.371Z",
+        "researchDate": "2026-09-30",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Independent coverage scan for 2026-09-29/30. Only the macro-finance, climate-environment, demographics-society, institutions-culture, industry-trade, health-science and technology-ai lanes returned records; energy-resources, urban-infrastructure and geopolitics-security lanes produced no evidence, so no candidate is built for those domains. Deterministic corroborated pairs (flood-insurance risk; Burnham triple-lock/social-care reform) are converted first, then unpaired multi-publisher records. All candidates rest on at least two clickable URLs from different publishers.",
+        "candidates": [
+          {
+            "id": "cand-openai-safety-pause",
+            "date": "2026-09-29",
+            "domain": "technology-ai",
+            "tags": [
+              "ai-safety",
+              "model-release",
+              "openai",
+              "deployment-risk",
+              "governance"
+            ],
+            "processMatchConfidence": 13,
+            "importance": 75,
+            "novelty": 72,
+            "evidenceStrength": 74,
+            "independentSourceCount": 2,
+            "thesisImpact": 66,
+            "relationshipChange": 55,
+            "stageChange": 60,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "OpenAI holds back a model over safety while launching a new assistant",
+                "coreFact": "BBC reports OpenAI unveiled an AI assistant called 'dots' while safety worries delayed a new model, and separately reports OpenAI scrapped the rollout of a new model over safety concerns; the Guardian reports Anthropic warning of existential AI risks to humanity in its IPO document.",
+                "whyItMatters": "A leading lab voluntarily delaying a frontier release establishes safety gating as a real scheduling variable in AI deployment, not just a stated principle, which changes competitive timing assumptions and invites external oversight pressure.",
+                "processMatchReason": "Adjacent to the technology-control and AI infrastructure processes, but neither covers voluntary deployment restraint, so no match is claimed."
+              },
+              "zh": {
+                "title": "OpenAI因安全顾虑推迟模型，同时推出新助手",
+                "coreFact": "BBC报道OpenAI推出名为“dots”的AI助手，而安全顾虑推迟了新模型；并另行报道OpenAI因安全担忧取消一款新模型的发布；《卫报》报道Anthropic在其IPO文件中警告AI对人类的存在性风险。",
+                "whyItMatters": "领先实验室自愿推迟前沿模型发布，使安全门控成为AI部署中真实的排期变量而非仅停留于原则宣示，改变竞争时序假设并招致外部监督压力。",
+                "processMatchReason": "与技术管制和AI基础设施流程相邻，但两者都不涵盖自愿性部署克制，故不主张匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
+                "url": "https://www.bbc.co.uk/news/articles/cw7v42rp083eo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T23:47:10.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on OpenAI's 'dots' assistant launch and the safety-related model delay",
+                "id": "cand-openai-safety-pause-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "OpenAI scraps rollout of new model over safety concerns",
+                "url": "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T09:14:13.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on OpenAI's decision to scrap a model rollout over safety concerns",
+                "id": "cand-openai-safety-pause-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Anthropic ‘warns of existential AI risks to humanity’ in IPO document",
+                "url": "https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-29T10:17:58.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on risk disclosures in Anthropic's IPO filing",
+                "id": "cand-openai-safety-pause-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-openai-safety-pause-source-1",
+              "cand-openai-safety-pause-source-2",
+              "cand-openai-safety-pause-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 13,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 68,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A leading frontier lab (OpenAI) both scrapping a model rollout and delaying another over safety concerns, combined with Anthropic's IPO filing warning of existential AI risk, is strong convergent evidence that voluntary safety gating has become a real scheduling and capital-markets variable in AI deployment. This is structurally distinct from the existing technology-control process (which tracks state/security-driven control of critical capacity) and the AI-infrastructure process (which tracks capacity buildout, not deployment restraint). The signal is durable (affects multiple labs, shapes competitive timing and invites external oversight), has broad second-order consequences (investor disclosures, governance norms, release cadence expectations), and is independently verified by BBC and Guardian. This deserves a new process hypothesis around AI safety as a binding deployment constraint. Two independent sources preserved.",
+              "warnings": [],
+              "candidateId": "cand-openai-safety-pause",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 82
+            }
+          },
+          {
+            "id": "cand-burnham-triple-lock",
+            "date": "2026-09-29",
+            "domain": "demographics-society",
+            "tags": [
+              "uk-politics",
+              "pensions",
+              "social-care",
+              "ageing",
+              "fiscal-policy"
+            ],
+            "processMatchConfidence": 15,
+            "importance": 76,
+            "novelty": 66,
+            "evidenceStrength": 78,
+            "independentSourceCount": 2,
+            "thesisImpact": 64,
+            "relationshipChange": 60,
+            "stageChange": 55,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "Burnham proposes scrapping the pension triple lock to fund social care",
+                "coreFact": "BBC and the Guardian report Andy Burnham vowing to end the existing pension triple lock in 2030 to help fund care, with the Guardian adding he would put proportional representation in Labour's manifesto; a union boss calls scrapping the lock 'morally wrong'.",
+                "whyItMatters": "If a major party contests the triple lock, the fiscal architecture of ageing societies becomes politically negotiable, reallocating resources from pension indexation toward care capacity and altering the terms of intergenerational settlement.",
+                "processMatchReason": "No existing world process tracks pension or care-state reform; this is a domestic political-fiscal shift outside the listed processes."
+              },
+              "zh": {
+                "title": "伯纳姆提议取消养老金三重锁定以资助社会照护",
+                "coreFact": "BBC与《卫报》报道安迪·伯纳姆承诺在2030年终止现行养老金三重锁定以资助照护；《卫报》补充称他将把比例代表制写入工党竞选纲领；有工会负责人称取消该锁定“在道德上是错误的”。",
+                "whyItMatters": "若主要政党公开挑战三重锁定，老龄化社会的财政架构便成为可谈判对象，资源将从养老金指数化转向照护能力，并改变代际契约的条件。",
+                "processMatchReason": "现有世界流程不追踪养老金或照护国家改革；这是列举流程之外的国内政治财政变化。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Burnham vows to end existing pension triple lock in 2030 to help fund care",
+                "url": "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T17:39:06.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting of Andy Burnham's conference pledge on the pension triple lock",
+                "id": "cand-burnham-triple-lock-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Burnham says he would put PR in Labour manifesto and scrap triple lock to fund social care – as it happened",
+                "url": "https://www.theguardian.com/politics/live/2026/sep/29/andy-burnham-labour-conference-liverpool-speech-triple-lock-pension-angela-rayner-lucy-powell-bridget-phillipson-uk-politics-latest-news-updates",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-29T17:20:06.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian live coverage of Andy Burnham's Labour conference speech in Liverpool",
+                "id": "cand-burnham-triple-lock-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Scrapping pensions triple lock 'morally wrong', says union boss",
+                "url": "https://www.bbc.co.uk/news/articles/cklyje46xnpgo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T09:10:03.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting of a union leader's response to the triple-lock proposal",
+                "id": "cand-burnham-triple-lock-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-burnham-triple-lock-source-1",
+              "cand-burnham-triple-lock-source-2",
+              "cand-burnham-triple-lock-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 15,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 44,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Burnham's pledge to scrap the pension triple lock is a meaningful domestic political-fiscal proposal touching ageing-society architecture (pensions vs social care), but it is a single opposition-leadership conference vow, not yet enacted policy, and its durability and cross-border second-order consequences are limited. While the frame 'fiscal architecture of ageing societies becomes negotiable' has some structural interest, it is UK-specific, contingent on one politician's future electoral prospects, and not yet a material change in any live process. Appropriate as a standalone insight but not today's single Global Insight given the stronger AI-safety signal.",
+              "warnings": [
+                "Single-country domestic political proposal; not yet policy",
+                "Contingent on Burnham's electoral viability",
+                "No cross-border structural effect demonstrated"
+              ],
+              "candidateId": "cand-burnham-triple-lock",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 58
+            }
+          },
+          {
+            "id": "cand-flood-uninsurable",
+            "date": "2026-09-29",
+            "domain": "climate-environment",
+            "tags": [
+              "flood-risk",
+              "insurance",
+              "housing",
+              "climate-adaptation",
+              "uk"
+            ],
+            "processMatchConfidence": 11,
+            "importance": 74,
+            "novelty": 58,
+            "evidenceStrength": 80,
+            "independentSourceCount": 2,
+            "thesisImpact": 62,
+            "relationshipChange": 55,
+            "stageChange": 48,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "Flood risk turns new UK housing stock potentially uninsurable",
+                "coreFact": "BBC reports a warning that more homes will become uninsurable because of flood risk, while the Guardian reports Aviva's boss saying new English homes built in flood-risk areas could become uninsurable.",
+                "whyItMatters": "Insurance withdrawal converts a physical climate hazard into a binding constraint on housing supply, mortgage collateral and public budgets, shifting climate adaptation from an environmental issue into a financial-stability one.",
+                "processMatchReason": "No existing process covers climate-driven insurability; the closest are energy/infrastructure processes but the mechanism here is insurance and housing finance, so no match is asserted."
+              },
+              "zh": {
+                "title": "洪水风险使英国新建住房可能无法投保",
+                "coreFact": "BBC报道警告称更多住宅将因洪水风险而无法投保；《卫报》报道英杰华（Aviva）负责人称英格兰洪水风险区新建住宅可能无法投保。",
+                "whyItMatters": "保险退出把气候物理风险转化为住房供给、抵押品价值与公共财政的硬约束，使气候适应从环境议题变成金融稳定议题。",
+                "processMatchReason": "现有流程均不覆盖气候引发的可保性问题；最接近的是能源/基础设施流程，但此处的机制是保险与住房金融，因此不作强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Warning more homes will be uninsurable due to flood risk",
+                "url": "https://www.bbc.co.uk/news/articles/c60qxk288e57o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T09:42:48.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting of an industry warning on UK flood-risk insurability",
+                "id": "cand-flood-uninsurable-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "New English homes in flood-risk areas could become uninsurable, says Aviva boss",
+                "url": "https://www.theguardian.com/business/2026/sep/29/new-uk-homes-flood-risk-areas-insurance-aviva-amanda-blanc-budget",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-29T13:32:51.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on statements by Aviva chief executive Amanda Blanc",
+                "id": "cand-flood-uninsurable-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-flood-uninsurable-source-1",
+              "cand-flood-uninsurable-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 11,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 40,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Insurance withdrawal in flood-risk areas is a genuinely important climate-adaptation signal converting physical hazard into financial constraint, but it is UK-centric, largely anticipatory (Aviva boss warning of 'could become'), and lacks breadth across systems today. It is a strong illustrative case of a broader 'climate insurability' dynamic but not strong enough to displace the AI-safety candidate as the single Insight, nor clearly durable enough yet to warrant a new process on its own.",
+              "warnings": [
+                "UK-specific housing market",
+                "Forward-looking warning rather than realized structural shift"
+              ],
+              "candidateId": "cand-flood-uninsurable",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 55
+            }
+          },
+          {
+            "id": "cand-canada-us-trade-ban",
+            "date": "2026-09-29",
+            "domain": "industry-trade",
+            "tags": [
+              "trade-war",
+              "tariffs",
+              "us-canada",
+              "alcohol",
+              "dairy"
+            ],
+            "processMatchConfidence": 11,
+            "importance": 72,
+            "novelty": 50,
+            "evidenceStrength": 72,
+            "independentSourceCount": 2,
+            "thesisImpact": 60,
+            "relationshipChange": 65,
+            "stageChange": 52,
+            "contradiction": 25,
+            "content": {
+              "en": {
+                "title": "US ban on Canadian alcohol and dairy takes effect",
+                "coreFact": "BBC reports a US ban on Canadian alcohol and dairy taking effect as the trade war drags on; the Guardian reports the ban on Canadian imports is likely to weaken an already fragile relationship.",
+                "whyItMatters": "Formalizing a ban on consumer goods converts a tariff dispute into structural decoupling between two deeply integrated allied economies, raising the cost of future re-linkage.",
+                "processMatchReason": "No existing process covers alliance trade coercion; the mechanism is trade-policy rather than technology control."
+              },
+              "zh": {
+                "title": "美国对加拿大酒类与乳制品的禁令生效",
+                "coreFact": "BBC报道随着贸易战延续，美国对加拿大酒类与乳制品的禁令生效；《卫报》报道对加拿大进口的禁令可能削弱本已脆弱的两国关系。",
+                "whyItMatters": "将消费品禁运正式化，使关税争端演变为两个高度一体化的盟国经济体之间的结构性脱钩，抬高未来重新连接的成本。",
+                "processMatchReason": "现有流程不涵盖盟国间的贸易胁迫；其机制属贸易政策而非技术管制。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US ban on Canadian alcohol and dairy takes effect as trade war drags on",
+                "url": "https://www.bbc.co.uk/news/articles/cm1j43y146d2o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T13:38:06.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the entry into force of the US ban on Canadian alcohol and dairy",
+                "id": "cand-canada-us-trade-ban-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "US ban on Canadian imports likely to weaken already fragile relationship",
+                "url": "https://www.theguardian.com/us-news/2026/sep/29/ban-canada-imports",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-29T14:04:53.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the political consequences of the US import ban on Canada",
+                "id": "cand-canada-us-trade-ban-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "suggestedProcessId": "process-geopolitical-technology-control",
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-canada-us-trade-ban-source-1",
+              "cand-canada-us-trade-ban-source-2"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-geopolitical-technology-control",
+              "processMatchConfidence": 11,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 35,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "The US ban on Canadian alcohol and dairy is a continuation/formalization of an already-running trade war rather than a genuinely new structural break; consumer-goods bans between allies are incremental escalations of an existing conflict narrative. Relationship-change score is high but the event is downstream of an established dynamic, offers limited new understanding, and its independent novelty is modest. Not publishable as today's single Insight.",
+              "warnings": [
+                "Extension of existing trade-war dynamic, not a structural break",
+                "Lower novelty and second-order reach than alternatives"
+              ],
+              "candidateId": "cand-canada-us-trade-ban",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 48
+            }
+          },
+          {
+            "id": "cand-energy-bill-shock",
+            "date": "2026-09-29",
+            "domain": "macro-finance",
+            "tags": [
+              "energy-prices",
+              "households",
+              "uk",
+              "cost-of-living",
+              "forecast"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 35,
+            "importance": 66,
+            "novelty": 44,
+            "evidenceStrength": 68,
+            "independentSourceCount": 2,
+            "thesisImpact": 55,
+            "relationshipChange": 45,
+            "stageChange": 42,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "Household energy bills forecast for largest rise in four years",
+                "coreFact": "BBC reports household energy bills are forecast to see the biggest rise in four years, and separately publishes analysis of the politics of bringing energy bills down.",
+                "whyItMatters": "Renewed household energy cost pressure constrains the political room for decarbonization policy and reasserts energy affordability as a first-order macroeconomic variable.",
+                "processMatchReason": "Touches the energy-security process on the affordability side, but the evidence here concerns household bills rather than strategic capacity.",
+                "confidenceNote": ""
+              },
+              "zh": {
+                "title": "家庭能源账单预计出现四年来最大涨幅",
+                "coreFact": "BBC报道家庭能源账单预计将出现四年来最大涨幅，并另行就可否降低能源账单发表政治分析。",
+                "whyItMatters": "家庭能源成本压力回升，压缩脱碳政策的政治空间，并使能源可负担性重新成为首要宏观变量。",
+                "processMatchReason": "与能源安全流程的可负担性侧面相关，但此处证据是家庭账单而非战略产能。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Household energy bills forecast to see biggest rise in four years",
+                "url": "https://www.bbc.co.uk/news/articles/cwz0zvj4m1myo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-29T23:03:13.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on forecast household energy bill increases",
+                "id": "cand-energy-bill-shock-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Can Labour bring down our energy bills? | Politics Weekly",
+                "url": "https://www.theguardian.com/politics/video/2026/sep/28/can-labour-bring-down-our-energy-bills-politics-weekly",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-09-28T21:02:56.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian Politics Weekly video analysis of UK energy bill policy",
+                "id": "cand-energy-bill-shock-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-energy-bill-shock-source-1",
+              "cand-energy-bill-shock-source-2"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-energy-security",
+              "processMatchConfidence": 35,
+              "impact": "supports",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 30,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A forecast of the largest household energy-bill rise in four years supports the affordability side of the energy-security process but is a routine cyclical/conjunctural data point rather than a structural change to strategic energy capacity. It offers low novelty and limited breadth of second-order consequences. Not the day's single Insight.",
+              "warnings": [
+                "Forecast, not realized change",
+                "Routine cyclical cost pressure rather than structural shift"
+              ],
+              "candidateId": "cand-energy-bill-shock",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 42
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 5,
+      "selectedCandidateId": "cand-openai-safety-pause"
     }
   },
   "preflight": {
