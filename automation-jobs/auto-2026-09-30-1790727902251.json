@@ -6,16 +6,16 @@
   "date": "2026-09-30",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-09-30T00:25:02.251Z",
-  "updatedAt": "2026-09-30T03:01:34.668Z",
+  "updatedAt": "2026-09-30T03:02:31.825Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-09-30T03:01:34.667Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-09-30T03:02:31.825Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-09-30-1790733385371",
@@ -829,7 +829,147 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 5,
-      "selectedCandidateId": "cand-openai-safety-pause"
+      "selectedCandidateId": "cand-openai-safety-pause",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "openai-safety-pause-delays-model-despite-assistant-launch",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Frontier AI Deployment",
+              "secondaryEyebrow": "Voluntary Safety Gating Emerges",
+              "title": "OpenAI Holds Back a Model Over Safety While Launching a New Assistant",
+              "summary": "OpenAI unveiled an AI assistant called 'dots' while safety concerns delayed another model, and separately scrapped a model rollout over safety. Anthropic's IPO filing warning of existential AI risks deepens the signal that voluntary safety gating is becoming a real scheduling variable in AI deployment."
+            },
+            "question": {
+              "lead": "Can voluntary safety concerns reshape the release cadence of frontier AI labs, or will competitive pressure override them?",
+              "title": "Do voluntary safety pauses signal a structural shift in how frontier labs deploy AI?",
+              "footnote": "Insight built exclusively from BBC and Guardian reporting on September 29, 2026. No external data was added."
+            },
+            "signals": {
+              "title": "Convergent Signals of Safety-Driven Deployment Restraint",
+              "sourceNote": "Three independent press reports from BBC and Guardian on September 29, 2026.",
+              "items": [
+                {
+                  "label": "OpenAI delays model",
+                  "title": "OpenAI unveils AI assistant 'dots' while safety worries delay new model",
+                  "body": "BBC reports OpenAI announced a new AI assistant called 'dots' on the same day it said safety worries were delaying the release of another new model.",
+                  "whyImportant": "A public delay explicitly tied to safety worries shows safety can override launch timelines even while other products ship.",
+                  "evidence": {
+                    "title": "BBC coverage of OpenAI's simultaneous launch and delay",
+                    "description": "The BBC report confirms both the launch of 'dots' and the safety-related delay of a new model.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-openai-safety-pause-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "OpenAI scraps model",
+                  "title": "OpenAI scraps rollout of new model over safety concerns",
+                  "body": "A separate BBC report states OpenAI decided to scrap the rollout of a new model entirely because of safety concerns.",
+                  "whyImportant": "Canceling a rollout outright, not merely delaying it, indicates safety can be a hard stop rather than a scheduling adjustment.",
+                  "evidence": {
+                    "title": "BBC report on scrapped OpenAI model",
+                    "description": "The BBC report says OpenAI called off the model rollout due to safety concerns.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-openai-safety-pause-source-2"
+                    ]
+                  }
+                },
+                {
+                  "label": "Anthropic IPO warning",
+                  "title": "Anthropic 'warns of existential AI risks to humanity' in IPO document",
+                  "body": "The Guardian reports Anthropic's IPO filing includes a warning about existential AI risks to humanity.",
+                  "whyImportant": "A leading lab publicly citing existential risk in a capital-markets document elevates safety from a technical concern to a financial risk factor.",
+                  "evidence": {
+                    "title": "Guardian coverage of Anthropic IPO warning",
+                    "description": "The Guardian article describes Anthropic's warning about existential AI risks in its IPO document.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-openai-safety-pause-source-3"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Safety Principles to Deployment Constraints",
+              "before": "Frontier AI labs often spoke about safety in general terms, but releases were rarely publicly halted or canceled for safety reasons. Competitive pressure pushed labs to ship as fast as possible, and safety was usually a post-hoc or internal concern.",
+              "shift": "In September 2026, OpenAI publicly delayed one model and scrapped another specifically over safety concerns, while simultaneously launching a less risky assistant. Anthropic put existential risk warnings into its IPO filing.",
+              "now": "Safety concerns are becoming a real, public scheduling variable in frontier AI deployment. Labs can delay or cancel a model for safety without stopping everything else, and investors are being formally alerted to existential risk as a business risk.",
+              "conclusion": "Voluntary safety gating is emerging as a distinct process in AI deployment, separate from state-driven technology control and infrastructure buildout. It changes competitive timing assumptions and invites external oversight pressure."
+            },
+            "insight": {
+              "title": "Safety as a Binding Deployment Constraint",
+              "formula": "Public safety concerns → deployment delay/cancellation → capital-markets disclosure → new deployment schedule norms",
+              "explanation": "When a leading lab voluntarily delays or cancels a frontier model over safety, it proves that safety can be a hard constraint on deployment, not just a stated principle. This shifts the competitive landscape: other labs may feel emboldened to do the same, or may use it as a reason to accelerate. The inclusion of existential risk in an IPO filing further institutionalizes safety as a financial variable, inviting shareholder and regulatory scrutiny."
+            },
+            "observe": {
+              "title": "Watch for Safety Gating Becoming Routine",
+              "items": [
+                {
+                  "label": "More delays",
+                  "prompt": "Will other frontier labs publicly delay or cancel models for safety reasons in the next 3-6 months?",
+                  "meta": "Scope: OpenAI, Google DeepMind, Anthropic, Meta, xAI"
+                },
+                {
+                  "label": "Investor reactions",
+                  "prompt": "How do investors respond to existential risk warnings in IPO filings or quarterly reports?",
+                  "meta": "Scope: public markets, venture capital, analyst notes"
+                },
+                {
+                  "label": "Regulatory response",
+                  "prompt": "Will regulators cite these voluntary actions as evidence that mandatory safety reviews are needed?",
+                  "meta": "Scope: EU AI Act, US executive orders, UK AI Safety Institute"
+                },
+                {
+                  "label": "Safety org growth",
+                  "prompt": "Are labs expanding internal safety teams or external red-teaming after these events?",
+                  "meta": "Scope: hiring, partnerships, safety benchmarks"
+                }
+              ],
+              "ending": "If voluntary safety gating becomes routine, expect slower frontier releases, more public safety justifications, and growing pressure for standardized external audits."
+            }
+          },
+          "dailyStateEn": {
+            "label": "New Process Candidate",
+            "decisionTitle": "Publish new insight on voluntary AI safety pauses",
+            "decisionSummary": "The signal is strong enough to warrant a standalone Global Insight, laying out a potential new process around safety-driven deployment restraint in frontier AI labs.",
+            "thresholdReason": "Two independent leading labs (OpenAI and Anthropic) show convergent behavior: OpenAI publicly delays and cancels model rollouts over safety, and Anthropic warns of existential risk in its IPO document. This is a durable, multi-source pattern with broad implications for competitive dynamics and governance.",
+            "observeNext": [
+              "Any further OpenAI or Anthropic safety-related release changes",
+              "Reactions from other frontier labs (DeepMind, Meta, xAI)",
+              "Investor or regulatory responses to existential risk disclosures",
+              "New safety evaluation frameworks or external audits announced by labs"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Voluntary AI Safety Pauses as a Deployment Process",
+            "description": "Leading AI labs are beginning to treat safety concerns as a hard constraint on model deployment, leading to public delays and cancellations. This goes beyond internal safety reviews and becomes a visible scheduling and capital-markets variable.",
+            "implication": "If this pattern continues, it will slow the release cadence of frontier models, intensify pressure for external safety audits, and alter competitive dynamics. Labs that resist safety pauses may gain short-term speed but face greater reputational and regulatory risk."
+          },
+          "nextQuestionEn": "Will voluntary safety pauses become a standard practice across frontier AI labs, or will competitive pressure erode them?",
+          "observeNextEn": [
+            "Track any new public safety-related delays or cancellations by frontier labs",
+            "Monitor investor reactions to existential risk warnings in AI company filings",
+            "Watch for regulatory proposals that cite voluntary safety pauses as justification for mandatory reviews",
+            "Observe changes in release timing and safety disclosures across major AI labs"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2206,
+          "outputTokens": 1852,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
