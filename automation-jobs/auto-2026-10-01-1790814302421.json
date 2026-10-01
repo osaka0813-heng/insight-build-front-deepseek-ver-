@@ -6,16 +6,16 @@
   "date": "2026-10-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-10-01T00:25:02.421Z",
-  "updatedAt": "2026-10-01T03:01:34.354Z",
+  "updatedAt": "2026-10-01T03:02:11.274Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-10-01T03:01:34.354Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-10-01T03:02:11.274Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-01-1790819777800",
@@ -205,7 +205,132 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 1,
-      "selectedCandidateId": "cand-uk-socialcare-triplelock"
+      "selectedCandidateId": "cand-uk-socialcare-triplelock",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "cand-uk-socialcare-triplelock",
+          "slug": "burnham-triple-lock-social-care-funding",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "UK Social Care Financing",
+              "secondaryEyebrow": "Pension Triple Lock Under Pressure",
+              "title": "Burnham Pledges to End Pension Triple Lock in 2030 to Fund Social Care",
+              "summary": "Andy Burnham's proposal to replace the pension triple lock with a new indexation mechanism to fund a national care service signals a shift in how ageing-related costs might be financed."
+            },
+            "question": {
+              "lead": "A political pledge links pension indexation to social care funding, testing whether retirement guarantees can be reworked to address demographic costs.",
+              "title": "Can Reworking Pension Indexation Fund Social Care Without New Borrowing?",
+              "footnote": "The question follows Burnham's announcement and a public poll showing 48% support for cutting back the triple lock to fund social care reform."
+            },
+            "signals": {
+              "title": "Signals of Shift",
+              "sourceNote": "Two reliable media sources from BBC and The Guardian, published on 29-30 September 2026, provide the core evidence.",
+              "items": [
+                {
+                  "label": "Political Pledge",
+                  "title": "Burnham vows to end existing pension triple lock in 2030",
+                  "body": "Andy Burnham, a candidate in the Labour leadership contest, pledged to abolish the current pension triple lock when it expires in 2030, redirecting the savings to fund a national care service.",
+                  "whyImportant": "This directly challenges a politically protected pension guarantee, opening a debate on retirement indexation as a fiscal lever for social care.",
+                  "evidence": {
+                    "title": "BBC News report on Burnham's pledge",
+                    "description": "BBC News covered Burnham's announcement, noting it as significant but a political gamble.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-uk-socialcare-triplelock-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Public Opinion",
+                  "title": "Poll shows voters back cutting triple lock to fund social care",
+                  "body": "A Guardian-reported poll found 48% of voters support reducing the triple lock to fund social care reform, versus 28% opposed.",
+                  "whyImportant": "Indicates potential electoral feasibility for reworking pension indexation, despite the political risk.",
+                  "evidence": {
+                    "title": "Guardian live blog with poll results",
+                    "description": "The Guardian reported the poll findings in a live politics blog, suggesting public backing for the policy.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-uk-socialcare-triplelock-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Protected Pension Guarantee to Fiscal Trade-Off",
+              "before": "The pension triple lock was a politically untouchable commitment, guaranteeing annual increases by the highest of earnings, prices, or 2.5%, with no direct link to other spending priorities.",
+              "shift": "Burnham's pledge and poll support create a new political space where the triple lock is viewed as a funding source for social care, not an isolated entitlement.",
+              "now": "The debate is now framed around whether retirement indexation can be adjusted to finance the national care service, with potential implications for fiscal policy and intergenerational equity.",
+              "conclusion": "This marks a potential inflection point in UK welfare policy, but it remains a proposal dependent on Burnham's leadership success and broader political will."
+            },
+            "insight": {
+              "title": "Ageing Care Costs Meet Retirement Indexation",
+              "formula": "Pension Triple Lock + Social Care Funding Gap → Reworked Indexation as a Fiscal Solution",
+              "explanation": "The linkage suggests that as demographic pressures mount, previously protected pension mechanisms may be renegotiated to address care financing, moving from borrowing to reallocation."
+            },
+            "observe": {
+              "title": "What to Watch",
+              "items": [
+                {
+                  "label": "Leadership Contest",
+                  "prompt": "Track whether Burnham's pledge gains traction among Labour members and whether other candidates adopt or oppose it.",
+                  "meta": "Policy viability"
+                },
+                {
+                  "label": "Policy Details",
+                  "prompt": "Look for specifics on what would replace the triple lock—such as a single earnings link or a lower floor—and how savings would be earmarked.",
+                  "meta": "Design clarity"
+                },
+                {
+                  "label": "Political Reaction",
+                  "prompt": "Monitor responses from pensioner groups, opposition parties, and fiscal watchdogs to gauge resistance or support.",
+                  "meta": "Stakeholder dynamics"
+                },
+                {
+                  "label": "Public Sentiment",
+                  "prompt": "Follow further polling on the trade-off between pension protection and social care funding to see if support holds.",
+                  "meta": "Electoral risk"
+                }
+              ],
+              "ending": "The next few months will reveal whether this proposal evolves from a campaign pledge into a credible policy option."
+            }
+          },
+          "dailyStateEn": {
+            "label": "New Process Candidate",
+            "decisionTitle": "Publish as standalone Insight; no existing World Process match.",
+            "decisionSummary": "This is a plausible new process candidate linking pension indexation to social care financing. It is a single political pledge with poll support, not yet enacted, and domestic in scope, so it remains below a structural World Process threshold but warrants tracking as a standalone Insight.",
+            "thresholdReason": "The candidate meets the standalone-insight threshold: it addresses a durable fiscal-demographic tension with two reliable sources, but lacks the breadth and enactment to force a new global process.",
+            "observeNext": [
+              "Whether Burnham's pledge becomes formal Labour policy",
+              "Adoption of similar proposals in other countries facing ageing costs",
+              "Evidence of parliamentary or government action on triple lock reform"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Social Care Financing through Pension Indexation Rework",
+            "description": "A potential shift in how advanced economies fund social care by adjusting pension indexation rules rather than increasing borrowing or taxation.",
+            "implication": "If adopted, this could signal a broader renegotiation of retirement income policies in response to demographic ageing, affecting fiscal sustainability and intergenerational fairness."
+          },
+          "nextQuestionEn": "Will the UK adopt pension triple lock reform to fund social care, and could this inspire similar fiscal trade-offs in other ageing societies?",
+          "observeNextEn": [
+            "Burnham's leadership campaign outcome",
+            "Detailed policy proposal for post-2030 pension indexation",
+            "Responses from pensioner and care sector groups",
+            "Further polling on public support"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2309,
+          "outputTokens": 1506,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
