@@ -6,16 +6,16 @@
   "date": "2026-10-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-10-01T00:25:02.421Z",
-  "updatedAt": "2026-10-01T02:53:15.320Z",
+  "updatedAt": "2026-10-01T02:53:22.963Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-10-01T02:53:15.320Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-10-01T02:53:22.962Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-01-1790819777800",
@@ -93,7 +93,119 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-10-01-1790819777800",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-10-01T01:56:17.800Z",
+        "researchDate": "2026-10-01",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Balanced cross-domain scan for 2026-10-01. Several collection lanes (energy-resources, urban-infrastructure, geopolitics-security, plus macro-finance/industry-trade/health-science/climate-environment GDELT passes) failed or timed out, so only RSS-derived records were available in most lanes. Only one deterministic corroborated pair (Burnham triple-lock/social care, BBC + Guardian) survived. Most remaining lanes have single-publisher evidence, so candidate count is below target; unverifiable leads were dropped rather than converted into signals.",
+        "candidates": [
+          {
+            "id": "cand-uk-socialcare-triplelock",
+            "date": "2026-09-30",
+            "domain": "demographics-society",
+            "tags": [
+              "social-care",
+              "pension",
+              "triple-lock",
+              "uk-politics",
+              "ageing",
+              "fiscal-policy"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 74,
+            "novelty": 62,
+            "evidenceStrength": 70,
+            "independentSourceCount": 2,
+            "thesisImpact": 66,
+            "relationshipChange": 58,
+            "stageChange": 60,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "Burnham pledges to end the existing pension triple lock in 2030 to fund social care",
+                "coreFact": "Andy Burnham vowed to end the existing pension triple lock in 2030 to help fund care, a move the BBC calls significant but a gamble, and a Guardian-reported poll suggests voters back cutting back the triple lock to fund social care reform by 48% to 28%.",
+                "whyItMatters": "It links a politically protected pension guarantee to the financing of a national care service, testing whether ageing-related care costs can be funded by reworking retirement indexation rather than new borrowing.",
+                "processMatchReason": "No existing World Process covers social care financing or pension indexation; this is a domestic welfare-fiscal shift, so no match is forced."
+              },
+              "zh": {
+                "title": "伯纳姆承诺2030年终止现行养老金三重锁以资助社会照护",
+                "coreFact": "安迪·伯纳姆誓言在2030年终止现行养老金三重锁以帮助资助照护体系；BBC称此举意义重大但属赌博，卫报报道的民调显示选民以48%对28%支持削减三重锁以资助社会照护改革。",
+                "whyItMatters": "该举措把受政治保护的养老金保障与国家照护服务的融资直接挂钩，检验能否通过重构退休金指数化而非新增借债来应对老龄化照护成本。",
+                "processMatchReason": "现有世界进程不涵盖社会照护融资或养老金指数化，这是国内福利财政转向，因此不强行匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Burnham vows to end existing pension triple lock in 2030 to help fund care",
+                "url": "https://www.bbc.co.uk/news/articles/cve8x724e9ezo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "evidenceOrigin": "BBC News reporting on Andy Burnham's pledge",
+                "publishedAt": "2026-09-29T17:39:06.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-socialcare-triplelock-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Voters back Burnham’s plan to cut back triple lock to fund social care reform by 48% to 28%, poll suggests – as it happened",
+                "url": "https://www.theguardian.com/politics/live/2026/sep/30/andy-burnham-eu-brexit-rejoin-customs-union-fuel-duty-budget-latest-news-updates",
+                "publisher": "theguardian.com",
+                "evidenceOrigin": "Guardian live coverage citing a published poll on Burnham's plan",
+                "publishedAt": "2026-09-30T12:30:15.000Z",
+                "kind": "reliable_media",
+                "id": "cand-uk-socialcare-triplelock-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-uk-socialcare-triplelock-source-1",
+              "cand-uk-socialcare-triplelock-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 0,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 54,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A single candidate is presented: a UK domestic welfare-fiscal shift linking the pension triple lock to social care financing. There is no existing World Process covering pension indexation or social care funding, and the provided match to 'process-geopolitical-technology-control' is inappropriate (13% confidence, unrelated domain). The candidate is a genuinely meaningful structural question — whether ageing-related care costs can be funded by reworking retirement indexation rather than borrowing — and has two independent reliable sources (BBC, Guardian poll). However, it is a policy pledge by one politician (Burnham) in a leadership contest, not yet law; it is domestic UK-specific and has low breadth of affected systems compared to the global structural processes already tracked. Decision: this is a plausible new process candidate but borderline against the standalone-insight threshold. I classify it as new_process_candidate because it touches a durable fiscal-demographic tension (pension indexation vs. care costs) that transcends a single news cycle, though the current evidence is a pledge plus a poll, so confidence is moderate. Priority 66, material change 54, publishThresholdMet true — it earns today's single Insight given it is the only candidate and preserves two independent source URLs.",
+              "warnings": [
+                "Single political pledge, not enacted policy; may not survive leadership contest",
+                "UK-domestic scope limits global structural breadth",
+                "Candidate schema mislabels it as geopolitical-technology-control (13% confidence) — dropped the forced match",
+                "Two sources both describe the same pledge/poll event; limited corroborating novelty",
+                "Sentence-based 'importance 74' likely overstates a localised fiscal-policy proposal"
+              ],
+              "candidateId": "cand-uk-socialcare-triplelock",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 66
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 1,
+      "selectedCandidateId": "cand-uk-socialcare-triplelock"
     }
   },
   "preflight": {
