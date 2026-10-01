@@ -2,20 +2,20 @@
   "id": "auto-2026-10-01-1790814302421",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-10-01",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-10-01T00:25:02.421Z",
-  "updatedAt": "2026-10-01T04:29:05.415Z",
+  "updatedAt": "2026-10-01T04:29:11.486Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-10-01T04:29:05.415Z",
+      "message": "已发布",
+      "updatedAt": "2026-10-01T04:29:11.486Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-01-1790819777800",
@@ -475,7 +475,7 @@
           "scope": "global",
           "slug": "burnham-triple-lock-social-care-funding",
           "status": "publish_new",
-          "publishedAt": "2026-09-30T00:00:00.000Z",
+          "publishedAt": "2026-10-01T03:00:00.000Z",
           "updatedAt": "2026-10-01T03:23:59.469Z",
           "confidence": "developing",
           "content": {
@@ -716,9 +716,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-09-30",
+          "id": "daily-global-2026-10-01",
           "scope": "global",
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "decidedAt": "2026-10-01T03:23:59.469Z",
           "state": "publish_new",
           "insightId": "cand-uk-socialcare-triplelock",
@@ -761,7 +761,10 @@
           "outputTokens": 2694,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "insightId": "cand-uk-socialcare-triplelock",
+      "contentVersion": "publish-cand-uk-socialcare-triplelock-1790828948683",
+      "completedAt": "2026-10-01T04:29:11.486Z"
     }
   },
   "preflight": {
@@ -796,10 +799,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790828944139-zltb10xw",
     "acquiredAt": "2026-10-01T04:29:04.363Z",
     "expiresAt": "2026-10-01T04:33:54.363Z"
-  }
+  },
+  "completedAt": "2026-10-01T04:29:11.486Z"
 }
