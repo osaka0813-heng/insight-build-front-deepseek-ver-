@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-10-02T00:25:02.412Z",
-  "updatedAt": "2026-10-02T01:56:21.736Z",
+  "updatedAt": "2026-10-02T02:53:14.279Z",
   "scopes": {
     "global": {
       "status": "checkpointed",
@@ -422,5 +422,10 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。"
+  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "lease": {
+    "owner": "cron-1790909594049-6dmv54n1",
+    "acquiredAt": "2026-10-02T02:53:14.279Z",
+    "expiresAt": "2026-10-02T02:58:04.279Z"
+  }
 }
