@@ -1,8 +1,253 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T04:29:07.195Z",
-  "contentVersion": "publish-cand-uk-socialcare-triplelock-1790828948683",
+  "generatedAt": "2026-10-02T04:29:07.217Z",
+  "contentVersion": "publish-insight-cand-macro-bond-selloff-1790915348786",
   "insights": [
+    {
+      "id": "insight-cand-macro-bond-selloff",
+      "scope": "global",
+      "slug": "sovereign-bond-selloff-24-year-high",
+      "status": "publish_new",
+      "publishedAt": "2026-10-02T03:00:00.000Z",
+      "updatedAt": "2026-10-02T04:29:07.217Z",
+      "confidence": "verified",
+      "content": {
+        "en": {
+          "cover": {
+            "eyebrow": "Sovereign Debt & Global Bond Markets",
+            "secondaryEyebrow": "New Process Candidate",
+            "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+            "summary": "Long-term sovereign borrowing costs are surging across major markets, with the US reaching a 24-year high and the UK following, signaling a structural shift in global financing conditions."
+          },
+          "question": {
+            "lead": "Why does this matter for the global economy and markets?",
+            "title": "Is the long era of cheap sovereign debt coming to an end?",
+            "footnote": "A synchronized rise in long-term yields across major economies could mark a regime change in how governments fund themselves and how all assets are valued."
+          },
+          "signals": {
+            "title": "Early Signals of a Bond Market Regime Shift",
+            "sourceNote": "Evidence from reliable media reporting on the global bond sell-off and related market warnings.",
+            "items": [
+              {
+                "id": "cand-macro-bond-selloff-signal-1",
+                "label": "Trigger",
+                "title": "US long-term borrowing costs reach 24-year high",
+                "body": "The Guardian reports that US long-term borrowing costs hit their highest level in 24 years during a global bond sell-off, with UK long-term borrowing costs also rising sharply.",
+                "whyImportant": "This is a direct measure of the cost of government funding. A 24-year high suggests a fundamental repricing of sovereign risk and inflation expectations.",
+                "evidence": [
+                  {
+                    "id": "cand-macro-bond-selloff-evidence-1",
+                    "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                    "description": "The Guardian, a reliable media source, reports on the global bond sell-off and the milestone in US borrowing costs, with UK borrowing costs also rising.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-macro-bond-selloff-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-macro-bond-selloff-source-1",
+                    "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-10-01T17:56:18.000Z",
+                    "url": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-macro-bond-selloff-signal-2",
+                "label": "Context",
+                "title": "Bank of England warns AI boom could trigger market shocks",
+                "body": "The BBC reports that the Bank of England governor has warned that the AI boom could trigger market shocks, highlighting broader financial stability concerns.",
+                "whyImportant": "While not directly about the bond sell-off, this warning from a major central bank underscores the fragile market environment in which the bond sell-off is occurring.",
+                "evidence": [
+                  {
+                    "id": "cand-macro-bond-selloff-evidence-2",
+                    "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                    "description": "BBC reporting on the Bank of England's warning about AI-related market risks, used as contextual evidence for the broader market environment.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-macro-bond-selloff-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-macro-bond-selloff-source-2",
+                    "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-10-01T10:05:25.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "From Cheap Sovereign Funding to Fiscal Constraint",
+            "before": "For decades, major economies enjoyed declining or low long-term interest rates, allowing governments to borrow cheaply and investors to discount future cash flows at low rates.",
+            "shift": "A synchronized global bond sell-off drives long-term yields to multi-decade highs, with the US at a 24-year peak, signaling a break from the low-rate regime.",
+            "now": "Higher sovereign borrowing costs raise the discount rate for all assets, tightening financial conditions and limiting fiscal space for governments facing elevated debt loads.",
+            "conclusion": "The surge in long-term borrowing costs across major markets is a structural change, not a temporary blip, with far-reaching implications for asset valuations, fiscal policy, and debt sustainability."
+          },
+          "insight": {
+            "title": "Rising sovereign yields = higher discount rates + fiscal constraint",
+            "formula": "Long-term yield surge → higher risk-free rate → repricing of all assets + reduced fiscal space",
+            "explanation": "When the risk-free rate rises sharply and persistently, the present value of future cash flows falls across equities, real estate, and bonds. Simultaneously, governments face higher interest expenses, forcing tougher choices on spending, taxation, or debt issuance, which can further pressure yields in a feedback loop."
+          },
+          "observe": {
+            "title": "Indicators to Watch for Confirmation or Reversal",
+            "items": [
+              {
+                "label": "Yield levels",
+                "prompt": "Are US and UK long-term yields continuing to climb or stabilizing?",
+                "meta": "Monitor 10-year and 30-year government bond yields for sustained increases."
+              },
+              {
+                "label": "Central bank response",
+                "prompt": "Are central banks signaling tolerance for higher yields or hinting at intervention?",
+                "meta": "Watch statements from the Federal Reserve, Bank of England, and other major central banks."
+              },
+              {
+                "label": "Fiscal policy shifts",
+                "prompt": "Are governments announcing spending cuts or tax increases in response to higher borrowing costs?",
+                "meta": "Look for budget revisions or austerity measures in major economies."
+              },
+              {
+                "label": "Market contagion",
+                "prompt": "Is the bond sell-off spreading to equity markets, credit spreads, or emerging markets?",
+                "meta": "Track correlation between bond yields and equity volatility indices."
+              }
+            ],
+            "ending": "If yields continue to rise and fiscal constraints tighten, the era of cheap government debt may indeed be over, with profound consequences for the global economy."
+          }
+        },
+        "zh": {
+          "cover": {
+            "eyebrow": "主权债务与全球债券市场",
+            "secondaryEyebrow": "新流程候选",
+            "title": "全球债券抛售加剧，美国借贷成本创24年新高",
+            "summary": "主要市场的长期主权借贷成本飙升，美国达到24年高点，英国紧随其后，表明全球融资状况出现结构性转变。"
+          },
+          "question": {
+            "lead": "这对全球经济与市场意味着什么？",
+            "title": "廉价主权债务的漫长时代是否即将结束？",
+            "footnote": "主要经济体长期收益率同步上升，可能标志着政府融资方式及所有资产估值方式的制度性转变。"
+          },
+          "signals": {
+            "title": "债券市场制度转变的早期信号",
+            "sourceNote": "来自可靠媒体报道的关于全球债券抛售及相关市场警告的证据。",
+            "items": [
+              {
+                "id": "cand-macro-bond-selloff-signal-1",
+                "label": "触发因素",
+                "title": "美国长期借贷成本创24年新高",
+                "body": "据《卫报》报道，在全球债券抛售期间，美国长期借贷成本升至24年来最高水平，英国长期借贷成本也大幅上升。",
+                "whyImportant": "这是衡量政府融资成本的直接指标。24年来的高点表明主权风险和通胀预期正在被根本性重估。",
+                "evidence": [
+                  {
+                    "id": "cand-macro-bond-selloff-evidence-1",
+                    "title": "全球债券抛售加剧，美国借贷成本升至24年高点",
+                    "description": "可靠媒体来源《卫报》报道了全球债券抛售以及美国借贷成本这一里程碑，英国借贷成本也在上升。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-macro-bond-selloff-source-1"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-macro-bond-selloff-source-1",
+                    "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                    "publisher": "theguardian.com",
+                    "publishedAt": "2026-10-01T17:56:18.000Z",
+                    "url": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              },
+              {
+                "id": "cand-macro-bond-selloff-signal-2",
+                "label": "背景",
+                "title": "英国央行警告人工智能热潮可能引发市场冲击",
+                "body": "BBC报道称，英国央行行长警告人工智能热潮可能引发市场冲击，凸显更广泛的金融稳定担忧。",
+                "whyImportant": "这条来自主要央行的警告虽不直接涉及债券抛售，却凸显了债券抛售所处的脆弱市场环境。",
+                "evidence": [
+                  {
+                    "id": "cand-macro-bond-selloff-evidence-2",
+                    "title": "英国央行行长警告：人工智能热潮可能引发市场冲击",
+                    "description": "BBC关于英国央行就人工智能相关市场风险发出警告的报道，用作更广泛市场环境的背景证据。",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-macro-bond-selloff-source-2"
+                    ]
+                  }
+                ],
+                "sources": [
+                  {
+                    "id": "cand-macro-bond-selloff-source-2",
+                    "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                    "publisher": "bbc.co.uk",
+                    "publishedAt": "2026-10-01T10:05:25.000Z",
+                    "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+                    "type": "media",
+                    "reliability": "strong",
+                    "note": "trigger source"
+                  }
+                ]
+              }
+            ]
+          },
+          "pattern": {
+            "title": "从廉价主权融资到财政约束",
+            "before": "几十年来，主要经济体享有下降或较低的长期利率，使政府能够廉价借贷，投资者也能以低利率折现未来现金流。",
+            "shift": "同步的全球债券抛售将长期收益率推高至数十年来的高位，美国达到24年峰值，标志着与低利率体制的决裂。",
+            "now": "更高的主权借贷成本会抬高所有资产的贴现率，收紧金融条件，并限制面临高债务负担的政府的财政空间。",
+            "conclusion": "主要市场长期借贷成本的飙升是一种结构性变化，而非暂时波动，对资产估值、财政政策和债务可持续性具有深远影响。"
+          },
+          "insight": {
+            "title": "主权收益率上升 = 更高的贴现率 + 财政约束",
+            "formula": "长期收益率飙升 → 无风险利率上升 → 所有资产重新定价 + 财政空间缩小",
+            "explanation": "当无风险利率大幅且持续上升时，股票、房地产和债券的未来现金流现值都会下降。同时，政府面临更高的利息支出，被迫在支出、税收或发债方面做出更艰难的选择，这可能进一步推高收益率，形成反馈循环。"
+          },
+          "observe": {
+            "title": "用于确认或反转的观察指标",
+            "items": [
+              {
+                "label": "收益率水平",
+                "prompt": "美国和英国长期收益率是在继续攀升还是趋于稳定？",
+                "meta": "监测10年期和30年期政府债券收益率是否持续上升。"
+              },
+              {
+                "label": "央行反应",
+                "prompt": "央行是释放出容忍更高收益率的信号，还是暗示将进行干预？",
+                "meta": "关注美联储、英国央行及其他主要央行的表态。"
+              },
+              {
+                "label": "财政政策转向",
+                "prompt": "面对借贷成本上升，各国政府是宣布削减开支还是增税？",
+                "meta": "关注主要经济体的预算修订或紧缩措施。"
+              },
+              {
+                "label": "市场传染",
+                "prompt": "债券抛售是否正蔓延至股市、信贷利差或新兴市场？",
+                "meta": "追踪债券收益率与股市波动率指数之间的相关性。"
+              }
+            ],
+            "ending": "如果收益率继续上升、财政约束收紧，廉价政府债务的时代或许真的结束了，这将对全球经济产生深远影响。"
+          }
+        }
+      }
+    },
     {
       "id": "cand-uk-socialcare-triplelock",
       "scope": "global",
@@ -8951,6 +9196,47 @@
   ],
   "dailyStates": [
     {
+      "id": "daily-global-2026-10-02",
+      "scope": "global",
+      "date": "2026-10-02",
+      "decidedAt": "2026-10-02T03:24:00.343Z",
+      "state": "publish_new",
+      "insightId": "insight-cand-macro-bond-selloff",
+      "materialChangeScore": 72,
+      "evidenceStrength": 88,
+      "noveltyScore": 62,
+      "importanceScore": 88,
+      "candidateSignalIds": [
+        "cand-macro-bond-selloff"
+      ],
+      "content": {
+        "en": {
+          "label": "New process candidate: Sovereign Debt & Global Bond Markets",
+          "decisionTitle": "Initiate new World Process on sovereign debt and bond market regime shift",
+          "decisionSummary": "A synchronized surge in long-term sovereign borrowing costs across major markets, with the US at a 24-year high, represents a structural shift that no existing process covers. This merits a new process candidate to track the evolving dynamics of sovereign debt and global bond markets.",
+          "thresholdReason": "The material change score of 72 reflects the significance of the yield surge and its potential to alter global financing conditions, fiscal policy, and asset valuations. Two sources (one direct trigger, one contextual) meet the two-source gate with caution.",
+          "observeNext": [
+            "Watch for further increases in US and UK long-term yields",
+            "Monitor central bank communications for any policy response",
+            "Track fiscal policy announcements from major governments",
+            "Assess spillovers to equity and credit markets"
+          ]
+        },
+        "zh": {
+          "label": "新进程候选：主权债务与全球债券市场",
+          "decisionTitle": "启动关于主权债务与债券市场制度转变的新世界进程",
+          "decisionSummary": "主要市场长期主权借贷成本同步飙升，美国处于24年高位，这代表一种现有进程均未涵盖的结构性转变。这值得作为一个新进程候选，以追踪主权债务与全球债券市场不断演变的动态。",
+          "thresholdReason": "72分的重大变化评分反映了收益率飙升的重要性及其改变全球融资条件、财政政策和资产估值的潜力。两个来源（一个直接触发因素，一个背景性来源）在谨慎前提下满足双来源门槛。",
+          "observeNext": [
+            "关注美国和英国长期收益率的进一步上升",
+            "监测央行沟通中任何政策回应",
+            "跟踪主要政府的财政政策公告",
+            "评估对股票和信贷市场的溢出效应"
+          ]
+        }
+      }
+    },
+    {
       "id": "daily-global-2026-10-01",
       "scope": "global",
       "date": "2026-10-01",
@@ -10901,10 +11187,329 @@
   ],
   "linkageIntegrity": {
     "version": 1,
-    "repairedAt": "2026-10-01T04:29:08.699Z"
+    "repairedAt": "2026-10-02T04:29:08.803Z"
   },
   "researchDrafts": [],
   "writerDrafts": [
+    {
+      "id": "writer-cand-macro-bond-selloff-1790911440343",
+      "scope": "global",
+      "status": "approved",
+      "writtenAt": "2026-10-02T03:24:00.343Z",
+      "researchDraftId": "research-global-2026-10-02-1790906179989",
+      "candidateId": "cand-macro-bond-selloff",
+      "model": "deepseek-v4-pro + deepseek-flash",
+      "dailyState": "publish_new",
+      "qualityChecks": {
+        "publishThresholdMet": true,
+        "sourceUrlsPreserved": true,
+        "noMarkdownLinksInCopy": true,
+        "languagesComplete": true,
+        "warnings": [],
+        "humanApproved": false,
+        "originalPublishThresholdMet": true
+      },
+      "insight": {
+        "id": "insight-cand-macro-bond-selloff",
+        "scope": "global",
+        "slug": "sovereign-bond-selloff-24-year-high",
+        "status": "publish_new",
+        "publishedAt": "2026-10-02T03:00:00.000Z",
+        "updatedAt": "2026-10-02T04:29:07.217Z",
+        "confidence": "verified",
+        "content": {
+          "en": {
+            "cover": {
+              "eyebrow": "Sovereign Debt & Global Bond Markets",
+              "secondaryEyebrow": "New Process Candidate",
+              "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+              "summary": "Long-term sovereign borrowing costs are surging across major markets, with the US reaching a 24-year high and the UK following, signaling a structural shift in global financing conditions."
+            },
+            "question": {
+              "lead": "Why does this matter for the global economy and markets?",
+              "title": "Is the long era of cheap sovereign debt coming to an end?",
+              "footnote": "A synchronized rise in long-term yields across major economies could mark a regime change in how governments fund themselves and how all assets are valued."
+            },
+            "signals": {
+              "title": "Early Signals of a Bond Market Regime Shift",
+              "sourceNote": "Evidence from reliable media reporting on the global bond sell-off and related market warnings.",
+              "items": [
+                {
+                  "id": "cand-macro-bond-selloff-signal-1",
+                  "label": "Trigger",
+                  "title": "US long-term borrowing costs reach 24-year high",
+                  "body": "The Guardian reports that US long-term borrowing costs hit their highest level in 24 years during a global bond sell-off, with UK long-term borrowing costs also rising sharply.",
+                  "whyImportant": "This is a direct measure of the cost of government funding. A 24-year high suggests a fundamental repricing of sovereign risk and inflation expectations.",
+                  "evidence": [
+                    {
+                      "id": "cand-macro-bond-selloff-evidence-1",
+                      "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                      "description": "The Guardian, a reliable media source, reports on the global bond sell-off and the milestone in US borrowing costs, with UK borrowing costs also rising.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-macro-bond-selloff-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-macro-bond-selloff-source-1",
+                      "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-10-01T17:56:18.000Z",
+                      "url": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-macro-bond-selloff-signal-2",
+                  "label": "Context",
+                  "title": "Bank of England warns AI boom could trigger market shocks",
+                  "body": "The BBC reports that the Bank of England governor has warned that the AI boom could trigger market shocks, highlighting broader financial stability concerns.",
+                  "whyImportant": "While not directly about the bond sell-off, this warning from a major central bank underscores the fragile market environment in which the bond sell-off is occurring.",
+                  "evidence": [
+                    {
+                      "id": "cand-macro-bond-selloff-evidence-2",
+                      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                      "description": "BBC reporting on the Bank of England's warning about AI-related market risks, used as contextual evidence for the broader market environment.",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-macro-bond-selloff-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-macro-bond-selloff-source-2",
+                      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-10-01T10:05:25.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Cheap Sovereign Funding to Fiscal Constraint",
+              "before": "For decades, major economies enjoyed declining or low long-term interest rates, allowing governments to borrow cheaply and investors to discount future cash flows at low rates.",
+              "shift": "A synchronized global bond sell-off drives long-term yields to multi-decade highs, with the US at a 24-year peak, signaling a break from the low-rate regime.",
+              "now": "Higher sovereign borrowing costs raise the discount rate for all assets, tightening financial conditions and limiting fiscal space for governments facing elevated debt loads.",
+              "conclusion": "The surge in long-term borrowing costs across major markets is a structural change, not a temporary blip, with far-reaching implications for asset valuations, fiscal policy, and debt sustainability."
+            },
+            "insight": {
+              "title": "Rising sovereign yields = higher discount rates + fiscal constraint",
+              "formula": "Long-term yield surge → higher risk-free rate → repricing of all assets + reduced fiscal space",
+              "explanation": "When the risk-free rate rises sharply and persistently, the present value of future cash flows falls across equities, real estate, and bonds. Simultaneously, governments face higher interest expenses, forcing tougher choices on spending, taxation, or debt issuance, which can further pressure yields in a feedback loop."
+            },
+            "observe": {
+              "title": "Indicators to Watch for Confirmation or Reversal",
+              "items": [
+                {
+                  "label": "Yield levels",
+                  "prompt": "Are US and UK long-term yields continuing to climb or stabilizing?",
+                  "meta": "Monitor 10-year and 30-year government bond yields for sustained increases."
+                },
+                {
+                  "label": "Central bank response",
+                  "prompt": "Are central banks signaling tolerance for higher yields or hinting at intervention?",
+                  "meta": "Watch statements from the Federal Reserve, Bank of England, and other major central banks."
+                },
+                {
+                  "label": "Fiscal policy shifts",
+                  "prompt": "Are governments announcing spending cuts or tax increases in response to higher borrowing costs?",
+                  "meta": "Look for budget revisions or austerity measures in major economies."
+                },
+                {
+                  "label": "Market contagion",
+                  "prompt": "Is the bond sell-off spreading to equity markets, credit spreads, or emerging markets?",
+                  "meta": "Track correlation between bond yields and equity volatility indices."
+                }
+              ],
+              "ending": "If yields continue to rise and fiscal constraints tighten, the era of cheap government debt may indeed be over, with profound consequences for the global economy."
+            }
+          },
+          "zh": {
+            "cover": {
+              "eyebrow": "主权债务与全球债券市场",
+              "secondaryEyebrow": "新流程候选",
+              "title": "全球债券抛售加剧，美国借贷成本创24年新高",
+              "summary": "主要市场的长期主权借贷成本飙升，美国达到24年高点，英国紧随其后，表明全球融资状况出现结构性转变。"
+            },
+            "question": {
+              "lead": "这对全球经济与市场意味着什么？",
+              "title": "廉价主权债务的漫长时代是否即将结束？",
+              "footnote": "主要经济体长期收益率同步上升，可能标志着政府融资方式及所有资产估值方式的制度性转变。"
+            },
+            "signals": {
+              "title": "债券市场制度转变的早期信号",
+              "sourceNote": "来自可靠媒体报道的关于全球债券抛售及相关市场警告的证据。",
+              "items": [
+                {
+                  "id": "cand-macro-bond-selloff-signal-1",
+                  "label": "触发因素",
+                  "title": "美国长期借贷成本创24年新高",
+                  "body": "据《卫报》报道，在全球债券抛售期间，美国长期借贷成本升至24年来最高水平，英国长期借贷成本也大幅上升。",
+                  "whyImportant": "这是衡量政府融资成本的直接指标。24年来的高点表明主权风险和通胀预期正在被根本性重估。",
+                  "evidence": [
+                    {
+                      "id": "cand-macro-bond-selloff-evidence-1",
+                      "title": "全球债券抛售加剧，美国借贷成本升至24年高点",
+                      "description": "可靠媒体来源《卫报》报道了全球债券抛售以及美国借贷成本这一里程碑，英国借贷成本也在上升。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-macro-bond-selloff-source-1"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-macro-bond-selloff-source-1",
+                      "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                      "publisher": "theguardian.com",
+                      "publishedAt": "2026-10-01T17:56:18.000Z",
+                      "url": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                },
+                {
+                  "id": "cand-macro-bond-selloff-signal-2",
+                  "label": "背景",
+                  "title": "英国央行警告人工智能热潮可能引发市场冲击",
+                  "body": "BBC报道称，英国央行行长警告人工智能热潮可能引发市场冲击，凸显更广泛的金融稳定担忧。",
+                  "whyImportant": "这条来自主要央行的警告虽不直接涉及债券抛售，却凸显了债券抛售所处的脆弱市场环境。",
+                  "evidence": [
+                    {
+                      "id": "cand-macro-bond-selloff-evidence-2",
+                      "title": "英国央行行长警告：人工智能热潮可能引发市场冲击",
+                      "description": "BBC关于英国央行就人工智能相关市场风险发出警告的报道，用作更广泛市场环境的背景证据。",
+                      "confidence": "verified",
+                      "sourceIds": [
+                        "cand-macro-bond-selloff-source-2"
+                      ]
+                    }
+                  ],
+                  "sources": [
+                    {
+                      "id": "cand-macro-bond-selloff-source-2",
+                      "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                      "publisher": "bbc.co.uk",
+                      "publishedAt": "2026-10-01T10:05:25.000Z",
+                      "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+                      "type": "media",
+                      "reliability": "strong",
+                      "note": "trigger source"
+                    }
+                  ]
+                }
+              ]
+            },
+            "pattern": {
+              "title": "从廉价主权融资到财政约束",
+              "before": "几十年来，主要经济体享有下降或较低的长期利率，使政府能够廉价借贷，投资者也能以低利率折现未来现金流。",
+              "shift": "同步的全球债券抛售将长期收益率推高至数十年来的高位，美国达到24年峰值，标志着与低利率体制的决裂。",
+              "now": "更高的主权借贷成本会抬高所有资产的贴现率，收紧金融条件，并限制面临高债务负担的政府的财政空间。",
+              "conclusion": "主要市场长期借贷成本的飙升是一种结构性变化，而非暂时波动，对资产估值、财政政策和债务可持续性具有深远影响。"
+            },
+            "insight": {
+              "title": "主权收益率上升 = 更高的贴现率 + 财政约束",
+              "formula": "长期收益率飙升 → 无风险利率上升 → 所有资产重新定价 + 财政空间缩小",
+              "explanation": "当无风险利率大幅且持续上升时，股票、房地产和债券的未来现金流现值都会下降。同时，政府面临更高的利息支出，被迫在支出、税收或发债方面做出更艰难的选择，这可能进一步推高收益率，形成反馈循环。"
+            },
+            "observe": {
+              "title": "用于确认或反转的观察指标",
+              "items": [
+                {
+                  "label": "收益率水平",
+                  "prompt": "美国和英国长期收益率是在继续攀升还是趋于稳定？",
+                  "meta": "监测10年期和30年期政府债券收益率是否持续上升。"
+                },
+                {
+                  "label": "央行反应",
+                  "prompt": "央行是释放出容忍更高收益率的信号，还是暗示将进行干预？",
+                  "meta": "关注美联储、英国央行及其他主要央行的表态。"
+                },
+                {
+                  "label": "财政政策转向",
+                  "prompt": "面对借贷成本上升，各国政府是宣布削减开支还是增税？",
+                  "meta": "关注主要经济体的预算修订或紧缩措施。"
+                },
+                {
+                  "label": "市场传染",
+                  "prompt": "债券抛售是否正蔓延至股市、信贷利差或新兴市场？",
+                  "meta": "追踪债券收益率与股市波动率指数之间的相关性。"
+                }
+              ],
+              "ending": "如果收益率继续上升、财政约束收紧，廉价政府债务的时代或许真的结束了，这将对全球经济产生深远影响。"
+            }
+          }
+        }
+      },
+      "dailyStateDraft": {
+        "id": "daily-global-2026-10-02",
+        "scope": "global",
+        "date": "2026-10-02",
+        "decidedAt": "2026-10-02T03:24:00.343Z",
+        "state": "publish_new",
+        "insightId": "insight-cand-macro-bond-selloff",
+        "materialChangeScore": 72,
+        "evidenceStrength": 88,
+        "noveltyScore": 62,
+        "importanceScore": 88,
+        "candidateSignalIds": [
+          "cand-macro-bond-selloff"
+        ],
+        "content": {
+          "en": {
+            "label": "New process candidate: Sovereign Debt & Global Bond Markets",
+            "decisionTitle": "Initiate new World Process on sovereign debt and bond market regime shift",
+            "decisionSummary": "A synchronized surge in long-term sovereign borrowing costs across major markets, with the US at a 24-year high, represents a structural shift that no existing process covers. This merits a new process candidate to track the evolving dynamics of sovereign debt and global bond markets.",
+            "thresholdReason": "The material change score of 72 reflects the significance of the yield surge and its potential to alter global financing conditions, fiscal policy, and asset valuations. Two sources (one direct trigger, one contextual) meet the two-source gate with caution.",
+            "observeNext": [
+              "Watch for further increases in US and UK long-term yields",
+              "Monitor central bank communications for any policy response",
+              "Track fiscal policy announcements from major governments",
+              "Assess spillovers to equity and credit markets"
+            ]
+          },
+          "zh": {
+            "label": "新进程候选：主权债务与全球债券市场",
+            "decisionTitle": "启动关于主权债务与债券市场制度转变的新世界进程",
+            "decisionSummary": "主要市场长期主权借贷成本同步飙升，美国处于24年高位，这代表一种现有进程均未涵盖的结构性转变。这值得作为一个新进程候选，以追踪主权债务与全球债券市场不断演变的动态。",
+            "thresholdReason": "72分的重大变化评分反映了收益率飙升的重要性及其改变全球融资条件、财政政策和资产估值的潜力。两个来源（一个直接触发因素，一个背景性来源）在谨慎前提下满足双来源门槛。",
+            "observeNext": [
+              "关注美国和英国长期收益率的进一步上升",
+              "监测央行沟通中任何政策回应",
+              "跟踪主要政府的财政政策公告",
+              "评估对股票和信贷市场的溢出效应"
+            ]
+          }
+        }
+      },
+      "provider": "deepseek",
+      "pipeline": "build014-one-world-v1",
+      "usage": {
+        "inputTokens": 4979,
+        "outputTokens": 2868,
+        "cachedInputTokens": 1792
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedAt": "2026-10-02T04:29:07.217Z",
+        "originalPublishThresholdMet": true,
+        "originalDailyState": "publish_new"
+      },
+      "approvedAt": "2026-10-02T04:29:07.217Z"
+    },
     {
       "id": "writer-cand-uk-socialcare-triplelock-1790825039469",
       "scope": "global",
