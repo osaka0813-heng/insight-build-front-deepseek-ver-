@@ -6,16 +6,16 @@
   "date": "2026-10-02",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-10-02T00:25:02.412Z",
-  "updatedAt": "2026-10-02T03:01:34.080Z",
+  "updatedAt": "2026-10-02T03:02:09.906Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-10-02T03:01:34.080Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-10-02T03:02:09.906Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-02-1790906179989",
@@ -929,7 +929,133 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 6,
-      "selectedCandidateId": "cand-macro-bond-selloff"
+      "selectedCandidateId": "cand-macro-bond-selloff",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": "insight-cand-macro-bond-selloff",
+          "slug": "sovereign-bond-selloff-24-year-high",
+          "parentInsightId": null,
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Sovereign Debt & Global Bond Markets",
+              "secondaryEyebrow": "New Process Candidate",
+              "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+              "summary": "Long-term sovereign borrowing costs are surging across major markets, with the US reaching a 24-year high and the UK following, signaling a structural shift in global financing conditions."
+            },
+            "question": {
+              "lead": "Why does this matter for the global economy and markets?",
+              "title": "Is the long era of cheap sovereign debt coming to an end?",
+              "footnote": "A synchronized rise in long-term yields across major economies could mark a regime change in how governments fund themselves and how all assets are valued."
+            },
+            "signals": {
+              "title": "Early Signals of a Bond Market Regime Shift",
+              "sourceNote": "Evidence from reliable media reporting on the global bond sell-off and related market warnings.",
+              "items": [
+                {
+                  "label": "Trigger",
+                  "title": "US long-term borrowing costs reach 24-year high",
+                  "body": "The Guardian reports that US long-term borrowing costs hit their highest level in 24 years during a global bond sell-off, with UK long-term borrowing costs also rising sharply.",
+                  "whyImportant": "This is a direct measure of the cost of government funding. A 24-year high suggests a fundamental repricing of sovereign risk and inflation expectations.",
+                  "evidence": {
+                    "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                    "description": "The Guardian, a reliable media source, reports on the global bond sell-off and the milestone in US borrowing costs, with UK borrowing costs also rising.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-macro-bond-selloff-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Context",
+                  "title": "Bank of England warns AI boom could trigger market shocks",
+                  "body": "The BBC reports that the Bank of England governor has warned that the AI boom could trigger market shocks, highlighting broader financial stability concerns.",
+                  "whyImportant": "While not directly about the bond sell-off, this warning from a major central bank underscores the fragile market environment in which the bond sell-off is occurring.",
+                  "evidence": {
+                    "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                    "description": "BBC reporting on the Bank of England's warning about AI-related market risks, used as contextual evidence for the broader market environment.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "cand-macro-bond-selloff-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "From Cheap Sovereign Funding to Fiscal Constraint",
+              "before": "For decades, major economies enjoyed declining or low long-term interest rates, allowing governments to borrow cheaply and investors to discount future cash flows at low rates.",
+              "shift": "A synchronized global bond sell-off drives long-term yields to multi-decade highs, with the US at a 24-year peak, signaling a break from the low-rate regime.",
+              "now": "Higher sovereign borrowing costs raise the discount rate for all assets, tightening financial conditions and limiting fiscal space for governments facing elevated debt loads.",
+              "conclusion": "The surge in long-term borrowing costs across major markets is a structural change, not a temporary blip, with far-reaching implications for asset valuations, fiscal policy, and debt sustainability."
+            },
+            "insight": {
+              "title": "Rising sovereign yields = higher discount rates + fiscal constraint",
+              "formula": "Long-term yield surge → higher risk-free rate → repricing of all assets + reduced fiscal space",
+              "explanation": "When the risk-free rate rises sharply and persistently, the present value of future cash flows falls across equities, real estate, and bonds. Simultaneously, governments face higher interest expenses, forcing tougher choices on spending, taxation, or debt issuance, which can further pressure yields in a feedback loop."
+            },
+            "observe": {
+              "title": "Indicators to Watch for Confirmation or Reversal",
+              "items": [
+                {
+                  "label": "Yield levels",
+                  "prompt": "Are US and UK long-term yields continuing to climb or stabilizing?",
+                  "meta": "Monitor 10-year and 30-year government bond yields for sustained increases."
+                },
+                {
+                  "label": "Central bank response",
+                  "prompt": "Are central banks signaling tolerance for higher yields or hinting at intervention?",
+                  "meta": "Watch statements from the Federal Reserve, Bank of England, and other major central banks."
+                },
+                {
+                  "label": "Fiscal policy shifts",
+                  "prompt": "Are governments announcing spending cuts or tax increases in response to higher borrowing costs?",
+                  "meta": "Look for budget revisions or austerity measures in major economies."
+                },
+                {
+                  "label": "Market contagion",
+                  "prompt": "Is the bond sell-off spreading to equity markets, credit spreads, or emerging markets?",
+                  "meta": "Track correlation between bond yields and equity volatility indices."
+                }
+              ],
+              "ending": "If yields continue to rise and fiscal constraints tighten, the era of cheap government debt may indeed be over, with profound consequences for the global economy."
+            }
+          },
+          "dailyStateEn": {
+            "label": "New process candidate: Sovereign Debt & Global Bond Markets",
+            "decisionTitle": "Initiate new World Process on sovereign debt and bond market regime shift",
+            "decisionSummary": "A synchronized surge in long-term sovereign borrowing costs across major markets, with the US at a 24-year high, represents a structural shift that no existing process covers. This merits a new process candidate to track the evolving dynamics of sovereign debt and global bond markets.",
+            "thresholdReason": "The material change score of 72 reflects the significance of the yield surge and its potential to alter global financing conditions, fiscal policy, and asset valuations. Two sources (one direct trigger, one contextual) meet the two-source gate with caution.",
+            "observeNext": [
+              "Watch for further increases in US and UK long-term yields",
+              "Monitor central bank communications for any policy response",
+              "Track fiscal policy announcements from major governments",
+              "Assess spillovers to equity and credit markets"
+            ]
+          },
+          "processStage": "emerging",
+          "processContentEn": {
+            "title": "Sovereign Debt & Global Bond Markets",
+            "description": "This process tracks the cost of sovereign borrowing and its implications for fiscal sustainability, asset valuations, and global financial stability. It focuses on long-term government bond yields across major economies and the structural factors driving them.",
+            "implication": "A sustained rise in long-term yields could usher in a new era of fiscal discipline, higher discount rates, and increased market volatility, with profound effects on economic growth, investment, and inequality."
+          },
+          "nextQuestionEn": "Are we witnessing a durable regime shift in sovereign bond markets, or will central banks intervene to cap yields and restore the status quo?",
+          "observeNextEn": [
+            "Monitor US and UK long-term government bond yields for further increases",
+            "Watch for central bank statements or actions regarding bond market volatility",
+            "Look for changes in fiscal policy in response to higher borrowing costs",
+            "Track spillover effects on equity valuations and credit spreads"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2093,
+          "outputTokens": 1649,
+          "cachedInputTokens": 1152
+        }
+      }
     }
   },
   "preflight": {
