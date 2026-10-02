@@ -2,20 +2,20 @@
   "id": "auto-2026-10-02-1790900702412",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-10-02",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-10-02T00:25:02.412Z",
-  "updatedAt": "2026-10-02T04:29:05.401Z",
+  "updatedAt": "2026-10-02T04:29:11.537Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-10-02T04:29:05.401Z",
+      "message": "已发布",
+      "updatedAt": "2026-10-02T04:29:11.537Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-02-1790906179989",
@@ -1201,7 +1201,7 @@
           "scope": "global",
           "slug": "sovereign-bond-selloff-24-year-high",
           "status": "publish_new",
-          "publishedAt": "2026-10-01T00:00:00.000Z",
+          "publishedAt": "2026-10-02T03:00:00.000Z",
           "updatedAt": "2026-10-02T03:24:00.343Z",
           "confidence": "verified",
           "content": {
@@ -1442,9 +1442,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-10-01",
+          "id": "daily-global-2026-10-02",
           "scope": "global",
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "decidedAt": "2026-10-02T03:24:00.343Z",
           "state": "publish_new",
           "insightId": "insight-cand-macro-bond-selloff",
@@ -1489,7 +1489,10 @@
           "outputTokens": 2868,
           "cachedInputTokens": 1792
         }
-      }
+      },
+      "insightId": "insight-cand-macro-bond-selloff",
+      "contentVersion": "publish-insight-cand-macro-bond-selloff-1790915348786",
+      "completedAt": "2026-10-02T04:29:11.537Z"
     }
   },
   "preflight": {
@@ -1524,10 +1527,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1790915344007-fmbimubq",
     "acquiredAt": "2026-10-02T04:29:04.216Z",
     "expiresAt": "2026-10-02T04:33:54.216Z"
-  }
+  },
+  "completedAt": "2026-10-02T04:29:11.537Z"
 }
