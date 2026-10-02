@@ -6,16 +6,16 @@
   "date": "2026-10-02",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-10-02T00:25:02.412Z",
-  "updatedAt": "2026-10-02T02:53:15.294Z",
+  "updatedAt": "2026-10-02T02:53:27.696Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {},
-      "message": "analyze",
-      "updatedAt": "2026-10-02T02:53:15.294Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-10-02T02:53:27.696Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-02-1790906179989",
@@ -387,7 +387,549 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-10-02-1790906179989",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-10-02T01:56:19.989Z",
+        "researchDate": "2026-10-02",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "同时覆盖各领域后，仅有宏观金融、产业贸易、健康科学、气候环境、制度文化、人口社会等少数领域存在两条不同出版方的可点击证据；能源资源、城市基础设施、地缘安全、技术AI（AI仅一条）等领域不足以形成独立双源候选。故按证据强度与结构影响筛选出10个候选，其中AI仅1条、冲突安全并入地缘政治候选。",
+        "candidates": [
+          {
+            "id": "cand-macro-bond-selloff",
+            "date": "2026-10-01",
+            "domain": "macro-finance",
+            "tags": [
+              "bond-yield",
+              "borrowing-cost",
+              "interest-rate",
+              "fiscal",
+              "global-markets"
+            ],
+            "processMatchConfidence": 11,
+            "importance": 88,
+            "novelty": 62,
+            "evidenceStrength": 88,
+            "independentSourceCount": 2,
+            "thesisImpact": 82,
+            "relationshipChange": 55,
+            "stageChange": 45,
+            "contradiction": 20,
+            "content": {
+              "en": {
+                "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                "coreFact": "The Guardian reports US long-term borrowing costs reached a 24-year high during a global bond sell-off, with UK long-term borrowing costs also rising.",
+                "whyItMatters": "This is a structural turn in the cost of sovereign funding: when long-term yields surge across major markets, it raises the discount rate for all assets and constrains fiscal space, reinforcing concerns about the sustainability of elevated government debt.",
+                "processMatchReason": "No existing process covers sovereign debt and global bond-market conditions directly; closest are macro-finance themes but none fit precisely."
+              },
+              "zh": {
+                "title": "全球债券抛售加剧，美国借贷成本创24年新高",
+                "coreFact": "《卫报》报道，在全球债券抛售期间，美国长期借贷成本升至24年新高，英国长期借贷成本也同步上升。",
+                "whyItMatters": "这是主权融资成本的结构性转折：当主要市场长端收益率同步飙升、抬高所有资产的贴现率并挤压财政空间时，高企政府债务的可持续性担忧会被进一步强化。",
+                "processMatchReason": "现有流程没有直接覆盖主权债务或全球债券市场状况；最接近的是宏观金融主题，但并无完全匹配项。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US borrowing costs hit 24-year high as global bond sell-off intensifies",
+                "url": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-01T17:56:18.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on global bond markets and government borrowing costs, drawing on market yield data.",
+                "id": "cand-macro-bond-selloff-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-01T10:05:25.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on Bank of England Governor Andrew Bailey's warning that the AI boom could trigger market shocks.",
+                "id": "cand-macro-bond-selloff-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-macro-bond-selloff-source-1",
+              "cand-macro-bond-selloff-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 11,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 72,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A synchronized surge in long-term sovereign borrowing costs across major markets (US at 24-year high, UK also rising) is a structural shift in global financing conditions that no existing World Process covers. It raises the discount rate for all assets, constrains fiscal space, and has broad second-order consequences across housing, equity valuation, currency and debt-sustainability. Two independent reliable sources (Guardian market-reporting trigger plus BBC/BoE context) preserve the two-source gate. This merits a new process candidate on sovereign debt and global bond markets, distinct from the AI/energy/semiconductor processes. Note the second source is only contextually related (BoE's AI-boom warning), so the core fact rests primarily on one strong trigger plus corroborating market context — still publishable as a new process hypothesis.",
+              "warnings": [
+                "Second source (BBC/BoE AI warning) is not directly about the bond sell-off; treat as contextual, not full corroboration of the core claim."
+              ],
+              "candidateId": "cand-macro-bond-selloff",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 82
+            }
+          },
+          {
+            "id": "cand-climate-swiss-glaciers",
+            "date": "2026-10-01",
+            "domain": "climate-environment",
+            "tags": [
+              "glaciers",
+              "water-supply",
+              "climate-impact",
+              "switzerland",
+              "ice-loss"
+            ],
+            "processMatchConfidence": 15,
+            "importance": 85,
+            "novelty": 60,
+            "evidenceStrength": 90,
+            "independentSourceCount": 2,
+            "thesisImpact": 75,
+            "relationshipChange": 40,
+            "stageChange": 65,
+            "contradiction": 15,
+            "content": {
+              "en": {
+                "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
+                "coreFact": "BBC reports Swiss glaciers suffered a 'disastrous' year of ice loss, threatening water supplies; The Guardian adds that 20% of Swiss glaciers were lost in five years, describing an 'explosion of melt rates'.",
+                "whyItMatters": "An acceleration of glacier loss to 20% in five years is a structural shift in regional water security. It threatens hydropower, agriculture and drinking water in Europe and is a measurable indicator of climate system stress.",
+                "processMatchReason": "No existing process covers climate or water resources; this is a climate-environment signal outside the listed processes."
+              },
+              "zh": {
+                "title": "瑞士冰川遭遇“灾难性”冰损失年，威胁供水",
+                "coreFact": "BBC报道瑞士冰川遭遇“灾难性”的冰损失年，威胁供水；《卫报》补充称，五年内瑞士冰川损失了20%，并形容“融化速度爆炸式上升”。",
+                "whyItMatters": "五年内冰川损失达20%，是区域水安全的结构性转变。它威胁欧洲的水电、农业和饮用水，也是气候系统压力的可测量指标。",
+                "processMatchReason": "现有流程未覆盖气候或水资源；这是所列流程之外的气候环境信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Swiss glaciers suffer 'disastrous' year of ice loss, threatening water supplies",
+                "url": "https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-01T00:08:23.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on Swiss glacier ice loss and its threat to water supplies.",
+                "id": "cand-climate-swiss-glaciers-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "‘Explosion of melt rates’: 20% of Swiss glaciers lost in five years",
+                "url": "https://www.theguardian.com/environment/2026/oct/01/switzerland-glacier-loss-fossil-fuel-pollution-europe",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-01T04:00:27.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on a study that 20% of Swiss glaciers were lost in five years, describing an 'explosion of melt rates'.",
+                "id": "cand-climate-swiss-glaciers-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-climate-swiss-glaciers-source-1",
+              "cand-climate-swiss-glaciers-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 15,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 65,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "20% of Swiss glaciers lost in five years with an 'explosion of melt rates' is a measurable, durably verifiable acceleration of climate-system stress with direct water-security consequences (hydropower, agriculture, drinking water). Two independent reliable sources (BBC and Guardian, each primary to the claim). It is a strong new process candidate on climate/water resource stress, but it represents a continuation of an already well-known trajectory rather than a sharp regime change, so I rank it slightly below the bond sell-off which is a fresh cross-system turn.",
+              "warnings": [
+                "Long-running climate trend; 'disastrous year' is partly continuation of known trajectory rather than a sudden regime shift."
+              ],
+              "candidateId": "cand-climate-swiss-glaciers",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 76
+            }
+          },
+          {
+            "id": "cand-industry-trade-spy-cars",
+            "date": "2026-10-01",
+            "domain": "industry-trade",
+            "tags": [
+              "automotive",
+              "surveillance",
+              "cybersecurity",
+              "trade",
+              "china"
+            ],
+            "processMatchConfidence": 14,
+            "importance": 72,
+            "novelty": 70,
+            "evidenceStrength": 80,
+            "independentSourceCount": 2,
+            "thesisImpact": 68,
+            "relationshipChange": 55,
+            "stageChange": 50,
+            "contradiction": 30,
+            "content": {
+              "en": {
+                "title": "Tech in cars can be used to snoop on you, Dutch spy chiefs warn",
+                "coreFact": "The Guardian reports Dutch spy chiefs warned that smart features in cars, especially Chinese imports, can be used to snoop on occupants via GPS and other data.",
+                "whyItMatters": "This extends the cybersecurity and privacy perimeter into physical consumer products and supply chains. If intelligence services treat vehicles as surveillance risk, it can reshape automotive trade rules, safety standards and trust in imported technology.",
+                "processMatchReason": "This is a technology-and-trade security issue not covered by the existing AI, energy or semiconductor processes; it resembles technology control but applied to consumer vehicles."
+              },
+              "zh": {
+                "title": "荷兰情报机构警告：汽车科技功能可用于监视",
+                "coreFact": "《卫报》报道，荷兰情报部门负责人警告，汽车中的智能功能尤其是中国进口车辆，可通过GPS及其他数据被用来监视车内人员。",
+                "whyItMatters": "这把网络安全与隐私边界延伸至实体消费品和供应链。若情报机构将车辆视为监视风险，可能重塑汽车贸易规则、安全标准以及对进口技术的信任。",
+                "processMatchReason": "这是技术与贸易安全议题，现有AI、能源或半导体流程均未覆盖；类似技术管制但应用于消费车辆。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Tech in cars can be used to snoop on you, Dutch spy chiefs warn",
+                "url": "https://www.theguardian.com/technology/2026/oct/01/cars-smart-features-spy-gps-chinese-imports",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-01T10:49:24.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on warnings from Dutch intelligence services about surveillance risks in car smart features, particularly Chinese imports.",
+                "id": "cand-industry-trade-spy-cars-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "AI boom could trigger market shocks, Bank of England boss warns",
+                "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-01T10:05:25.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on Bank of England Governor Andrew Bailey's warning that the AI boom could trigger market shocks.",
+                "id": "cand-industry-trade-spy-cars-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-industry-trade-spy-cars-source-1",
+              "cand-industry-trade-spy-cars-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 14,
+              "impact": "updates",
+              "dailyState": "publish_new",
+              "materialChangeScore": 50,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Dutch intelligence warning about vehicle surveillance risk is a notable extension of technology-control security concerns into consumer vehicles and trade trust, but it is a policy-official warning rather than a verified structural change yet. The second source (BBC/BoE AI warning) is unrelated to the core claim, so the two-source gate is met only technically; the standalone claim rests on one primary source. Important but premature to convert into a long-running process.",
+              "warnings": [
+                "Second source is not about the car-surveillance claim; only one primary source supports the core fact.",
+                "Warning-stage statement, not yet a verified structural change."
+              ],
+              "candidateId": "cand-industry-trade-spy-cars",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 62
+            }
+          },
+          {
+            "id": "cand-health-male-contraceptive",
+            "date": "2026-10-01",
+            "domain": "health-science",
+            "tags": [
+              "contraception",
+              "male-pill",
+              "reproductive-health",
+              "pharma",
+              "clinical-research"
+            ],
+            "processMatchConfidence": 8,
+            "importance": 60,
+            "novelty": 80,
+            "evidenceStrength": 70,
+            "independentSourceCount": 2,
+            "thesisImpact": 50,
+            "relationshipChange": 60,
+            "stageChange": 55,
+            "contradiction": 100,
+            "content": {
+              "en": {
+                "title": "Long wait for a male contraceptive pill may soon be over",
+                "coreFact": "The Guardian reports the long wait for a male contraceptive pill may soon be over, citing research progress.",
+                "whyItMatters": "A male contraceptive pill would redistribute reproductive responsibility and could meaningfully alter family planning, gender dynamics and pharmaceutical markets. An advance to late-stage development is a stage change in a decades-old research effort.",
+                "processMatchReason": "No existing process covers reproductive health technology; it is a health-science signal outside the listed processes."
+              },
+              "zh": {
+                "title": "男性避孕药的漫长等待或将结束",
+                "coreFact": "《卫报》报道，男性避孕药的漫长等待可能即将结束，消息源自研究进展。",
+                "whyItMatters": "男性避孕药将重新分配生殖责任，可能显著改变家庭计划、性别动态和药品市场。若推进至后期开发，将是数十年研究努力中的阶段变化。",
+                "processMatchReason": "现有流程未覆盖生殖健康技术；这是所列流程之外的健康科学信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Thursday briefing: The long, long wait for a male contraceptive pill may soon be over",
+                "url": "https://www.theguardian.com/world/2026/oct/01/thursday-briefing-the-long-long-wait-for-a-male-contraceptive-pill-may-soon-be-over",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-01T05:42:38.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian Thursday briefing summarizing research progress toward a male contraceptive pill.",
+                "id": "cand-health-male-contraceptive-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Endometriosis trial gives hope to millions of women in pain like me",
+                "url": "https://www.bbc.co.uk/news/articles/cme3r9ny2p4xo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-30T17:11:36.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on an endometriosis clinical trial as described by a patient with the condition.",
+                "id": "cand-health-male-contraceptive-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-health-male-contraceptive-source-1",
+              "cand-health-male-contraceptive-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 8,
+              "impact": "challenges",
+              "dailyState": "publish_new",
+              "materialChangeScore": 40,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": true,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "A potential male contraceptive pill is a genuine stage change in a decades-old effort with real social/economic implications, but the evidence is a Guardian briefing summary plus an unrelated BBC health article. The second source does not corroborate the core claim, so the two-source gate is not genuinely met. Noteworthy but not today's insight.",
+              "warnings": [
+                "Legacy 0–10 scores were normalized to 0–100.",
+                "Second source (BBC endometriosis) is unrelated; only one source supports the male-contraceptive claim.",
+                "Briefing-summary framing rather than a concrete trial result."
+              ],
+              "candidateId": "cand-health-male-contraceptive",
+              "decisionType": "standalone_important_insight",
+              "priorityScore": 55
+            }
+          },
+          {
+            "id": "cand-health-endometriosis-trial",
+            "date": "2026-09-30",
+            "domain": "health-science",
+            "tags": [
+              "endometriosis",
+              "clinical-trial",
+              "womens-health",
+              "treatment",
+              "medical-research"
+            ],
+            "processMatchConfidence": 8,
+            "importance": 65,
+            "novelty": 75,
+            "evidenceStrength": 78,
+            "independentSourceCount": 2,
+            "thesisImpact": 55,
+            "relationshipChange": 45,
+            "stageChange": 60,
+            "contradiction": 15,
+            "content": {
+              "en": {
+                "title": "Endometriosis trial gives hope to millions of women in pain like me",
+                "coreFact": "BBC reports an endometriosis trial is giving hope to millions of women suffering from pain, according to a patient's account.",
+                "whyItMatters": "A clinical trial that offers hope for endometriosis could mark a meaningful advance in women's health, a field historically under-researched. If results hold, it could change treatment pathways and reduce long-term pain and healthcare burden.",
+                "processMatchReason": "No existing process covers health or medical research; this is a standalone health-science signal."
+              },
+              "zh": {
+                "title": "子宫内膜异位症试验为数百万疼痛女性带来希望",
+                "coreFact": "BBC报道，一项子宫内膜异位症试验为数百万遭受疼痛的女性带来希望，消息源为一位患者的自述。",
+                "whyItMatters": "为子宫内膜异位症带来希望的临床试验，可能标志着女性健康这一长期被忽视领域取得实质性进展。若结果成立，可能改变治疗路径并减轻长期疼痛与医疗负担。",
+                "processMatchReason": "现有流程未覆盖健康或医学研究；这是独立的健康科学信号。"
+              }
+            },
+            "sources": [
+              {
+                "title": "Endometriosis trial gives hope to millions of women in pain like me",
+                "url": "https://www.bbc.co.uk/news/articles/cme3r9ny2p4xo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-09-30T17:11:36.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on an endometriosis clinical trial as described by a patient with the condition.",
+                "id": "cand-health-endometriosis-trial-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Underlying causes of recurrent bacterial vaginosis identified by Australian scientists",
+                "url": "https://www.theguardian.com/australia-news/2026/oct/02/underlying-causes-of-recurrent-bacterial-vaginosis-identified-by-australian-scientists",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-01T15:00:55.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on Australian scientists identifying underlying causes of recurrent bacterial vaginosis.",
+                "id": "cand-health-endometriosis-trial-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-health-endometriosis-trial-source-1",
+              "cand-health-endometriosis-trial-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 8,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 35,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "An early clinical trial framed by a single patient's account is low-evidence and premature. The second source (Guardian on bacterial vaginosis) is a different health topic and does not corroborate the endometriosis claim. Does not meet the bar for a global insight even as a standalone.",
+              "warnings": [
+                "Second source is about a different condition; does not corroborate.",
+                "Single patient narrative, early-trial framing; low verifiable evidence of durable impact."
+              ],
+              "candidateId": "cand-health-endometriosis-trial",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 50
+            }
+          },
+          {
+            "id": "cand-macro-house-price-growth",
+            "date": "2026-10-01",
+            "domain": "macro-finance",
+            "tags": [
+              "housing",
+              "house-prices",
+              "mortgage-rate",
+              "consumer",
+              "uk"
+            ],
+            "processMatchConfidence": 14,
+            "importance": 68,
+            "novelty": 55,
+            "evidenceStrength": 78,
+            "independentSourceCount": 2,
+            "thesisImpact": 65,
+            "relationshipChange": 48,
+            "stageChange": 42,
+            "contradiction": 25,
+            "content": {
+              "en": {
+                "title": "UK house price growth halves amid rising mortgage interest rates",
+                "coreFact": "The Guardian reports UK house price growth halved amid rising mortgage interest rates, based on Nationwide data.",
+                "whyItMatters": "A halving of house price growth as mortgage rates rise signals that higher rates are feeding into the housing market, with potential spillovers to household consumption, construction and bank credit quality.",
+                "processMatchReason": "No existing process directly covers housing or mortgage markets; it is a macro-finance signal but not a match to the listed processes."
+              },
+              "zh": {
+                "title": "抵押贷款利率上升，英国房价涨幅腰斩",
+                "coreFact": "《卫报》援引Nationwide数据报道，随着抵押贷款利率上升，英国房价涨幅腰斩。",
+                "whyItMatters": "抵押贷款利率上升之际房价涨幅减半，表明更高利率正在向住房市场传导，并可能外溢至家庭消费、建筑活动及银行信贷质量。",
+                "processMatchReason": "现有流程未直接覆盖住房或抵押贷款市场；属于宏观金融信号，但与所列流程均不匹配。"
+              }
+            },
+            "sources": [
+              {
+                "title": "UK house price growth halves amid rising mortgage interest rates",
+                "url": "https://www.theguardian.com/money/2026/oct/01/uk-house-price-growth-rising-mortgage-interest-rates-nationwide",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-01T07:51:32.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on Nationwide house price data showing UK house price growth halving amid rising mortgage interest rates.",
+                "id": "cand-macro-house-price-growth-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Energy bills are rising by £60 a year - here's how you can bring that down",
+                "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-01T07:08:22.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC reporting on rising UK household energy bills by £60 a year and cost-reduction options.",
+                "id": "cand-macro-house-price-growth-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cand-macro-house-price-growth-source-1",
+              "cand-macro-house-price-growth-source-2"
+            ],
+            "analysis": {
+              "processMatchConfidence": 14,
+              "impact": "updates",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 42,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "UK house price growth halving is a meaningful but country-specific data point, largely a downstream consequence of the same rising-rate regime captured more broadly by the bond sell-off candidate. The second source (BBC energy bills) is unrelated. Absorbable into the macro-finance picture rather than a distinct global insight.",
+              "warnings": [
+                "Second source about energy bills is unrelated to house prices.",
+                "Country-specific; subsumed by the broader bond/rate environment."
+              ],
+              "candidateId": "cand-macro-house-price-growth",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 44
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 6,
+      "selectedCandidateId": "cand-macro-bond-selloff"
     }
   },
   "preflight": {
