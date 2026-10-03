@@ -6,16 +6,217 @@
   "date": "2026-10-03",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "research",
+  "currentStage": "analyze",
   "createdAt": "2026-10-03T00:25:02.485Z",
-  "updatedAt": "2026-10-03T01:54:57.242Z",
+  "updatedAt": "2026-10-03T01:56:05.201Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "research",
+      "status": "checkpointed",
+      "stage": "analyze",
       "attempts": {},
-      "message": "research",
-      "updatedAt": "2026-10-03T01:54:57.242Z"
+      "message": "已保存 research 断点",
+      "updatedAt": "2026-10-03T01:56:05.201Z",
+      "researchDraft": {
+        "ok": true,
+        "id": "research-global-2026-10-03-1790992565192",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-10-03T01:56:05.192Z",
+        "researchDate": "2026-10-03",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Only four lanes had independent evidence: a G7 emergency release of oil and diesel reserves (BBC + Guardian), a synchronised US labour-market slowdown (BBC + Guardian), and third-lane items that appeared in single-source form. Health/science, demographics/society and institutions/culture were almost entirely single-publisher BBC or Guardian feeds, and energy-resources, urban-infrastructure, technology-AI and geopolitics-security lanes failed or returned no independently corroborated material. Four candidates meet the two-independent-source bar; no candidate was fabricated to fill the remaining lanes.",
+        "candidates": [
+          {
+            "id": "g7-emergency-oil-diesel-release",
+            "date": "2026-10-02",
+            "domain": "macro-finance",
+            "tags": [
+              "oil",
+              "diesel",
+              "strategic-reserves",
+              "g7",
+              "energy-security",
+              "inflation",
+              "export-ban"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 74,
+            "importance": 88,
+            "novelty": 72,
+            "evidenceStrength": 82,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 70,
+            "stageChange": 66,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "G7 releases up to 100 million barrels of emergency oil and diesel reserves",
+                "coreFact": "The G7 agreed to release up to 100 million barrels of emergency oil and diesel reserves, a move BBC reported as a response to a Trump threat of an export ban and US pressure on Europe to release diesel stocks.",
+                "whyItMatters": "Coordinated reserve releases convert strategic petroleum stocks into an active geopolitical instrument aimed at fuel prices rather than a passive buffer, tying energy security directly to alliance management and consumer inflation.",
+                "processMatchReason": "Emergency reserve release is an operational escalation of the energy-security process, where state-controlled fuel stocks are used to defend industrial and household capacity."
+              },
+              "zh": {
+                "title": "七国集团释放最多1亿桶紧急石油与柴油储备",
+                "coreFact": "七国集团同意释放最多1亿桶紧急石油和柴油储备，BBC将此描述为对特朗普出口禁令威胁以及美国施压欧洲释放柴油库存的回应。",
+                "whyItMatters": "协调释放储备把战略石油库存从被动缓冲变为主动的地缘政治工具，用于压制燃料价格，把能源安全与联盟管理和消费通胀直接绑定。",
+                "processMatchReason": "紧急释放储备是能源安全进程的一次操作性升级，国家控制的燃料库存被用于保卫工业与居民部门的承载能力。"
+              }
+            },
+            "sources": [
+              {
+                "title": "G7 to release 100 million barrels of oil and diesel after Trump export ban threat",
+                "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-02T20:25:19.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the G7 decision and the Trump export-ban threat",
+                "id": "g7-emergency-oil-diesel-release-source-1"
+              },
+              {
+                "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+                "url": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-02T18:52:03.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the same G7 reserve-release decision",
+                "id": "g7-emergency-oil-diesel-release-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "us-pressures-europe-diesel-reserves",
+            "date": "2026-10-02",
+            "domain": "industry-trade",
+            "tags": [
+              "diesel",
+              "europe",
+              "export-ban",
+              "energy-trade",
+              "alliance-pressure",
+              "fuel-prices"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 68,
+            "importance": 76,
+            "novelty": 66,
+            "evidenceStrength": 70,
+            "independentSourceCount": 2,
+            "thesisImpact": 68,
+            "relationshipChange": 72,
+            "stageChange": 58,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "US presses Europe to release diesel reserves under threat of export ban",
+                "coreFact": "The US pushed Europe to release diesel reserves while Trump threatened an export ban, and the G7 subsequently agreed to release up to 100 million barrels of emergency oil and diesel reserves.",
+                "whyItMatters": "Allied fuel policy is now being set under unilateral export-ban leverage, showing that trade-access threats can force allied inventory decisions and reshape transatlantic energy bargaining.",
+                "processMatchReason": "This is a trade-and-alliance dimension of the energy-security process, where access to refined fuel becomes leverage over allied policy."
+              },
+              "zh": {
+                "title": "美国以出口禁令施压欧洲释放柴油储备",
+                "coreFact": "美国施压欧洲释放柴油储备，特朗普同时威胁实施出口禁令，随后七国集团同意释放最多1亿桶紧急石油和柴油储备。",
+                "whyItMatters": "盟友燃料政策如今在单边出口禁令的杠杆下制定，显示贸易准入威胁能够迫使盟友做出库存决策，并重塑跨大西洋能源谈判格局。",
+                "processMatchReason": "这是能源安全进程中的贸易与联盟维度，精炼燃料的获取渠道成为对盟友政策的杠杆。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
+                "url": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-02T08:54:00.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on US pressure on Europe and the Trump export-ban threat",
+                "id": "us-pressures-europe-diesel-reserves-source-1"
+              },
+              {
+                "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+                "url": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-02T18:52:03.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the resulting G7 emergency reserve release",
+                "id": "us-pressures-europe-diesel-reserves-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          },
+          {
+            "id": "us-labour-market-sharp-slowdown",
+            "date": "2026-10-02",
+            "domain": "macro-finance",
+            "tags": [
+              "us-jobs",
+              "labour-market",
+              "midterms",
+              "hiring",
+              "growth",
+              "payrolls"
+            ],
+            "processMatchConfidence": 0,
+            "importance": 86,
+            "novelty": 62,
+            "evidenceStrength": 80,
+            "independentSourceCount": 2,
+            "thesisImpact": 78,
+            "relationshipChange": 60,
+            "stageChange": 70,
+            "contradiction": 42,
+            "content": {
+              "en": {
+                "title": "US economy adds only 29,000 jobs in September as hiring stalls",
+                "coreFact": "The US added just 29,000 jobs in September, described as a sharp drop from the previous month's gains, with BBC framing the slowdown as arriving ahead of the midterm elections.",
+                "whyItMatters": "An abrupt near-stall in payroll growth compresses the room for policy manoeuvre and links household income expectations, Federal Reserve choices and electoral politics in a single weak data point.",
+                "processMatchReason": "No existing world process covers US labour-market turning points, so this candidate is left unmatched rather than forced into an energy, semiconductor or AI process."
+              },
+              "zh": {
+                "title": "美国9月仅新增2.9万个就业岗位，招聘明显停滞",
+                "coreFact": "美国9月仅新增2.9万个就业岗位，相比上月增长出现急剧下滑，BBC将其描述为在中期选举前出现的放缓。",
+                "whyItMatters": "薪资增长近乎停滞会压缩政策操作空间，并把家庭收入预期、美联储选择与选举政治集中到一个疲弱的数据点上。",
+                "processMatchReason": "现有世界进程并未覆盖美国劳动力市场拐点，因此该候选信号不做强行匹配，而非硬套能源、半导体或AI进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "US jobs market sees sharp slowdown ahead of midterm elections",
+                "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-02T14:30:48.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the September US labour-market slowdown",
+                "id": "us-labour-market-sharp-slowdown-source-1"
+              },
+              {
+                "title": "US added just 29,000 jobs in September in sharp drop from last month’s gains",
+                "url": "https://www.theguardian.com/business/2026/oct/02/september-jobs-report",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-02T14:04:29.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the September US jobs report",
+                "id": "us-labour-market-sharp-slowdown-source-2"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            }
+          }
+        ]
+      }
     }
   },
   "preflight": {
