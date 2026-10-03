@@ -6,16 +6,16 @@
   "date": "2026-10-03",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "write_base",
+  "currentStage": "write_zh",
   "createdAt": "2026-10-03T00:25:02.485Z",
-  "updatedAt": "2026-10-03T03:01:34.421Z",
+  "updatedAt": "2026-10-03T03:01:50.540Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "write_base",
+      "status": "checkpointed",
+      "stage": "write_zh",
       "attempts": {},
-      "message": "write_base",
-      "updatedAt": "2026-10-03T03:01:34.421Z",
+      "message": "已保存 write_base 断点",
+      "updatedAt": "2026-10-03T03:01:50.540Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-03-1790992565192",
@@ -503,7 +503,132 @@
         "analysisProvider": "deepseek"
       },
       "candidateCount": 3,
-      "selectedCandidateId": "g7-emergency-oil-diesel-release"
+      "selectedCandidateId": "g7-emergency-oil-diesel-release",
+      "writeBase": {
+        "ok": true,
+        "stage": "base",
+        "baseDraft": {
+          "insightId": null,
+          "slug": "g7-emergency-oil-diesel-release",
+          "parentInsightId": "process-energy-security",
+          "previousInsightId": null,
+          "en": {
+            "cover": {
+              "eyebrow": "Energy Security",
+              "secondaryEyebrow": "Strategic Reserves Mobilized",
+              "title": "The G7 turns oil reserves into a geopolitical lever",
+              "summary": "A coordinated release of up to 100 million barrels of emergency oil and diesel recasts strategic stockpiles from a passive crisis buffer into an active instrument for managing fuel prices, transatlantic bargaining, and consumer inflation."
+            },
+            "question": {
+              "lead": "What does it mean when the world's richest economies release emergency fuel stocks in response to a threat rather than a shortage?",
+              "title": "Why is the G7 spending its strategic fuel reserves to manage politics, not scarcity?",
+              "footnote": "Two independent outlets, BBC and the Guardian, reported the release on the same day, triggered by a US export-ban threat and pressure on Europe to release diesel stocks."
+            },
+            "signals": {
+              "title": "Signals",
+              "sourceNote": "Evidence is drawn from two reliable media reports published on 2 October 2026.",
+              "items": [
+                {
+                  "label": "Trigger",
+                  "title": "A threatened export ban, not a supply shock",
+                  "body": "The release follows a Trump threat of an oil export ban and US pressure on Europe to contribute diesel stocks. The motivating condition is political leverage rather than a physical disruption or acute scarcity in global supply.",
+                  "whyImportant": "It signals a shift in what justifies tapping strategic reserves: the instrument is now deployed to alter negotiating behavior and pricing expectations, not only to backfill a broken supply chain.",
+                  "evidence": {
+                    "title": "BBC reports G7 release responds to export-ban threat",
+                    "description": "BBC describes the G7 agreement to release up to 100 million barrels as a response to the export-ban threat and US pressure on Europe over diesel.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "g7-emergency-oil-diesel-release-source-1"
+                    ]
+                  }
+                },
+                {
+                  "label": "Scale",
+                  "title": "Up to 100 million barrels across the alliance",
+                  "body": "The figure of up to 100 million barrels implies collective action across multiple G7 members, converting individually held national stockpiles into a pooled, alliance-level instrument rather than a set of sovereign buffers.",
+                  "whyImportant": "The size and coordination move reserve policy from national emergency preparedness toward shared geopolitical power projection, with implications for how the bloc negotiates energy amid inflation pressure.",
+                  "evidence": {
+                    "title": "Guardian confirms scale of coordinated release",
+                    "description": "The Guardian reports the G7 moving to release up to 100m barrels of emergency oil and diesel reserves, corroborating both scale and coordination.",
+                    "confidence": "verified",
+                    "sourceIds": [
+                      "g7-emergency-oil-diesel-release-source-2"
+                    ]
+                  }
+                }
+              ]
+            },
+            "pattern": {
+              "title": "Strategic reserves shift from buffer to lever",
+              "before": "Strategic petroleum reserves functioned as passive, last-resort buffers held in case of supply disruption, released to cover physical shortfalls and calibrated to events of acute scarcity.",
+              "shift": "The G7 now releases reserves in response to a political threat and negotiation pressure, targeting fuel prices and consumer inflation while conditioning alliance behavior on energy contributions.",
+              "now": "State-controlled fuel stocks have become an active geopolitical instrument, tied directly to alliance management, transatlantic bargaining, and inflation policy rather than to an actual shortage.",
+              "conclusion": "Energy-security tools are increasingly wielded for political-economic ends; reserve credibility is now being spent to manage prices and relationships, not merely to insure against disruption."
+            },
+            "insight": {
+              "title": "Reserves are now diplomatic currency",
+              "formula": "Political pressure + coordinated releases → strategic reserves spent on price and alliance management, not scarcity",
+              "explanation": "The G7's release converts reserve capacity into leverage over fuel prices and transatlantic negotiation. When the trigger is a threat rather than a shortfall, strategic stockpiles stop functioning as pure insurance and start operating as an instrument of geopolitical and inflation management, changing what future reserve credibility actually insures."
+            },
+            "observe": {
+              "title": "Observe",
+              "items": [
+                {
+                  "label": "Diesel split",
+                  "prompt": "Watch what share of the release is diesel versus crude, and which members actually contribute diesel stocks.",
+                  "meta": "Reveals who bears the geopolitical cost and whether Europe truly complies."
+                },
+                {
+                  "label": "Price response",
+                  "prompt": "Track fuel and benchmark price movements in the weeks after the announcement.",
+                  "meta": "Tests whether reserve signaling still moves markets as firmly as actual tightening."
+                },
+                {
+                  "label": "Replenishment terms",
+                  "prompt": "Watch for any stated schedule or pricing conditions for refilling the released reserves.",
+                  "meta": "Indicates how much long-term strategic capacity the bloc is willing to spend now."
+                },
+                {
+                  "label": "Next triggers",
+                  "prompt": "Look for whether future reserve releases are pre-announced as responses to political moves rather than shortages.",
+                  "meta": "Confirms whether lever-style use of reserves becomes a recurring norm."
+                }
+              ],
+              "ending": "If reserves are spent on politics rather than scarcity, the definition of energy security itself begins to change."
+            }
+          },
+          "dailyStateEn": {
+            "label": "Update living thesis",
+            "decisionTitle": "Escalation confirms reserves as active geopolitical tool",
+            "decisionSummary": "Coordinated G7 release of up to 100M barrels triggered by a threatened export ban, not a supply shock, materially updates the living 'Energy becomes strategic capacity' thesis by demonstrating state-controlled fuel stocks being mobilized for political-economic leverage over prices and alliance relations.",
+            "thresholdReason": "High evidence quality from two independent reliable sources with distinct origins, durable cross-cutting relevance, and a material operational escalation justify publication as an update to the existing process rather than a new one.",
+            "observeNext": [
+              "Share of diesel vs crude in the release and which members comply",
+              "Fuel and benchmark price response in the following weeks",
+              "Stated replenishment schedule or pricing conditions for refilling reserves"
+            ]
+          },
+          "processStage": "accelerating",
+          "processContentEn": {
+            "title": "Energy becomes strategic capacity",
+            "description": "Reliable energy access increasingly determines where strategic digital and industrial capacity can grow. State-controlled fuel reserves are now being mobilized not only to insure against disruption but as an active instrument for managing prices, alliance relations, and inflation.",
+            "implication": "The G7's coordinated release shows energy-security tools doubling as diplomatic and inflationary levers, linking fuel-stock credibility directly to transatlantic bargaining and consumer cost expectations."
+          },
+          "nextQuestionEn": "How will spending strategic reserves on price and alliance management, rather than scarcity, change the long-term credibility and replenishment of national fuel stockpiles?",
+          "observeNextEn": [
+            "The split between diesel and crude in the release and which G7 members actually contribute diesel stocks",
+            "Fuel and benchmark price movements in the weeks after the coordinated release",
+            "Any stated replenishment schedule or pricing conditions for refilling the released reserves",
+            "Whether future reserve releases are pre-announced as responses to political threats instead of supply shortages"
+          ]
+        },
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 2686,
+          "outputTokens": 1639,
+          "cachedInputTokens": 1664
+        }
+      }
     }
   },
   "preflight": {
