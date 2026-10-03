@@ -8,14 +8,14 @@
   "currentScope": "global",
   "currentStage": "analyze",
   "createdAt": "2026-10-03T00:25:02.485Z",
-  "updatedAt": "2026-10-03T02:53:14.202Z",
+  "updatedAt": "2026-10-03T02:53:15.473Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "analyze",
       "attempts": {},
-      "message": "已保存 research 断点",
-      "updatedAt": "2026-10-03T01:56:05.201Z",
+      "message": "analyze",
+      "updatedAt": "2026-10-03T02:53:15.473Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-03-1790992565192",
