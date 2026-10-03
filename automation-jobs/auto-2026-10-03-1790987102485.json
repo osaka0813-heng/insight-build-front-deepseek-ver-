@@ -2,20 +2,20 @@
   "id": "auto-2026-10-03-1790987102485",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "running",
+  "status": "completed",
   "date": "2026-10-03",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "publish",
+  "currentStage": "complete",
   "createdAt": "2026-10-03T00:25:02.485Z",
-  "updatedAt": "2026-10-03T04:29:05.255Z",
+  "updatedAt": "2026-10-03T04:29:11.481Z",
   "scopes": {
     "global": {
-      "status": "running",
+      "status": "done",
       "stage": "publish",
       "attempts": {},
-      "message": "publish",
-      "updatedAt": "2026-10-03T04:29:05.255Z",
+      "message": "已发布",
+      "updatedAt": "2026-10-03T04:29:11.481Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-03-1790992565192",
@@ -776,7 +776,7 @@
           "status": "update_living",
           "parentInsightId": "process-energy-security",
           "processId": "process-energy-security",
-          "publishedAt": "2026-10-02T00:00:00.000Z",
+          "publishedAt": "2026-10-03T03:00:00.000Z",
           "updatedAt": "2026-10-03T03:23:59.850Z",
           "confidence": "verified",
           "content": {
@@ -1017,9 +1017,9 @@
           }
         },
         "dailyStateDraft": {
-          "id": "daily-global-2026-10-02",
+          "id": "daily-global-2026-10-03",
           "scope": "global",
-          "date": "2026-10-02",
+          "date": "2026-10-03",
           "decidedAt": "2026-10-03T03:23:59.851Z",
           "state": "update_living",
           "insightId": "global-2026-10-02-the-g7-turns-oil-reserves-into-a-geopolitical-lever",
@@ -1106,7 +1106,10 @@
           "outputTokens": 2944,
           "cachedInputTokens": 2304
         }
-      }
+      },
+      "insightId": "global-2026-10-02-the-g7-turns-oil-reserves-into-a-geopolitical-lever",
+      "contentVersion": "publish-global-2026-10-02-the-g7-turns-oil-reserves-into-a-geopolitical-lever-1791001748940",
+      "completedAt": "2026-10-03T04:29:11.481Z"
     }
   },
   "preflight": {
@@ -1141,10 +1144,11 @@
       }
     ]
   },
-  "message": "发布环境检查通过，开始 Global EN→ZH 任务。",
+  "message": "Global Insight 已自动发布。",
   "lease": {
     "owner": "cron-1791001744035-wsxnw9gi",
     "acquiredAt": "2026-10-03T04:29:04.261Z",
     "expiresAt": "2026-10-03T04:33:54.261Z"
-  }
+  },
+  "completedAt": "2026-10-03T04:29:11.481Z"
 }
