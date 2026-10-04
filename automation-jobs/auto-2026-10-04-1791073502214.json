@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "publish",
   "createdAt": "2026-10-04T00:25:02.214Z",
-  "updatedAt": "2026-10-04T06:27:44.247Z",
+  "updatedAt": "2026-10-04T06:27:45.122Z",
   "scopes": {
     "global": {
-      "status": "checkpointed",
+      "status": "running",
       "stage": "publish",
       "attempts": {
         "research": 1
       },
-      "message": "已保存 write_finalize 断点",
-      "updatedAt": "2026-10-04T04:29:06.791Z",
+      "message": "publish",
+      "updatedAt": "2026-10-04T06:27:45.122Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-04-1791082483397",
