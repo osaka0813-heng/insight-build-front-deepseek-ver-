@@ -6,18 +6,18 @@
   "date": "2026-10-04",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
-  "currentStage": "analyze",
+  "currentStage": "write_base",
   "createdAt": "2026-10-04T00:25:02.214Z",
-  "updatedAt": "2026-10-04T03:01:34.772Z",
+  "updatedAt": "2026-10-04T03:01:47.423Z",
   "scopes": {
     "global": {
-      "status": "running",
-      "stage": "analyze",
+      "status": "checkpointed",
+      "stage": "write_base",
       "attempts": {
         "research": 1
       },
-      "message": "analyze",
-      "updatedAt": "2026-10-04T03:01:34.772Z",
+      "message": "已保存 analyze 断点",
+      "updatedAt": "2026-10-04T03:01:47.423Z",
       "researchDraft": {
         "ok": true,
         "id": "research-global-2026-10-04-1791082483397",
@@ -240,7 +240,328 @@
             }
           }
         ]
-      }
+      },
+      "analyzedDraft": {
+        "ok": true,
+        "id": "research-global-2026-10-04-1791082483397",
+        "scope": "global",
+        "status": "draft",
+        "researchedAt": "2026-10-04T02:54:43.397Z",
+        "researchDate": "2026-10-04",
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "usage": {
+          "inputTokens": 0,
+          "outputTokens": 0,
+          "cachedInputTokens": 0
+        },
+        "querySummary": "Balanced cross-domain scan for 2026-10-04 using only the supplied independently indexed records. Corroborated pairs anchor a G7 emergency oil/diesel release and Spanish housing protests; single-publisher lanes that failed collection (energy-resources, urban-infrastructure, geopolitics-security, technology-ai at n=1) yielded no qualifying two-source candidates. Ten candidates span macro-finance/energy security, industry-trade, climate-environment, health-science, demographics-society, and institutions-culture. AI and conflict were each capped at one lane and ultimately produced no candidates because no two independent, clickable sources exist in the dossier; both were explicitly weighted as ordinary lanes, not privileged.",
+        "candidates": [
+          {
+            "id": "g7-emergency-oil-diesel-release",
+            "date": "2026-10-03",
+            "domain": "macro-finance",
+            "tags": [
+              "G7",
+              "oil",
+              "diesel",
+              "strategic-reserves",
+              "energy-security",
+              "trump",
+              "inflation",
+              "supply-shock"
+            ],
+            "suggestedProcessId": "process-energy-security",
+            "processMatchConfidence": 72,
+            "importance": 88,
+            "novelty": 70,
+            "evidenceStrength": 82,
+            "independentSourceCount": 2,
+            "thesisImpact": 80,
+            "relationshipChange": 68,
+            "stageChange": 62,
+            "contradiction": 40,
+            "content": {
+              "en": {
+                "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves after a Trump threat",
+                "coreFact": "The BBC reports the G7 will release millions of barrels of oil and diesel following a threat from Trump, while The Guardian reports the same decision framed as up to 100m barrels of emergency oil and diesel reserves.",
+                "whyItMatters": "Coordinated release of strategic reserves is a structural escalation signal: it treats liquid-fuel supply as a geopolitical buffer rather than a purely market-priced commodity, tightening the link between energy access and strategic capacity.",
+                "processMatchReason": "Directly reinforces process-energy-security, where reliable energy access increasingly determines where strategic capacity can grow; a G7 reserve release tests whether coordinated state inventories can absorb a politicized supply shock."
+              },
+              "zh": {
+                "title": "七国集团在特朗普威胁后释放最多1亿桶应急石油与柴油储备",
+                "coreFact": "BBC报道称，在特朗普发出威胁后，七国集团将释放数百万桶石油和柴油；《卫报》将同一决定表述为最多1亿桶应急石油和柴油储备。",
+                "whyItMatters": "协调释放战略储备是结构性升级信号：它将液体燃料供应视为地缘政治缓冲，而非单纯由市场定价的商品，从而强化能源获取与战略能力之间的联系。",
+                "processMatchReason": "直接强化‘能源安全’进程——可靠能源获取日益决定战略能力可增长的地点；七国集团释放储备检验协调性国家库存能否吸收被政治化的供应冲击。"
+              }
+            },
+            "sources": [
+              {
+                "title": "G7 to release millions of barrels of oil and diesel after Trump threat",
+                "url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-03T04:38:31.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the G7 decision to release emergency oil and diesel reserves",
+                "id": "g7-emergency-oil-diesel-release-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "G7 to release up to 100m barrels of emergency oil and diesel reserves",
+                "url": "https://www.theguardian.com/business/2026/oct/02/g7-release-barrels-oil-diesel-reserves-emergency",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-02T18:52:03.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the G7 emergency reserve release decision",
+                "id": "g7-emergency-oil-diesel-release-source-2",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "g7-emergency-oil-diesel-release-source-1",
+              "g7-emergency-oil-diesel-release-source-2"
+            ],
+            "analysis": {
+              "matchedProcessId": "process-energy-security",
+              "processMatchConfidence": 72,
+              "impact": "updates",
+              "dailyState": "update_living",
+              "materialChangeScore": 68,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Coordinated G7 release of up to 100m barrels of emergency oil and diesel reserves is a concrete, verifiable policy action with two independent reliable sources (BBC, Guardian). It updates process-energy-security by confirming states are treating liquid-fuel supply as geopolitical buffer capacity in response to a politicized supply shock (Trump threat). The structural significance is the shift from market-priced commodity to coordinated strategic inventory as a tool of geopolitical insulation—directly extending the 'energy becomes strategic capacity' thesis. Durable and broad in second-order effects (inflation, energy markets, allied coordination). Strong but not the strongest novelty; however it is the clearest material update to an existing accelerated process with high evidence quality.",
+              "warnings": [
+                "Framing differs between sources (millions vs up to 100m barrels), so precise scale is uncertain.",
+                "Trump threat is the proximate trigger; specific policy mechanisms of the release are not detailed in the two sources.",
+                "No independent corroboration beyond the two cited reliable media outlets.",
+                "Potential volatility spike in markets is speculative and not evidenced in the cited sources."
+              ],
+              "candidateId": "g7-emergency-oil-diesel-release",
+              "decisionType": "existing_process_update",
+              "priorityScore": 82
+            }
+          },
+          {
+            "id": "spain-housing-protest-mass-mobilization",
+            "date": "2026-10-04",
+            "domain": "demographics-society",
+            "tags": [
+              "Spain",
+              "housing-crisis",
+              "protest",
+              "affordability",
+              "politics",
+              "rent",
+              "social-movement",
+              "Europe"
+            ],
+            "processMatchConfidence": 8,
+            "importance": 82,
+            "novelty": 64,
+            "evidenceStrength": 78,
+            "independentSourceCount": 2,
+            "thesisImpact": 72,
+            "relationshipChange": 70,
+            "stageChange": 66,
+            "contradiction": 45,
+            "content": {
+              "en": {
+                "title": "Tens of thousands protest across Spain over the housing crisis as the right blocks housing plans",
+                "coreFact": "The BBC and The Guardian both report tens of thousands protesting in Spain over the housing crisis, and The Guardian separately reports the Spanish right wing voting down housing crisis plans as the protest movement grows.",
+                "whyItMatters": "A mass, cross-city housing mobilization combined with a parliamentary block marks housing affordability shifting from a local planning issue to a national political cleavage across Europe.",
+                "processMatchReason": "No existing world process covers housing-affordability politics; this is a distinct demographic-and-society structural turn rather than a match to AI-infrastructure, energy, semiconductor or technology-control processes."
+              },
+              "zh": {
+                "title": "西班牙数万人抗议住房危机，右翼否决住房计划",
+                "coreFact": "BBC与《卫报》均报道西班牙数万人就住房危机举行抗议；《卫报》另报道西班牙右翼在抗议运动扩大之际否决了住房危机计划。",
+                "whyItMatters": "大规模跨城市住房动员与议会阻挠相结合，标志着住房可负担性正从地方规划议题转变为欧洲范围内的国家政治分野。",
+                "processMatchReason": "现有世界进程未涵盖住房可负担性政治；这是独立的人口与社会结构性转折，而非匹配AI基础设施、能源、半导体或技术控制进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+                "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-04T02:04:11.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on the large housing-crisis protests in Spain",
+                "id": "spain-housing-protest-mass-mobilization-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "‘This can’t go on’: tens of thousands protest against housing crisis in Spain",
+                "url": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-03T14:19:46.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on the tens of thousands protesting Spain's housing crisis",
+                "id": "spain-housing-protest-mass-mobilization-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Spanish right wing votes down housing crisis plans as protest movement grows",
+                "url": "https://www.theguardian.com/world/2026/oct/02/spanish-right-wing-votes-down-housing-crisis-plans-protest-movement-grows",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-02T16:27:47.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on Spanish right-wing parliamentary rejection of housing plans",
+                "id": "spain-housing-protest-mass-mobilization-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "spain-housing-protest-mass-mobilization-source-1",
+              "spain-housing-protest-mass-mobilization-source-2",
+              "spain-housing-protest-mass-mobilization-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 8,
+              "impact": "no_material_change",
+              "dailyState": "publish_new",
+              "materialChangeScore": 62,
+              "publishThresholdMet": true,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Mass cross-city mobilization plus a parliamentary block marks housing affordability emerging as a durable national political cleavage across Europe. Two independent sources (BBC, Guardian) with a third Guardian piece reinforce the structural turn from local planning to national political economy. This is a genuine new-process candidate because no existing process covers housing-affordability politics. However, one protest wave plus one parliamentary vote is still early-stage; it does not yet demonstrate the multi-country, repeated-consequence pattern needed to establish a robust long-running process. Strong candidate but marginally less durable/broad than the energy-security update.",
+              "warnings": [
+                "Evidence is concentrated in a single protest cycle; durability across time and countries is unproven.",
+                "Sources are BBC and Guardian only—high quality but limited breadth of independent origins (both UK-based outlets cover same event).",
+                "Risk of over-reading a national event as a continental structural process.",
+                "Parliamentary block is partisan and may reverse; cleavage severity not yet measured."
+              ],
+              "candidateId": "spain-housing-protest-mass-mobilization",
+              "decisionType": "new_process_candidate",
+              "priorityScore": 79
+            }
+          },
+          {
+            "id": "cornell-campus-sexual-assault-reckoning",
+            "date": "2026-10-03",
+            "domain": "demographics-society",
+            "tags": [
+              "Cornell",
+              "sexual-assault",
+              "MeToo",
+              "ketamine",
+              "campus",
+              "online-harassment",
+              "accountability",
+              "institutions"
+            ],
+            "processMatchConfidence": 11,
+            "importance": 74,
+            "novelty": 63,
+            "evidenceStrength": 68,
+            "independentSourceCount": 2,
+            "thesisImpact": 64,
+            "relationshipChange": 66,
+            "stageChange": 58,
+            "contradiction": 42,
+            "content": {
+              "en": {
+                "title": "Cornell rape case tests campus accountability, ketamine use and #MeToo's limits",
+                "coreFact": "The Guardian reports sadness, cynicism and deep disappointment over the Cornell gang-rape case and a failure of #MeToo, and separately reports the case raising questions about rising ketamine use in sexual assaults; the BBC reports the accuser is 'under siege' online.",
+                "whyItMatters": "The case shows that institutional accountability mechanisms and public discourse are failing to convert awareness into protection, while online harassment of accusers adds a new deterrent layer.",
+                "processMatchReason": "No existing world process covers campus accountability or sexual-violence policy; this is a distinct institutions-and-demographics signal rather than a match to the AI-infrastructure, energy, semiconductor or technology-control processes."
+              },
+              "zh": {
+                "title": "康奈尔强奸案考验校园问责、氯胺酮使用与#MeToo的边界",
+                "coreFact": "《卫报》报道康奈尔轮奸案带来悲伤、愤世嫉俗与深深失望，以及#MeToo的失败；另报道该案引发对性侵中氯胺酮使用上升的质疑；BBC报道指控者正遭受网络围攻。",
+                "whyItMatters": "该案表明制度问责机制与公共话语未能把认知转化为保护，同时指控者遭受网络骚扰新增了一层威慑。",
+                "processMatchReason": "现有世界进程未涵盖校园问责或性暴力政策；这是独立的制度与人口社会信号，而非匹配AI基础设施、能源、半导体或技术控制进程。"
+              }
+            },
+            "sources": [
+              {
+                "title": "‘Sadness, cynicism and deep disappointment’: the Cornell gang-rape case and the failure of #MeToo",
+                "url": "https://www.theguardian.com/society/2026/oct/03/cornell-gang-rape-me-too",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-03T13:00:01.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting and interviews on the Cornell gang-rape case and #MeToo",
+                "id": "cornell-campus-sexual-assault-reckoning-source-1",
+                "role": "trigger"
+              },
+              {
+                "title": "Cornell case raises questions about rise of ketamine in sexual assaults: ‘You might not realize you’re being touched’",
+                "url": "https://www.theguardian.com/society/2026/oct/02/cornell-rape-assault-ketamine-laws",
+                "publisher": "theguardian.com",
+                "publishedAt": "2026-10-02T18:49:33.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "The Guardian reporting on ketamine use in sexual assaults linked to the Cornell case",
+                "id": "cornell-campus-sexual-assault-reckoning-source-2",
+                "role": "trigger"
+              },
+              {
+                "title": "Cornell frat house rape accuser 'under siege' online, says lawyer",
+                "url": "https://www.bbc.co.uk/news/articles/c6ly0ljypzrdo?at_medium=RSS&at_campaign=rss",
+                "publisher": "bbc.co.uk",
+                "publishedAt": "2026-10-03T02:23:07.000Z",
+                "kind": "reliable_media",
+                "evidenceOrigin": "BBC News reporting on lawyer statements that the Cornell accuser is under online siege",
+                "id": "cornell-campus-sexual-assault-reckoning-source-3",
+                "role": "trigger"
+              }
+            ],
+            "qualityAudit": {
+              "verifiedSourceUrls": 2,
+              "distinctEvidenceOrigins": 2
+            },
+            "currentEventSourceCount": 2,
+            "corroboratingSourceCount": 0,
+            "contextSourceCount": 0,
+            "claimSourceIds": [
+              "cornell-campus-sexual-assault-reckoning-source-1",
+              "cornell-campus-sexual-assault-reckoning-source-2",
+              "cornell-campus-sexual-assault-reckoning-source-3"
+            ],
+            "analysis": {
+              "processMatchConfidence": 11,
+              "impact": "no_material_change",
+              "dailyState": "no_new_global_insight",
+              "materialChangeScore": 40,
+              "publishThresholdMet": false,
+              "scoreWasNormalized": false,
+              "triggerSourceCount": 2,
+              "corroboratingSourceCount": 0,
+              "contextSourceCount": 0,
+              "rationale": "Important and distressing singular case, but it is a single-institution event with no evidence yet of a recurring, cross-system structural pattern. Two independent reliable sources (Guardian, BBC) establish the facts, but the claims (ketamine rise in assaults, #MeToo accountability failure) are interpretive and not yet supported as durable systemic shifts. Lacks the breadth of affected systems and second-order consequences required for a global insight. Better classified as follow-through that supports broader culture/institutions narratives but does not merit today's single Insight.",
+              "warnings": [
+                "Single campus/institution scope limits systemic breadth.",
+                "Ketamine-assault link is a raised question, not an established trend, per source framing.",
+                "Both sources are Guardian/BBC; no independent third-party origin.",
+                "Analyst-suggested processMatchConfidence (11) and thesisImpact (64) are in tension—low structural match but moderate narrative weight."
+              ],
+              "candidateId": "cornell-campus-sexual-assault-reckoning",
+              "decisionType": "noise_follow_through",
+              "priorityScore": 52
+            }
+          }
+        ],
+        "analysisProvider": "deepseek"
+      },
+      "candidateCount": 3,
+      "selectedCandidateId": "g7-emergency-oil-diesel-release"
     }
   },
   "preflight": {
