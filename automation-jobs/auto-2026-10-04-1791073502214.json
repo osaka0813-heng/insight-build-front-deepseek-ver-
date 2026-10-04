@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "complete",
   "createdAt": "2026-10-04T00:25:02.214Z",
-  "updatedAt": "2026-10-04T06:27:50.460Z",
+  "updatedAt": "2026-10-04T06:27:51.645Z",
   "scopes": {
     "global": {
       "status": "done",
@@ -1207,10 +1207,5 @@
     ]
   },
   "message": "Global Insight 已自动发布。",
-  "lease": {
-    "owner": "cron-1791095264022-hbz1y4xm",
-    "acquiredAt": "2026-10-04T06:27:44.247Z",
-    "expiresAt": "2026-10-04T06:32:34.247Z"
-  },
   "completedAt": "2026-10-04T06:27:50.460Z"
 }
