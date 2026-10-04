@@ -8,16 +8,16 @@
   "currentScope": "global",
   "currentStage": "research",
   "createdAt": "2026-10-04T00:25:02.214Z",
-  "updatedAt": "2026-10-04T02:53:14.145Z",
+  "updatedAt": "2026-10-04T02:53:15.126Z",
   "scopes": {
     "global": {
-      "status": "retrying",
+      "status": "running",
       "stage": "research",
       "attempts": {
         "research": 1
       },
-      "message": "Candidate 5 has fewer than two sources.",
-      "updatedAt": "2026-10-04T01:56:19.112Z",
+      "message": "research",
+      "updatedAt": "2026-10-04T02:53:15.126Z",
       "failedStage": "research",
       "lastError": "Candidate 5 has fewer than two sources."
     }
