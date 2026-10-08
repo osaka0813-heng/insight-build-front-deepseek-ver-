@@ -2,25 +2,30 @@
   "id": "auto-2026-10-08-1791419102378",
   "pipelineVersion": "014.2-global-en-zh",
   "mode": "global_en_zh",
-  "status": "queued",
+  "status": "running",
   "date": "2026-10-08",
   "baseUrl": "https://insight-build-back-deepseek-ver.vercel.app",
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-10-08T00:25:02.378Z",
-  "updatedAt": "2026-10-08T00:25:05.026Z",
+  "updatedAt": "2026-10-08T00:25:06.739Z",
   "scopes": {
     "global": {
-      "status": "queued",
+      "status": "retrying",
       "stage": "research",
-      "attempts": {},
-      "message": "等待执行",
-      "updatedAt": "2026-10-08T00:25:02.378Z"
+      "attempts": {
+        "preflight": 1
+      },
+      "message": "Request failed (200).",
+      "updatedAt": "2026-10-08T00:25:06.739Z",
+      "failedStage": "preflight",
+      "lastError": "Request failed (200)."
     }
   },
   "lease": {
     "owner": "cron-1791419102081-ss9kj9mw",
     "acquiredAt": "2026-10-08T00:25:05.026Z",
     "expiresAt": "2026-10-08T00:29:55.026Z"
-  }
+  },
+  "message": "WORLD preflight 自动重试 1/3"
 }
