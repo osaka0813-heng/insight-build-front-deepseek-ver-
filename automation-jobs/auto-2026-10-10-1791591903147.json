@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-10-10T00:25:03.147Z",
-  "updatedAt": "2026-10-10T00:25:07.866Z",
+  "updatedAt": "2026-10-10T00:25:09.035Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -21,11 +21,6 @@
       "failedStage": "preflight",
       "lastError": "Request failed (200)."
     }
-  },
-  "lease": {
-    "owner": "cron-1791591902837-dc66pj4v",
-    "acquiredAt": "2026-10-10T00:25:05.917Z",
-    "expiresAt": "2026-10-10T00:29:55.917Z"
   },
   "message": "WORLD preflight 自动重试 1/3"
 }
