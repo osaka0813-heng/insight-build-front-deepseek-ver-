@@ -8,21 +8,21 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-10-10T00:25:03.147Z",
-  "updatedAt": "2026-10-10T01:54:56.252Z",
+  "updatedAt": "2026-10-10T01:54:57.878Z",
   "scopes": {
     "global": {
       "status": "retrying",
       "stage": "research",
       "attempts": {
-        "preflight": 1
+        "preflight": 2
       },
       "message": "Request failed (200).",
-      "updatedAt": "2026-10-10T00:25:07.866Z",
+      "updatedAt": "2026-10-10T01:54:57.878Z",
       "failedStage": "preflight",
       "lastError": "Request failed (200)."
     }
   },
-  "message": "WORLD preflight 自动重试 1/3",
+  "message": "WORLD preflight 自动重试 2/3",
   "lease": {
     "owner": "cron-1791597296047-7ozrrlvs",
     "acquiredAt": "2026-10-10T01:54:56.252Z",
