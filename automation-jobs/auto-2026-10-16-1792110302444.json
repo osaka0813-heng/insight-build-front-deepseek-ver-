@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-10-16T00:25:02.443Z",
-  "updatedAt": "2026-10-16T01:54:58.444Z",
+  "updatedAt": "2026-10-16T01:54:59.633Z",
   "scopes": {
     "global": {
       "status": "retrying",
@@ -22,10 +22,5 @@
       "lastError": "Request failed (200)."
     }
   },
-  "message": "WORLD preflight 自动重试 2/3",
-  "lease": {
-    "owner": "cron-1792115696226-amid53au",
-    "acquiredAt": "2026-10-16T01:54:56.498Z",
-    "expiresAt": "2026-10-16T01:59:46.498Z"
-  }
+  "message": "WORLD preflight 自动重试 2/3"
 }
