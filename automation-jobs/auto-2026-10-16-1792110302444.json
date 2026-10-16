@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-10-16T00:25:02.443Z",
-  "updatedAt": "2026-10-16T02:53:16.005Z",
+  "updatedAt": "2026-10-16T02:53:17.225Z",
   "scopes": {
     "global": {
       "status": "error",
@@ -23,11 +23,6 @@
     }
   },
   "message": "WORLD 在 preflight 连续失败 3 次，已保留断点。",
-  "lease": {
-    "owner": "cron-1792119194074-dici481e",
-    "acquiredAt": "2026-10-16T02:53:14.284Z",
-    "expiresAt": "2026-10-16T02:58:04.284Z"
-  },
   "failedStage": "preflight",
   "completedAt": "2026-10-16T02:53:16.005Z"
 }
