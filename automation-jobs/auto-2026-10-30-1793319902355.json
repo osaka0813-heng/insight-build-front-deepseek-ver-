@@ -8,7 +8,7 @@
   "currentScope": "global",
   "currentStage": "preflight",
   "createdAt": "2026-10-30T00:25:02.355Z",
-  "updatedAt": "2026-10-30T00:25:02.355Z",
+  "updatedAt": "2026-10-30T00:25:06.009Z",
   "scopes": {
     "global": {
       "status": "queued",
@@ -17,5 +17,10 @@
       "message": "等待执行",
       "updatedAt": "2026-10-30T00:25:02.355Z"
     }
+  },
+  "lease": {
+    "owner": "cron-1793319902039-igppdeoy",
+    "acquiredAt": "2026-10-30T00:25:06.009Z",
+    "expiresAt": "2026-10-30T00:29:56.009Z"
   }
 }
